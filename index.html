@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>House of Dreamers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    /* ─── Reset & Base ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --pink:       #E381A8;
+      --pink-light: #F2A8C8;
+      --pink-pale:  #FDE8F1;
+      --pink-deep:  #C2527A;
+      --pink-dark:  #8B1A4A;
+      --cream:      #FDF4EE;
+      --warm-white: #FFF9F5;
+      --charcoal:   #1A0A12;
+      --font-serif: 'Playfair Display', Georgia, serif;
+      --font-sans:  'Inter', system-ui, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--charcoal);
+      color: var(--cream);
+      font-family: var(--font-sans);
+      overflow-x: hidden;
+      cursor: none;
+    }
+
+    /* ─── Custom Cursor ─────────────────────────────────────────── */
+    #cursor {
+      position: fixed;
+      top: 0; left: 0;
+      width: 12px; height: 12px;
+      background: var(--pink);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 9999;
+      transform: translate(-50%, -50%);
+      transition: transform 0.1s ease, width 0.3s ease, height 0.3s ease, background 0.3s ease;
+      mix-blend-mode: screen;
+    }
+
+    #cursor-follower {
+      position: fixed;
+      top: 0; left: 0;
+      width: 40px; height: 40px;
+      border: 1.5px solid rgba(227, 129, 168, 0.5);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 9998;
+      transform: translate(-50%, -50%);
+      transition: transform 0.15s ease, width 0.4s ease, height 0.4s ease;
+    }
+
+    body:has(a:hover) #cursor,
+    body:has(button:hover) #cursor {
+      width: 24px; height: 24px;
+      background: var(--pink-light);
+    }
+
+    /* ─── WebGL Canvas ──────────────────────────────────────────── */
+    #fluid-canvas {
+      position: fixed;
+      inset: 0;
+      width: 100%; height: 100%;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.55;
+    }
+
+    /* ─── Navigation ────────────────────────────────────────────── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      padding: 28px 48px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      mix-blend-mode: normal;
+    }
+
+    .nav-logo {
+      font-family: var(--font-serif);
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--pink-light);
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 36px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      font-weight: 400;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.6);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover { color: var(--pink-light); }
+
+    .nav-cta {
+      font-family: var(--font-sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--charcoal);
+      background: var(--pink);
+      border: none;
+      padding: 11px 26px;
+      border-radius: 100px;
+      cursor: none;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .nav-cta:hover {
+      background: var(--pink-light);
+      transform: scale(1.04);
+    }
+
+    /* ─── Hero ──────────────────────────────────────────────────── */
+    #hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 24px;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .hero-tag {
+      font-size: 0.7rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--pink);
+      margin-bottom: 28px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeUp 1s 0.3s forwards;
+    }
+
+    .hero-title {
+      font-family: var(--font-serif);
+      font-size: clamp(4rem, 12vw, 11rem);
+      font-weight: 900;
+      line-height: 0.9;
+      letter-spacing: -0.02em;
+      color: var(--warm-white);
+      opacity: 0;
+      transform: translateY(40px);
+      animation: fadeUp 1.2s 0.5s forwards;
+    }
+
+    .hero-title em {
+      font-style: italic;
+      color: var(--pink);
+      display: block;
+    }
+
+    .hero-subtitle {
+      margin-top: 36px;
+      font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+      font-weight: 300;
+      letter-spacing: 0.04em;
+      color: rgba(255,255,255,0.6);
+      max-width: 520px;
+      line-height: 1.7;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeUp 1s 0.9s forwards;
+    }
+
+    .hero-actions {
+      margin-top: 52px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeUp 1s 1.1s forwards;
+    }
+
+    .btn-primary {
+      font-family: var(--font-sans);
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--charcoal);
+      background: var(--pink);
+      border: none;
+      padding: 16px 38px;
+      border-radius: 100px;
+      cursor: none;
+      text-decoration: none;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .btn-primary:hover {
+      background: var(--pink-light);
+      transform: scale(1.05);
+    }
+
+    .btn-ghost {
+      font-family: var(--font-sans);
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.7);
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.2);
+      padding: 16px 38px;
+      border-radius: 100px;
+      cursor: none;
+      text-decoration: none;
+      transition: border-color 0.3s, color 0.3s, transform 0.3s;
+    }
+
+    .btn-ghost:hover {
+      border-color: var(--pink);
+      color: var(--pink-light);
+      transform: scale(1.05);
+    }
+
+    .hero-scroll {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      opacity: 0;
+      animation: fadeIn 1s 2s forwards;
+    }
+
+    .hero-scroll span {
+      font-size: 0.65rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.3);
+    }
+
+    .scroll-line {
+      width: 1px;
+      height: 60px;
+      background: linear-gradient(to bottom, rgba(227,129,168,0.8), transparent);
+      animation: scrollPulse 2s ease-in-out infinite;
+    }
+
+    .hero-float {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      pointer-events: none;
+      animation: float 12s ease-in-out infinite;
+    }
+
+    .hero-float-1 {
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(227,129,168,0.18) 0%, transparent 70%);
+      top: -150px; left: -150px;
+    }
+
+    .hero-float-2 {
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(194,82,122,0.15) 0%, transparent 70%);
+      bottom: -100px; right: -100px;
+      animation-delay: -6s;
+    }
+
+    /* ─── Stats Bar ─────────────────────────────────────────────── */
+    #stats {
+      position: relative;
+      z-index: 1;
+      padding: 70px 48px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      display: flex;
+      justify-content: center;
+      gap: 0;
+    }
+
+    .stat {
+      flex: 1;
+      max-width: 260px;
+      text-align: center;
+      padding: 20px 40px;
+      border-right: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .stat:last-child { border-right: none; }
+
+    .stat-number {
+      font-family: var(--font-serif);
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: 900;
+      color: var(--pink);
+      line-height: 1;
+    }
+
+    .stat-label {
+      margin-top: 8px;
+      font-size: 0.72rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.4);
+    }
+
+    /* ─── Section Shared ────────────────────────────────────────── */
+    section {
+      position: relative;
+      z-index: 1;
+    }
+
+    .section-tag {
+      font-size: 0.68rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--pink);
+      margin-bottom: 20px;
+    }
+
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: clamp(2.5rem, 6vw, 5.5rem);
+      font-weight: 900;
+      line-height: 1.0;
+      color: var(--warm-white);
+    }
+
+    .section-title em {
+      font-style: italic;
+      color: var(--pink);
+    }
+
+    /* ─── About ─────────────────────────────────────────────────── */
+    #about {
+      padding: 130px 48px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .about-text .section-title { margin-bottom: 32px; }
+
+    .about-text p {
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 20px;
+      font-weight: 300;
+    }
+
+    .about-visual {
+      position: relative;
+      height: 600px;
+    }
+
+    .about-img-stack {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+    .about-card {
+      position: absolute;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .about-card-main {
+      width: 75%;
+      height: 80%;
+      top: 0; right: 0;
+      background: linear-gradient(145deg, #C2527A 0%, #8B1A4A 40%, #5A0E30 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .about-card-accent {
+      width: 55%;
+      height: 55%;
+      bottom: 0; left: 0;
+      background: linear-gradient(145deg, #E381A8 0%, #C2527A 60%, #8B1A4A 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card-inner-text {
+      font-family: var(--font-serif);
+      font-size: 1.4rem;
+      font-style: italic;
+      color: rgba(255,255,255,0.85);
+      text-align: center;
+      padding: 30px;
+    }
+
+    .floating-badge {
+      position: absolute;
+      top: 40%;
+      left: -30px;
+      background: var(--pink);
+      color: var(--charcoal);
+      font-family: var(--font-serif);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      padding: 14px 22px;
+      border-radius: 100px;
+      white-space: nowrap;
+      box-shadow: 0 20px 60px rgba(227,129,168,0.4);
+      animation: float 6s ease-in-out infinite;
+    }
+
+    /* ─── Installations Grid ────────────────────────────────────── */
+    #installations {
+      padding: 130px 48px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .installations-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 64px;
+    }
+
+    .installations-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .install-card {
+      position: relative;
+      border-radius: 16px;
+      overflow: hidden;
+      cursor: none;
+      group: true;
+    }
+
+    .install-card:nth-child(1) { grid-row: span 2; }
+    .install-card:nth-child(4) { grid-column: span 2; }
+
+    .install-visual {
+      width: 100%;
+      aspect-ratio: 4/3;
+      transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .install-card:nth-child(1) .install-visual { aspect-ratio: 3/4; height: 100%; }
+    .install-card:nth-child(4) .install-visual { aspect-ratio: 16/7; }
+
+    .install-card:hover .install-visual { transform: scale(1.06); }
+
+    .install-visual-inner {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-start;
+      padding: 28px;
+      transition: inherit;
+    }
+
+    /* Each card gets a unique gradient */
+    .install-card:nth-child(1) .install-visual-inner {
+      background: linear-gradient(160deg, #8B1A4A 0%, #C2527A 40%, #E381A8 70%, #F2A8C8 100%);
+    }
+    .install-card:nth-child(2) .install-visual-inner {
+      background: linear-gradient(160deg, #3D1240 0%, #7B2D6B 45%, #C2527A 100%);
+    }
+    .install-card:nth-child(3) .install-visual-inner {
+      background: linear-gradient(160deg, #1A0A12 0%, #8B1A4A 50%, #E381A8 100%);
+    }
+    .install-card:nth-child(4) .install-visual-inner {
+      background: linear-gradient(120deg, #5A0E30 0%, #C2527A 40%, #F2A8C8 80%, #FDE8F1 100%);
+    }
+    .install-card:nth-child(5) .install-visual-inner {
+      background: linear-gradient(160deg, #0D0010 0%, #4A1060 50%, #9B3A8A 100%);
+    }
+
+    .install-label {
+      background: rgba(26,10,18,0.7);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 10px 18px;
+      border-radius: 100px;
+    }
+
+    .install-num {
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      color: var(--pink);
+      text-transform: uppercase;
+    }
+
+    .install-name {
+      font-family: var(--font-serif);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--warm-white);
+    }
+
+    /* SVG illustration overlays on cards */
+    .install-deco {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0.25;
+      pointer-events: none;
+      transition: opacity 0.4s;
+    }
+
+    .install-card:hover .install-deco { opacity: 0.5; }
+
+    /* ─── Experience Strip ──────────────────────────────────────── */
+    #experience {
+      padding: 130px 0;
+      background: linear-gradient(180deg, transparent 0%, rgba(227,129,168,0.05) 50%, transparent 100%);
+      overflow: hidden;
+    }
+
+    .experience-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 48px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+
+    .experience-visual {
+      position: relative;
+      height: 520px;
+      border-radius: 24px;
+      overflow: hidden;
+    }
+
+    .exp-bg {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #E381A8 0%, #8B1A4A 40%, #3D1240 80%, #1A0A12 100%);
+      position: relative;
+    }
+
+    /* Animated concentric rings */
+    .exp-rings {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .ring {
+      position: absolute;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.12);
+      animation: ringPulse 4s ease-in-out infinite;
+    }
+
+    .ring:nth-child(1) { width: 120px; height: 120px; animation-delay: 0s; }
+    .ring:nth-child(2) { width: 240px; height: 240px; animation-delay: 0.4s; }
+    .ring:nth-child(3) { width: 360px; height: 360px; animation-delay: 0.8s; }
+    .ring:nth-child(4) { width: 480px; height: 480px; animation-delay: 1.2s; }
+    .ring:nth-child(5) { width: 600px; height: 600px; animation-delay: 1.6s; }
+
+    .exp-center-dot {
+      position: relative;
+      z-index: 2;
+      width: 60px;
+      height: 60px;
+      background: var(--pink);
+      border-radius: 50%;
+      box-shadow: 0 0 80px rgba(227,129,168,0.8);
+    }
+
+    .experience-content .section-title { margin-bottom: 28px; }
+
+    .experience-content p {
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: rgba(255,255,255,0.55);
+      font-weight: 300;
+      margin-bottom: 24px;
+    }
+
+    .features-list {
+      list-style: none;
+      margin-top: 36px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .features-list li {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.65);
+    }
+
+    .feature-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--pink);
+      flex-shrink: 0;
+      box-shadow: 0 0 12px rgba(227,129,168,0.6);
+    }
+
+    /* ─── Marquee ───────────────────────────────────────────────── */
+    #marquee-section {
+      padding: 48px 0;
+      overflow: hidden;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .marquee-track {
+      display: flex;
+      gap: 60px;
+      white-space: nowrap;
+      animation: marqueeScroll 20s linear infinite;
+      width: max-content;
+    }
+
+    .marquee-item {
+      font-family: var(--font-serif);
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      font-weight: 900;
+      font-style: italic;
+      color: transparent;
+      -webkit-text-stroke: 1px rgba(227,129,168,0.4);
+      letter-spacing: -0.01em;
+    }
+
+    .marquee-item.filled {
+      color: var(--pink-light);
+      -webkit-text-stroke: none;
+    }
+
+    .marquee-dot {
+      color: var(--pink);
+      -webkit-text-stroke: none;
+    }
+
+    /* ─── Tour / Cities ─────────────────────────────────────────── */
+    #tour {
+      padding: 130px 48px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .tour-header {
+      text-align: center;
+      margin-bottom: 80px;
+    }
+
+    .tour-header .section-title { margin-bottom: 16px; }
+    .tour-header p {
+      font-size: 1rem;
+      color: rgba(255,255,255,0.45);
+      font-weight: 300;
+    }
+
+    .cities-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+
+    .city-card {
+      position: relative;
+      border-radius: 16px;
+      overflow: hidden;
+      cursor: none;
+      border: 1px solid rgba(255,255,255,0.06);
+      transition: border-color 0.3s, transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .city-card:hover {
+      border-color: rgba(227,129,168,0.3);
+      transform: translateY(-8px);
+    }
+
+    .city-bg {
+      height: 280px;
+      position: relative;
+    }
+
+    .city-card:nth-child(1) .city-bg {
+      background: linear-gradient(160deg, #7B2D6B 0%, #C2527A 100%);
+    }
+    .city-card:nth-child(2) .city-bg {
+      background: linear-gradient(160deg, #3D1240 0%, #8B1A4A 100%);
+    }
+    .city-card:nth-child(3) .city-bg {
+      background: linear-gradient(160deg, #5A0E30 0%, #E381A8 100%);
+    }
+    .city-card:nth-child(4) .city-bg {
+      background: linear-gradient(160deg, #1A0A12 0%, #7B2D6B 100%);
+    }
+
+    .city-arch {
+      position: absolute;
+      bottom: -2px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+      height: 55%;
+      background: inherit;
+      border-radius: 200px 200px 0 0;
+      opacity: 0.5;
+    }
+
+    .city-info {
+      padding: 24px;
+      background: rgba(26,10,18,0.9);
+    }
+
+    .city-status {
+      font-size: 0.62rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .city-status.past    { color: rgba(255,255,255,0.3); }
+    .city-status.active  { color: var(--pink); }
+    .city-status.coming  { color: rgba(255,255,255,0.3); }
+
+    .city-name {
+      font-family: var(--font-serif);
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--warm-white);
+    }
+
+    .city-dates {
+      margin-top: 6px;
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.4);
+      font-weight: 300;
+    }
+
+    /* ─── CTA Section ───────────────────────────────────────────── */
+    #cta {
+      padding: 160px 48px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #cta::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(227,129,168,0.12) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .cta-eyebrow {
+      font-size: 0.7rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--pink);
+      margin-bottom: 24px;
+    }
+
+    .cta-title {
+      font-family: var(--font-serif);
+      font-size: clamp(3rem, 8vw, 7rem);
+      font-weight: 900;
+      color: var(--warm-white);
+      line-height: 1;
+      margin-bottom: 36px;
+    }
+
+    .cta-title em {
+      font-style: italic;
+      color: var(--pink);
+    }
+
+    .cta-sub {
+      font-size: 1rem;
+      color: rgba(255,255,255,0.45);
+      font-weight: 300;
+      margin-bottom: 52px;
+    }
+
+    .cta-actions { display: flex; gap: 16px; justify-content: center; }
+
+    /* ─── Footer ────────────────────────────────────────────────── */
+    footer {
+      padding: 60px 48px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .footer-logo {
+      font-family: var(--font-serif);
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--pink-light);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+    }
+
+    .footer-links a {
+      font-size: 0.72rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.3);
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .footer-links a:hover { color: var(--pink-light); }
+
+    .footer-copy {
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.2);
+      letter-spacing: 0.05em;
+    }
+
+    /* ─── Keyframes ─────────────────────────────────────────────── */
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+
+    @keyframes scrollPulse {
+      0%, 100% { opacity: 1; transform: scaleY(1); }
+      50% { opacity: 0.3; transform: scaleY(0.6); }
+    }
+
+    @keyframes ringPulse {
+      0%, 100% { opacity: 0.12; transform: scale(1); }
+      50% { opacity: 0.25; transform: scale(1.04); }
+    }
+
+    @keyframes marqueeScroll {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+
+    /* ─── Scroll Reveal ─────────────────────────────────────────── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.9s cubic-bezier(0.23, 1, 0.32, 1),
+                  transform 0.9s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.35s; }
+    .reveal-delay-4 { transition-delay: 0.5s; }
+
+    /* ─── Responsive ────────────────────────────────────────────── */
+    @media (max-width: 1024px) {
+      #about, .experience-inner {
+        grid-template-columns: 1fr;
+        gap: 60px;
+      }
+      .about-visual { height: 420px; }
+      .cities-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 768px) {
+      nav { padding: 20px 24px; }
+      .nav-links { display: none; }
+      #about, #installations, #tour, #experience, #cta { padding: 80px 24px; }
+      .installations-grid { grid-template-columns: 1fr 1fr; }
+      .install-card:nth-child(1) { grid-row: span 1; }
+      .install-card:nth-child(4) { grid-column: span 1; }
+      .cities-grid { grid-template-columns: 1fr 1fr; }
+      #stats { flex-wrap: wrap; padding: 50px 24px; }
+      footer { flex-direction: column; gap: 24px; text-align: center; }
+      .cta-actions { flex-direction: column; align-items: center; }
+    }
+
+    @media (max-width: 480px) {
+      .installations-grid, .cities-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Custom cursor -->
+<div id="cursor"></div>
+<div id="cursor-follower"></div>
+
+<!-- WebGL fluid canvas -->
+<canvas id="fluid-canvas"></canvas>
+
+<!-- ── Navigation ─────────────────────────────────────────────── -->
+<nav>
+  <a href="#" class="nav-logo">House of Dreamers</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#installations">Installations</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#tour">Tour</a></li>
+  </ul>
+  <button class="nav-cta">Get Tickets</button>
+</nav>
+
+<!-- ── Hero ───────────────────────────────────────────────────── -->
+<section id="hero">
+  <div class="hero-float hero-float-1"></div>
+  <div class="hero-float hero-float-2"></div>
+
+  <p class="hero-tag">The first immersive exhibition dedicated to dreamers</p>
+  <h1 class="hero-title">
+    House of<br>
+    <em>Dreamers</em>
+  </h1>
+  <p class="hero-subtitle">
+    An emotional journey through 18 immersive installations. Surrender to a world where reality dissolves and dreams take form.
+  </p>
+  <div class="hero-actions">
+    <a href="#tour" class="btn-primary">Explore the Experience</a>
+    <a href="#installations" class="btn-ghost">Discover Installations</a>
+  </div>
+
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ── Stats ──────────────────────────────────────────────────── -->
+<section id="stats">
+  <div class="stat reveal">
+    <div class="stat-number">1M+</div>
+    <div class="stat-label">Visitors across Europe</div>
+  </div>
+  <div class="stat reveal reveal-delay-1">
+    <div class="stat-number">18</div>
+    <div class="stat-label">Immersive Installations</div>
+  </div>
+  <div class="stat reveal reveal-delay-2">
+    <div class="stat-number">4</div>
+    <div class="stat-label">European Cities</div>
+  </div>
+  <div class="stat reveal reveal-delay-3">
+    <div class="stat-number">360°</div>
+    <div class="stat-label">Sensory Journey</div>
+  </div>
+</section>
+
+<!-- ── About ──────────────────────────────────────────────────── -->
+<section id="about">
+  <div class="about-text reveal">
+    <p class="section-tag">About the Exhibition</p>
+    <h2 class="section-title">A world built<br>for <em>dreamers</em></h2>
+    <p>
+      House of Dreamers is a sensory adventure beyond imagination — a living laboratory where experimentation reigns and every room unlocks a new parallel universe.
+    </p>
+    <p>
+      Created by Italian designers Elena and Giulia Sella, the exhibition weaves hypnotic light installations, 3D projections, and augmented reality into 18 rooms that blur the line between waking life and dreams.
+    </p>
+    <p>
+      Dive into a giant ball pool, dance on a multicolored floor, lose yourself in a room of roses, or step through a looking-glass into an upside-down world.
+    </p>
+    <div style="margin-top:40px;">
+      <a href="#installations" class="btn-primary">Discover Installations</a>
+    </div>
+  </div>
+  <div class="about-visual reveal reveal-delay-2">
+    <div class="about-img-stack">
+      <div class="about-card about-card-main">
+        <div class="card-inner-text">"A living laboratory where dreams take shape"</div>
+      </div>
+      <div class="about-card about-card-accent">
+        <div class="card-inner-text">18 Rooms<br>1 Journey</div>
+      </div>
+      <div class="floating-badge">✦ Site of the Day</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Installations ──────────────────────────────────────────── -->
+<section id="installations">
+  <div class="installations-header reveal">
+    <div>
+      <p class="section-tag">The Installations</p>
+      <h2 class="section-title">18 portals<br>to other <em>worlds</em></h2>
+    </div>
+    <a href="#" class="btn-ghost">View All Rooms</a>
+  </div>
+
+  <div class="installations-grid">
+    <!-- Card 1 — tall -->
+    <div class="install-card reveal">
+      <div class="install-visual">
+        <div class="install-visual-inner">
+          <!-- Decorative SVG: ball pool bubbles -->
+          <svg class="install-deco" width="200" height="200" viewBox="0 0 200 200">
+            <circle cx="100" cy="100" r="80" fill="none" stroke="white" stroke-width="1"/>
+            <circle cx="60"  cy="80"  r="25" fill="rgba(255,255,255,0.15)"/>
+            <circle cx="130" cy="70"  r="18" fill="rgba(255,255,255,0.1)"/>
+            <circle cx="90"  cy="140" r="22" fill="rgba(255,255,255,0.12)"/>
+            <circle cx="140" cy="130" r="14" fill="rgba(255,255,255,0.08)"/>
+          </svg>
+          <div class="install-label">
+            <div class="install-num">01</div>
+            <div class="install-name">The Pink Universe</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="install-card reveal reveal-delay-1">
+      <div class="install-visual">
+        <div class="install-visual-inner">
+          <svg class="install-deco" width="160" height="160" viewBox="0 0 160 160">
+            <polygon points="80,20 140,140 20,140" fill="none" stroke="white" stroke-width="1"/>
+            <polygon points="80,40 120,120 40,120" fill="rgba(255,255,255,0.1)"/>
+          </svg>
+          <div class="install-label">
+            <div class="install-num">02</div>
+            <div class="install-name">Mirror Labyrinth</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="install-card reveal reveal-delay-2">
+      <div class="install-visual">
+        <div class="install-visual-inner">
+          <svg class="install-deco" width="160" height="160" viewBox="0 0 160 160">
+            <line x1="80" y1="10" x2="80" y2="150" stroke="white" stroke-width="1"/>
+            <line x1="10" y1="80" x2="150" y2="80" stroke="white" stroke-width="1"/>
+            <circle cx="80" cy="80" r="50" fill="none" stroke="white" stroke-width="1"/>
+            <circle cx="80" cy="80" r="25" fill="rgba(255,255,255,0.15)"/>
+          </svg>
+          <div class="install-label">
+            <div class="install-num">03</div>
+            <div class="install-name">Dream Orbit</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 — wide -->
+    <div class="install-card reveal">
+      <div class="install-visual">
+        <div class="install-visual-inner">
+          <svg class="install-deco" width="260" height="130" viewBox="0 0 260 130">
+            <path d="M 10 65 Q 65 10 130 65 Q 195 120 250 65" fill="none" stroke="white" stroke-width="1.5"/>
+            <path d="M 10 80 Q 65 25 130 80 Q 195 135 250 80" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+          </svg>
+          <div class="install-label">
+            <div class="install-num">04</div>
+            <div class="install-name">Sea of Roses</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="install-card reveal reveal-delay-1">
+      <div class="install-visual">
+        <div class="install-visual-inner">
+          <svg class="install-deco" width="160" height="160" viewBox="0 0 160 160">
+            <rect x="30" y="30" width="100" height="100" fill="none" stroke="white" stroke-width="1" transform="rotate(45 80 80)"/>
+            <rect x="50" y="50" width="60"  height="60"  fill="rgba(255,255,255,0.1)" transform="rotate(45 80 80)"/>
+          </svg>
+          <div class="install-label">
+            <div class="install-num">05</div>
+            <div class="install-name">Upside Down</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Marquee ─────────────────────────────────────────────────── -->
+<section id="marquee-section" aria-hidden="true">
+  <div class="marquee-track">
+    <span class="marquee-item">Dream</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item filled">Explore</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item">Feel</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item filled">Wonder</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item">Create</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item filled">Dream</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item">Explore</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item filled">Feel</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item">Wonder</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item filled">Create</span>
+    <span class="marquee-dot">✦</span>
+    <!-- duplicate for seamless loop -->
+    <span class="marquee-item">Dream</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item filled">Explore</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item">Feel</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item filled">Wonder</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item">Create</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item filled">Dream</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item">Explore</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item filled">Feel</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item">Wonder</span>
+    <span class="marquee-dot">✦</span>
+    <span class="marquee-item filled">Create</span>
+    <span class="marquee-dot">✦</span>
+  </div>
+</section>
+
+<!-- ── Experience ─────────────────────────────────────────────── -->
+<section id="experience">
+  <div class="experience-inner">
+    <div class="experience-visual reveal">
+      <div class="exp-bg">
+        <div class="exp-rings">
+          <div class="ring"></div>
+          <div class="ring"></div>
+          <div class="ring"></div>
+          <div class="ring"></div>
+          <div class="ring"></div>
+          <div class="exp-center-dot"></div>
+        </div>
+      </div>
+    </div>
+    <div class="experience-content reveal reveal-delay-2">
+      <p class="section-tag">The Experience</p>
+      <h2 class="section-title">Beyond the<br>limits of <em>reality</em></h2>
+      <p>
+        Augmented reality, 3D projections, and cutting-edge technology dissolve the boundary between the physical and the imagined. Every surface becomes a canvas, every step a new discovery.
+      </p>
+      <p>
+        The exhibition is designed to be explored freely — your route is your own. No two journeys are the same.
+      </p>
+      <ul class="features-list">
+        <li><span class="feature-dot"></span> WebGL fluid interactions respond to your movement</li>
+        <li><span class="feature-dot"></span> 3D projection mapping across all surfaces</li>
+        <li><span class="feature-dot"></span> Augmented reality layers unlocked by mobile</li>
+        <li><span class="feature-dot"></span> Generative soundscapes shift in real time</li>
+        <li><span class="feature-dot"></span> Photography-friendly — every corner is a shot</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ── Tour ───────────────────────────────────────────────────── -->
+<section id="tour">
+  <div class="tour-header reveal">
+    <p class="section-tag">The Tour</p>
+    <h2 class="section-title">Europe is<br><em>dreaming</em></h2>
+    <p>From Milan to Paris — the dream keeps spreading.</p>
+  </div>
+
+  <div class="cities-grid">
+    <div class="city-card reveal">
+      <div class="city-bg">
+        <div class="city-arch"></div>
+      </div>
+      <div class="city-info">
+        <p class="city-status past">Completed</p>
+        <h3 class="city-name">Milan</h3>
+        <p class="city-dates">March – June 2023</p>
+      </div>
+    </div>
+
+    <div class="city-card reveal reveal-delay-1">
+      <div class="city-bg">
+        <div class="city-arch"></div>
+      </div>
+      <div class="city-info">
+        <p class="city-status past">Completed</p>
+        <h3 class="city-name">Madrid</h3>
+        <p class="city-dates">September – December 2023</p>
+      </div>
+    </div>
+
+    <div class="city-card reveal reveal-delay-2">
+      <div class="city-bg">
+        <div class="city-arch"></div>
+      </div>
+      <div class="city-info">
+        <p class="city-status past">Completed</p>
+        <h3 class="city-name">Rome</h3>
+        <p class="city-dates">January – May 2024</p>
+      </div>
+    </div>
+
+    <div class="city-card reveal reveal-delay-3">
+      <div class="city-bg">
+        <div class="city-arch"></div>
+      </div>
+      <div class="city-info">
+        <p class="city-status active">Now Open</p>
+        <h3 class="city-name">Paris</h3>
+        <p class="city-dates">Carrousel du Louvre · 2025</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ────────────────────────────────────────────────────── -->
+<section id="cta">
+  <p class="cta-eyebrow reveal">Paris is waiting for you</p>
+  <h2 class="cta-title reveal reveal-delay-1">Start your<br><em>dream</em> now</h2>
+  <p class="cta-sub reveal reveal-delay-2">Carrousel du Louvre · Limited capacity · Book in advance</p>
+  <div class="cta-actions reveal reveal-delay-3">
+    <a href="#" class="btn-primary">Book Tickets</a>
+    <a href="#" class="btn-ghost">Learn More</a>
+  </div>
+</section>
+
+<!-- ── Footer ─────────────────────────────────────────────────── -->
+<footer>
+  <div class="footer-logo">House of Dreamers</div>
+  <ul class="footer-links">
+    <li><a href="#">Instagram</a></li>
+    <li><a href="#">Press Kit</a></li>
+    <li><a href="#">Privacy</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <p class="footer-copy">© 2025 House of Dreamers · Elena & Giulia Sella</p>
+</footer>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<script>
+/* ── Cursor ──────────────────────────────────────────────────── */
+const cursor = document.getElementById('cursor');
+const follower = document.getElementById('cursor-follower');
+let mx = 0, my = 0, fx = 0, fy = 0;
+
+document.addEventListener('mousemove', e => {
+  mx = e.clientX;
+  my = e.clientY;
+  cursor.style.left = mx + 'px';
+  cursor.style.top  = my + 'px';
+});
+
+(function animFollower() {
+  fx += (mx - fx) * 0.12;
+  fy += (my - fy) * 0.12;
+  follower.style.left = fx + 'px';
+  follower.style.top  = fy + 'px';
+  requestAnimationFrame(animFollower);
+})();
+
+/* ── WebGL Fluid Simulation ──────────────────────────────────── */
+(function initFluid() {
+  const canvas = document.getElementById('fluid-canvas');
+  const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+  if (!gl) return;
+
+  function resize() {
+    canvas.width  = window.innerWidth;
+    canvas.height = window.innerHeight;
+    gl.viewport(0, 0, canvas.width, canvas.height);
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  /* Vertex shader */
+  const vsSource = `
+    attribute vec2 a_pos;
+    void main() { gl_Position = vec4(a_pos, 0.0, 1.0); }
+  `;
+
+  /* Fragment shader — fluid / blob effect */
+  const fsSource = `
+    precision mediump float;
+    uniform vec2 u_res;
+    uniform float u_time;
+    uniform vec2 u_mouse;
+    uniform vec2 u_trail[12];
+    uniform float u_trail_age[12];
+
+    vec3 PINK      = vec3(0.894, 0.506, 0.659);
+    vec3 PINK_DEEP = vec3(0.761, 0.322, 0.478);
+    vec3 DARK      = vec3(0.102, 0.039, 0.071);
+
+    float sdSphere(vec2 p, vec2 c, float r) {
+      return length(p - c) - r;
+    }
+
+    float metaball(vec2 uv, vec2 center, float radius) {
+      float d = length(uv - center);
+      return radius * radius / (d * d + 0.0001);
+    }
+
+    void main() {
+      vec2 uv = gl_FragCoord.xy / u_res;
+      uv.y = 1.0 - uv.y;
+      vec2 aspect = vec2(u_res.x / u_res.y, 1.0);
+      vec2 p = uv * aspect;
+      vec2 mouse = u_mouse * aspect;
+
+      float field = 0.0;
+
+      /* Mouse metaball */
+      field += metaball(p, mouse, 0.06 + 0.02 * sin(u_time * 1.5));
+
+      /* Trail metaballs */
+      for (int i = 0; i < 12; i++) {
+        float age = u_trail_age[i];
+        float r = 0.035 * (1.0 - age * 0.7);
+        field += metaball(p, u_trail[i] * aspect, r) * (1.0 - age * 0.5);
+      }
+
+      /* Ambient drifting blobs */
+      for (int i = 0; i < 5; i++) {
+        float fi = float(i);
+        float speed = 0.2 + fi * 0.07;
+        float ox = 0.3 + fi * 0.14;
+        float oy = 0.2 + fi * 0.17;
+        vec2 bc = vec2(
+          ox + 0.18 * sin(u_time * speed + fi * 2.1),
+          oy + 0.15 * cos(u_time * speed * 0.8 + fi * 1.7)
+        ) * aspect;
+        field += metaball(p, bc, 0.025 + 0.008 * sin(u_time + fi));
+      }
+
+      float thresh = 1.0;
+      float alpha = smoothstep(thresh - 0.4, thresh + 0.2, field);
+
+      /* Colour gradient based on field strength */
+      vec3 col = mix(PINK_DEEP, PINK, smoothstep(thresh, thresh + 1.5, field));
+
+      gl_FragColor = vec4(col, alpha * 0.7);
+    }
+  `;
+
+  function compileShader(type, source) {
+    const s = gl.createShader(type);
+    gl.shaderSource(s, source);
+    gl.compileShader(s);
+    return s;
+  }
+
+  const prog = gl.createProgram();
+  gl.attachShader(prog, compileShader(gl.VERTEX_SHADER, vsSource));
+  gl.attachShader(prog, compileShader(gl.FRAGMENT_SHADER, fsSource));
+  gl.linkProgram(prog);
+  gl.useProgram(prog);
+
+  /* Full-screen quad */
+  const buf = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, 1,1]), gl.STATIC_DRAW);
+  const aPos = gl.getAttribLocation(prog, 'a_pos');
+  gl.enableVertexAttribArray(aPos);
+  gl.vertexAttribPointer(aPos, 2, gl.FLOAT, false, 0, 0);
+
+  gl.enable(gl.BLEND);
+  gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
+
+  const uRes   = gl.getUniformLocation(prog, 'u_res');
+  const uTime  = gl.getUniformLocation(prog, 'u_time');
+  const uMouse = gl.getUniformLocation(prog, 'u_mouse');
+  const uTrail = gl.getUniformLocation(prog, 'u_trail');
+  const uTrailAge = gl.getUniformLocation(prog, 'u_trail_age');
+
+  /* Trail */
+  const TRAIL_LEN = 12;
+  const trail = Array.from({length: TRAIL_LEN}, () => ({x: 0.5, y: 0.5, age: 1}));
+  let mouseX = 0.5, mouseY = 0.5;
+  let trailTimer = 0;
+  const TRAIL_INTERVAL = 40; // ms
+
+  document.addEventListener('mousemove', e => {
+    mouseX = e.clientX / window.innerWidth;
+    mouseY = e.clientY / window.innerHeight;
+  });
+
+  let lastTrailTime = 0;
+  function maybeAddTrail(now) {
+    if (now - lastTrailTime > TRAIL_INTERVAL) {
+      trail.unshift({x: mouseX, y: mouseY, age: 0});
+      if (trail.length > TRAIL_LEN) trail.pop();
+      lastTrailTime = now;
+    }
+    trail.forEach(t => { t.age = Math.min(1, t.age + 0.02); });
+  }
+
+  function render(ts) {
+    const t = ts * 0.001;
+    maybeAddTrail(ts);
+
+    gl.viewport(0, 0, canvas.width, canvas.height);
+    gl.clearColor(0, 0, 0, 0);
+    gl.clear(gl.COLOR_BUFFER_BIT);
+
+    gl.uniform2f(uRes, canvas.width, canvas.height);
+    gl.uniform1f(uTime, t);
+    gl.uniform2f(uMouse, mouseX, mouseY);
+
+    const trailFlat = trail.flatMap(p => [p.x, p.y]);
+    const trailAges = trail.map(p => p.age);
+    gl.uniform2fv(uTrail, trailFlat);
+    gl.uniform1fv(uTrailAge, trailAges);
+
+    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    requestAnimationFrame(render);
+  }
+
+  requestAnimationFrame(render);
+})();
+
+/* ── Scroll Reveal ──────────────────────────────────────────── */
+const revealEls = document.querySelectorAll('.reveal');
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      io.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.12 });
+revealEls.forEach(el => io.observe(el));
+
+/* ── Parallax on hero floats ────────────────────────────────── */
+document.addEventListener('mousemove', e => {
+  const x = (e.clientX / window.innerWidth  - 0.5) * 30;
+  const y = (e.clientY / window.innerHeight - 0.5) * 30;
+  document.querySelectorAll('.hero-float').forEach((el, i) => {
+    const depth = i === 0 ? 1 : -0.6;
+    el.style.transform = `translate(${x * depth}px, ${y * depth}px)`;
+  });
+});
+
+/* ── Nav scroll style ───────────────────────────────────────── */
+const nav = document.querySelector('nav');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 60) {
+    nav.style.background = 'rgba(26,10,18,0.85)';
+    nav.style.backdropFilter = 'blur(20px)';
+    nav.style.borderBottom = '1px solid rgba(255,255,255,0.05)';
+  } else {
+    nav.style.background = 'transparent';
+    nav.style.backdropFilter = 'none';
+    nav.style.borderBottom = 'none';
+  }
+});
+
+/* ── Stat counter animation ─────────────────────────────────── */
+function animateCounter(el, target, suffix) {
+  const duration = 1800;
+  const start = performance.now();
+  (function tick(now) {
+    const p = Math.min((now - start) / duration, 1);
+    const ease = 1 - Math.pow(1 - p, 3);
+    const val = isNaN(parseInt(target))
+      ? target
+      : Math.round(ease * parseInt(target));
+    el.textContent = val + suffix;
+    if (p < 1) requestAnimationFrame(tick);
+  })(start);
+}
+
+const statsIo = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (!e.isIntersecting) return;
+    const nums = [
+      {el: document.querySelectorAll('.stat-number')[0], val: '1', suffix: 'M+'},
+      {el: document.querySelectorAll('.stat-number')[1], val: '18', suffix: ''},
+      {el: document.querySelectorAll('.stat-number')[2], val: '4', suffix: ''},
+      {el: document.querySelectorAll('.stat-number')[3], val: '360', suffix: '°'},
+    ];
+    nums.forEach(n => animateCounter(n.el, n.val, n.suffix));
+    statsIo.disconnect();
+  });
+}, { threshold: 0.3 });
+statsIo.observe(document.getElementById('stats'));
+</script>
+</body>
+</html>
