@@ -1,0 +1,19 @@
+Eight Fifteen — third-party material
+
+Narration voice: Kokoro-82M (kokoro-onnx), voice "af_heart" — Apache License 2.0
+  https://github.com/thewh1teagle/kokoro-onnx · https://huggingface.co/hexgrad/Kokoro-82M
+Speech check: faster-whisper (base.en) — MIT
+Font: Shippori Mincho by FONTDASU — SIL Open Font License 1.1 (fonts/OFL.txt)
+  https://github.com/google/fonts/tree/main/ofl/shipporimincho
+Music and sound: original, synthesized in code (Karplus–Strong koto model and procedural foley
+  from the Lemo-Opuscar core tools, MIT). No samples.
+Pictures: drawn in code (Canvas 2D). No photographs, footage or generated video.
+Visual style: after a still-life reference image supplied by the user.
+
+Historical sources (also on screen at the end):
+  Radiation Effects Research Foundation, "Frequently Asked Questions" — https://www.rerf.or.jp/en/faq/
+  Atomic Heritage Foundation, "Bombings of Hiroshima and Nagasaki – 1945" — https://ahf.nuclearmuseum.org/ahf/history/bombings-hiroshima-and-nagasaki-1945/
+  City of Nagasaki, "At 11:02 a.m. August 9, 1945" — https://nagasakipeace.jp/en/search/record/photo/part_2_01.html
+  City of Hiroshima, "Paper Cranes and Children's Peace Monument" — https://www.city.hiroshima.lg.jp/english/peace/1033408/1009685.html
+  City of Hiroshima, "City Tree (Camphor) and City Flower (Oleander)" — https://www.city.hiroshima.lg.jp/site/english/7401.html
+  Hiroshima Peace Memorial Museum, Virtual Museum — https://hpmmuseum.jp/virtual/VirtualMuseum_e/exhibit_e/exh0203_e/exh02032_e.html

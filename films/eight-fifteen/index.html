@@ -1,0 +1,762 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Mincho';src:url(fonts/ShipporiMincho-Regular.ttf);font-weight:400;font-display:block}
+@font-face{font-family:'Mincho';src:url(fonts/ShipporiMincho-Medium.ttf);font-weight:500;font-display:block}
+html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}
+</style></head>
+<body><canvas id="c"></canvas>
+<script type="module">
+import { clamp, lerp, seg, ss, eio, eo, ei, back, mulberry, hash, vnoise, TAU } from '/core/lib.js';
+import { T, LINES, SUBS } from './timeline.js';
+
+const W = innerWidth, H = innerHeight;
+const cv = document.getElementById('c'); cv.width = W; cv.height = H;
+let ctx = cv.getContext('2d');
+const off = document.createElement('canvas'); off.width = W; off.height = H; const octx = off.getContext('2d');
+function drawTo(c2, fn) { const keep = ctx; ctx = c2; ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.fillStyle = P.paper; ctx.fillRect(0, 0, W, H); fn(); ctx = keep; }
+const SX = W / 1920;
+
+// ---------------- palette ----------------
+const P = {
+  ink: '#2e211d', paper: '#f2ece1',
+  wall: '#9bb8b9', wallSh: '#88a6a8', post: '#6f5146', postSh: '#5b4139',
+  sand: '#d8a77f', sandSh: '#c08d69', table: '#e9dcc2', tableEdge: '#d7c4a2', apron: '#5a3f37',
+  red: '#b8434a', redSh: '#963239', wine: '#3a1f22', mauve: '#8c5c66', cream: '#f6efe6',
+  frame: '#7b5a5c', frameSh: '#664a4c', glaze: '#7f8f94', glazeSh: '#6b7a80', bowl: '#8e8984', bowlSh: '#76716c',
+  peach: '#c9525a', peachSh: '#a8414a', brass: '#c9a46a', brassSh: '#a8854f', dial: '#f3ead8',
+  sky0: '#cfe0de', sky1: '#efe2c9', hill0: '#a9bab5', hill1: '#8fa79b', earth: '#cdb994',
+  river: '#8fb2b5', riverHi: '#b5cfcf', roof: '#5d6670', roof2: '#7a5e60', houseW: '#e6d5b8', houseWood: '#a07d62',
+  tree: '#7f9a6a', treeSh: '#677f55', copper: '#6e9c8a', tramG: '#6f8f6a',
+  ash: '#b9b2a6', ashSky0: '#9d8f7c', ashSky1: '#c9bca5', ashEarth: '#a99d88', rubble: '#8f8375', rubbleSh: '#776c60', char: '#4a403a', smoke: '#8a7d6c',
+};
+
+// ---------------- global drawing state ----------------
+let BF = 0;          // boil frame (12 fps)
+let DR = 0;          // drain: 0 = colour, 1 = only lines on paper
+let CS = 1;          // current camera scale (to keep line width constant on screen)
+let JA = 0.9;        // jitter amplitude in screen px
+
+function hex(c) { const n = parseInt(c.slice(1), 16); return [n >> 16 & 255, n >> 8 & 255, n & 255]; }
+function mix(a, b, t) { const A = hex(a), B = hex(b); return `rgb(${A.map((v, i) => Math.round(lerp(v, B[i], t))).join(',')})`; }
+const C = c => DR <= 0 ? c : mix(c, P.paper, DR);
+function J(x, y) {
+  const a = JA / CS;
+  return [x + (hash(x * .0131 + y * .0297 + BF * 7.13) - .5) * 2 * a, y + (hash(y * .0173 - x * .0271 + BF * 3.37 + 9) - .5) * 2 * a];
+}
+function path(pts, closed = true, smooth = false) {
+  ctx.beginPath();
+  const q = pts.map(p => J(p[0], p[1]));
+  if (!smooth) { q.forEach((p, i) => i ? ctx.lineTo(p[0], p[1]) : ctx.moveTo(p[0], p[1])); if (closed) ctx.closePath(); return; }
+  const n = q.length;
+  if (closed) {
+    const m = (a, b) => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
+    let s = m(q[n - 1], q[0]); ctx.moveTo(s[0], s[1]);
+    for (let i = 0; i < n; i++) { const e = m(q[i], q[(i + 1) % n]); ctx.quadraticCurveTo(q[i][0], q[i][1], e[0], e[1]); }
+    ctx.closePath();
+  } else {
+    ctx.moveTo(q[0][0], q[0][1]);
+    for (let i = 1; i < n - 1; i++) { const e = [(q[i][0] + q[i + 1][0]) / 2, (q[i][1] + q[i + 1][1]) / 2]; ctx.quadraticCurveTo(q[i][0], q[i][1], e[0], e[1]); }
+    ctx.lineTo(q[n - 1][0], q[n - 1][1]);
+  }
+}
+function ink(lw = 2.4, col = P.ink, alpha = 1) {
+  ctx.globalAlpha = alpha; ctx.lineWidth = lw / CS; ctx.strokeStyle = col; ctx.lineJoin = 'round'; ctx.lineCap = 'round'; ctx.stroke(); ctx.globalAlpha = 1;
+}
+function fillc(col, a = 1) { ctx.globalAlpha = a; ctx.fillStyle = C(col); ctx.fill(); ctx.globalAlpha = 1; }
+function shape(pts, col, o = {}) {
+  path(pts, true, o.smooth);
+  if (col) fillc(col, o.a ?? 1);
+  if (o.lw !== 0) ink(o.lw ?? 2.4, o.line ?? P.ink, o.la ?? 1);
+}
+function line(pts, lw = 2.4, smooth = false, col = P.ink, a = 1) { path(pts, false, smooth); ink(lw, col, a); }
+function ell(cx, cy, rx, ry, n = 28, rot = 0) {
+  const p = []; for (let i = 0; i < n; i++) { const a = i / n * TAU; const x = Math.cos(a) * rx, y = Math.sin(a) * ry; p.push([cx + x * Math.cos(rot) - y * Math.sin(rot), cy + x * Math.sin(rot) + y * Math.cos(rot)]); } return p;
+}
+function rect(x, y, w, h) { return [[x, y], [x + w, y], [x + w, y + h], [x, y + h]]; }
+function clipTo(pts, fn, smooth = false) { ctx.save(); path(pts, true, smooth); ctx.clip(); fn(); ctx.restore(); }
+function softEll(cx, cy, rx, ry, col, a) { // soft shadow, no line
+  ctx.save(); ctx.translate(cx, cy); ctx.scale(1, ry / rx);
+  const g = ctx.createRadialGradient(0, 0, 0, 0, 0, rx); const [r, gg, b] = hex(col);
+  g.addColorStop(0, `rgba(${r},${gg},${b},${a * (1 - DR)})`); g.addColorStop(1, `rgba(${r},${gg},${b},0)`);
+  ctx.fillStyle = g; ctx.beginPath(); ctx.arc(0, 0, rx, 0, TAU); ctx.fill(); ctx.restore();
+}
+function cam(cx, cy, s) { CS = s * SX; ctx.setTransform(CS, 0, 0, CS, W / 2 - cx * CS, H / 2 - cy * CS); }
+
+// ---------------- textures (deterministic) ----------------
+function noiseCanvas(w, h, seed, scale, oct = 3) {
+  const c = document.createElement('canvas'); c.width = w; c.height = h; const g = c.getContext('2d');
+  const im = g.createImageData(w, h); const R = mulberry(seed);
+  const grid = []; const G = 64; for (let i = 0; i < G * G; i++) grid.push(R());
+  const vn = (x, y) => { const xi = Math.floor(x), yi = Math.floor(y), xf = x - xi, yf = y - yi; const u = xf * xf * (3 - 2 * xf), v = yf * yf * (3 - 2 * yf);
+    const at = (i, j) => grid[((j % G + G) % G) * G + ((i % G + G) % G)];
+    return lerp(lerp(at(xi, yi), at(xi + 1, yi), u), lerp(at(xi, yi + 1), at(xi + 1, yi + 1), u), v); };
+  for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) {
+    let v = 0, a = 1, f = 1 / scale, tot = 0; for (let o = 0; o < oct; o++) { v += vn(x * f, y * f) * a; tot += a; a *= .5; f *= 2.1; } v /= tot;
+    const i = (y * w + x) * 4; const k = Math.round(v * 255); im.data[i] = im.data[i + 1] = im.data[i + 2] = k; im.data[i + 3] = 255;
+  }
+  g.putImageData(im, 0, 0); return c;
+}
+const TEX = noiseCanvas(480, 270, 7, 22, 4);      // mottled paint
+const FINE = noiseCanvas(480, 270, 19, 2.2, 2);   // paper tooth
+function mottle(x, y, w, h, a = .16) {
+  if (DR >= 1) return; ctx.save(); ctx.globalCompositeOperation = 'soft-light'; ctx.globalAlpha = a * (1 - DR);
+  ctx.drawImage(TEX, x, y, w, h); ctx.restore();
+}
+
+// ---------------- props ----------------
+function vase(cx, base, k = 1) {
+  const prof = [[34, -420], [26, -400], [24, -372], [62, -322], [108, -255], [128, -170], [120, -85], [92, -25], [72, -5], [70, 0]];
+  const pts = prof.map(([x, y]) => [cx + x * k, base + y * k]).concat(prof.slice().reverse().map(([x, y]) => [cx - x * k, base + y * k]));
+  path(pts, true, true); fillc(P.sand);
+  clipTo(pts, () => { // shade right side
+    const sh = prof.map(([x, y]) => [cx + x * k * .35 + 30 * k, base + y * k]).concat([[cx + 200 * k, base], [cx + 200 * k, base - 430 * k]]);
+    path(sh, true, true); fillc(P.sandSh, .9);
+    mottle(cx - 140 * k, base - 430 * k, 280 * k, 440 * k, .25);
+  }, true);
+  path(pts, true, true); ink(2.6);
+  shape(ell(cx, base - 420 * k, 34 * k, 7 * k), '#9c6e52', { lw: 2 });
+  shape(ell(cx + 70 * k, base - 230 * k, 7 * k, 5 * k), '#efcfb0', { lw: 0 });
+  line([[cx + 60 * k, base - 265 * k], [cx + 64 * k, base - 258 * k]], 1.6);
+}
+function teacup(cx, base) {
+  const w0 = 50, w1 = 40, h = 112;
+  const pts = [[cx - w0, base - h], [cx + w0, base - h], [cx + w1, base], [cx - w1, base]];
+  shape(pts, P.glaze, { lw: 0 });
+  clipTo(pts, () => { shape([[cx + 12, base - h], [cx + 60, base - h], [cx + 50, base], [cx + 8, base]], P.glazeSh, { lw: 0 }); shape(rect(cx - 60, base - h, 120, 22), '#d9cfbf', { lw: 0 }); mottle(cx - 60, base - h, 120, h, .3); });
+  shape(pts, null, { lw: 2.4 });
+  shape(ell(cx, base - h, w0, 10), '#6b5a3a', { lw: 2.2 });
+  shape(ell(cx, base - h + 2, w0 - 8, 6), '#8b7a4a', { lw: 0 });
+}
+function bowl(cx, rim, fruit, fruitCol = P.peach, fruitSh = P.peachSh) {
+  // fruit behind rim
+  for (const [dx, dy, r] of fruit) {
+    const p = ell(cx + dx, rim + dy, r, r * 1.02, 30);
+    shape(p, fruitCol, { lw: 0 }); clipTo(p, () => shape(ell(cx + dx + r * .45, rim + dy + r * .2, r * .9, r, 24), fruitSh, { lw: 0 }));
+    shape(p, null, { lw: 2.4 });
+    line([[cx + dx - 2, rim + dy - r * .95], [cx + dx + 4, rim + dy - r * 1.25]], 3);
+    shape(ell(cx + dx - r * .35, rim + dy - r * .4, r * .16, r * .1, 14, -.6), '#f2b9b0', { lw: 0, a: .9 });
+  }
+  const b = [[cx - 160, rim], [cx + 160, rim], [cx + 130, rim + 52], [cx + 70, rim + 70], [cx - 70, rim + 70], [cx - 130, rim + 52]];
+  shape(b, P.bowl, { lw: 0, smooth: true });
+  clipTo(b, () => shape([[cx + 40, rim], [cx + 200, rim], [cx + 200, rim + 80], [cx + 20, rim + 80]], P.bowlSh, { lw: 0 }), true);
+  shape(b, null, { smooth: true });
+  shape(ell(cx, rim, 160, 9), '#a29d97', { lw: 2.2 });
+}
+function watchFace(cx, cy, R, secs, cracked, opts = {}) {
+  const hh = secs / 3600 % 12, mm = secs / 60 % 60, s = Math.floor(secs % 60);
+  // bow + crown
+  shape(ell(cx, cy - R - R * .2, R * .17, R * .13), null, { lw: R > 200 ? 9 : 3.2, line: C(P.brassSh) });
+  shape(rect(cx - R * .08, cy - R - R * .12, R * .16, R * .14), P.brass, { lw: R > 200 ? 3 : 2 });
+  const c0 = ell(cx, cy, R, R, 48);
+  shape(c0, P.brass, { lw: R > 200 ? 3.2 : 2.4 });
+  clipTo(c0, () => shape(ell(cx + R * .25, cy + R * .2, R, R, 40), P.brassSh, { lw: 0 }));
+  const d = ell(cx, cy, R * .86, R * .86, 48);
+  shape(d, P.dial, { lw: R > 200 ? 2.8 : 2 });
+  if (R > 200) mottle(cx - R, cy - R, R * 2, R * 2, .12);
+  // ticks
+  for (let i = 0; i < 60; i++) {
+    const a = i / 60 * TAU, r0 = R * (i % 5 ? .8 : .76), r1 = R * .84;
+    line([[cx + Math.sin(a) * r0, cy - Math.cos(a) * r0], [cx + Math.sin(a) * r1, cy - Math.cos(a) * r1]], R > 200 ? (i % 5 ? 2 : 4) : (i % 5 ? .8 : 1.6));
+  }
+  if (R > 120) {
+    ctx.fillStyle = P.ink; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.font = `500 ${Math.round(R * .17)}px Mincho`;
+    for (let i = 1; i <= 12; i++) { const a = i / 12 * TAU; ctx.fillText(String(i), cx + Math.sin(a) * R * .63, cy - Math.cos(a) * R * .63 + R * .01); }
+  }
+  const hand = (a, len, w, col) => {
+    const sx = Math.sin(a), cy_ = -Math.cos(a), nx = -cy_, ny = sx;
+    shape([[cx - sx * len * .14 + nx * w, cy - cy_ * len * .14 + ny * w], [cx + sx * len, cy + cy_ * len], [cx - sx * len * .14 - nx * w, cy - cy_ * len * .14 - ny * w]], col, { lw: R > 200 ? 2.2 : 1.2 });
+  };
+  hand(hh / 12 * TAU, R * .45, R * .045, P.ink);
+  hand(mm / 60 * TAU, R * .68, R * .035, P.ink);
+  const sa = s / 60 * TAU;
+  line([[cx - Math.sin(sa) * R * .16, cy + Math.cos(sa) * R * .16], [cx + Math.sin(sa) * R * .74, cy - Math.cos(sa) * R * .74]], R > 200 ? 3 : 1.2, false, C(P.red));
+  shape(ell(cx, cy, R * .04, R * .04, 14), P.ink, { lw: 0 });
+  // glass glint
+  if (!cracked) { ctx.save(); ctx.globalAlpha = .18 * (1 - DR); path(ell(cx - R * .3, cy - R * .35, R * .28, R * .12, 20, -.7), true, true); ctx.fillStyle = '#fff'; ctx.fill(); ctx.restore(); }
+  if (cracked) {
+    const R2 = mulberry(5); const o = [cx + R * .22, cy - R * .3];
+    for (let i = 0; i < 7; i++) {
+      let a = i / 7 * TAU + R2() * .5, x = o[0], y = o[1]; const pts = [[x, y]];
+      for (let k = 0; k < 4; k++) { const st = R * (.12 + R2() * .14); a += (R2() - .5) * .7; x += Math.cos(a) * st; y += Math.sin(a) * st; if (Math.hypot(x - cx, y - cy) > R * .85) break; pts.push([x, y]); }
+      if (pts.length > 1) line(pts, R > 200 ? 2 : .9, false, P.ink, .8);
+    }
+  }
+}
+function pocketWatch(cx, cy, R, secs, cracked) {
+  // chain on table
+  const ch = []; for (let i = 0; i <= 26; i++) { const u = i / 26; ch.push([cx + R * .1 - u * R * 2.4 + Math.sin(u * 9) * 18, cy - R * 1.3 + u * R * 2.6 + 30 + Math.cos(u * 7) * 10]); }
+  line(ch.filter(p => p[1] > cy + R * .6 || p[0] < cx - R * 1.05), 3, true, C(P.brassSh));
+  softEll(cx + 20, cy + R + 4, R * 1.2, 14, '#7a6a55', .45);
+  watchFace(cx, cy, R, secs, cracked);
+}
+function crane(cx, cy, s, col, flap = 0, flip = 1, rot = 0) {
+  ctx.save(); ctx.translate(cx, cy); ctx.rotate(rot); ctx.scale(s * flip, s);
+  const sh = mix(col, '#000000', .18);
+  const wy = -38 + flap * 52; // wing tip height (flap 0 = up)
+  // far wing
+  shape([[-6, -6], [14, -8], [-14 + flap * 6, wy - 6]], sh, { lw: 1.6 });
+  // body
+  shape([[-30, 0], [0, 10], [30, 0], [0, -10]], col, { lw: 1.6 });
+  // neck & tail
+  shape([[18, -3], [26, 1], [44, -40], [42, -42]], col, { lw: 1.4 });
+  shape([[44, -40], [52, -36], [42, -42]], col, { lw: 1.4 });
+  shape([[-18, -3], [-26, 1], [-46, -36], [-44, -38]], col, { lw: 1.4 });
+  // near wing
+  shape([[-12, -2], [12, -2], [-4 + flap * 8, wy]], mix(col, '#ffffff', .12), { lw: 1.6 });
+  ctx.restore();
+}
+function blossom(x, y, r, col, rot = 0) {
+  const pts = [];
+  for (let i = 0; i < 5; i++) { const a = rot + i / 5 * TAU; for (let k = -2; k <= 2; k++) { const b = a + k * .22, rr = r * (1 - Math.abs(k) * .12) * (k === 0 ? .92 : 1); pts.push([x + Math.cos(b) * rr, y + Math.sin(b) * rr]); } pts.push([x + Math.cos(a + TAU / 10) * r * .45, y + Math.sin(a + TAU / 10) * r * .45]); }
+  shape(pts, col, { lw: 1.8, smooth: true });
+  shape(ell(x, y, r * .16, r * .16, 10), '#d9b45a', { lw: 0 });
+  for (let i = 0; i < 6; i++) { const a = i / 6 * TAU + rot; line([[x, y], [x + Math.cos(a) * r * .32, y + Math.sin(a) * r * .32]], 1.1); }
+}
+
+// ---------------- the room ----------------
+function room(t, mode, view) {
+  // mode: 'morning' | 'end' | 'dusk'
+  const dusk = mode === 'dusk';
+  shape(rect(-400, -300, 2720, 1700), dusk ? '#6f7f88' : P.wall, { lw: 0 });
+  mottle(-400, -300, 2720, 1700, .22);
+  // light patch from the window
+  if (dusk) softEll(1180, 700, 520, 330, '#f0b26a', .35);
+  // post
+  shape(rect(30, -300, 74, 1120), P.post, { lw: 2.4 });
+  for (let i = 0; i < 4; i++) line([[46 + i * 16, -300], [50 + i * 15, 820]], 1, true, P.ink, .35);
+  shape(rect(84, -300, 20, 1120), P.postSh, { lw: 0 });
+  // window
+  const ox = 900, oy = 130, ow = 820, oh = 461.25;
+  shape([[ox - 26, oy - 26], [ox + ow + 26, oy - 26], [ox + ow + 26, oy + oh + 18], [ox - 26, oy + oh + 18]], dusk ? '#5e4648' : P.frame, { lw: 2.4 });
+  clipTo(rect(ox, oy, ow, oh), () => { ctx.save(); view(); ctx.restore(); });
+  ctx.setTransform(...curT);
+  shape(rect(ox, oy, ow, oh), null, { lw: 2.6 });
+  shape([[ox - 46, oy + oh + 14], [ox + ow + 46, oy + oh + 14], [ox + ow + 40, oy + oh + 34], [ox - 40, oy + oh + 34]], dusk ? '#4e3a3c' : P.frameSh, { lw: 2.2 });
+  // table
+  shape([[-400, 800], [2320, 800], [2320, 880], [-400, 880]], dusk ? '#c9b28e' : P.table, { lw: 2.4 });
+  mottle(-400, 800, 2720, 80, .2);
+  shape([[-400, 880], [2320, 880], [2320, 902], [-400, 902]], dusk ? '#a8916f' : P.tableEdge, { lw: 2.2 });
+  shape([[-400, 902], [2320, 902], [2320, 1400], [-400, 1400]], P.apron, { lw: 2.2 });
+  for (let i = 0; i < 6; i++) line([[-400, 940 + i * 26], [2320, 935 + i * 27]], 1, true, P.ink, .25);
+}
+let curT = [1, 0, 0, 1, 0, 0];
+function camR(cx, cy, s) { cam(cx, cy, s); curT = [CS, 0, 0, CS, W / 2 - cx * CS, H / 2 - cy * CS]; }
+
+// the city seen through the window: map the 1920x1080 city frame into the window opening
+function windowView(fn) {
+  return () => { const k = 820 / 1920; ctx.transform(k, 0, 0, k, 900, 130); const save = CS; CS = CS * k; fn(); CS = save; };
+}
+
+// ---------------- Hiroshima city ----------------
+function riverEdges(y) { // main river trapezoid edges at height y
+  const u = clamp((y - 610) / (1080 - 610)); return [lerp(830, 260, u), lerp(905, 1120, u)];
+}
+function river2(y) { const u = clamp((y - 610) / (1080 - 610)); return [lerp(1720, 1880, u), lerp(1770, 2350, u)]; }
+const HOUSES = (() => {
+  const R = mulberry(42), out = [];
+  const rows = 9;
+  for (let r = 0; r < rows; r++) {
+    const d = r / (rows - 1), y = lerp(632, 1010, Math.pow(d, 1.35)), s = lerp(.22, 1.05, Math.pow(d, 1.2));
+    let x = -200 + R() * 80 * s;
+    while (x < 2500) {
+      const w = (90 + R() * 80) * s, h = (40 + R() * 40) * s;
+      const [a, b] = riverEdges(y), [c, e] = river2(y);
+      const inRiver = (x + w > a - 20 * s && x < b + 20 * s) || (x + w > c - 20 * s && x < e + 20 * s);
+      const tree = R() < .16;
+      if (!inRiver) out.push({ x, y, w, h, s, r, tree, roof: R() < .7 ? 0 : 1, wall: R() < .6 ? 0 : 1, two: R() < .18, seed: R() });
+      x += w + (6 + R() * 30) * s;
+    }
+  }
+  return out.sort((p, q) => p.y - q.y);
+})();
+function house(o, ruin) {
+  const { x, y, w, h, s } = o;
+  if (o.tree) {
+    if (ruin) { line([[x + w * .5, y], [x + w * .48, y - h * 1.2], [x + w * .3, y - h * 1.5]], 2.2 * Math.max(.5, s), false, P.char); line([[x + w * .48, y - h * .9], [x + w * .7, y - h * 1.3]], 1.6 * Math.max(.5, s), false, P.char); return; }
+    shape(rect(x + w * .45, y - h * .5, w * .1, h * .5), P.post, { lw: 1.2 });
+    const p = ell(x + w * .5, y - h * 1.05, w * .55, h * .75, 18);
+    shape(p, P.tree, { lw: 1.6, smooth: true }); clipTo(p, () => shape(ell(x + w * .7, y - h * .85, w * .5, h * .7, 16), P.treeSh, { lw: 0 }), true);
+    return;
+  }
+  if (ruin) {
+    const R = mulberry(Math.floor(o.seed * 1e6)); const pts = [[x - 6 * s, y]];
+    const n = 5 + Math.floor(R() * 4); for (let i = 1; i < n; i++) pts.push([x + w * i / n, y - h * (.15 + R() * .45)]);
+    pts.push([x + w + 6 * s, y]);
+    shape(pts, R() < .5 ? P.rubble : P.rubbleSh, { lw: 1.4 * Math.max(.6, s) });
+    if (R() < .35) line([[x + w * R(), y], [x + w * R() + 10 * s, y - h * (.7 + R() * .6)]], 2.2 * Math.max(.6, s), false, P.char);
+    return;
+  }
+  const hh = o.two ? h * 1.7 : h;
+  shape(rect(x, y - hh, w, hh), o.wall ? P.houseWood : P.houseW, { lw: 1.6 * Math.max(.6, s) });
+  if (s > .45) for (let i = 0; i < (o.two ? 2 : 1); i++) { const wy = y - hh + hh * (.3 + i * .45); shape(rect(x + w * .2, wy, w * .22, h * .22), '#7c6a58', { lw: 1 }); shape(rect(x + w * .58, wy, w * .22, h * .22), '#7c6a58', { lw: 1 }); }
+  const rh = h * .55, ov = 10 * s;
+  shape([[x - ov, y - hh], [x + w + ov, y - hh], [x + w - w * .12, y - hh - rh], [x + w * .12, y - hh - rh]], o.roof ? P.roof2 : P.roof, { lw: 1.6 * Math.max(.6, s) });
+}
+function dome(x, y, k, ruin) { // Hiroshima Prefectural Industrial Promotion Hall
+  const bw = 330 * k, bh = 105 * k;
+  const body = rect(x - bw / 2, y - bh, bw, bh);
+  if (!ruin) {
+    shape(body, '#e8dcc4', { lw: 2 });
+    for (let f = 0; f < 3; f++) for (let i = 0; i < 9; i++) { if (i === 4) continue; shape(rect(x - bw / 2 + bw * (i + .3) / 9, y - bh + bh * (f * .31 + .1), bw * .4 / 9, bh * .17), '#7c6a58', { lw: 1 }); }
+    shape(rect(x - 52 * k, y - bh - 52 * k, 104 * k, bh + 52 * k), '#ece2cc', { lw: 2 });
+    const d = [[x - 46 * k, y - bh - 52 * k], [x - 44 * k, y - bh - 88 * k], [x - 26 * k, y - bh - 118 * k], [x, y - bh - 126 * k], [x + 26 * k, y - bh - 118 * k], [x + 44 * k, y - bh - 88 * k], [x + 46 * k, y - bh - 52 * k]];
+    shape(d, P.copper, { lw: 2, smooth: false });
+    line([[x, y - bh - 126 * k], [x, y - bh - 146 * k]], 2);
+    for (let i = -2; i <= 2; i++) line([[x + i * 18 * k, y - bh - 52 * k], [x + i * 8 * k, y - bh - 122 * k]], 1.1, false, P.ink, .6);
+  } else {
+    const R = mulberry(9); const top = [[x - bw / 2, y]];
+    for (let i = 0; i <= 12; i++) top.push([x - bw / 2 + bw * i / 12, y - bh * (i > 2 && i < 10 ? .55 + R() * .45 : .1 + R() * .3)]);
+    top.push([x + bw / 2, y]);
+    shape(top, '#cfc5b3', { lw: 2 });
+    for (let i = 0; i < 9; i++) if (R() < .6) shape(rect(x - bw / 2 + bw * (i + .3) / 9, y - bh * .5, bw * .4 / 9, bh * .2), '#5d544c', { lw: 1 });
+    shape([[x - 52 * k, y], [x - 52 * k, y - bh - 52 * k], [x - 20 * k, y - bh - 46 * k], [x + 10 * k, y - bh - 56 * k], [x + 52 * k, y - bh - 40 * k], [x + 52 * k, y]], '#d6ccb9', { lw: 2 });
+    for (const w0 of [-30, 0, 30]) shape(rect(x + (w0 - 8) * k, y - bh - 30 * k, 16 * k, 26 * k), '#5d544c', { lw: 1 });
+    // dome ribs only
+    const cyD = y - bh - 52 * k;
+    line([[x - 46 * k, cyD], [x - 44 * k, cyD - 36 * k], [x - 26 * k, cyD - 66 * k], [x, cyD - 74 * k], [x + 26 * k, cyD - 66 * k], [x + 44 * k, cyD - 36 * k], [x + 46 * k, cyD]], 2.2, true);
+    for (let i = -3; i <= 3; i++) line([[x + i * 15 * k, cyD], [x + i * 6 * k, cyD - 72 * k]], 1.6);
+    line([[x - 44 * k, cyD - 30 * k], [x + 44 * k, cyD - 30 * k]], 1.4);
+  }
+}
+function bridge(y, k = 1) {
+  const [a, b] = riverEdges(y);
+  shape([[a - 60, y], [b + 60, y], [b + 60, y + 14 * k], [a - 60, y + 14 * k]], '#b9ab92', { lw: 1.8 });
+  line([[a - 60, y - 10 * k], [b + 60, y - 10 * k]], 1.6);
+  for (let x = a - 50; x < b + 60; x += 34) line([[x, y], [x, y - 10 * k]], 1.2);
+  for (const x of [a + (b - a) * .33, a + (b - a) * .66]) shape(rect(x - 6, y + 14 * k, 12, 22 * k), '#a59780', { lw: 1.4 });
+  // the T stub of the Aioi bridge
+  const mx = (a + b) / 2; shape([[mx - 14, y + 14 * k], [mx + 14, y + 14 * k], [mx + 22, y + 46 * k], [mx - 22, y + 46 * k]], '#b9ab92', { lw: 1.6 });
+}
+function sky(t, c0, c1, y0 = -700, y1 = 640) {
+  const g = ctx.createLinearGradient(0, y0, 0, y1); g.addColorStop(0, C(c0)); g.addColorStop(1, C(c1));
+  ctx.fillStyle = g; ctx.fillRect(-600, y0 - 400, 3600, y1 - y0 + 400);
+}
+function cloud(x, y, w, col = '#f7f1e6', a = 1) {
+  const pts = []; const n = 7;
+  for (let i = 0; i <= n; i++) { const u = i / n; pts.push([x + (u - .5) * w, y - Math.sin(u * Math.PI) * w * .22 - (i % 2 ? w * .06 : 0)]); }
+  pts.push([x + w * .5, y]); pts.push([x - w * .5, y]);
+  shape(pts, col, { lw: 1.8, smooth: true, a, la: .8 });
+}
+function hills(ruin) {
+  shape([[-600, 640], [-600, 560], [-200, 520], [200, 545], [600, 505], [1000, 540], [1400, 498], [1900, 530], [2400, 505], [3000, 540], [3000, 640]], ruin ? '#a8a294' : P.hill0, { lw: 1.8, smooth: true });
+  shape([[-600, 650], [-600, 590], [100, 572], [500, 590], [900, 570], [1350, 592], [1800, 568], [2300, 590], [3000, 575], [3000, 650]], ruin ? '#958f82' : P.hill1, { lw: 1.8, smooth: true });
+}
+function hiroshima(t, ruin, rainA = 0) {
+  if (ruin) sky(t, P.ashSky0, P.ashSky1); else sky(t, P.sky0, P.sky1);
+  if (!ruin) { for (let i = 0; i < 6; i++) cloud(((i * 520 + t * 6) % 3200) - 600, -260 + (i % 3) * 170 + 260, 260 + (i % 2) * 120); }
+  hills(ruin);
+  shape([[-600, 615], [3000, 615], [3000, 1300], [-600, 1300]], ruin ? P.ashEarth : P.earth, { lw: 0 });
+  mottle(-600, 615, 3600, 700, .22);
+  line([[-600, 615], [3000, 615]], 1.6);
+  // rivers
+  const rv = []; for (let y = 612; y <= 1300; y += 20) rv.push([riverEdges(y)[0], y]); for (let y = 1300; y >= 612; y -= 20) rv.push([riverEdges(y)[1], y]);
+  shape(rv, ruin ? '#8e9b98' : P.river, { lw: 2 });
+  const rv2 = []; for (let y = 612; y <= 1300; y += 20) rv2.push([river2(y)[0], y]); for (let y = 1300; y >= 612; y -= 20) rv2.push([river2(y)[1], y]);
+  shape(rv2, ruin ? '#8e9b98' : P.river, { lw: 2 });
+  for (let i = 0; i < 9; i++) { const y = 660 + i * 50, [a, b] = riverEdges(y), u = hash(i * 3.1); const x = lerp(a, b, .2 + u * .5) + ((t * 10 * (1 + u)) % 60); line([[x, y], [x + 30 + i * 6, y]], 1.4, false, ruin ? P.ink : '#ffffff', .5); }
+  let drewDome = false, drewBridge = false;
+  for (const o of HOUSES) {
+    if (!drewBridge && o.y > 762) { bridge(760, 1); drewBridge = true; }
+    if (!drewDome && o.y > 748) { dome(1040, 748, .62, ruin); drewDome = true; }
+    if (o.x > 960 && o.x < 1130 && o.y > 690 && o.y < 760) continue;
+    house(o, ruin);
+  }
+  if (!ruin) tram(t);
+  if (ruin) {
+    // low smoke from smouldering fires, drifting
+    for (let i = 0; i < 4; i++) {
+      const bx = [180, 560, 1580, 1980][i], by = [640, 660, 650, 690][i], dx = ((t * (6 + i)) % 300) - 150;
+      cloud(bx + dx, by, 200 + (i % 2) * 60, '#a0927f', .55);
+    }
+    const hz = []; for (let x = -600; x <= 3000; x += 120) hz.push([x, 330 + Math.sin(x * .004 + t * .15) * 30 - (x / 120 % 2 ? 26 : 0)]);
+    for (let x = 3000; x >= -600; x -= 160) hz.push([x, 250 + Math.sin(x * .003 - t * .1) * 20]);
+    shape(hz, '#9b8e7c', { lw: 1.8, smooth: true, a: .9 });
+    if (rainA > 0) {
+      ctx.save(); ctx.globalAlpha = rainA * (1 - DR); ctx.strokeStyle = '#3b3430'; ctx.lineWidth = 1.6 / CS;
+      const R = mulberry(77 + BF);
+      ctx.beginPath(); for (let i = 0; i < 260; i++) { const x = -500 + R() * 3300, y = -700 + R() * 2000; ctx.moveTo(x, y); ctx.lineTo(x - 10, y + 46); } ctx.stroke(); ctx.restore();
+    }
+  }
+}
+function tram(t) {
+  const x = lerp(1250, 2350, seg(t, 0, 26)), y = 890, k = .9;
+  shape([[x, y - 70 * k], [x + 190 * k, y - 70 * k], [x + 200 * k, y], [x - 10 * k, y]], P.tramG, { lw: 2 });
+  shape(rect(x - 10 * k, y - 28 * k, 210 * k, 28 * k), '#e3d8bd', { lw: 1.8 });
+  for (let i = 0; i < 5; i++) shape(rect(x + (12 + i * 36) * k, y - 60 * k, 24 * k, 24 * k), '#d8e4e0', { lw: 1.4 });
+  line([[x + 90 * k, y - 70 * k], [x + 130 * k, y - 130 * k]], 2);
+  shape(ell(x + 30 * k, y + 4, 9, 9, 12), P.ink, { lw: 0 }); shape(ell(x + 160 * k, y + 4, 9, 9, 12), P.ink, { lw: 0 });
+  line([[-600, y + 13], [3000, y + 13]], 1.6, false, P.ink, .6);
+}
+function b29(x, y, k, rot = 0) {
+  ctx.save(); ctx.translate(x, y); ctx.rotate(rot); ctx.scale(k, k);
+  shape([[-90, 0], [-60, -9], [70, -8], [96, -2], [100, 3], [70, 8], [-60, 8]], '#d9d5cc', { lw: 2.2, smooth: false });
+  shape([[-10, -2], [30, -2], [-30, -70], [-48, -70]], '#cfcac0', { lw: 2 });
+  shape([[-10, 2], [30, 2], [-36, 66], [-54, 66]], '#c4bfb5', { lw: 2 });
+  shape([[-80, -4], [-66, -4], [-92, -34], [-100, -34]], '#cfcac0', { lw: 1.8 });
+  shape([[-84, -3], [-74, -3], [-98, 18], [-104, 18]], '#c4bfb5', { lw: 1.6 });
+  for (const e of [[-14, -28], [-26, -48], [-18, 28], [-30, 46]]) shape(ell(e[0] + 8, e[1], 9, 4, 10), '#a8a398', { lw: 1.2 });
+  ctx.restore();
+}
+
+// ---------------- Nagasaki ----------------
+const NHOUSES = (() => {
+  const R = mulberry(91), out = [];
+  for (let i = 0; i < 260; i++) {
+    const x = -200 + R() * 2400; const g = nGround(x); const yb = g + 8 + R() * (1080 - g) * .9; const s = lerp(.3, 1, clamp((yb - 420) / 650));
+    if (x > 520 && x < 760 && yb < 650) continue;
+    out.push({ x, y: yb, w: (70 + R() * 60) * s, h: (34 + R() * 30) * s, s, tree: R() < .2, roof: R() < .6 ? 0 : 1, wall: R() < .5 ? 0 : 1, two: R() < .12, seed: R() });
+  }
+  return out.sort((a, b) => a.y - b.y);
+})();
+function nGround(x) { // valley profile: hills left and right
+  if (x < 900) return lerp(330, 610, ss((x + 200) / 1100)) + Math.sin(x * .01) * 12;
+  return lerp(610, 380, ss((x - 900) / 1100)) + Math.sin(x * .013) * 10;
+}
+function cathedral(x, y, k, ruin) {
+  const bw = 230 * k, bh = 110 * k;
+  if (!ruin) {
+    shape(rect(x - bw / 2, y - bh, bw, bh), '#a5504c', { lw: 2 });
+    shape([[x - bw / 2 - 8, y - bh], [x + bw / 2 + 8, y - bh], [x + bw / 2 - 30 * k, y - bh - 40 * k], [x - bw / 2 + 30 * k, y - bh - 40 * k]], '#5d6670', { lw: 2 });
+    for (const sx of [-1, 1]) {
+      const tx = x + sx * 62 * k;
+      shape(rect(tx - 26 * k, y - bh - 120 * k, 52 * k, bh + 120 * k), '#ad5a54', { lw: 2 });
+      shape([[tx - 30 * k, y - bh - 120 * k], [tx - 26 * k, y - bh - 150 * k], [tx, y - bh - 168 * k], [tx + 26 * k, y - bh - 150 * k], [tx + 30 * k, y - bh - 120 * k]], '#4f6a64', { lw: 2, smooth: false });
+      line([[tx, y - bh - 168 * k], [tx, y - bh - 186 * k]], 1.6); line([[tx - 6 * k, y - bh - 180 * k], [tx + 6 * k, y - bh - 180 * k]], 1.6);
+      shape(rect(tx - 10 * k, y - bh - 100 * k, 20 * k, 34 * k), '#3e2f2c', { lw: 1.2 });
+    }
+    shape([[x - 16 * k, y], [x - 16 * k, y - 50 * k], [x, y - 64 * k], [x + 16 * k, y - 50 * k], [x + 16 * k, y]], '#3e2f2c', { lw: 1.6 });
+  } else {
+    shape([[x - bw / 2, y], [x - bw / 2, y - bh * .7], [x - bw * .3, y - bh * .5], [x - bw * .1, y - bh * .8], [x + bw * .1, y - bh * .35], [x + bw * .3, y - bh * .6], [x + bw / 2, y - bh * .3], [x + bw / 2, y]], '#8d6a62', { lw: 2 });
+    const tx = x - 62 * k; shape([[tx - 26 * k, y], [tx - 26 * k, y - bh - 60 * k], [tx - 6 * k, y - bh - 40 * k], [tx + 10 * k, y - bh - 75 * k], [tx + 26 * k, y - bh - 30 * k], [tx + 26 * k, y]], '#94716a', { lw: 2 });
+    shape(ell(x + 150 * k, y - 10 * k, 40 * k, 20 * k, 10), '#4f6a64', { lw: 1.6 }); // fallen dome
+  }
+}
+function nagasaki(t, ruin, cloudU = 0) {
+  if (ruin) sky(t, P.ashSky0, P.ashSky1, -900, 600); else sky(t, '#c8dcdc', '#f0e4cc', -900, 600);
+  if (!ruin) { cloud(300, -120, 420); cloud(1500, -260, 520); cloud(1000, 60, 300); }
+  // far hills and sea
+  shape([[-400, 520], [-400, 420], [300, 360], [900, 430], [1500, 350], [2300, 410], [2300, 520]], ruin ? '#a39d90' : '#a9bab5', { lw: 1.8, smooth: true });
+  shape(rect(-400, 500, 2700, 900), ruin ? '#8e9b98' : P.river, { lw: 0 });
+  for (let i = 0; i < 10; i++) line([[900 + i * 90 + Math.sin(t + i) * 10, 540 + (i % 4) * 30], [940 + i * 90 + Math.sin(t + i) * 10, 540 + (i % 4) * 30]], 1.3, false, ruin ? P.ink : '#ffffff', .5);
+  // nuclear cloud column behind the hills
+  if (cloudU > 0) mushroom(1040, 620, cloudU, t);
+  const g = []; for (let x = -400; x <= 2300; x += 40) g.push([x, nGround(x)]); g.push([2300, 1400], [-400, 1400]);
+  shape(g, ruin ? P.ashEarth : '#9fb08a', { lw: 2.2 });
+  mottle(-400, 300, 2700, 1100, .22);
+  // valley floor river
+  shape([[860, 620], [940, 620], [1060, 1400], [760, 1400]], ruin ? '#8e9b98' : P.river, { lw: 2 });
+  let drew = false;
+  for (const o of NHOUSES) {
+    if (!drew && o.y > 600) { cathedral(640, 600, .9, ruin); drew = true; }
+    house(o, ruin);
+  }
+  if (!drew) cathedral(640, 600, .9, ruin);
+  // factory chimneys along the valley
+  for (const cx of [980, 1120]) { if (ruin) line([[cx, 760], [cx + 6, 690]], 4, false, P.char); else { shape(rect(cx - 8, 600, 16, 160), '#8a7a6a', { lw: 1.6 }); } }
+}
+function mushroom(x, y, u, t) {
+  const h = 330 * eo(u), w = 44 + 70 * u;
+  const col = '#ddd2bd', sh = '#b7a990';
+  // stem
+  const st = []; for (let i = 0; i <= 10; i++) { const v = i / 10; st.push([x - w * .4 - Math.sin(v * 6 + t) * 10 * v, y - h * v]); } for (let i = 10; i >= 0; i--) { const v = i / 10; st.push([x + w * .4 + Math.sin(v * 5 + t * .8) * 12 * v, y - h * v]); }
+  shape(st, col, { lw: 2, smooth: true });
+  // cap: lumpy billows
+  const cr = 70 + 120 * eo(u), cy = y - h - cr * .25;
+  const cap = []; for (let i = 0; i < 22; i++) { const a = i / 22 * TAU; const r = cr * (1 + .12 * Math.sin(a * 5 + t * .6)); cap.push([x + Math.cos(a) * r * 1.25, cy + Math.sin(a) * r * .6]); }
+  shape(cap, col, { lw: 2, smooth: true });
+  clipTo(cap, () => shape(ell(x + cr * .4, cy + cr * .25, cr * 1.2, cr * .5, 20), sh, { lw: 0 }), true);
+  for (let i = 0; i < 5; i++) { const a = i * 1.3 + t * .1; line(ell(x + Math.cos(a) * cr * .6, cy + Math.sin(a) * cr * .2, cr * .35, cr * .16, 14).slice(0, 9), 1.4, true, P.ink, .6); }
+}
+
+// ---------------- scenes ----------------
+const H815 = 8 * 3600 + 15 * 60;
+function sceneRoomMorning(t) {
+  // 0 - 13.5: push toward the window, then through it
+  let s = lerp(1.42, 1.22, eio(seg(t, 0, 11.3))), cx = lerp(1000, 1160, eio(seg(t, 0, 11.3))), cy = lerp(640, 520, eio(seg(t, 0, 11.3)));
+  const u = eio(seg(t, 11.3, 13.5));
+  s = lerp(s, 1920 / 820, u); cx = lerp(cx, 1310, u); cy = lerp(cy, 130 + 461.25 / 2, u);
+  camR(cx, cy, s);
+  room(t, 'morning', windowView(() => hiroshima(t, false)));
+  softEll(470, 868, 90, 12, '#7a6a55', .45); softEll(760, 848, 160, 16, '#7a6a55', .45); softEll(1180, 872, 200, 14, '#7a6a55', .45);
+  vase(740, 845, 1);
+  teacup(480, 866);
+  bowl(1200, 800, [[-70, -40, 58], [60, -44, 60], [0, -70, 62]]);
+  pocketWatch(1500, 770, 78, H815 - 26 + t, false);
+}
+function sceneCity(t) {
+  // 13.5 - 22.5 : pan right, tilt up to the plane
+  const p = eio(seg(t, 13.5, 17.2)), q = eio(seg(t, 17.0, 19.4));
+  const cx = lerp(960, 1240, p), cy = lerp(540, 60, q), s = lerp(1, 1.04, seg(t, 13.5, 22.5));
+  cam(cx, cy, s);
+  hiroshima(t, false);
+  // plane
+  const px = lerp(500, 2000, seg(t, 14, 24)), py = -240;
+  if (t > 14) {
+    ctx.save(); ctx.globalAlpha = .85; line([[px - 110, py], [px - 900, py + 6]], 5, false, '#ffffff', .7); ctx.restore();
+    b29(px, py, .62);
+    if (t > 19.7) { const v = t - 19.7; shape(ell(px - 60 - v * 30 + (19.7 - 14) * 0, py + 10 + v * v * 40, 3.5, 6, 10), P.ink, { lw: 0 }); }
+  }
+  // birds
+  for (let i = 0; i < 4; i++) { const bx = 700 + i * 70 + (t - 13.5) * 40, by = 120 + i * 18 + Math.sin(t * 3 + i) * 4, f = Math.sin(t * 9 + i) * 6; line([[bx - 12, by - f], [bx, by], [bx + 12, by - f]], 1.8); }
+}
+function sceneWatch(t, t0, flash, endHold) {
+  const s = lerp(1.0, 1.08, seg(t, t0, flash + 2));
+  cam(960, 540, s);
+  shape(rect(-200, -200, 2400, 1500), P.wall, { lw: 0 });
+  mottle(-200, -200, 2400, 1500, .22);
+  shape(rect(-200, 900, 2400, 600), P.table, { lw: 2.4 });
+  const secs = t < flash ? H815 - 3 + Math.floor(t - (flash - 3)) : H815;
+  watchFace(960, 520, 360, secs, t >= flash);
+}
+function sceneSky(t) {
+  const cx = lerp(1100, 860, seg(t, 45, 53.5));
+  cam(cx, 540, 1.02);
+  sky(t, '#bcd3d6', '#eee3cf', -200, 1100);
+  for (let r = 0; r < 4; r++) for (let i = 0; i < 9; i++) {
+    const x = -200 + i * 290 + (r % 2) * 140 + Math.sin(i * 7 + r) * 40 - t * (6 + r * 4) % 290, y = 640 + r * 120;
+    cloud(x, y, 380 + r * 60, mix('#f4eee3', '#d9d2c4', r / 4));
+  }
+  shape(rect(-300, 1000, 2600, 300), '#d6cfc1', { lw: 0 });
+  ctx.fillStyle = C(P.ink); ctx.globalAlpha = .55 * env(t, 47, 53, .8, .8); ctx.font = `500 30px Mincho`; ctx.textAlign = 'center'; ctx.fillText('K O K U R A', 760, 760); ctx.globalAlpha = 1;
+  const u = seg(t, 45, 53.5);
+  b29(lerp(1700, 300, u), lerp(260, 380, u) - Math.sin(u * Math.PI) * 60, .9, lerp(-.05, .18, u));
+}
+function env(t, a, b, fi, fo) { return Math.min(seg(t, a, a + fi), 1 - seg(t, b - fo, b)); }
+function sceneNagasaki(t, flash) {
+  const cy = lerp(-120, 540, eio(seg(t, 53.4, 56.0))), s = lerp(1.0, 1.06, seg(t, 55, 63));
+  cam(960 + lerp(0, 40, seg(t, 55, 63)), cy, s);
+  const ruin = t >= flash;
+  nagasaki(t, ruin, ruin ? seg(t, flash + .2, flash + 6) : 0);
+}
+function sceneDusk(t) {
+  const cx = lerp(1350, 1150, eio(seg(t, 63, 74.5)));
+  camR(cx, 700, 1.4);
+  room(t, 'dusk', windowView(() => { sky(t, '#6e5a73', '#d9925f', -700, 640); hills(true); shape([[-600, 615], [3000, 615], [3000, 1300], [-600, 1300]], '#5e534c', { lw: 0 }); dome(1040, 748, .62, true); for (const o of HOUSES) if (o.r > 3) house(o, true); }));
+  softEll(1200, 846, 200, 14, '#3b2f2a', .5);
+  radio(1200, 845, t);
+  pocketWatch(1520, 790, 70, H815, true);
+  softEll(820, 850, 160, 16, '#3b2f2a', .4);
+  vase(840, 848, .95);
+}
+function radio(cx, base, t) {
+  const w = 300, h = 230;
+  const body = [[cx - w / 2, base], [cx - w / 2, base - h * .7], [cx - w * .4, base - h * .92], [cx - w * .15, base - h], [cx + w * .15, base - h], [cx + w * .4, base - h * .92], [cx + w / 2, base - h * .7], [cx + w / 2, base]];
+  shape(body, '#7b5a46', { lw: 2.6, smooth: true });
+  clipTo(body, () => shape(rect(cx + w * .25, base - h, w * .3, h), '#664a3a', { lw: 0 }), true);
+  const gr = [[cx - w * .36, base - h * .18], [cx - w * .36, base - h * .66], [cx - w * .2, base - h * .82], [cx + w * .2, base - h * .82], [cx + w * .36, base - h * .66], [cx + w * .36, base - h * .18]];
+  shape(gr, '#c8b48f', { lw: 2, smooth: true });
+  for (let i = -3; i <= 3; i++) line([[cx + i * w * .09, base - h * .2], [cx + i * w * .09, base - h * .76]], 3, false, '#6b4f3e');
+  const glow = .75 + .25 * hash(Math.floor(t * 12) * 1.7);
+  shape(rect(cx - w * .22, base - h * .14, w * .44, h * .09), mix('#f0c070', '#fff0c0', glow - .75), { lw: 1.6 });
+  softEll(cx, base - h * .1, 120, 40, '#f0c070', .35 * glow);
+  for (const k of [-1, 1]) shape(ell(cx + k * w * .38, base - h * .1, 13, 13, 14), '#3e2f2c', { lw: 1.6 });
+}
+const CRANES = (() => {
+  const R = mulberry(2024), out = []; const cols = ['#b8434a', '#f6efe6', '#7fa7a8', '#d8a77f', '#8c5c66', '#e3b85a', '#c9525a', '#9bb8b9'];
+  for (let i = 0; i < 26; i++) out.push({ x: 520 + R() * 800, y: 770 + R() * 80, s: 1.25 + R() * .35, c: cols[i % cols.length], f: R() < .5 ? -1 : 1, t: 75.6 + i * (15.6 / 26) + R() * .2 });
+  return out.sort((a, b) => a.y - b.y);
+})();
+const STRINGS = [180, 290, 400, 1120].map((x, i) => ({ x, n: 9, c0: i }));
+function sceneCranes(t) {
+  const s = lerp(1.0, 1.1, eio(seg(t, 74, 92))), cx = lerp(960, 900, seg(t, 74, 92));
+  camR(cx, 560, s);
+  shape(rect(-300, -300, 2600, 1700), '#dfe2d3', { lw: 0 }); mottle(-300, -300, 2600, 1700, .2);
+  // window
+  shape(rect(1220, 110, 560, 560), P.frame, { lw: 2.4 });
+  clipTo(rect(1244, 134, 512, 512), () => { sky(t, '#b9d3d8', '#f1e7d2', 134, 646); cloud(1400, 420, 260); cloud(1660, 300, 200); line([[1760, 200], [1600, 300], [1520, 290]], 6, true, P.post); for (let i = 0; i < 6; i++) shape(ell(1560 + i * 28, 296 - (i % 2) * 18, 26, 14, 10, .3), P.tree, { lw: 1.4 }); });
+  shape(rect(1244, 134, 512, 512), null, { lw: 2.4 }); line([[1500, 134], [1500, 646]], 6, false, P.frame); line([[1500, 134], [1500, 646]], 2);
+  // table with cloth
+  shape([[430, 780], [1400, 780], [1440, 880], [390, 880]], '#efe9dc', { lw: 2.4 });
+  shape([[390, 880], [1440, 880], [1440, 1400], [390, 1400]], '#8a6a55', { lw: 2.4 });
+  shape([[390, 880], [1440, 880], [1440, 940], [1380, 960], [1300, 935], [1180, 962], [1060, 936], [940, 962], [820, 936], [700, 962], [580, 936], [460, 960], [390, 938]], '#f4efe4', { lw: 2.2 });
+  // hanging strings of cranes
+  const cols = ['#b8434a', '#f6efe6', '#7fa7a8', '#d8a77f', '#e3b85a', '#8c5c66'];
+  for (const st of STRINGS) {
+    const shown = Math.floor(clamp((t - 76 - st.c0 * 1.3) / 1.6, 0, st.n));
+    if (shown <= 0) continue;
+    line([[st.x, -300], [st.x, 40 + shown * 62]], 1.2);
+    for (let k = 0; k < shown; k++) { const lift = flyU(t, st.x, k); if (lift >= 1) continue; crane(st.x + lift * 1400, 70 + k * 62 - lift * 600, .85, cols[(k + st.c0) % cols.length], Math.sin(t * 10 + k) * .5 * Math.min(1, lift * 8) + .3, 1, 0); }
+  }
+  for (const c of CRANES) {
+    if (t < c.t) continue;
+    const p = back(seg(t, c.t, c.t + .35), 2.2);
+    const lift = flyU(t, c.x, c.y);
+    if (lift >= 1) continue;
+    const fl = lift > 0 ? (Math.sin(t * 14 + c.x) * .5 + .5) : 0;
+    const tx = 2150 + hash(c.x) * 300, ty = -350 + hash(c.y) * 250;
+    crane(lerp(c.x, tx, lift * lift), lerp(c.y, ty, lift) - Math.sin(lift * Math.PI) * 120, c.s * p * (1 + lift * .3), c.c, fl, 1, -lift * .25);
+  }
+}
+function flyU(t, a, b) { return eio(seg(t, 92.0 + hash(a * .01 + b * .1) * 1.2, 95.6 + hash(a * .02 + b) * .6)); }
+function craneWipe(t) {
+  // big near cranes sweeping right→left, covering the cut at T.end0
+  const u = seg(t, 94.6, 97.4); if (u <= 0 || u >= 1) return;
+  ctx.setTransform(SX, 0, 0, SX, 0, 0); CS = SX;
+  const cols = ['#b8434a', '#f6efe6', '#7fa7a8', '#d8a77f', '#e3b85a', '#8c5c66'];
+  const R = mulberry(3);
+  for (let i = 0; i < 20; i++) {
+    const d = R(), off = (i / 20 - .5) * 1800 + (R() - .5) * 300, x = lerp(3000, -1100, u) + off, y = -120 + ((i * 7) % 20) / 20 * 1300 + (R() - .5) * 80, s = 2.6 + d * 3.6;
+    crane(x + (d - .5) * 400, y, s, cols[i % cols.length], Math.sin(t * 8 + i) * .5 + .5, -1, -.1);
+  }
+}
+function sceneEnd(t) {
+  const u = eio(seg(t, 95.8, 111));
+  camR(lerp(1100, 960, u), lerp(480, 540, u), lerp(1.16, 1.0, u));
+  room(t, 'end', windowView(() => {
+    sky(t, '#bcd7dc', '#f2e7d0');
+    for (let i = 0; i < 5; i++) cloud(((i * 600 + t * 6) % 3200) - 600, 80 + (i % 2) * 140, 300);
+    hills(false);
+    shape([[-600, 615], [3000, 615], [3000, 1300], [-600, 1300]], '#a9b88f', { lw: 0 });
+    const rv = []; for (let y = 612; y <= 1300; y += 20) rv.push([riverEdges(y)[0], y]); for (let y = 1300; y >= 612; y -= 20) rv.push([riverEdges(y)[1], y]);
+    shape(rv, P.river, { lw: 2 });
+    bridge(760, 1);
+    const R = mulberry(8);
+    for (let i = 0; i < 16; i++) { const x = 180 + i * 140 + R() * 40; if (x > 700 && x < 1300) continue; shape(rect(x, 560 - R() * 140, 110, 200), '#e6dccb', { lw: 1.6 }); }
+    dome(1040, 748, .62, true);
+    for (let i = 0; i < 40; i++) { const x = -100 + R() * 2200, y = 640 + R() * 420; if (x > 700 && x < 1100 && y < 760) continue; const [a, b] = riverEdges(y); if (x > a - 40 && x < b + 20) continue; const r = 40 + R() * 50; const p = ell(x, y - r * .5, r, r * .8, 16); shape(p, P.tree, { lw: 1.6, smooth: true }); clipTo(p, () => shape(ell(x + r * .4, y - r * .2, r, r * .8, 14), P.treeSh, { lw: 0 }), true); }
+  }));
+  softEll(470, 868, 90, 12, '#7a6a55', .45); softEll(760, 848, 160, 16, '#7a6a55', .45); softEll(1180, 872, 200, 14, '#7a6a55', .45);
+  oleander(740, 845, t);
+  vase(740, 845, 1);
+  teacup(480, 866);
+  bowl(1200, 800, [[-70, -40, 58], [60, -44, 60], [0, -70, 62]]);
+  crane(380, 842, .9, '#b8434a', .15, 1); crane(1000, 870, .8, '#f6efe6', .2, -1); crane(1640, 880, .85, '#7fa7a8', .1, -1);
+  pocketWatch(1500, 770, 78, H815, true);
+  // a falling petal
+  const pu = seg(t, 105.5, 111.5);
+  if (pu > 0 && pu < 1) blossom(lerp(860, 1010, pu) + Math.sin(pu * 9) * 30, lerp(330, 830, ei(pu) * .4 + pu * .6), 12, '#f3c6cc', pu * 6);
+}
+function oleander(cx, top, t) {
+  const sw = Math.sin(t * .8) * 3;
+  const br = [
+    [[cx - 6, top - 390], [cx - 60, top - 520], [cx - 140, top - 600], [cx - 250, top - 640]],
+    [[cx, top - 400], [cx + 10, top - 560], [cx + 40, top - 700], [cx + 30, top - 790]],
+    [[cx + 8, top - 392], [cx + 90, top - 500], [cx + 190, top - 560], [cx + 300, top - 600]],
+    [[cx - 3, top - 395], [cx - 30, top - 560], [cx - 80, top - 690]],
+    [[cx + 4, top - 395], [cx + 70, top - 600], [cx + 140, top - 700]],
+  ];
+  for (const b of br) {
+    const pts = b.map(([x, y], i) => [x + sw * i, y]);
+    line(pts, 4, true, '#4a3226');
+    // narrow leaves
+    for (let i = 1; i < pts.length; i++) { const [x, y] = pts[i]; for (const sgn of [-1, 1]) shape([[x, y], [x + sgn * 46, y + 14], [x + sgn * 80, y + 26], [x + sgn * 40, y + 6]], '#6f8a5c', { lw: 1.4, smooth: true }); }
+  }
+  for (const b of br) {
+    const pts = b.map(([x, y], i) => [x + sw * i, y]); const e = pts[pts.length - 1];
+    const R = mulberry(Math.floor(e[0] * 3 + e[1]));
+    for (let k = 0; k < 5; k++) blossom(e[0] + (R() - .5) * 90, e[1] + (R() - .5) * 70, 22 + R() * 8, k % 3 ? '#efb2bb' : '#f6efe6', R() * 6);
+    const m = pts[Math.max(1, pts.length - 2)]; blossom(m[0] + 12, m[1] - 10, 20, '#e79aa6', 1);
+  }
+}
+
+// ---------------- text: titles, subtitles, cards ----------------
+const TITLES = [
+  { id: 'title1', t0: 1.0, t1: 8.2, a: 'HIROSHIMA', b: '6 August 1945' },
+  { id: 'title2', t0: 46.0, t1: 53.2, a: 'NAGASAKI', b: '9 August 1945' },
+  { id: 'title3', t0: 63.6, t1: 70.2, a: 'JAPAN', b: '15 August 1945' },
+];
+function titleAt(t) { return TITLES.find(o => t >= o.t0 && t < o.t1); }
+function drawTitle(t) {
+  const o = titleAt(t); if (!o) return;
+  const a = Math.min(seg(t, o.t0, o.t0 + .6), 1 - seg(t, o.t1 - .6, o.t1));
+  ctx.setTransform(SX, 0, 0, SX, 0, 0);
+  ctx.globalAlpha = a; ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
+  ctx.fillStyle = 'rgba(46,33,29,.5)'; ctx.beginPath(); ctx.roundRect(70, 60, 470, 122, 12); ctx.fill();
+  ctx.fillStyle = '#b8434a'; ctx.fillRect(86, 76, 4, 90);
+  ctx.fillStyle = '#f6efe6'; ctx.shadowColor = 'rgba(46,33,29,.55)'; ctx.shadowBlur = 12;
+  ctx.font = '500 46px Mincho'; ctx.letterSpacing = '10px'; ctx.fillText(o.a, 108, 116);
+  ctx.font = '400 30px Mincho'; ctx.letterSpacing = '3px'; ctx.fillText(o.b, 110, 158);
+  ctx.letterSpacing = '0px'; ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+}
+function drawSub(t) {
+  const s = SUBS.find(c => t >= c.t0 && t < c.t1); if (!s) return;
+  const a = Math.min(seg(t, s.t0, s.t0 + .25), 1 - seg(t, s.t1 - .25, s.t1));
+  ctx.setTransform(SX, 0, 0, SX, 0, 0);
+  const rows = s.text.split('\n'); ctx.font = '500 40px Mincho'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  const wmax = Math.max(...rows.map(r => ctx.measureText(r).width));
+  const y0 = 1010 - (rows.length - 1) * 52;
+  ctx.globalAlpha = a * .55; ctx.fillStyle = '#2e211d';
+  const bx = 960 - wmax / 2 - 34, by = y0 - 38, bw = wmax + 68, bh = rows.length * 52 + 24;
+  ctx.beginPath(); ctx.roundRect(bx, by, bw, bh, 14); ctx.fill();
+  ctx.globalAlpha = a; ctx.fillStyle = '#f6efe6';
+  rows.forEach((r, i) => ctx.fillText(r, 960, y0 + i * 52));
+  ctx.globalAlpha = 1;
+}
+const CARDS = [
+  { t0: T.card1, t1: T.card2, head: 'Sources', lead: 'In memory of the people of Hiroshima and Nagasaki, and of the hibakusha.', items: [
+    ['Radiation Effects Research Foundation (RERF), “Frequently Asked Questions”', 'rerf.or.jp/en/faq'],
+    ['Atomic Heritage Foundation, “Bombings of Hiroshima and Nagasaki – 1945”', 'ahf.nuclearmuseum.org'],
+    ['City of Nagasaki, “At 11:02 a.m. August 9, 1945”', 'nagasakipeace.jp'],
+  ] },
+  { t0: T.card2, t1: T.end, head: 'Sources (continued)', lead: '', items: [
+    ['City of Hiroshima, “Paper Cranes and Children’s Peace Monument”', 'city.hiroshima.lg.jp'],
+    ['City of Hiroshima, “City Tree (Camphor) and City Flower (Oleander)”', 'city.hiroshima.lg.jp'],
+    ['Hiroshima Peace Memorial Museum, Virtual Museum', 'hpmmuseum.jp'],
+  ] },
+];
+function drawCard(t) {
+  const c = CARDS.find(o => t >= o.t0 && t < o.t1); if (!c) return false;
+  ctx.setTransform(SX, 0, 0, SX, 0, 0); CS = SX;
+  ctx.fillStyle = '#2b221f'; ctx.fillRect(0, 0, 1920, 1080);
+  ctx.save(); ctx.globalCompositeOperation = 'soft-light'; ctx.globalAlpha = .15; ctx.drawImage(TEX, 0, 0, 1920, 1080); ctx.restore();
+  const a = Math.min(seg(t, c.t0, c.t0 + .7), c.t1 === T.end ? 1 - seg(t, T.end - 1.2, T.end - .2) : 1 - seg(t, c.t1 - .5, c.t1));
+  ctx.globalAlpha = a; ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
+  let y = 250;
+  if (c.lead) { ctx.fillStyle = '#d8a77f'; ctx.font = '400 36px Mincho'; ctx.fillText(c.lead, 220, 200); y = 330; }
+  ctx.fillStyle = '#f6efe6'; ctx.font = '500 52px Mincho'; ctx.letterSpacing = '6px'; ctx.fillText(c.head.toUpperCase(), 220, y); ctx.letterSpacing = '0px';
+  ctx.fillStyle = '#b8434a'; ctx.fillRect(222, y + 28, 90, 4);
+  c.items.forEach(([a1, b1], i) => {
+    const yy = y + 130 + i * 150;
+    ctx.fillStyle = '#f6efe6'; ctx.font = '400 38px Mincho'; ctx.fillText(a1, 220, yy);
+    ctx.fillStyle = '#9bb8b9'; ctx.font = '400 32px Mincho'; ctx.fillText(b1, 220, yy + 50);
+  });
+  ctx.globalAlpha = 1;
+  return true;
+}
+window.TEXTS = t => {
+  const out = [];
+  const o = titleAt(t); if (o) out.push({ id: o.id + 'a', text: o.a, x0: 100, y0: 70, x1: 520, y1: 125 }, { id: o.id + 'b', text: o.b, x0: 100, y0: 128, x1: 520, y1: 165 });
+  const c = CARDS.find(k => t >= k.t0 && t < k.t1);
+  if (c) {
+    let y = 250; if (c.lead) { out.push({ id: 'lead' + c.t0, text: c.lead, x0: 220, y0: 165, x1: 1700, y1: 210 }); y = 330; }
+    out.push({ id: 'head' + c.t0, text: c.head, x0: 220, y0: y - 50, x1: 900, y1: y + 10 });
+    c.items.forEach(([a1, b1], i) => out.push({ id: `src${c.t0}_${i}`, text: a1 + ' ' + b1, x0: 220, y0: y + 90 + i * 150, x1: 1750, y1: y + 190 + i * 150 }));
+  }
+  if (t >= 47 && t < 53) out.push({ id: 'kokura', text: 'KOKURA', x0: 640, y0: 730, x1: 880, y1: 770 });
+  return out;
+};
+
+// ---------------- render ----------------
+function flashA(t, f) { return t < f ? 0 : 1 - eo(seg(t, f + .2, f + 1.1)); }
+window.DUR = T.end;
+window.render = t => {
+  BF = Math.floor(t * 12); CS = SX; DR = 0;
+  ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.fillStyle = P.paper; ctx.fillRect(0, 0, W, H);
+  if (!drawCard(t)) {
+    if (t < 13.5) sceneRoomMorning(t);
+    else if (t < 22.5) sceneCity(t);
+    else if (t < 28.0) { DR = t >= T.flash1 ? 1 : 0; sceneWatch(t, 22.5, T.flash1); }
+    else if (t < 45.0) { DR = 1 - ss(seg(t, 28.6, 31.5)); cam(lerp(1060, 990, eio(seg(t, 28, 45))), lerp(560, 520, eio(seg(t, 28, 45))), lerp(1.2, 1.0, eio(seg(t, 28, 45)))); hiroshima(t, true, ss(seg(t, 33, 35)) * (1 - seg(t, 43, 45)) * .55); }
+    else if (t < 53.4) sceneSky(t);
+    else if (t < 63.0) { DR = t >= T.flash2 ? 1 - ss(seg(t, T.flash2 + 1.6, T.flash2 + 3.6)) : 0; sceneNagasaki(t, T.flash2); }
+    else if (t < 74.0) sceneDusk(t);
+    else if (t < 95.6) sceneCranes(t);
+    else if (t < 96.6) { sceneEnd(t); drawTo(octx, () => sceneCranes(t)); ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.globalAlpha = 1 - ss(seg(t, 95.6, 96.6)); ctx.drawImage(off, 0, 0); ctx.globalAlpha = 1; }
+    else sceneEnd(t);
+    craneWipe(t);
+    // white flashes
+    const fa = Math.max(flashA(t, T.flash1), flashA(t, T.flash2) * .9);
+    if (fa > 0) { ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.fillStyle = `rgba(255,252,244,${fa})`; ctx.fillRect(0, 0, W, H); }
+    // fade from/to black at the edges of the film body
+    const fb = Math.max(1 - seg(t, 0, .8), seg(t, T.card1 - 1.2, T.card1));
+    if (fb > 0) { ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.fillStyle = `rgba(43,34,31,${fb})`; ctx.fillRect(0, 0, W, H); }
+    drawTitle(t);
+  }
+  drawSub(t);
+};
+window.EV = (await import('./timeline.js')).EV;
+await document.fonts.load('500 40px Mincho'); await document.fonts.load('400 40px Mincho');
+window.READY = true;
+</script></body></html>

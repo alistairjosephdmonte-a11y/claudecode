@@ -1,0 +1,94 @@
+[
+ {
+  "id": "l01",
+  "text": "Hiroshima. The sixth of August, nineteen forty-five.",
+  "sub": "Hiroshima. 6 August 1945.",
+  "voice": "af_heart",
+  "speed": 0.9,
+  "asr": "Hiroshima, the 6th of August, 1945."
+ },
+ {
+  "id": "l02",
+  "text": "A city of rivers and bridges, of trams and schools. The working day had just begun.",
+  "sub": "A city of rivers and bridges, of trams and schools.|The working day had just begun.",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ {
+  "id": "l03",
+  "text": "At eight fifteen, an American B-29 bomber, the Enola Gay, released a single atomic bomb.",
+  "sub": "At 8:15, an American B-29 bomber, the Enola Gay,|released a single atomic bomb.",
+  "asr": "At 8.15, an American B-29 bomber, the Enola Gay, released a single atomic bomb.",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ {
+  "id": "l04",
+  "text": "It exploded about six hundred metres above the city. In an instant, the heart of Hiroshima was gone.",
+  "sub": "It exploded about 600 metres above the city.|In an instant, the heart of Hiroshima was gone.",
+  "voice": "af_heart",
+  "speed": 0.9,
+  "asr": "It exploded about 600 meters above the city. In an instant, the heart of Hiroshima was gone."
+ },
+ {
+  "id": "l05",
+  "text": "In the months that followed, an estimated ninety thousand to a hundred and sixty-six thousand people died.",
+  "sub": "In the months that followed, an estimated|90,000 to 166,000 people died.",
+  "voice": "af_heart",
+  "speed": 0.9,
+  "asr": "In the months that followed, an estimated 90,000 to a hundred and sixty-six thousand people died."
+ },
+ {
+  "id": "l06",
+  "text": "Three days later, clouds hid the city of Kokura, so a second bomber, Bocks-car, turned toward Nagasaki.",
+  "sub": "Three days later, clouds hid the city of Kokura,|so a second bomber, Bockscar, turned toward Nagasaki.",
+  "voice": "af_heart",
+  "speed": 0.9,
+  "asr": "Three days later, clouds hid the city of Kokura, so a second bomber, boxgar, turned toward Nagasaki."
+ },
+ {
+  "id": "l07",
+  "text": "At eleven-oh-two, a plutonium bomb exploded over the Oorah-kahmi valley. Sixty to eighty thousand people died.",
+  "sub": "At 11:02, a plutonium bomb exploded over the Urakami valley.|60,000 to 80,000 people died.",
+  "voice": "af_heart",
+  "speed": 0.9,
+  "asr": "At 11.02, a plutonium bomb exploded over the Ura-Kami Valley. 60 to 80,000 people died."
+ },
+ {
+  "id": "l08",
+  "text": "On the fifteenth of August, Japan announced its surrender. The war was over. For the survivors, the hibakusha, it was not.",
+  "sub": "On 15 August, Japan announced its surrender. The war was over.|For the survivors, the hibakusha, it was not.",
+  "voice": "af_heart",
+  "speed": 0.9,
+  "asr": "On the 15th of August, Japan announced its surrender. The war was over. For the survivors, the Hibakusha, it was not."
+ },
+ {
+  "id": "l09",
+  "text": "Sadako Sasaki was two years old when the bomb fell on Hiroshima. At twelve, sick with leukemia, she folded paper cranes, hoping to live.",
+  "sub": "Sadako Sasaki was 2 years old when the bomb fell on Hiroshima.|At 12, sick with leukemia, she folded paper cranes, hoping to live.",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ {
+  "id": "l10",
+  "text": "After she died, her classmates raised a monument to her, and to every child the bombs had taken.",
+  "sub": "After she died, her classmates raised a monument to her,|and to every child the bombs had taken.",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ {
+  "id": "l11",
+  "text": "The next spring, in the ashes, the oleander bloomed.",
+  "sub": "The next spring, in the ashes, the oleander bloomed.",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ {
+  "id": "l12",
+  "text": "Every year at eight fifteen, Hiroshima falls silent. And the survivors keep telling their story, so that it never happens again.",
+  "sub": "Every year at 8:15, Hiroshima falls silent.|And the survivors keep telling their story, so that it never happens again.",
+  "voice": "af_heart",
+  "speed": 0.9,
+  "asr": "Every year at 815, Hiroshima falls silent, and the survivors keep telling their story so that it never happens again."
+ }
+]
