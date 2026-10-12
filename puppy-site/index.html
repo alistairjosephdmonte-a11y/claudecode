@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wagtail Hollow · Puppy Rescue</title>
+<meta name="description" content="A make-believe puppy rescue. Scroll the first night home and watch the puppy fall asleep.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='9' fill='%230e2233'/><circle cx='16' cy='17' r='8' fill='%23ffb830'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&family=Geist:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="scrollcraft.css">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<span data-sc-progress></span>
+<div class="sc-grain" aria-hidden="true"></div>
+
+<header class="bar">
+  <a class="bar__mark" href="#top" aria-label="Wagtail Hollow, home"><span class="bar__dot" aria-hidden="true"></span>Wagtail Hollow</a>
+  <nav class="bar__nav" aria-label="Primary">
+    <a href="#meet">Puppies</a>
+    <a href="#how">How it works</a>
+    <a class="bar__cta" href="#chat">Start an adoption chat</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- 1 · RECOGNITION: pin + layered parallax scene -->
+  <section id="top" data-sc-act="pin" data-sc-span="2.2" data-sc-drift="#0e2233">
+    <div data-sc-stage class="hero">
+      <div class="hero__sky" data-sc-parallax="-1.2" aria-hidden="true"><i class="moon"></i></div>
+      <svg class="hero__hills hero__hills--back" data-sc-parallax="-0.5" viewBox="0 0 1440 400" preserveAspectRatio="none" aria-hidden="true"><path d="M0 220C180 120 340 140 520 200s380 60 560-30 260-20 360 20V400H0Z" fill="#1b3a55"/></svg>
+      <svg class="hero__hills hero__hills--mid" data-sc-parallax="-0.2" viewBox="0 0 1440 400" preserveAspectRatio="none" aria-hidden="true"><path d="M0 260C220 190 420 230 640 270s420 20 800-70V400H0Z" fill="#132c42"/></svg>
+      <div class="hero__pup" style="--coat:#d99a55;--belly:#f6e2bd;--ear:#8a5226">
+<svg class="pup hero__svg" viewBox="0 0 200 224" role="img" aria-hidden="true" focusable="false">
+  <ellipse cx="100" cy="216" rx="70" ry="7" fill="#000" opacity=".22"/>
+  <path class="tail" d="M150 176c26-4 34-30 24-48" fill="none" stroke="var(--coat)" stroke-width="15" stroke-linecap="round"/>
+  <ellipse cx="100" cy="152" rx="58" ry="62" fill="var(--coat)"/>
+  <ellipse cx="100" cy="168" rx="31" ry="40" fill="var(--belly)"/>
+  <ellipse cx="76" cy="206" rx="17" ry="10" fill="var(--belly)"/>
+  <ellipse cx="124" cy="206" rx="17" ry="10" fill="var(--belly)"/>
+  <ellipse cx="50" cy="78" rx="19" ry="36" transform="rotate(18 50 78)" fill="var(--ear)"/>
+  <ellipse cx="150" cy="78" rx="19" ry="36" transform="rotate(-18 150 78)" fill="var(--ear)"/>
+  <ellipse cx="100" cy="80" rx="53" ry="47" fill="var(--coat)"/>
+  <circle cx="75" cy="70" r="17" fill="var(--ear)"/>
+  <ellipse cx="100" cy="100" rx="27" ry="21" fill="var(--belly)"/>
+  <circle cx="76" cy="72" r="9.5" fill="#fff8ec"/>
+  <circle cx="124" cy="72" r="9.5" fill="#fff8ec"/>
+  <g class="pupils pupils--live">
+    <circle class="pupil pupil--l" cx="76" cy="73" r="5.6" fill="#1b1410"/>
+    <circle class="pupil pupil--r" cx="124" cy="73" r="5.6" fill="#1b1410"/>
+  </g>
+  
+  <ellipse cx="100" cy="90" rx="10" ry="7" fill="#1b1410"/>
+  <path d="M100 96v6M100 102c-7 7-14 4-16 0M100 102c7 7 14 4 16 0" fill="none" stroke="#1b1410" stroke-width="2.6" stroke-linecap="round"/>
+</svg></div>
+      <svg class="hero__grass" data-sc-parallax="0.8" viewBox="0 0 1440 200" preserveAspectRatio="none" aria-hidden="true"><rect y="132" width="1440" height="80" fill="#0b1c2c"/><path d="M0 200V90l30 40 22-60 28 62 30-44 24 54 28-70 26 66 30-50 24 58 30-62 26 56 28-46 24 52 30-64 26 62 28-50 24 56 30-66 24 60 30-48 26 56 28-60 24 52 30-62 26 58 28-52 24 60 30-64 26 56 28-48 24 58 30-62 26 54 28-56 24 62 30-60 26 52 28-58 24 60 30-64 26 56 28-48 24 58 30-62 26 54 28-56 24 62 30-60 26 52 28-58 24 60 30-64 26 56 28-48 24 58H1440V200Z" fill="#0b1c2c"/></svg>
+      <div class="hero__copy" data-sc-cue="0 0.8 0">
+        <p class="kicker">Puppy rescue · make-believe, but we mean it</p>
+        <h1 class="sc-display hero__h" data-sc-kinetic="lines">Someone small is waiting for you.</h1>
+        <p class="sc-body">Wagtail Hollow matches five-pound bundles of trouble with people who will leave a light on for them.</p>
+        <a class="cta" href="#chat" data-sc-magnet="0.26" data-sc-rise="0">Start an adoption chat</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 · TURN: flow statement -->
+  <section class="sc-section turn" data-sc-act="flow" data-sc-drift="#10283c">
+    <div class="sc-wrap turn__in">
+      <h2 class="sc-display sc-display--lg" data-sc-in>They do not need you to be ready. They need you to show up.</h2>
+      <div class="sc-stack turn__body" data-sc-in data-sc-stagger="90">
+        <p class="sc-body">Every puppy here has already picked a favourite sock, a favourite corner and, quietly, a favourite person. We just have not met that person yet.</p>
+        <p class="sc-body">So we do not ask for a perfect house. We ask a few honest questions, we listen, and then we introduce you.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 · RANGE: pan -->
+  <section id="meet" data-sc-act="pan" data-sc-span="3.4" data-sc-drift="#0c1f30">
+    <div data-sc-stage class="meet">
+      <div class="rail" data-sc-pan="0.06">
+        <div class="rail__lead sc-stack">
+          <h2 class="sc-display sc-display--md">Meet this week's five.</h2>
+          <p class="sc-body">Shortlist the ones that make you grin. Your list comes with you to the chat.</p>
+          <p class="shortlist" aria-live="polite"><span id="count">0</span> on your shortlist</p>
+        </div>
+        <article class="dog" style="--coat:#c98a4b;--belly:#f3dcb6;--ear:#6b3f1f">
+          <div class="dog__pic" data-sc-tilt="7">
+<svg class="pup dog__pup" viewBox="0 0 200 224" role="img" aria-hidden="true" focusable="false">
+  <ellipse cx="100" cy="216" rx="70" ry="7" fill="#000" opacity=".22"/>
+  <path class="tail" d="M150 176c26-4 34-30 24-48" fill="none" stroke="var(--coat)" stroke-width="15" stroke-linecap="round"/>
+  <ellipse cx="100" cy="152" rx="58" ry="62" fill="var(--coat)"/>
+  <ellipse cx="100" cy="168" rx="31" ry="40" fill="var(--belly)"/>
+  <ellipse cx="76" cy="206" rx="17" ry="10" fill="var(--belly)"/>
+  <ellipse cx="124" cy="206" rx="17" ry="10" fill="var(--belly)"/>
+  <ellipse cx="50" cy="78" rx="19" ry="36" transform="rotate(18 50 78)" fill="var(--ear)"/>
+  <ellipse cx="150" cy="78" rx="19" ry="36" transform="rotate(-18 150 78)" fill="var(--ear)"/>
+  <ellipse cx="100" cy="80" rx="53" ry="47" fill="var(--coat)"/>
+  <circle cx="75" cy="70" r="17" fill="var(--ear)"/>
+  <ellipse cx="100" cy="100" rx="27" ry="21" fill="var(--belly)"/>
+  <circle cx="76" cy="72" r="9.5" fill="#fff8ec"/>
+  <circle cx="124" cy="72" r="9.5" fill="#fff8ec"/>
+  <g class="pupils">
+    <circle class="pupil pupil--l" cx="76" cy="73" r="5.6" fill="#1b1410"/>
+    <circle class="pupil pupil--r" cx="124" cy="73" r="5.6" fill="#1b1410"/>
+  </g>
+  
+  <ellipse cx="100" cy="90" rx="10" ry="7" fill="#1b1410"/>
+  <path d="M100 96v6M100 102c-7 7-14 4-16 0M100 102c7 7 14 4 16 0" fill="none" stroke="#1b1410" stroke-width="2.6" stroke-linecap="round"/>
+</svg></div>
+          <div class="dog__meta"><h3>Pip</h3><p class="dog__sub">10 weeks · Beagle mix</p></div>
+          <p class="dog__tag">Professional sock thief. Returns them, eventually.</p>
+          <button class="save" type="button" aria-pressed="false" data-name="Pip"><span class="save__icon" aria-hidden="true">♡</span><span class="save__txt">Shortlist Pip</span></button>
+        </article>
+        <article class="dog" style="--coat:#e0aa5c;--belly:#fbe9c4;--ear:#b97a32">
+          <div class="dog__pic" data-sc-tilt="7">
+<svg class="pup dog__pup" viewBox="0 0 200 224" role="img" aria-hidden="true" focusable="false">
+  <ellipse cx="100" cy="216" rx="70" ry="7" fill="#000" opacity=".22"/>
+  <path class="tail" d="M150 176c26-4 34-30 24-48" fill="none" stroke="var(--coat)" stroke-width="15" stroke-linecap="round"/>
+  <ellipse cx="100" cy="152" rx="58" ry="62" fill="var(--coat)"/>
+  <ellipse cx="100" cy="168" rx="31" ry="40" fill="var(--belly)"/>
+  <ellipse cx="76" cy="206" rx="17" ry="10" fill="var(--belly)"/>
+  <ellipse cx="124" cy="206" rx="17" ry="10" fill="var(--belly)"/>
+  <ellipse cx="50" cy="78" rx="19" ry="36" transform="rotate(18 50 78)" fill="var(--ear)"/>
+  <ellipse cx="150" cy="78" rx="19" ry="36" transform="rotate(-18 150 78)" fill="var(--ear)"/>
+  <ellipse cx="100" cy="80" rx="53" ry="47" fill="var(--coat)"/>
+  <circle cx="75" cy="70" r="17" fill="var(--ear)"/>
+  <ellipse cx="100" cy="100" rx="27" ry="21" fill="var(--belly)"/>
+  <circle cx="76" cy="72" r="9.5" fill="#fff8ec"/>
+  <circle cx="124" cy="72" r="9.5" fill="#fff8ec"/>
+  <g class="pupils">
+    <circle class="pupil pupil--l" cx="76" cy="73" r="5.6" fill="#1b1410"/>
+    <circle class="pupil pupil--r" cx="124" cy="73" r="5.6" fill="#1b1410"/>
+  </g>
+  
+  <ellipse cx="100" cy="90" rx="10" ry="7" fill="#1b1410"/>
+  <path d="M100 96v6M100 102c-7 7-14 4-16 0M100 102c7 7 14 4 16 0" fill="none" stroke="#1b1410" stroke-width="2.6" stroke-linecap="round"/>
+</svg></div>
+          <div class="dog__meta"><h3>Maple</h3><p class="dog__sub">12 weeks · Golden mix</p></div>
+          <p class="dog__tag">Calm after the first ten minutes. The first ten are a lot.</p>
+          <button class="save" type="button" aria-pressed="false" data-name="Maple"><span class="save__icon" aria-hidden="true">♡</span><span class="save__txt">Shortlist Maple</span></button>
+        </article>
+        <article class="dog" style="--coat:#8a8f9c;--belly:#e9e4da;--ear:#4a4f5c">
+          <div class="dog__pic" data-sc-tilt="7">
+<svg class="pup dog__pup" viewBox="0 0 200 224" role="img" aria-hidden="true" focusable="false">
+  <ellipse cx="100" cy="216" rx="70" ry="7" fill="#000" opacity=".22"/>
+  <path class="tail" d="M150 176c26-4 34-30 24-48" fill="none" stroke="var(--coat)" stroke-width="15" stroke-linecap="round"/>
+  <ellipse cx="100" cy="152" rx="58" ry="62" fill="var(--coat)"/>
+  <ellipse cx="100" cy="168" rx="31" ry="40" fill="var(--belly)"/>
+  <ellipse cx="76" cy="206" rx="17" ry="10" fill="var(--belly)"/>
+  <ellipse cx="124" cy="206" rx="17" ry="10" fill="var(--belly)"/>
+  <ellipse cx="50" cy="78" rx="19" ry="36" transform="rotate(18 50 78)" fill="var(--ear)"/>
+  <ellipse cx="150" cy="78" rx="19" ry="36" transform="rotate(-18 150 78)" fill="var(--ear)"/>
+  <ellipse cx="100" cy="80" rx="53" ry="47" fill="var(--coat)"/>
+  <circle cx="75" cy="70" r="17" fill="var(--ear)"/>
+  <ellipse cx="100" cy="100" rx="27" ry="21" fill="var(--belly)"/>
+  <circle cx="76" cy="72" r="9.5" fill="#fff8ec"/>
+  <circle cx="124" cy="72" r="9.5" fill="#fff8ec"/>
+  <g class="pupils">
+    <circle class="pupil pupil--l" cx="76" cy="73" r="5.6" fill="#1b1410"/>
+    <circle class="pupil pupil--r" cx="124" cy="73" r="5.6" fill="#1b1410"/>
+  </g>
+  
+  <ellipse cx="100" cy="90" rx="10" ry="7" fill="#1b1410"/>
+  <path d="M100 96v6M100 102c-7 7-14 4-16 0M100 102c7 7 14 4 16 0" fill="none" stroke="#1b1410" stroke-width="2.6" stroke-linecap="round"/>
+</svg></div>
+          <div class="dog__meta"><h3>Juniper</h3><p class="dog__sub">9 weeks · Terrier mix</p></div>
+          <p class="dog__tag">Will supervise your cooking from the best seat in the kitchen.</p>
+          <button class="save" type="button" aria-pressed="false" data-name="Juniper"><span class="save__icon" aria-hidden="true">♡</span><span class="save__txt">Shortlist Juniper</span></button>
+        </article>
+        <article class="dog" style="--coat:#3a3430;--belly:#d9c9b2;--ear:#221d1a">
+          <div class="dog__pic" data-sc-tilt="7">
+<svg class="pup dog__pup" viewBox="0 0 200 224" role="img" aria-hidden="true" focusable="false">
+  <ellipse cx="100" cy="216" rx="70" ry="7" fill="#000" opacity=".22"/>
+  <path class="tail" d="M150 176c26-4 34-30 24-48" fill="none" stroke="var(--coat)" stroke-width="15" stroke-linecap="round"/>
+  <ellipse cx="100" cy="152" rx="58" ry="62" fill="var(--coat)"/>
+  <ellipse cx="100" cy="168" rx="31" ry="40" fill="var(--belly)"/>
+  <ellipse cx="76" cy="206" rx="17" ry="10" fill="var(--belly)"/>
+  <ellipse cx="124" cy="206" rx="17" ry="10" fill="var(--belly)"/>
+  <ellipse cx="50" cy="78" rx="19" ry="36" transform="rotate(18 50 78)" fill="var(--ear)"/>
+  <ellipse cx="150" cy="78" rx="19" ry="36" transform="rotate(-18 150 78)" fill="var(--ear)"/>
+  <ellipse cx="100" cy="80" rx="53" ry="47" fill="var(--coat)"/>
+  <circle cx="75" cy="70" r="17" fill="var(--ear)"/>
+  <ellipse cx="100" cy="100" rx="27" ry="21" fill="var(--belly)"/>
+  <circle cx="76" cy="72" r="9.5" fill="#fff8ec"/>
+  <circle cx="124" cy="72" r="9.5" fill="#fff8ec"/>
+  <g class="pupils">
+    <circle class="pupil pupil--l" cx="76" cy="73" r="5.6" fill="#1b1410"/>
+    <circle class="pupil pupil--r" cx="124" cy="73" r="5.6" fill="#1b1410"/>
+  </g>
+  
+  <ellipse cx="100" cy="90" rx="10" ry="7" fill="#1b1410"/>
+  <path d="M100 96v6M100 102c-7 7-14 4-16 0M100 102c7 7 14 4 16 0" fill="none" stroke="#1b1410" stroke-width="2.6" stroke-linecap="round"/>
+</svg></div>
+          <div class="dog__meta"><h3>Bram</h3><p class="dog__sub">14 weeks · Lab mix</p></div>
+          <p class="dog__tag">Believes every puddle is a personal invitation.</p>
+          <button class="save" type="button" aria-pressed="false" data-name="Bram"><span class="save__icon" aria-hidden="true">♡</span><span class="save__txt">Shortlist Bram</span></button>
+        </article>
+        <article class="dog" style="--coat:#b6502f;--belly:#f6e3cd;--ear:#7d2f1a">
+          <div class="dog__pic" data-sc-tilt="7">
+<svg class="pup dog__pup" viewBox="0 0 200 224" role="img" aria-hidden="true" focusable="false">
+  <ellipse cx="100" cy="216" rx="70" ry="7" fill="#000" opacity=".22"/>
+  <path class="tail" d="M150 176c26-4 34-30 24-48" fill="none" stroke="var(--coat)" stroke-width="15" stroke-linecap="round"/>
+  <ellipse cx="100" cy="152" rx="58" ry="62" fill="var(--coat)"/>
+  <ellipse cx="100" cy="168" rx="31" ry="40" fill="var(--belly)"/>
+  <ellipse cx="76" cy="206" rx="17" ry="10" fill="var(--belly)"/>
+  <ellipse cx="124" cy="206" rx="17" ry="10" fill="var(--belly)"/>
+  <ellipse cx="50" cy="78" rx="19" ry="36" transform="rotate(18 50 78)" fill="var(--ear)"/>
+  <ellipse cx="150" cy="78" rx="19" ry="36" transform="rotate(-18 150 78)" fill="var(--ear)"/>
+  <ellipse cx="100" cy="80" rx="53" ry="47" fill="var(--coat)"/>
+  <circle cx="75" cy="70" r="17" fill="var(--ear)"/>
+  <ellipse cx="100" cy="100" rx="27" ry="21" fill="var(--belly)"/>
+  <circle cx="76" cy="72" r="9.5" fill="#fff8ec"/>
+  <circle cx="124" cy="72" r="9.5" fill="#fff8ec"/>
+  <g class="pupils">
+    <circle class="pupil pupil--l" cx="76" cy="73" r="5.6" fill="#1b1410"/>
+    <circle class="pupil pupil--r" cx="124" cy="73" r="5.6" fill="#1b1410"/>
+  </g>
+  
+  <ellipse cx="100" cy="90" rx="10" ry="7" fill="#1b1410"/>
+  <path d="M100 96v6M100 102c-7 7-14 4-16 0M100 102c7 7 14 4 16 0" fill="none" stroke="#1b1410" stroke-width="2.6" stroke-linecap="round"/>
+</svg></div>
+          <div class="dog__meta"><h3>Clover</h3><p class="dog__sub">11 weeks · Spaniel mix</p></div>
+          <p class="dog__tag">Shy for one day, then never again.</p>
+          <button class="save" type="button" aria-pressed="false" data-name="Clover"><span class="save__icon" aria-hidden="true">♡</span><span class="save__txt">Shortlist Clover</span></button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 · SUBSTANCE: flow + reveal -->
+  <section id="how" class="sc-section how" data-sc-act="flow" data-sc-drift="#10283c">
+    <div class="sc-wrap how__in">
+      <h2 class="sc-display sc-display--lg" data-sc-in>Three steps. No surprises.</h2>
+      <ol class="steps" data-sc-in data-sc-stagger="110">
+        <li><span class="steps__n" aria-hidden="true">1</span><div><h3>Talk</h3><p>A friendly chat about your home, your days and what you hope for. Ten minutes, no forms to fail.</p></div></li>
+        <li><span class="steps__n" aria-hidden="true">2</span><div><h3>Meet</h3><p>Visit your match. Bring everyone who lives with you, four-legged housemates included.</p></div></li>
+        <li><span class="steps__n" aria-hidden="true">3</span><div><h3>Go home</h3><p>Every puppy leaves vet-checked and microchipped, with a starter pack and a number you can call at 2am.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 5 · PEAK: the first night. pin, scroll closes the puppy's eyes -->
+  <section id="night" data-sc-act="pin" data-sc-span="4.2" data-sc-drift="#0e2233">
+    <div data-sc-stage class="night">
+      <div class="night__sky" aria-hidden="true"></div>
+      <div class="night__dawn" aria-hidden="true"></div>
+      <i class="night__moon" aria-hidden="true"></i>
+      <i class="night__sun" aria-hidden="true"></i>
+      <div class="night__floor" aria-hidden="true"></div>
+      <div class="night__pup" style="--coat:#d99a55;--belly:#f6e2bd;--ear:#8a5226">
+        
+<svg class="pup night__svg" viewBox="0 0 200 224" role="img" aria-hidden="true" focusable="false">
+  <ellipse cx="100" cy="216" rx="70" ry="7" fill="#000" opacity=".22"/>
+  <path class="tail" d="M150 176c26-4 34-30 24-48" fill="none" stroke="var(--coat)" stroke-width="15" stroke-linecap="round"/>
+  <ellipse cx="100" cy="152" rx="58" ry="62" fill="var(--coat)"/>
+  <ellipse cx="100" cy="168" rx="31" ry="40" fill="var(--belly)"/>
+  <ellipse cx="76" cy="206" rx="17" ry="10" fill="var(--belly)"/>
+  <ellipse cx="124" cy="206" rx="17" ry="10" fill="var(--belly)"/>
+  <ellipse cx="50" cy="78" rx="19" ry="36" transform="rotate(18 50 78)" fill="var(--ear)"/>
+  <ellipse cx="150" cy="78" rx="19" ry="36" transform="rotate(-18 150 78)" fill="var(--ear)"/>
+  <ellipse cx="100" cy="80" rx="53" ry="47" fill="var(--coat)"/>
+  <circle cx="75" cy="70" r="17" fill="var(--ear)"/>
+  <ellipse cx="100" cy="100" rx="27" ry="21" fill="var(--belly)"/>
+  <circle cx="76" cy="72" r="9.5" fill="#fff8ec"/>
+  <circle cx="124" cy="72" r="9.5" fill="#fff8ec"/>
+  <g class="pupils">
+    <circle class="pupil pupil--l" cx="76" cy="73" r="5.6" fill="#1b1410"/>
+    <circle class="pupil pupil--r" cx="124" cy="73" r="5.6" fill="#1b1410"/>
+  </g>
+  <ellipse class="lid lid--l" cx="76" cy="72" rx="11" ry="10.5" fill="var(--ear)"/><ellipse class="lid lid--r" cx="124" cy="72" rx="11" ry="10.5" fill="var(--coat)"/><path class="shut" d="M68 74q8 6 16 0M116 74q8 6 16 0" fill="none" stroke="#1b1410" stroke-width="2.4" stroke-linecap="round"/>
+  <ellipse cx="100" cy="90" rx="10" ry="7" fill="#1b1410"/>
+  <path d="M100 96v6M100 102c-7 7-14 4-16 0M100 102c7 7 14 4 16 0" fill="none" stroke="#1b1410" stroke-width="2.6" stroke-linecap="round"/>
+</svg>
+        <span class="zzz" aria-hidden="true">z<b>z</b><em>z</em></span>
+      </div>
+      <p class="night__line" data-sc-cue="0 0.26 0">It is 9pm. The house is brand new and so is the puppy.</p>
+      <p class="night__line" data-sc-cue="0.24 0.54">It stays up a little longer than you do.</p>
+      <p class="night__line night__line--last" data-sc-cue="0.52 0.9">Then, all at once, it is asleep. And you are home.</p>
+    </div>
+  </section>
+
+  <!-- 6 · COMMITMENT: flow close with footer inside -->
+  <section id="chat" class="close" data-sc-act="flow" data-sc-drift="#0e2233">
+    <div class="sc-wrap close__in" data-sc-spotlight>
+      <h2 class="sc-display sc-display--md" data-sc-in>Say hello. We will take it from here.</h2>
+      <form class="chat" id="chatform" novalidate>
+        <div class="field"><label for="nm">Your name</label><input id="nm" name="name" autocomplete="given-name" required></div>
+        <div class="field"><label for="em">Email</label><input id="em" name="email" type="email" autocomplete="email" required></div>
+        <fieldset class="field"><legend>Who made you grin?</legend><div class="chips"><label class="chip"><input type="checkbox" name="pup" value="Pip"><span>Pip</span></label><label class="chip"><input type="checkbox" name="pup" value="Maple"><span>Maple</span></label><label class="chip"><input type="checkbox" name="pup" value="Juniper"><span>Juniper</span></label><label class="chip"><input type="checkbox" name="pup" value="Bram"><span>Bram</span></label><label class="chip"><input type="checkbox" name="pup" value="Clover"><span>Clover</span></label></div></fieldset>
+        <button class="cta" type="submit" data-sc-magnet="0.2" data-sc-rise="0">Start an adoption chat</button>
+        <p class="chat__out" id="out" role="status" aria-live="polite"></p>
+      </form>
+      <footer class="foot"><span>Wagtail Hollow is an imaginary rescue. The puppies are drawings. Nothing on this form is sent anywhere.</span></footer>
+    </div>
+  </section>
+
+</main>
+
+<script src="scrollcraft.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
