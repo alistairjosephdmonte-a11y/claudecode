@@ -1,0 +1,46 @@
+[
+ {
+  "id": "v1",
+  "text": "Before the world feared Doctor Doom, there was Victor von Doom.",
+  "voice": "bm_george",
+  "speed": 0.9,
+  "asr": "Before the world feared Dr. Doom, there was Victor von Doom."
+ },
+ {
+  "id": "v2",
+  "text": "Born in Lat-vair-ia, Victor's life was shaped by tragedy, and by the loss of those he loved.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "asr": "Born in Latvia, Victor's life was shaped by tragedy and by the loss of those he loved."
+ },
+ {
+  "id": "v3",
+  "text": "His intellect mastered science. His ambition reached into forbidden magic.",
+  "voice": "bm_george",
+  "speed": 0.92
+ },
+ {
+  "id": "v4",
+  "text": "Trying to reach his dead mother, Victor pushed his experiment beyond the limits of what he understood.",
+  "voice": "bm_george",
+  "speed": 0.95
+ },
+ {
+  "id": "v5",
+  "text": "The accident scarred his face. But the deeper wound was his refusal to accept imperfection.",
+  "voice": "bm_george",
+  "speed": 0.92
+ },
+ {
+  "id": "v6",
+  "text": "He forged a mask, buried his vulnerability, and chose the identity the world would come to fear.",
+  "voice": "bm_george",
+  "speed": 0.95
+ },
+ {
+  "id": "v7",
+  "text": "He was not content to be extraordinary. He had to be infallible. And that became his greatest weakness.",
+  "voice": "bm_george",
+  "speed": 0.92
+ }
+]

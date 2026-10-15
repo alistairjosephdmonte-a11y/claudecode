@@ -1,0 +1,12 @@
+DR. DOOM — THE MAKING OF A MONSTER · third-party material
+
+Character: Victor von Doom / Doctor Doom is a Marvel Comics character (created by Stan Lee and Jack Kirby, 1962).
+  This is an unofficial, non-commercial typographic fan piece; no Marvel artwork, logos or panels are used.
+Narration voice: Kokoro-82M (kokoro-onnx), voice "bm_george" — Apache License 2.0
+Speech check: faster-whisper (base.en) — MIT
+Fonts (SIL Open Font License 1.1, fonts/OFL-*.txt):
+  Anton — Vernon Adams · https://github.com/google/fonts/tree/main/ofl/anton
+  Barlow Condensed — Jeremy Tribby · https://github.com/google/fonts/tree/main/ofl/barlowcondensed
+  JetBrains Mono — JetBrains · https://github.com/google/fonts/tree/main/ofl/jetbrainsmono
+Sound: all synthesized in code (numpy/scipy, Lemo-Opuscar core tools, MIT). No samples, no stock music.
+Picture: drawn in code (Canvas 2D). No footage, no generated video.
