@@ -1,0 +1,8 @@
+[
+ {"id":"narrator","speaker":"Narrator","text":"For Sheldon Cooper, even a couch has rules.","voice":"bm_lewis","speed":1.08},
+ {"id":"sheldon1","speaker":"Sheldon","text":"Why have you moved it?","voice":"am_eric","speed":1.0},
+ {"id":"leonard1","speaker":"Leonard","text":"I needed space for the food.","voice":"am_liam","speed":1.05},
+ {"id":"sheldon2","speaker":"Sheldon","text":"The seating arrangement follows a specific geometry.","voice":"am_eric","speed":1.1},
+ {"id":"penny1","speaker":"Penny","text":"Looks comfy.","voice":"af_nicole","speed":1.0},
+ {"id":"sheldon3","speaker":"Sheldon","text":"This is precisely why we need rules.","voice":"am_eric","speed":1.05}
+]

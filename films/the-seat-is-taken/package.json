@@ -1,0 +1,21 @@
+{
+  "name": "the-seat-is-taken",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "audio": "LIB=${LIB:-$HOME/lemo-opuscar} sh audio-src/build-audio.sh",
+    "preview": "remotion render src/index.ts SeatIsTaken out/preview-540p.mp4 --scale=0.5 --codec=h264",
+    "render": "remotion render src/index.ts SeatIsTaken out/the-seat-is-taken.mp4 --codec=h264 --crf=18"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.537",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.537"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
+  }
+}

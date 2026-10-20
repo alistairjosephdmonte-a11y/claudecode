@@ -1,0 +1,24 @@
+1
+00:00:00,067 --> 00:00:03,082
+For Sheldon Cooper, even a couch has rules.
+
+2
+00:00:02,867 --> 00:00:04,294
+SHELDON: Why have you moved it?
+
+3
+00:00:04,333 --> 00:00:06,371
+LEONARD: I needed space for the food.
+
+4
+00:00:06,400 --> 00:00:09,332
+SHELDON: The seating arrangement follows a specific geometry.
+
+5
+00:00:09,533 --> 00:00:10,838
+PENNY: Looks comfy.
+
+6
+00:00:11,533 --> 00:00:13,942
+SHELDON: This is precisely why we need rules.
+
