@@ -1,0 +1,17 @@
+{
+  "name": "the-seat-is-taken",
+  "version": "1.0.0",
+  "private": true,
+  "description": "15-second flat-vector motion explainer (fan piece). Remotion project.",
+  "scripts": {
+    "studio": "remotion studio src/index.jsx",
+    "preview": "remotion render src/index.jsx SeatIsTaken preview/preview-960.mp4 --scale=0.5 --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell",
+    "render": "remotion render src/index.jsx SeatIsTaken out/the-seat-is-taken.mp4 --codec=h264 --crf=18 --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.300",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.300"
+  }
+}

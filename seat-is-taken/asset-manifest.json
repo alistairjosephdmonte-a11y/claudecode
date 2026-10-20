@@ -1,0 +1,162 @@
+{
+  "title": "THE SEAT IS TAKEN",
+  "composition": "SeatIsTaken",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 450,
+  "duration_s": 15.0,
+  "final_video": "out/the-seat-is-taken-final.mp4",
+  "preview": "preview/preview-960.mp4",
+  "visuals": "All characters, props and diagrams are code-drawn SVG components (src/components). No external images.",
+  "assets": [
+    {
+      "path": "public/audio/bag.wav",
+      "type": "sfx",
+      "duration_s": 0.7,
+      "sample_rate": 48000,
+      "origin": "Sound effect \"bag\" (synthesized in scripts/sfx.py)"
+    },
+    {
+      "path": "public/audio/bite.wav",
+      "type": "sfx",
+      "duration_s": 0.25,
+      "sample_rate": 48000,
+      "origin": "Sound effect \"bite\" (synthesized in scripts/sfx.py)"
+    },
+    {
+      "path": "public/audio/click.wav",
+      "type": "sfx",
+      "duration_s": 0.05,
+      "sample_rate": 48000,
+      "origin": "Sound effect \"click\" (synthesized in scripts/sfx.py)"
+    },
+    {
+      "path": "public/audio/container.wav",
+      "type": "sfx",
+      "duration_s": 0.3,
+      "sample_rate": 48000,
+      "origin": "Sound effect \"container\" (synthesized in scripts/sfx.py)"
+    },
+    {
+      "path": "public/audio/creak.wav",
+      "type": "sfx",
+      "duration_s": 0.5,
+      "sample_rate": 48000,
+      "origin": "Sound effect \"creak\" (synthesized in scripts/sfx.py)"
+    },
+    {
+      "path": "public/audio/cushion.wav",
+      "type": "sfx",
+      "duration_s": 0.45,
+      "sample_rate": 48000,
+      "origin": "Sound effect \"cushion\" (synthesized in scripts/sfx.py)"
+    },
+    {
+      "path": "public/audio/door.wav",
+      "type": "sfx",
+      "duration_s": 0.9,
+      "sample_rate": 48000,
+      "origin": "Sound effect \"door\" (synthesized in scripts/sfx.py)"
+    },
+    {
+      "path": "public/audio/leonard1.wav",
+      "type": "voice",
+      "duration_s": 1.595,
+      "sample_rate": 24000,
+      "origin": "Leonard line (Kokoro am_michael)"
+    },
+    {
+      "path": "public/audio/marker.wav",
+      "type": "sfx",
+      "duration_s": 0.35,
+      "sample_rate": 48000,
+      "origin": "Sound effect \"marker\" (synthesized in scripts/sfx.py)"
+    },
+    {
+      "path": "public/audio/music.wav",
+      "type": "music",
+      "duration_s": 15.0,
+      "sample_rate": 48000,
+      "origin": "Music bed, 120 BPM C major plucks (synthesized)"
+    },
+    {
+      "path": "public/audio/narrator.wav",
+      "type": "voice",
+      "duration_s": 2.995,
+      "sample_rate": 24000,
+      "origin": "Narrator (Kokoro bm_george)"
+    },
+    {
+      "path": "public/audio/penny1.wav",
+      "type": "voice",
+      "duration_s": 0.902,
+      "sample_rate": 24000,
+      "origin": "Penny line (Kokoro af_heart)"
+    },
+    {
+      "path": "public/audio/pickup.wav",
+      "type": "sfx",
+      "duration_s": 0.15,
+      "sample_rate": 48000,
+      "origin": "Sound effect \"pickup\" (synthesized in scripts/sfx.py)"
+    },
+    {
+      "path": "public/audio/sheldon1.wav",
+      "type": "voice",
+      "duration_s": 1.055,
+      "sample_rate": 24000,
+      "origin": "Sheldon line 1 (Kokoro am_eric)"
+    },
+    {
+      "path": "public/audio/sheldon2.wav",
+      "type": "voice",
+      "duration_s": 2.624,
+      "sample_rate": 24000,
+      "origin": "Sheldon line 2 (Kokoro am_eric)"
+    },
+    {
+      "path": "public/audio/sheldon3.wav",
+      "type": "voice",
+      "duration_s": 2.104,
+      "sample_rate": 24000,
+      "origin": "Sheldon line 3 (Kokoro am_eric)"
+    },
+    {
+      "path": "public/audio/sting_final.wav",
+      "type": "sfx",
+      "duration_s": 1.6,
+      "sample_rate": 48000,
+      "origin": "Sound effect \"sting_final\" (synthesized in scripts/sfx.py)"
+    },
+    {
+      "path": "public/audio/sting_small.wav",
+      "type": "sfx",
+      "duration_s": 1.2,
+      "sample_rate": 48000,
+      "origin": "Sound effect \"sting_small\" (synthesized in scripts/sfx.py)"
+    },
+    {
+      "path": "public/audio/utensil.wav",
+      "type": "sfx",
+      "duration_s": 0.25,
+      "sample_rate": 48000,
+      "origin": "Sound effect \"utensil\" (synthesized in scripts/sfx.py)"
+    },
+    {
+      "path": "public/fonts/Anton-400.woff2",
+      "type": "font",
+      "origin": "Google Fonts (SIL Open Font License)"
+    },
+    {
+      "path": "public/fonts/Inter-500.woff2",
+      "type": "font",
+      "origin": "Google Fonts (SIL Open Font License)"
+    },
+    {
+      "path": "public/fonts/Inter-600.woff2",
+      "type": "font",
+      "origin": "Google Fonts (SIL Open Font License)"
+    }
+  ]
+}
