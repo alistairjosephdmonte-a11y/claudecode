@@ -1,0 +1,15 @@
+{
+ "skill": "clean-cut",
+ "questions": [
+  {"key": "creator_name", "scope": "shared", "ask": "What name should I use for you?", "default": null, "required": true},
+  {"key": "brand_name", "scope": "shared", "ask": "What is the business or brand called?", "default": null, "required": false},
+  {"key": "handle", "scope": "shared", "ask": "What is your main handle?", "default": null, "required": false},
+  {"key": "platform", "scope": "shared", "ask": "Which platform do you post on most?", "default": "Instagram", "required": false},
+  {"key": "niche", "scope": "shared", "ask": "In one sentence: what do you help people with, and who are they?", "default": null, "required": false},
+  {"key": "font_main_name", "scope": "shared", "ask": "Which font do you use for headlines and captions?", "default": null, "required": true},
+  {"key": "font_main_bold", "scope": "shared", "ask": "(found on their computer) the bold weight of that font", "default": null, "required": true},
+  {"key": "transcriber", "scope": "shared", "ask": "Transcription: ElevenLabs (recommended) or on this computer (free)?", "default": null, "required": true},
+  {"key": "output_rule", "scope": "shared", "ask": "Where should finished videos go?", "default": "beside the raw file, in a \"<Title> - Edit\" folder", "required": false},
+  {"key": "camera_setup", "scope": "skill", "ask": "How do you film: camera or phone, horizontal or vertical?", "default": null, "required": false}
+ ]
+}
