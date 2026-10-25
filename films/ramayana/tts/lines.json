@@ -1,0 +1,101 @@
+[
+ {
+  "id": "p1",
+  "text": "Long ago, by the river Tamasaa, the sage Vaalmeeki saw a hunter's arrow strike one of two krauncha birds.",
+  "sub": "Long ago, by the river Tamasa, the sage Valmiki saw a hunter's arrow strike one of two krauncha birds.",
+  "voice": "hf_alpha",
+  "speed": 0.92,
+  "lang": "en-us",
+  "asr": "Long ago, by the river Tamasa, the sage Valmiki saw a hunter's arrow strike one of two krauncha birds."
+ },
+ {
+  "id": "p2",
+  "text": "His grief poured out as a verse... the first poem, it is said. And in that rhythm, he sang the story of Raama, in seven books.",
+  "sub": "His grief poured out as a verse — the first poem, it is said — and in that rhythm he sang the story of Rama, in seven books.",
+  "voice": "hf_alpha",
+  "speed": 0.92,
+  "lang": "en-us",
+  "asr": "His grief poured out as a verse — the first poem, it is said — and in that rhythm he sang the story of Rama, in seven books."
+ },
+ {
+  "id": "s1a",
+  "text": "Prince Raama of Ah-yodhyaa won Princess Seetaa, by breaking the mighty bow of Shiva.",
+  "sub": "Prince Rama of Ayodhya won Princess Sita by breaking the mighty bow of Shiva.",
+  "voice": "hf_alpha",
+  "speed": 0.92,
+  "lang": "en-us",
+  "asr": "Prince Rama of Ayodhya won Princess Sita by breaking the mighty bow of Shiva."
+ },
+ {
+  "id": "s1b",
+  "text": "But on the eve of his crowning, Queen Kaikayee claimed two old promises. Her own son, Bharata, would rule; and Raama would live fourteen years in the forest.",
+  "sub": "But on the eve of his crowning, Queen Kaikeyi claimed two old promises: her son Bharata would rule, and Rama would live fourteen years in the forest.",
+  "voice": "hf_alpha",
+  "speed": 0.92,
+  "lang": "en-us",
+  "asr": "But on the eve of his crowning, Queen Kaikeyi claimed two old promises: her son Bharata would rule, and Rama would live fourteen years in the forest."
+ },
+ {
+  "id": "s1c",
+  "text": "Raama went without anger, with Seetaa, and his brother Lakshmana. Bharata ruled only in his name, with Raama's sandals on the throne.",
+  "sub": "Rama went without anger, with Sita and his brother Lakshmana. Bharata ruled only in his name, with Rama's sandals on the throne.",
+  "voice": "hf_alpha",
+  "speed": 0.92,
+  "lang": "en-us",
+  "asr": "Rama went without anger, with Sita and his brother Lakshmana. Bharata ruled only in his name, with Rama's sandals on the throne."
+ },
+ {
+  "id": "s2a",
+  "text": "In the forest, Raavana, the ten-headed king of Lanka, lured Raama away with a golden deer... and carried Seetaa off, through the sky.",
+  "sub": "In the forest, Ravana, the ten-headed king of Lanka, lured Rama away with a golden deer — and carried Sita off through the sky.",
+  "voice": "hf_alpha",
+  "speed": 0.92,
+  "lang": "en-us",
+  "asr": "In the forest, Ravana, the ten-headed king of Lanka, lured Rama away with a golden deer — and carried Sita off through the sky."
+ },
+ {
+  "id": "s3a",
+  "text": "Searching for her, Raama found allies: the monkey king, Sugreeva, and wise, mighty Hanumaan.",
+  "sub": "Searching for her, Rama found allies: the monkey king Sugriva, and wise, mighty Hanuman.",
+  "voice": "hf_alpha",
+  "speed": 0.92,
+  "lang": "en-us",
+  "asr": "Searching for her, Rama found allies: the monkey king Sugriva, and wise, mighty Hanuman."
+ },
+ {
+  "id": "s3b",
+  "text": "Hanumaan leapt across the ocean, found Seetaa in a grove of ashoka trees, and gave her Raama's ring.",
+  "sub": "Hanuman leapt across the ocean, found Sita in a grove of ashoka trees, and gave her Rama's ring.",
+  "voice": "hf_alpha",
+  "speed": 0.92,
+  "lang": "en-us",
+  "asr": "Hanuman leapt across the ocean, found Sita in a grove of ashoka trees, and gave her Rama's ring."
+ },
+ {
+  "id": "s4a",
+  "text": "An army of monkeys built a bridge of stones to Lanka. Raama defeated Raavana, and came home to be crowned.",
+  "sub": "An army of monkeys built a bridge of stones to Lanka. Rama defeated Ravana, and came home to be crowned.",
+  "voice": "hf_alpha",
+  "speed": 0.92,
+  "lang": "en-us",
+  "asr": "An army of monkeys built a bridge of stones to Lanka. Rama defeated Ravana, and came home to be crowned."
+ },
+ {
+  "id": "s4b",
+  "text": "In the last book, which many scholars believe was added later, Seetaa found refuge with Vaalmeeki, where her twin sons learned his poem, and sang it before Raama himself.",
+  "sub": "In the last book, which many scholars believe was added later, Sita found refuge with Valmiki, where her twin sons learned his poem, and sang it before Rama himself.",
+  "voice": "hf_alpha",
+  "speed": 0.92,
+  "lang": "en-us",
+  "asr": "In the last book, which many scholars believe was added later, Sita found refuge with Valmiki, where her twin sons learned his poem, and sang it before Rama himself."
+ },
+ {
+  "id": "end",
+  "text": "Grief by a river became a poem. And people have been singing it, ever since.",
+  "sub": "Grief by a river became a poem. And people have been singing it ever since.",
+  "voice": "hf_alpha",
+  "speed": 0.92,
+  "lang": "en-us",
+  "asr": "Grief by a river became a poem. And people have been singing it ever since."
+ }
+]

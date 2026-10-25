@@ -1,0 +1,14 @@
+The Ramayana — a pop-up book (after Valmiki's Ramayana) · third-party material
+
+Story: retold after Valmiki's Ramayana (Sanskrit epic, public domain). The verse on the scroll is Bala Kanda 1.2.15
+  ("mā niṣāda…"); the English gloss is our own paraphrase. The Uttara Kanda is noted in the film as widely
+  regarded by scholars as a later addition.
+Pictures: all characters, sets and the book drawn in code (Canvas2D + three.js r170, MIT).
+  Engine adapted from the Lemo-Opuscar paper-popup style (MIT): book, cut-mesh, paper finish, depth-of-field post.
+Room & props — Poly Haven (CC0): HDRI "Lythwood Lounge", texture "American Walnut Veneer",
+  models "Desk Lamp Arm 01", "Tea Set 01". Garland and diya are procedural.
+Narration — Kokoro-82M (Apache-2.0) via kokoro-onnx (MIT), voice hf_alpha; checked with faster-whisper (MIT).
+Music — original score played on CC0 sample libraries: VS Chamber Orchestra: Community Edition and
+  Versilian Community Sample Library (Versilian Studios), FreePats (freepats.zenvoid.org); drone synthesized.
+Sound effects & ambience — all synthesized in mix.py.
+Fonts (SIL OFL 1.1, Google Fonts): Fredoka, Lilita One, IM Fell English, Tiro Devanagari Sanskrit.
