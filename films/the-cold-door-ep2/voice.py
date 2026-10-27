@@ -14,7 +14,7 @@ def room(x):
     return y
 dur, lips = {}, {}
 for l in L:
-    y, sr = sf.read(f"{H}/out/raw/{l['id']}.wav"); y = y.mean(1) if y.ndim > 1 else y
+    y, sr = sf.read(f"{H}/{os.environ.get('RAW', 'out/raw')}/{l['id']}.wav"); y = y.mean(1) if y.ndim > 1 else y
     y = soxr.resample(y, sr, SR); y = y / (np.abs(y).max() + 1e-9) * .9
     if l['who'] == 'H': y = .7 * y + .3 * np.tanh(y * 2.6) / np.tanh(2.6); y = peq(y, 180, 2.5, .8); y = peq(y, 2800, -1.5)
     else: y = peq(y, 3200, 2.0, .9)
