@@ -1,0 +1,70 @@
+{
+ "_sources": "Wikipedia 'Swoosh', 'Carolyn Davidson (graphic designer)', 'Nike (name)'; CNBC (2018); Portland State University 'Legendary by Design'; ESPN (first use June 18, 1971, per the January 1972 trademark filing). Real people appear only as generic picture-book figures; the mark appears only as loose hand-drawn crayon curves, never the official artwork or wordmark.",
+ "target": 300,
+ "pages": [
+  {"id": "title", "lines": [
+   ["s01", "This is a true story about a squiggle.", 0.6],
+   ["s02", "A little curved line, that you have almost certainly seen today.", 0.6],
+   ["s03", "It began with two runners, in Oregon.", 0.8]]},
+  {"id": "brs", "lines": [
+   ["s04", "In nineteen sixty-four, a running coach named Bill Bowerman,", 0.2],
+   ["s05", "and a runner he had once coached, named Phil Knight,", 0.2],
+   ["s06", "started a tiny company called Blue Ribbon Sports.", 0.7],
+   ["s07", "For about seven years, they sold running shoes from Japan.", 0.4],
+   ["s08", "Somebody else's shoes, with somebody else's mark on the side.", 0.8],
+   ["s09", "Then they decided to make shoes of their own.", 0.4],
+   ["s10", "And their own shoes would need their own mark.", 0.9]]},
+  {"id": "campus", "lines": [
+   ["s11", "Phil Knight also taught accounting, at Portland State University.", 0.4],
+   ["s12", "There, he met a graphic design student named Carolyn Davidson.", 0.5],
+   ["s13", "He hired her to draw charts and pictures for his company,", 0.2],
+   ["s14", "for two dollars an hour.", 1.0]]},
+  {"id": "brief", "lines": [
+   ["s15", "In nineteen seventy-one, he asked her for something harder.", 0.4],
+   ["s16", "A mark, for the side of the new shoes.", 0.4],
+   ["s17", "It had to show motion.", 0.5],
+   ["s18", "And it must not look like the three stripes on another company's shoes.", 0.6],
+   ["s19", "Which is tricky, when a shoe mostly sits still.", 1.0]]},
+  {"id": "tissue", "lines": [
+   ["s20", "So Carolyn drew on thin tissue paper, laid over a drawing of a shoe.", 0.5],
+   ["s21", "A line here. A curve there.", 0.5],
+   ["s22", "Again, and again, and again.", 1.2]]},
+  {"id": "pitch", "lines": [
+   ["s23", "She brought at least six designs to Phil and his team.", 0.5],
+   ["s24", "They chose one. A curve like a tick, like something moving fast.", 0.7],
+   ["s25", "And what did Phil Knight say?", 0.9],
+   ["s26", "I don't love it, he said.", 0.7],
+   ["s27", "But maybe it will grow on me.", 1.2]]},
+  {"id": "invoice", "lines": [
+   ["s28", "When the work was done, Carolyn sent in her bill.", 0.4],
+   ["s29", "Seventeen and a half hours, at two dollars an hour.", 0.6],
+   ["s30", "Thirty-five dollars.", 0.9],
+   ["s31", "She has said she really worked longer than that.", 1.0]]},
+  {"id": "name", "lines": [
+   ["s32", "The shoes needed a name, too. Phil liked Dimension Six.", 0.6],
+   ["s33", "Not many others did.", 0.6],
+   ["s34", "An early employee, Jeff Johnson, suggested Nike,", 0.2],
+   ["s35", "the Greek goddess of victory. He said the name came to him in a dream.", 1.0]]},
+  {"id": "track", "lines": [
+   ["s36", "On the eighteenth of June, nineteen seventy-one, the curve was used on a product for the very first time.", 0.6],
+   ["s37", "And a year later, at the Olympic track trials in Eugene, Oregon,", 0.2],
+   ["s38", "runners laced up a new shoe, with the curve on its side.", 1.0]]},
+  {"id": "gift", "lines": [
+   ["s39", "The little company grew, and grew, and grew.", 0.6],
+   ["s40", "In nineteen eighty-three, Phil Knight gave Carolyn a gold ring, shaped like her curve, with a diamond in it.", 0.5],
+   ["s41", "And five hundred shares of the company. After splits, those became thirty-two thousand.", 1.0]]},
+  {"id": "word", "lines": [
+   ["s42", "For years, the mark was printed with the word Nike beside it.", 0.5],
+   ["s43", "Then, in nineteen ninety-five, the word was taken away.", 0.6],
+   ["s44", "The curve stood all on its own.", 0.6],
+   ["s45", "By then, everybody knew.", 1.0]]},
+  {"id": "meaning", "lines": [
+   ["s46", "A mark, after all, is only a shape.", 0.6],
+   ["s47", "What filled it with meaning were the runners.", 0.3],
+   ["s48", "Years of running, and racing, and winning.", 0.9],
+   ["s49", "Seventeen and a half hours. Thirty-five dollars.", 0.7],
+   ["s50", "And a little curve, that grew on everyone.", 1.2]]},
+  {"id": "end", "lines": [
+   ["s51", "And that is the end of the story.", 0.5]]}
+ ]
+}
