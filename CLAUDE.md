@@ -29,6 +29,10 @@ claudecode/
 
 Update this section once the actual structure is established.
 
+Also present: `animatic/durex_no_cap_no_entry/` — a Blender 4.2 (bpy) animatic project. Rebuild with
+`blender -b --factory-startup --python scripts/build_scene.py`; QC with `scripts/qc.py`. Rendered PNG
+sequences in `renders/` are git-ignored; see its README for the pipeline.
+
 ---
 
 ## Development Workflow
