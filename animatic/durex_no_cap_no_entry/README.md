@@ -211,8 +211,8 @@ These are reported as limitations, not hidden.
    18 s per frame at 960×540 and about 43 s at 1080p. The 30 s MP4 is a 1920×1080 file assembled in
    the VSE from **960×540, 8-sample EEVEE renders, scaled ×2**. Native 1920×1080 renders were made
    only for the QC stills in `output/stills_1080p/`. One command reproduces a full native 1080p pass.
-3. **Low-res preview pass:** the Workbench playblast was run for SH01–SH04 only. It was stopped to free
-   CPU for the EEVEE pass. The other shots were previewed as EEVEE QC stills and covered by the
+3. **Low-res preview pass:** the Workbench playblast was completed for SH01–SH03 and part of SH04. It
+   was stopped to free CPU for the EEVEE pass. The other shots were previewed as EEVEE QC stills and covered by the
    all-frame automated QC.
 4. **Brand assets are placeholders.** These are neutral grey shapes named
    `PLACEHOLDER__DUREX_LOGO__APPROVED_ASSET_REQUIRED` and
