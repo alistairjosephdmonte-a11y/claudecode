@@ -1,0 +1,66 @@
+{
+ "_note": "Invented satirical comedy. None of these incidents is historical; no quote is attributed to a real person; the brand's origin is not placed in any era.",
+ "fps": 24, "chapter": 30,
+ "chapters": [
+  {"id": "prehistoric", "title": "I. The Prehistoric Bush", "beats": [
+   [0, 6, "c01a", "Before history had a name, man lived alongside nature."],
+   [6, 12, "c01b", "Gerald, however, had taken this relationship rather too far."],
+   [12, 19, "c01c", "Three squirrels had moved into his undergrowth."],
+   [19, 25, "c01d", "They had established a thriving community."],
+   [25, 30, "c01e", "And they were not leaving."]]},
+  {"id": "egypt", "title": "II. The Egyptian Experiment", "beats": [
+   [30, 36, "c02a", "In ancient Egypt, personal appearance became a matter of royal importance."],
+   [36, 43, "c02b", "Every detail was attended to with extraordinary care."],
+   [43, 50, "c02c", "Well. Almost every detail."],
+   [50, 56, "c02d", "One question remained unasked."],
+   [56, 60, "c02e", "The barber requested additional compensation."]]},
+  {"id": "greece", "title": "III. The Greek Question", "beats": [
+   [60, 66, "c03a", "The Greeks were devoted to the pursuit of knowledge."],
+   [66, 73, "c03b", "They questioned existence, nature, and the human condition."],
+   [73, 80, "c03c", "But one mystery proved especially persistent."],
+   [80, 86, "c03d", "A bold new theory was proposed."],
+   [86, 90, "c03e", "It was never published."]]},
+  {"id": "rome", "title": "IV. The Roman Empire", "beats": [
+   [90, 96, "c04a", "The Romans mastered engineering on an extraordinary scale."],
+   [96, 103, "c04b", "They built roads, aqueducts, and remarkable bathing facilities."],
+   [103, 110, "c04c", "Yet certain provinces remained poorly maintained."],
+   [110, 116, "c04d", "The Senate agreed to address the problem."],
+   [116, 120, "c04e", "At a more convenient date."]]},
+  {"id": "medieval", "title": "V. Medieval Armour", "beats": [
+   [120, 126, "c05a", "In the Middle Ages, a knight's armour was his pride."],
+   [126, 133, "c05b", "Every surface was kept in magnificent condition."],
+   [133, 140, "c05c", "But beneath the polished steel lay a neglected frontier."],
+   [140, 146, "c05d", "The blacksmith was summoned for an inspection."],
+   [146, 150, "c05e", "He retired immediately."]]},
+  {"id": "renaissance", "title": "VI. A Renaissance Invention", "beats": [
+   [150, 156, "c06a", "The Renaissance brought a revolution in invention."],
+   [156, 163, "c06b", "One visionary designed a remarkable solution."],
+   [163, 170, "c06c", "Forty-seven gears. Six levers. One ambitious purpose."],
+   [170, 176, "c06d", "Finally, the moment of truth."],
+   [176, 180, "c06e", "Progress would have to wait."]]},
+  {"id": "victorian", "title": "VII. The Victorian Cover-Up", "beats": [
+   [180, 186, "c07a", "The Victorian gentleman valued dignity above all things."],
+   [186, 193, "c07b", "His presentation was impeccable."],
+   [193, 200, "c07c", "Certain subjects, however, were considered unmentionable."],
+   [200, 206, "c07d", "Until one brave servant suggested a solution."],
+   [206, 210, "c07e", "Society was not ready."]]},
+  {"id": "electric", "title": "VIII. The Electric Age", "beats": [
+   [210, 216, "c08a", "Then came the electric age."],
+   [216, 223, "c08b", "Technology promised convenience, and precision."],
+   [223, 230, "c08c", "But the instructions left certain questions unanswered."],
+   [230, 236, "c08d", "Some areas were still considered beyond the manufacturer's imagination."],
+   [236, 240, "c08e", "Perhaps next year."]]},
+  {"id": "space", "title": "IX. The Space Age", "beats": [
+   [240, 246, "c09a", "Soon, mankind was reaching beyond the Earth."],
+   [246, 253, "c09b", "An entirely new frontier had opened."],
+   [253, 260, "c09c", "Every detail had been planned with scientific precision."],
+   [260, 266, "c09d", "Almost every detail."],
+   [266, 270, "c09e", "One final problem remained."]]},
+  {"id": "modern", "title": "X. The Modern Age", "beats": [
+   [270, 276, "c10a", "And so, after thousands of years of questionable decisions,"],
+   [276, 283, "c10b", "mankind finally found a better way to trim."],
+   [283, 289, "c10c", "The kings rejoiced. The philosophers approved."],
+   [289, 294, "c10d", "The squirrels, however, sought legal advice."],
+   [294, 300, "c10e", "Manscaped. Evolution starts below."]]}
+ ]
+}
