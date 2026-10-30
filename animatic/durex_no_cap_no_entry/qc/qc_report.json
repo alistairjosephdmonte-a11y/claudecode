@@ -1,0 +1,166 @@
+{
+  "checks": {
+    "runtime_720_frames_24fps": {
+      "pass": true,
+      "detail": "frames 1-720 @ 24 fps = 30.00s"
+    },
+    "resolution_1920x1080": {
+      "pass": true,
+      "detail": "1920x1080"
+    },
+    "ten_shots_72f_bound_cameras": {
+      "pass": true,
+      "detail": [
+        "SH01 1-72 (72 f) CAM_01 24mm OK",
+        "SH02 73-144 (72 f) CAM_02 50mm OK",
+        "SH03 145-216 (72 f) CAM_03 35mm OK",
+        "SH04 217-288 (72 f) CAM_04 28mm OK",
+        "SH05 289-360 (72 f) CAM_05 50mm OK",
+        "SH06 361-432 (72 f) CAM_06 85mm OK",
+        "SH07 433-504 (72 f) CAM_07 35mm OK",
+        "SH08 505-576 (72 f) CAM_08 24mm OK",
+        "SH09 577-648 (72 f) CAM_09 50mm OK",
+        "SH10 649-720 (72 f) CAM_10 85mm OK"
+      ]
+    },
+    "single_shared_cap_mesh": {
+      "pass": true,
+      "detail": "10 cap objects -> meshes ['ASSET_HERO_CAP_MESH'] (3556 verts)"
+    },
+    "cap_colour_placeholder_flagged": {
+      "pass": true,
+      "detail": "hero cap twill base #1F4BA5 (PLACEHOLDER: sample approved artwork)"
+    },
+    "no_text_or_brand_in_story_scene": {
+      "pass": true,
+      "detail": {
+        "fonts": [],
+        "brand": []
+      }
+    },
+    "brand_placeholders_only_in_endcard": {
+      "pass": true,
+      "detail": [
+        "ENDCARD_BACKGROUND",
+        "PLACEHOLDER__DUREX_LOGO__APPROVED_ASSET_REQUIRED",
+        "PLACEHOLDER__CONDOM_PACKSHOT__APPROVED_ASSET_REQUIRED",
+        "ENDCARD_CAMPAIGN_LINE",
+        "ENDCARD_SOFTBOX",
+        "ENDCARD_LAYER_CAM"
+      ]
+    },
+    "cartoon_casts_shadows": {
+      "pass": true,
+      "detail": "17 cel objects, all visible_shadow"
+    },
+    "bouncer_holds_door_position": {
+      "pass": true,
+      "detail": {
+        "max deviation from mark per exterior shot (m)": {
+          "SH01": 0.0,
+          "SH02": 0.0,
+          "SH03": 0.0,
+          "SH04": 0.0,
+          "SH05": 0.0,
+          "SH06": 0.0,
+          "SH07": 0.667,
+          "SH09": 0.667
+        },
+        "note": "SH07/SH09: one deliberate step toward the entrance-left stanchion to reach the rope hook, then back to mark"
+      }
+    },
+    "door_geography_bouncer_screen_right": {
+      "pass": true,
+      "detail": "frames where bouncer head is not screen-right of door: []"
+    },
+    "camera_side_of_180_line": {
+      "pass": true,
+      "detail": "exterior story cameras south of the queue/bouncer line (y<-1.3) except SH07 follow-through: bad frames []"
+    },
+    "screen_direction_left_to_right": {
+      "pass": true,
+      "detail": {
+        "SH02": "world x -1.1 -> -0.25, screen x -0.118 -> 0.3 (tracking cameras may hold screen x)",
+        "SH03": "world x -1.4 -> -0.25, screen x 0.488 -> 0.488 (tracking cameras may hold screen x)",
+        "SH04": "world x -1.5 -> -0.25, screen x 0.137 -> 0.458 (tracking cameras may hold screen x)",
+        "SH05": "world x -2.75 -> -0.25, screen x 0.269 -> 0.312 (tracking cameras may hold screen x)",
+        "SH09": "world x -1.4 -> -0.25, screen x -0.381 -> 0.239 (tracking cameras may hold screen x)"
+      }
+    },
+    "no_character_interpenetration": {
+      "pass": true,
+      "detail": {
+        "min root separation": {
+          "HERO_01/BOUNCER_01": "0.71m @f443",
+          "BOUNCER_01/GUEST_04": "0.71m @f623",
+          "GUEST_02/GUEST_03": "0.75m @f216",
+          "HERO_01/GUEST_04": "0.92m @f289",
+          "GUEST_01/GUEST_02": "0.95m @f1",
+          "GUEST_03/GUEST_04": "0.95m @f1",
+          "BOUNCER_01/GUEST_01": "1.34m @f96",
+          "BOUNCER_01/GUEST_02": "1.34m @f166",
+          "BOUNCER_01/GUEST_03": "1.34m @f249",
+          "HERO_01/GUEST_03": "1.43m @f72",
+          "GUEST_02/GUEST_04": "1.55m @f216",
+          "GUEST_01/GUEST_03": "1.90m @f1",
+          "HERO_01/GUEST_02": "1.97m @f217",
+          "GUEST_01/GUEST_04": "2.85m @f1",
+          "HERO_01/GUEST_01": "3.00m @f72"
+        }
+      }
+    },
+    "no_stanchion_collision": {
+      "pass": true,
+      "detail": {
+        "BOUNCER_01/R": "0.36m @f439",
+        "HERO_01/L": "0.39m @f469",
+        "HERO_01/R": "0.41m @f470",
+        "BOUNCER_01/L": "0.76m @f443",
+        "GUEST_03/L": "0.85m @f244",
+        "GUEST_04/L": "0.85m @f593"
+      }
+    },
+    "hand_to_prop_contacts": {
+      "pass": true,
+      "detail": {
+        "hero right hand on brim": "max gap 0.1 mm",
+        "bouncer hand on gift cap": "max gap 0.1 mm",
+        "guest04 left hand on cap": "max gap 0.1 mm",
+        "guest04 right hand on cap": "max gap 0.1 mm",
+        "bouncer hand on rope end (SH07)": "max gap 0.0 mm",
+        "bouncer hand on rope end (SH09)": "max gap 0.0 mm"
+      }
+    },
+    "foot_sliding_planted_feet": {
+      "pass": true,
+      "detail": {
+        "BOUNCER_01": "0.4 mm/frame @f454",
+        "CLUB_EXTRA_01": "0.1 mm/frame @f445",
+        "CLUB_EXTRA_02": "0.1 mm/frame @f442",
+        "CLUB_EXTRA_03": "0.0 mm/frame @f443",
+        "CLUB_EXTRA_04": "0.1 mm/frame @f437",
+        "CLUB_EXTRA_05": "0.0 mm/frame @f455",
+        "CLUB_EXTRA_06": "0.1 mm/frame @f438",
+        "GUEST_01": "0.2 mm/frame @f124",
+        "GUEST_02": "0.6 mm/frame @f204",
+        "GUEST_03": "0.1 mm/frame @f242",
+        "GUEST_04": "0.1 mm/frame @f589",
+        "HERO_01": "0.4 mm/frame @f464"
+      }
+    },
+    "rope_opens_toward_screen_right": {
+      "pass": true,
+      "detail": "left rope end x -0.35 -> 0.65 in SH07 (unhooked from entrance-LEFT stanchion, carried screen-right)"
+    },
+    "elephant_feet_on_floor": {
+      "pass": true,
+      "detail": "lowest leg vertex z = -0.009 m"
+    },
+    "elephant_partially_occluded_by_foreground_stool": {
+      "pass": true,
+      "detail": "rays CAM_08 -> 20 points on the elephant near legs: {'stool': 4, 'elephant': 12, 'other': 4}"
+    }
+  },
+  "failures": [],
+  "warnings": []
+}
