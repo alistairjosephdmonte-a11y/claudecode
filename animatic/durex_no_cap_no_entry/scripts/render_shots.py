@@ -35,6 +35,7 @@ def configure(sc):
     r.image_settings.file_format = "PNG"
     r.image_settings.color_mode = "RGB"
     r.use_file_extension = True
+    r.use_overwrite = False  # resume: skip frames already on disk
     if args.engine == "WORKBENCH":
         r.engine = "BLENDER_WORKBENCH"
         sc.display.shading.light = "STUDIO"
