@@ -1,0 +1,535 @@
+1
+00:00:01,550 --> 00:00:04,530
+Dallas, Texas. September 2000.
+
+2
+00:00:05,050 --> 00:00:07,930
+A meeting took place in this city that is now retold,
+
+3
+00:00:07,950 --> 00:00:11,580
+again and again, as a business parable.
+
+4
+00:00:11,600 --> 00:00:13,960
+According to Marc Randolph, a Netflix co-founder,
+
+5
+00:00:13,980 --> 00:00:16,660
+three Netflix executives came here to
+
+6
+00:00:16,680 --> 00:00:17,900
+meet the leadership of Blockbuster,
+
+7
+00:00:17,920 --> 00:00:20,560
+the largest name in video rental.
+
+8
+00:00:21,390 --> 00:00:23,410
+We have no transcript of that meeting.
+
+9
+00:00:26,310 --> 00:00:28,910
+The people who were there remember the day differently.
+
+10
+00:00:30,400 --> 00:00:32,020
+In Randolph's version,
+
+11
+00:00:32,040 --> 00:00:34,660
+Netflix proposed that Blockbuster buy the company,
+
+12
+00:00:34,680 --> 00:00:38,640
+and that the Netflix team run Blockbuster's business online.
+
+13
+00:00:40,400 --> 00:00:43,900
+Randolph described the meeting in his 2019 memoir.
+
+14
+00:00:44,460 --> 00:00:46,240
+He recalls the price that was named,
+
+15
+00:00:46,260 --> 00:00:49,400
+and a reaction he read as dismissive.
+
+16
+00:00:50,400 --> 00:00:54,820
+John Antioco, Blockbuster's chief executive at the time,
+
+17
+00:00:54,840 --> 00:00:56,140
+disputes that version.
+
+18
+00:00:56,660 --> 00:00:59,940
+In 2022 he wrote that no serious conversations
+
+19
+00:00:59,960 --> 00:01:02,540
+about buying Netflix took place.
+
+20
+00:01:03,060 --> 00:01:04,680
+The figure at the center of the
+
+21
+00:01:04,700 --> 00:01:07,340
+story is fifty million dollars.
+
+22
+00:01:07,360 --> 00:01:09,340
+It comes from Randolph's account,
+
+23
+00:01:09,360 --> 00:01:11,480
+and it is where most retellings begin.
+
+24
+00:01:11,980 --> 00:01:14,740
+Two recollections. One number.
+
+25
+00:01:14,760 --> 00:01:18,220
+And a question that a single meeting, however famous,
+
+26
+00:01:18,240 --> 00:01:19,960
+cannot answer on its own.
+
+27
+00:01:20,850 --> 00:01:22,550
+To understand the decision,
+
+28
+00:01:22,570 --> 00:01:24,730
+start with the business Blockbuster had built,
+
+29
+00:01:24,750 --> 00:01:27,090
+and the Friday nights that built it.
+
+30
+00:01:30,400 --> 00:01:34,000
+Its strength was physical: walls of tapes and discs,
+
+31
+00:01:34,020 --> 00:01:35,660
+new releases in bulk,
+
+32
+00:01:35,680 --> 00:01:38,140
+and stores close to where customers lived.
+
+33
+00:01:40,400 --> 00:01:43,880
+A customer chose a film, showed a membership card,
+
+34
+00:01:43,900 --> 00:01:45,020
+paid at the counter,
+
+35
+00:01:45,040 --> 00:01:47,460
+and promised to bring it back by a due date.
+
+36
+00:01:50,400 --> 00:01:53,440
+Repeated store by store, city by city,
+
+37
+00:01:53,460 --> 00:01:57,320
+that simple transaction grew into a vast retail network.
+
+38
+00:02:00,400 --> 00:02:02,320
+By the end of 2004,
+
+39
+00:02:02,340 --> 00:02:04,920
+the company described a network of roughly nine
+
+40
+00:02:04,940 --> 00:02:07,320
+thousand one hundred stores around the world.
+
+41
+00:02:10,400 --> 00:02:12,080
+Every rental carried a due date,
+
+42
+00:02:12,100 --> 00:02:14,640
+and every late return carried a fee.
+
+43
+00:02:15,080 --> 00:02:17,720
+That small line on a receipt added up.
+
+44
+00:02:20,400 --> 00:02:23,780
+The company later reported that those extended viewing fees
+
+45
+00:02:23,800 --> 00:02:28,520
+made up about fourteen percent of its rental revenue in 2004.
+
+46
+00:02:30,400 --> 00:02:33,720
+A system this large is powerful. It is also heavy,
+
+47
+00:02:33,740 --> 00:02:35,860
+and heavy systems are slow to change
+
+48
+00:02:35,880 --> 00:02:37,820
+direction when the ground moves.
+
+49
+00:02:40,850 --> 00:02:42,850
+Netflix approached the same customer
+
+50
+00:02:42,870 --> 00:02:46,950
+problem from the other side: a disc, a paper envelope,
+
+51
+00:02:46,970 --> 00:02:47,730
+and a mailbox.
+
+52
+00:02:50,400 --> 00:02:51,800
+There was no storefront.
+
+53
+00:02:52,220 --> 00:02:54,500
+Orders moved through distribution centers,
+
+54
+00:02:54,520 --> 00:02:56,840
+sorting lines and the postal system.
+
+55
+00:03:00,400 --> 00:03:03,800
+Customers paid a monthly subscription, received discs,
+
+56
+00:03:03,820 --> 00:03:05,940
+watched them, and sent them back.
+
+57
+00:03:06,340 --> 00:03:08,600
+In this model there were no late fees.
+
+58
+00:03:10,400 --> 00:03:13,520
+Two businesses now served the same evening at home,
+
+59
+00:03:13,540 --> 00:03:14,740
+for the same customers,
+
+60
+00:03:14,760 --> 00:03:18,740
+with very different machinery working behind each of them.
+
+61
+00:03:20,400 --> 00:03:22,120
+One carried rent,
+
+62
+00:03:22,140 --> 00:03:25,400
+inventory and staff across thousands of locations.
+
+63
+00:03:26,140 --> 00:03:28,680
+The other carried postage, fulfillment,
+
+64
+00:03:28,700 --> 00:03:30,620
+and the cost of winning subscribers.
+
+65
+00:03:31,410 --> 00:03:35,230
+And it lived online, on early web pages and order forms,
+
+66
+00:03:35,250 --> 00:03:39,370
+years before most viewers expected movies to arrive that way.
+
+67
+00:03:40,400 --> 00:03:43,640
+In 2000, the difference in scale was enormous.
+
+68
+00:03:44,560 --> 00:03:46,540
+Blockbuster was by far the larger company,
+
+69
+00:03:46,560 --> 00:03:48,600
+and the more established brand.
+
+70
+00:03:50,400 --> 00:03:52,640
+So was the threat obvious in 2000?
+
+71
+00:03:52,660 --> 00:03:55,620
+Or does it only look obvious now?
+
+72
+00:04:00,850 --> 00:04:02,330
+Blockbuster did respond.
+
+73
+00:04:02,750 --> 00:04:04,470
+It moved into online rental,
+
+74
+00:04:04,490 --> 00:04:08,170
+with a service launched in 2004 to compete directly by mail.
+
+75
+00:04:10,400 --> 00:04:14,720
+Now it ran two systems side by side: thousands of stores,
+
+76
+00:04:14,740 --> 00:04:17,380
+and a growing operation built around the mailbox.
+
+77
+00:04:20,400 --> 00:04:24,000
+In January 2005, it made a major change.
+
+78
+00:04:24,420 --> 00:04:26,440
+It stopped charging late fees at its
+
+79
+00:04:26,460 --> 00:04:28,620
+company-operated stores in the United States.
+
+80
+00:04:30,400 --> 00:04:33,620
+The company's annual report for 2005 describes
+
+81
+00:04:33,640 --> 00:04:37,340
+the financial impact of that decision, line by line.
+
+82
+00:04:40,400 --> 00:04:43,060
+The company reported that the program reduced rental
+
+83
+00:04:43,080 --> 00:04:47,200
+revenues by more than five hundred million dollars,
+
+84
+00:04:47,220 --> 00:04:50,160
+and cost about sixty million to market and implement.
+
+85
+00:04:50,700 --> 00:04:56,040
+In November 2006, Blockbuster introduced Total Access,
+
+86
+00:04:56,060 --> 00:04:59,000
+its most direct answer yet to the mail-order challenge.
+
+87
+00:05:00,400 --> 00:05:02,760
+Online members could return a mailed disc
+
+88
+00:05:02,780 --> 00:05:05,220
+at a store and leave with another film.
+
+89
+00:05:05,580 --> 00:05:08,000
+For the first time, the two systems connected.
+
+90
+00:05:10,400 --> 00:05:12,280
+Subscribers grew quickly.
+
+91
+00:05:12,300 --> 00:05:13,980
+So did the cost of serving them,
+
+92
+00:05:14,000 --> 00:05:16,660
+and of the promotions that brought them in.
+
+93
+00:05:20,850 --> 00:05:22,690
+Growth came with losses.
+
+94
+00:05:23,150 --> 00:05:25,150
+Attracting customers is not the same
+
+95
+00:05:25,170 --> 00:05:27,610
+thing as making each of them profitable.
+
+96
+00:05:30,400 --> 00:05:31,760
+Retail stores.
+
+97
+00:05:31,780 --> 00:05:33,320
+Discs by mail.
+
+98
+00:05:33,340 --> 00:05:36,540
+Each with its own costs, its own customers, and soon,
+
+99
+00:05:36,560 --> 00:05:38,760
+a third model that needed neither.
+
+100
+00:05:40,400 --> 00:05:42,400
+In January 2007,
+
+101
+00:05:42,420 --> 00:05:46,040
+Netflix announced instant viewing on personal computers,
+
+102
+00:05:46,060 --> 00:05:48,280
+starting with about a thousand titles.
+
+103
+00:05:50,400 --> 00:05:51,720
+It was limited at first.
+
+104
+00:05:52,180 --> 00:05:54,360
+But it pointed toward a way of watching that
+
+105
+00:05:54,380 --> 00:05:56,840
+needed neither a store nor an envelope.
+
+106
+00:06:00,400 --> 00:06:01,880
+Discs by mail,
+
+107
+00:06:01,900 --> 00:06:04,180
+retail stores and streaming were now
+
+108
+00:06:04,200 --> 00:06:07,120
+competing for the very same evenings at home.
+
+109
+00:06:10,400 --> 00:06:12,420
+Running a transition is expensive,
+
+110
+00:06:12,780 --> 00:06:14,780
+and the cost fell on a business whose
+
+111
+00:06:14,800 --> 00:06:17,320
+core revenue was already under pressure.
+
+112
+00:06:20,400 --> 00:06:23,700
+Debt, liquidity and other long-term obligations left
+
+113
+00:06:23,720 --> 00:06:26,720
+the company with less and less room to maneuver,
+
+114
+00:06:26,740 --> 00:06:28,880
+and less time to adjust.
+
+115
+00:06:30,400 --> 00:06:32,680
+The network that had been the company's greatest
+
+116
+00:06:32,700 --> 00:06:36,000
+strength became harder and harder to sustain.
+
+117
+00:06:40,850 --> 00:06:43,410
+On September twenty-third, 2010,
+
+118
+00:06:43,430 --> 00:06:47,130
+Blockbuster filed for Chapter Eleven bankruptcy protection,
+
+119
+00:06:47,150 --> 00:06:49,490
+a decade after the meeting in Dallas.
+
+120
+00:06:50,400 --> 00:06:52,740
+Some stores continued to operate.
+
+121
+00:06:52,760 --> 00:06:54,340
+But the dominant model of the
+
+122
+00:06:54,360 --> 00:06:56,500
+neighborhood video store had faded.
+
+123
+00:07:00,400 --> 00:07:02,700
+Which brings us back to the meeting in Dallas.
+
+124
+00:07:03,220 --> 00:07:06,440
+A famous moment, and still a disputed one.
+
+125
+00:07:10,400 --> 00:07:13,100
+Could an earlier deal, different terms,
+
+126
+00:07:13,120 --> 00:07:16,200
+or a partnership have changed the outcome? Possibly.
+
+127
+00:07:16,760 --> 00:07:18,700
+None of these outcomes can be proven.
+
+128
+00:07:20,400 --> 00:07:24,480
+The record points to something more complex: legacy economics,
+
+129
+00:07:24,500 --> 00:07:27,200
+the cost of transition, and financial constraints,
+
+130
+00:07:27,220 --> 00:07:28,620
+arriving together.
+
+131
+00:07:30,400 --> 00:07:32,340
+One meeting is part of the evidence.
+
+132
+00:07:32,800 --> 00:07:35,980
+It is not the whole record, and it was never the whole story.
+
+133
+00:07:42,150 --> 00:07:46,070
+Recognizing change is not the same as surviving it.
+
+134
+00:07:53,550 --> 00:07:55,630
+Every decision leaves evidence.

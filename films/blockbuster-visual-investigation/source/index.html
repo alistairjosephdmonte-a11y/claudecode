@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Blockbuster: The $50 Million Decision</title>
+<style>
+@font-face{font-family:Sans;src:url(fonts/sans400.woff2) format('woff2');font-weight:400}
+@font-face{font-family:Sans;src:url(fonts/sans500.woff2) format('woff2');font-weight:500}
+@font-face{font-family:Sans;src:url(fonts/sans700.woff2) format('woff2');font-weight:700}
+@font-face{font-family:Mono;src:url(fonts/mono400.woff2) format('woff2');font-weight:400}
+@font-face{font-family:Mono;src:url(fonts/mono600.woff2) format('woff2');font-weight:600}
+@font-face{font-family:SerifI;src:url(fonts/serifi.woff2) format('woff2');font-style:italic;font-weight:400}
+html,body{margin:0;background:#0B0C0E;overflow:hidden}canvas{display:block}
+</style></head><body><canvas id="c" width="1920" height="1080"></canvas>
+<script>
+// Brand Coroner · Case 001 · "Blockbuster: The $50 Million Decision" — Visual Investigation style.
+// One Canvas-2D page drawn deterministically by window.render(t). Timing (sections, voice, subtitles) lives in film.json.
+const W = 1920, H = 1080;
+const cv = document.getElementById('c'), x = cv.getContext('2d');
+const C = { bg:'#0B0C0E', panel:'#141619', line:'#2E3238', text:'#ECEAE4', dim:'#8B9097', faint:'#4A4F57', acc:'#FF4A2E', paper:'#E4E0D4', ink:'#1D1D1B' };
+const F = { sans:'Sans', mono:'Mono', it:'SerifI' };
+let FILM = null, SEC = {}, FR = 0, REC = null;
+
+// ── utilities ──
+const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
+const seg = (t, a, b) => clamp((t - a) / (b - a));
+const eo = k => 1 - Math.pow(1 - k, 3), eio = k => k < .5 ? 4 * k * k * k : 1 - Math.pow(-2 * k + 2, 3) / 2;
+const lerp = (a, b, k) => a + (b - a) * k;
+function rnd(s) { return function () { s |= 0; s = s + 0x6D2B79F5 | 0; let t = Math.imul(s ^ s >>> 15, 1 | s); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+const inS = (t, k) => t >= SEC[k][0] && t < SEC[k][1];
+
+// ── assets ──
+const IM = {}; let GRAIN = [];
+const PHOTOS = ['addison', 'anc1', 'anc2', 'anc5', 'glasgow', 'miami', 'card', 'disc', 'env', 'tower', 'dallas', 'bend', 'fairbanks'];
+function load(src) { return new Promise(r => { const i = new Image(); i.onload = () => r(i); i.onerror = () => { console.warn('missing', src); r(null); }; i.src = src; }); }
+async function boot() {
+  FILM = await (await fetch('film.json')).json(); SEC = FILM.sections; window.DUR = FILM.dur;
+  const L = PHOTOS.map(k => load(`assets/${k}.jpg`).then(i => IM[k] = i));
+  for (const f of ['700 40px Sans', '500 20px Sans', '400 20px Sans', '400 20px Mono', '600 20px Mono', 'italic 24px SerifI']) L.push(document.fonts.load(f));
+  await Promise.all(L);
+  for (let g = 0; g < 6; g++) { const c = document.createElement('canvas'); c.width = c.height = 256; const gx = c.getContext('2d'); const d = gx.createImageData(256, 256); const r = rnd(g * 99 + 7);
+    for (let i = 0; i < d.data.length; i += 4) { const v = 128 + (r() + r() + r() - 1.5) * 120; d.data[i] = d.data[i + 1] = d.data[i + 2] = v; d.data[i + 3] = 255; } gx.putImageData(d, 0, 0); GRAIN.push(c); }
+  window.READY = true;
+}
+
+// ── drawing primitives ──
+function txt(s, X, Y, o = {}) {
+  x.save(); x.font = `${o.it ? 'italic ' : ''}${o.w || 400} ${o.s || 24}px ${o.f || F.sans}`; x.fillStyle = o.c || C.text; x.globalAlpha *= (o.a ?? 1);
+  x.textAlign = o.al || 'left'; x.textBaseline = 'alphabetic'; x.letterSpacing = (o.ls || 0) + 'px';
+  if (x.globalAlpha > 0.001) x.fillText(s, X, Y);
+  const w = x.measureText(s).width; const ga = x.globalAlpha; x.restore();
+  if (REC && o.id && ga > 0.5) { const sz = o.s || 24, x0 = o.al === 'right' ? X - w : o.al === 'center' ? X - w / 2 : X;
+    REC.push({ id: o.id, text: s, x0, y0: Y - sz * .9, x1: x0 + w, y1: Y + sz * .25 }); }
+  return w;
+}
+function tw(s, o = {}) { x.save(); x.font = `${o.it ? 'italic ' : ''}${o.w || 400} ${o.s || 24}px ${o.f || F.sans}`; x.letterSpacing = (o.ls || 0) + 'px'; const w = x.measureText(s).width; x.restore(); return w; }
+function hair(x0, y0, x1, y1, c = C.line, w = 1, dash) { x.save(); x.strokeStyle = c; x.lineWidth = w; if (dash) x.setLineDash(dash); x.beginPath(); x.moveTo(x0, y0); x.lineTo(x1, y1); x.stroke(); x.restore(); }
+function rect(X, Y, w, h, c = C.line, lw = 1, dash) { x.save(); x.strokeStyle = c; x.lineWidth = lw; if (dash) x.setLineDash(dash); x.strokeRect(X + .5, Y + .5, w - 1, h - 1); x.restore(); }
+function fill(X, Y, w, h, c) { x.fillStyle = c; x.fillRect(X, Y, w, h); }
+function alpha(a, f) { if (a <= 0) return; x.save(); x.globalAlpha *= a; f(); x.restore(); }
+function flashRect(t, at, X, Y, w, h, d = .12) { const k = 1 - seg(t, at, at + d); if (t < at || k <= 0) return; x.save(); x.globalAlpha = k; fill(X, Y, w, h, '#fff'); x.restore(); }
+// red circle drawn clockwise; at 60 % a leader and a bold label
+function ring(cx, cy, r, k, label, side = 1, id) {
+  if (k <= 0) return; x.save(); x.strokeStyle = C.acc; x.lineWidth = 2.5;
+  x.beginPath(); x.arc(cx, cy, r, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * eo(k)); x.stroke(); x.restore();
+  if (label && k > .6) { const a = seg(k, .6, .75); const lx = cx + side * (r * .72), ly = cy - r * .72, ex = lx + side * 40, ey = ly - 30;
+    alpha(a, () => { hair(lx, ly, ex, ey, C.acc, 1.5); hair(ex, ey, ex + side * 14, ey, C.acc, 1.5); });
+    const o = { s: 24, w: 700, al: side > 0 ? 'left' : 'right', a, id }, lw = tw(label, o) + 16, bx = side > 0 ? ex + side * 14 : ex + side * 14 - lw;
+    alpha(a, () => fill(bx, ey - 20, lw, 34, 'rgba(11,12,14,0.78)'));
+    txt(label, ex + side * 22, ey + 7, o); }
+}
+// a photo inside a panel: one grade, one grain, white flash on entry
+function plate(img, sx, sy, sw, sh, X, Y, w, h, o = {}) {
+  x.save(); x.globalAlpha *= (o.a ?? 1); fill(X, Y, w, h, '#000');
+  if (img) { x.filter = o.doc ? 'grayscale(1) contrast(1.05) brightness(0.86)' : 'grayscale(1) contrast(1.22) brightness(0.94)'; x.drawImage(img, sx, sy, sw, sh, X, Y, w, h); x.filter = 'none'; }
+  if (GRAIN.length) { x.beginPath(); x.rect(X, Y, w, h); x.clip(); x.globalCompositeOperation = 'overlay'; x.globalAlpha *= o.doc ? .10 : .22;
+    const g = GRAIN[FR % 6]; for (let gy = Y; gy < Y + h; gy += 256) for (let gx = X; gx < X + w; gx += 256) x.drawImage(g, gx, gy); }
+  x.restore();
+  if (o.flash > 0) { x.save(); x.globalAlpha = o.flash * (o.a ?? 1); fill(X, Y, w, h, '#fff'); x.restore(); }
+  if (!o.noborder) rect(X, Y, w, h, o.border || C.line, o.bw || 1);
+}
+// fill a panel without stretching; fx/fy = focus (0–1); z = push (≤ 1.06 on photos); returns source-fraction → screen mapping
+function photo(k, X, Y, w, h, o = {}) {
+  const img = IM[k]; if (!img) { fill(X, Y, w, h, '#000'); return () => [X, Y]; }
+  const crop = o.crop || [0, 0, 1, 1], iw = img.width * (crop[2] - crop[0]), ih = img.height * (crop[3] - crop[1]), ox = img.width * crop[0], oy = img.height * crop[1];
+  let sw = iw, sh = iw * h / w; if (sh > ih) { sh = ih; sw = ih * w / h; }
+  const z = o.z || 1; sw /= z; sh /= z;
+  const fx = o.fx ?? .5, fy = o.fy ?? .5, sx = ox + clamp(fx * iw - sw / 2, 0, iw - sw), sy = oy + clamp(fy * ih - sh / 2, 0, ih - sh);
+  plate(img, sx, sy, sw, sh, X, Y, w, h, o); const s = w / sw;
+  return (u, v) => [X + (u * img.width - sx) * s, Y + (v * img.height - sy) * s];
+}
+function tag(s, X, Y, o = {}) { const w = txt(s, X + 14, Y, { s: o.s || 16, f: F.mono, c: o.c || C.text, w: 600, ls: 1, a: o.a ?? 1, id: o.id });
+  alpha(o.a ?? 1, () => fill(X, Y - 11, 6, 12, o.chip || C.text)); return w; }
+function badge(X, Y, t, at) { const k = seg(t, at, at + .06); if (k <= 0) return; x.save(); x.globalAlpha *= k; const s = 1 + .3 * (1 - seg(t, at, at + .18)); x.translate(X, Y); x.scale(s, s);
+  x.fillStyle = 'rgba(11,12,14,0.85)'; x.fillRect(-15, -15, 30, 30); x.strokeStyle = C.acc; x.lineWidth = 2; x.strokeRect(-15, -15, 30, 30);
+  x.beginPath(); x.moveTo(-8, 0); x.lineTo(-2, 7); x.lineTo(9, -7); x.lineWidth = 3; x.stroke(); x.restore(); }
+function dashBox(X, Y, s = 24, c = C.acc) { x.save(); x.strokeStyle = c; x.lineWidth = 2; x.setLineDash([4, 3]); x.strokeRect(X, Y, s, s); x.restore(); }
+function tick(X, Y, c = C.text) { x.save(); x.strokeStyle = c; x.lineWidth = 2.5; x.beginPath(); x.moveTo(X, Y); x.lineTo(X + 8, Y + 9); x.lineTo(X + 22, Y - 10); x.stroke(); x.restore(); }
+function diamond(X, Y, r, c) { x.fillStyle = c; x.beginPath(); x.moveTo(X, Y - r); x.lineTo(X + r * .78, Y); x.lineTo(X, Y + r); x.lineTo(X - r * .78, Y); x.fill(); }
+
+// Typeset filing excerpt (EDGAR text re-typeset; labelled as a transcription) on a paper card. lines: [text]; hl: [[line, from, to, at]] → red multiply wipe.
+function doc(t, X, Y, w, lines, o = {}) {
+  const s = o.s || 26, lh = o.lh || s * 1.5, pad = 30, h = o.h || (pad * 2 + 30 + lines.length * lh), at = o.at ?? -1;
+  const k = seg(t, at, at + .04); if (k <= 0) return h;
+  alpha(k, () => { fill(X, Y, w, h, C.paper); x.save(); x.globalAlpha *= .1; x.globalCompositeOperation = 'multiply'; x.drawImage(GRAIN[FR % 6], X, Y, Math.min(256, w), Math.min(256, h)); x.restore(); rect(X, Y, w, h, '#bdb8aa');
+    if (o.head) { txt(o.head, X + pad, Y + pad + 12, { s: 16, f: F.mono, w: 600, c: '#6c685e', ls: 1 }); hair(X + pad, Y + pad + 26, X + w - pad, Y + pad + 26, '#bdb8aa'); }
+    const top = Y + pad + (o.head ? 62 : 30), fo = { s, f: o.f || F.mono, w: o.wt || 400, it: o.it };
+    const nTy = o.type ? Math.floor(seg(t, at, at + o.type) * lines.join('').length) : 1e9; let used = 0;
+    lines.forEach((l, i) => { const vis = l.slice(0, clamp(nTy - used, 0, l.length)); used += l.length; txt(vis, X + pad, top + i * lh, { ...fo, c: C.ink });
+      if (REC && vis.length === l.length) REC.push({ id: (o.id || 'doc') + i, text: l, x0: X + pad, y0: top + i * lh - s, x1: X + pad + tw(l, fo), y1: top + i * lh + 6 }); });
+    (o.hl || []).forEach(([li, sub, ha]) => { const kk = eo(seg(t, ha, ha + .5)); if (kk <= 0) return; const l = lines[li], a = l.indexOf(sub), b = a + sub.length, x0 = X + pad + tw(l.slice(0, a), fo), x1 = X + pad + tw(l.slice(0, b), fo);
+      x.save(); x.globalCompositeOperation = 'multiply'; x.fillStyle = 'rgba(255,74,46,0.6)'; x.fillRect(x0 - 3, top + li * lh - s * .92, (x1 - x0 + 6) * kk, s * 1.22); x.restore(); });
+  });
+  flashRect(t, at, X, Y, w, h, .12);
+  if (o.tag) tag(o.tag, X, Y - 16, { id: (o.id || 'doc') + 'T', a: k });
+  return h;
+}
+// quote card on a dark panel: red bar, source tag, italic original words
+function quote(t, X, Y, w, lines, o = {}) { const at = o.at ?? -1, k = seg(t, at, at + .05); if (k <= 0) return; const s = o.s || 38, lh = s * 1.32, h = o.h || 70 + lines.length * lh;
+  alpha(k, () => { if (o.panel !== false) { fill(X, Y, w, h, C.panel); rect(X, Y, w, h); } fill(X, Y, 6, h, o.bar || C.acc);
+    lines.forEach((l, i) => txt(l, X + 34, Y + 34 + s + i * lh, { s, f: F.it, it: 1, c: o.c || C.text, id: (o.id || 'q') + i })); });
+  flashRect(t, at, X, Y, w, h, .1); if (o.tag) tag(o.tag, X, Y - 16, { id: (o.id || 'q') + 'T', a: k }); }
+
+// ── the clock: dates read in the picture ──
+const MON = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+const ym = (y, m = 1) => y + (m - 1) / 12;                       // decimal year
+const fmtYM = v => { const y = Math.floor(v + 1e-6), m = Math.min(11, Math.floor((v - y) * 12 + 1e-6)); return `${MON[m]} ${y}`; };
+function readout(s, X, Y, o = {}) { return txt(s, X, Y, { s: o.s || 56, f: F.mono, w: 600, c: o.c || C.acc, al: o.al, a: o.a, id: o.id }); }
+
+// ── subtitles: one English line, bottom of frame ──
+function subs(t) { for (const [a, b, en] of FILM.subs) if (t >= a && t < b) {
+  x.save(); x.shadowColor = 'rgba(0,0,0,.95)'; x.shadowBlur = 10; txt(en, W / 2, 1004, { s: 34, w: 500, al: 'center' }); x.restore(); } }
+
+// ═════════ sections (picture y 60–900, subtitles below) ═════════
+
+// 0–4 cold open: the last frame of the story freezes first — the 2010 filing and a closing store — then the evidence slams in and the clock rewinds to 2000
+function sOpen(t) {
+  const G = [{ X: 60, Y: 60, w: 880, h: 400 }, { X: 980, Y: 60, w: 880, h: 400 }, { X: 60, Y: 500, w: 880, h: 390 }, { X: 980, Y: 500, w: 880, h: 390 }];
+  const big = t < .7, rw = seg(t, 2.6, 4.0);
+  const fr = big ? { X: 300, Y: 60, w: 1320, h: 830 } : G[0];
+  const mp = photo('miami', fr.X, fr.Y, fr.w, fr.h, { crop: [0, 0, .9, .62], fx: .55, fy: .5, flash: big ? 1 - seg(t, 0, .13) : 1 - seg(t, .7, .8), a: 1 - rw });
+  const [cx, cy] = mp(.66, .43); if (rw < 1) alpha(1 - rw, () => ring(cx, cy, big ? 170 : 95, big ? seg(t, .1, .5) : 1));
+  readout('SEP 23, 2010', fr.X + fr.w - 18, fr.Y + 58, { s: big ? 44 : 26, al: 'right', a: seg(t, .2, .25) * (1 - rw) });
+  if (!big) {
+    if (t >= .7) alpha(1 - rw, () => doc(t, G[1].X, G[1].Y, G[1].w, ['On September 23, 2010, the Blockbuster', 'Inc. ... filed voluntary petitions', 'for relief under chapter 11'], { at: .7, s: 30, h: G[1].h, head: 'FORM 8-K · ITEM 1.03', hl: [[2, 'chapter 11', .9]] }));
+    if (t >= 1.0) alpha(1 - rw, () => quote(t, G[2].X, G[2].Y, G[2].w, ['“$50 million”'], { at: 1.0, s: 64, h: G[2].h, tag: 'MEMOIR · RANDOLPH' }));
+    if (t >= 1.3) alpha(1 - rw, () => photo('addison', G[3].X, G[3].Y, G[3].w, G[3].h, { fx: .55, fy: .5, flash: 1 - seg(t, 1.3, 1.44) }));
+    const sw = seg(t, 1.7, 2.1); if (sw > 0 && sw < 1) { const sx = lerp(40, 1880, eo(sw)); hair(sx, 50, sx, 900, C.acc, 2.5); }
+    if (t > 2.1 && t < 2.6) hair(40, 480, 1880, 480, C.acc, 1, [2, 6]);
+  }
+  if (rw > 0) { // rewind: the date runs back a decade under scan lines
+    alpha(rw * .6, () => { for (let k = 0; k < 7; k++) { const yy = 60 + ((FR * 37 + k * 131) % 830); fill(60, yy, 1800, 2, '#fff'); } });
+    const v = lerp(ym(2010, 9), ym(2000, 9), eio(rw)); readout(fmtYM(v), W / 2, 520, { s: 120, al: 'center', a: seg(rw, 0, .1) });
+  }
+}
+
+// 4–10.5 title package: Dallas, where the story begins
+function sTitle(t) { const l = t - SEC.title[0];
+  photo('dallas', 60, 60, 1040, 780, { z: lerp(1, 1.06, seg(l, 0, 6.5)), fy: .5, flash: 1 - seg(l, 0, .12) });
+  tag('PHOTO · DALLAS · 2009', 60, 46, { id: 'dTag' });
+  const X0 = 1170, k = seg(l, .05, .1);
+  txt('BRAND CORONER · CASE 001', X0, 250, { s: 22, w: 700, c: C.acc, ls: 4, a: k, id: 'kick' });
+  txt('Blockbuster', X0, 380, { s: 104, w: 700, a: k, id: 'title1' });
+  txt('The $50 Million Decision', X0, 460, { s: 50, w: 700, a: seg(l, .1, .15), id: 'title2' });
+  hair(X0, 520, lerp(X0, 1860, eo(seg(l, .5, 1.0))), 520, C.line);
+  const k4 = seg(l, .1, .2); x.save(); x.globalAlpha = k4; const lx = lerp(X0 - 40, X0, eo(seg(l, .2, .5)));
+  fill(lx, 650, 6, 74, C.acc); txt('Dallas, Texas', lx + 24, 686, { s: 36, w: 700, id: 'lt1' }); txt('SEP 2000', lx + 26, 716, { s: 17, f: F.mono, c: C.dim, ls: 2, id: 'lt2' }); x.restore();
+}
+
+// 10.5–30 where and what is on record: one city, two sources place the meeting there; no transcript exists
+function sPlace(t) {
+  if (t < 20) { const l = t - 10.5;
+    const tm = photo('tower', 60, 92, 620, 800, { z: lerp(1, 1.05, seg(l, 0, 9.5)), fx: .45, fy: .45, flash: 1 - seg(l, 0, .12) }); const [ta, tb] = tm(.47, .32); ring(ta, tb, 80, seg(t, 12.3, 12.8), '1201 Elm St', 1, 'elm');
+    tag('PHOTO · RENAISSANCE TOWER · 2009', 60, 76, { id: 'twTag' });
+    doc(t, 740, 92, 1120, ['Blockbuster Inc.', '1201 Elm Street, Dallas, Texas 75270'], { at: 11.4, s: 34, head: 'FORM 10-K · FISCAL 2004 · COVER', hl: [[1, '1201 Elm Street, Dallas, Texas 75270', 11.9]], tag: '10-K · TRANSCRIPTION', id: 'adr' });
+    quote(t, 740, 420, 1120, ['three Netflix executives travel', 'to Dallas to meet Blockbuster'], { at: 13.7, s: 40, tag: 'MEMOIR · RANDOLPH 2019 · PARAPHRASE', id: 'mem' });
+    const kl = eo(seg(t, 16.6, 17.4)); if (kl > 0) { hair(740, 200, lerp(740, 600, kl), lerp(200, 300, kl), C.acc, 1.4, [3, 4]); hair(740, 500, lerp(740, 600, kl), lerp(500, 330, kl), C.acc, 1.4, [3, 4]); }
+    if (t > 17.4) { badge(1830, 120, t, 17.5); badge(1830, 448, t, 17.62); }
+    alpha(seg(t, 18, 18.05), () => { readout('SEP 2000', 740, 760, { s: 72, id: 'sep' }); txt('one city, two sources', 744, 812, { s: 26, w: 500, c: C.dim, id: 'two' }); });
+    return; }
+  const l = t - 20; flashRect(t, 20, 0, 60, W, 840);
+  txt('The meeting, on the record', 60, 150, { s: 56, w: 700, id: 'recH' });
+  const cols = [{ x: 60, h: 'On record', c: C.text, items: [['Randolph’s memoir · 2019', 21.2], ['Antioco’s post · 2022', 21.5]] },
+    { x: 980, h: 'Not on record', c: C.acc, items: [['A transcript', 22.4], ['Minutes of the meeting', 22.7], ['A signed offer', 23.0]] }];
+  cols.forEach((c, ci) => { const k = seg(t, 20.4, 20.45); alpha(k, () => { txt(c.h, c.x, 300, { s: 36, w: 700, c: c.c, id: 'rh' + ci }); hair(c.x, 322, c.x + 880, 322, ci ? C.acc : C.text, 1.5); });
+    c.items.forEach(([s, at], i) => { const ka = seg(t, at, at + .05); if (ka <= 0) return; const yy = 400 + i * 106;
+      alpha(ka, () => { fill(c.x, yy - 40, 880, 86, i % 2 ? 'rgba(255,255,255,0.02)' : 'rgba(255,255,255,0.04)'); if (ci) dashBox(c.x + 18, yy - 12); else tick(c.x + 20, yy); });
+      txt(s, c.x + 64, yy + 12, { s: 32, w: 700, a: ka, id: `ri${ci}${i}` }); flashRect(t, at, c.x, yy - 40, 880, 86, .1); }); });
+  alpha(seg(t, 26.3, 26.35), () => { fill(60, 780, 1800, 2, C.line); txt('two people in the room · two different memories', 60, 840, { s: 30, w: 500, c: C.dim, id: 'mem2' }); });
+}
+
+// 30–80 two accounts, one date: memoir (2019) and post (2022) both point back to Sept 2000 — and disagree
+const AX = { y: 780, x0: 120, x1: 1800, y0: 2000, y1: 2022.5 }; const axX = v => lerp(AX.x0, AX.x1, (v - AX.y0) / (AX.y1 - AX.y0));
+function accAxis(t, k) { alpha(k, () => { hair(AX.x0, AX.y, AX.x1, AX.y, C.line, 1.5);
+  [2000, 2005, 2010, 2015, 2020].forEach(y => { hair(axX(y), AX.y, axX(y), AX.y + 8, C.dim); txt(String(y), axX(y), AX.y + 36, { s: 20, f: F.mono, c: C.dim, al: 'center' }); });
+  diamond(axX(ym(2000, 9)), AX.y, 10, C.acc); txt('SEP 2000', axX(ym(2000, 9)) + 16, AX.y - 18, { s: 26, f: F.mono, w: 600, c: C.acc, id: 'axs' }); }); }
+function sAccounts(t) {
+  if (t < 63) {
+    accAxis(t, seg(t, 30, 30.1));
+    // Randolph card
+    const RX = 60, RW = 860;
+    quote(t, RX, 92, RW, ['Netflix proposes: Blockbuster', 'buys Netflix; the Netflix team', 'runs Blockbuster online'], { at: 30.6, s: 36, tag: 'RANDOLPH · MEMOIR 2019 · SUMMARY', id: 'rq', bar: C.text });
+    alpha(seg(t, 40.6, 40.65), () => { fill(RX, 360, RW, 200, C.panel); rect(RX, 360, RW, 200); txt('price named', RX + 34, 420, { s: 24, f: F.mono, c: C.dim }); txt('$50 million', RX + 34, 482, { s: 52, w: 700, id: 'pn' });
+      txt('reaction he read as dismissive', RX + 34, 532, { s: 26, w: 500, c: C.dim, id: 'rd' }); });
+    flashRect(t, 40.6, RX, 360, RW, 200);
+    const k1 = eo(seg(t, 44.5, 45.3)); if (k1 > 0) { diamond(axX(2019), AX.y, 8, C.text); txt('memoir 2019', axX(2019), AX.y - 20, { s: 24, f: F.mono, w: 600, al: 'center', a: k1 });
+      hair(RX + RW / 2, 560, lerp(RX + RW / 2, axX(ym(2000, 9)), k1), lerp(560, AX.y - 12, k1), C.acc, 1.3, [3, 4]); }
+    // Antioco card
+    const AXX = 1000, AW = 860;
+    quote(t, AXX, 92, AW, ['“There were no serious', 'conversations about our buying', 'the nascent Netflix business…”'], { at: 50.6, s: 36, tag: 'ANTIOCO · LINKEDIN 2022 · VIA NEXT TV', id: 'aq', bar: C.text });
+    alpha(seg(t, 56, 56.05), () => { fill(AXX, 360, AW, 200, C.panel); rect(AXX, 360, AW, 200); txt('Blockbuster CEO, 1997–2007', AXX + 34, 420, { s: 24, f: F.mono, c: C.dim, id: 'ceo' });
+      txt('disputes the meeting story', AXX + 34, 482, { s: 44, w: 700, id: 'disp' }); });
+    flashRect(t, 56, AXX, 360, AW, 200);
+    const k2 = eo(seg(t, 58, 58.8)); if (k2 > 0) { diamond(axX(2022), AX.y, 8, C.text); txt('post 2022', axX(2022) + 20, AX.y - 52, { s: 24, f: F.mono, w: 600, al: 'center', a: k2 });
+      hair(AXX + AW / 2, 560, lerp(AXX + AW / 2, axX(ym(2000, 9)), k2), lerp(560, AX.y - 12, k2), C.acc, 1.3, [3, 4]); }
+    return; }
+  if (t < 72) { const l = t - 63; flashRect(t, 63, 0, 60, W, 840);   // the number
+    alpha(seg(l, .1, .15), () => { readout('$50,000,000', 60, 420, { s: 190, c: C.text, id: 'n50' }); });
+    alpha(seg(l, 1.6, 1.65), () => { rect(60, 500, 1180, 150, C.acc, 2, [8, 6]); txt('recalled by Marc Randolph', 96, 566, { s: 40, w: 700, id: 'rcl' }); txt('no signed or documented offer on record', 96, 620, { s: 30, w: 500, c: C.dim, id: 'nod' }); });
+    alpha(seg(l, 5.5, 5.55), () => { tag('WHERE MOST RETELLINGS START', 60, 760, { c: C.dim, chip: C.acc, id: 'ret' }); });
+    return; }
+  // 72–80 board: two recollections, one number, one question
+  flashRect(t, 72, 0, 60, W, 840);
+  const it = [['Recollection · 2019', 'Randolph', 72.2], ['Recollection · 2022', 'Antioco', 73.6], ['One number', '$50 million', 74.6]];
+  it.forEach(([h, s, at], i) => { const X = 60 + i * 610, k = seg(t, at, at + .05); if (k <= 0) return; alpha(k, () => { fill(X, 120, 580, 300, C.panel); rect(X, 120, 580, 300);
+    txt(h, X + 30, 180, { s: 20, f: F.mono, c: C.dim, id: 'bh' + i }); txt(s, X + 30, 300, { s: 56, w: 700, id: 'bs' + i }); }); flashRect(t, at, X, 120, 580, 300); });
+  const kq = seg(t, 75.8, 75.85); alpha(kq, () => { rect(60, 520, 1800, 240, C.acc, 2, [8, 6]); txt('What was said in the room?', 100, 640, { s: 64, w: 700, id: 'room' });
+    txt('UNRESOLVED', 102, 712, { s: 20, f: F.mono, w: 600, c: C.acc, ls: 3, id: 'unres' }); });
+  const kl = eo(seg(t, 76.5, 77.3)); if (kl > 0) [0, 1, 2].forEach(i => { const sx = 60 + i * 610 + 290; hair(sx, 420, lerp(sx, 960, kl), lerp(420, 520, kl), C.acc, 1.3, [3, 4]); });
+}
+
+// 80–120 the store: what Blockbuster had built, read from photographs
+function sStore(t) {
+  if (t < 90) { const l = t - 80;
+    const mp = photo('glasgow', 60, 92, 1180, 800, { fx: .3, fy: .55, z: lerp(1, 1.06, seg(l, 0, 10)), flash: 1 - seg(l, 0, .12) });
+    tag('PHOTO · GLASGOW · c. 2011', 60, 76, { id: 'gTag' });
+    const [a, b] = mp(.13, .45); ring(a, b, 90, seg(t, 81.5, 82), 'a store on the high street', 1, 'gR');
+    const mp2 = photo('anc1', 1280, 92, 580, 380, { fx: .5, fy: .35, flash: 1 - seg(t, 83, 83.12) }); if (t >= 83) tag('PHOTO · ANCHORAGE · 2018', 1280, 76, { id: 'aTag' });
+    if (t < 83) fill(1280, 92, 580, 380, C.bg);
+    alpha(seg(t, 85, 85.05), () => { txt('Friday night', 1280, 600, { s: 64, w: 700, id: 'fri' }); txt('rent · watch · return', 1284, 660, { s: 28, f: F.mono, c: C.dim, id: 'rwr' }); });
+    return; }
+  if (t < 100) { const l = t - 90;
+    const mp = photo('anc5', 60, 92, 1180, 800, { fx: .45, fy: .5, z: lerp(1, 1.05, seg(l, 0, 10)), flash: 1 - seg(l, 0, .12) });
+    tag('PHOTO · ANCHORAGE · 2018', 60, 76, { id: 'a5Tag' });
+    const [a, b] = mp(.13, .45); ring(a, b, 110, seg(t, 91.2, 91.7), 'walls of discs', 1, 'wR');
+    const [c2, d2] = mp(.45, .55); ring(c2, d2, 80, seg(t, 94, 94.5), 'new releases in bulk', 1, 'nR');
+    const k = seg(t, 92.4, 92.44); if (k > 0) { photo('anc2', 1280, 92, 580, 800, { fx: .5, fy: .5, flash: 1 - seg(t, 92.4, 92.52) }); tag('PHOTO · ANCHORAGE · 2018', 1280, 76, { id: 'a2Tag' }); }
+    return; }
+  if (t < 110) { // the transaction: card + disc
+    const P1 = { x: 60, y: 92, w: 880, h: 560 }, P2 = { x: 980, y: 92, w: 880, h: 560 };
+    const m1 = photo('card', P1.x, P1.y, P1.w, P1.h, { fx: .5, fy: .5, flash: 1 - seg(t, 100, 100.12) }); tag('PHOTO · MEMBERSHIP CARD', P1.x, 76, { id: 'cTag' });
+    if (t >= 101.6) { photo('disc', P2.x, P2.y, P2.w, P2.h, { fx: .5, fy: .5, flash: 1 - seg(t, 101.6, 101.72) }); tag('PHOTO · RENTAL DISC · 2022', P2.x, 76, { id: 'dcTag' }); }
+    const steps = [['choose', 100.6], ['show card', 102.2], ['pay', 103.7], ['due date', 105.2]];
+    steps.forEach(([s, at], i) => { const k = seg(t, at, at + .05); if (k <= 0) return; const X = 60 + i * 460;
+      alpha(k, () => { txt(String(i + 1).padStart(2, '0'), X, 760, { s: 22, f: F.mono, w: 600, c: i === 3 ? C.acc : C.dim }); txt(s, X, 820, { s: 48, w: 700, c: i === 3 ? C.acc : C.text, id: 'st' + i });
+        if (i < 3) hair(X + tw(s, { s: 48, w: 700 }) + 24, 804, X + 430, 804, C.line, 1.5); }); flashRect(t, at, X - 10, 720, 440, 120, .1); });
+    return; }
+  // 110–120 repeated store by store: dots
+  storeDots(t, 110, 1); }
+// one dot per store; ≈ 9,100 at year-end 2004 (each dot = 1 store) — positions are a grid, not a map
+function storeDots(t, t0, grow, n = 9100, o = {}) {
+  const X0 = o.x ?? 60, Y0 = o.y ?? 92, cols = o.cols ?? 130, g = o.g ?? 9.6, r = o.r ?? 3.2;
+  const shown = Math.floor(n * (grow ? eio(seg(t, t0 + .5, t0 + 8)) : 1));
+  x.save(); const rr = rnd(42); const order = DOTORDER(n);
+  x.fillStyle = o.c || C.text; for (let i = 0; i < shown; i++) { const j = order[i]; const cx = X0 + (j % cols) * g + g / 2, cy = Y0 + Math.floor(j / cols) * g + g / 2; x.fillRect(cx - r / 2, cy - r / 2, r, r); }
+  x.restore(); if (!o.noLabel) { readout(`${shown.toLocaleString('en-US')}`, X0 + cols * g + 50, Y0 + 120, { s: 64, c: C.text }); txt('stores', X0 + cols * g + 54, Y0 + 170, { s: 28, w: 700, c: C.dim, id: 'stl' }); }
+}
+const _DO = {}; function DOTORDER(n) { if (_DO[n]) return _DO[n]; const a = [...Array(n).keys()], r = rnd(n); for (let i = n - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return (_DO[n] = a); }
+
+// 120–130 the scale: the filing's number
+function sScale(t) {
+  storeDots(t, 0, 0, 9100, { noLabel: 1 });
+  alpha(seg(t, 120.2, 120.25), () => { fill(1360, 92, 500, 330, C.bg); readout('≈ 9,100', 1360, 200, { s: 96, c: C.text, id: 'n91' }); txt('stores · Dec 31, 2004', 1364, 252, { s: 26, f: F.mono, c: C.dim, id: 'n91d' });
+    txt('1 dot = 1 store · not a map', 1364, 300, { s: 20, f: F.mono, c: C.faint, id: 'n91n' }); });
+  doc(t, 60, 610, 1800, ['“...we operated approximately 9,100 stores in the United States, its territories and', '24 other countries as of December 31, 2004.”'], { at: 122.0, s: 28, tag: '10-K · FISCAL 2004 · TRANSCRIPTION', hl: [[0, 'approximately 9,100 stores', 122.6]], id: 'sc' });
+}
+
+// 130–160 the late fee: a photo, a number, a ratio — then the size of the machine
+function sFees(t) {
+  if (t < 140) { const l = t - 130;
+    const mp = photo('disc', 60, 92, 880, 800, { fx: .5, fy: .5, z: lerp(1, 1.05, seg(l, 0, 10)), flash: 1 - seg(l, 0, .12) }); tag('PHOTO · RENTAL DISC · 2022', 60, 76, { id: 'd2Tag' });
+    alpha(seg(t, 131.5, 131.55), () => { txt('due date', 1000, 220, { s: 96, w: 700, id: 'dd' }); });
+    alpha(seg(t, 133.6, 133.65), () => { txt('late return', 1000, 380, { s: 96, w: 700, c: C.acc, id: 'lr' }); txt('= extended viewing fee', 1004, 440, { s: 34, f: F.mono, w: 600, c: C.dim, id: 'evf' }); });
+    flashRect(t, 133.6, 990, 290, 870, 170);
+    return; }
+  if (t < 150) { // 14 %: statement + quote + one wide schematic (100 cells)
+    flashRect(t, 140, 0, 60, W, 840);
+    readout('≈ 14%', 60, 250, { s: 170, c: C.text, id: 'p14', a: seg(t, 140.1, 140.15) });
+    alpha(seg(t, 140.1, 140.15), () => txt('of rental revenue, 2004', 66, 310, { s: 34, w: 700, c: C.dim, id: 'p14d' }));
+    doc(t, 820, 92, 1040, ['Extended viewing fees, 2004', 'Movies        $552.1 million', 'Games          $70.3 million', 'Total        $622.4 million'], { at: 142.2, s: 30, tag: '10-K · FISCAL 2005 · TRANSCRIPTION', hl: [[3, '$622.4 million', 143.0]], id: 'tb' });
+    const k = eo(seg(t, 144.5, 146.5)); for (let i = 0; i < 100; i++) { const X = 60 + i * 18; const on = i < 14; if (i / 100 > k) break; fill(X, 640, 14, 160, on ? C.acc : '#262a30'); }
+    alpha(seg(t, 146.6, 146.65), () => { txt('rental revenue 2004 = 100 cells', 60, 850, { s: 22, f: F.mono, c: C.dim, id: 'cells' }); });
+    return; }
+  // 150–160 a heavy system: revenue still rising 2000 → 2004 (playhead carries the year)
+  const RV = [[2000, 4960.1], [2001, 5156.7], [2002, 5565.9], [2003, 5911.7], [2004, 6053.2]], X0 = 200, X1 = 1360, Y0 = 860, Hh = 600, yv = v => Y0 - v / 7000 * Hh, xv = y => lerp(X0, X1, (y - 2000) / 4);
+  flashRect(t, 150, 0, 60, W, 840);
+  txt('Total revenues · $ million', 60, 150, { s: 30, w: 700, id: 'rvH' }); tag('10-K · FISCAL 2004 · SELECTED DATA', 60 + 0, 100, { id: 'rvT' });
+  [0, 2000, 4000, 6000].forEach(v => { hair(X0, yv(v), X1 + 80, yv(v), v ? '#1d2025' : C.line); txt(v.toLocaleString('en-US'), X0 - 14, yv(v) + 6, { s: 15, f: F.mono, c: C.faint, al: 'right' }); });
+  const ph = lerp(2000, 2004, eio(seg(t, 150.5, 156.5)));
+  RV.forEach(([y, v]) => { if (y > ph + .001) return; const X = xv(y); fill(X - 60, yv(v), 120, Y0 - yv(v), y === 2004 ? C.text : '#5a5f67'); txt(v.toLocaleString('en-US', { minimumFractionDigits: 1 }), X, yv(v) - 14, { s: 22, f: F.mono, w: 600, al: 'center', id: 'rv' + y });
+    txt(String(y), X, Y0 + 32, { s: 18, f: F.mono, c: C.dim, al: 'center' }); });
+  hair(xv(ph), yv(7000) - 10, xv(ph), Y0, C.acc, 2); readout(String(Math.floor(ph + 1e-6)), xv(ph), yv(7000) - 20, { s: 22, al: 'center' });
+  alpha(seg(t, 155, 155.05), () => { txt('large', 1520, 380, { s: 64, w: 700, id: 'lg' }); txt('and heavy', 1520, 460, { s: 64, w: 700, c: C.acc, id: 'hv' }); });
+}
+
+// 160–240 the challenger
+function flowNode(X, Y, s, k, o = {}) { if (k <= 0) return; alpha(k, () => { const w = tw(s, { s: 30, w: 700 }) + 48; fill(X - w / 2, Y - 34, w, 68, C.panel); rect(X - w / 2, Y - 34, w, 68, o.c || C.text, 1.5);
+  txt(s, X, Y + 11, { s: 30, w: 700, al: 'center', c: o.c || C.text, id: o.id }); }); }
+function arrow(x0, y0, x1, y1, k, c = C.dim) { if (k <= 0) return; const xe = lerp(x0, x1, k), ye = lerp(y0, y1, k); hair(x0, y0, xe, ye, c, 2); if (k > .95) { const a = Math.atan2(y1 - y0, x1 - x0);
+  x.save(); x.fillStyle = c; x.beginPath(); x.moveTo(x1, y1); x.lineTo(x1 - 14 * Math.cos(a - .4), y1 - 14 * Math.sin(a - .4)); x.lineTo(x1 - 14 * Math.cos(a + .4), y1 - 14 * Math.sin(a + .4)); x.fill(); x.restore(); } }
+function sChallenger(t) {
+  if (t < 170) { const l = t - 160;
+    const mp = photo('env', 60, 92, 1180, 800, { fx: .5, fy: .5, z: lerp(1, 1.05, seg(l, 0, 10)), flash: 1 - seg(l, 0, .12) }); tag('PHOTO · NETFLIX MAILER · 2008', 60, 76, { id: 'eTag' });
+    [['a disc', 162.4], ['a paper envelope', 163.4], ['a mailbox', 164.6]].forEach(([s, at], i) => alpha(seg(t, at, at + .05), () => { txt(s, 1290, 260 + i * 120, { s: 56, w: 700, c: i === 2 ? C.acc : C.text, id: 'm' + i }); }));
+    alpha(seg(t, 166, 166.05), () => txt('no store', 1294, 700, { s: 40, f: F.mono, w: 600, c: C.dim, id: 'nost' }));
+    return; }
+  if (t < 180) { // no storefront: the route, drawn (schematic)
+    flashRect(t, 170, 0, 60, W, 840); tag('SCHEMATIC', 60, 100, { c: C.dim, chip: C.dim, id: 'scT' });
+    const N = [[260, 420, 'distribution center', 170.6], [760, 420, 'sorting line', 172.2], [1220, 420, 'postal system', 173.6], [1660, 420, 'home', 175.0]];
+    N.forEach(([X, Y, s, at], i) => { flowNode(X, Y, s, seg(t, at, at + .05), { id: 'fn' + i, c: i === 3 ? C.acc : C.text }); if (i) arrow(N[i - 1][0] + 130, Y, X - 130, Y, eo(seg(t, at - .4, at)), C.dim); });
+    alpha(seg(t, 175.5, 175.55), () => { rect(60, 600, 1800, 150, C.faint, 1.5, [6, 6]); txt('storefront', 100, 692, { s: 44, w: 700, c: C.faint, id: 'sf' }); hair(100, 676, 100 + tw('storefront', { s: 44, w: 700 }) * eo(seg(t, 175.8, 176.3)), 676, C.acc, 3); });
+    return; }
+  if (t < 190) { // the subscription loop
+    flashRect(t, 180, 0, 60, W, 840); tag('SCHEMATIC', 60, 100, { c: C.dim, chip: C.dim, id: 'lpT' });
+    const P = [[560, 230, 'subscribe', 180.6], [1360, 230, 'receive', 182.6], [1360, 640, 'watch', 183.4], [560, 640, 'send back', 184.2]];
+    P.forEach(([X, Y, s, at], i) => { flowNode(X, Y, s, seg(t, at, at + .05), { id: 'lp' + i }); const nx = P[(i + 1) % 4]; if (i < 3 || t > 185) { const ka = eo(seg(t, (i < 3 ? P[i + 1][3] : 185) - .5, i < 3 ? P[i + 1][3] : 185.5));
+      const dx = Math.sign(nx[0] - X), dy = Math.sign(nx[1] - Y); arrow(X + dx * 130, Y + dy * 50, nx[0] - dx * 130, nx[1] - dy * 50, ka, i === 3 ? C.acc : C.dim); } });
+    alpha(seg(t, 186.4, 186.45), () => { fill(760, 400, 400, 80, 'rgba(255,74,46,0.10)'); rect(760, 400, 400, 80, C.acc, 1.5); txt('no late fees', 960, 452, { s: 34, w: 700, c: C.acc, al: 'center', id: 'nlf' }); });
+    return; }
+  if (t < 211) { // two models, then their costs
+    flashRect(t, 190, 0, 60, W, 840);
+    const cols = [{ x: 60, h: 'Stores', ph: 'anc1', ptag: 'PHOTO · ANCHORAGE · 2018', items: ['rent', 'inventory', 'staff'], at: 200.9 }, { x: 980, h: 'Mail', ph: 'env', ptag: 'PHOTO · NETFLIX MAILER · 2008', items: ['postage', 'fulfillment', 'winning subscribers'], at: 204.6 }];
+    cols.forEach((c, ci) => { const k = seg(t, 190.6 + ci * 1.4, 190.65 + ci * 1.4); if (k <= 0) return; photo(c.ph, c.x, 92, 860, 330, { fx: .5, fy: ci ? .5 : .35, flash: 1 - seg(t, 190.6 + ci * 1.4, 190.72 + ci * 1.4) });
+      tag(c.ptag, c.x, 76, { id: 'mT' + ci }); txt(c.h, c.x, 500, { s: 48, w: 700, id: 'mh' + ci });
+      c.items.forEach((s, i) => { const ka = seg(t, c.at + i * .9, c.at + i * .9 + .05); if (ka <= 0) return; alpha(ka, () => { fill(c.x, 540 + i * 100, 860, 84, i % 2 ? 'rgba(255,255,255,0.02)' : 'rgba(255,255,255,0.04)'); });
+        txt(s, c.x + 30, 594 + i * 100, { s: 34, w: 700, a: ka, id: `ci${ci}${i}` }); flashRect(t, c.at + i * .9, c.x, 540 + i * 100, 860, 84, .1); }); });
+    alpha(seg(t, 196.5, 196.55) * (1 - seg(t, 200.4, 200.45)), () => { readout('the same evening at home', 960, 560, { s: 34, al: 'center', c: C.dim, id: 'same' }); });
+    return; }
+  if (t < 220) { // online: an order queue, drawn
+    flashRect(t, 211, 0, 60, W, 840); tag('SCHEMATIC · ORDER QUEUE', 60, 100, { c: C.dim, chip: C.dim, id: 'oqT' });
+    rect(60, 130, 1100, 740, C.text, 1.5); fill(60, 130, 1100, 50, '#1b1e22'); [0, 1, 2].forEach(i => { x.fillStyle = C.faint; x.beginPath(); x.arc(92 + i * 26, 155, 7, 0, 7); x.fill(); });
+    for (let i = 0; i < 6; i++) { const k = seg(t, 212.2 + i * .4, 212.25 + i * .4); if (k <= 0) continue; alpha(k, () => { fill(100, 220 + i * 105, 70, 85, '#2a2e34'); fill(200, 240 + i * 105, 360 + (i * 97 % 260), 16, '#3a3f46'); fill(200, 272 + i * 105, 200, 12, '#2a2e34');
+      rect(940, 236 + i * 105, 180, 46, i === 0 ? C.acc : C.faint, 1.5); txt(i === 0 ? 'in queue' : 'add', 1030, 266 + i * 105, { s: 20, f: F.mono, w: 600, al: 'center', c: i === 0 ? C.acc : C.dim }); }); }
+    alpha(seg(t, 215.5, 215.55), () => { txt('ordered on a web page', 1220, 420, { s: 44, w: 700, id: 'web' }); txt('delivered by mail', 1220, 490, { s: 44, w: 700, c: C.dim, id: 'dlv' }); });
+    return; }
+  if (t < 230) { // relative size in 2000: two filings, one year — 1 square = $10 million of revenue
+    flashRect(t, 220, 0, 60, W, 840);
+    const sq = (X, Y, n, cols, c, at, dur) => { const shown = Math.floor(n * eio(seg(t, at, at + dur))); x.fillStyle = c; for (let i = 0; i < shown; i++) x.fillRect(X + (i % cols) * 22, Y + Math.floor(i / cols) * 22, 18, 18); return shown; };
+    readout('2000', 60, 150, { s: 56, id: 'y2000' });
+    tag('BLOCKBUSTER · 10-K FY2004', 60, 220, { id: 'bbT' }); const nb = sq(60, 240, 496, 62, C.text, 220.6, 3.2);
+    alpha(seg(t, 221, 221.05), () => { readout('$4,960.1M', 1440, 330, { s: 56, c: C.text, id: 'bbR' }); txt('Blockbuster revenue', 1440, 380, { s: 26, w: 700, c: C.dim, id: 'bbL' }); });
+    if (t >= 224.4) { tag('NETFLIX · PROSPECTUS 2002', 60, 486 + 0, { id: 'nfT' }); sq(60, 506 + 0, 4, 62, C.acc, 224.4, .3); }
+    if (t >= 224.4) { const X = 60 + 4 * 22; hair(X + 8, 516, 1440 - 20, 640, C.acc, 1, [3, 4]); }
+    alpha(seg(t, 224.6, 224.65), () => { readout('$35.9M', 1440, 640 + 20, { s: 56, id: 'nfR' }); txt('Netflix revenue', 1440, 710, { s: 26, w: 700, c: C.dim, id: 'nfL' }); });
+    alpha(seg(t, 226.4, 226.45), () => txt('1 square = $10 million', 60, 860, { s: 22, f: F.mono, c: C.dim, id: 'sqL' }));
+    return; }
+  // 230–240 the question; near silence
+  const k = seg(t, 230.3, 230.35); alpha(k, () => { txt('Was the threat', 60, 420, { s: 110, w: 700, id: 'q1' }); txt('obvious in 2000?', 60, 550, { s: 110, w: 700, id: 'q2' }); });
+  alpha(seg(t, 233.2, 233.25), () => { txt('or only now?', 66, 680, { s: 56, w: 700, c: C.acc, id: 'q3' }); });
+}
+
+// 240–330 the counterattack: filings land on a clock (AUG 2004 → APR 2007) with a red playhead
+const CK = { x0: 200, x1: 1840, y: 860, a: ym(2004, 7), b: ym(2007, 6) }; const ckX = v => lerp(CK.x0, CK.x1, (v - CK.a) / (CK.b - CK.a));
+const PKF = [[240, ym(2004, 7)], [241, ym(2004, 8)], [259.5, ym(2004, 12)], [261, ym(2005, 1)], [289.5, ym(2006, 10)], [291, ym(2006, 11)], [309.5, ym(2006, 12)], [311, ym(2006, 12.97)], [313.5, ym(2006, 12.97)], [313.7, ym(2007, 3.97)], [320, ym(2007, 3.97)], [330, ym(2007, 4.5)]];
+function playhead(t) { let i = 0; while (i < PKF.length - 1 && t >= PKF[i + 1][0]) i++; const a = PKF[i], b = PKF[i + 1]; if (!b) return a[1]; return lerp(a[1], b[1], seg(t, a[0], b[0])); }
+const PINS = [[ym(2004, 8), 'online launch', 241], [ym(2005, 1), 'no late fees', 261], [ym(2006, 11), 'Total Access', 291], [ym(2006, 12.97), '2.2M', 311]];
+function clockBand(t) { const k = seg(t, 240, 240.1); alpha(k, () => {
+  hair(CK.x0, CK.y, CK.x1, CK.y, C.line, 1.5); [2005, 2006, 2007].forEach(y => { hair(ckX(y), CK.y, ckX(y), CK.y + 8, C.dim); txt(String(y), ckX(y), CK.y + 30, { s: 16, f: F.mono, c: C.dim, al: 'center' }); });
+  PINS.forEach(([v, s, at]) => { if (t < at) return; diamond(ckX(v), CK.y, 8, C.acc); });
+  const ph = playhead(t); hair(ckX(ph), CK.y - 40, ckX(ph), CK.y + 6, C.acc, 2); txt(fmtYM(ph), ckX(ph), CK.y - 48, { s: 18, f: F.mono, w: 600, c: C.acc, al: ckX(ph) > 1700 ? 'right' : 'center' }); }); }
+function sCounter(t) {
+  clockBand(t);
+  if (t < 250) { readout('AUG 2004', 60, 160, { s: 72, id: 'aug' });
+    doc(t, 60, 230, 1100, ['“In August 2004, we launched', 'BLOCKBUSTER ONLINE, our U.S. online', 'subscription program.”'], { at: 241.6, s: 34, tag: '10-K · FISCAL 2004 · TRANSCRIPTION', hl: [[1, 'BLOCKBUSTER ONLINE', 242.6]], id: 'bo' });
+    alpha(seg(t, 244.5, 244.55), () => { txt('direct competition', 1220, 330, { s: 48, w: 700, id: 'dc' }); txt('by mail', 1220, 400, { s: 48, w: 700, c: C.acc, id: 'bm' }); });
+    if (t >= 241.6) { const k = eo(seg(t, 242, 242.6)); hair(610, 230 + 260, lerp(610, ckX(ym(2004, 8)), k), lerp(490, CK.y - 10, k), C.acc, 1, [3, 4]); }
+    return; }
+  if (t < 260) { // two systems side by side
+    [['anc5', 'PHOTO · STORE AISLE · 2018', 60, 250.6], ['env', 'PHOTO · NETFLIX MAILER · 2008', 980, 252.4]].forEach(([k, s, X, at]) => { if (t < at) return; photo(k, X, 92, 880, 560, { fx: .5, fy: .5, flash: 1 - seg(t, at, at + .12) }); tag(s, X, 76, { id: 'ts' + X }); });
+    alpha(seg(t, 253.4, 253.45), () => { txt('thousands of stores', 60, 740, { s: 40, w: 700, id: 'tst' }); txt('+ an operation built around the mailbox', 980, 740, { s: 40, w: 700, c: C.acc, id: 'tmb' }); });
+    return; }
+  if (t < 270) { // Jan 2005: the filing and a store window meet
+    readout('JAN 1, 2005', 60, 160, { s: 72, id: 'jan' });
+    doc(t, 60, 230, 900, ['Extended viewing fees eliminated', '“beginning on January 1, 2005”', 'in “more than 4,500 company-operated', 'stores” in the United States'], { at: 261.4, s: 28, tag: '10-K · FISCAL 2004 · TRANSCRIPTION', hl: [[1, 'beginning on January 1, 2005', 262.2]], id: 'ja' });
+    if (t >= 263.4) { const mp = photo('addison', 1000, 230, 860, 520, { fx: .55, fy: .5, flash: 1 - seg(t, 263.4, 263.52) }); tag('PHOTO · ADDISON, IL · APR 2009', 1000, 214, { id: 'adT' });
+      const [a, b] = mp(.655, .52); ring(a, b, 62, seg(t, 264.2, 264.7), '“life after late fees”', -1, 'lalf'); }
+    if (t > 265.5) { badge(930, 250, t, 265.5); badge(1830, 250, t, 265.62); }
+    return; }
+  if (t < 280) { // the 2005 annual report, line by line
+    doc(t, 60, 120, 1800, ['“Despite the elimination of extended viewing fees, which accounted for approximately', '14% of our rental revenues during 2004, and a declining in-store rental industry,', 'we experienced only a 5.0% decline in our rental revenues from 2004.”'],
+      { at: 270.4, s: 30, tag: '10-K · FISCAL 2005 · TRANSCRIPTION', hl: [[1, '14%', 272.0], [2, '5.0% decline', 274.2]], id: 'ar' });
+    alpha(seg(t, 274.6, 274.65), () => { readout('14%', 60, 560, { s: 120, c: C.text, id: 'a14' }); txt('of rental revenue: fees removed', 66, 614, { s: 26, w: 700, c: C.dim, id: 'a14d' });
+      readout('−5.0%', 980, 560, { s: 120, id: 'a5' }); txt('rental revenue, 2005 vs 2004', 986, 614, { s: 26, w: 700, c: C.dim, id: 'a5d' }); });
+    return; }
+  if (t < 290) { // two quantities, not addable
+    doc(t, 60, 92, 1800, ['“...incurred approximately $60 million in marketing and implementation costs during', '2005 and reduced rental revenues by over $500 million.”'], { at: 280.4, s: 30, tag: '10-K · FISCAL 2005 · RISK FACTORS · TRANSCRIPTION', hl: [[1, 'by over $500 million', 281.6], [0, 'approximately $60 million', 284.6]], id: 'rf' });
+    alpha(seg(t, 282.2, 282.25), () => { fill(60, 380, 1000, 380, C.panel); rect(60, 380, 1000, 380, C.text, 1.5); txt('REVENUE EFFECT', 96, 440, { s: 20, f: F.mono, w: 600, c: C.dim, id: 're' });
+      readout('> $500M', 96, 580, { s: 110, c: C.text, id: 'r500' }); txt('rental revenue reduced', 100, 640, { s: 30, w: 700, id: 'rrr' }); });
+    alpha(seg(t, 285.4, 285.45), () => { fill(1120, 380, 740, 380, C.panel); rect(1120, 380, 740, 380, C.acc, 1.5); txt('EXPENSE', 1156, 440, { s: 20, f: F.mono, w: 600, c: C.dim, id: 'ex' });
+      readout('≈ $60M', 1156, 580, { s: 110, id: 'r60' }); txt('marketing & implementation', 1160, 640, { s: 30, w: 700, id: 'mi' }); });
+    alpha(seg(t, 287.2, 287.25), () => txt('different quantities · not addable', 60, 820, { s: 26, f: F.mono, w: 600, c: C.acc, id: 'na' }));
+    return; }
+  if (t < 300) { // Nov 2006 Total Access; then the two systems connect
+    readout('NOV 2006', 60, 160, { s: 72, id: 'nov' });
+    alpha(seg(t, 291.4, 291.45), () => { txt('Total Access', 60, 320, { s: 110, w: 700, id: 'ta' }); txt('the most direct answer yet', 64, 390, { s: 34, w: 700, c: C.dim, id: 'tad' }); });
+    flashRect(t, 291.4, 50, 200, 1300, 220);
+    return; }
+  if (t < 310) { // connecting the systems: mail ↔ store, drawn
+    tag('SCHEMATIC', 60, 100, { c: C.dim, chip: C.dim, id: 'cnT' });
+    flowNode(420, 360, 'mailed disc', seg(t, 300.5, 300.55), { id: 'cn0' }); flowNode(1060, 360, 'returned in a store', seg(t, 301.6, 301.65), { id: 'cn1', c: C.acc }); flowNode(1600, 360, 'another film', seg(t, 303.4, 303.45), { id: 'cn2' });
+    arrow(560, 360, 870, 360, eo(seg(t, 301.1, 301.6)), C.dim); arrow(1250, 360, 1470, 360, eo(seg(t, 302.9, 303.4)), C.dim);
+    alpha(seg(t, 305, 305.05), () => { txt('for the first time,', 60, 600, { s: 48, w: 700, c: C.dim, id: 'ft' }); txt('the two systems connected', 60, 670, { s: 64, w: 700, id: 'con' }); });
+    return; }
+  if (t < 320) { // HARD SYNC: two filings, the same day
+    const T = t - 310, second = t >= 313.6;
+    readout(second ? 'MAR 31 / APR 1, 2007' : 'DEC 31, 2006', 60, 150, { s: 64, id: second ? 'ds2' : 'ds1' }); flashRect(t, 313.6, 50, 90, 900, 80);
+    const col = (X, head, vals, src, at, c) => { if (t < at) return; tag(src, X, 230, { id: 'sy' + X }); fill(X, 250, 860, 400, C.panel); rect(X, 250, 860, 400); flashRect(t, at, X, 250, 860, 400);
+      txt(head, X + 34, 320, { s: 34, w: 700, id: 'syh' + X }); readout(second ? vals[1] : vals[0], X + 34, 490, { s: 110, c, id: 'syv' + X }); txt(second ? vals[3] : vals[2], X + 38, 560, { s: 26, f: F.mono, c: C.dim, id: 'sys' + X }); };
+    col(60, 'Blockbuster online', ['≈ 2.2M', '≈ 3M', 'subscribers · ≈2.0M paying', 'Total Access · ≈2.8M paying'], second ? 'Q1 2007 RESULTS RELEASE' : '10-K · FISCAL 2006', 310.3, C.text);
+    col(1000, 'Netflix', ['≈ 6.32M', '≈ 6.80M', 'total subscribers', 'total subscribers'], second ? 'NETFLIX Q1 2007 RELEASE' : 'NETFLIX Q4 2006 RELEASE', 311.4, C.acc);
+    if (t > 311.6) alpha(seg(t, 311.6, 311.8), () => hair(60, 612, 1860, 612, C.acc, 1.5, [6, 5]));
+    alpha(seg(t, 314.4, 314.45), () => txt('subscribers grew · so did the cost of serving them', 60, 760, { s: 32, w: 700, c: C.dim, id: 'sgc' }));
+    return; }
+  // 320–330 growth came with losses
+  readout('Q1 2007', 60, 160, { s: 72, id: 'q107' });
+  alpha(seg(t, 320.9, 320.95), () => { fill(60, 230, 1800, 300, 'rgba(255,74,46,0.08)'); rect(60, 230, 1800, 300, C.acc, 1.5); txt('NET LOSS · COMPANY-WIDE', 96, 290, { s: 20, f: F.mono, w: 600, c: C.acc, id: 'nl' });
+    readout('$46.4M', 96, 450, { s: 130, c: C.text, id: 'nl46' }); });
+  alpha(seg(t, 323, 323.05), () => { txt('+ an incremental $35M Total Access ad campaign', 60, 620, { s: 40, w: 700, id: 'ad35' }); tag('BLOCKBUSTER Q1 2007 RESULTS RELEASE', 60, 680, { c: C.dim, chip: C.dim, id: 'q1T' }); });
+  alpha(seg(t, 325.5, 325.55), () => txt('customers ≠ profitable customers', 60, 800, { s: 36, f: F.mono, w: 600, c: C.acc, id: 'cpc' }));
+}
+
+// 330–370 a third model
+function sThird(t) {
+  const cols = [['Retail stores', 'anc5', 'PHOTO · ANCHORAGE · 2018', 330.4], ['Discs by mail', 'env', 'PHOTO · NETFLIX MAILER · 2008', 331.4], ['Streaming', null, null, 335.6]];
+  if (t < 340 || t >= 360) { const top = t >= 360;
+    cols.forEach(([h, ph, pt, at], i) => { const X = 60 + i * 610, a0 = top ? 360.2 + i * .3 : at; if (t < a0) return; flashRect(t, a0, X, 92, 580, 420);
+      if (ph) { photo(ph, X, 92, 580, 420, { fx: .5, fy: .5, flash: 1 - seg(t, a0, a0 + .12) }); tag(pt, X, 76, { id: 'th' + i }); }
+      else { fill(X, 92, 580, 420, C.panel); rect(X, 92, 580, 420, C.acc, 1.5); tag('SCHEMATIC', X, 76, { c: C.dim, chip: C.dim, id: 'th2' });
+        rect(X + 150, 170, 280, 180, C.text, 2); fill(X + 270, 350, 40, 40, C.text); fill(X + 220, 390, 140, 6, C.text); x.save(); x.fillStyle = C.acc; x.beginPath(); x.moveTo(X + 270, 225); x.lineTo(X + 320, 260); x.lineTo(X + 270, 295); x.fill(); x.restore(); }
+      txt(h, X, 590, { s: 48, w: 700, c: i === 2 ? C.acc : C.text, id: 'tc' + i }); });
+    if (!top) alpha(seg(t, 334, 334.05), () => txt('needs neither a store nor an envelope', 1280, 650, { s: 26, w: 700, c: C.dim, id: 'nn' }));
+    if (top) { const k = eo(seg(t, 362, 363.2)); [0, 1, 2].forEach(i => { const sx = 60 + i * 610 + 290; hair(sx, 620, lerp(sx, 960, k), lerp(620, 760, k), C.acc, 1.3, [3, 4]); });
+      alpha(seg(t, 363.2, 363.25), () => { fill(660, 760, 600, 90, C.bg); rect(660, 760, 600, 90, C.acc, 2); txt('the same evening at home', 960, 818, { s: 34, w: 700, al: 'center', id: 'seh' }); }); }
+    return; }
+  if (t < 350) { readout('JAN 16, 2007', 60, 160, { s: 72, id: 'j16' });
+    doc(t, 60, 230, 1800, ['Netflix announces instant viewing on personal computers,', 'starting with about 1,000 titles, at no extra charge.'], { at: 340.6, s: 34, f: F.mono, tag: 'NETFLIX ANNOUNCEMENT · SUMMARY, NOT QUOTED', hl: [[1, 'about 1,000 titles', 344.4]], id: 'iv' });
+    alpha(seg(t, 345.5, 345.55), () => { readout('≈ 1,000', 60, 640, { s: 130, c: C.text, id: 'k1' }); txt('titles at launch', 66, 700, { s: 30, w: 700, c: C.dim, id: 'k1d' }); });
+    return; }
+  // 350–360 limited, but pointing somewhere new: three routes to the screen
+  tag('SCHEMATIC', 60, 100, { c: C.dim, chip: C.dim, id: 'rtT' });
+  const R = [['store', 350.6, C.faint], ['envelope', 351.6, C.faint], ['network', 353.6, C.acc]];
+  R.forEach(([s, at, c], i) => { const Y = 260 + i * 200; flowNode(300, Y, s, seg(t, at, at + .05), { id: 'rt' + i, c: i === 2 ? C.acc : C.text }); arrow(440, Y, 1300, 460, eo(seg(t, at + .2, at + .9)), c); });
+  flowNode(1500, 460, 'screen at home', seg(t, 351, 351.05), { id: 'sc' });
+  if (t > 354.5) { [0, 1].forEach(i => { const Y = 260 + i * 200; hair(220, Y, 220 + 160 * eo(seg(t, 354.5 + i * .3, 355 + i * .3)), Y, C.acc, 3); }); }
+}
+
+// 370–400 the squeeze
+function sSqueeze(t) {
+  if (t < 380) { txt('Transition costs, on the record', 60, 150, { s: 48, w: 700, id: 'tcH', a: seg(t, 370.2, 370.25) });
+    const R = [['≈ $60M', 'marketing & implementation, 2005', '10-K FY2005', 371.2], ['> $500M', 'rental revenue reduced, 2005', '10-K FY2005', 372.6], ['$35M', 'incremental ad campaign, 2007', 'Q1 2007 RELEASE', 374.0]];
+    R.forEach(([v, s, src, at], i) => { const k = seg(t, at, at + .05); if (k <= 0) return; const Y = 260 + i * 190; alpha(k, () => { fill(60, Y, 1800, 160, i % 2 ? 'rgba(255,255,255,0.02)' : 'rgba(255,255,255,0.04)'); });
+      readout(v, 100, Y + 105, { s: 76, c: i === 1 ? C.text : C.acc, a: k, id: 'tv' + i }); txt(s, 640, Y + 90, { s: 36, w: 700, a: k, id: 'ts' + i }); tag(src, 640, Y + 132, { c: C.dim, chip: C.dim, a: k, id: 'tg' + i }); flashRect(t, at, 60, Y, 1800, 160); });
+    return; }
+  if (t < 390) { readout('SEP 23, 2010', 60, 160, { s: 72, id: 's23' });
+    doc(t, 60, 230, 1800, ['“...reduce its indebtedness from nearly $1 billion currently to an estimated', '$100 million or less when implemented.”'], { at: 380.6, s: 32, tag: 'PRESS RELEASE · EX. 99.1 TO FORM 8-K · TRANSCRIPTION', hl: [[0, 'nearly $1 billion', 381.6], [1, '$100 million or less', 384.4]], id: 'debt' });
+    alpha(seg(t, 385.6, 385.65), () => { ['Debt', 'Liquidity', 'Long-term obligations'].forEach((s, i) => { const X = 60 + i * 610; fill(X, 560, 580, 220, C.panel); rect(X, 560, 580, 220, C.acc, 1.5); txt(s, X + 30, 690, { s: 44, w: 700, id: 'dl' + i }); flashRect(t, 385.6 + i * .2, X, 560, 580, 220); }); });
+    return; }
+  // 390–400 the network: two counts, two different bases (kept apart)
+  tag('10-K FY2004 · WORLDWIDE', 60, 76, { id: 'w04' }); storeDots(t, 0, 0, 9100, { x: 60, y: 120, cols: 110, g: 7.6, r: 2.6, noLabel: 1, c: '#5a5f67' });
+  alpha(seg(t, 390.2, 390.25), () => { readout('≈ 9,100', 60, 860, { s: 56, c: C.text, id: 'c04' }); txt('stores · 2004 · worldwide', 330, 856, { s: 24, f: F.mono, c: C.dim, id: 'c04d' }); });
+  if (t >= 392.4) { tag('8-K EX. 99.1 · U.S.', 1000, 76, { id: 'u10' }); storeDots(t, 392.4 - .5, 1, 3000, { x: 1000, y: 120, cols: 110, g: 7.6, r: 2.6, noLabel: 1 });
+    alpha(seg(t, 393.4, 393.45), () => { readout('3,000', 1000, 860, { s: 56, c: C.text, id: 'c10' }); txt('U.S. stores · Sep 2010', 1200, 856, { s: 24, f: F.mono, c: C.dim, id: 'c10d' }); }); }
+  alpha(seg(t, 394.6, 394.65), () => { fill(959, 92, 2, 790, C.acc); txt('different bases · not one series', 1860, 912, { s: 20, f: F.mono, w: 600, c: C.acc, al: 'right', id: 'nb' }); });
+}
+
+// 400–420 the filing
+function sFiling(t) {
+  if (t < 410) { readout('SEP 23, 2010', 60, 160, { s: 72, id: 'f23' });
+    doc(t, 60, 230, 1000, ['“On September 23, 2010, the Blockbuster', 'Inc. ... and certain of its domestic', 'subsidiaries filed voluntary petitions', 'for relief under chapter 11...”'], { at: 401.0, s: 30, tag: 'FORM 8-K · ITEM 1.03 · TRANSCRIPTION', hl: [[3, 'chapter 11', 404.2]], id: 'ch11' });
+    if (t >= 402.6) { const mp = photo('miami', 1100, 230, 760, 600, { crop: [0, 0, .9, .62], fx: .62, fy: .5, flash: 1 - seg(t, 402.6, 402.72) }); tag('PHOTO · MIAMI BEACH · NOV 2013', 1100, 214, { id: 'miT' });
+      const [a, b] = mp(.66, .43); ring(a, b, 110, seg(t, 403.2, 403.7), 'store closing', -1, 'scl'); }
+    alpha(seg(t, 406.4, 406.45), () => { readout('10 years', 60, 760, { s: 64, c: C.text, id: 'dec' }); txt('after Dallas', 64, 812, { s: 28, w: 700, c: C.dim, id: 'aft' }); });
+    return; }
+  doc(t, 60, 120, 1800, ['“...all 3,000 of the Company’s stores in the U.S. will remain open...”'], { at: 410.5, s: 34, tag: 'PRESS RELEASE · EX. 99.1 TO FORM 8-K · TRANSCRIPTION', hl: [[0, 'all 3,000', 411.2]], id: 'open' });
+  [['fairbanks', 'PHOTO · FAIRBANKS, AK · FEB 2018', 60, 412.0], ['bend', 'PHOTO · BEND, OR · 2022', 980, 413.0]].forEach(([k, s, X, at]) => { if (t < at) return; photo(k, X, 330, 880, 520, { fx: .5, fy: .5, flash: 1 - seg(t, at, at + .12) }); tag(s, X, 314, { id: 'pk' + X }); });
+}
+
+// 420–450 back to Dallas: what is established, what is not
+function sBack(t) {
+  if (t < 430) { photo('tower', 60, 92, 520, 800, { fx: .5, fy: .45, flash: 1 - seg(t, 420, 420.12) }); tag('PHOTO · RENAISSANCE TOWER · 2009', 60, 76, { id: 'bT' });
+    readout('SEP 2000', 640, 200, { s: 72, id: 'bs' });
+    quote(t, 640, 260, 1220, ['buy Netflix for $50 million'], { at: 420.8, s: 40, tag: 'RANDOLPH · 2019', id: 'b1', bar: C.text });
+    quote(t, 640, 470, 1220, ['“no serious conversations”'], { at: 421.8, s: 40, tag: 'ANTIOCO · 2022', id: 'b2', bar: C.text });
+    alpha(seg(t, 423.6, 423.65), () => { rect(640, 690, 1220, 120, C.acc, 2, [8, 6]); txt('famous · and still disputed', 680, 766, { s: 44, w: 700, c: C.acc, id: 'disp2' }); });
+    return; }
+  if (t < 440) { tag('HYPOTHETICAL', 60, 100, { c: C.acc, chip: C.acc, id: 'hyT' });
+    flowNode(260, 470, 'SEP 2000', seg(t, 430.2, 430.25), { id: 'hy0' });
+    [['an earlier deal', 431.0], ['different terms', 431.8], ['a partnership', 432.8]].forEach(([s, at], i) => { const Y = 230 + i * 240, k = seg(t, at, at + .05);
+      if (k > 0) { x.save(); x.setLineDash([8, 7]); x.strokeStyle = C.acc; x.lineWidth = 1.5; x.beginPath(); x.moveTo(400, 470); x.lineTo(lerp(400, 900, eo(seg(t, at, at + .5))), lerp(470, Y, eo(seg(t, at, at + .5)))); x.stroke(); x.restore(); }
+      alpha(k, () => { rect(900, Y - 70, 900, 140, C.acc, 1.5, [8, 6]); txt(s, 940, Y + 2, { s: 44, w: 700, id: 'hb' + i }); txt('unproven', 940, Y + 44, { s: 22, f: F.mono, w: 600, c: C.acc, id: 'up' + i }); }); });
+    return; }
+  // the record points to three forces, each with sources
+  txt('What the record shows', 60, 150, { s: 48, w: 700, id: 'wrs', a: seg(t, 440.2, 440.25) });
+  const R = [['Legacy economics', 'late fees ≈ 14% of rental revenue', '10-K FY2005', 441.6], ['Transition costs', '> $500M revenue effect · ≈ $60M · $35M ads', '10-K FY2005 · Q1 2007', 443.0], ['Financial constraints', 'debt of nearly $1 billion', '8-K 2010', 445.6]];
+  R.forEach(([h, s, src, at], i) => { const k = seg(t, at, at + .05); if (k <= 0) return; const Y = 250 + i * 200;
+    alpha(k, () => { fill(60, Y, 1800, 170, i % 2 ? 'rgba(255,255,255,0.02)' : 'rgba(255,255,255,0.04)'); tick(90, Y + 80); });
+    txt(h, 140, Y + 80, { s: 48, w: 700, a: k, id: 'fh' + i }); txt(s, 140, Y + 130, { s: 28, w: 500, c: C.dim, a: k, id: 'fs' + i }); tag(src, 1460, Y + 70, { c: C.dim, chip: C.dim, a: k, id: 'fsr' + i });
+    badge(1820, Y + 40, t, at + .6); flashRect(t, at, 60, Y, 1800, 170); });
+  alpha(seg(t, 447.4, 447.45), () => readout('arriving together', 60, 880, { s: 32, id: 'at' }));
+}
+
+// 450–462 evidence map: the decade, every source pinned to its date
+function sMap(t) { flashRect(t, 450, 0, 0, W, H);
+  txt('The evidence', 60, 130, { s: 44, w: 700, id: 'evH' });
+  const Y = 560, X0 = 140, X1 = 1780, xs = v => lerp(X0, X1, (v - 2000) / 10.9);
+  hair(X0, Y, X1, Y, C.line, 1.5); [2000, 2002, 2004, 2006, 2008, 2010].forEach(y => { hair(xs(y), Y, xs(y), Y + 8, C.dim); txt(String(y), xs(y), Y + 32, { s: 16, f: F.mono, c: C.dim, al: 'center' }); });
+  const E = [[ym(2000, 9), 'meeting · disputed', 'tower', 0, 1], [ym(2004, 8), 'online', 'doc', 1], [ym(2005, 1), 'no late fees', 'addison', 0], [ym(2006, 11), 'Total Access', 'doc', 1], [ym(2007, 1), 'instant viewing', 'doc', 0], [ym(2010, 9), 'Chapter 11', 'miami', 1]];
+  E.forEach(([v, lab, th, up, red], i) => { const at = 450.4 + i * .25; if (t < at) return; const px = xs(v), ty = up ? 180 : 650, bx = clamp(px - 130, 60, 1600);
+    if (th === 'doc') { fill(bx, ty, 260, 200, C.paper); for (let r = 0; r < 7; r++) fill(bx + 22, ty + 30 + r * 22, 200 - (r * 37 % 70), 8, '#9c978a'); rect(bx, ty, 260, 200, '#bdb8aa'); }
+    else photo(th, bx, ty, 260, 200, { fx: .55, fy: .5, crop: th === 'miami' ? [0, 0, .9, .62] : undefined });
+    flashRect(t, at, bx, ty, 260, 200); diamond(px, Y, 9, i === 0 || i === 5 ? C.acc : C.text);
+    const kl = eo(seg(t, at + .2, at + .7)); hair(bx + 130, up ? ty + 200 : ty, lerp(bx + 130, px, kl), lerp(up ? ty + 200 : ty, Y + (up ? -10 : 10), kl), C.acc, 1.2, [3, 4]);
+    txt(lab, bx, up ? ty - 14 : ty + 236, { s: 22, w: 700, c: red ? C.acc : C.text, id: 'el' + i }); });
+  alpha(seg(t, 453, 453.05), () => { hair(xs(ym(2000, 9)), Y - 26, xs(ym(2010, 9)), Y - 26, C.acc, 2); txt('10 years', (xs(ym(2000, 9)) + xs(ym(2010, 9))) / 2, Y - 38, { s: 20, f: F.mono, w: 600, c: C.acc, al: 'center', id: 'y10' }); });
+}
+
+// 462–470 verdict (left aligned, on the ground)
+function sVerdict(t) { const k = seg(t, 462.1, 462.15);
+  txt('Recognizing change', 120, 440, { s: 96, w: 700, a: k, id: 'v1' }); txt('is not the same as', 120, 560, { s: 96, w: 700, a: k, id: 'v2' }); txt('surviving it.', 120, 680, { s: 96, w: 700, c: C.acc, a: seg(t, 463.8, 463.85), id: 'v3' }); }
+
+// 470–480 end card
+function sEnd(t) { const k = seg(t, 470, 470.1);
+  txt('BRAND CORONER · CASE 001', 124, 250, { s: 22, w: 700, c: C.acc, ls: 4, a: k, id: 'e0' });
+  txt('Blockbuster: The $50 Million Decision', 120, 350, { s: 54, w: 700, a: k, id: 'e1' });
+  alpha(k, () => hair(124, 400, lerp(124, 1100, eo(seg(t, 470, 470.5))), 400, C.dim, 1));
+  txt('Every decision leaves evidence.', 124, 470, { s: 36, w: 500, a: seg(t, 473.4, 473.5), id: 'e2' });
+  const cr = ['Filings  Blockbuster Inc. Forms 10-K (FY2004–FY2006), 8-K and Ex. 99.1 (23 Sep 2010), Q1 2007 results release — SEC EDGAR; re-typeset',
+    'Netflix  prospectus (May 2002); Q4 2006 and Q1 2007 results releases; instant-viewing announcement, 16 Jan 2007 (summarised)',
+    'Accounts  Marc Randolph, That Will Never Work (2019), paraphrased; John Antioco, LinkedIn (2022), via Next TV, 3 Jun 2022',
+    'Photos  Wikimedia Commons, greyscale and cropped. CC BY 2.0: Jon Konrath (Anchorage), Phillip Pessar (Miami Beach), Joe+Jeanette Archie (Addison),',
+    '            Marit & Toomas Hinnosaar (mailer), Will Buckner (Fairbanks). CC BY 3.0: Andreas Praefcke (Dallas). CC0: Wiki.cullin, DiscoA340, UpdateNerd. Card: public domain.',
+    'Unofficial film. No company endorsed it. Accounts of the 2000 meeting conflict; what-ifs are marked hypothetical.'];
+  cr.forEach((s, i) => txt(s, 124, 660 + i * 34, { s: 19, c: i === 5 ? C.dim : '#B9B6AE', a: seg(t, 470.6, 470.7) }));
+  const kk = seg(t, 470.8, 470.9); alpha(kk, () => { [['tower', [0, 0, 1, 1]], ['addison', [0, 0, 1, 1]], ['env', [0, 0, 1, 1]], ['miami', [0, 0, .9, .62]]].forEach(([k2, cr2], i) => photo(k2, 1300 + (i % 2) * 290, 200 + Math.floor(i / 2) * 230, 270, 200, { crop: cr2, fx: .55 })); });
+}
+
+window.render = function (t) {
+  FR = Math.floor(t * 30); x.setTransform(1, 0, 0, 1, 0, 0); x.globalAlpha = 1; fill(0, 0, W, H, C.bg);
+  const S = [['open', sOpen], ['title', sTitle], ['place', sPlace], ['accounts', sAccounts], ['store', sStore], ['scale', sScale], ['fees', sFees], ['challenger', sChallenger],
+    ['counter', sCounter], ['third', sThird], ['squeeze', sSqueeze], ['filing', sFiling], ['back', sBack], ['map', sMap], ['verdict', sVerdict], ['end', sEnd]];
+  for (const [k, f] of S) if (inS(t, k)) { f(t); break; }
+  if (t < 470) subs(t);
+};
+window.TEXTS = function (t) { REC = []; window.render(t); const r = REC; REC = null; return r; };
+window.SUBCHECK = function () { return FILM.subs.map(([a, b, en], i) => { const we = Math.round(tw(en, { s: 34, w: 500 })); return { i, en, we, safe: 1500, ok: we <= 1500 }; }); };
+window.EV = [];
+boot();
+</script></body></html>

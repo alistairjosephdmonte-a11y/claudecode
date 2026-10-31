@@ -1,0 +1,672 @@
+[
+ {
+  "t0": 1.55,
+  "t1": 4.53,
+  "text": "Dallas, Texas. September 2000."
+ },
+ {
+  "t0": 5.05,
+  "t1": 7.93,
+  "text": "A meeting took place in this city that is now retold,"
+ },
+ {
+  "t0": 7.95,
+  "t1": 11.58,
+  "text": "again and again, as a business parable."
+ },
+ {
+  "t0": 11.6,
+  "t1": 13.96,
+  "text": "According to Marc Randolph, a Netflix co-founder,"
+ },
+ {
+  "t0": 13.98,
+  "t1": 16.66,
+  "text": "three Netflix executives came here to"
+ },
+ {
+  "t0": 16.68,
+  "t1": 17.9,
+  "text": "meet the leadership of Blockbuster,"
+ },
+ {
+  "t0": 17.92,
+  "t1": 20.56,
+  "text": "the largest name in video rental."
+ },
+ {
+  "t0": 21.39,
+  "t1": 23.41,
+  "text": "We have no transcript of that meeting."
+ },
+ {
+  "t0": 26.31,
+  "t1": 28.91,
+  "text": "The people who were there remember the day differently."
+ },
+ {
+  "t0": 30.4,
+  "t1": 32.02,
+  "text": "In Randolph's version,"
+ },
+ {
+  "t0": 32.04,
+  "t1": 34.66,
+  "text": "Netflix proposed that Blockbuster buy the company,"
+ },
+ {
+  "t0": 34.68,
+  "t1": 38.64,
+  "text": "and that the Netflix team run Blockbuster's business online."
+ },
+ {
+  "t0": 40.4,
+  "t1": 43.9,
+  "text": "Randolph described the meeting in his 2019 memoir."
+ },
+ {
+  "t0": 44.46,
+  "t1": 46.24,
+  "text": "He recalls the price that was named,"
+ },
+ {
+  "t0": 46.26,
+  "t1": 49.4,
+  "text": "and a reaction he read as dismissive."
+ },
+ {
+  "t0": 50.4,
+  "t1": 54.82,
+  "text": "John Antioco, Blockbuster's chief executive at the time,"
+ },
+ {
+  "t0": 54.84,
+  "t1": 56.14,
+  "text": "disputes that version."
+ },
+ {
+  "t0": 56.66,
+  "t1": 59.94,
+  "text": "In 2022 he wrote that no serious conversations"
+ },
+ {
+  "t0": 59.96,
+  "t1": 62.54,
+  "text": "about buying Netflix took place."
+ },
+ {
+  "t0": 63.06,
+  "t1": 64.68,
+  "text": "The figure at the center of the"
+ },
+ {
+  "t0": 64.7,
+  "t1": 67.34,
+  "text": "story is fifty million dollars."
+ },
+ {
+  "t0": 67.36,
+  "t1": 69.34,
+  "text": "It comes from Randolph's account,"
+ },
+ {
+  "t0": 69.36,
+  "t1": 71.48,
+  "text": "and it is where most retellings begin."
+ },
+ {
+  "t0": 71.98,
+  "t1": 74.74,
+  "text": "Two recollections. One number."
+ },
+ {
+  "t0": 74.76,
+  "t1": 78.22,
+  "text": "And a question that a single meeting, however famous,"
+ },
+ {
+  "t0": 78.24,
+  "t1": 79.96,
+  "text": "cannot answer on its own."
+ },
+ {
+  "t0": 80.85,
+  "t1": 82.55,
+  "text": "To understand the decision,"
+ },
+ {
+  "t0": 82.57,
+  "t1": 84.73,
+  "text": "start with the business Blockbuster had built,"
+ },
+ {
+  "t0": 84.75,
+  "t1": 87.09,
+  "text": "and the Friday nights that built it."
+ },
+ {
+  "t0": 90.4,
+  "t1": 94.0,
+  "text": "Its strength was physical: walls of tapes and discs,"
+ },
+ {
+  "t0": 94.02,
+  "t1": 95.66,
+  "text": "new releases in bulk,"
+ },
+ {
+  "t0": 95.68,
+  "t1": 98.14,
+  "text": "and stores close to where customers lived."
+ },
+ {
+  "t0": 100.4,
+  "t1": 103.88,
+  "text": "A customer chose a film, showed a membership card,"
+ },
+ {
+  "t0": 103.9,
+  "t1": 105.02,
+  "text": "paid at the counter,"
+ },
+ {
+  "t0": 105.04,
+  "t1": 107.46,
+  "text": "and promised to bring it back by a due date."
+ },
+ {
+  "t0": 110.4,
+  "t1": 113.44,
+  "text": "Repeated store by store, city by city,"
+ },
+ {
+  "t0": 113.46,
+  "t1": 117.32,
+  "text": "that simple transaction grew into a vast retail network."
+ },
+ {
+  "t0": 120.4,
+  "t1": 122.32,
+  "text": "By the end of 2004,"
+ },
+ {
+  "t0": 122.34,
+  "t1": 124.92,
+  "text": "the company described a network of roughly nine"
+ },
+ {
+  "t0": 124.94,
+  "t1": 127.32,
+  "text": "thousand one hundred stores around the world."
+ },
+ {
+  "t0": 130.4,
+  "t1": 132.08,
+  "text": "Every rental carried a due date,"
+ },
+ {
+  "t0": 132.1,
+  "t1": 134.64,
+  "text": "and every late return carried a fee."
+ },
+ {
+  "t0": 135.08,
+  "t1": 137.72,
+  "text": "That small line on a receipt added up."
+ },
+ {
+  "t0": 140.4,
+  "t1": 143.78,
+  "text": "The company later reported that those extended viewing fees"
+ },
+ {
+  "t0": 143.8,
+  "t1": 148.52,
+  "text": "made up about fourteen percent of its rental revenue in 2004."
+ },
+ {
+  "t0": 150.4,
+  "t1": 153.72,
+  "text": "A system this large is powerful. It is also heavy,"
+ },
+ {
+  "t0": 153.74,
+  "t1": 155.86,
+  "text": "and heavy systems are slow to change"
+ },
+ {
+  "t0": 155.88,
+  "t1": 157.82,
+  "text": "direction when the ground moves."
+ },
+ {
+  "t0": 160.85,
+  "t1": 162.85,
+  "text": "Netflix approached the same customer"
+ },
+ {
+  "t0": 162.87,
+  "t1": 166.95,
+  "text": "problem from the other side: a disc, a paper envelope,"
+ },
+ {
+  "t0": 166.97,
+  "t1": 167.73,
+  "text": "and a mailbox."
+ },
+ {
+  "t0": 170.4,
+  "t1": 171.8,
+  "text": "There was no storefront."
+ },
+ {
+  "t0": 172.22,
+  "t1": 174.5,
+  "text": "Orders moved through distribution centers,"
+ },
+ {
+  "t0": 174.52,
+  "t1": 176.84,
+  "text": "sorting lines and the postal system."
+ },
+ {
+  "t0": 180.4,
+  "t1": 183.8,
+  "text": "Customers paid a monthly subscription, received discs,"
+ },
+ {
+  "t0": 183.82,
+  "t1": 185.94,
+  "text": "watched them, and sent them back."
+ },
+ {
+  "t0": 186.34,
+  "t1": 188.6,
+  "text": "In this model there were no late fees."
+ },
+ {
+  "t0": 190.4,
+  "t1": 193.52,
+  "text": "Two businesses now served the same evening at home,"
+ },
+ {
+  "t0": 193.54,
+  "t1": 194.74,
+  "text": "for the same customers,"
+ },
+ {
+  "t0": 194.76,
+  "t1": 198.74,
+  "text": "with very different machinery working behind each of them."
+ },
+ {
+  "t0": 200.4,
+  "t1": 202.12,
+  "text": "One carried rent,"
+ },
+ {
+  "t0": 202.14,
+  "t1": 205.4,
+  "text": "inventory and staff across thousands of locations."
+ },
+ {
+  "t0": 206.14,
+  "t1": 208.68,
+  "text": "The other carried postage, fulfillment,"
+ },
+ {
+  "t0": 208.7,
+  "t1": 210.62,
+  "text": "and the cost of winning subscribers."
+ },
+ {
+  "t0": 211.41,
+  "t1": 215.23,
+  "text": "And it lived online, on early web pages and order forms,"
+ },
+ {
+  "t0": 215.25,
+  "t1": 219.37,
+  "text": "years before most viewers expected movies to arrive that way."
+ },
+ {
+  "t0": 220.4,
+  "t1": 223.64,
+  "text": "In 2000, the difference in scale was enormous."
+ },
+ {
+  "t0": 224.56,
+  "t1": 226.54,
+  "text": "Blockbuster was by far the larger company,"
+ },
+ {
+  "t0": 226.56,
+  "t1": 228.6,
+  "text": "and the more established brand."
+ },
+ {
+  "t0": 230.4,
+  "t1": 232.64,
+  "text": "So was the threat obvious in 2000?"
+ },
+ {
+  "t0": 232.66,
+  "t1": 235.62,
+  "text": "Or does it only look obvious now?"
+ },
+ {
+  "t0": 240.85,
+  "t1": 242.33,
+  "text": "Blockbuster did respond."
+ },
+ {
+  "t0": 242.75,
+  "t1": 244.47,
+  "text": "It moved into online rental,"
+ },
+ {
+  "t0": 244.49,
+  "t1": 248.17,
+  "text": "with a service launched in 2004 to compete directly by mail."
+ },
+ {
+  "t0": 250.4,
+  "t1": 254.72,
+  "text": "Now it ran two systems side by side: thousands of stores,"
+ },
+ {
+  "t0": 254.74,
+  "t1": 257.38,
+  "text": "and a growing operation built around the mailbox."
+ },
+ {
+  "t0": 260.4,
+  "t1": 264.0,
+  "text": "In January 2005, it made a major change."
+ },
+ {
+  "t0": 264.42,
+  "t1": 266.44,
+  "text": "It stopped charging late fees at its"
+ },
+ {
+  "t0": 266.46,
+  "t1": 268.62,
+  "text": "company-operated stores in the United States."
+ },
+ {
+  "t0": 270.4,
+  "t1": 273.62,
+  "text": "The company's annual report for 2005 describes"
+ },
+ {
+  "t0": 273.64,
+  "t1": 277.34,
+  "text": "the financial impact of that decision, line by line."
+ },
+ {
+  "t0": 280.4,
+  "t1": 283.06,
+  "text": "The company reported that the program reduced rental"
+ },
+ {
+  "t0": 283.08,
+  "t1": 287.2,
+  "text": "revenues by more than five hundred million dollars,"
+ },
+ {
+  "t0": 287.22,
+  "t1": 290.16,
+  "text": "and cost about sixty million to market and implement."
+ },
+ {
+  "t0": 290.7,
+  "t1": 296.04,
+  "text": "In November 2006, Blockbuster introduced Total Access,"
+ },
+ {
+  "t0": 296.06,
+  "t1": 299.0,
+  "text": "its most direct answer yet to the mail-order challenge."
+ },
+ {
+  "t0": 300.4,
+  "t1": 302.76,
+  "text": "Online members could return a mailed disc"
+ },
+ {
+  "t0": 302.78,
+  "t1": 305.22,
+  "text": "at a store and leave with another film."
+ },
+ {
+  "t0": 305.58,
+  "t1": 308.0,
+  "text": "For the first time, the two systems connected."
+ },
+ {
+  "t0": 310.4,
+  "t1": 312.28,
+  "text": "Subscribers grew quickly."
+ },
+ {
+  "t0": 312.3,
+  "t1": 313.98,
+  "text": "So did the cost of serving them,"
+ },
+ {
+  "t0": 314.0,
+  "t1": 316.66,
+  "text": "and of the promotions that brought them in."
+ },
+ {
+  "t0": 320.85,
+  "t1": 322.69,
+  "text": "Growth came with losses."
+ },
+ {
+  "t0": 323.15,
+  "t1": 325.15,
+  "text": "Attracting customers is not the same"
+ },
+ {
+  "t0": 325.17,
+  "t1": 327.61,
+  "text": "thing as making each of them profitable."
+ },
+ {
+  "t0": 330.4,
+  "t1": 331.76,
+  "text": "Retail stores."
+ },
+ {
+  "t0": 331.78,
+  "t1": 333.32,
+  "text": "Discs by mail."
+ },
+ {
+  "t0": 333.34,
+  "t1": 336.54,
+  "text": "Each with its own costs, its own customers, and soon,"
+ },
+ {
+  "t0": 336.56,
+  "t1": 338.76,
+  "text": "a third model that needed neither."
+ },
+ {
+  "t0": 340.4,
+  "t1": 342.4,
+  "text": "In January 2007,"
+ },
+ {
+  "t0": 342.42,
+  "t1": 346.04,
+  "text": "Netflix announced instant viewing on personal computers,"
+ },
+ {
+  "t0": 346.06,
+  "t1": 348.28,
+  "text": "starting with about a thousand titles."
+ },
+ {
+  "t0": 350.4,
+  "t1": 351.72,
+  "text": "It was limited at first."
+ },
+ {
+  "t0": 352.18,
+  "t1": 354.36,
+  "text": "But it pointed toward a way of watching that"
+ },
+ {
+  "t0": 354.38,
+  "t1": 356.84,
+  "text": "needed neither a store nor an envelope."
+ },
+ {
+  "t0": 360.4,
+  "t1": 361.88,
+  "text": "Discs by mail,"
+ },
+ {
+  "t0": 361.9,
+  "t1": 364.18,
+  "text": "retail stores and streaming were now"
+ },
+ {
+  "t0": 364.2,
+  "t1": 367.12,
+  "text": "competing for the very same evenings at home."
+ },
+ {
+  "t0": 370.4,
+  "t1": 372.42,
+  "text": "Running a transition is expensive,"
+ },
+ {
+  "t0": 372.78,
+  "t1": 374.78,
+  "text": "and the cost fell on a business whose"
+ },
+ {
+  "t0": 374.8,
+  "t1": 377.32,
+  "text": "core revenue was already under pressure."
+ },
+ {
+  "t0": 380.4,
+  "t1": 383.7,
+  "text": "Debt, liquidity and other long-term obligations left"
+ },
+ {
+  "t0": 383.72,
+  "t1": 386.72,
+  "text": "the company with less and less room to maneuver,"
+ },
+ {
+  "t0": 386.74,
+  "t1": 388.88,
+  "text": "and less time to adjust."
+ },
+ {
+  "t0": 390.4,
+  "t1": 392.68,
+  "text": "The network that had been the company's greatest"
+ },
+ {
+  "t0": 392.7,
+  "t1": 396.0,
+  "text": "strength became harder and harder to sustain."
+ },
+ {
+  "t0": 400.85,
+  "t1": 403.41,
+  "text": "On September twenty-third, 2010,"
+ },
+ {
+  "t0": 403.43,
+  "t1": 407.13,
+  "text": "Blockbuster filed for Chapter Eleven bankruptcy protection,"
+ },
+ {
+  "t0": 407.15,
+  "t1": 409.49,
+  "text": "a decade after the meeting in Dallas."
+ },
+ {
+  "t0": 410.4,
+  "t1": 412.74,
+  "text": "Some stores continued to operate."
+ },
+ {
+  "t0": 412.76,
+  "t1": 414.34,
+  "text": "But the dominant model of the"
+ },
+ {
+  "t0": 414.36,
+  "t1": 416.5,
+  "text": "neighborhood video store had faded."
+ },
+ {
+  "t0": 420.4,
+  "t1": 422.7,
+  "text": "Which brings us back to the meeting in Dallas."
+ },
+ {
+  "t0": 423.22,
+  "t1": 426.44,
+  "text": "A famous moment, and still a disputed one."
+ },
+ {
+  "t0": 430.4,
+  "t1": 433.1,
+  "text": "Could an earlier deal, different terms,"
+ },
+ {
+  "t0": 433.12,
+  "t1": 436.2,
+  "text": "or a partnership have changed the outcome? Possibly."
+ },
+ {
+  "t0": 436.76,
+  "t1": 438.7,
+  "text": "None of these outcomes can be proven."
+ },
+ {
+  "t0": 440.4,
+  "t1": 444.48,
+  "text": "The record points to something more complex: legacy economics,"
+ },
+ {
+  "t0": 444.5,
+  "t1": 447.2,
+  "text": "the cost of transition, and financial constraints,"
+ },
+ {
+  "t0": 447.22,
+  "t1": 448.62,
+  "text": "arriving together."
+ },
+ {
+  "t0": 450.4,
+  "t1": 452.34,
+  "text": "One meeting is part of the evidence."
+ },
+ {
+  "t0": 452.8,
+  "t1": 455.98,
+  "text": "It is not the whole record, and it was never the whole story."
+ },
+ {
+  "t0": 462.15,
+  "t1": 466.07,
+  "text": "Recognizing change is not the same as surviving it."
+ },
+ {
+  "t0": 473.55,
+  "t1": 475.63,
+  "text": "Every decision leaves evidence."
+ }
+]
