@@ -2,7 +2,7 @@
   "S01": {
     "still": "renders/shots/BC001_S01_still_f00181.png",
     "frame": 181,
-    "seconds": 10.9,
+    "seconds": 11.8,
     "ok": true
   },
   "S02": {
@@ -272,7 +272,7 @@
   "S46": {
     "still": "renders/shots/BC001_S46_still_f10981.png",
     "frame": 10981,
-    "seconds": 10.4,
+    "seconds": 12.4,
     "ok": true
   },
   "S47": {

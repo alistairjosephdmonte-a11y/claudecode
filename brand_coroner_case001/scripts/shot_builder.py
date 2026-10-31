@@ -246,7 +246,7 @@ def shot(sid):
 @shot("S01")
 def s01(x):
     light(x.c, "LGT_S01_Sun_Dusk", "SUN", (-900, -300, 260), 2.6, K["dusk"], target=(0, 0, 0), angle=math.radians(3))
-    cam = CR.camera("CAM_S01", x.c, x.f0, x.f1, [(x.f0, (-560, -600, 150)), (x.f1, (-535, -575, 156))],
+    cam = CR.camera("CAM_S01", x.c, x.f0, x.f1, [(x.f0, (-560, -600, 150)), (x.f1, (-545, -585, 154))],   # slow 21 m drone glide
                     aim=[(x.f0, (0, 0, 70)), (x.f1, (0, 0, 74))], lens=28, move="slow_dolly_rise")
     cam.data.clip_end = 1600
     st = MG.Stage("TTL_S01", x.c, (0, 0, 0), "front", x.M, x.f0, x.f1)
@@ -955,14 +955,14 @@ def s41(x):
 
 @shot("S46")
 def s46(x):
-    st, cam = archive(x, scale=(2.2, 3.1), drift=((0, 0), (0.0, 0.05)))
-    randolph_card(st, x, -0.95, 0.42, slide=False, deg=-4, base="Card_R")
-    antioco_card(st, x, 0.15, 0.48, slide=False, deg=3, base="Card_A")
-    doc_card(st, "Receipt", 1.1, 0.25, 0.32, 0.7, "RENTAL RECEIPT", ["Illustrative"], mat_key="paper_white", deg=6, size=0.024, placeholder=6)
-    doc_card(st, "Filing10K", -0.85, -0.4, 0.7, 0.5, "FORM 10-K  ·  FY2005", ["Scan pending import"], mat_key="paper_white", deg=2, size=0.026, placeholder=5)
-    doc_card(st, "Ch11", 0.25, -0.45, 0.7, 0.5, "CHAPTER 11  ·  SEPT 23, 2010", ["Scan pending import"], mat_key="paper_white", deg=-3, size=0.026, placeholder=5)
-    doc_card(st, "Instant", 1.15, -0.45, 0.5, 0.4, "JAN 2007", ["Instant viewing (Netflix)"], mat_key="ivory", deg=5, size=0.024)
-    for i, (a, b) in enumerate((((-0.95, 0.42), (0.15, 0.48)), ((0.15, 0.48), (0.25, -0.45)), ((-0.85, -0.4), (0.25, -0.45)), ((0.25, -0.45), (1.15, -0.45)))):
+    st, cam = archive(x, scale=(2.85, 3.15), drift=((0, 0), (0.0, 0.03)))   # gentle 10 % pull-out
+    randolph_card(st, x, -0.72, 0.25, slide=False, deg=-4, base="Card_R")
+    antioco_card(st, x, 0.42, 0.42, slide=False, deg=3, base="Card_A")
+    doc_card(st, "Receipt", 1.18, -0.05, 0.3, 0.62, "RENTAL RECEIPT", ["Illustrative"], mat_key="paper_white", deg=6, size=0.024, placeholder=6)
+    doc_card(st, "Filing10K", -0.95, -0.48, 0.66, 0.42, "FORM 10-K  ·  FY2005", ["Scan pending import"], mat_key="paper_white", deg=2, size=0.026, placeholder=5)
+    doc_card(st, "Ch11", -0.1, -0.5, 0.66, 0.42, "CHAPTER 11  ·  SEPT 23, 2010", ["Scan pending import"], mat_key="paper_white", deg=-3, size=0.026, placeholder=5)
+    doc_card(st, "Instant", 0.72, -0.5, 0.46, 0.36, "JAN 2007", ["Instant viewing (Netflix)"], mat_key="ivory", deg=5, size=0.024)
+    for i, (a, b) in enumerate((((-0.72, 0.25), (0.42, 0.42)), ((0.42, 0.42), (-0.1, -0.5)), ((-0.95, -0.48), (-0.1, -0.5)), ((-0.1, -0.5), (0.72, -0.5)))):
         st.line(f"Thread_{i}", a[0], a[1], b[0], b[1], x.M["red"], 0.006, grow=(x.f0 + 40 + 25 * i, x.f0 + 80 + 25 * i), d=0.012)
     return cam
 

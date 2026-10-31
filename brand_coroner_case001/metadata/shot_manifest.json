@@ -83,8 +83,8 @@
         "move": "slow_dolly_rise",
         "lens_mm": 28,
         "type": "PERSP",
-        "max_speed_m_s": 5.402,
-        "max_acc_m_s2": 2.172,
+        "max_speed_m_s": 3.253,
+        "max_acc_m_s2": 1.363,
         "max_angacc_deg_s2": 0.0
       }
     },
@@ -2025,8 +2025,8 @@
         "move": "overhead",
         "lens_mm": 0,
         "type": "ORTHO",
-        "max_speed_m_s": 0.008,
-        "max_acc_m_s2": 0.003,
+        "max_speed_m_s": 0.005,
+        "max_acc_m_s2": 0.002,
         "max_angacc_deg_s2": 0.0
       }
     },

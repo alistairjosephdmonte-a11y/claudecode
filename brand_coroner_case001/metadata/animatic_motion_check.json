@@ -2,8 +2,8 @@
  "flags": [],
  "per_shot": {
   "S01": {
-   "mean": 0.487,
-   "max": 0.97,
+   "mean": 0.46,
+   "max": 0.74,
    "static_frames": 0
   },
   "S02": {
@@ -227,9 +227,9 @@
    "static_frames": 7
   },
   "S46": {
-   "mean": 0.417,
-   "max": 0.69,
-   "static_frames": 1
+   "mean": 0.157,
+   "max": 0.26,
+   "static_frames": 4
   },
   "S47": {
    "mean": 0.041,

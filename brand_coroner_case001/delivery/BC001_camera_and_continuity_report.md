@@ -42,7 +42,7 @@ Visual mode share: {'REC': '25%', 'ARC': '15%', 'DATA': '21%', 'INV': '40%'} (ta
 
 | Shot | Time | Title | Mode | Class | Camera | Lens | Move | Max acc (m/s²) | Sources | Continuity |
 |---|---|---|---|---|---|---|---|---|---|---|
-| S01 | 00:00-00:10 | Dallas, September 2000 | REC | reconstruction | CAM_S01 | 28 mm | slow_dolly_rise | 2.172 | SRC_RANDOLPH_2019 (V), SRC_INC_2019_EXCERPT (V) | pass |
+| S01 | 00:00-00:10 | Dallas, September 2000 | REC | reconstruction | CAM_S01 | 28 mm | slow_dolly_rise | 1.363 | SRC_RANDOLPH_2019 (V), SRC_INC_2019_EXCERPT (V) | pass |
 | S02 | 00:10-00:20 | Three visitors arrive | REC | reconstruction | CAM_S02 | 35 mm | restrained_lateral_track | 0.692 | SRC_RANDOLPH_2019 (V) | pass |
 | S03 | 00:20-00:30 | The meeting room | REC | reconstruction | CAM_S03 | 35 mm | slow_dolly | 0.141 | SRC_RANDOLPH_2019 (V) | pass |
 | S04 | 00:30-00:40 | The proposal | REC | reconstruction | CAM_S04 | 50 mm | controlled_push_in | 0.141 | SRC_RANDOLPH_2019 (V) | pass |
@@ -87,7 +87,7 @@ Visual mode share: {'REC': '25%', 'ARC': '15%', 'DATA': '21%', 'INV': '40%'} (ta
 | S43 | 07:00-07:10 | The meeting returns | INV | reconstruction | CAM_S43 | 35 mm | slow_push_in | 0.212 | SRC_RANDOLPH_2019 (V), SRC_ANTIOCO_DISPUTE (P) | pass |
 | S44 | 07:10-07:20 | Hypothetical scenarios | INV | editorial_graphic | CAM_S44 | ortho | graphics_push | 0.0 | — | pass |
 | S45 | 07:20-07:30 | Three converging forces | INV | editorial_graphic | CAM_S45 | ortho | graphics_push | 0.0 | — | pass |
-| S46 | 07:30-07:40 | The evidence | ARC | editorial_graphic | CAM_S46 | ortho | overhead | 0.003 | — | pass |
+| S46 | 07:30-07:40 | The evidence | ARC | editorial_graphic | CAM_S46 | ortho | overhead | 0.002 | — | pass |
 | S47 | 07:40-07:50 | The verdict | INV | editorial_graphic | CAM_S47 | ortho | graphics_push | 0.0 | — | pass |
 | S48 | 07:50-08:00 | End title | INV | editorial_graphic | CAM_S48 | ortho | graphics_push | 0.0 | — | pass |
 
