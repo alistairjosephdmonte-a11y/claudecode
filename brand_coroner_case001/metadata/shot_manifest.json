@@ -989,9 +989,9 @@
         "move": "controlled_push_in",
         "lens_mm": 50,
         "type": "PERSP",
-        "max_speed_m_s": 0.055,
+        "max_speed_m_s": 0.036,
         "max_acc_m_s2": 0.563,
-        "max_angacc_deg_s2": 26.4
+        "max_angacc_deg_s2": 38.27
       }
     },
     {
@@ -1068,7 +1068,7 @@
         "pronunciation": ""
       },
       "render_status": "preview_still_rendered",
-      "continuity": "review",
+      "continuity": "pass",
       "preview_still": "renders/shots/BC001_S24_still_f05701.png",
       "camera_report": {
         "camera": "CAM_S24",

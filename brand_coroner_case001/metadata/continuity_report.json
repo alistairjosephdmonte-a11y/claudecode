@@ -7,7 +7,7 @@
     "duration_480s": true,
     "every_shot_has_camera": true,
     "every_shot_has_narration_cue": true,
-    "every_historical_claim_has_source_id": false,
+    "every_historical_claim_has_source_id": true,
     "every_reconstruction_identified": true,
     "every_pending_source_flagged_on_screen": true,
     "every_unverified_asset_marked_pending": true,
@@ -15,16 +15,14 @@
     "every_required_path_resolves": true,
     "libraries_relative": true,
     "all_preview_stills_complete": true,
-    "animatic_complete_11520_frames": false,
+    "animatic_complete_11520_frames": true,
     "cameras_smooth": true,
-    "continuity_props_contact_feet": false
+    "continuity_props_contact_feet": true
   },
   "details": {
-    "detail_claims_without_source": [
-      "S24"
-    ],
+    "detail_claims_without_source": [],
     "detail_unresolved_paths": [],
-    "detail_animatic_frames": null
+    "detail_animatic_frames": 11520
   },
   "continuity": {
     "folder_S04_vs_S43_offset_mm": 0.019,
@@ -233,9 +231,9 @@
       "move": "controlled_push_in",
       "lens_mm": 50,
       "type": "PERSP",
-      "max_speed_m_s": 0.055,
+      "max_speed_m_s": 0.036,
       "max_acc_m_s2": 0.563,
-      "max_angacc_deg_s2": 26.4
+      "max_angacc_deg_s2": 38.27
     },
     "S23": {
       "camera": "CAM_S23",
@@ -642,7 +640,7 @@
     },
     "S24": {
       "checks": {
-        "sources": "missing",
+        "sources": "ok",
         "classification_on_screen": "ok",
         "camera_smooth": "ok"
       }
@@ -816,5 +814,5 @@
       }
     }
   },
-  "all_pass": false
+  "all_pass": true
 }

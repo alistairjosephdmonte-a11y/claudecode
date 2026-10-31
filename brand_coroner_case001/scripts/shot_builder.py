@@ -493,7 +493,7 @@ def desk_lights(x, D, night=False):
 def s22(x):
     D = SETS["SET_DESK_VIGNETTE"]
     desk_lights(x, D)
-    cam = CR.camera("CAM_S22", x.c, x.f0, x.f1, [(x.f0, tuple(D + Vector((0.06, -0.45, 1.08)))), (x.f1, tuple(D + Vector((0.02, -0.12, 1.03))))],
+    cam = CR.camera("CAM_S22", x.c, x.f0, x.f1, [(x.f0, tuple(D + Vector((0.05, -0.3, 1.1)))), (x.f1, tuple(D + Vector((0.02, -0.08, 1.04))))],   # clear of the chair back (y -0.39)
                     aim=[(x.f0, tuple(D + Vector((0, 0.52, 1.0))))], lens=50, fstop=2.8, focus=0.8, move="controlled_push_in")
     slate(x, cam, "ILLUSTRATIVE SCREEN LAYOUT  ·  NO HISTORICAL WEB PAGE REPRODUCED")
     return cam
