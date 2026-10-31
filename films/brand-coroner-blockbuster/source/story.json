@@ -1,0 +1,445 @@
+{
+ "shot": 10,
+ "acts": [
+  "THE OFFER",
+  "THE EMPIRE",
+  "THE CHALLENGER",
+  "THE COUNTERATTACK",
+  "THE TRAP",
+  "THE VERDICT"
+ ],
+ "shots": [
+  {
+   "n": 1,
+   "id": "s01",
+   "act": 0,
+   "title": "Dallas, September 2000",
+   "cls": "RECONSTRUCTION",
+   "line": "Dallas, Texas. September 2000. A meeting took place in this city that is now retold, again and again, as a business parable.",
+   "src": "Date and place as given in Marc Randolph, That Will Never Work (2019)"
+  },
+  {
+   "n": 2,
+   "id": "s02",
+   "act": 0,
+   "title": "Three visitors arrive",
+   "cls": "RECONSTRUCTION",
+   "line": "According to Marc Randolph, a Netflix co-founder, three Netflix executives came here to meet the leadership of Blockbuster, the largest name in video rental.",
+   "src": "Marc Randolph, That Will Never Work (Little, Brown, 2019)"
+  },
+  {
+   "n": 3,
+   "id": "s03",
+   "act": 0,
+   "title": "The meeting room",
+   "cls": "RECONSTRUCTION",
+   "line": "We have no transcript of that meeting. The room you are seeing is representative, and the people who were there remember the day differently.",
+   "src": null
+  },
+  {
+   "n": 4,
+   "id": "s04",
+   "act": 0,
+   "title": "The proposal",
+   "cls": "RECONSTRUCTION",
+   "line": "In Randolph's version, Netflix proposed that Blockbuster buy the company, and that the Netflix team run Blockbuster's business online.",
+   "src": "Marc Randolph, That Will Never Work (2019)"
+  },
+  {
+   "n": 5,
+   "id": "s05",
+   "act": 0,
+   "title": "Randolph's account",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "Randolph described the meeting in his 2019 memoir. He recalls the price that was named, and a reaction he read as dismissive.",
+   "src": "Marc Randolph, That Will Never Work (2019)"
+  },
+  {
+   "n": 6,
+   "id": "s06",
+   "act": 0,
+   "title": "Antioco's account",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "John Antioco, Blockbuster's chief executive at the time, disputes that version. In 2022 he wrote that no serious conversations about buying Netflix took place.",
+   "src": "John Antioco, LinkedIn post, as reported by Next TV, 3 June 2022"
+  },
+  {
+   "n": 7,
+   "id": "s07",
+   "act": 0,
+   "title": "The number",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "The figure at the center of the story is fifty million dollars. It comes from Randolph's account, and it is where most retellings begin.",
+   "src": "Reported by Marc Randolph; not a signed or documented offer"
+  },
+  {
+   "n": 8,
+   "id": "s08",
+   "act": 0,
+   "title": "What really happened?",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "Two recollections. One number. And a question that a single meeting, however famous, cannot answer on its own.",
+   "src": null
+  },
+  {
+   "n": 9,
+   "id": "s09",
+   "act": 1,
+   "title": "Friday night",
+   "cls": "RECONSTRUCTION",
+   "line": "To understand the decision, start with the business Blockbuster had built, and the Friday nights that built it.",
+   "src": null
+  },
+  {
+   "n": 10,
+   "id": "s10",
+   "act": 1,
+   "title": "Inside the store",
+   "cls": "RECONSTRUCTION",
+   "line": "Its strength was physical: walls of tapes and discs, new releases in bulk, and stores close to where customers lived.",
+   "src": null
+  },
+  {
+   "n": 11,
+   "id": "s11",
+   "act": 1,
+   "title": "At the counter",
+   "cls": "RECONSTRUCTION",
+   "line": "A customer chose a film, showed a membership card, paid at the counter, and promised to bring it back by a due date.",
+   "src": null
+  },
+  {
+   "n": 12,
+   "id": "s12",
+   "act": 1,
+   "title": "An expanding network",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "Repeated store by store, city by city, that simple transaction grew into a vast retail network.",
+   "src": null
+  },
+  {
+   "n": 13,
+   "id": "s13",
+   "act": 1,
+   "title": "The scale",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "By the end of 2004, the company described a network of roughly nine thousand one hundred stores around the world.",
+   "src": "Blockbuster Inc., Form 10-K for fiscal 2004 (filed March 2005)"
+  },
+  {
+   "n": 14,
+   "id": "s14",
+   "act": 1,
+   "title": "The rental model",
+   "cls": "RECONSTRUCTION",
+   "line": "Every rental carried a due date, and every late return carried a fee. That small line on a receipt added up.",
+   "src": "Receipt values are illustrative"
+  },
+  {
+   "n": 15,
+   "id": "s15",
+   "act": 1,
+   "title": "Extended viewing fees",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "The company later reported that those extended viewing fees made up about fourteen percent of its rental revenue in 2004.",
+   "src": "Blockbuster Inc., Form 10-K for fiscal 2005 (filed March 2006)"
+  },
+  {
+   "n": 16,
+   "id": "s16",
+   "act": 1,
+   "title": "A heavy business",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "A system this large is powerful. It is also heavy, and heavy systems are slow to change direction when the ground moves.",
+   "src": null
+  },
+  {
+   "n": 17,
+   "id": "s17",
+   "act": 2,
+   "title": "A new approach",
+   "cls": "RECONSTRUCTION",
+   "line": "Netflix approached the same customer problem from the other side: a disc, a paper envelope, and a mailbox.",
+   "src": null
+  },
+  {
+   "n": 18,
+   "id": "s18",
+   "act": 2,
+   "title": "In the mail",
+   "cls": "RECONSTRUCTION",
+   "line": "There was no storefront. Orders moved through distribution centers, sorting lines and the postal system.",
+   "src": null
+  },
+  {
+   "n": 19,
+   "id": "s19",
+   "act": 2,
+   "title": "The subscription loop",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "Customers paid a monthly subscription, received discs, watched them, and sent them back. In this model there were no late fees.",
+   "src": null
+  },
+  {
+   "n": 20,
+   "id": "s20",
+   "act": 2,
+   "title": "Two operating models",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "Two businesses now served the same evening at home, for the same customers, with very different machinery working behind each of them.",
+   "src": null
+  },
+  {
+   "n": 21,
+   "id": "s21",
+   "act": 2,
+   "title": "Cost structures",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "One carried rent, inventory and staff across thousands of locations. The other carried postage, fulfillment, and the cost of winning subscribers.",
+   "src": "Conceptual comparison; not an exhaustive cost breakdown"
+  },
+  {
+   "n": 22,
+   "id": "s22",
+   "act": 2,
+   "title": "A growing online presence",
+   "cls": "RECONSTRUCTION",
+   "line": "And it lived online, on early web pages and order forms, years before most viewers expected movies to arrive that way.",
+   "src": "Representative interface; not a recreation of any company's website"
+  },
+  {
+   "n": 23,
+   "id": "s23",
+   "act": 2,
+   "title": "Relative size in 2000",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "In 2000, the difference in scale was enormous. Blockbuster was by far the larger company, and the more established brand.",
+   "src": "Relative scale only; not drawn to a numerical ratio"
+  },
+  {
+   "n": 24,
+   "id": "s24",
+   "act": 2,
+   "title": "Was the threat obvious?",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "So was the threat obvious in 2000? Or does it only look obvious now?",
+   "src": null
+  },
+  {
+   "n": 25,
+   "id": "s25",
+   "act": 3,
+   "title": "August 2004",
+   "cls": "ARCHIVAL MATERIAL",
+   "line": "Blockbuster did respond. It moved into online rental, with a service launched in 2004 to compete directly by mail.",
+   "src": "Blockbuster Inc., Form 10-K for fiscal 2004"
+  },
+  {
+   "n": 26,
+   "id": "s26",
+   "act": 3,
+   "title": "Two systems",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "Now it ran two systems side by side: thousands of stores, and a growing operation built around the mailbox.",
+   "src": null
+  },
+  {
+   "n": 27,
+   "id": "s27",
+   "act": 3,
+   "title": "No late fees",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "In January 2005, it made a major change. It stopped charging late fees at its company-operated stores in the United States.",
+   "src": "Blockbuster Inc., Form 10-K for fiscal 2004"
+  },
+  {
+   "n": 28,
+   "id": "s28",
+   "act": 3,
+   "title": "The financial impact",
+   "cls": "ARCHIVAL MATERIAL",
+   "line": "The company's annual report for 2005 describes the financial impact of that decision, line by line.",
+   "src": "Blockbuster Inc., Form 10-K for fiscal 2005"
+  },
+  {
+   "n": 29,
+   "id": "s29",
+   "act": 3,
+   "title": "Costs and consequences",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "The company reported that the program reduced rental revenues by more than five hundred million dollars, and cost about sixty million to market and implement.",
+   "src": "Blockbuster Inc., Form 10-K for fiscal 2005, Risk Factors"
+  },
+  {
+   "n": 30,
+   "id": "s30",
+   "act": 3,
+   "title": "Total Access",
+   "cls": "ARCHIVAL MATERIAL",
+   "line": "In November 2006, Blockbuster introduced Total Access, its most direct answer yet to the mail-order challenge.",
+   "src": "Blockbuster Inc., Form 10-K for fiscal 2006"
+  },
+  {
+   "n": 31,
+   "id": "s31",
+   "act": 3,
+   "title": "Connecting the systems",
+   "cls": "RECONSTRUCTION",
+   "line": "Online members could return a mailed disc at a store and leave with another film. For the first time, the two systems connected.",
+   "src": null
+  },
+  {
+   "n": 32,
+   "id": "s32",
+   "act": 3,
+   "title": "Subscriber growth",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "Subscribers grew quickly. So did the cost of serving them, and of the promotions that brought them in.",
+   "src": "Form 10-K fiscal 2006; first-quarter 2007 results release"
+  },
+  {
+   "n": 33,
+   "id": "s33",
+   "act": 4,
+   "title": "Growth and losses",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "Growth came with losses. Attracting customers is not the same thing as making each of them profitable.",
+   "src": "Blockbuster first-quarter 2007 results release (May 2007)"
+  },
+  {
+   "n": 34,
+   "id": "s34",
+   "act": 4,
+   "title": "Three business models",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "Retail stores. Discs by mail. Each with its own costs, its own customers, and soon, a third model that needed neither.",
+   "src": null
+  },
+  {
+   "n": 35,
+   "id": "s35",
+   "act": 4,
+   "title": "Instant viewing",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "In January 2007, Netflix announced instant viewing on personal computers, starting with about a thousand titles.",
+   "src": "Netflix announcement, 16 January 2007, and contemporary reports"
+  },
+  {
+   "n": 36,
+   "id": "s36",
+   "act": 4,
+   "title": "Early streaming",
+   "cls": "RECONSTRUCTION",
+   "line": "It was limited at first. But it pointed toward a way of watching that needed neither a store nor an envelope.",
+   "src": "Representative player; not the Netflix interface"
+  },
+  {
+   "n": 37,
+   "id": "s37",
+   "act": 4,
+   "title": "A changing market",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "Discs by mail, retail stores and streaming were now competing for the very same evenings at home.",
+   "src": null
+  },
+  {
+   "n": 38,
+   "id": "s38",
+   "act": 4,
+   "title": "Rising costs",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "Running a transition is expensive, and the cost fell on a business whose core revenue was already under pressure.",
+   "src": null
+  },
+  {
+   "n": 39,
+   "id": "s39",
+   "act": 4,
+   "title": "Financial constraints",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "Debt, liquidity and other long-term obligations left the company with less and less room to maneuver, and less time to adjust.",
+   "src": "Blockbuster press release, Exhibit 99.1 to Form 8-K, 23 September 2010"
+  },
+  {
+   "n": 40,
+   "id": "s40",
+   "act": 4,
+   "title": "The network dims",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "The network that had been the company's greatest strength became harder and harder to sustain.",
+   "src": "Metaphor, not a literal closure sequence"
+  },
+  {
+   "n": 41,
+   "id": "s41",
+   "act": 5,
+   "title": "The bankruptcy filing",
+   "cls": "ARCHIVAL MATERIAL",
+   "line": "On September twenty-third, 2010, Blockbuster filed for Chapter Eleven bankruptcy protection, a decade after the meeting in Dallas.",
+   "src": "Blockbuster Inc., Form 8-K, Item 1.03, 23 September 2010"
+  },
+  {
+   "n": 42,
+   "id": "s42",
+   "act": 5,
+   "title": "A quieter world",
+   "cls": "RECONSTRUCTION",
+   "line": "Some stores continued to operate. But the dominant model of the neighborhood video store had faded.",
+   "src": "Exhibit 99.1, Form 8-K, 23 September 2010"
+  },
+  {
+   "n": 43,
+   "id": "s43",
+   "act": 5,
+   "title": "The meeting returns",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "Which brings us back to the meeting in Dallas. A famous moment, and still a disputed one.",
+   "src": null
+  },
+  {
+   "n": 44,
+   "id": "s44",
+   "act": 5,
+   "title": "What if?",
+   "cls": "HYPOTHETICAL SCENARIO",
+   "line": "Could an earlier deal, different terms, or a partnership have changed the outcome? Possibly. None of these outcomes can be proven.",
+   "src": null
+  },
+  {
+   "n": 45,
+   "id": "s45",
+   "act": 5,
+   "title": "Three converging forces",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "The record points to something more complex: legacy economics, the cost of transition, and financial constraints, arriving together.",
+   "src": "Interpretive synthesis"
+  },
+  {
+   "n": 46,
+   "id": "s46",
+   "act": 5,
+   "title": "The evidence",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "One meeting is part of the evidence. It is not the whole record, and it was never the whole story.",
+   "src": null
+  },
+  {
+   "n": 47,
+   "id": "s47",
+   "act": 5,
+   "title": "The verdict",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "Recognizing change is not the same as surviving it.",
+   "src": null
+  },
+  {
+   "n": 48,
+   "id": "s48",
+   "act": 5,
+   "title": "Brand Coroner",
+   "cls": "EDITORIAL GRAPHIC",
+   "line": "Every decision leaves evidence.",
+   "src": null
+  }
+ ]
+}

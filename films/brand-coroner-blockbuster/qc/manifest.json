@@ -1,0 +1,2232 @@
+[
+ {
+  "shot": 1,
+  "id": "s01",
+  "title": "Dallas, September 2000",
+  "act": 1,
+  "frames": [
+   0,
+   239
+  ],
+  "cls": "RECONSTRUCTION",
+  "src": "Date and place as given in Marc Randolph, That Will Never Work (2019)",
+  "sets": [
+   "dallas"
+  ],
+  "light": "morning",
+  "lens": "28mm",
+  "cam0": {
+   "pos": [
+    -20.4,
+    2.1,
+    -0.8
+   ],
+   "look": [
+    -21.4,
+    1.9,
+    -12
+   ]
+  },
+  "cam1": {
+   "pos": [
+    -20.8,
+    2.2,
+    -3.8
+   ],
+   "look": [
+    -21.4,
+    2.1,
+    -12
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 1.6,
+   "text": "Dallas, Texas. September 2000. A meeting took place in this city that is now retold, again and again, as a business parable."
+  },
+  "transition": "fade in from black"
+ },
+ {
+  "shot": 2,
+  "id": "s02",
+  "title": "Three visitors arrive",
+  "act": 1,
+  "frames": [
+   240,
+   479
+  ],
+  "cls": "RECONSTRUCTION",
+  "src": "Marc Randolph, That Will Never Work (Little, Brown, 2019)",
+  "sets": [
+   "plaza"
+  ],
+  "light": "day",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    -8.85,
+    0.62,
+    -8.6
+   ],
+   "look": [
+    -9,
+    0.9,
+    -17
+   ]
+  },
+  "cam1": {
+   "pos": [
+    -8.85,
+    0.62,
+    -11.4
+   ],
+   "look": [
+    -9,
+    0.9,
+    -17
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 11.65,
+   "text": "According to Marc Randolph, a Netflix co-founder, three Netflix executives came here to meet the leadership of Blockbuster, the largest name in video rental."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 3,
+  "id": "s03",
+  "title": "The meeting room",
+  "act": 1,
+  "frames": [
+   480,
+   719
+  ],
+  "cls": "RECONSTRUCTION",
+  "src": null,
+  "sets": [
+   "board"
+  ],
+  "light": "window",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    -11.4,
+    2.3,
+    0.4
+   ],
+   "look": [
+    -9.9,
+    0.7,
+    -5.6
+   ]
+  },
+  "cam1": {
+   "pos": [
+    -7.4,
+    2.3,
+    0.4
+   ],
+   "look": [
+    -8.1,
+    0.7,
+    -5.6
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 21.44,
+   "text": "We have no transcript of that meeting. The room you are seeing is representative, and the people who were there remember the day differently."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 4,
+  "id": "s04",
+  "title": "The proposal",
+  "act": 1,
+  "frames": [
+   720,
+   959
+  ],
+  "cls": "RECONSTRUCTION",
+  "src": "Marc Randolph, That Will Never Work (2019)",
+  "sets": [
+   "board"
+  ],
+  "light": "window",
+  "lens": "85mm",
+  "cam0": {
+   "pos": [
+    -8.25,
+    1.12,
+    -3.65
+   ],
+   "look": [
+    -8.98,
+    0.82,
+    -4.68
+   ]
+  },
+  "cam1": {
+   "pos": [
+    -8.45,
+    1.02,
+    -3.82
+   ],
+   "look": [
+    -9,
+    0.82,
+    -4.7
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 30.45,
+   "text": "In Randolph's version, Netflix proposed that Blockbuster buy the company, and that the Netflix team run Blockbuster's business online."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 5,
+  "id": "s05",
+  "title": "Randolph's account",
+  "act": 1,
+  "frames": [
+   960,
+   1199
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": "Marc Randolph, That Will Never Work (2019)",
+  "sets": [],
+  "light": "table",
+  "lens": "85mm",
+  "cam0": {
+   "pos": [
+    3,
+    4.9,
+    -2.6
+   ],
+   "look": [
+    3.7,
+    0,
+    -5.95
+   ]
+  },
+  "cam1": {
+   "pos": [
+    3.8,
+    3.9,
+    -3.5
+   ],
+   "look": [
+    3.7,
+    0,
+    -5.9
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 40.45,
+   "text": "Randolph described the meeting in his 2019 memoir. He recalls the price that was named, and a reaction he read as dismissive."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 6,
+  "id": "s06",
+  "title": "Antioco's account",
+  "act": 1,
+  "frames": [
+   1200,
+   1439
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": "John Antioco, LinkedIn post, as reported by Next TV, 3 June 2022",
+  "sets": [],
+  "light": "table",
+  "lens": "85mm",
+  "cam0": {
+   "pos": [
+    7.1,
+    4.9,
+    -2.6
+   ],
+   "look": [
+    6.4,
+    0,
+    -6
+   ]
+  },
+  "cam1": {
+   "pos": [
+    6.5,
+    3.9,
+    -3.5
+   ],
+   "look": [
+    6.4,
+    0,
+    -5.95
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 50.45,
+   "text": "John Antioco, Blockbuster's chief executive at the time, disputes that version. In 2022 he wrote that no serious conversations about buying Netflix took place."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 7,
+  "id": "s07",
+  "title": "The number",
+  "act": 1,
+  "frames": [
+   1440,
+   1679
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": "Reported by Marc Randolph; not a signed or documented offer",
+  "sets": [],
+  "light": "spot",
+  "lens": "50mm",
+  "cam0": {
+   "pos": [
+    3.5,
+    4.2,
+    -10.4
+   ],
+   "look": [
+    5,
+    0,
+    -14.7
+   ]
+  },
+  "cam1": {
+   "pos": [
+    5,
+    6.1,
+    -14
+   ],
+   "look": [
+    5,
+    0,
+    -15.1
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 63.113,
+   "text": "The figure at the center of the story is fifty million dollars. It comes from Randolph's account, and it is where most retellings begin."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 8,
+  "id": "s08",
+  "title": "What really happened?",
+  "act": 1,
+  "frames": [
+   1680,
+   1919
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": null,
+  "sets": [
+   "board",
+   "dallas"
+  ],
+  "light": "table",
+  "lens": "50→35mm",
+  "cam0": {
+   "pos": [
+    5,
+    2.8,
+    -3.9
+   ],
+   "look": [
+    5,
+    0,
+    -6.1
+   ]
+  },
+  "cam1": {
+   "pos": [
+    2,
+    9.5,
+    3.5
+   ],
+   "look": [
+    1,
+    0,
+    -8.5
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 72.028,
+   "text": "Two recollections. One number. And a question that a single meeting, however famous, cannot answer on its own."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 9,
+  "id": "s09",
+  "title": "Friday night",
+  "act": 2,
+  "frames": [
+   1920,
+   2159
+  ],
+  "cls": "RECONSTRUCTION",
+  "src": null,
+  "sets": [
+   "store"
+  ],
+  "light": "night",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    22.8,
+    0.7,
+    -5.2
+   ],
+   "look": [
+    19.4,
+    0.5,
+    -12.2
+   ]
+  },
+  "cam1": {
+   "pos": [
+    20.4,
+    0.62,
+    -6.4
+   ],
+   "look": [
+    18.9,
+    0.55,
+    -12.4
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 80.9,
+   "text": "To understand the decision, start with the business Blockbuster had built, and the Friday nights that built it."
+  },
+  "transition": "cut; act slug"
+ },
+ {
+  "shot": 10,
+  "id": "s10",
+  "title": "Inside the store",
+  "act": 2,
+  "frames": [
+   2160,
+   2399
+  ],
+  "cls": "RECONSTRUCTION",
+  "src": null,
+  "sets": [
+   "store"
+  ],
+  "light": "fluor",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    17.85,
+    0.58,
+    -11.35
+   ],
+   "look": [
+    17.7,
+    0.45,
+    -12.85
+   ]
+  },
+  "cam1": {
+   "pos": [
+    17.85,
+    0.58,
+    -13.2
+   ],
+   "look": [
+    17.7,
+    0.45,
+    -14.7
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 90.45,
+   "text": "Its strength was physical: walls of tapes and discs, new releases in bulk, and stores close to where customers lived."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 11,
+  "id": "s11",
+  "title": "At the counter",
+  "act": 2,
+  "frames": [
+   2400,
+   2639
+  ],
+  "cls": "RECONSTRUCTION",
+  "src": null,
+  "sets": [
+   "store"
+  ],
+  "light": "fluor",
+  "lens": "50mm",
+  "cam0": {
+   "pos": [
+    22.05,
+    0.84,
+    -11
+   ],
+   "look": [
+    21.25,
+    0.5,
+    -11.5
+   ]
+  },
+  "cam1": {
+   "pos": [
+    21.95,
+    0.78,
+    -11.12
+   ],
+   "look": [
+    21.25,
+    0.5,
+    -11.5
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 100.45,
+   "text": "A customer chose a film, showed a membership card, paid at the counter, and promised to bring it back by a due date."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 12,
+  "id": "s12",
+  "title": "An expanding network",
+  "act": 2,
+  "frames": [
+   2640,
+   2879
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": null,
+  "sets": [
+   "plan",
+   "net"
+  ],
+  "light": "table",
+  "lens": "50→35mm",
+  "cam0": {
+   "pos": [
+    23.2,
+    1.2,
+    6.6
+   ],
+   "look": [
+    20,
+    0.3,
+    3
+   ]
+  },
+  "cam1": {
+   "pos": [
+    20,
+    13,
+    27
+   ],
+   "look": [
+    20,
+    1.2,
+    13
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 110.45,
+   "text": "Repeated store by store, city by city, that simple transaction grew into a vast retail network."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 13,
+  "id": "s13",
+  "title": "The scale",
+  "act": 2,
+  "frames": [
+   2880,
+   3119
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": "Blockbuster Inc., Form 10-K for fiscal 2004 (filed March 2005)",
+  "sets": [
+   "net"
+  ],
+  "light": "table",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    19,
+    9.5,
+    26.5
+   ],
+   "look": [
+    20,
+    1,
+    15.2
+   ]
+  },
+  "cam1": {
+   "pos": [
+    21,
+    13,
+    24.5
+   ],
+   "look": [
+    20,
+    1,
+    14.6
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 120.45,
+   "text": "By the end of 2004, the company described a network of roughly nine thousand one hundred stores around the world."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 14,
+  "id": "s14",
+  "title": "The rental model",
+  "act": 2,
+  "frames": [
+   3120,
+   3359
+  ],
+  "cls": "RECONSTRUCTION",
+  "src": "Receipt values are illustrative",
+  "sets": [],
+  "light": "table",
+  "lens": "100mm",
+  "cam0": {
+   "pos": [
+    2.4,
+    2.9,
+    8.8
+   ],
+   "look": [
+    2,
+    0,
+    8.05
+   ]
+  },
+  "cam1": {
+   "pos": [
+    2.4,
+    2.9,
+    10.7
+   ],
+   "look": [
+    2,
+    0,
+    9.85
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 130.45,
+   "text": "Every rental carried a due date, and every late return carried a fee. That small line on a receipt added up."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 15,
+  "id": "s15",
+  "title": "Extended viewing fees",
+  "act": 2,
+  "frames": [
+   3360,
+   3599
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": "Blockbuster Inc., Form 10-K for fiscal 2005 (filed March 2006)",
+  "sets": [],
+  "light": "table",
+  "lens": "50mm",
+  "cam0": {
+   "pos": [
+    5.4,
+    7.4,
+    22.4
+   ],
+   "look": [
+    6.2,
+    1,
+    10.6
+   ]
+  },
+  "cam1": {
+   "pos": [
+    6.4,
+    7,
+    21.4
+   ],
+   "look": [
+    6.4,
+    1,
+    10.6
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 140.45,
+   "text": "The company later reported that those extended viewing fees made up about fourteen percent of its rental revenue in 2004."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 16,
+  "id": "s16",
+  "title": "A heavy business",
+  "act": 2,
+  "frames": [
+   3600,
+   3839
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": null,
+  "sets": [
+   "net"
+  ],
+  "light": "low",
+  "lens": "28mm",
+  "cam0": {
+   "pos": [
+    11.8,
+    2.5,
+    20.8
+   ],
+   "look": [
+    16.8,
+    1.1,
+    16
+   ]
+  },
+  "cam1": {
+   "pos": [
+    22.8,
+    2.4,
+    20.6
+   ],
+   "look": [
+    27,
+    1.1,
+    15.8
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 150.45,
+   "text": "A system this large is powerful. It is also heavy, and heavy systems are slow to change direction when the ground moves."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 17,
+  "id": "s17",
+  "title": "A new approach",
+  "act": 3,
+  "frames": [
+   3840,
+   4079
+  ],
+  "cls": "RECONSTRUCTION",
+  "src": null,
+  "sets": [],
+  "light": "table",
+  "lens": "85mm",
+  "cam0": {
+   "pos": [
+    6.2,
+    3.7,
+    2
+   ],
+   "look": [
+    5.3,
+    0,
+    -1
+   ]
+  },
+  "cam1": {
+   "pos": [
+    5.9,
+    3.2,
+    1.4
+   ],
+   "look": [
+    5.2,
+    0,
+    -1
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 160.9,
+   "text": "Netflix approached the same customer problem from the other side: a disc, a paper envelope, and a mailbox."
+  },
+  "transition": "cut; act slug"
+ },
+ {
+  "shot": 18,
+  "id": "s18",
+  "title": "In the mail",
+  "act": 3,
+  "frames": [
+   4080,
+   4319
+  ],
+  "cls": "RECONSTRUCTION",
+  "src": null,
+  "sets": [
+   "mail"
+  ],
+  "light": "fluor",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    -23.8,
+    0.95,
+    9.3
+   ],
+   "look": [
+    -21.2,
+    0.3,
+    6.4
+   ]
+  },
+  "cam1": {
+   "pos": [
+    -17.4,
+    0.95,
+    9.3
+   ],
+   "look": [
+    -15.8,
+    0.3,
+    6.4
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 170.45,
+   "text": "There was no storefront. Orders moved through distribution centers, sorting lines and the postal system."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 19,
+  "id": "s19",
+  "title": "The subscription loop",
+  "act": 3,
+  "frames": [
+   4320,
+   4559
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": null,
+  "sets": [],
+  "light": "table",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    6,
+    9,
+    12.5
+   ],
+   "look": [
+    6,
+    0,
+    9
+   ]
+  },
+  "cam1": {
+   "pos": [
+    6,
+    8.2,
+    11
+   ],
+   "look": [
+    6,
+    0,
+    9
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 180.45,
+   "text": "Customers paid a monthly subscription, received discs, watched them, and sent them back. In this model there were no late fees."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 20,
+  "id": "s20",
+  "title": "Two operating models",
+  "act": 3,
+  "frames": [
+   4560,
+   4799
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": null,
+  "sets": [
+   "store",
+   "mail"
+  ],
+  "light": "fluor",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    21.6,
+    1.6,
+    -5.8
+   ],
+   "look": [
+    19,
+    0.5,
+    -12.2
+   ]
+  },
+  "cam1": {
+   "pos": [
+    20.6,
+    1.4,
+    -6.2
+   ],
+   "look": [
+    19,
+    0.5,
+    -12.2
+   ]
+  },
+  "dof": false,
+  "split": true,
+  "vo": {
+   "t": 190.45,
+   "text": "Two businesses now served the same evening at home, for the same customers, with very different machinery working behind each of them."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 21,
+  "id": "s21",
+  "title": "Cost structures",
+  "act": 3,
+  "frames": [
+   4800,
+   5039
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": "Conceptual comparison; not an exhaustive cost breakdown",
+  "sets": [],
+  "light": "table",
+  "lens": "50mm",
+  "cam0": {
+   "pos": [
+    6,
+    3.6,
+    18.4
+   ],
+   "look": [
+    6,
+    1.3,
+    9
+   ]
+  },
+  "cam1": {
+   "pos": [
+    6,
+    4.4,
+    17.4
+   ],
+   "look": [
+    6,
+    1.5,
+    9
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 200.45,
+   "text": "One carried rent, inventory and staff across thousands of locations. The other carried postage, fulfillment, and the cost of winning subscribers."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 22,
+  "id": "s22",
+  "title": "A growing online presence",
+  "act": 3,
+  "frames": [
+   5040,
+   5279
+  ],
+  "cls": "RECONSTRUCTION",
+  "src": "Representative interface; not a recreation of any company's website",
+  "sets": [
+   "desk"
+  ],
+  "light": "window",
+  "lens": "50mm",
+  "cam0": {
+   "pos": [
+    -7.5,
+    1.75,
+    9.6
+   ],
+   "look": [
+    -8.2,
+    1.5,
+    7.6
+   ]
+  },
+  "cam1": {
+   "pos": [
+    -7.9,
+    1.62,
+    8.65
+   ],
+   "look": [
+    -8.2,
+    1.55,
+    7.6
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 211.46,
+   "text": "And it lived online, on early web pages and order forms, years before most viewers expected movies to arrive that way."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 23,
+  "id": "s23",
+  "title": "Relative size in 2000",
+  "act": 3,
+  "frames": [
+   5280,
+   5519
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": "Relative scale only; not drawn to a numerical ratio",
+  "sets": [
+   "net"
+  ],
+  "light": "table",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    32.5,
+    1,
+    19.5
+   ],
+   "look": [
+    26.5,
+    1,
+    14.5
+   ]
+  },
+  "cam1": {
+   "pos": [
+    31.5,
+    2.4,
+    21.5
+   ],
+   "look": [
+    24.5,
+    1.2,
+    14.5
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 220.45,
+   "text": "In 2000, the difference in scale was enormous. Blockbuster was by far the larger company, and the more established brand."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 24,
+  "id": "s24",
+  "title": "Was the threat obvious?",
+  "act": 3,
+  "frames": [
+   5520,
+   5759
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": null,
+  "sets": [
+   "board",
+   "dallas",
+   "store",
+   "plan",
+   "net",
+   "mail",
+   "desk"
+  ],
+  "light": "wide",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    5,
+    3,
+    -2.4
+   ],
+   "look": [
+    5,
+    0,
+    -5.7
+   ]
+  },
+  "cam1": {
+   "pos": [
+    5,
+    20,
+    2
+   ],
+   "look": [
+    5,
+    0,
+    -6.5
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 230.45,
+   "text": "So was the threat obvious in 2000? Or does it only look obvious now?"
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 25,
+  "id": "s25",
+  "title": "August 2004",
+  "act": 4,
+  "frames": [
+   5760,
+   5999
+  ],
+  "cls": "ARCHIVAL MATERIAL",
+  "src": "Blockbuster Inc., Form 10-K for fiscal 2004",
+  "sets": [],
+  "light": "table",
+  "lens": "50mm",
+  "cam0": {
+   "pos": [
+    4.5,
+    5.6,
+    -2.4
+   ],
+   "look": [
+    5,
+    0,
+    -6.25
+   ]
+  },
+  "cam1": {
+   "pos": [
+    5.3,
+    3.4,
+    -4
+   ],
+   "look": [
+    5,
+    0,
+    -6.3
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 240.9,
+   "text": "Blockbuster did respond. It moved into online rental, with a service launched in 2004 to compete directly by mail."
+  },
+  "transition": "cut; act slug"
+ },
+ {
+  "shot": 26,
+  "id": "s26",
+  "title": "Two systems",
+  "act": 4,
+  "frames": [
+   6000,
+   6239
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": null,
+  "sets": [
+   "plan"
+  ],
+  "light": "table",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    17.6,
+    4.4,
+    10.6
+   ],
+   "look": [
+    20.4,
+    0.3,
+    3.3
+   ]
+  },
+  "cam1": {
+   "pos": [
+    24,
+    4.2,
+    10
+   ],
+   "look": [
+    22.6,
+    0.3,
+    3.3
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 250.45,
+   "text": "Now it ran two systems side by side: thousands of stores, and a growing operation built around the mailbox."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 27,
+  "id": "s27",
+  "title": "No late fees",
+  "act": 4,
+  "frames": [
+   6240,
+   6479
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": "Blockbuster Inc., Form 10-K for fiscal 2004",
+  "sets": [],
+  "light": "table",
+  "lens": "85mm",
+  "cam0": {
+   "pos": [
+    4,
+    7.6,
+    -0.6
+   ],
+   "look": [
+    4.9,
+    0,
+    -6.1
+   ]
+  },
+  "cam1": {
+   "pos": [
+    5.7,
+    6.9,
+    -1.2
+   ],
+   "look": [
+    5.2,
+    0,
+    -6.1
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 260.45,
+   "text": "In January 2005, it made a major change. It stopped charging late fees at its company-operated stores in the United States."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 28,
+  "id": "s28",
+  "title": "The financial impact",
+  "act": 4,
+  "frames": [
+   6480,
+   6719
+  ],
+  "cls": "ARCHIVAL MATERIAL",
+  "src": "Blockbuster Inc., Form 10-K for fiscal 2005",
+  "sets": [],
+  "light": "table",
+  "lens": "85mm",
+  "cam0": {
+   "pos": [
+    3.9,
+    4.6,
+    -3.4
+   ],
+   "look": [
+    4.5,
+    0,
+    -6.25
+   ]
+  },
+  "cam1": {
+   "pos": [
+    6,
+    4.4,
+    -3.5
+   ],
+   "look": [
+    5.5,
+    0,
+    -6.25
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 270.45,
+   "text": "The company's annual report for 2005 describes the financial impact of that decision, line by line."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 29,
+  "id": "s29",
+  "title": "Costs and consequences",
+  "act": 4,
+  "frames": [
+   6720,
+   6959
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": "Blockbuster Inc., Form 10-K for fiscal 2005, Risk Factors",
+  "sets": [],
+  "light": "table",
+  "lens": "50mm",
+  "cam0": {
+   "pos": [
+    6,
+    7.2,
+    20.5
+   ],
+   "look": [
+    6,
+    0.8,
+    10.4
+   ]
+  },
+  "cam1": {
+   "pos": [
+    6,
+    6.8,
+    19.6
+   ],
+   "look": [
+    6,
+    0.8,
+    10.4
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 280.45,
+   "text": "The company reported that the program reduced rental revenues by more than five hundred million dollars, and cost about sixty million to market and implement."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 30,
+  "id": "s30",
+  "title": "Total Access",
+  "act": 4,
+  "frames": [
+   6960,
+   7199
+  ],
+  "cls": "ARCHIVAL MATERIAL",
+  "src": "Blockbuster Inc., Form 10-K for fiscal 2006",
+  "sets": [],
+  "light": "table",
+  "lens": "50mm",
+  "cam0": {
+   "pos": [
+    4.5,
+    5.6,
+    -2.4
+   ],
+   "look": [
+    5,
+    0,
+    -6.25
+   ]
+  },
+  "cam1": {
+   "pos": [
+    5.3,
+    3.4,
+    -4
+   ],
+   "look": [
+    5,
+    0,
+    -6.3
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 290.752,
+   "text": "In November 2006, Blockbuster introduced Total Access, its most direct answer yet to the mail-order challenge."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 31,
+  "id": "s31",
+  "title": "Connecting the systems",
+  "act": 4,
+  "frames": [
+   7200,
+   7439
+  ],
+  "cls": "RECONSTRUCTION",
+  "src": null,
+  "sets": [
+   "store"
+  ],
+  "light": "fluor",
+  "lens": "50mm",
+  "cam0": {
+   "pos": [
+    22.05,
+    0.84,
+    -11
+   ],
+   "look": [
+    21.25,
+    0.5,
+    -11.5
+   ]
+  },
+  "cam1": {
+   "pos": [
+    21.95,
+    0.78,
+    -11.12
+   ],
+   "look": [
+    21.25,
+    0.5,
+    -11.5
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 300.45,
+   "text": "Online members could return a mailed disc at a store and leave with another film. For the first time, the two systems connected."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 32,
+  "id": "s32",
+  "title": "Subscriber growth",
+  "act": 4,
+  "frames": [
+   7440,
+   7679
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": "Form 10-K fiscal 2006; first-quarter 2007 results release",
+  "sets": [],
+  "light": "table",
+  "lens": "50mm",
+  "cam0": {
+   "pos": [
+    5.6,
+    6.6,
+    20
+   ],
+   "look": [
+    5.4,
+    0.9,
+    9.6
+   ]
+  },
+  "cam1": {
+   "pos": [
+    6.2,
+    6.4,
+    19.2
+   ],
+   "look": [
+    5.6,
+    0.9,
+    9.6
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 310.45,
+   "text": "Subscribers grew quickly. So did the cost of serving them, and of the promotions that brought them in."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 33,
+  "id": "s33",
+  "title": "Growth and losses",
+  "act": 5,
+  "frames": [
+   7680,
+   7919
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": "Blockbuster first-quarter 2007 results release (May 2007)",
+  "sets": [],
+  "light": "table",
+  "lens": "50mm",
+  "cam0": {
+   "pos": [
+    6,
+    6.6,
+    20.2
+   ],
+   "look": [
+    6,
+    0.7,
+    10
+   ]
+  },
+  "cam1": {
+   "pos": [
+    6,
+    6.2,
+    19.4
+   ],
+   "look": [
+    6,
+    0.6,
+    10
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 320.9,
+   "text": "Growth came with losses. Attracting customers is not the same thing as making each of them profitable."
+  },
+  "transition": "cut; act slug"
+ },
+ {
+  "shot": 34,
+  "id": "s34",
+  "title": "Three business models",
+  "act": 5,
+  "frames": [
+   7920,
+   8159
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": null,
+  "sets": [],
+  "light": "table",
+  "lens": "50mm",
+  "cam0": {
+   "pos": [
+    7.6,
+    8,
+    19.2
+   ],
+   "look": [
+    7.4,
+    0.2,
+    10
+   ]
+  },
+  "cam1": {
+   "pos": [
+    7.9,
+    7.4,
+    18.4
+   ],
+   "look": [
+    7.6,
+    0.2,
+    10
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 330.45,
+   "text": "Retail stores. Discs by mail. Each with its own costs, its own customers, and soon, a third model that needed neither."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 35,
+  "id": "s35",
+  "title": "Instant viewing",
+  "act": 5,
+  "frames": [
+   8160,
+   8399
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": "Netflix announcement, 16 January 2007, and contemporary reports",
+  "sets": [],
+  "light": "table",
+  "lens": "85mm",
+  "cam0": {
+   "pos": [
+    4.2,
+    5.6,
+    -2
+   ],
+   "look": [
+    4.9,
+    0,
+    -6
+   ]
+  },
+  "cam1": {
+   "pos": [
+    5.5,
+    5,
+    -2.6
+   ],
+   "look": [
+    5.1,
+    0,
+    -6
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 340.45,
+   "text": "In January 2007, Netflix announced instant viewing on personal computers, starting with about a thousand titles."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 36,
+  "id": "s36",
+  "title": "Early streaming",
+  "act": 5,
+  "frames": [
+   8400,
+   8639
+  ],
+  "cls": "RECONSTRUCTION",
+  "src": "Representative player; not the Netflix interface",
+  "sets": [
+   "desk"
+  ],
+  "light": "window",
+  "lens": "50mm",
+  "cam0": {
+   "pos": [
+    -5.4,
+    1.9,
+    9.9
+   ],
+   "look": [
+    -8.3,
+    1.25,
+    7.8
+   ]
+  },
+  "cam1": {
+   "pos": [
+    -5.8,
+    1.85,
+    9.5
+   ],
+   "look": [
+    -8.3,
+    1.3,
+    7.75
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 350.45,
+   "text": "It was limited at first. But it pointed toward a way of watching that needed neither a store nor an envelope."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 37,
+  "id": "s37",
+  "title": "A changing market",
+  "act": 5,
+  "frames": [
+   8640,
+   8879
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": null,
+  "sets": [],
+  "light": "table",
+  "lens": "50mm",
+  "cam0": {
+   "pos": [
+    4,
+    8.6,
+    20.4
+   ],
+   "look": [
+    5,
+    0.2,
+    9.4
+   ]
+  },
+  "cam1": {
+   "pos": [
+    8,
+    8.6,
+    20.4
+   ],
+   "look": [
+    7,
+    0.2,
+    9.4
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 360.45,
+   "text": "Discs by mail, retail stores and streaming were now competing for the very same evenings at home."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 38,
+  "id": "s38",
+  "title": "Rising costs",
+  "act": 5,
+  "frames": [
+   8880,
+   9119
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": null,
+  "sets": [
+   "net"
+  ],
+  "light": "table",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    18,
+    7.5,
+    22.5
+   ],
+   "look": [
+    20,
+    1.2,
+    13
+   ]
+  },
+  "cam1": {
+   "pos": [
+    21,
+    6.5,
+    21
+   ],
+   "look": [
+    20,
+    1.2,
+    13
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 370.45,
+   "text": "Running a transition is expensive, and the cost fell on a business whose core revenue was already under pressure."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 39,
+  "id": "s39",
+  "title": "Financial constraints",
+  "act": 5,
+  "frames": [
+   9120,
+   9359
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": "Blockbuster press release, Exhibit 99.1 to Form 8-K, 23 September 2010",
+  "sets": [
+   "net"
+  ],
+  "light": "table",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    14,
+    4.4,
+    23.5
+   ],
+   "look": [
+    18,
+    1.8,
+    13
+   ]
+  },
+  "cam1": {
+   "pos": [
+    15.4,
+    3.8,
+    22.2
+   ],
+   "look": [
+    18,
+    1.6,
+    13
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 380.45,
+   "text": "Debt, liquidity and other long-term obligations left the company with less and less room to maneuver, and less time to adjust."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 40,
+  "id": "s40",
+  "title": "The network dims",
+  "act": 5,
+  "frames": [
+   9360,
+   9599
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": "Metaphor, not a literal closure sequence",
+  "sets": [
+   "net"
+  ],
+  "light": "dusk",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    20,
+    8.5,
+    23.5
+   ],
+   "look": [
+    20,
+    1.2,
+    13
+   ]
+  },
+  "cam1": {
+   "pos": [
+    20,
+    10.5,
+    22
+   ],
+   "look": [
+    20,
+    1.2,
+    13
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 390.45,
+   "text": "The network that had been the company's greatest strength became harder and harder to sustain."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 41,
+  "id": "s41",
+  "title": "The bankruptcy filing",
+  "act": 6,
+  "frames": [
+   9600,
+   9839
+  ],
+  "cls": "ARCHIVAL MATERIAL",
+  "src": "Blockbuster Inc., Form 8-K, Item 1.03, 23 September 2010",
+  "sets": [],
+  "light": "table",
+  "lens": "50mm",
+  "cam0": {
+   "pos": [
+    4.6,
+    6.2,
+    -2.2
+   ],
+   "look": [
+    5,
+    0,
+    -6.3
+   ]
+  },
+  "cam1": {
+   "pos": [
+    5.2,
+    3.6,
+    -3.9
+   ],
+   "look": [
+    5,
+    0,
+    -6.3
+   ]
+  },
+  "dof": true,
+  "split": false,
+  "vo": {
+   "t": 400.9,
+   "text": "On September twenty-third, 2010, Blockbuster filed for Chapter Eleven bankruptcy protection, a decade after the meeting in Dallas."
+  },
+  "transition": "cut; act slug"
+ },
+ {
+  "shot": 42,
+  "id": "s42",
+  "title": "A quieter world",
+  "act": 6,
+  "frames": [
+   9840,
+   10079
+  ],
+  "cls": "RECONSTRUCTION",
+  "src": "Exhibit 99.1, Form 8-K, 23 September 2010",
+  "sets": [
+   "store"
+  ],
+  "light": "empty",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    16.6,
+    0.56,
+    -11.1
+   ],
+   "look": [
+    19.2,
+    0.45,
+    -12.9
+   ]
+  },
+  "cam1": {
+   "pos": [
+    16.6,
+    0.56,
+    -11.1
+   ],
+   "look": [
+    19.2,
+    0.45,
+    -12.9
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 410.45,
+   "text": "Some stores continued to operate. But the dominant model of the neighborhood video store had faded."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 43,
+  "id": "s43",
+  "title": "The meeting returns",
+  "act": 6,
+  "frames": [
+   10080,
+   10319
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": null,
+  "sets": [
+   "board"
+  ],
+  "light": "table",
+  "lens": "35→50mm",
+  "cam0": {
+   "pos": [
+    -9,
+    3.4,
+    1.2
+   ],
+   "look": [
+    -9,
+    0.7,
+    -5
+   ]
+  },
+  "cam1": {
+   "pos": [
+    5,
+    3.2,
+    -2.5
+   ],
+   "look": [
+    5,
+    0,
+    -6.3
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 420.45,
+   "text": "Which brings us back to the meeting in Dallas. A famous moment, and still a disputed one."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 44,
+  "id": "s44",
+  "title": "What if?",
+  "act": 6,
+  "frames": [
+   10320,
+   10559
+  ],
+  "cls": "HYPOTHETICAL SCENARIO",
+  "src": null,
+  "sets": [],
+  "light": "spot",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    3.8,
+    9.6,
+    -8
+   ],
+   "look": [
+    4.6,
+    0,
+    -14.8
+   ]
+  },
+  "cam1": {
+   "pos": [
+    5,
+    9.2,
+    -9
+   ],
+   "look": [
+    5,
+    0,
+    -14.9
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 430.45,
+   "text": "Could an earlier deal, different terms, or a partnership have changed the outcome? Possibly. None of these outcomes can be proven."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 45,
+  "id": "s45",
+  "title": "Three converging forces",
+  "act": 6,
+  "frames": [
+   10560,
+   10799
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": "Interpretive synthesis",
+  "sets": [],
+  "light": "table",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    6,
+    6.5,
+    16.5
+   ],
+   "look": [
+    6,
+    0.4,
+    9
+   ]
+  },
+  "cam1": {
+   "pos": [
+    6,
+    5.5,
+    15.2
+   ],
+   "look": [
+    6,
+    0.4,
+    9
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 440.45,
+   "text": "The record points to something more complex: legacy economics, the cost of transition, and financial constraints, arriving together."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 46,
+  "id": "s46",
+  "title": "The evidence",
+  "act": 6,
+  "frames": [
+   10800,
+   11039
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": null,
+  "sets": [
+   "dallas",
+   "plaza",
+   "board",
+   "store",
+   "plan",
+   "net",
+   "mail",
+   "desk"
+  ],
+  "light": "wide",
+  "lens": "35mm",
+  "cam0": {
+   "pos": [
+    2,
+    14,
+    22
+   ],
+   "look": [
+    0,
+    0,
+    -1
+   ]
+  },
+  "cam1": {
+   "pos": [
+    0,
+    46,
+    14
+   ],
+   "look": [
+    0,
+    0,
+    -1
+   ]
+  },
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 450.45,
+   "text": "One meeting is part of the evidence. It is not the whole record, and it was never the whole story."
+  },
+  "transition": "cut"
+ },
+ {
+  "shot": 47,
+  "id": "s47",
+  "title": "The verdict",
+  "act": 6,
+  "frames": [
+   11040,
+   11279
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": null,
+  "sets": [],
+  "light": "black",
+  "lens": "n/a",
+  "cam0": null,
+  "cam1": null,
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 462.2,
+   "text": "Recognizing change is not the same as surviving it."
+  },
+  "transition": "evidence fades to black"
+ },
+ {
+  "shot": 48,
+  "id": "s48",
+  "title": "Brand Coroner",
+  "act": 6,
+  "frames": [
+   11280,
+   11519
+  ],
+  "cls": "EDITORIAL GRAPHIC",
+  "src": null,
+  "sets": [],
+  "light": "black",
+  "lens": "n/a",
+  "cam0": null,
+  "cam1": null,
+  "dof": false,
+  "split": false,
+  "vo": {
+   "t": 473.6,
+   "text": "Every decision leaves evidence."
+  },
+  "transition": "fade to black"
+ }
+]
