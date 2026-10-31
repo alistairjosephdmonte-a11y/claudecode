@@ -51,14 +51,21 @@ function washBands(LW, c, times) {
 }
 const PROC = [['pharaoh', { armR: [56, -270], armL: [-56, -270] }], ['philosopher', { expr: 'happy' }], ['senator', { armR: [56, -270] }], ['knight', {}], ['inventor', { beardLen: 0.05 }], ['gentleman', {}], ['salesman', {}], ['astronaut', {}], ['gerald', { expr: 'happy' }]];
 export default {
-  cam: c => camOf(c, [[0, [720, 540, 1]], [c.at(3, -0.3), [720, 540, 1]], [c.at(3, 0.6), [980, 700, 1.35]], [c.at(4, -0.8), [980, 700, 1.35]], [c.at(4, 0.2), [720, 540, 1]], [30, [720, 540, 1]]]),
+  cam: c => camOf(c, [[0, [720, 540, 1]], [c.at(3, -0.3), [720, 540, 1]], [c.at(3, 0.6), [900, 600, 1.12]], [c.at(4, -0.8), [900, 600, 1.12]], [c.at(4, 0.2), [720, 540, 1]], [30, [720, 540, 1]]]),
   draw(S, c) {
     // the slogan, in white wax, on the page from the very first frame of the chapter
     say(S.BG.l, SLOGAN, 720, 190, { size: 92, font: 'Gaegu', weight: 700, col: K.white, p: 0.9, seed: 2400, stroke: 1.5 });
     // the product (approved packshot) draws into view in beat 2
     const pd = c.p(c.at(1, -0.4), c.at(1, 1.6));
     let image = false;
-    if (pd > 0) { if (PACK) { reveal(S.IMG, PACK, PS, pd, 3); image = true; } else placeholder(S, PS, 'approved Lawn Mower packshot', pd, 2410); }
+    if (pd > 0) { if (PACK) {   // the supplied photo, pasted into the book as a print with two strips of tape
+        const b = PS.w / 2 + 16, d2 = clamp(pd * 2);
+        part(S.G, [[PS.x - b, PS.y - b], [PS.x + b, PS.y - b], [PS.x + b, PS.y + b], [PS.x - b, PS.y + b]], F(K.white, 2420, { draw: d2, p: 0.95 }), L(2421, { w: 4, draw: d2 }));
+        reveal(S.IMG, PACK, PS, pd, 3); image = true;
+        if (pd >= 1) [[-1, 2430], [1, 2440]].forEach(([sx, sd]) => { const cx = PS.x + sx * (b - 10), cy = PS.y + b - 4, a = -sx * 0.6;
+          const q = [[-56, -16], [56, -16], [56, 16], [-56, 16]].map(([u, v]) => [cx + u * Math.cos(a) - v * Math.sin(a), cy + u * Math.sin(a) + v * Math.cos(a)]);
+          fill(S.FX, q, F(K.yellow, sd, { p: 0.55 })); line(S.FX, [...q, q[0]], L(sd + 1, { w: 2.5, col: K.ochre })); }); }
+      else placeholder(S, PS, 'approved Lawn Mower packshot', pd, 2410); }
     // the procession of the ages, left to right, rejoicing
     if (c.tq > c.at(2, -0.6)) { const u = c.p(c.at(2, -0.6), c.at(3, 0.4));
       PROC.forEach(([who, o], i) => { const x = -150 - i * 150 + 3000 * u; if (x < -120 || x > 1560) return;

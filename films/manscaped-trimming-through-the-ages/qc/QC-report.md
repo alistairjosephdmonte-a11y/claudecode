@@ -23,7 +23,7 @@ Delivered file: `trimming-through-the-ages-4x3.mp4` is a 94 MB two-pass H.264 en
 
 ## Open items (need a decision or client input)
 
-1. **Brand assets not supplied.** The packshot and wordmark slots in ch. 10 show labelled dashed crayon placeholders. Drop the approved `packshot.png` and `wordmark.png` into `assets/brand/` and re-render chapter 10 only (see `assets/brand/README.md`). Nothing brand-related is drawn or lettered by hand.
+1. **Brand assets: supplied and composited (resolved).** Chapter 10 now uses the client's Lawn Mower Gen 6 photo, shown whole as a taped-in print because it is a lifestyle shot with its own background, and the supplied MANSCAPED™ wordmark, with its white background keyed out. The chapter 10 squirrel zoom was softened to a gentle push-in so the photo stays clear of the chapter title. Only chapter 10 was re-rendered and spliced; the master is still 7200 frames at −14.2 LUFS (see `qc/end-card-check.jpg`). Nothing brand-related is drawn or lettered by hand.
 2. **The white-wax slogan is faintly visible before the wash.** This is physically honest (real wax resist catches the light) but it slightly pre-empts the reveal. It can be made fully invisible if preferred.
 3. **Supporting characters added beyond the brief:** butler, squire, blacksmith, senate clerk, mission controller, and two background philosophers. They are generic, invented and modest.
 4. **Copy halo.** Where the copy sits over busy floors, the paper is cleared softly around the letters. Please confirm that this reads as "printed on the page" and not as a subtitle.
