@@ -18,6 +18,8 @@ As the project grows, the expected structure is:
 claudecode/
 ├── CLAUDE.md              # This file — AI assistant guidance
 ├── README.md              # Human-facing project overview
+├── .claude/
+│   └── skills/            # Project-scoped Claude Code skills (see below)
 ├── .github/
 │   ├── workflows/         # CI/CD pipelines (GitHub Actions)
 │   └── ISSUE_TEMPLATE/    # Standardized issue templates
@@ -28,6 +30,15 @@ claudecode/
 ```
 
 Update this section once the actual structure is established.
+
+### Claude Code Skills (`.claude/skills/`)
+
+`.claude/skills/` holds a vendored copy of [awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) (Apache-2.0; `LICENSE` and `NOTICE` are kept alongside): a `router` skill plus 77 game-development skills covering engines (Godot, Unity, Unreal, Ebitengine, Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Defold, Roblox), disciplines, genres, and shipping workflows.
+
+- Skills are stored flat: each `<skill-name>/SKILL.md` folder is one skill, and the folder name must match the `name:` in its frontmatter.
+- For game-dev requests, start with the `router` skill — it detects the engine and loads the minimal set of skills.
+- Skills load at session start; a new session is needed to pick up added or changed skills.
+- Treat these as third-party files: don't edit them in place for unrelated tasks. To update, replace the folders from a newer upstream release.
 
 ---
 
