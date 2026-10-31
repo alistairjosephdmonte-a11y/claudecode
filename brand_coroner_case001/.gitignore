@@ -1,0 +1,7 @@
+renders/previews/animatic_frames/
+renders/previews/_*.png
+renders/previews/animatic_render.log
+renders/previews/animatic_time.txt
+*.blend1
+__pycache__/
+metadata/figure_feet_log.json

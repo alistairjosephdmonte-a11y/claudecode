@@ -1,0 +1,124 @@
+{
+  "rule": "status 'pending' = must be replaced/approved before final; nothing pending is presented as authentic",
+  "assets": [
+    {
+      "id": "AST_FONT_INTER",
+      "type": "font",
+      "path": "assets/fonts_reference_only/Inter-*.otf",
+      "status": "verified_license",
+      "note": "SIL OFL 1.1 (license copied)"
+    },
+    {
+      "id": "AST_LOC_BOARDROOM",
+      "type": "environment",
+      "path": "scenes/BC001_LOC_BOARDROOM.blend",
+      "status": "internal_generated",
+      "note": "Representative, not a specific room"
+    },
+    {
+      "id": "AST_LOC_STORE",
+      "type": "environment",
+      "path": "scenes/BC001_LOC_STORE.blend",
+      "status": "internal_generated",
+      "note": "Representative store, full/reduced inventory variants"
+    },
+    {
+      "id": "AST_LOC_WAREHOUSE",
+      "type": "environment",
+      "path": "scenes/BC001_LOC_WAREHOUSE.blend",
+      "status": "internal_generated",
+      "note": "Representative fulfilment facility"
+    },
+    {
+      "id": "AST_LOC_ARCHIVE",
+      "type": "environment",
+      "path": "scenes/BC001_LOC_ARCHIVE.blend",
+      "status": "internal_generated",
+      "note": "Investigative light table"
+    },
+    {
+      "id": "AST_DALLAS_MASSING",
+      "type": "environment",
+      "path": "scenes/BC001_MASTER.blend#SET_ENV_01_DALLAS",
+      "status": "internal_generated",
+      "note": "Stylised massing; no identifiable buildings"
+    },
+    {
+      "id": "AST_DALLAS_OBS_TOWER_PROXY",
+      "type": "reference_geometry",
+      "path": "DAL_ObservationTower_Proxy_REF_PENDING",
+      "status": "pending",
+      "note": "Replace with verified reference geometry"
+    },
+    {
+      "id": "AST_BRAND_BLOCKBUSTER_SIGNAGE",
+      "type": "brand",
+      "path": "ST_Fascia_Panel_Blank",
+      "status": "pending",
+      "note": "Blank panel until an approved brand reference is supplied"
+    },
+    {
+      "id": "AST_BRAND_NETFLIX_MAILER",
+      "type": "brand",
+      "path": "PROP_S17/S18 envelopes",
+      "status": "pending",
+      "note": "Plain editorial red; no logo until approved reference"
+    },
+    {
+      "id": "AST_BRAND_TOTAL_ACCESS_MAILER",
+      "type": "brand",
+      "path": "PROP_S31_Mailer_EditorialBlue",
+      "status": "pending",
+      "note": "Plain editorial blue"
+    },
+    {
+      "id": "AST_LIKENESS_RANDOLPH",
+      "type": "likeness",
+      "path": "S05/S08/S46 source cards",
+      "status": "pending",
+      "note": "Authenticated photo required; slot labelled"
+    },
+    {
+      "id": "AST_LIKENESS_ANTIOCO",
+      "type": "likeness",
+      "path": "S06/S08/S46 source cards",
+      "status": "pending",
+      "note": "Authenticated photo required; slot labelled"
+    },
+    {
+      "id": "AST_DOC_10K_FY2005",
+      "type": "document_scan",
+      "path": "assets/documents/",
+      "status": "pending",
+      "note": "Import verified SEC scan for S28 (placeholder bars only)"
+    },
+    {
+      "id": "AST_DOC_CH11_PETITION",
+      "type": "document_scan",
+      "path": "assets/documents/",
+      "status": "pending",
+      "note": "Import court petition or 8-K for S41"
+    },
+    {
+      "id": "AST_AUDIO_NARRATION",
+      "type": "audio",
+      "path": "audio/narration/",
+      "status": "pending",
+      "note": "Record from BC001_narration_script.md; SRT holds timing"
+    },
+    {
+      "id": "AST_AUDIO_SCORE",
+      "type": "audio",
+      "path": "audio/music/",
+      "status": "pending",
+      "note": "Original score to be composed and cleared"
+    },
+    {
+      "id": "AST_AUDIO_SFX",
+      "type": "audio",
+      "path": "audio/sfx/",
+      "status": "pending",
+      "note": "Licensed or recorded effects per audio_cue_manifest.json"
+    }
+  ]
+}

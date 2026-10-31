@@ -1,0 +1,140 @@
+{
+  "rule": "A figure renders as final only when its source status is verified_primary or verified_secondary; otherwise graphics carry a PENDING tag.",
+  "sources": [
+    {
+      "id": "SRC_RANDOLPH_2019",
+      "type": "book",
+      "citation": "Marc Randolph, That Will Never Work (Little, Brown, 2019)",
+      "url": "",
+      "status": "verified_publication",
+      "use": "Randolph's recollection of the September 2000 Dallas meeting, the $50 million figure and the reaction he describes.",
+      "note": "One participant's memoir. Recollection, not a transcript."
+    },
+    {
+      "id": "SRC_INC_2019_EXCERPT",
+      "type": "press",
+      "citation": "Inc., excerpt of That Will Never Work (2019), archived copy",
+      "url": "https://gwern.net/docs/www/www.inc.com/9f8939c6b25070c4677db37b5c9ebda5787814aa.html",
+      "status": "verified_secondary",
+      "use": "Confirms the excerpt places the meeting at Blockbuster headquarters in Dallas.",
+      "note": "Secondary reproduction of the memoir."
+    },
+    {
+      "id": "SRC_ANTIOCO_DISPUTE",
+      "type": "pending",
+      "citation": "Accounts attributed to John Antioco disputing details of the meeting",
+      "url": "",
+      "status": "pending_primary_source",
+      "use": "The film's second account. Only secondary, biography-style summaries were found during research.",
+      "note": "BLOCKER for final graphics: obtain a primary interview or statement before rendering S06 as final."
+    },
+    {
+      "id": "SRC_BBI_10K_FY2004",
+      "type": "filing",
+      "citation": "Blockbuster Inc., Form 10-K for fiscal 2004 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1085734/000119312505063510/d10k.htm",
+      "status": "verified_primary",
+      "use": "Late fees ('extended viewing fees') ended January 1, 2005 at more than 4,500 company-operated U.S. stores.",
+      "note": "Also the expected location of the year-end 2004 store count (see SRC_STORES_2004)."
+    },
+    {
+      "id": "SRC_BBI_10K_FY2005",
+      "type": "filing",
+      "citation": "Blockbuster Inc., Form 10-K for fiscal 2005 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001085734/000119312506055023/d10k.htm",
+      "status": "verified_primary",
+      "use": "Eliminated fees were about 14% of 2004 rental revenues; about $60 million in initial marketing and implementation costs in Q1-Q2 2005; rental revenues fell 5.0% from 2004.",
+      "note": "Primary source for S15, S28, S29."
+    },
+    {
+      "id": "SRC_STORES_2004",
+      "type": "pending",
+      "citation": "Approximately 9,100 stores worldwide at year-end 2004 (brief figure)",
+      "url": "",
+      "status": "pending_primary_check",
+      "use": "S13 store count.",
+      "note": "Not found in research. Confirm in the FY2004 10-K (Item 1/Item 2) before rendering final."
+    },
+    {
+      "id": "SRC_EVF_2004",
+      "type": "pending",
+      "citation": "Approximately $622.4 million extended viewing fee revenue in 2004 (brief figure)",
+      "url": "",
+      "status": "pending_primary_check",
+      "use": "S15 dollar value.",
+      "note": "Not found in research. The FY2004 10-K projected $400-450 million for 2005 instead. Confirm before final."
+    },
+    {
+      "id": "SRC_RENTAL_REDUCTION_2005",
+      "type": "pending",
+      "citation": "More than $500 million reduction in 2005 rental revenue (brief figure)",
+      "url": "",
+      "status": "pending_primary_check",
+      "use": "S29.",
+      "note": "Not supported by research: the FY2005 10-K reports rental revenues down 5.0%. Reconcile before final; never present as profit loss."
+    },
+    {
+      "id": "SRC_BB_ONLINE_2004",
+      "type": "pending",
+      "citation": "Blockbuster Online launch, August 2004 (brief figure)",
+      "url": "",
+      "status": "pending_primary_check",
+      "use": "S25 launch date.",
+      "note": "Launch year 2004 widely reported; the month was not confirmed."
+    },
+    {
+      "id": "SRC_TOTAL_ACCESS_2006",
+      "type": "press",
+      "citation": "Blockbuster Total Access launched November 1, 2006 (press coverage)",
+      "url": "https://archives-new.honoluluadvertiser.com/article/2006/Nov/02/bz/FP611020318.html",
+      "status": "verified_secondary",
+      "use": "S30-S31: launch date and in-store returns of mailed discs.",
+      "note": "Import the original Blockbuster press release for final."
+    },
+    {
+      "id": "SRC_TA_SUBSCRIBERS",
+      "type": "pending",
+      "citation": "Total Access subscriber counts (storyboard: 2.2M 2006, 3M+ Apr 2007)",
+      "url": "",
+      "status": "pending_primary_check",
+      "use": "S32 bars.",
+      "note": "Research found 'more than 2 million' reported in early 2007 (Hollywood Reporter). Exact values unconfirmed."
+    },
+    {
+      "id": "SRC_NFLX_INSTANT_2007",
+      "type": "press_release",
+      "citation": "Netflix press release, January 16, 2007: instant viewing on PCs",
+      "url": "https://about.netflix.com/en/news/netflix-offers-subscribers-the-option-of-instantly-watching-movies-on-their",
+      "status": "verified_primary",
+      "use": "S35: announced January 2007, initially about 1,000 titles, Windows PCs.",
+      "note": ""
+    },
+    {
+      "id": "SRC_BBI_CH11_2010",
+      "type": "press",
+      "citation": "Blockbuster Chapter 11 filing, September 23, 2010 (Bloomberg; TechCrunch)",
+      "url": "https://www.bloomberg.com/news/2010-09-23/blockbuster-video-rental-chain-files-for-bankruptcy-protection.html",
+      "status": "verified_secondary",
+      "use": "S41 filing date; stores and online service continued operating during the case (S42).",
+      "note": "Import the court petition or Form 8-K scan for the document graphic; none is rendered until imported."
+    },
+    {
+      "id": "SRC_SCALE_2000",
+      "type": "pending",
+      "citation": "Relative size of Blockbuster and Netflix in 2000",
+      "url": "",
+      "status": "pending_primary_check",
+      "use": "S23 qualitative comparison.",
+      "note": "Use FY2000 filings (revenue, stores, subscribers) before showing any numbers. Shown only as not-to-scale blocks."
+    },
+    {
+      "id": "SRC_NFLX_NO_LATE_FEES",
+      "type": "pending",
+      "citation": "Netflix subscription without late fees (circa 1999-2000)",
+      "url": "",
+      "status": "pending_primary_check",
+      "use": "S19 narration line.",
+      "note": "Widely reported; import a primary Netflix source."
+    }
+  ]
+}

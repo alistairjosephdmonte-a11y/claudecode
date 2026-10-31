@@ -1,0 +1,202 @@
+[
+  {
+    "id": "AMB_DALLAS_DUSK",
+    "shot": "S01",
+    "offset_s": 0.0,
+    "duration_s": 20.0,
+    "category": "ambience",
+    "description": "Distant downtown traffic, light wind, no identifiable signage audio",
+    "timeline_s": 0.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "SFX_FOOTSTEPS_PLAZA",
+    "shot": "S02",
+    "offset_s": 1.0,
+    "duration_s": 8.0,
+    "category": "sfx",
+    "description": "Three sets of leather-soled steps on stone, then glass door",
+    "timeline_s": 11.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "AMB_ROOM_TONE_BOARDROOM",
+    "shot": "S03",
+    "offset_s": 0.0,
+    "duration_s": 20.0,
+    "category": "ambience",
+    "description": "HVAC room tone, muted",
+    "timeline_s": 20.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "SFX_FOLDER_CONTACT",
+    "shot": "S04",
+    "offset_s": 6.0,
+    "duration_s": 1.0,
+    "category": "sfx",
+    "description": "Plain card folder set down on wood",
+    "timeline_s": 36.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "MUS_MOTIF_EVIDENCE",
+    "shot": "S05",
+    "offset_s": 0.0,
+    "duration_s": 40.0,
+    "category": "music",
+    "description": "Original motif A: low piano + bowed bass (cleared original score)",
+    "timeline_s": 40.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "SFX_PAPER_SLIDE",
+    "shot": "S08",
+    "offset_s": 2.0,
+    "duration_s": 2.0,
+    "category": "sfx",
+    "description": "Two cards sliding on the light table",
+    "timeline_s": 72.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "AMB_RETAIL_STORE",
+    "shot": "S09",
+    "offset_s": 0.0,
+    "duration_s": 30.0,
+    "category": "ambience",
+    "description": "Busy store murmur, period-neutral (no copyrighted music bed)",
+    "timeline_s": 80.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "SFX_VHS_DVD_HANDLING",
+    "shot": "S11",
+    "offset_s": 2.0,
+    "duration_s": 6.0,
+    "category": "sfx",
+    "description": "Cases on counter, card swipe, receipt printer",
+    "timeline_s": 102.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "MUS_MOTIF_SCALE",
+    "shot": "S12",
+    "offset_s": 0.0,
+    "duration_s": 30.0,
+    "category": "music",
+    "description": "Motif B: pulsing strings, building",
+    "timeline_s": 110.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "SFX_ENVELOPE",
+    "shot": "S17",
+    "offset_s": 3.0,
+    "duration_s": 2.0,
+    "category": "sfx",
+    "description": "Disc into paper mailer, seal",
+    "timeline_s": 163.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "AMB_SORTING_MACHINERY",
+    "shot": "S18",
+    "offset_s": 0.0,
+    "duration_s": 10.0,
+    "category": "ambience",
+    "description": "Conveyor rollers, sorter clacks",
+    "timeline_s": 170.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "AMB_COMPUTER_QUIET",
+    "shot": "S22",
+    "offset_s": 0.0,
+    "duration_s": 10.0,
+    "category": "ambience",
+    "description": "CRT whine, fan hum, keyboard",
+    "timeline_s": 210.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "MUS_SILENCE_QUESTION",
+    "shot": "S24",
+    "offset_s": 0.0,
+    "duration_s": 10.0,
+    "category": "music",
+    "description": "Music drops to near silence",
+    "timeline_s": 230.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "SFX_PAPER_HANDLING",
+    "shot": "S28",
+    "offset_s": 1.0,
+    "duration_s": 4.0,
+    "category": "sfx",
+    "description": "Filing pages turned",
+    "timeline_s": 271.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "MUS_MOTIF_PRESSURE",
+    "shot": "S29",
+    "offset_s": 0.0,
+    "duration_s": 80.0,
+    "category": "music",
+    "description": "Motif C: tightening ostinato",
+    "timeline_s": 280.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "AMB_COMPUTER_HOME",
+    "shot": "S36",
+    "offset_s": 0.0,
+    "duration_s": 10.0,
+    "category": "ambience",
+    "description": "Home room tone, PC fan",
+    "timeline_s": 350.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "AMB_STORE_EMPTY",
+    "shot": "S42",
+    "offset_s": 0.0,
+    "duration_s": 10.0,
+    "category": "ambience",
+    "description": "Fluorescent hum, empty room",
+    "timeline_s": 410.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "MUS_MOTIF_EVIDENCE_REPRISE",
+    "shot": "S43",
+    "offset_s": 0.0,
+    "duration_s": 40.0,
+    "category": "music",
+    "description": "Motif A reprise",
+    "timeline_s": 420.0,
+    "status": "placeholder"
+  },
+  {
+    "id": "MUS_STING_FINAL",
+    "shot": "S47",
+    "offset_s": 7.5,
+    "duration_s": 2.5,
+    "category": "music",
+    "description": "Final investigative sting (original)",
+    "timeline_s": 467.5,
+    "status": "placeholder"
+  },
+  {
+    "id": "MUS_END_TITLE",
+    "shot": "S48",
+    "offset_s": 0.0,
+    "duration_s": 10.0,
+    "category": "music",
+    "description": "End-title tail, fades to silence",
+    "timeline_s": 470.0,
+    "status": "placeholder"
+  }
+]

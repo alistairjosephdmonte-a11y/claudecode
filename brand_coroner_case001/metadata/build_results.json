@@ -1,0 +1,289 @@
+{
+  "S04": {
+    "camera": "CAM_S04",
+    "figures": [],
+    "checks": {
+      "folder_rest_z": [
+        "PROP_S04_Folder_Plain",
+        0.75,
+        891
+      ],
+      "hand_contact": [
+        "HAND_S04",
+        "PROP_S04_Folder_Plain",
+        [
+          873,
+          887
+        ]
+      ]
+    }
+  },
+  "S01": {
+    "camera": "CAM_S01",
+    "figures": [],
+    "checks": {}
+  },
+  "S02": {
+    "camera": "CAM_S02",
+    "figures": [
+      "FIG_S02_Visitor_0",
+      "FIG_S02_Visitor_1",
+      "FIG_S02_Visitor_2"
+    ],
+    "checks": {}
+  },
+  "S03": {
+    "camera": "CAM_S03",
+    "figures": [],
+    "checks": {}
+  },
+  "S05": {
+    "camera": "CAM_S05",
+    "figures": [],
+    "checks": {}
+  },
+  "S06": {
+    "camera": "CAM_S06",
+    "figures": [],
+    "checks": {}
+  },
+  "S07": {
+    "camera": "CAM_S07",
+    "figures": [],
+    "checks": {}
+  },
+  "S08": {
+    "camera": "CAM_S08",
+    "figures": [],
+    "checks": {}
+  },
+  "S09": {
+    "camera": "CAM_S09",
+    "figures": [
+      "FIG_S09_Customer_A",
+      "FIG_S09_Customer_B",
+      "FIG_S09_Customer_C"
+    ],
+    "checks": {}
+  },
+  "S10": {
+    "camera": "CAM_S10",
+    "figures": [
+      "FIG_S10_Customer_A",
+      "FIG_S10_Customer_B",
+      "FIG_S10_Customer_C"
+    ],
+    "checks": {}
+  },
+  "S11": {
+    "camera": "CAM_S11",
+    "figures": [
+      "FIG_S11_Clerk",
+      "FIG_S11_Customer"
+    ],
+    "checks": {}
+  },
+  "S12": {
+    "camera": "CAM_S12",
+    "figures": [],
+    "checks": {}
+  },
+  "S13": {
+    "camera": "CAM_S13",
+    "figures": [],
+    "checks": {}
+  },
+  "S14": {
+    "camera": "CAM_S14",
+    "figures": [],
+    "checks": {}
+  },
+  "S15": {
+    "camera": "CAM_S15",
+    "figures": [],
+    "checks": {}
+  },
+  "S16": {
+    "camera": "CAM_S16",
+    "figures": [],
+    "checks": {}
+  },
+  "S17": {
+    "camera": "CAM_S17",
+    "figures": [],
+    "checks": {
+      "disc_in_envelope": [
+        "PROP_S17_DVD",
+        [
+          3991.0,
+          -4.050000190734863,
+          0.9273999929428101
+        ],
+        4031
+      ]
+    }
+  },
+  "S18": {
+    "camera": "CAM_S18",
+    "figures": [],
+    "checks": {}
+  },
+  "S19": {
+    "camera": "CAM_S19",
+    "figures": [],
+    "checks": {}
+  },
+  "S20": {
+    "camera": "CAM_S20",
+    "figures": [],
+    "checks": {}
+  },
+  "S21": {
+    "camera": "CAM_S21",
+    "figures": [],
+    "checks": {}
+  },
+  "S22": {
+    "camera": "CAM_S22",
+    "figures": [],
+    "checks": {}
+  },
+  "S23": {
+    "camera": "CAM_S23",
+    "figures": [],
+    "checks": {}
+  },
+  "S24": {
+    "camera": "CAM_S24",
+    "figures": [],
+    "checks": {}
+  },
+  "S25": {
+    "camera": "CAM_S25",
+    "figures": [],
+    "checks": {}
+  },
+  "S26": {
+    "camera": "CAM_S26",
+    "figures": [],
+    "checks": {}
+  },
+  "S27": {
+    "camera": "CAM_S27",
+    "figures": [],
+    "checks": {}
+  },
+  "S28": {
+    "camera": "CAM_S28",
+    "figures": [],
+    "checks": {}
+  },
+  "S29": {
+    "camera": "CAM_S29",
+    "figures": [],
+    "checks": {}
+  },
+  "S30": {
+    "camera": "CAM_S30",
+    "figures": [],
+    "checks": {}
+  },
+  "S31": {
+    "camera": "CAM_S31",
+    "figures": [],
+    "checks": {
+      "mailer_rest_z": [
+        "PROP_S31_Mailer_EditorialBlue",
+        1.08,
+        7361
+      ]
+    }
+  },
+  "S32": {
+    "camera": "CAM_S32",
+    "figures": [],
+    "checks": {}
+  },
+  "S33": {
+    "camera": "CAM_S33",
+    "figures": [],
+    "checks": {}
+  },
+  "S34": {
+    "camera": "CAM_S34",
+    "figures": [],
+    "checks": {}
+  },
+  "S35": {
+    "camera": "CAM_S35",
+    "figures": [],
+    "checks": {}
+  },
+  "S36": {
+    "camera": "CAM_S36",
+    "figures": [
+      "FIG_S36_Viewer_Seated"
+    ],
+    "checks": {}
+  },
+  "S37": {
+    "camera": "CAM_S37",
+    "figures": [],
+    "checks": {}
+  },
+  "S38": {
+    "camera": "CAM_S38",
+    "figures": [],
+    "checks": {}
+  },
+  "S39": {
+    "camera": "CAM_S39",
+    "figures": [],
+    "checks": {}
+  },
+  "S40": {
+    "camera": "CAM_S40",
+    "figures": [],
+    "checks": {}
+  },
+  "S41": {
+    "camera": "CAM_S41",
+    "figures": [],
+    "checks": {}
+  },
+  "S42": {
+    "camera": "CAM_S42",
+    "figures": [],
+    "checks": {}
+  },
+  "S43": {
+    "camera": "CAM_S43",
+    "figures": [],
+    "checks": {}
+  },
+  "S44": {
+    "camera": "CAM_S44",
+    "figures": [],
+    "checks": {}
+  },
+  "S45": {
+    "camera": "CAM_S45",
+    "figures": [],
+    "checks": {}
+  },
+  "S46": {
+    "camera": "CAM_S46",
+    "figures": [],
+    "checks": {}
+  },
+  "S47": {
+    "camera": "CAM_S47",
+    "figures": [],
+    "checks": {}
+  },
+  "S48": {
+    "camera": "CAM_S48",
+    "figures": [],
+    "checks": {}
+  }
+}

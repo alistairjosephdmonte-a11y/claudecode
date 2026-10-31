@@ -1,0 +1,290 @@
+{
+  "S01": {
+    "still": "renders/shots/BC001_S01_still_f00181.png",
+    "frame": 181,
+    "seconds": 10.9,
+    "ok": true
+  },
+  "S02": {
+    "still": "renders/shots/BC001_S02_still_f00421.png",
+    "frame": 421,
+    "seconds": 42.6,
+    "ok": true
+  },
+  "S03": {
+    "still": "renders/shots/BC001_S03_still_f00661.png",
+    "frame": 661,
+    "seconds": 24.6,
+    "ok": true
+  },
+  "S04": {
+    "still": "renders/shots/BC001_S04_still_f00901.png",
+    "frame": 901,
+    "seconds": 24.2,
+    "ok": true
+  },
+  "S05": {
+    "still": "renders/shots/BC001_S05_still_f01141.png",
+    "frame": 1141,
+    "seconds": 8.5,
+    "ok": true
+  },
+  "S06": {
+    "still": "renders/shots/BC001_S06_still_f01381.png",
+    "frame": 1381,
+    "seconds": 10.4,
+    "ok": true
+  },
+  "S07": {
+    "still": "renders/shots/BC001_S07_still_f01621.png",
+    "frame": 1621,
+    "seconds": 9.5,
+    "ok": true
+  },
+  "S08": {
+    "still": "renders/shots/BC001_S08_still_f01861.png",
+    "frame": 1861,
+    "seconds": 10.1,
+    "ok": true
+  },
+  "S09": {
+    "still": "renders/shots/BC001_S09_still_f02101.png",
+    "frame": 2101,
+    "seconds": 19.0,
+    "ok": true
+  },
+  "S10": {
+    "still": "renders/shots/BC001_S10_still_f02341.png",
+    "frame": 2341,
+    "seconds": 19.6,
+    "ok": true
+  },
+  "S11": {
+    "still": "renders/shots/BC001_S11_still_f02581.png",
+    "frame": 2581,
+    "seconds": 20.2,
+    "ok": true
+  },
+  "S12": {
+    "still": "renders/shots/BC001_S12_still_f02821.png",
+    "frame": 2821,
+    "seconds": 9.4,
+    "ok": true
+  },
+  "S13": {
+    "still": "renders/shots/BC001_S13_still_f03061.png",
+    "frame": 3061,
+    "seconds": 9.4,
+    "ok": true
+  },
+  "S14": {
+    "still": "renders/shots/BC001_S14_still_f03301.png",
+    "frame": 3301,
+    "seconds": 9.5,
+    "ok": true
+  },
+  "S15": {
+    "still": "renders/shots/BC001_S15_still_f03541.png",
+    "frame": 3541,
+    "seconds": 9.1,
+    "ok": true
+  },
+  "S16": {
+    "still": "renders/shots/BC001_S16_still_f03781.png",
+    "frame": 3781,
+    "seconds": 9.2,
+    "ok": true
+  },
+  "S17": {
+    "still": "renders/shots/BC001_S17_still_f04021.png",
+    "frame": 4021,
+    "seconds": 10.3,
+    "ok": true
+  },
+  "S18": {
+    "still": "renders/shots/BC001_S18_still_f04261.png",
+    "frame": 4261,
+    "seconds": 10.3,
+    "ok": true
+  },
+  "S19": {
+    "still": "renders/shots/BC001_S19_still_f04501.png",
+    "frame": 4501,
+    "seconds": 9.1,
+    "ok": true
+  },
+  "S20": {
+    "still": "renders/shots/BC001_S20_still_f04741.png",
+    "frame": 4741,
+    "seconds": 4.7,
+    "ok": true
+  },
+  "S21": {
+    "still": "renders/shots/BC001_S21_still_f04981.png",
+    "frame": 4981,
+    "seconds": 9.3,
+    "ok": true
+  },
+  "S22": {
+    "still": "renders/shots/BC001_S22_still_f05221.png",
+    "frame": 5221,
+    "seconds": 8.0,
+    "ok": true
+  },
+  "S23": {
+    "still": "renders/shots/BC001_S23_still_f05461.png",
+    "frame": 5461,
+    "seconds": 9.1,
+    "ok": true
+  },
+  "S24": {
+    "still": "renders/shots/BC001_S24_still_f05701.png",
+    "frame": 5701,
+    "seconds": 9.2,
+    "ok": true
+  },
+  "S25": {
+    "still": "renders/shots/BC001_S25_still_f05941.png",
+    "frame": 5941,
+    "seconds": 10.6,
+    "ok": true
+  },
+  "S26": {
+    "still": "renders/shots/BC001_S26_still_f06181.png",
+    "frame": 6181,
+    "seconds": 9.3,
+    "ok": true
+  },
+  "S27": {
+    "still": "renders/shots/BC001_S27_still_f06421.png",
+    "frame": 6421,
+    "seconds": 9.4,
+    "ok": true
+  },
+  "S28": {
+    "still": "renders/shots/BC001_S28_still_f06661.png",
+    "frame": 6661,
+    "seconds": 10.3,
+    "ok": true
+  },
+  "S29": {
+    "still": "renders/shots/BC001_S29_still_f06901.png",
+    "frame": 6901,
+    "seconds": 9.3,
+    "ok": true
+  },
+  "S30": {
+    "still": "renders/shots/BC001_S30_still_f07141.png",
+    "frame": 7141,
+    "seconds": 9.7,
+    "ok": true
+  },
+  "S31": {
+    "still": "renders/shots/BC001_S31_still_f07381.png",
+    "frame": 7381,
+    "seconds": 13.0,
+    "ok": true
+  },
+  "S32": {
+    "still": "renders/shots/BC001_S32_still_f07621.png",
+    "frame": 7621,
+    "seconds": 9.2,
+    "ok": true
+  },
+  "S33": {
+    "still": "renders/shots/BC001_S33_still_f07861.png",
+    "frame": 7861,
+    "seconds": 9.4,
+    "ok": true
+  },
+  "S34": {
+    "still": "renders/shots/BC001_S34_still_f08101.png",
+    "frame": 8101,
+    "seconds": 9.3,
+    "ok": true
+  },
+  "S35": {
+    "still": "renders/shots/BC001_S35_still_f08341.png",
+    "frame": 8341,
+    "seconds": 9.2,
+    "ok": true
+  },
+  "S36": {
+    "still": "renders/shots/BC001_S36_still_f08581.png",
+    "frame": 8581,
+    "seconds": 7.7,
+    "ok": true
+  },
+  "S37": {
+    "still": "renders/shots/BC001_S37_still_f08821.png",
+    "frame": 8821,
+    "seconds": 9.3,
+    "ok": true
+  },
+  "S38": {
+    "still": "renders/shots/BC001_S38_still_f09061.png",
+    "frame": 9061,
+    "seconds": 10.2,
+    "ok": true
+  },
+  "S39": {
+    "still": "renders/shots/BC001_S39_still_f09301.png",
+    "frame": 9301,
+    "seconds": 9.1,
+    "ok": true
+  },
+  "S40": {
+    "still": "renders/shots/BC001_S40_still_f09541.png",
+    "frame": 9541,
+    "seconds": 9.9,
+    "ok": true
+  },
+  "S41": {
+    "still": "renders/shots/BC001_S41_still_f09781.png",
+    "frame": 9781,
+    "seconds": 9.6,
+    "ok": true
+  },
+  "S42": {
+    "still": "renders/shots/BC001_S42_still_f10021.png",
+    "frame": 10021,
+    "seconds": 11.3,
+    "ok": true
+  },
+  "S43": {
+    "still": "renders/shots/BC001_S43_still_f10261.png",
+    "frame": 10261,
+    "seconds": 27.6,
+    "ok": true
+  },
+  "S44": {
+    "still": "renders/shots/BC001_S44_still_f10501.png",
+    "frame": 10501,
+    "seconds": 9.7,
+    "ok": true
+  },
+  "S45": {
+    "still": "renders/shots/BC001_S45_still_f10741.png",
+    "frame": 10741,
+    "seconds": 4.8,
+    "ok": true
+  },
+  "S46": {
+    "still": "renders/shots/BC001_S46_still_f10981.png",
+    "frame": 10981,
+    "seconds": 10.4,
+    "ok": true
+  },
+  "S47": {
+    "still": "renders/shots/BC001_S47_still_f11221.png",
+    "frame": 11221,
+    "seconds": 9.1,
+    "ok": true
+  },
+  "S48": {
+    "still": "renders/shots/BC001_S48_still_f11461.png",
+    "frame": 11461,
+    "seconds": 9.2,
+    "ok": true
+  }
+}

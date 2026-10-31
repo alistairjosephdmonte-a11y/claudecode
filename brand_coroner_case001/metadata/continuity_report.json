@@ -1,0 +1,820 @@
+{
+  "assertions": {
+    "48_shots": true,
+    "ids_unique": true,
+    "each_240_frames": true,
+    "no_gaps_or_overlaps": true,
+    "duration_480s": true,
+    "every_shot_has_camera": true,
+    "every_shot_has_narration_cue": true,
+    "every_historical_claim_has_source_id": false,
+    "every_reconstruction_identified": true,
+    "every_pending_source_flagged_on_screen": true,
+    "every_unverified_asset_marked_pending": true,
+    "no_logos_or_brand_artwork": true,
+    "every_required_path_resolves": true,
+    "libraries_relative": true,
+    "all_preview_stills_complete": true,
+    "animatic_complete_11520_frames": false,
+    "cameras_smooth": true,
+    "continuity_props_contact_feet": false
+  },
+  "details": {
+    "detail_claims_without_source": [
+      "S24"
+    ],
+    "detail_unresolved_paths": [],
+    "detail_animatic_frames": null
+  },
+  "continuity": {
+    "folder_S04_vs_S43_offset_mm": 0.019,
+    "folder_bottom_vs_table_mm": 0.0,
+    "mailer_bottom_vs_counter_mm": -0.0,
+    "disc_inside_envelope": true,
+    "carried_prop_slip_mm": {
+      "S04": 0.1834,
+      "S31": 0.3265,
+      "S17": 0.0
+    },
+    "max_planted_foot_slide_mm": 0.0
+  },
+  "cameras": {
+    "S01": {
+      "camera": "CAM_S01",
+      "move": "slow_dolly_rise",
+      "lens_mm": 28,
+      "type": "PERSP",
+      "max_speed_m_s": 5.402,
+      "max_acc_m_s2": 2.172,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S02": {
+      "camera": "CAM_S02",
+      "move": "restrained_lateral_track",
+      "lens_mm": 35,
+      "type": "PERSP",
+      "max_speed_m_s": 1.736,
+      "max_acc_m_s2": 0.692,
+      "max_angacc_deg_s2": 11.39
+    },
+    "S03": {
+      "camera": "CAM_S03",
+      "move": "slow_dolly",
+      "lens_mm": 35,
+      "type": "PERSP",
+      "max_speed_m_s": 0.068,
+      "max_acc_m_s2": 0.141,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S04": {
+      "camera": "CAM_S04",
+      "move": "controlled_push_in",
+      "lens_mm": 50,
+      "type": "PERSP",
+      "max_speed_m_s": 0.029,
+      "max_acc_m_s2": 0.141,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S05": {
+      "camera": "CAM_S05",
+      "move": "overhead",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.012,
+      "max_acc_m_s2": 0.563,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S06": {
+      "camera": "CAM_S06",
+      "move": "overhead",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.012,
+      "max_acc_m_s2": 0.563,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S07": {
+      "camera": "CAM_S07",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S08": {
+      "camera": "CAM_S08",
+      "move": "overhead",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.012,
+      "max_acc_m_s2": 0.563,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S09": {
+      "camera": "CAM_S09",
+      "move": "slow_dolly",
+      "lens_mm": 28,
+      "type": "PERSP",
+      "max_speed_m_s": 0.225,
+      "max_acc_m_s2": 0.288,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S10": {
+      "camera": "CAM_S10",
+      "move": "slow_dolly",
+      "lens_mm": 35,
+      "type": "PERSP",
+      "max_speed_m_s": 0.339,
+      "max_acc_m_s2": 0.135,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S11": {
+      "camera": "CAM_S11",
+      "move": "locked_observation_drift",
+      "lens_mm": 50,
+      "type": "PERSP",
+      "max_speed_m_s": 0.052,
+      "max_acc_m_s2": 0.282,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S12": {
+      "camera": "CAM_S12",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S13": {
+      "camera": "CAM_S13",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S14": {
+      "camera": "CAM_S14",
+      "move": "overhead",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.012,
+      "max_acc_m_s2": 0.563,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S15": {
+      "camera": "CAM_S15",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S16": {
+      "camera": "CAM_S16",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S17": {
+      "camera": "CAM_S17",
+      "move": "controlled_push_in",
+      "lens_mm": 85,
+      "type": "PERSP",
+      "max_speed_m_s": 0.013,
+      "max_acc_m_s2": 0.005,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S18": {
+      "camera": "CAM_S18",
+      "move": "restrained_lateral_track",
+      "lens_mm": 35,
+      "type": "PERSP",
+      "max_speed_m_s": 0.234,
+      "max_acc_m_s2": 0.422,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S19": {
+      "camera": "CAM_S19",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S20": {
+      "camera": "CAM_S20",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S21": {
+      "camera": "CAM_S21",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S22": {
+      "camera": "CAM_S22",
+      "move": "controlled_push_in",
+      "lens_mm": 50,
+      "type": "PERSP",
+      "max_speed_m_s": 0.055,
+      "max_acc_m_s2": 0.563,
+      "max_angacc_deg_s2": 26.4
+    },
+    "S23": {
+      "camera": "CAM_S23",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S24": {
+      "camera": "CAM_S24",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S25": {
+      "camera": "CAM_S25",
+      "move": "slow_push_in",
+      "lens_mm": 35,
+      "type": "PERSP",
+      "max_speed_m_s": 0.042,
+      "max_acc_m_s2": 0.563,
+      "max_angacc_deg_s2": 19.74
+    },
+    "S26": {
+      "camera": "CAM_S26",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S27": {
+      "camera": "CAM_S27",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S28": {
+      "camera": "CAM_S28",
+      "move": "overhead",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.012,
+      "max_acc_m_s2": 0.563,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S29": {
+      "camera": "CAM_S29",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S30": {
+      "camera": "CAM_S30",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S31": {
+      "camera": "CAM_S31",
+      "move": "controlled_push_in",
+      "lens_mm": 50,
+      "type": "PERSP",
+      "max_speed_m_s": 0.033,
+      "max_acc_m_s2": 0.281,
+      "max_angacc_deg_s2": 11.39
+    },
+    "S32": {
+      "camera": "CAM_S32",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S33": {
+      "camera": "CAM_S33",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S34": {
+      "camera": "CAM_S34",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S35": {
+      "camera": "CAM_S35",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S36": {
+      "camera": "CAM_S36",
+      "move": "slow_push_in",
+      "lens_mm": 35,
+      "type": "PERSP",
+      "max_speed_m_s": 0.049,
+      "max_acc_m_s2": 0.563,
+      "max_angacc_deg_s2": 16.11
+    },
+    "S37": {
+      "camera": "CAM_S37",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S38": {
+      "camera": "CAM_S38",
+      "move": "overhead",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.012,
+      "max_acc_m_s2": 0.563,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S39": {
+      "camera": "CAM_S39",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S40": {
+      "camera": "CAM_S40",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S41": {
+      "camera": "CAM_S41",
+      "move": "overhead",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.012,
+      "max_acc_m_s2": 0.563,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S42": {
+      "camera": "CAM_S42",
+      "move": "slow_dolly",
+      "lens_mm": 35,
+      "type": "PERSP",
+      "max_speed_m_s": 0.185,
+      "max_acc_m_s2": 0.295,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S43": {
+      "camera": "CAM_S43",
+      "move": "slow_push_in",
+      "lens_mm": 35,
+      "type": "PERSP",
+      "max_speed_m_s": 0.11,
+      "max_acc_m_s2": 0.212,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S44": {
+      "camera": "CAM_S44",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S45": {
+      "camera": "CAM_S45",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S46": {
+      "camera": "CAM_S46",
+      "move": "overhead",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.008,
+      "max_acc_m_s2": 0.003,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S47": {
+      "camera": "CAM_S47",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    },
+    "S48": {
+      "camera": "CAM_S48",
+      "move": "graphics_push",
+      "lens_mm": 0,
+      "type": "ORTHO",
+      "max_speed_m_s": 0.0,
+      "max_acc_m_s2": 0.0,
+      "max_angacc_deg_s2": 0.0
+    }
+  },
+  "visual_mode_share": {
+    "REC": "25%",
+    "ARC": "15%",
+    "DATA": "21%",
+    "INV": "40%"
+  },
+  "per_shot": {
+    "S01": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S02": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S03": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S04": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S05": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S06": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S07": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S08": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S09": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S10": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S11": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S12": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S13": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S14": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S15": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S16": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S17": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S18": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S19": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S20": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S21": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S22": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S23": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S24": {
+      "checks": {
+        "sources": "missing",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S25": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S26": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S27": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S28": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S29": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S30": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S31": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S32": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S33": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S34": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S35": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S36": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S37": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S38": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S39": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S40": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S41": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S42": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S43": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S44": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S45": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S46": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S47": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    },
+    "S48": {
+      "checks": {
+        "sources": "ok",
+        "classification_on_screen": "ok",
+        "camera_smooth": "ok"
+      }
+    }
+  },
+  "all_pass": false
+}

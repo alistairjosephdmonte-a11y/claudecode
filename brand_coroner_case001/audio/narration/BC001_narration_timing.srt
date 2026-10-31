@@ -1,0 +1,192 @@
+1
+00:00:02,500 --> 00:00:11,300
+Dallas, Texas. September 2000. A meeting took place in this city that is now retold, again and again, as a business parable.
+
+2
+00:00:11,650 --> 00:00:21,250
+According to Marc Randolph, a Netflix co-founder, three Netflix executives came here to meet the leadership of Blockbuster, the largest name in video rental.
+
+3
+00:00:21,600 --> 00:00:31,200
+We have no transcript of that meeting. The room you are seeing is representative, and the people who were there remember the day differently.
+
+4
+00:00:31,550 --> 00:00:39,150
+In Randolph's version, Netflix proposed that Blockbuster buy the company, and that the Netflix team run Blockbuster's business online.
+
+5
+00:00:41,000 --> 00:00:49,800
+Randolph described the meeting in his 2019 memoir. He recalls the price that was named, and a reaction he read as dismissive.
+
+6
+00:00:51,000 --> 00:01:00,200
+Accounts attributed to John Antioco, then Blockbuster's chief executive, describe the encounter differently. We are still verifying that account against a primary source.
+
+7
+00:01:01,500 --> 00:01:11,100
+The figure at the center of the story is fifty million dollars. It comes from Randolph's account, and it is where most retellings begin.
+
+8
+00:01:11,450 --> 00:01:18,650
+Two recollections. One number. And a question that a single meeting, however famous, cannot answer on its own.
+
+9
+00:01:22,000 --> 00:01:29,200
+To understand the decision, start with the business Blockbuster had built, and the Friday nights that built it.
+
+10
+00:01:31,000 --> 00:01:39,000
+Its strength was physical: walls of tapes and discs, new releases in bulk, and stores close to where customers lived.
+
+11
+00:01:41,000 --> 00:01:50,200
+A customer chose a film, showed a membership card, paid at the counter, and promised to bring it back by a due date.
+
+12
+00:01:51,000 --> 00:01:57,400
+Repeated store by store, city by city, that simple transaction grew into a vast retail network.
+
+13
+00:02:01,000 --> 00:02:09,000
+By the end of 2004, the company described a network of roughly nine thousand one hundred stores around the world.
+
+14
+00:02:11,000 --> 00:02:19,400
+Every rental carried a due date, and every late return carried a fee. That small line on a receipt added up.
+
+15
+00:02:21,000 --> 00:02:29,000
+The company later reported that those extended viewing fees made up about fourteen percent of its rental revenue in 2004.
+
+16
+00:02:31,000 --> 00:02:39,800
+A system this large is powerful. It is also heavy, and heavy systems are slow to change direction when the ground moves.
+
+17
+00:02:41,000 --> 00:02:48,200
+Netflix approached the same customer problem from the other side: a disc, a paper envelope, and a mailbox.
+
+18
+00:02:51,000 --> 00:02:57,000
+There was no storefront. Orders moved through distribution centers, sorting lines and the postal system.
+
+19
+00:03:01,000 --> 00:03:09,400
+Customers paid a monthly subscription, received discs, watched them, and sent them back. In this model there were no late fees.
+
+20
+00:03:11,000 --> 00:03:19,800
+Two businesses now served the same evening at home, for the same customers, with very different machinery working behind each of them.
+
+21
+00:03:21,000 --> 00:03:29,400
+One carried rent, inventory and staff across thousands of locations. The other carried postage, fulfillment, and the cost of winning subscribers.
+
+22
+00:03:31,000 --> 00:03:39,400
+And it lived online, on early web pages and order forms, years before most viewers expected movies to arrive that way.
+
+23
+00:03:41,000 --> 00:03:49,000
+In 2000, the difference in scale was enormous. Blockbuster was by far the larger company, and the more established brand.
+
+24
+00:03:53,000 --> 00:03:58,600
+So was the threat obvious in 2000? Or does it only look obvious now?
+
+25
+00:04:01,000 --> 00:04:08,600
+Blockbuster did respond. It moved into online rental, with a service launched in 2004 to compete directly by mail.
+
+26
+00:04:11,000 --> 00:04:18,600
+Now it ran two systems side by side: thousands of stores, and a growing operation built around the mailbox.
+
+27
+00:04:21,000 --> 00:04:29,400
+In January 2005, it made a major change. It stopped charging late fees at its company-operated stores in the United States.
+
+28
+00:04:31,000 --> 00:04:37,400
+The company's annual report for 2005 describes the financial impact of that decision, line by line.
+
+29
+00:04:41,000 --> 00:04:51,800
+Rental revenue fell, and the company reported about sixty million dollars in initial marketing and implementation costs. Lost revenue, though, is not the same as lost profit.
+
+30
+00:04:52,150 --> 00:04:58,550
+In November 2006, Blockbuster introduced Total Access, its most direct answer yet to the mail-order challenge.
+
+31
+00:05:01,000 --> 00:05:10,200
+Online members could return a mailed disc at a store and leave with another film. For the first time, the two systems connected.
+
+32
+00:05:11,000 --> 00:05:18,200
+Subscribers grew quickly. So did the cost of serving them, and of the promotions that brought them in.
+
+33
+00:05:21,000 --> 00:05:27,800
+Growth came with losses. Attracting customers is not the same thing as making each of them profitable.
+
+34
+00:05:31,000 --> 00:05:39,400
+Retail stores. Discs by mail. Each with its own costs, its own customers, and soon, a third model that needed neither.
+
+35
+00:05:41,000 --> 00:05:47,400
+In January 2007, Netflix announced instant viewing on personal computers, starting with about a thousand titles.
+
+36
+00:05:51,000 --> 00:05:59,400
+It was limited at first. But it pointed toward a way of watching that needed neither a store nor an envelope.
+
+37
+00:06:01,000 --> 00:06:07,800
+Discs by mail, retail stores and streaming were now competing for the very same evenings at home.
+
+38
+00:06:11,000 --> 00:06:18,600
+Running a transition is expensive, and the cost fell on a business whose core revenue was already under pressure.
+
+39
+00:06:21,000 --> 00:06:29,400
+Debt, liquidity and other long-term obligations left the company with less and less room to maneuver, and less time to adjust.
+
+40
+00:06:31,000 --> 00:06:37,000
+The network that had been the company's greatest strength became harder and harder to sustain.
+
+41
+00:06:41,000 --> 00:06:48,200
+On September twenty-third, 2010, Blockbuster filed for Chapter Eleven bankruptcy protection, a decade after the meeting in Dallas.
+
+42
+00:06:51,000 --> 00:06:57,400
+Some stores continued to operate. But the dominant model of the neighborhood video store had faded.
+
+43
+00:07:01,500 --> 00:07:08,300
+Which brings us back to the meeting in Dallas. A famous moment, and still a disputed one.
+
+44
+00:07:11,000 --> 00:07:19,400
+Could an earlier deal, different terms, or a partnership have changed the outcome? Possibly. None of these outcomes can be proven.
+
+45
+00:07:21,000 --> 00:07:28,200
+The record points to something more complex: legacy economics, the cost of transition, and financial constraints, arriving together.
+
+46
+00:07:31,000 --> 00:07:39,000
+One meeting is part of the evidence. It is not the whole record, and it was never the whole story.
+
+47
+00:07:42,000 --> 00:07:45,600
+Recognizing change is not the same as surviving it.
+
+48
+00:07:54,000 --> 00:07:55,600
+Every decision leaves evidence.
+
