@@ -37,6 +37,12 @@ for t, kind in EV:
     elif kind == 'draw': add(fx, swish(.8), t, .18, 0)
     elif kind in ('boom', 'break'): add(fx, thump(.8, 45), t, .45)
 fx += np.repeat(lp(brown(DUR), 300)[:N, None] * .01, 2, axis=1).astype(np.float32)
+# music steps back at 'growth ≠ profitability' (110.6–114 s) and before the chapter 11 reveal in scene 14
+gm = np.ones(N)
+for a_, b_ in [(110.6, 114.0), (409.8, 410.5)]:
+    gm[int(a_ * SR):int(b_ * SR)] = .25
+from scipy.ndimage import uniform_filter1d
+gm = uniform_filter1d(gm, int(.4 * SR)); mus *= gm[:, None]
 out = mus * 2.6 + fx
 fi = int(1.5 * SR); out[:fi] *= np.linspace(0, 1, fi)[:, None]; tail = int(4 * SR); out[-tail:] *= np.linspace(1, 0, tail)[:, None]
 out = np.stack([limit(out[:, c], .7) for c in range(2)], 1)

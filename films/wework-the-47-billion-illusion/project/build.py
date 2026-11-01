@@ -57,7 +57,7 @@ def rect(x, y, w, h, col, t0, t1, a=1.0, fin=0.0, fout=0.0, grow=None, blend='AL
     fade(s, t0, t1, a, fin, fout); return s
 
 def flash(x, y, w, h, t0, d=.13):
-    s = rect(x, y, w, h, '#FFFFFF', t0, t0 + d + .05); s.blend_alpha = 1; s.keyframe_insert('blend_alpha', frame=F(T(t0))); s.blend_alpha = 0; s.keyframe_insert('blend_alpha', frame=F(T(t0 + d)))
+    s = rect(x, y, w, h, '#FFFFFF', t0, t0 + d + .05); s.blend_alpha = .55; s.keyframe_insert('blend_alpha', frame=F(T(t0))); s.blend_alpha = 0; s.keyframe_insert('blend_alpha', frame=F(T(t0 + d)))
 
 def text(st, x, y, size, t0, t1, col=TXT, font='outfit700', al='LEFT', a=1.0, fin=0.0, fout=0.0, wrap=0, valign='TOP'):
     s = CX.m.sequences.new_effect(nm('t'), 'TEXT', CX.ch(), frame_start=F(T(t0)), frame_end=F(T(t1)))
@@ -156,7 +156,7 @@ def s01():
     text('2019', 60, 670, 30, 18.6, 30, col=RED, font='mono600'); heading('$47 billion', 60, 710, 76, 18.6, 30)
     text('private valuation (reported)', 64, 800, 24, 18.6, 30, col=GREY, font='outfit500')
     ps, ph = doc('doc_petition', 1000, 150, 380, 19.4, 30)
-    text('2023', 1420, 160, 30, 19.6, 30, col=RED, font='mono600'); heading('bankruptcy', 1420, 200, 64, 19.6, 30); heading('protection', 1420, 270, 64, 19.6, 30)
+    text('2023', 1420, 160, 30, 19.6, 30, col=RED, font='mono600'); heading('chapter 11', 1420, 200, 72, 19.6, 30); text('bankruptcy protection', 1424, 290, 30, 19.6, 30, font='outfit500')
     text('chapter 11 · filed nov 6, 2023', 1424, 360, 24, 20.2, 30, col=GREY, font='outfit500')
     tag('court filing · d.n.j. · doc 1', 1000, 124, 19.4, 30)
     rect(490, 880, 0, 3, RED, 21.0, 30)
@@ -183,8 +183,8 @@ def s02():
         rect(cx - 210, 380, 420, 150, PANEL, 11 + k * .5, 30); rect(cx - 210, 380, 420, 150, RED if k == 1 else TXT, 11 + k * .5, 30, a=1).blend_type = 'ALPHA_OVER'
         rect(cx - 208, 382, 416, 146, PANEL, 11 + k * .5, 30)
         heading(lab, cx, 422, 52, 11 + k * .5, 30, al='CENTER'); flash(cx - 210, 380, 420, 150, 11 + k * .5)
-    rect(420, 453, 330, 3, GREY, 13.0, 30, grow=(13.0, 13.8, 'xr')); sprite('arrow_white', 432, 455, 13.8, 30, scale=1)
-    rect(1170, 453, 330, 3, GREY, 13.8, 30, grow=(13.8, 14.6, 'xr')); sprite('arrow_white', 1182, 455, 14.6, 30)
+    rect(420, 452, 330, 5, RED, 13.0, 30, grow=(13.0, 13.8, 'xr')); text('lease · long-term', 585, 490, 22, 13.4, 30, col=RED, font='mono600', al='CENTER')
+    rect(1170, 452, 330, 5, TXT, 13.8, 30, grow=(13.8, 14.6, 'xr')); text('flexible', 1335, 490, 22, 14.2, 30, font='mono600', al='CENTER')
     text('rent', 585, 405, 28, 13.4, 30, col=TXT, font='mono600', al='CENTER'); text('membership fees', 1335, 405, 28, 14.2, 30, col=TXT, font='mono600', al='CENTER')
     for j in range(4):   # cash moving: members → wework → landlord
         t = 15 + j * 1.2
@@ -214,12 +214,11 @@ def s03():
     marker('03.1', 0, 10)
     # beat 2: archival collage
     CX.beat()
-    P = [('ph_van3', 60, 110, 900, 400, 'shared workspace', 'vancouver · dec 2018', 10.0), ('ph_van4', 990, 110, 870, 400, 'front desk & lounge', 'vancouver · dec 2018', 11.0),
-         ('ph_berlin', 60, 540, 600, 340, 'shared desks', 'berlin · aug 2016', 12.0), ('ph_van2', 690, 540, 600, 340, 'member check-in', 'vancouver · dec 2018', 13.0),
-         ('ph_chicago', 1320, 540, 540, 340, 'entrance', 'chicago · oct 2018', 14.0)]
-    for (n, x, y, w, h, lab, src, t) in P:
-        image(n, x, y, w, h, t, 21, z0=1.0, z1=1.04); EV.append((T(t), 'shutter'))
-        rect(x, y + h - 54, w, 54, '#000000', t + .2, 21, a=.6); text(lab, x + 18, y + h - 44, 26, t + .2, 21, font='outfit700'); text(src, x + w - 18, y + h - 40, 17, t + .2, 21, col=GREY, font='mono600', al='RIGHT')
+    P = [('ph_van5', 60, 'space', 'furnished floors, shared and private', 'vancouver · dec 2018', 10.4), ('ph_van4', 670, 'services', 'front desk, upkeep, amenities', 'vancouver · dec 2018', 12.4), ('ph_van2', 1280, 'flexibility', 'check in as a member', 'vancouver · dec 2018', 14.4)]
+    for (n, x, lab, sub, src, t) in P:
+        image(n, x, 150, 580, 560, t, 21, z0=1.0, z1=1.04); EV.append((T(t), 'shutter')); tag('photo · ' + src, x, 124, t, 21)
+        heading(lab, x, 740, 56, t + .3, 21, col=RED if lab == 'flexibility' else TXT); text(sub, x + 2, 816, 24, t + .5, 21, col=GREY, font='outfit300')
+    text('photographs from 2018, not from the company’s first years', 960, 900, 20, 16.0, 21, col=GREY, font='mono400', al='CENTER')
     marker('03.2', 10, 21)
     # beat 3: first location, from the S-1
     CX.beat()
@@ -234,8 +233,9 @@ def s04():
     image('ph_neumann', 60, 110, 600, 800, 0, 8.5, fx=.5, fy=.3, z0=1.0, z1=1.06)
     tag('photo · techcrunch disrupt ny · may 2015 · cc by 2.0', 60, 84, 0, 8.5)
     heading('adam neumann', 760, 300, 96, 0.8, 8.5); text('co-founder and chief executive', 764, 420, 36, 1.6, 8.5, col=GREY, font='outfit500')
-    for k, s in enumerate(['community', 'growth', 'global expansion']):
-        heading(s, 764, 540 + k * 90, 64, 3.0 + k * 1.3, 8.5, col=RED if k == 2 else TXT)
+    for k, (s_, x_) in enumerate([('community', 764), ('growth', 1130), ('global expansion', 1400)]):
+        heading(s_, x_, 520, 56, 2.4 + k * .9, 8.5, col=RED if k == 2 else TXT)
+    doc('doc_community', 764, 640, 1100, 4.2, 8.5, hls=(5.0, 6.0))
     marker('04.1', 0, 8.5)
     # beat 2: the map — verified markers only
     CX.beat()
@@ -247,7 +247,7 @@ def s04():
         a = abs(lat); i = min(17, int(a // 5)); k = (a - i * 5) / 5; plen = tbl[i][1] + (tbl[i + 1][1] - tbl[i][1]) * k; pdfe = tbl[i][2] + (tbl[i + 1][2] - tbl[i][2]) * k
         u = .5 + plen * lon / 360 * (1 / 1.0) * .997; v = .5 - math.copysign(pdfe, lat) * .5 * .9865
         return X + u * Wm, Y + v * Hm
-    pts = [('new york · 154 grand st · 2010 · first location', 40.72, -74.0, RED, 9.4), ('vancouver · photographed 2018', 49.28, -123.12, GREY, 11.6), ('chicago · photographed 2018', 41.88, -87.63, GREY, 12.2), ('berlin · photographed 2016', 52.51, 13.37, GREY, 12.8)]
+    pts = [('new york · 154 grand st · 2010 · first location', 40.72, -74.0, RED, 9.4), ('vancouver · photographed 2018', 49.28, -123.12, GREY, 11.6), ('chicago · photographed 2018', 41.88, -87.63, GREY, 12.2)]
     for (lab, la, lo, col, t) in pts:
         px, py = robinson(la, lo); sprite('dot_red' if col == RED else 'dot_grey', px, py, t, 20.5)
         if col == RED: sprite('ring_red', px, py, t, 20.5, scale=.5); EV.append((T(t), 'mark'))
@@ -288,16 +288,14 @@ def s05():
 
 @scene(6, 'the lease mismatch')
 def s06():
-    tag('timeline · scale: 1 px = 0.6 days · figures from the s-1', 60, 84, 0, 30, col=GREY, chip=GREY)
-    X0, X1 = 260, 1800; L = X1 - X0; mo = L / 180          # 180 months (15 years) across the axis
-    rect(X0, 900, L, 2, RULE, 0.2, 30)
-    for yr in range(0, 16, 3):
-        rect(X0 + yr * 12 * mo, 892, 2, 16, GREY, 0.2, 30); text(f'{yr} yr', X0 + yr * 12 * mo, 918, 18, 0.2, 30, col=GREY, font='mono400', al='CENTER')
-    heading('customer commitment', 60, 250, 36, 0.8, 30); text('average membership term', 64, 300, 22, 1.2, 30, col=GREY, font='outfit300')
-    heading('landlord lease', 60, 560, 36, 1.6, 30, col=RED); text('average initial term, u.s. leases', 64, 610, 22, 2.0, 30, col=GREY, font='outfit300')
-    # bars draw at true scale
-    top = rect(X0, 330, 15 * mo, 60, TXT, 3.0, 22.0, grow=(3.0, 4.2, 'x')); text('> 15 months', X0 + 15 * mo + 20, 342, 34, 4.2, 22.0, font='outfit700')
-    rect(X0, 640, L, 60, RED, 5.0, 30, grow=(5.0, 11.0, 'x')); text('≈ 15 years', X1 - 10, 652, 34, 11.0, 30, col=BG, font='outfit700', al='RIGHT')
+    tag('illustrative comparison · not to scale', 60, 84, 0, 30, col=RED, chip=RED)
+    X0, X1 = 260, 1860; L = X1 - X0
+    heading('customer commitment', 60, 250, 36, 0.8, 30); text('flexible · members can leave sooner', 64, 300, 22, 1.2, 30, col=GREY, font='outfit300')
+    heading('landlord lease', 60, 560, 36, 1.6, 30, col=RED); text('long-term · the obligation continues', 64, 610, 22, 2.0, 30, col=GREY, font='outfit300')
+    top = rect(X0, 330, 360, 60, TXT, 3.0, 22.0, grow=(3.0, 4.6, 'x'))
+    for j in range(14): rect(X0 + 380 + j * 60, 330, 30, 60, '#2a2a2a', 4.6 + j * .05, 22.0)
+    text('ends', X0 + 380, 400, 22, 4.8, 22.0, col=GREY, font='mono600')
+    rect(X0, 640, L, 60, RED, 5.0, 30, grow=(5.0, 11.0, 'x')); sprite('arrow_red', X1 + 20, 670, 11.0, 30, scale=1.6)
     EV.append((T(3.0), 'mark')); EV.append((T(5.0), 'draw'))
     s, h = doc('doc_terms', 760, 120, 1100, 12.0, 21.0, hls=(12.8, 13.6))
     heading('flexible revenue', X0, 420, 40, 14.0, 22.0, col=TXT); heading('long-term obligations', X0, 730, 40, 15.0, 30, col=RED)
@@ -342,7 +340,8 @@ def s08():
         x = 60 + k * 610; iw, ih = LAY[d]
         rect(x, 150, 580, 520, PANEL, t, 25.5); flash(x, 150, 580, 520, t); text(f'{k + 1:02d}', x + 24, 170, 22, t, 25.5, col=RED, font='mono600'); heading(lab, x + 24, 204, 36, t, 25.5)
         image(d, x + 24, 270, 532, 380, t + .4, 25.5, contain=True, fy=0, fx=0, z0=1.0, z1=1.05); EV.append((T(t), 'paper'))
-    text('form s-1 (aug 14, 2019) · related-party excerpt from s-1/a (sep 3, 2019) · transcriptions', 60, 700, 20, 10.0, 25.5, col=GREY, font='mono400')
+    rect(350, 690, 1220, 4, RED, 17.2, 25.5, grow=(17.2, 18.8, 'x')); [sprite('dot_red', 350 + k * 610, 692, 17.2 + k * .8, 25.5) for k in range(3)]; EV.append((T(17.2), 'draw'))
+    text('form s-1 (aug 14, 2019) · related-party excerpt from s-1/a (sep 3, 2019) · transcriptions', 60, 720, 20, 10.0, 25.5, col=GREY, font='mono400')
     marker('08.2', 9.5, 25.5)
     CX.beat()
     heading('the evidence was public.', 960, 470, 90, 25.5, 30, al='CENTER'); EV.append((T(25.5), 'low'))
@@ -403,6 +402,7 @@ def s11():
     s, h = doc('doc_rw', 1080, 650, 760, 11.2, 30, hls=(12.0,))
     # the line breaks: a dashed continuation that never arrives
     for j in range(6): rect(1320 + j * 70, Y, 36, 4, '#3a3a3a', 13.0 + j * .1, 30)
+    heading('×', 1300, Y - 34, 64, 12.4, 30, col=RED, al='CENTER')
     text('ipo', 1720, Y - 40, 26, 13.6, 30, col=GREY, font='mono600', al='CENTER'); rect(1690, Y + 14, 60, 3, RED, 14.0, 30)
     heading('the ipo never happened.', 960, 190, 80, 18.0, 30, al='CENTER'); EV.append((T(13.0), 'break')); EV.append((T(18.0), 'low'))
     for t0, code in [(0, '11.1'), (10, '11.2'), (20, '11.3')]: marker(code, t0, t0 + 10)
@@ -414,13 +414,13 @@ def s12():
     for k, (v, s) in enumerate(items):
         y = 320 + k * 140; rect(60, y, 1180, 120, PANEL, 1.0 + k * .8, 10); flash(60, y, 1180, 120, 1.0 + k * .8)
         heading(v, 90, y + 22, 56, 1.0 + k * .8, 10, col=RED if k == 0 else TXT); text(s, 600, y + 42, 28, 1.0 + k * .8, 10, font='outfit500')
-    text('as reported (axios, oct 22, 2019) · the tender offer was later abandoned by softbank', 64, 760, 22, 4.0, 10, col=GREY, font='mono400')
+    text('wework press release, oct 22, 2019 · three components, not a single sum · the tender offer was later ended (softbank, apr 2020)', 64, 760, 22, 4.0, 10, col=GREY, font='mono400')
     marker('12.1', 0, 10)
     CX.beat()
     text('mar 26, 2021', 60, 150, 30, 10.0, 20, col=RED, font='mono600'); heading('public listing via spac', 60, 190, 64, 10.0, 20)
     s, h = doc('doc_bowx', 60, 320, 1200, 10.6, 20, hls=(11.6,))
     heading('≈ $9 billion', 1320, 330, 96, 12.4, 20, col=RED); text('announced enterprise value', 1324, 450, 30, 12.8, 20, font='outfit500')
-    text('listed on the nyse: oct 21, 2021 (bowx merger)', 64, 600, 26, 14.0, 20, col=GREY, font='outfit300')
+    doc('doc_closing', 60, 620, 760, 14.0, 20, hls=(14.8,))
     marker('12.2', 10, 20)
     CX.beat()
     for k, (yr, v, lab) in enumerate([('2019', '$47 billion', 'private valuation · reported'), ('2021', '≈ $9 billion', 'enterprise value · announced')]):
@@ -437,12 +437,12 @@ def s13():
     text('offices emptied as staff worked from home', 1244, 500, 26, 2.4, 10.5, col=GREY, font='outfit300', wrap=600)
     marker('13.1', 0, 10.5)
     CX.beat()
-    image('ph_empty1', 60, 110, 860, 500, 10.5, 20, z0=1.0, z1=1.04); tag('photo · vienna · may 2020', 60, 84, 10.5, 20)
+    image('ph_empty1', 60, 110, 860, 560, 10.5, 21, z0=1.0, z1=1.04); tag('photo · vienna · may 2020', 60, 84, 10.5, 21)
     Y = 760; rect(100, Y, 1720, 3, GREY, 10.5, 30)
-    ev = [(100, '2019', 's-1: $33.95b in lease commitments', 11.0), (560, '2020', 'pandemic: demand for offices falls', 12.4), (1020, 'oct 2021', 'public via spac', 13.8), (1480, 'aug 2023', 'plan to cut rent and tenancy costs', 15.2)]
+    ev = [(100, '2019', 's-1: $33.95b in lease commitments', 11.0), (560, '2020', 'pandemic: offices empty', 12.0), (1020, 'mar 2023', '10-k: covid-19 “accelerated the trends”', 13.0), (1480, 'aug 2023', '10-q: “higher member churn and weaker demand”', 14.0)]
     for (x, d, lab, t) in ev:
         sprite('dot_red', x, Y + 1, t, 30); text(d, x, Y + 26, 24, t, 30, col=RED, font='mono600'); text(lab, x, Y + 62, 22, t, 30, font='outfit500', wrap=420); EV.append((T(t), 'mark'))
-    text('aug 2023 entry: form 10-q, quarter ended june 30, 2023', 960, 680, 20, 15.6, 30, col=GREY, font='mono400')
+    doc('doc_covid', 960, 110, 900, 15.0, 21, hls=(15.8,)); doc('doc_churn', 960, 380, 900, 16.6, 21, hls=(17.4, 17.8))
     marker('13.2', 10.5, 21)
     CX.beat()
     heading('a new shock.', 60, 180, 96, 21.0, 30); heading('an old problem.', 60, 300, 96, 22.6, 30, col=RED); EV.append((T(22.6), 'low'))
@@ -460,24 +460,29 @@ def s14():
     text('reported in november 2023, after the filing', 1324, 430, 22, 13.4, 20.5, col=GREY, font='mono400', wrap=540)
     marker('14.2', 10.5, 20.5)
     CX.beat()
-    image('doc_petition', 60, 110, 620, 790, 20.5, 30, fy=0, z0=1.0, z1=1.08); EV.append((T(20.5), 'boom'))
+    image('doc_petition', 60, 110, 560, 790, 20.5, 30, fy=0, z0=1.0, z1=1.08); EV.append((T(20.5), 'boom'))
     tag('voluntary petition · doc 1 · filed 11/06/23', 60, 84, 20.5, 30)
-    text('aug 2023', 760, 300, 30, 21.0, 30, col=GREY, font='mono600'); text('warning', 760, 340, 40, 21.0, 30, col=GREY, font='outfit700')
-    rect(760, 420, 900, 3, RED, 21.6, 30, grow=(21.6, 23.0, 'x'))
-    text('nov 6, 2023', 1660, 300, 30, 23.0, 30, col=RED, font='mono600', al='RIGHT'); heading('chapter 11', 1660, 340, 64, 23.0, 30, al='RIGHT')
-    text('three months between the warning and the filing', 760, 480, 26, 24.4, 30, col=GREY, font='outfit300')
+    X0, X1 = 720, 1840; dd = (X1 - X0) / 105            # aug 8 → nov 21, 2023 = 105 days
+    rect(X0, 500, X1 - X0, 3, GREY, 20.8, 30, grow=(20.8, 22.0, 'x')); text('day scale · aug 8 → nov 21, 2023', X0, 900, 20, 21.0, 30, col=GREY, font='mono400')
+    D4 = [(0, 'aug 8', 'going-concern warning', '10-q · cash $205m at jun 30', GREY), (53, 'sep 30', 'quarter ends', 'cash $462m (later disclosed)', GREY), (90, 'nov 6', 'chapter 11 filed', 'voluntary petition', RED), (105, 'nov 21', '$462m disclosed', '8-k · unaudited', GREY)]
+    for k, (d, lab, h1, h2, col) in enumerate(D4):
+        x = X0 + d * dd; t = 21.4 + k * 1.2; up = k % 2 == 0; al = 'RIGHT' if k == 3 else 'LEFT'; tx = x - 10 if k == 3 else x + 10
+        sprite('dot_red' if col == RED else 'dot_white', x, 501, t, 30); rect(x - 1, 380 if up else 510, 2, 110, col, t, 30)
+        text(lab, tx, 380 if up else 560, 30, t, 30, col=RED if col == RED else TXT, font='mono600', al=al); text(h1, tx, 420 if up else 600, 24, t, 30, font='outfit700', al=al); text(h2, tx, 452 if up else 632, 20, t, 30, col=GREY, font='mono400', al=al)
+        EV.append((T(t), 'mark'))
+    text('the warning came first · the filing followed 90 days later', X0, 780, 28, 26.0, 30, font='outfit500')
     marker('14.3', 20.5, 30)
 
 @scene(15, 'what survived')
 def s15():
     image('doc_petition', 60, 140, 560, 700, 0.2, 20.5, fy=0); tag('nov 6, 2023 · chapter 11', 60, 114, 0.2, 20.5)
-    s, h = doc('doc_emerge', 1300, 300, 560, 2.0, 20.5, hls=(3.0,)); tag('jun 11, 2024 · emergence', 1300, 274, 2.0, 20.5)
+    s, h = doc('doc_emerge', 1300, 330, 560, 2.0, 20.5, hls=(3.0,)); tag('jun 11, 2024 · emergence', 1300, 274, 2.0, 20.5)
     rect(640, 480, 640, 4, RED, 4.0, 20.5, grow=(4.0, 6.5, 'x')); sprite('dot_red', 640, 482, 4.0, 20.5); sprite('dot_red', 1280, 482, 6.5, 20.5); EV.append((T(4.0), 'draw'))
-    text('7 months', 960, 500, 24, 6.5, 20.5, col=RED, font='mono600', al='CENTER')
+    text('218 days', 960, 500, 30, 6.5, 20.5, col=RED, font='mono600', al='CENTER')
     marker('15.1', 0, 10)
     CX.beat()
     image('ph_chicago', 660, 560, 600, 300, 10.5, 20.5, fy=.6); tag('photo · wework, chicago · 2018', 660, 534, 10.5, 20.5)
-    text('the company continued, in reorganized form', 960, 890, 28, 12.0, 20.5, font='outfit500', al='CENTER')
+    text('the company continued, in reorganized form · photo from 2018', 960, 890, 28, 12.0, 20.5, font='outfit500', al='CENTER')
     marker('15.2', 10, 20)
     heading('the business survived.', 960, 400, 80, 20.6, 30, al='CENTER'); heading('the original valuation story did not.', 960, 510, 64, 22.5, 30, col=RED, al='CENTER'); EV.append((T(22.5), 'low'))
     marker('15.3', 20, 30)
@@ -486,7 +491,7 @@ def s15():
 def s16():
     v = heading('$47,000,000,000', 960, 420, 170, 0.2, 14.0, al='CENTER'); EV.append((T(0.2), 'boom'))
     v.blend_alpha = 1; v.keyframe_insert('blend_alpha', frame=F(T(9.5))); v.blend_alpha = .0; v.keyframe_insert('blend_alpha', frame=F(T(14.0)) - 1)
-    cards = [('long-term lease commitments', '$33.95b + $13.1b signed (s-1)', 60, 120, 1.4), ('expensive expansion', '2018 net loss $1.93b (s-1)', 1260, 120, 2.8), ('governance concerns', '20 votes per share; trademark deal (s-1)', 60, 760, 4.2), ('changing office demand', '2020 pandemic; going concern, aug 2023', 1260, 760, 5.6)]
+    cards = [('long-term lease commitments', '$33.95b + $13.1b signed (s-1)', 60, 120, 1.4), ('expensive expansion', '2018 net loss $1.93b (s-1)', 1260, 120, 2.8), ('governance concerns', '20 votes per share; $5.9m trademark deal (s-1)', 60, 760, 4.2), ('changing office demand', '10-k covid statement; 10-q churn, aug 2023', 1260, 760, 5.6)]
     for (h_, s, x, y, t) in cards:
         # cards converge toward the valuation
         c1 = rect(x, y, 600, 200, PANEL, t, 14.0); c2 = rect(x, y, 6, 200, RED, t, 14.0)
@@ -503,7 +508,7 @@ def s16():
     heading('a useful product is not always', 960, 400, 80, 14.5, 23.0, al='CENTER'); heading('a sustainable investment.', 960, 500, 80, 15.5, 23.0, col=RED, al='CENTER'); EV.append((T(14.5), 'low'))
     marker('16.2', 14, 23)
     CX.beat()
-    e = heading('brand coroner.', 960, 420, 110, 23.4, 30, al='CENTER'); f = text('every brand leaves evidence.', 960, 570, 40, 24.6, 30, col=GREY, font='outfit500', al='CENTER')
+    e = heading('brand coroner', 943, 420, 110, 23.4, 30, al='CENTER'); e2 = text('.', 1305, 420, 110, 23.4, 30, col=RED); fade(e2, 23.4, 30, 1, 0, 2.0); f = text('every brand leaves evidence.', 960, 570, 40, 24.6, 30, col=GREY, font='outfit500', al='CENTER')
     rect(810, 555, 300, 2, RED, 24.2, 30, grow=(24.2, 25.0, 'x'))
     for st in (e, f): fade(st, 23.4, 30, 1, 0, 2.0)
     marker('16.3', 23, 30)

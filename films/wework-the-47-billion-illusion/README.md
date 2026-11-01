@@ -10,7 +10,8 @@ An 8-minute silent documentary animatic in the Visual Investigation identity, bu
 
 | Path | Contents |
 |---|---|
-| `brand-coroner-case002-wework.mp4` | The animatic |
+| `BRAND_CORONER_CASE002_WEWORK_FINAL_4K.mp4` | 4K master, 3840×2160 (repo copy, CRF 24, to fit under 100 MB) |
+| `BRAND_CORONER_CASE002_WEWORK_1080p_YouTube.mp4` | 1080p YouTube version |
 | `project/wework.blend` | Editable Blender 4.2 project. Master timeline with 16 scene meta strips (S01–S16), 48 narration markers, a vignette, the fade to black and the sound strip |
 | `project/build.py` | Builds the .blend from scratch: `blender -b -P build.py` |
 | `project/render_chunk.py` | Renders a frame range, e.g. `blender -b wework.blend -P render_chunk.py -- 1 2880 out/chunk0.mp4` |
