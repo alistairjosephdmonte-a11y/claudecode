@@ -1,0 +1,684 @@
+1
+00:00:03,550 --> 00:00:04,860
+Forty-seven billion dollars.
+
+2
+00:00:05,877 --> 00:00:10,165
+That's what investors reportedly
+valued WeWork at in 2019.
+
+3
+00:00:10,859 --> 00:00:13,489
+Not a company manufacturing
+breakthrough technology.
+
+4
+00:00:14,079 --> 00:00:17,289
+Not a company selling software
+to millions of users.
+
+5
+00:00:17,827 --> 00:00:22,660
+A company renting office space,
+redesigning it, and renting it out again.
+
+6
+00:00:22,700 --> 00:00:25,949
+Its founder promised to change
+the way the world worked.
+
+7
+00:00:26,416 --> 00:00:30,294
+Four years later, WeWork was
+filing for bankruptcy protection.
+
+8
+00:00:30,765 --> 00:00:33,822
+So how did a forty-seven-billion-dollar
+dream unravel?
+
+9
+00:00:35,783 --> 00:00:38,654
+The bankruptcy filing wasn't
+the beginning of the story.
+
+10
+00:00:39,064 --> 00:00:40,974
+It was the result of years of decisions.
+
+11
+00:00:41,715 --> 00:00:47,047
+WeWork offered something customers genuinely
+wanted: flexible, attractive offices
+
+12
+00:00:47,377 --> 00:00:50,487
+without the burden of building
+an entire workplace themselves.
+
+13
+00:00:51,320 --> 00:00:54,351
+But beneath that promise was
+a financial contradiction.
+
+14
+00:00:55,031 --> 00:01:00,395
+Its customers wanted flexibility. Its
+landlords wanted long-term commitments.
+
+15
+00:01:01,103 --> 00:01:03,316
+And WeWork stood between them.
+
+16
+00:01:03,687 --> 00:01:08,554
+To understand the collapse, we need to
+examine what the company was selling, what it
+
+17
+00:01:08,594 --> 00:01:11,324
+was spending, and what its
+own documents revealed.
+
+18
+00:01:13,186 --> 00:01:19,617
+When WeWork opened its first location in
+New York in 2010, the idea was compelling.
+
+19
+00:01:19,729 --> 00:01:24,574
+Traditional office space often required a
+business to negotiate a lease, furnish the
+
+20
+00:01:24,614 --> 00:01:29,254
+premises, arrange services and commit
+capital before employees could even begin
+
+21
+00:01:29,294 --> 00:01:30,294
+working.
+
+22
+00:01:30,425 --> 00:01:32,486
+WeWork offered an alternative.
+
+23
+00:01:33,055 --> 00:01:38,694
+Desks, meeting rooms, shared spaces and a
+recognizable design language were bundled
+
+24
+00:01:38,734 --> 00:01:41,084
+into a more convenient experience.
+
+25
+00:01:41,652 --> 00:01:46,177
+For startups, freelancers and expanding
+companies, the appeal was real.
+
+26
+00:01:46,637 --> 00:01:50,243
+This wasn't a business
+built entirely on hype.
+
+27
+00:01:50,873 --> 00:01:53,223
+There was a useful product underneath it.
+
+28
+00:01:54,756 --> 00:01:59,013
+But under co-founder Adam Neumann, WeWork
+became more than an office-space business
+
+29
+00:01:59,053 --> 00:02:00,723
+in its own telling.
+
+30
+00:02:01,264 --> 00:02:05,593
+It described a global community, a
+network and a new way of working.
+
+31
+00:02:05,990 --> 00:02:08,543
+Expansion became central to the story.
+
+32
+00:02:08,994 --> 00:02:13,077
+More buildings meant more cities.
+More cities meant more members.
+
+33
+00:02:13,267 --> 00:02:17,517
+And more members seemed to promise
+an increasingly valuable platform.
+
+34
+00:02:18,128 --> 00:02:21,177
+That narrative attracted
+enormous amounts of capital.
+
+35
+00:02:21,766 --> 00:02:26,299
+Yet the larger WeWork became, the
+more important one question grew.
+
+36
+00:02:26,712 --> 00:02:29,327
+Could the economics support the ambition?
+
+37
+00:02:31,044 --> 00:02:35,112
+Strip away the branding, and WeWork's
+core business was surprisingly
+
+38
+00:02:35,152 --> 00:02:36,322
+straightforward.
+
+39
+00:02:36,938 --> 00:02:42,028
+It signed leases with property owners. It
+spent money transforming those properties
+
+40
+00:02:42,068 --> 00:02:48,528
+into attractive workspaces. Then it sold
+access to those spaces through memberships
+
+41
+00:02:48,568 --> 00:02:49,918
+and office agreements.
+
+42
+00:02:50,612 --> 00:02:55,502
+The opportunity was clear. A busy location
+could generate substantial revenue.
+
+43
+00:02:56,034 --> 00:03:01,145
+But the company had to commit to rent,
+construction, furniture and staffing before
+
+44
+00:03:01,185 --> 00:03:03,235
+the building reached its potential.
+
+45
+00:03:03,638 --> 00:03:08,881
+Every new location required investment.
+And every new lease created another
+
+46
+00:03:08,921 --> 00:03:09,921
+obligation.
+
+47
+00:03:11,576 --> 00:03:13,718
+Here's where the risk becomes clearer.
+
+48
+00:03:14,220 --> 00:03:17,837
+Many WeWork customers could commit
+for relatively short periods.
+
+49
+00:03:18,567 --> 00:03:22,377
+The company itself often signed
+leases lasting many years.
+
+50
+00:03:22,920 --> 00:03:26,323
+When demand was strong, the
+difference could be managed.
+
+51
+00:03:26,897 --> 00:03:31,373
+When demand weakened, customers could
+leave faster than WeWork could reduce its
+
+52
+00:03:31,413 --> 00:03:32,523
+obligations.
+
+53
+00:03:33,443 --> 00:03:37,116
+Rent still had to be paid.
+Buildings still needed maintenance.
+
+54
+00:03:37,706 --> 00:03:40,316
+And unused space still carried costs.
+
+55
+00:03:40,956 --> 00:03:43,357
+The problem wasn't flexibility itself.
+
+56
+00:03:44,021 --> 00:03:46,669
+It was who carried the
+risk of providing it.
+
+57
+00:03:48,256 --> 00:03:54,586
+By June 2019, WeWork had disclosed
+approximately thirty-four billion dollars in
+
+58
+00:03:54,626 --> 00:03:58,856
+future minimum payments on operating
+leases that had already commenced.
+
+59
+00:03:59,515 --> 00:04:04,448
+These were undiscounted payments spread over
+future years, not a single bill payable
+
+60
+00:04:04,488 --> 00:04:05,488
+tomorrow.
+
+61
+00:04:05,818 --> 00:04:10,507
+And there were additional commitments
+for leases signed but not yet started.
+
+62
+00:04:11,038 --> 00:04:14,458
+The numbers revealed the scale
+of the company's expansion.
+
+63
+00:04:14,975 --> 00:04:20,102
+They also revealed how much of its future
+depended on keeping buildings occupied and
+
+64
+00:04:20,142 --> 00:04:21,142
+revenue flowing.
+
+65
+00:04:22,906 --> 00:04:27,052
+On August fourteenth,
+2019, the story changed.
+
+66
+00:04:27,599 --> 00:04:31,651
+WeWork's parent company filed its
+registration statement for an initial public
+
+67
+00:04:31,691 --> 00:04:32,781
+offering.
+
+68
+00:04:32,881 --> 00:04:37,490
+For years, investors had been hearing about
+community, growth and transformation.
+
+69
+00:04:38,182 --> 00:04:42,298
+Now the company was asking public-market
+investors to examine its financial
+
+70
+00:04:42,338 --> 00:04:43,488
+statements.
+
+71
+00:04:44,045 --> 00:04:47,265
+And inside those documents were
+the details that mattered.
+
+72
+00:04:47,732 --> 00:04:52,542
+Revenue. Losses. Lease commitments.
+Governance arrangements.
+
+73
+00:04:53,315 --> 00:04:58,175
+The company's own disclosures made it
+possible to test the promise against the
+
+74
+00:04:58,215 --> 00:04:59,215
+economics.
+
+75
+00:05:00,792 --> 00:05:06,381
+In 2018, WeWork reported roughly one
+point eight billion dollars in revenue.
+
+76
+00:05:06,874 --> 00:05:11,559
+It also reported a net loss of
+approximately one point six billion.
+
+77
+00:05:12,045 --> 00:05:15,785
+The company was expanding rapidly,
+but the losses were substantial.
+
+78
+00:05:16,414 --> 00:05:19,857
+That didn't automatically mean
+the business could never work.
+
+79
+00:05:20,283 --> 00:05:24,045
+High-growth companies often spend
+heavily before reaching profitability.
+
+80
+00:05:24,782 --> 00:05:30,078
+The question was whether WeWork's economics
+would improve as it expanded, or whether
+
+81
+00:05:30,118 --> 00:05:33,108
+expansion would keep
+demanding more capital.
+
+82
+00:05:34,828 --> 00:05:36,727
+The filing raised another question.
+
+83
+00:05:37,181 --> 00:05:41,410
+Who was benefiting from the company's
+success, and who controlled its decisions?
+
+84
+00:05:42,104 --> 00:05:47,869
+One disclosed transaction involved
+trademarks associated with the word "We."
+
+85
+00:05:48,343 --> 00:05:52,233
+An entity connected to Adam Neumann had
+received interests valued at approximately
+
+86
+00:05:52,273 --> 00:05:57,543
+five point nine million dollars
+in exchange for those rights.
+
+87
+00:05:58,159 --> 00:06:00,308
+The arrangement was later unwound.
+
+88
+00:06:00,838 --> 00:06:05,649
+Meanwhile, the proposed voting structure
+gave Neumann extraordinary influence.
+
+89
+00:06:06,257 --> 00:06:09,239
+Investors weren't just
+evaluating a business model.
+
+90
+00:06:09,717 --> 00:06:11,870
+They were evaluating its governance.
+
+91
+00:06:13,761 --> 00:06:16,467
+The planned IPO began to unravel.
+
+92
+00:06:16,970 --> 00:06:21,915
+Investors questioned the valuation, the
+losses, and the governance structure.
+
+93
+00:06:22,373 --> 00:06:25,610
+The original investment
+story was no longer enough.
+
+94
+00:06:26,168 --> 00:06:31,271
+In September 2019, Adam Neumann
+stepped down as chief executive.
+
+95
+00:06:31,922 --> 00:06:36,665
+On September thirtieth, WeWork formally
+withdrew its IPO registration.
+
+96
+00:06:37,454 --> 00:06:42,506
+A company that had spent years pursuing
+rapid expansion was suddenly confronting a
+
+97
+00:06:42,546 --> 00:06:43,956
+much harder reality.
+
+98
+00:06:44,406 --> 00:06:47,069
+Its next challenge wasn't growing faster.
+
+99
+00:06:47,626 --> 00:06:50,397
+It was securing the
+capital needed to survive.
+
+100
+00:06:52,357 --> 00:06:55,660
+SoftBank stepped in with a
+major financing package.
+
+101
+00:06:56,183 --> 00:07:01,006
+WeWork began cutting costs, restructuring
+operations and reconsidering its property
+
+102
+00:07:01,046 --> 00:07:02,056
+commitments.
+
+103
+00:07:02,793 --> 00:07:06,968
+Two years later, it finally reached the
+public market through a merger with a
+
+104
+00:07:07,008 --> 00:07:09,098
+special-purpose acquisition company.
+
+105
+00:07:09,522 --> 00:07:14,498
+The announced transaction carried an initial
+enterprise value of approximately nine
+
+106
+00:07:14,538 --> 00:07:15,948
+billion dollars.
+
+107
+00:07:16,815 --> 00:07:21,473
+That wasn't directly comparable to
+the earlier private equity valuation.
+
+108
+00:07:21,513 --> 00:07:25,836
+But the change in investor
+expectations was unmistakable.
+
+109
+00:07:26,280 --> 00:07:28,119
+The company was still operating.
+
+110
+00:07:28,651 --> 00:07:30,506
+The dream had been repriced.
+
+111
+00:07:32,160 --> 00:07:33,801
+Then came another challenge.
+
+112
+00:07:34,426 --> 00:07:39,450
+In 2020, the pandemic disrupted
+office demand around the world.
+
+113
+00:07:39,880 --> 00:07:44,405
+Companies experimented with remote work.
+Tenants reconsidered how much space they
+
+114
+00:07:44,445 --> 00:07:48,535
+needed. And uncertainty made
+long-term planning more difficult.
+
+115
+00:07:49,088 --> 00:07:54,188
+For WeWork, already attempting a major
+restructuring, the timing was punishing.
+
+116
+00:07:54,749 --> 00:07:59,606
+The company negotiated lease changes,
+exited locations and tried to reduce its
+
+117
+00:07:59,646 --> 00:08:00,646
+commitments.
+
+118
+00:08:01,216 --> 00:08:04,982
+But restructuring a global
+property portfolio takes time.
+
+119
+00:08:05,531 --> 00:08:08,398
+And time was becoming
+increasingly expensive.
+
+120
+00:08:10,313 --> 00:08:14,544
+By 2023, the warnings had become explicit.
+
+121
+00:08:15,111 --> 00:08:20,426
+WeWork disclosed substantial doubt about
+its ability to continue as a going concern.
+
+122
+00:08:20,960 --> 00:08:26,281
+Losses, member churn and liquidity pressure
+had narrowed the company's options.
+
+123
+00:08:26,881 --> 00:08:30,651
+At the end of September, it reported
+approximately four hundred and sixty-two
+
+124
+00:08:30,691 --> 00:08:34,001
+million dollars in cash
+and cash equivalents.
+
+125
+00:08:34,672 --> 00:08:39,078
+On November sixth, WeWork and certain
+subsidiaries filed for Chapter Eleven
+
+126
+00:08:39,118 --> 00:08:41,288
+bankruptcy protection.
+
+127
+00:08:41,789 --> 00:08:44,769
+The growth story had reached
+its financial reckoning.
+
+128
+00:08:46,424 --> 00:08:50,549
+But bankruptcy did not mean the
+disappearance of every WeWork office.
+
+129
+00:08:51,206 --> 00:08:54,349
+The company continued operating
+through the restructuring process.
+
+130
+00:08:55,046 --> 00:09:01,367
+On June eleventh, 2024, it emerged from
+Chapter Eleven with a reorganized business
+
+131
+00:09:01,407 --> 00:09:04,457
+and a reduced portfolio of obligations.
+
+132
+00:09:05,230 --> 00:09:07,019
+The service still existed.
+
+133
+00:09:07,661 --> 00:09:10,443
+Customers could still use WeWork spaces.
+
+134
+00:09:11,052 --> 00:09:16,671
+What had collapsed was the original
+investment narrative that once supported a
+
+135
+00:09:16,711 --> 00:09:19,301
+forty-seven-billion-dollar
+private valuation.
+
+136
+00:09:19,941 --> 00:09:20,974
+The product survived.
+
+137
+00:09:21,732 --> 00:09:23,815
+The financial story had changed.
+
+138
+00:09:25,646 --> 00:09:29,509
+So what happened to WeWork's
+forty-seven-billion-dollar dream?
+
+139
+00:09:30,003 --> 00:09:31,660
+It wasn't one mistake.
+
+140
+00:09:32,193 --> 00:09:36,536
+It was the combination of expensive
+expansion, long-term lease commitments,
+
+141
+00:09:36,576 --> 00:09:42,066
+governance concerns, and a business
+exposed to changing demand.
+
+142
+00:09:42,672 --> 00:09:45,925
+WeWork proved that customers
+wanted flexible offices.
+
+143
+00:09:46,602 --> 00:09:51,428
+But a useful product and a sustainable
+investment are not the same thing.
+
+144
+00:09:51,828 --> 00:09:55,223
+The warning signs were visible in
+the company's own disclosures.
+
+145
+00:09:55,937 --> 00:09:58,117
+And that is the final lesson.
+
+146
+00:09:58,587 --> 00:10:00,398
+Every brand leaves evidence.
+

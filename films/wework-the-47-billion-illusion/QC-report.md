@@ -4,12 +4,15 @@
 
 | Check | Result |
 |---|---|
-| Runtime | 8:00 (480.000 s), 11,520 frames at 24 fps |
+| Runtime | **10:06 (606.2 s), 14,548 frames at 24 fps.** The approved narration (1,186 words) at a natural documentary pace of 134 wpm needs 8:50 of speech alone, so the 8:00 target was not forced; the narration was not sped up, as the brief instructs |
 | 4K master | 3840×2160, H.264, Rec.709 SDR (bt709 primaries, transfer and matrix), stereo 48 kHz AAC |
 | 1080p YouTube | 1920×1080 downscale of the 4K master, H.264, Rec.709, stereo 48 kHz |
-| Picture | Rendered in four chunks of 2,880 frames, each verified, then concatenated. No gaps or duplicated frames |
-| Sound | Original underscore and Foley, one continuous track; −16 LUFS integrated |
-| Project | `wework.blend` (Blender 4.2 LTS): 16 scene meta strips S01–S16, 662 editable strips, 48 narration markers, relative asset paths |
+| Picture | Rendered in four chunks of 3,637 frames, each verified, then concatenated. No gaps or duplicated frames |
+| Sound | The approved narration, verbatim (109 lines; Chatterbox voice, the same Brand Coroner narrator timbre as Case 001), over the original underscore and Foley. Music ducks about 9 dB under the voice. −16 LUFS integrated |
+| Narration check | Every line was transcribed by Whisper and compared with the script. The only differences were number formatting ("$47 billion") and "we work" spacing. Two lines were re-voiced ("risk" heard as "wrist"; "questioned" heard as "question") and now match |
+| Subtitles | `BRAND_CORONER_CASE002_WEWORK_EN.srt`: 146 cues, at most 2 rows × 42 characters, timed from word timestamps |
+| Sync | Each scene's design is time-warped onto the voiceover, so key beats land on their lines (e.g. the $47B figure on "forty-seven billion dollars", the timeline stopping on "formally withdrew", the cards converging on "the combination of…"). Timeline markers sit at every line start in the .blend |
+| Project | `wework.blend` (Blender 4.2 LTS): 16 scene meta strips S01–S16, 613 editable strips, 109 line markers, relative asset paths. `vo/timeline.json` holds scene lengths and warps |
 | Review | 540p review master rendered first; 96 frames checked (one every 5 s). Fixed: the scene 04 S-1 quote card was too small to read. Single-frame white "cut-in" flashes are intentional |
 
 ## Storyboard and fact-check alignment
@@ -28,14 +31,13 @@
 - **Scene 15:** 218 days. Emergence from the 8-K: "The Plan became effective on June 11, 2024".
 - **Scene 16:** each card cites evidence shown earlier. Identity: "brand coroner" with a red period; "every brand leaves evidence."
 
-## Not delivered as specified (needs material from you)
+## Notes for review
 
-1. **Narration / voiceover:** the "complete approved documentary narration" was not supplied, again. No voice was invented. The film is silent apart from the score and Foley, with 48 beat markers (`narration-markers.srt`). Once the script and recorded voiceover arrive, picture timing needs a conform pass.
-2. **English subtitle SRT:** depends on the narration. The marker SRT is provided in its place.
-3. **Genuine SEC page images:** EDGAR refuses automated capture without a declared contact, so filings appear as flat editorial transcriptions labelled "not a facsimile", per section 04 of the brief. The bankruptcy petition is the real court document. Two quotes, the 8-K Oct 26, 2021 closing and the 8-K Jun 12, 2024 effective date, were taken from your fact-check file and not re-fetched here.
-4. **Photography gaps:**
-   - No licensable 2010–2014 WeWork interiors were found, so the 2018 Vancouver photos are used, with their dates.
-   - No licensable post-2024 photo of the reorganized business was found, so the Chicago 2018 photo is labelled as such.
-   - The pandemic offices are in Vienna (IAEA, 2020) and are labelled as general context, not WeWork.
-   - There is no SoftBank imagery and no logos.
-5. **Brand typeface:** Outfit (OFL) stands in until the exact Brand Coroner font file is supplied.
+1. **Runtime 10:06, not 8:00.** See above. To land at 8:00 the script would need to drop to about 950 words, or be read noticeably faster.
+2. **Two narration lines differ slightly from the filings.** They are voiced verbatim; the screen carries the precise label.
+   - Scene 09, "a net loss of approximately one point six billion": $1.61B is the net loss attributable to WeWork Companies Inc.; the total net loss was $1.93B.
+   - Scene 14: the $462M (Sep 30, 2023) is spoken before "On November sixth… filed", but it was disclosed on Nov 21, 2023. The day-scaled timeline shows the true order.
+3. **Scene 13 narration** ("negotiated lease changes, exited locations") has no matching on-screen numbers. None were invented; the dated 10-K and 10-Q statements are shown.
+4. **Genuine SEC page images** need a declared SEC contact. Filings are flat transcriptions labelled "not a facsimile"; the bankruptcy petition is the real court document. The 8-K Oct 26, 2021 and 8-K Jun 12, 2024 quotes come from your fact-check file.
+5. **Photography gaps:** there is no licensable early-era (2010–2014) or post-2024 WeWork photography, so dated 2018 photos are used. The pandemic offices (Vienna, IAEA 2020) are labelled as general context.
+6. **Brand typeface:** Outfit (OFL) stands in until the Brand Coroner font file is supplied.

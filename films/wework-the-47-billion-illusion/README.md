@@ -1,6 +1,6 @@
 # Brand Coroner · Case 002 · WeWork: "the $47 billion illusion"
 
-An 8-minute silent documentary animatic in the Visual Investigation identity, built and rendered in Blender.
+A 10:06 investigative documentary with the approved narration, in the Visual Investigation identity, built and rendered in Blender.
 
 - **Format:** 1920×1080, 24 fps, 11,520 frames, H.264, Rec.709.
 - **Palette:** #080808 ground, #FF2400 accent, #F5F3EF type, #858585 grey.
@@ -17,7 +17,9 @@ An 8-minute silent documentary animatic in the Visual Investigation identity, bu
 | `project/render_chunk.py` | Renders a frame range, e.g. `blender -b wework.blend -P render_chunk.py -- 1 2880 out/chunk0.mp4` |
 | `project/tools/prep_assets.py` | Graded photos, the real petition page, typeset filing transcriptions with measured highlight boxes, the map and graphics |
 | `project/audio/mix.py` | Restrained underscore and Foley, cued from `events.json` |
-| `narration-markers.srt` | Beat markers for recording narration later |
+| `BRAND_CORONER_CASE002_WEWORK_EN.srt` | English subtitles (146 cues) |
+| `stems/` | Narration, music and Foley stems (FLAC) |
+| `project/vo/` | Script, voiced-line list, timeline conform (`timeline.py`), voice and subtitle scripts |
 | `FACTS.md` | Sources for every on-screen claim |
 | `CREDITS.md` | Photo, document and font credits |
 | `QC-report.md` | Technical checks and departures from the brief |
@@ -25,4 +27,4 @@ An 8-minute silent documentary animatic in the Visual Investigation identity, bu
 
 ## Structure
 
-16 scenes × 30 s, six acts: the valuation · the promise · the machine · the documents speak · the break · the reckoning.
+16 scenes in six acts, each timed to its narration: the valuation · the promise · the machine · the documents speak · the break · the reckoning.

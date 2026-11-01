@@ -10,6 +10,8 @@ import bpy, json, os, math
 D = os.path.dirname(os.path.abspath(__file__)); A = os.path.join(D, 'assets'); FT = os.path.join(D, 'fonts')
 LAY = json.load(open(os.path.join(A, 'layout.json')))
 FPS, W, H, DUR = 24, 1920, 1080, 480
+TLP = os.path.join(D, 'vo', 'timeline.json'); TL = json.load(open(TLP)) if os.path.exists(TLP) else None
+if TL: DUR = TL['total']
 def hexc(h, a=None): h = h.lstrip('#'); c = tuple(int(h[i:i + 2], 16) / 255 for i in (0, 2, 4)); return c + ((a,) if a is not None else ())
 BG, RED, TXT, GREY, PANEL, RULE = '#080808', '#FF2400', '#F5F3EF', '#858585', '#121212', '#2B2B2B'
 F = lambda t: int(round(t * FPS)) + 1
@@ -18,7 +20,7 @@ F = lambda t: int(round(t * FPS)) + 1
 for s in list(bpy.data.scenes)[1:]: bpy.data.scenes.remove(s)
 sc = bpy.context.scene; sc.name = 'brand_coroner_case002_wework'
 sc.render.resolution_x, sc.render.resolution_y, sc.render.resolution_percentage = W, H, 100
-sc.render.fps = FPS; sc.frame_start, sc.frame_end = 1, DUR * FPS
+sc.render.fps = FPS; sc.frame_start, sc.frame_end = 1, int(round(DUR * FPS))
 sc.view_settings.view_transform = 'Standard'; sc.view_settings.look = 'None'; sc.sequencer_colorspace_settings.name = 'sRGB'
 if sc.sequence_editor: sc.sequence_editor_clear()
 SE = sc.sequence_editor_create()
@@ -28,12 +30,16 @@ NAMES = [0]
 def nm(p): NAMES[0] += 1; return f'{p}{NAMES[0]:04d}'
 
 class Ctx:
-    def __init__(self, meta, base): self.m, self.base, self.c, self.keep = meta, base, 2, 2
+    def __init__(self, meta, base, warp=None): self.m, self.base, self.c, self.keep, self.warp = meta, base, 2, 2, warp or [(0, 0), (30, 30)]
     def ch(self): self.c += 1; assert self.c < 127, 'too many channels'; return self.c
     def beat(self): self.c = self.keep
     def hold(self): self.keep = self.c
 CX = None
-def T(t): return CX.base + t
+def T(t):                       # design time (0–30 grid) → film time, piecewise-linear warp onto the voiceover
+    w = CX.warp; t = max(0.0, min(30.0, t))
+    for (a0, b0), (a1, b1) in zip(w, w[1:]):
+        if t <= a1: return CX.base + b0 + (b1 - b0) * (t - a0) / (a1 - a0)
+    return CX.base + w[-1][1]
 
 def fade(strip, t0, t1, a=1.0, fin=0.0, fout=0.0, flash=False):
     """opacity: cut in (fin=0) or fade; hold; cut/fade out"""
@@ -118,8 +124,7 @@ def heading(st, x, y, size, t0, t1, col=TXT, al='LEFT'):
     EV.append((T(t0), 'type')); return text(st, x, y, size, t0, t1, col=col, al=al)
 
 def marker(code, t0, t1):     # on-screen narration marker for the silent animatic (low-key, bottom left)
-    text(f'narration marker {code}', 60, 1032, 15, t0, t1, col='#5a5a5a', font='mono400')
-    sc.timeline_markers.new(f'N{code}', frame=F(T(t0)))
+    pass
 
 def chrome(i, title, act=None):
     text('brand coroner · case 002', 60, 40, 16, 0, 30, col=GREY, font='mono600')
@@ -203,29 +208,25 @@ def s02():
 # ═══════════════════════════ ACT 02 · THE PROMISE ═══════════════════════════
 @scene(3, 'a different kind of office', 'act 02 · the promise')
 def s03():
-    # beat 1: traditional vs flexible
-    heading('traditional office', 60, 130, 56, 0.4, 10, col=GREY)
-    for k, s in enumerate(['sign a long lease', 'build it out', 'furnish it', 'staff it']): text(f'—  {s}', 64, 230 + k * 64, 34, 1.2 + k * .5, 10, col=GREY, font='outfit500')
-    rect(940, 110, 2, 640, RULE, 0.4, 10)
-    heading('flexible workspace', 1000, 130, 56, 3.6, 10)
-    image('ph_van5', 1000, 230, 860, 520, 4.0, 10, fx=.5, fy=.5, z0=1.0, z1=1.05)
-    tag('photo · wework, vancouver · dec 2018', 1000, 204, 4.0, 10)
-    text('walk in · it is already built', 1004, 780, 30, 6.0, 10, font='outfit500')
-    marker('03.1', 0, 10)
-    # beat 2: archival collage
+    # beat 1: first location, from the S-1
+    doc('doc_first', 60, 300, 1100, 0.3, 9.0, hls=(1.2, 2.2))
+    heading('2010', 1300, 260, 150, 0.8, 9.0, col=RED); text('first location', 1304, 450, 40, 1.4, 9.0, font='outfit500'); text('154 grand street, new york', 1304, 510, 28, 2.0, 9.0, col=GREY, font='outfit300')
+    # beat 2: traditional vs flexible
     CX.beat()
-    P = [('ph_van5', 60, 'space', 'furnished floors, shared and private', 'vancouver · dec 2018', 10.4), ('ph_van4', 670, 'services', 'front desk, upkeep, amenities', 'vancouver · dec 2018', 12.4), ('ph_van2', 1280, 'flexibility', 'check in as a member', 'vancouver · dec 2018', 14.4)]
+    heading('traditional office', 60, 130, 56, 9.0, 19.0, col=GREY)
+    for k, s_ in enumerate(['negotiate a lease', 'furnish the premises', 'arrange services', 'commit capital']): text(f'—  {s_}', 64, 230 + k * 64, 34, 9.6 + k * .7, 19.0, col=GREY, font='outfit500')
+    rect(940, 110, 2, 640, RULE, 9.0, 19.0)
+    heading('flexible workspace', 1000, 130, 56, 13.0, 19.0)
+    image('ph_van5', 1000, 230, 860, 520, 13.4, 19.0, fx=.5, fy=.5, z0=1.0, z1=1.05)
+    tag('photo · wework, vancouver · dec 2018', 1000, 204, 13.4, 19.0)
+    # beat 3: three panels
+    CX.beat()
+    P = [('ph_van5', 60, 'space', 'furnished floors, shared and private', 'vancouver · dec 2018', 19.2), ('ph_van4', 670, 'services', 'front desk, upkeep, amenities', 'vancouver · dec 2018', 20.4), ('ph_van2', 1280, 'flexibility', 'check in as a member', 'vancouver · dec 2018', 21.6)]
     for (n, x, lab, sub, src, t) in P:
-        image(n, x, 150, 580, 560, t, 21, z0=1.0, z1=1.04); EV.append((T(t), 'shutter')); tag('photo · ' + src, x, 124, t, 21)
-        heading(lab, x, 740, 56, t + .3, 21, col=RED if lab == 'flexibility' else TXT); text(sub, x + 2, 816, 24, t + .5, 21, col=GREY, font='outfit300')
-    text('photographs from 2018, not from the company’s first years', 960, 900, 20, 16.0, 21, col=GREY, font='mono400', al='CENTER')
-    marker('03.2', 10, 21)
-    # beat 3: first location, from the S-1
-    CX.beat()
-    doc('doc_first', 60, 300, 1100, 21.0, 30, hls=(22.0, 23.0))
-    heading('2010', 1300, 260, 150, 21.6, 30, col=RED); text('first location', 1304, 450, 40, 22.4, 30, font='outfit500'); text('154 grand street, new york', 1304, 510, 28, 23.0, 30, col=GREY, font='outfit300')
-    text('memberships, not leases: desks, offices and rooms by agreement', 60, 640, 28, 25.0, 30, col=GREY, font='outfit500')
-    marker('03.3', 21, 30)
+        image(n, x, 150, 580, 560, t, 30, z0=1.0, z1=1.04); EV.append((T(t), 'shutter')); tag('photo · ' + src, x, 124, t, 30)
+        heading(lab, x, 740, 56, t + .3, 30, col=RED if lab == 'flexibility' else TXT); text(sub, x + 2, 816, 24, t + .5, 30, col=GREY, font='outfit300')
+    text('photographs from 2018, not from the company’s first years', 960, 900, 20, 23.0, 30, col=GREY, font='mono400', al='CENTER')
+    heading('a useful product underneath', 960, 960, 40, 26.0, 30, al='CENTER')
 
 @scene(4, 'selling the future')
 def s04():
@@ -514,20 +515,24 @@ def s16():
     marker('16.3', 23, 30)
 
 # ── assemble: one meta strip per scene on the master timeline ──
-bg = SE.sequences.new_effect('background', 'COLOR', 1, frame_start=1, frame_end=DUR * FPS + 1); bg.color = hexc(BG)
+NF = int(round(DUR * FPS))
+bg = SE.sequences.new_effect('background', 'COLOR', 1, frame_start=1, frame_end=NF + 1); bg.color = hexc(BG)
 for (i, title, act, fn) in SCENES:
-    base = (i - 1) * 30
+    if TL: sd = TL['scenes'][i - 1]; base, dur, warp = sd['base'], sd['dur'], [tuple(p) for p in sd['warp']]
+    else: base, dur, warp = (i - 1) * 30, 30, None
     meta = SE.sequences.new_meta(f'S{i:02d} · {title}', 2, F(base))
-    CX = Ctx(meta, base)
-    b = meta.sequences.new_effect(nm('bg'), 'COLOR', 1, frame_start=F(base), frame_end=F(base + 30)); b.color = hexc(BG)
+    CX = Ctx(meta, base, warp)
+    b = meta.sequences.new_effect(nm('bg'), 'COLOR', 1, frame_start=F(base), frame_end=F(base + dur)); b.color = hexc(BG)
     chrome(i, title, act); CX.hold()
     fn()
-    meta.frame_final_start, meta.frame_final_end = F(base), F(base + 30)
+    meta.frame_final_start, meta.frame_final_end = F(base), F(base + dur)
     meta.blend_type = 'ALPHA_OVER'
-vig = SE.sequences.new_image('vignette', os.path.join(A, 'vignette.png'), 3, 1, fit_method='ORIGINAL'); vig.frame_final_duration = DUR * FPS; vig.blend_type = 'ALPHA_OVER'
+vig = SE.sequences.new_image('vignette', os.path.join(A, 'vignette.png'), 3, 1, fit_method='ORIGINAL'); vig.frame_final_duration = NF; vig.blend_type = 'ALPHA_OVER'
 # fade from black at the very start, fade to black at the end
-fb = SE.sequences.new_effect('fade_to_black', 'COLOR', 4, frame_start=F(476.0), frame_end=DUR * FPS + 1); fb.color = (0, 0, 0); fb.blend_type = 'ALPHA_OVER'
-fb.blend_alpha = 0; fb.keyframe_insert('blend_alpha', frame=F(476.0)); fb.blend_alpha = 1; fb.keyframe_insert('blend_alpha', frame=F(479.5))
+fb = SE.sequences.new_effect('fade_to_black', 'COLOR', 4, frame_start=F(DUR - 3.0), frame_end=NF + 1); fb.color = (0, 0, 0); fb.blend_type = 'ALPHA_OVER'
+fb.blend_alpha = 0; fb.keyframe_insert('blend_alpha', frame=F(DUR - 3.0)); fb.blend_alpha = 1; fb.keyframe_insert('blend_alpha', frame=F(DUR - .4))
+if TL:
+    for l in TL['lines']: sc.timeline_markers.new(l['id'], frame=F(l['t']))
 snd = os.path.join(D, 'audio', 'mix.flac')
 if os.path.exists(snd): SE.sequences.new_sound('sound · underscore + foley', snd, 6, 1)
 json.dump(sorted(EV), open(os.path.join(D, 'audio', 'events.json'), 'w'))

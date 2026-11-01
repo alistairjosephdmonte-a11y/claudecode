@@ -1,0 +1,547 @@
+[
+ {
+  "id": "s01_01",
+  "text": "Forty-seven billion dollars.",
+  "scene": 1
+ },
+ {
+  "id": "s01_02",
+  "text": "That's what investors reportedly valued WeWork at in 2019.",
+  "scene": 1
+ },
+ {
+  "id": "s01_03",
+  "text": "Not a company manufacturing breakthrough technology. Not a company selling software to millions of users.",
+  "scene": 1
+ },
+ {
+  "id": "s01_04",
+  "text": "A company renting office space, redesigning it, and renting it out again.",
+  "scene": 1
+ },
+ {
+  "id": "s01_05",
+  "text": "Its founder promised to change the way the world worked.",
+  "scene": 1
+ },
+ {
+  "id": "s01_06",
+  "text": "Four years later, WeWork was filing for bankruptcy protection.",
+  "scene": 1
+ },
+ {
+  "id": "s01_07",
+  "text": "So how did a forty-seven-billion-dollar dream unravel?",
+  "scene": 1
+ },
+ {
+  "id": "s02_01",
+  "text": "The bankruptcy filing wasn't the beginning of the story. It was the result of years of decisions.",
+  "scene": 2
+ },
+ {
+  "id": "s02_02",
+  "text": "WeWork offered something customers genuinely wanted: flexible, attractive offices without the burden of building an entire workplace themselves.",
+  "scene": 2
+ },
+ {
+  "id": "s02_03",
+  "text": "But beneath that promise was a financial contradiction.",
+  "scene": 2
+ },
+ {
+  "id": "s02_04",
+  "text": "Its customers wanted flexibility. Its landlords wanted long-term commitments.",
+  "scene": 2
+ },
+ {
+  "id": "s02_05",
+  "text": "And WeWork stood between them.",
+  "scene": 2
+ },
+ {
+  "id": "s02_06",
+  "text": "To understand the collapse, we need to examine what the company was selling, what it was spending, and what its own documents revealed.",
+  "scene": 2
+ },
+ {
+  "id": "s03_01",
+  "text": "When WeWork opened its first location in New York in 2010, the idea was compelling.",
+  "scene": 3
+ },
+ {
+  "id": "s03_02",
+  "text": "Traditional office space often required a business to negotiate a lease, furnish the premises, arrange services and commit capital before employees could even begin working.",
+  "scene": 3
+ },
+ {
+  "id": "s03_03",
+  "text": "WeWork offered an alternative.",
+  "scene": 3
+ },
+ {
+  "id": "s03_04",
+  "text": "Desks, meeting rooms, shared spaces and a recognizable design language were bundled into a more convenient experience.",
+  "scene": 3
+ },
+ {
+  "id": "s03_05",
+  "text": "For startups, freelancers and expanding companies, the appeal was real.",
+  "scene": 3
+ },
+ {
+  "id": "s03_06",
+  "text": "This wasn't a business built entirely on hype. There was a useful product underneath it.",
+  "scene": 3
+ },
+ {
+  "id": "s04_01",
+  "text": "But under co-founder Adam Neumann, WeWork became more than an office-space business in its own telling.",
+  "scene": 4
+ },
+ {
+  "id": "s04_02",
+  "text": "It described a global community, a network and a new way of working.",
+  "scene": 4
+ },
+ {
+  "id": "s04_03",
+  "text": "Expansion became central to the story.",
+  "scene": 4
+ },
+ {
+  "id": "s04_04",
+  "text": "More buildings meant more cities. More cities meant more members. And more members seemed to promise an increasingly valuable platform.",
+  "scene": 4
+ },
+ {
+  "id": "s04_05",
+  "text": "That narrative attracted enormous amounts of capital.",
+  "scene": 4
+ },
+ {
+  "id": "s04_06",
+  "text": "Yet the larger WeWork became, the more important one question grew.",
+  "scene": 4
+ },
+ {
+  "id": "s04_07",
+  "text": "Could the economics support the ambition?",
+  "scene": 4
+ },
+ {
+  "id": "s05_01",
+  "text": "Strip away the branding, and WeWork's core business was surprisingly straightforward.",
+  "scene": 5
+ },
+ {
+  "id": "s05_02",
+  "text": "It signed leases with property owners. It spent money transforming those properties into attractive workspaces. Then it sold access to those spaces through memberships and office agreements.",
+  "scene": 5
+ },
+ {
+  "id": "s05_03",
+  "text": "The opportunity was clear. A busy location could generate substantial revenue.",
+  "scene": 5
+ },
+ {
+  "id": "s05_04",
+  "text": "But the company had to commit to rent, construction, furniture and staffing before the building reached its potential.",
+  "scene": 5
+ },
+ {
+  "id": "s05_05",
+  "text": "Every new location required investment. And every new lease created another obligation.",
+  "scene": 5
+ },
+ {
+  "id": "s06_01",
+  "text": "Here's where the risk becomes clearer.",
+  "scene": 6
+ },
+ {
+  "id": "s06_02",
+  "text": "Many WeWork customers could commit for relatively short periods. The company itself often signed leases lasting many years.",
+  "scene": 6
+ },
+ {
+  "id": "s06_03",
+  "text": "When demand was strong, the difference could be managed.",
+  "scene": 6
+ },
+ {
+  "id": "s06_04",
+  "text": "When demand weakened, customers could leave faster than WeWork could reduce its obligations.",
+  "scene": 6
+ },
+ {
+  "id": "s06_05",
+  "text": "Rent still had to be paid. Buildings still needed maintenance. And unused space still carried costs.",
+  "scene": 6
+ },
+ {
+  "id": "s06_06",
+  "text": "The problem wasn't flexibility itself.",
+  "scene": 6
+ },
+ {
+  "id": "s06_07",
+  "text": "It was who carried the risk of providing it.",
+  "scene": 6
+ },
+ {
+  "id": "s07_01",
+  "text": "By June 2019, WeWork had disclosed approximately thirty-four billion dollars in future minimum payments on operating leases that had already commenced.",
+  "scene": 7
+ },
+ {
+  "id": "s07_02",
+  "text": "These were undiscounted payments spread over future years, not a single bill payable tomorrow.",
+  "scene": 7
+ },
+ {
+  "id": "s07_03",
+  "text": "And there were additional commitments for leases signed but not yet started.",
+  "scene": 7
+ },
+ {
+  "id": "s07_04",
+  "text": "The numbers revealed the scale of the company's expansion.",
+  "scene": 7
+ },
+ {
+  "id": "s07_05",
+  "text": "They also revealed how much of its future depended on keeping buildings occupied and revenue flowing.",
+  "scene": 7
+ },
+ {
+  "id": "s08_01",
+  "text": "On August fourteenth, 2019, the story changed.",
+  "scene": 8
+ },
+ {
+  "id": "s08_02",
+  "text": "WeWork's parent company filed its registration statement for an initial public offering.",
+  "scene": 8
+ },
+ {
+  "id": "s08_03",
+  "text": "For years, investors had been hearing about community, growth and transformation.",
+  "scene": 8
+ },
+ {
+  "id": "s08_04",
+  "text": "Now the company was asking public-market investors to examine its financial statements.",
+  "scene": 8
+ },
+ {
+  "id": "s08_05",
+  "text": "And inside those documents were the details that mattered.",
+  "scene": 8
+ },
+ {
+  "id": "s08_06",
+  "text": "Revenue. Losses. Lease commitments. Governance arrangements.",
+  "scene": 8
+ },
+ {
+  "id": "s08_07",
+  "text": "The company's own disclosures made it possible to test the promise against the economics.",
+  "scene": 8
+ },
+ {
+  "id": "s09_01",
+  "text": "In 2018, WeWork reported roughly one point eight billion dollars in revenue.",
+  "scene": 9
+ },
+ {
+  "id": "s09_02",
+  "text": "It also reported a net loss of approximately one point six billion.",
+  "scene": 9
+ },
+ {
+  "id": "s09_03",
+  "text": "The company was expanding rapidly, but the losses were substantial.",
+  "scene": 9
+ },
+ {
+  "id": "s09_04",
+  "text": "That didn't automatically mean the business could never work.",
+  "scene": 9
+ },
+ {
+  "id": "s09_05",
+  "text": "High-growth companies often spend heavily before reaching profitability.",
+  "scene": 9
+ },
+ {
+  "id": "s09_06",
+  "text": "The question was whether WeWork's economics would improve as it expanded, or whether expansion would keep demanding more capital.",
+  "scene": 9
+ },
+ {
+  "id": "s10_01",
+  "text": "The filing raised another question.",
+  "scene": 10
+ },
+ {
+  "id": "s10_02",
+  "text": "Who was benefiting from the company's success, and who controlled its decisions?",
+  "scene": 10
+ },
+ {
+  "id": "s10_03",
+  "text": "One disclosed transaction involved trademarks associated with the word \"We.\"",
+  "scene": 10
+ },
+ {
+  "id": "s10_04",
+  "text": "An entity connected to Adam Neumann had received interests valued at approximately five point nine million dollars in exchange for those rights.",
+  "scene": 10
+ },
+ {
+  "id": "s10_05",
+  "text": "The arrangement was later unwound.",
+  "scene": 10
+ },
+ {
+  "id": "s10_06",
+  "text": "Meanwhile, the proposed voting structure gave Neumann extraordinary influence.",
+  "scene": 10
+ },
+ {
+  "id": "s10_07",
+  "text": "Investors weren't just evaluating a business model.",
+  "scene": 10
+ },
+ {
+  "id": "s10_08",
+  "text": "They were evaluating its governance.",
+  "scene": 10
+ },
+ {
+  "id": "s11_01",
+  "text": "The planned IPO began to unravel.",
+  "scene": 11
+ },
+ {
+  "id": "s11_02",
+  "text": "Investors questioned the valuation, the losses, and the governance structure.",
+  "scene": 11
+ },
+ {
+  "id": "s11_03",
+  "text": "The original investment story was no longer enough.",
+  "scene": 11
+ },
+ {
+  "id": "s11_04",
+  "text": "In September 2019, Adam Neumann stepped down as chief executive.",
+  "scene": 11
+ },
+ {
+  "id": "s11_05",
+  "text": "On September thirtieth, WeWork formally withdrew its IPO registration.",
+  "scene": 11
+ },
+ {
+  "id": "s11_06",
+  "text": "A company that had spent years pursuing rapid expansion was suddenly confronting a much harder reality.",
+  "scene": 11
+ },
+ {
+  "id": "s11_07",
+  "text": "Its next challenge wasn't growing faster.",
+  "scene": 11
+ },
+ {
+  "id": "s11_08",
+  "text": "It was securing the capital needed to survive.",
+  "scene": 11
+ },
+ {
+  "id": "s12_01",
+  "text": "SoftBank stepped in with a major financing package.",
+  "scene": 12
+ },
+ {
+  "id": "s12_02",
+  "text": "WeWork began cutting costs, restructuring operations and reconsidering its property commitments.",
+  "scene": 12
+ },
+ {
+  "id": "s12_03",
+  "text": "Two years later, it finally reached the public market through a merger with a special-purpose acquisition company.",
+  "scene": 12
+ },
+ {
+  "id": "s12_04",
+  "text": "The announced transaction carried an initial enterprise value of approximately nine billion dollars.",
+  "scene": 12
+ },
+ {
+  "id": "s12_05",
+  "text": "That wasn't directly comparable to the earlier private equity valuation.",
+  "scene": 12
+ },
+ {
+  "id": "s12_06",
+  "text": "But the change in investor expectations was unmistakable.",
+  "scene": 12
+ },
+ {
+  "id": "s12_07",
+  "text": "The company was still operating.",
+  "scene": 12
+ },
+ {
+  "id": "s12_08",
+  "text": "The dream had been repriced.",
+  "scene": 12
+ },
+ {
+  "id": "s13_01",
+  "text": "Then came another challenge.",
+  "scene": 13
+ },
+ {
+  "id": "s13_02",
+  "text": "In 2020, the pandemic disrupted office demand around the world.",
+  "scene": 13
+ },
+ {
+  "id": "s13_03",
+  "text": "Companies experimented with remote work. Tenants reconsidered how much space they needed. And uncertainty made long-term planning more difficult.",
+  "scene": 13
+ },
+ {
+  "id": "s13_04",
+  "text": "For WeWork, already attempting a major restructuring, the timing was punishing.",
+  "scene": 13
+ },
+ {
+  "id": "s13_05",
+  "text": "The company negotiated lease changes, exited locations and tried to reduce its commitments.",
+  "scene": 13
+ },
+ {
+  "id": "s13_06",
+  "text": "But restructuring a global property portfolio takes time.",
+  "scene": 13
+ },
+ {
+  "id": "s13_07",
+  "text": "And time was becoming increasingly expensive.",
+  "scene": 13
+ },
+ {
+  "id": "s14_01",
+  "text": "By 2023, the warnings had become explicit.",
+  "scene": 14
+ },
+ {
+  "id": "s14_02",
+  "text": "WeWork disclosed substantial doubt about its ability to continue as a going concern.",
+  "scene": 14
+ },
+ {
+  "id": "s14_03",
+  "text": "Losses, member churn and liquidity pressure had narrowed the company's options.",
+  "scene": 14
+ },
+ {
+  "id": "s14_04",
+  "text": "At the end of September, it reported approximately four hundred and sixty-two million dollars in cash and cash equivalents.",
+  "scene": 14
+ },
+ {
+  "id": "s14_05",
+  "text": "On November sixth, WeWork and certain subsidiaries filed for Chapter Eleven bankruptcy protection.",
+  "scene": 14
+ },
+ {
+  "id": "s14_06",
+  "text": "The growth story had reached its financial reckoning.",
+  "scene": 14
+ },
+ {
+  "id": "s15_01",
+  "text": "But bankruptcy did not mean the disappearance of every WeWork office.",
+  "scene": 15
+ },
+ {
+  "id": "s15_02",
+  "text": "The company continued operating through the restructuring process.",
+  "scene": 15
+ },
+ {
+  "id": "s15_03",
+  "text": "On June eleventh, 2024, it emerged from Chapter Eleven with a reorganized business and a reduced portfolio of obligations.",
+  "scene": 15
+ },
+ {
+  "id": "s15_04",
+  "text": "The service still existed.",
+  "scene": 15
+ },
+ {
+  "id": "s15_05",
+  "text": "Customers could still use WeWork spaces.",
+  "scene": 15
+ },
+ {
+  "id": "s15_06",
+  "text": "What had collapsed was the original investment narrative that once supported a forty-seven-billion-dollar private valuation.",
+  "scene": 15
+ },
+ {
+  "id": "s15_07",
+  "text": "The product survived.",
+  "scene": 15
+ },
+ {
+  "id": "s15_08",
+  "text": "The financial story had changed.",
+  "scene": 15
+ },
+ {
+  "id": "s16_01",
+  "text": "So what happened to WeWork's forty-seven-billion-dollar dream?",
+  "scene": 16
+ },
+ {
+  "id": "s16_02",
+  "text": "It wasn't one mistake.",
+  "scene": 16
+ },
+ {
+  "id": "s16_03",
+  "text": "It was the combination of expensive expansion, long-term lease commitments, governance concerns, and a business exposed to changing demand.",
+  "scene": 16
+ },
+ {
+  "id": "s16_04",
+  "text": "WeWork proved that customers wanted flexible offices.",
+  "scene": 16
+ },
+ {
+  "id": "s16_05",
+  "text": "But a useful product and a sustainable investment are not the same thing.",
+  "scene": 16
+ },
+ {
+  "id": "s16_06",
+  "text": "The warning signs were visible in the company's own disclosures.",
+  "scene": 16
+ },
+ {
+  "id": "s16_07",
+  "text": "And that is the final lesson.",
+  "scene": 16
+ },
+ {
+  "id": "s16_08",
+  "text": "Every brand leaves evidence.",
+  "scene": 16
+ }
+]

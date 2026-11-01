@@ -1,0 +1,1444 @@
+{
+ "total": 606.158,
+ "scenes": [
+  {
+   "i": 1,
+   "base": 0.0,
+   "dur": 35.233,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     3.6,
+     3.5
+    ],
+    [
+     8.6,
+     10.659
+    ],
+    [
+     18.4,
+     26.216
+    ],
+    [
+     25.0,
+     30.565
+    ],
+    [
+     30.0,
+     35.233
+    ]
+   ]
+  },
+  {
+   "i": 2,
+   "base": 35.233,
+   "dur": 37.403,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     11.0,
+     6.282
+    ],
+    [
+     21.4,
+     19.598
+    ],
+    [
+     25.0,
+     28.254
+    ],
+    [
+     30.0,
+     37.403
+    ]
+   ]
+  },
+  {
+   "i": 3,
+   "base": 72.636,
+   "dur": 41.57,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     9.0,
+     6.893
+    ],
+    [
+     19.0,
+     20.219
+    ],
+    [
+     26.0,
+     33.801
+    ],
+    [
+     30.0,
+     41.57
+    ]
+   ]
+  },
+  {
+   "i": 4,
+   "base": 114.206,
+   "dur": 36.288,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     2.4,
+     6.858
+    ],
+    [
+     8.5,
+     11.584
+    ],
+    [
+     20.6,
+     27.36
+    ],
+    [
+     25.4,
+     32.306
+    ],
+    [
+     30.0,
+     36.288
+    ]
+   ]
+  },
+  {
+   "i": 5,
+   "base": 150.494,
+   "dur": 40.532,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     3.0,
+     6.244
+    ],
+    [
+     17.0,
+     19.918
+    ],
+    [
+     24.0,
+     25.34
+    ],
+    [
+     30.0,
+     40.532
+    ]
+   ]
+  },
+  {
+   "i": 6,
+   "base": 191.026,
+   "dur": 36.68,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     3.0,
+     2.994
+    ],
+    [
+     12.0,
+     11.694
+    ],
+    [
+     20.5,
+     15.671
+    ],
+    [
+     23.0,
+     22.217
+    ],
+    [
+     30.0,
+     36.68
+    ]
+   ]
+  },
+  {
+   "i": 7,
+   "base": 227.706,
+   "dur": 34.65,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     11.0,
+     11.609
+    ],
+    [
+     15.0,
+     17.912
+    ],
+    [
+     21.0,
+     23.132
+    ],
+    [
+     30.0,
+     34.65
+    ]
+   ]
+  },
+  {
+   "i": 8,
+   "base": 262.356,
+   "dur": 37.886,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     9.5,
+     15.626
+    ],
+    [
+     25.5,
+     30.759
+    ],
+    [
+     30.0,
+     37.886
+    ]
+   ]
+  },
+  {
+   "i": 9,
+   "base": 300.242,
+   "dur": 34.036,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.0,
+     6.432
+    ],
+    [
+     10.0,
+     11.603
+    ],
+    [
+     20.6,
+     24.34
+    ],
+    [
+     30.0,
+     34.036
+    ]
+   ]
+  },
+  {
+   "i": 10,
+   "base": 334.278,
+   "dur": 38.933,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.6,
+     13.865
+    ],
+    [
+     5.0,
+     23.681
+    ],
+    [
+     10.0,
+     26.36
+    ],
+    [
+     22.5,
+     31.779
+    ],
+    [
+     30.0,
+     38.933
+    ]
+   ]
+  },
+  {
+   "i": 11,
+   "base": 373.211,
+   "dur": 38.596,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     6.0,
+     12.757
+    ],
+    [
+     11.0,
+     18.511
+    ],
+    [
+     18.0,
+     24.043
+    ],
+    [
+     30.0,
+     38.596
+    ]
+   ]
+  },
+  {
+   "i": 12,
+   "base": 411.807,
+   "dur": 39.803,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     10.0,
+     10.786
+    ],
+    [
+     12.4,
+     17.515
+    ],
+    [
+     20.2,
+     24.808
+    ],
+    [
+     24.0,
+     36.644
+    ],
+    [
+     30.0,
+     39.803
+    ]
+   ]
+  },
+  {
+   "i": 13,
+   "base": 451.61,
+   "dur": 38.153,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.2,
+     2.616
+    ],
+    [
+     10.5,
+     17.278
+    ],
+    [
+     21.0,
+     29.406
+    ],
+    [
+     30.0,
+     38.153
+    ]
+   ]
+  },
+  {
+   "i": 14,
+   "base": 489.763,
+   "dur": 36.111,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.4,
+     5.148
+    ],
+    [
+     10.5,
+     16.918
+    ],
+    [
+     20.5,
+     24.708
+    ],
+    [
+     30.0,
+     36.111
+    ]
+   ]
+  },
+  {
+   "i": 15,
+   "base": 525.874,
+   "dur": 39.222,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     3.0,
+     8.972
+    ],
+    [
+     10.5,
+     19.156
+    ],
+    [
+     20.6,
+     33.867
+    ],
+    [
+     30.0,
+     39.222
+    ]
+   ]
+  },
+  {
+   "i": 16,
+   "base": 565.096,
+   "dur": 41.062,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.4,
+     6.897
+    ],
+    [
+     14.5,
+     21.306
+    ],
+    [
+     23.4,
+     33.291
+    ],
+    [
+     30.0,
+     41.062
+    ]
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "s01_01",
+   "text": "Forty-seven billion dollars.",
+   "scene": 1,
+   "t": 3.6,
+   "local": 3.6,
+   "dur": 1.877,
+   "trim": 0.1
+  },
+  {
+   "id": "s01_02",
+   "text": "That's what investors reportedly valued WeWork at in 2019.",
+   "scene": 1,
+   "t": 5.927,
+   "local": 5.927,
+   "dur": 4.532,
+   "trim": 0.222
+  },
+  {
+   "id": "s01_03",
+   "text": "Not a company manufacturing breakthrough technology. Not a company selling software to millions of users.",
+   "scene": 1,
+   "t": 10.909,
+   "local": 10.909,
+   "dur": 6.518,
+   "trim": 0.18
+  },
+  {
+   "id": "s01_04",
+   "text": "A company renting office space, redesigning it, and renting it out again.",
+   "scene": 1,
+   "t": 17.877,
+   "local": 17.877,
+   "dur": 4.423,
+   "trim": 0.207
+  },
+  {
+   "id": "s01_05",
+   "text": "Its founder promised to change the way the world worked.",
+   "scene": 1,
+   "t": 22.75,
+   "local": 22.75,
+   "dur": 3.266,
+   "trim": 0.101
+  },
+  {
+   "id": "s01_06",
+   "text": "Four years later, WeWork was filing for bankruptcy protection.",
+   "scene": 1,
+   "t": 26.466,
+   "local": 26.466,
+   "dur": 3.899,
+   "trim": 0.132
+  },
+  {
+   "id": "s01_07",
+   "text": "So how did a forty-seven-billion-dollar dream unravel?",
+   "scene": 1,
+   "t": 30.815,
+   "local": 30.815,
+   "dur": 3.319,
+   "trim": 0.233
+  },
+  {
+   "id": "s02_01",
+   "text": "The bankruptcy filing wasn't the beginning of the story. It was the result of years of decisions.",
+   "scene": 2,
+   "t": 35.833,
+   "local": 0.6,
+   "dur": 5.482,
+   "trim": 0.179
+  },
+  {
+   "id": "s02_02",
+   "text": "WeWork offered something customers genuinely wanted: flexible, attractive offices without the burden of building an entire workplace themselves.",
+   "scene": 2,
+   "t": 41.765,
+   "local": 6.532,
+   "dur": 9.155,
+   "trim": 0.198
+  },
+  {
+   "id": "s02_03",
+   "text": "But beneath that promise was a financial contradiction.",
+   "scene": 2,
+   "t": 51.37,
+   "local": 16.137,
+   "dur": 3.261,
+   "trim": 0.219
+  },
+  {
+   "id": "s02_04",
+   "text": "Its customers wanted flexibility. Its landlords wanted long-term commitments.",
+   "scene": 2,
+   "t": 55.081,
+   "local": 19.848,
+   "dur": 5.622,
+   "trim": 0.006
+  },
+  {
+   "id": "s02_05",
+   "text": "And WeWork stood between them.",
+   "scene": 2,
+   "t": 61.153,
+   "local": 25.92,
+   "dur": 2.134,
+   "trim": 0.077
+  },
+  {
+   "id": "s02_06",
+   "text": "To understand the collapse, we need to examine what the company was selling, what it was spending, and what its own documents revealed.",
+   "scene": 2,
+   "t": 63.737,
+   "local": 28.504,
+   "dur": 7.799,
+   "trim": 0.213
+  },
+  {
+   "id": "s03_01",
+   "text": "When WeWork opened its first location in New York in 2010, the idea was compelling.",
+   "scene": 3,
+   "t": 73.236,
+   "local": 0.6,
+   "dur": 6.093,
+   "trim": 0.119
+  },
+  {
+   "id": "s03_02",
+   "text": "Traditional office space often required a business to negotiate a lease, furnish the premises, arrange services and commit capital before employees could even begin working.",
+   "scene": 3,
+   "t": 79.779,
+   "local": 7.143,
+   "dur": 10.246,
+   "trim": 0.195
+  },
+  {
+   "id": "s03_03",
+   "text": "WeWork offered an alternative.",
+   "scene": 3,
+   "t": 90.475,
+   "local": 17.839,
+   "dur": 2.18,
+   "trim": 0.149
+  },
+  {
+   "id": "s03_04",
+   "text": "Desks, meeting rooms, shared spaces and a recognizable design language were bundled into a more convenient experience.",
+   "scene": 3,
+   "t": 93.105,
+   "local": 20.469,
+   "dur": 8.146,
+   "trim": 0.221
+  },
+  {
+   "id": "s03_05",
+   "text": "For startups, freelancers and expanding companies, the appeal was real.",
+   "scene": 3,
+   "t": 101.702,
+   "local": 29.066,
+   "dur": 4.535,
+   "trim": 0.145
+  },
+  {
+   "id": "s03_06",
+   "text": "This wasn't a business built entirely on hype. There was a useful product underneath it.",
+   "scene": 3,
+   "t": 106.687,
+   "local": 34.051,
+   "dur": 6.42,
+   "trim": 0.204
+  },
+  {
+   "id": "s04_01",
+   "text": "But under co-founder Adam Neumann, WeWork became more than an office-space business in its own telling.",
+   "scene": 4,
+   "t": 114.806,
+   "local": 0.6,
+   "dur": 6.058,
+   "trim": 0.163
+  },
+  {
+   "id": "s04_02",
+   "text": "It described a global community, a network and a new way of working.",
+   "scene": 4,
+   "t": 121.314,
+   "local": 7.108,
+   "dur": 4.276,
+   "trim": 0.181
+  },
+  {
+   "id": "s04_03",
+   "text": "Expansion became central to the story.",
+   "scene": 4,
+   "t": 126.04,
+   "local": 11.834,
+   "dur": 2.554,
+   "trim": 0.137
+  },
+  {
+   "id": "s04_04",
+   "text": "More buildings meant more cities. More cities meant more members. And more members seemed to promise an increasingly valuable platform.",
+   "scene": 4,
+   "t": 129.044,
+   "local": 14.838,
+   "dur": 8.684,
+   "trim": 0.127
+  },
+  {
+   "id": "s04_05",
+   "text": "That narrative attracted enormous amounts of capital.",
+   "scene": 4,
+   "t": 138.178,
+   "local": 23.972,
+   "dur": 3.188,
+   "trim": 0.201
+  },
+  {
+   "id": "s04_06",
+   "text": "Yet the larger WeWork became, the more important one question grew.",
+   "scene": 4,
+   "t": 141.816,
+   "local": 27.61,
+   "dur": 4.496,
+   "trim": 0.157
+  },
+  {
+   "id": "s04_07",
+   "text": "Could the economics support the ambition?",
+   "scene": 4,
+   "t": 146.762,
+   "local": 32.556,
+   "dur": 2.632,
+   "trim": 0.135
+  },
+  {
+   "id": "s05_01",
+   "text": "Strip away the branding, and WeWork's core business was surprisingly straightforward.",
+   "scene": 5,
+   "t": 151.094,
+   "local": 0.6,
+   "dur": 5.444,
+   "trim": 0.092
+  },
+  {
+   "id": "s05_02",
+   "text": "It signed leases with property owners. It spent money transforming those properties into attractive workspaces. Then it sold access to those spaces through memberships and office agreements.",
+   "scene": 5,
+   "t": 156.988,
+   "local": 6.494,
+   "dur": 13.224,
+   "trim": 0.21
+  },
+  {
+   "id": "s05_03",
+   "text": "The opportunity was clear. A busy location could generate substantial revenue.",
+   "scene": 5,
+   "t": 170.662,
+   "local": 20.168,
+   "dur": 4.971,
+   "trim": 0.22
+  },
+  {
+   "id": "s05_04",
+   "text": "But the company had to commit to rent, construction, furniture and staffing before the building reached its potential.",
+   "scene": 5,
+   "t": 176.084,
+   "local": 25.59,
+   "dur": 7.154,
+   "trim": 0.189
+  },
+  {
+   "id": "s05_05",
+   "text": "Every new location required investment. And every new lease created another obligation.",
+   "scene": 5,
+   "t": 183.688,
+   "local": 33.194,
+   "dur": 6.238,
+   "trim": 0.137
+  },
+  {
+   "id": "s06_01",
+   "text": "Here's where the risk becomes clearer.",
+   "scene": 6,
+   "t": 191.626,
+   "local": 0.6,
+   "dur": 2.194,
+   "trim": 0.188
+  },
+  {
+   "id": "s06_02",
+   "text": "Many WeWork customers could commit for relatively short periods. The company itself often signed leases lasting many years.",
+   "scene": 6,
+   "t": 194.27,
+   "local": 3.244,
+   "dur": 8.25,
+   "trim": 0.453
+  },
+  {
+   "id": "s06_03",
+   "text": "When demand was strong, the difference could be managed.",
+   "scene": 6,
+   "t": 202.97,
+   "local": 11.944,
+   "dur": 3.527,
+   "trim": 0.007
+  },
+  {
+   "id": "s06_04",
+   "text": "When demand weakened, customers could leave faster than WeWork could reduce its obligations.",
+   "scene": 6,
+   "t": 206.947,
+   "local": 15.921,
+   "dur": 6.095,
+   "trim": 0.224
+  },
+  {
+   "id": "s06_05",
+   "text": "Rent still had to be paid. Buildings still needed maintenance. And unused space still carried costs.",
+   "scene": 6,
+   "t": 213.493,
+   "local": 22.467,
+   "dur": 7.063,
+   "trim": 0.197
+  },
+  {
+   "id": "s06_06",
+   "text": "The problem wasn't flexibility itself.",
+   "scene": 6,
+   "t": 221.006,
+   "local": 29.98,
+   "dur": 2.615,
+   "trim": 0.109
+  },
+  {
+   "id": "s06_07",
+   "text": "It was who carried the risk of providing it.",
+   "scene": 6,
+   "t": 224.071,
+   "local": 33.045,
+   "dur": 2.535,
+   "trim": 0.182
+  },
+  {
+   "id": "s07_01",
+   "text": "By June 2019, WeWork had disclosed approximately thirty-four billion dollars in future minimum payments on operating leases that had already commenced.",
+   "scene": 7,
+   "t": 228.306,
+   "local": 0.6,
+   "dur": 10.809,
+   "trim": 0.23
+  },
+  {
+   "id": "s07_02",
+   "text": "These were undiscounted payments spread over future years, not a single bill payable tomorrow.",
+   "scene": 7,
+   "t": 239.565,
+   "local": 11.859,
+   "dur": 5.853,
+   "trim": 0.427
+  },
+  {
+   "id": "s07_03",
+   "text": "And there were additional commitments for leases signed but not yet started.",
+   "scene": 7,
+   "t": 245.868,
+   "local": 18.162,
+   "dur": 4.769,
+   "trim": 0.221
+  },
+  {
+   "id": "s07_04",
+   "text": "The numbers revealed the scale of the company's expansion.",
+   "scene": 7,
+   "t": 251.088,
+   "local": 23.382,
+   "dur": 3.487,
+   "trim": 0.15
+  },
+  {
+   "id": "s07_05",
+   "text": "They also revealed how much of its future depended on keeping buildings occupied and revenue flowing.",
+   "scene": 7,
+   "t": 255.025,
+   "local": 27.319,
+   "dur": 6.231,
+   "trim": 0.153
+  },
+  {
+   "id": "s08_01",
+   "text": "On August fourteenth, 2019, the story changed.",
+   "scene": 8,
+   "t": 262.956,
+   "local": 0.6,
+   "dur": 4.243,
+   "trim": 0.164
+  },
+  {
+   "id": "s08_02",
+   "text": "WeWork's parent company filed its registration statement for an initial public offering.",
+   "scene": 8,
+   "t": 267.649,
+   "local": 5.293,
+   "dur": 4.832,
+   "trim": 0.208
+  },
+  {
+   "id": "s08_03",
+   "text": "For years, investors had been hearing about community, growth and transformation.",
+   "scene": 8,
+   "t": 272.931,
+   "local": 10.575,
+   "dur": 4.852,
+   "trim": 0.181
+  },
+  {
+   "id": "s08_04",
+   "text": "Now the company was asking public-market investors to examine its financial statements.",
+   "scene": 8,
+   "t": 278.232,
+   "local": 15.876,
+   "dur": 5.413,
+   "trim": 0.164
+  },
+  {
+   "id": "s08_05",
+   "text": "And inside those documents were the details that mattered.",
+   "scene": 8,
+   "t": 284.095,
+   "local": 21.739,
+   "dur": 3.237,
+   "trim": 0.19
+  },
+  {
+   "id": "s08_06",
+   "text": "Revenue. Losses. Lease commitments. Governance arrangements.",
+   "scene": 8,
+   "t": 287.782,
+   "local": 25.426,
+   "dur": 5.133,
+   "trim": 0.18
+  },
+  {
+   "id": "s08_07",
+   "text": "The company's own disclosures made it possible to test the promise against the economics.",
+   "scene": 8,
+   "t": 293.365,
+   "local": 31.009,
+   "dur": 5.777,
+   "trim": 0.12
+  },
+  {
+   "id": "s09_01",
+   "text": "In 2018, WeWork reported roughly one point eight billion dollars in revenue.",
+   "scene": 9,
+   "t": 300.842,
+   "local": 0.6,
+   "dur": 5.632,
+   "trim": 0.161
+  },
+  {
+   "id": "s09_02",
+   "text": "It also reported a net loss of approximately one point six billion.",
+   "scene": 9,
+   "t": 306.924,
+   "local": 6.682,
+   "dur": 4.72,
+   "trim": 0.145
+  },
+  {
+   "id": "s09_03",
+   "text": "The company was expanding rapidly, but the losses were substantial.",
+   "scene": 9,
+   "t": 312.095,
+   "local": 11.853,
+   "dur": 3.92,
+   "trim": 0.23
+  },
+  {
+   "id": "s09_04",
+   "text": "That didn't automatically mean the business could never work.",
+   "scene": 9,
+   "t": 316.464,
+   "local": 16.222,
+   "dur": 3.419,
+   "trim": 0.187
+  },
+  {
+   "id": "s09_05",
+   "text": "High-growth companies often spend heavily before reaching profitability.",
+   "scene": 9,
+   "t": 320.333,
+   "local": 20.091,
+   "dur": 4.049,
+   "trim": 0.128
+  },
+  {
+   "id": "s09_06",
+   "text": "The question was whether WeWork's economics would improve as it expanded, or whether expansion would keep demanding more capital.",
+   "scene": 9,
+   "t": 324.832,
+   "local": 24.59,
+   "dur": 8.345,
+   "trim": 0.204
+  },
+  {
+   "id": "s10_01",
+   "text": "The filing raised another question.",
+   "scene": 10,
+   "t": 334.878,
+   "local": 0.6,
+   "dur": 1.903,
+   "trim": 0.171
+  },
+  {
+   "id": "s10_02",
+   "text": "Who was benefiting from the company's success, and who controlled its decisions?",
+   "scene": 10,
+   "t": 337.231,
+   "local": 2.953,
+   "dur": 4.473,
+   "trim": 0.141
+  },
+  {
+   "id": "s10_03",
+   "text": "One disclosed transaction involved trademarks associated with the word \"We.\"",
+   "scene": 10,
+   "t": 342.154,
+   "local": 7.876,
+   "dur": 5.789,
+   "trim": 0.185
+  },
+  {
+   "id": "s10_04",
+   "text": "An entity connected to Adam Neumann had received interests valued at approximately five point nine million dollars in exchange for those rights.",
+   "scene": 10,
+   "t": 348.393,
+   "local": 14.115,
+   "dur": 9.366,
+   "trim": 0.23
+  },
+  {
+   "id": "s10_05",
+   "text": "The arrangement was later unwound.",
+   "scene": 10,
+   "t": 358.209,
+   "local": 23.931,
+   "dur": 2.229,
+   "trim": 0.141
+  },
+  {
+   "id": "s10_06",
+   "text": "Meanwhile, the proposed voting structure gave Neumann extraordinary influence.",
+   "scene": 10,
+   "t": 360.888,
+   "local": 26.61,
+   "dur": 4.969,
+   "trim": 0.219
+  },
+  {
+   "id": "s10_07",
+   "text": "Investors weren't just evaluating a business model.",
+   "scene": 10,
+   "t": 366.307,
+   "local": 32.029,
+   "dur": 3.01,
+   "trim": 0.148
+  },
+  {
+   "id": "s10_08",
+   "text": "They were evaluating its governance.",
+   "scene": 10,
+   "t": 369.767,
+   "local": 35.489,
+   "dur": 2.344,
+   "trim": 0.117
+  },
+  {
+   "id": "s11_01",
+   "text": "The planned IPO began to unravel.",
+   "scene": 11,
+   "t": 373.811,
+   "local": 0.6,
+   "dur": 2.759,
+   "trim": 0.124
+  },
+  {
+   "id": "s11_02",
+   "text": "Investors questioned the valuation, the losses, and the governance structure.",
+   "scene": 11,
+   "t": 377.02,
+   "local": 3.809,
+   "dur": 4.954,
+   "trim": 0.245
+  },
+  {
+   "id": "s11_03",
+   "text": "The original investment story was no longer enough.",
+   "scene": 11,
+   "t": 382.423,
+   "local": 9.212,
+   "dur": 3.345,
+   "trim": 0.193
+  },
+  {
+   "id": "s11_04",
+   "text": "In September 2019, Adam Neumann stepped down as chief executive.",
+   "scene": 11,
+   "t": 386.218,
+   "local": 13.007,
+   "dur": 5.304,
+   "trim": 0.207
+  },
+  {
+   "id": "s11_05",
+   "text": "On September thirtieth, WeWork formally withdrew its IPO registration.",
+   "scene": 11,
+   "t": 391.972,
+   "local": 18.761,
+   "dur": 5.082,
+   "trim": 0.167
+  },
+  {
+   "id": "s11_06",
+   "text": "A company that had spent years pursuing rapid expansion was suddenly confronting a much harder reality.",
+   "scene": 11,
+   "t": 397.504,
+   "local": 24.293,
+   "dur": 6.502,
+   "trim": 0.228
+  },
+  {
+   "id": "s11_07",
+   "text": "Its next challenge wasn't growing faster.",
+   "scene": 11,
+   "t": 404.456,
+   "local": 31.245,
+   "dur": 2.77,
+   "trim": 0.207
+  },
+  {
+   "id": "s11_08",
+   "text": "It was securing the capital needed to survive.",
+   "scene": 11,
+   "t": 407.676,
+   "local": 34.465,
+   "dur": 3.031,
+   "trim": 0.219
+  },
+  {
+   "id": "s12_01",
+   "text": "SoftBank stepped in with a major financing package.",
+   "scene": 12,
+   "t": 412.407,
+   "local": 0.6,
+   "dur": 3.376,
+   "trim": 0.187
+  },
+  {
+   "id": "s12_02",
+   "text": "WeWork began cutting costs, restructuring operations and reconsidering its property commitments.",
+   "scene": 12,
+   "t": 416.233,
+   "local": 4.426,
+   "dur": 6.16,
+   "trim": 0.177
+  },
+  {
+   "id": "s12_03",
+   "text": "Two years later, it finally reached the public market through a merger with a special-purpose acquisition company.",
+   "scene": 12,
+   "t": 422.843,
+   "local": 11.036,
+   "dur": 6.278,
+   "trim": 0.185
+  },
+  {
+   "id": "s12_04",
+   "text": "The announced transaction carried an initial enterprise value of approximately nine billion dollars.",
+   "scene": 12,
+   "t": 429.572,
+   "local": 17.765,
+   "dur": 6.843,
+   "trim": 0.224
+  },
+  {
+   "id": "s12_05",
+   "text": "That wasn't directly comparable to the earlier private equity valuation.",
+   "scene": 12,
+   "t": 436.865,
+   "local": 25.058,
+   "dur": 4.248,
+   "trim": 0.224
+  },
+  {
+   "id": "s12_06",
+   "text": "But the change in investor expectations was unmistakable.",
+   "scene": 12,
+   "t": 441.563,
+   "local": 29.756,
+   "dur": 4.317,
+   "trim": 0.127
+  },
+  {
+   "id": "s12_07",
+   "text": "The company was still operating.",
+   "scene": 12,
+   "t": 446.33,
+   "local": 34.523,
+   "dur": 1.921,
+   "trim": 0.171
+  },
+  {
+   "id": "s12_08",
+   "text": "The dream had been repriced.",
+   "scene": 12,
+   "t": 448.701,
+   "local": 36.894,
+   "dur": 1.808,
+   "trim": 0.175
+  },
+  {
+   "id": "s13_01",
+   "text": "Then came another challenge.",
+   "scene": 13,
+   "t": 452.21,
+   "local": 0.6,
+   "dur": 1.816,
+   "trim": 0.209
+  },
+  {
+   "id": "s13_02",
+   "text": "In 2020, the pandemic disrupted office demand around the world.",
+   "scene": 13,
+   "t": 454.476,
+   "local": 2.866,
+   "dur": 5.005,
+   "trim": 0.186
+  },
+  {
+   "id": "s13_03",
+   "text": "Companies experimented with remote work. Tenants reconsidered how much space they needed. And uncertainty made long-term planning more difficult.",
+   "scene": 13,
+   "t": 459.93,
+   "local": 8.32,
+   "dur": 8.758,
+   "trim": 0.215
+  },
+  {
+   "id": "s13_04",
+   "text": "For WeWork, already attempting a major restructuring, the timing was punishing.",
+   "scene": 13,
+   "t": 469.138,
+   "local": 17.528,
+   "dur": 5.211,
+   "trim": 0.17
+  },
+  {
+   "id": "s13_05",
+   "text": "The company negotiated lease changes, exited locations and tried to reduce its commitments.",
+   "scene": 13,
+   "t": 474.799,
+   "local": 23.189,
+   "dur": 6.017,
+   "trim": 0.223
+  },
+  {
+   "id": "s13_06",
+   "text": "But restructuring a global property portfolio takes time.",
+   "scene": 13,
+   "t": 481.266,
+   "local": 29.656,
+   "dur": 3.865,
+   "trim": 0.204
+  },
+  {
+   "id": "s13_07",
+   "text": "And time was becoming increasingly expensive.",
+   "scene": 13,
+   "t": 485.581,
+   "local": 33.971,
+   "dur": 3.082,
+   "trim": 0.083
+  },
+  {
+   "id": "s14_01",
+   "text": "By 2023, the warnings had become explicit.",
+   "scene": 14,
+   "t": 490.363,
+   "local": 0.6,
+   "dur": 4.348,
+   "trim": 0.219
+  },
+  {
+   "id": "s14_02",
+   "text": "WeWork disclosed substantial doubt about its ability to continue as a going concern.",
+   "scene": 14,
+   "t": 495.161,
+   "local": 5.398,
+   "dur": 5.399,
+   "trim": 0.095
+  },
+  {
+   "id": "s14_03",
+   "text": "Losses, member churn and liquidity pressure had narrowed the company's options.",
+   "scene": 14,
+   "t": 501.01,
+   "local": 11.247,
+   "dur": 5.471,
+   "trim": 0.129
+  },
+  {
+   "id": "s14_04",
+   "text": "At the end of September, it reported approximately four hundred and sixty-two million dollars in cash and cash equivalents.",
+   "scene": 14,
+   "t": 506.931,
+   "local": 17.168,
+   "dur": 7.341,
+   "trim": 0.19
+  },
+  {
+   "id": "s14_05",
+   "text": "On November sixth, WeWork and certain subsidiaries filed for Chapter Eleven bankruptcy protection.",
+   "scene": 14,
+   "t": 514.722,
+   "local": 24.958,
+   "dur": 6.668,
+   "trim": 0.234
+  },
+  {
+   "id": "s14_06",
+   "text": "The growth story had reached its financial reckoning.",
+   "scene": 14,
+   "t": 521.839,
+   "local": 32.076,
+   "dur": 2.935,
+   "trim": 0.15
+  },
+  {
+   "id": "s15_01",
+   "text": "But bankruptcy did not mean the disappearance of every WeWork office.",
+   "scene": 15,
+   "t": 526.474,
+   "local": 0.6,
+   "dur": 4.332,
+   "trim": 0.125
+  },
+  {
+   "id": "s15_02",
+   "text": "The company continued operating through the restructuring process.",
+   "scene": 15,
+   "t": 531.256,
+   "local": 5.382,
+   "dur": 3.389,
+   "trim": 0.187
+  },
+  {
+   "id": "s15_03",
+   "text": "On June eleventh, 2024, it emerged from Chapter Eleven with a reorganized business and a reduced portfolio of obligations.",
+   "scene": 15,
+   "t": 535.096,
+   "local": 9.222,
+   "dur": 9.734,
+   "trim": 0.239
+  },
+  {
+   "id": "s15_04",
+   "text": "The service still existed.",
+   "scene": 15,
+   "t": 545.28,
+   "local": 19.406,
+   "dur": 1.981,
+   "trim": 0.221
+  },
+  {
+   "id": "s15_05",
+   "text": "Customers could still use WeWork spaces.",
+   "scene": 15,
+   "t": 547.711,
+   "local": 21.837,
+   "dur": 2.942,
+   "trim": 0.188
+  },
+  {
+   "id": "s15_06",
+   "text": "What had collapsed was the original investment narrative that once supported a forty-seven-billion-dollar private valuation.",
+   "scene": 15,
+   "t": 551.102,
+   "local": 25.228,
+   "dur": 8.438,
+   "trim": 0.221
+  },
+  {
+   "id": "s15_07",
+   "text": "The product survived.",
+   "scene": 15,
+   "t": 559.991,
+   "local": 34.117,
+   "dur": 1.342,
+   "trim": 0.197
+  },
+  {
+   "id": "s15_08",
+   "text": "The financial story had changed.",
+   "scene": 15,
+   "t": 561.782,
+   "local": 35.908,
+   "dur": 2.214,
+   "trim": 0.207
+  },
+  {
+   "id": "s16_01",
+   "text": "So what happened to WeWork's forty-seven-billion-dollar dream?",
+   "scene": 16,
+   "t": 565.696,
+   "local": 0.6,
+   "dur": 3.907,
+   "trim": 0.187
+  },
+  {
+   "id": "s16_02",
+   "text": "It wasn't one mistake.",
+   "scene": 16,
+   "t": 570.053,
+   "local": 4.957,
+   "dur": 1.74,
+   "trim": 0.333
+  },
+  {
+   "id": "s16_03",
+   "text": "It was the combination of expensive expansion, long-term lease commitments, governance concerns, and a business exposed to changing demand.",
+   "scene": 16,
+   "t": 572.243,
+   "local": 7.147,
+   "dur": 10.029,
+   "trim": 0.117
+  },
+  {
+   "id": "s16_04",
+   "text": "WeWork proved that customers wanted flexible offices.",
+   "scene": 16,
+   "t": 582.722,
+   "local": 17.626,
+   "dur": 3.48,
+   "trim": 0.097
+  },
+  {
+   "id": "s16_05",
+   "text": "But a useful product and a sustainable investment are not the same thing.",
+   "scene": 16,
+   "t": 586.652,
+   "local": 21.556,
+   "dur": 4.777,
+   "trim": 0.104
+  },
+  {
+   "id": "s16_06",
+   "text": "The warning signs were visible in the company's own disclosures.",
+   "scene": 16,
+   "t": 591.878,
+   "local": 26.782,
+   "dur": 3.659,
+   "trim": 0.395
+  },
+  {
+   "id": "s16_07",
+   "text": "And that is the final lesson.",
+   "scene": 16,
+   "t": 595.987,
+   "local": 30.891,
+   "dur": 2.2,
+   "trim": 0.11
+  },
+  {
+   "id": "s16_08",
+   "text": "Every brand leaves evidence.",
+   "scene": 16,
+   "t": 598.637,
+   "local": 33.541,
+   "dur": 2.021,
+   "trim": 0.199
+  }
+ ]
+}
