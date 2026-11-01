@@ -1,0 +1,1033 @@
+{
+ "lines": [
+  {
+   "text": "A hundred-dollar shoe can flip for a thousand.",
+   "start": 0.15,
+   "end": 3.0
+  },
+  {
+   "text": "That ain't luck. That's the sneaker game, by design.",
+   "start": 3.25,
+   "end": 6.35
+  },
+  {
+   "text": "Let me break down how the hype gets made.",
+   "start": 6.6,
+   "end": 9.1
+  },
+  {
+   "text": "Step one: the story. 1985, the Air Jordan 1.",
+   "start": 9.35,
+   "end": 13.325
+  },
+  {
+   "text": "Nike bet on a rookie. Now Jordan's a whole brand.",
+   "start": 13.575,
+   "end": 16.85
+  },
+  {
+   "text": "Step two: the culture. Run-DMC dropped \"My Adidas.\"",
+   "start": 17.1,
+   "end": 20.95
+  },
+  {
+   "text": "That song helped land a deal. Rap and kicks, locked in.",
+   "start": 21.2,
+   "end": 24.775
+  },
+  {
+   "text": "Step three: scarcity. Make fewer pairs than people want.",
+   "start": 25.025,
+   "end": 28.7
+  },
+  {
+   "text": "Drop day hits. Raffles, apps, and bots, all racing.",
+   "start": 28.95,
+   "end": 32.425
+  },
+  {
+   "text": "Step four: resale. Miss the drop? Pay the market.",
+   "start": 32.675,
+   "end": 35.675
+  },
+  {
+   "text": "StockX checks the pair is real, then takes a cut.",
+   "start": 35.925,
+   "end": 39.175
+  },
+  {
+   "text": "You might be thinking: it's just shoes.",
+   "start": 39.425,
+   "end": 41.625
+  },
+  {
+   "text": "Nah. It's status you can lace up.",
+   "start": 41.875,
+   "end": 44.075
+  },
+  {
+   "text": "Or: resale is a bubble.",
+   "start": 44.325,
+   "end": 46.225
+  },
+  {
+   "text": "Cowen projected resale could hit $30 billion by 2030.",
+   "start": 46.475,
+   "end": 50.975
+  },
+  {
+   "text": "So the real product? Not the shoe. It's the wait.",
+   "start": 51.225,
+   "end": 53.975
+  },
+  {
+   "text": "Comment KICKS and I'll send my drop-day checklist.",
+   "start": 54.225,
+   "end": 57.85
+  },
+  {
+   "text": "Save this so you can come back to it.",
+   "start": 58.1,
+   "end": 60.3
+  }
+ ],
+ "words": [
+  {
+   "line": 0,
+   "text": "A",
+   "start": 0.425,
+   "end": 0.875
+  },
+  {
+   "line": 0,
+   "text": "hundred-dollar",
+   "start": 0.475,
+   "end": 1.237
+  },
+  {
+   "line": 0,
+   "text": "shoe",
+   "start": 0.875,
+   "end": 1.475
+  },
+  {
+   "line": 0,
+   "text": "can",
+   "start": 1.237,
+   "end": 1.625
+  },
+  {
+   "line": 0,
+   "text": "flip",
+   "start": 1.475,
+   "end": 1.9
+  },
+  {
+   "line": 0,
+   "text": "for",
+   "start": 1.625,
+   "end": 2.013
+  },
+  {
+   "line": 0,
+   "text": "a",
+   "start": 1.9,
+   "end": 2.087
+  },
+  {
+   "line": 0,
+   "text": "thousand.",
+   "start": 2.013,
+   "end": 2.775
+  },
+  {
+   "line": 1,
+   "text": "That",
+   "start": 3.5,
+   "end": 3.638
+  },
+  {
+   "line": 1,
+   "text": "ain't",
+   "start": 3.638,
+   "end": 3.775
+  },
+  {
+   "line": 1,
+   "text": "luck.",
+   "start": 3.775,
+   "end": 4.2
+  },
+  {
+   "line": 1,
+   "text": "That's",
+   "start": 4.3,
+   "end": 4.537
+  },
+  {
+   "line": 1,
+   "text": "the",
+   "start": 4.537,
+   "end": 4.625
+  },
+  {
+   "line": 1,
+   "text": "sneaker",
+   "start": 4.625,
+   "end": 5.025
+  },
+  {
+   "line": 1,
+   "text": "game,",
+   "start": 5.025,
+   "end": 5.25
+  },
+  {
+   "line": 1,
+   "text": "by",
+   "start": 5.287,
+   "end": 5.425
+  },
+  {
+   "line": 1,
+   "text": "design.",
+   "start": 5.425,
+   "end": 6.125
+  },
+  {
+   "line": 2,
+   "text": "Let",
+   "start": 6.875,
+   "end": 6.987
+  },
+  {
+   "line": 2,
+   "text": "me",
+   "start": 6.987,
+   "end": 7.1
+  },
+  {
+   "line": 2,
+   "text": "break",
+   "start": 7.1,
+   "end": 7.375
+  },
+  {
+   "line": 2,
+   "text": "down",
+   "start": 7.375,
+   "end": 7.637
+  },
+  {
+   "line": 2,
+   "text": "how",
+   "start": 7.637,
+   "end": 7.762
+  },
+  {
+   "line": 2,
+   "text": "the",
+   "start": 7.762,
+   "end": 7.85
+  },
+  {
+   "line": 2,
+   "text": "hype",
+   "start": 7.85,
+   "end": 8.075
+  },
+  {
+   "line": 2,
+   "text": "gets",
+   "start": 8.075,
+   "end": 8.325
+  },
+  {
+   "line": 2,
+   "text": "made.",
+   "start": 8.325,
+   "end": 8.85
+  },
+  {
+   "line": 3,
+   "text": "Step",
+   "start": 9.625,
+   "end": 10.1
+  },
+  {
+   "line": 3,
+   "text": "one:",
+   "start": 9.875,
+   "end": 10.225
+  },
+  {
+   "line": 3,
+   "text": "the",
+   "start": 10.137,
+   "end": 10.8
+  },
+  {
+   "line": 3,
+   "text": "story.",
+   "start": 10.225,
+   "end": 11.287
+  },
+  {
+   "line": 3,
+   "text": "1985,",
+   "start": 10.9,
+   "end": 11.8
+  },
+  {
+   "line": 3,
+   "text": "the",
+   "start": 11.287,
+   "end": 11.95
+  },
+  {
+   "line": 3,
+   "text": "Air",
+   "start": 11.837,
+   "end": 12.15
+  },
+  {
+   "line": 3,
+   "text": "Jordan",
+   "start": 11.95,
+   "end": 12.55
+  },
+  {
+   "line": 3,
+   "text": "1.",
+   "start": 12.15,
+   "end": 13.1
+  },
+  {
+   "line": 4,
+   "text": "Nike",
+   "start": 13.875,
+   "end": 14.2
+  },
+  {
+   "line": 4,
+   "text": "bet",
+   "start": 14.2,
+   "end": 14.362
+  },
+  {
+   "line": 4,
+   "text": "on",
+   "start": 14.362,
+   "end": 14.462
+  },
+  {
+   "line": 4,
+   "text": "a",
+   "start": 14.462,
+   "end": 14.525
+  },
+  {
+   "line": 4,
+   "text": "rookie.",
+   "start": 14.525,
+   "end": 14.975
+  },
+  {
+   "line": 4,
+   "text": "Now",
+   "start": 15.1,
+   "end": 15.3
+  },
+  {
+   "line": 4,
+   "text": "Jordan's",
+   "start": 15.3,
+   "end": 15.662
+  },
+  {
+   "line": 4,
+   "text": "a",
+   "start": 15.662,
+   "end": 15.725
+  },
+  {
+   "line": 4,
+   "text": "whole",
+   "start": 15.725,
+   "end": 15.95
+  },
+  {
+   "line": 4,
+   "text": "brand.",
+   "start": 15.95,
+   "end": 16.6
+  },
+  {
+   "line": 5,
+   "text": "Step",
+   "start": 17.375,
+   "end": 17.85
+  },
+  {
+   "line": 5,
+   "text": "two:",
+   "start": 17.625,
+   "end": 17.975
+  },
+  {
+   "line": 5,
+   "text": "the",
+   "start": 17.887,
+   "end": 18.9
+  },
+  {
+   "line": 5,
+   "text": "culture.",
+   "start": 18.675,
+   "end": 19.075
+  },
+  {
+   "line": 5,
+   "text": "Run-DMC",
+   "start": 18.9,
+   "end": 19.275
+  },
+  {
+   "line": 5,
+   "text": "dropped",
+   "start": 19.075,
+   "end": 19.8
+  },
+  {
+   "line": 5,
+   "text": "\"My",
+   "start": 19.475,
+   "end": 20.012
+  },
+  {
+   "line": 5,
+   "text": "Adidas.\"",
+   "start": 19.837,
+   "end": 20.725
+  },
+  {
+   "line": 6,
+   "text": "That",
+   "start": 21.475,
+   "end": 21.675
+  },
+  {
+   "line": 6,
+   "text": "song",
+   "start": 21.675,
+   "end": 21.925
+  },
+  {
+   "line": 6,
+   "text": "helped",
+   "start": 21.925,
+   "end": 22.175
+  },
+  {
+   "line": 6,
+   "text": "land",
+   "start": 22.175,
+   "end": 22.362
+  },
+  {
+   "line": 6,
+   "text": "a",
+   "start": 22.362,
+   "end": 22.425
+  },
+  {
+   "line": 6,
+   "text": "deal.",
+   "start": 22.425,
+   "end": 22.925
+  },
+  {
+   "line": 6,
+   "text": "Rap",
+   "start": 23.037,
+   "end": 23.312
+  },
+  {
+   "line": 6,
+   "text": "and",
+   "start": 23.312,
+   "end": 23.425
+  },
+  {
+   "line": 6,
+   "text": "kicks,",
+   "start": 23.425,
+   "end": 23.7
+  },
+  {
+   "line": 6,
+   "text": "locked",
+   "start": 23.75,
+   "end": 24.075
+  },
+  {
+   "line": 6,
+   "text": "in.",
+   "start": 24.075,
+   "end": 24.55
+  },
+  {
+   "line": 7,
+   "text": "Step",
+   "start": 25.3,
+   "end": 25.55
+  },
+  {
+   "line": 7,
+   "text": "three:",
+   "start": 25.55,
+   "end": 25.8
+  },
+  {
+   "line": 7,
+   "text": "scarcity.",
+   "start": 25.85,
+   "end": 26.525
+  },
+  {
+   "line": 7,
+   "text": "Make",
+   "start": 26.625,
+   "end": 26.85
+  },
+  {
+   "line": 7,
+   "text": "fewer",
+   "start": 26.85,
+   "end": 27.175
+  },
+  {
+   "line": 7,
+   "text": "pairs",
+   "start": 27.175,
+   "end": 27.512
+  },
+  {
+   "line": 7,
+   "text": "than",
+   "start": 27.512,
+   "end": 27.625
+  },
+  {
+   "line": 7,
+   "text": "people",
+   "start": 27.625,
+   "end": 27.95
+  },
+  {
+   "line": 7,
+   "text": "want.",
+   "start": 27.95,
+   "end": 28.475
+  },
+  {
+   "line": 8,
+   "text": "Drop",
+   "start": 29.225,
+   "end": 29.475
+  },
+  {
+   "line": 8,
+   "text": "day",
+   "start": 29.475,
+   "end": 29.7
+  },
+  {
+   "line": 8,
+   "text": "hits.",
+   "start": 29.7,
+   "end": 30.125
+  },
+  {
+   "line": 8,
+   "text": "Raffles,",
+   "start": 30.225,
+   "end": 30.6
+  },
+  {
+   "line": 8,
+   "text": "apps,",
+   "start": 30.65,
+   "end": 30.875
+  },
+  {
+   "line": 8,
+   "text": "and",
+   "start": 30.912,
+   "end": 31.025
+  },
+  {
+   "line": 8,
+   "text": "bots,",
+   "start": 31.025,
+   "end": 31.325
+  },
+  {
+   "line": 8,
+   "text": "all",
+   "start": 31.362,
+   "end": 31.55
+  },
+  {
+   "line": 8,
+   "text": "racing.",
+   "start": 31.55,
+   "end": 32.2
+  },
+  {
+   "line": 9,
+   "text": "Step",
+   "start": 32.95,
+   "end": 33.2
+  },
+  {
+   "line": 9,
+   "text": "four:",
+   "start": 33.2,
+   "end": 33.375
+  },
+  {
+   "line": 9,
+   "text": "resale.",
+   "start": 33.412,
+   "end": 33.75
+  },
+  {
+   "line": 9,
+   "text": "Miss",
+   "start": 33.787,
+   "end": 33.962
+  },
+  {
+   "line": 9,
+   "text": "the",
+   "start": 33.962,
+   "end": 34.05
+  },
+  {
+   "line": 9,
+   "text": "drop?",
+   "start": 34.05,
+   "end": 34.45
+  },
+  {
+   "line": 9,
+   "text": "Pay",
+   "start": 34.55,
+   "end": 34.737
+  },
+  {
+   "line": 9,
+   "text": "the",
+   "start": 34.737,
+   "end": 34.825
+  },
+  {
+   "line": 9,
+   "text": "market.",
+   "start": 34.825,
+   "end": 35.45
+  },
+  {
+   "line": 10,
+   "text": "StockX",
+   "start": 36.2,
+   "end": 36.7
+  },
+  {
+   "line": 10,
+   "text": "checks",
+   "start": 36.462,
+   "end": 36.987
+  },
+  {
+   "line": 10,
+   "text": "the",
+   "start": 36.7,
+   "end": 37.075
+  },
+  {
+   "line": 10,
+   "text": "pair",
+   "start": 36.987,
+   "end": 37.287
+  },
+  {
+   "line": 10,
+   "text": "is",
+   "start": 37.075,
+   "end": 37.425
+  },
+  {
+   "line": 10,
+   "text": "real,",
+   "start": 37.287,
+   "end": 37.85
+  },
+  {
+   "line": 10,
+   "text": "then",
+   "start": 37.425,
+   "end": 38.1
+  },
+  {
+   "line": 10,
+   "text": "takes",
+   "start": 37.925,
+   "end": 38.362
+  },
+  {
+   "line": 10,
+   "text": "a",
+   "start": 38.1,
+   "end": 38.45
+  },
+  {
+   "line": 10,
+   "text": "cut.",
+   "start": 38.362,
+   "end": 38.95
+  },
+  {
+   "line": 11,
+   "text": "You",
+   "start": 39.7,
+   "end": 39.787
+  },
+  {
+   "line": 11,
+   "text": "might",
+   "start": 39.787,
+   "end": 39.938
+  },
+  {
+   "line": 11,
+   "text": "be",
+   "start": 39.938,
+   "end": 40.087
+  },
+  {
+   "line": 11,
+   "text": "thinking:",
+   "start": 40.087,
+   "end": 40.4
+  },
+  {
+   "line": 11,
+   "text": "it's",
+   "start": 40.438,
+   "end": 40.6
+  },
+  {
+   "line": 11,
+   "text": "just",
+   "start": 40.6,
+   "end": 40.775
+  },
+  {
+   "line": 11,
+   "text": "shoes.",
+   "start": 40.775,
+   "end": 41.4
+  },
+  {
+   "line": 12,
+   "text": "Nah.",
+   "start": 42.175,
+   "end": 42.425
+  },
+  {
+   "line": 12,
+   "text": "It's",
+   "start": 42.462,
+   "end": 42.6
+  },
+  {
+   "line": 12,
+   "text": "status",
+   "start": 42.6,
+   "end": 43.0
+  },
+  {
+   "line": 12,
+   "text": "you",
+   "start": 43.0,
+   "end": 43.087
+  },
+  {
+   "line": 12,
+   "text": "can",
+   "start": 43.087,
+   "end": 43.2
+  },
+  {
+   "line": 12,
+   "text": "lace",
+   "start": 43.2,
+   "end": 43.45
+  },
+  {
+   "line": 12,
+   "text": "up.",
+   "start": 43.45,
+   "end": 43.825
+  },
+  {
+   "line": 13,
+   "text": "Or:",
+   "start": 44.6,
+   "end": 44.75
+  },
+  {
+   "line": 13,
+   "text": "resale",
+   "start": 44.8,
+   "end": 45.25
+  },
+  {
+   "line": 13,
+   "text": "is",
+   "start": 45.25,
+   "end": 45.363
+  },
+  {
+   "line": 13,
+   "text": "a",
+   "start": 45.363,
+   "end": 45.425
+  },
+  {
+   "line": 13,
+   "text": "bubble.",
+   "start": 45.425,
+   "end": 46.0
+  },
+  {
+   "line": 14,
+   "text": "Cowen",
+   "start": 46.725,
+   "end": 47.6
+  },
+  {
+   "line": 14,
+   "text": "projected",
+   "start": 47.1,
+   "end": 48.025
+  },
+  {
+   "line": 14,
+   "text": "resale",
+   "start": 47.6,
+   "end": 48.15
+  },
+  {
+   "line": 14,
+   "text": "could",
+   "start": 48.025,
+   "end": 48.413
+  },
+  {
+   "line": 14,
+   "text": "hit",
+   "start": 48.15,
+   "end": 49.2
+  },
+  {
+   "line": 14,
+   "text": "$30",
+   "start": 48.812,
+   "end": 49.675
+  },
+  {
+   "line": 14,
+   "text": "billion",
+   "start": 49.2,
+   "end": 49.825
+  },
+  {
+   "line": 14,
+   "text": "by",
+   "start": 49.675,
+   "end": 50.125
+  },
+  {
+   "line": 14,
+   "text": "2030.",
+   "start": 49.825,
+   "end": 50.75
+  },
+  {
+   "line": 15,
+   "text": "So",
+   "start": 51.5,
+   "end": 51.587
+  },
+  {
+   "line": 15,
+   "text": "the",
+   "start": 51.587,
+   "end": 51.675
+  },
+  {
+   "line": 15,
+   "text": "real",
+   "start": 51.675,
+   "end": 51.925
+  },
+  {
+   "line": 15,
+   "text": "product?",
+   "start": 51.925,
+   "end": 52.375
+  },
+  {
+   "line": 15,
+   "text": "Not",
+   "start": 52.413,
+   "end": 52.562
+  },
+  {
+   "line": 15,
+   "text": "the",
+   "start": 52.562,
+   "end": 52.663
+  },
+  {
+   "line": 15,
+   "text": "shoe.",
+   "start": 52.663,
+   "end": 52.925
+  },
+  {
+   "line": 15,
+   "text": "It's",
+   "start": 52.962,
+   "end": 53.138
+  },
+  {
+   "line": 15,
+   "text": "the",
+   "start": 53.138,
+   "end": 53.225
+  },
+  {
+   "line": 15,
+   "text": "wait.",
+   "start": 53.225,
+   "end": 53.75
+  },
+  {
+   "line": 16,
+   "text": "Comment",
+   "start": 54.475,
+   "end": 55.863
+  },
+  {
+   "line": 16,
+   "text": "KICKS",
+   "start": 54.8,
+   "end": 55.988
+  },
+  {
+   "line": 16,
+   "text": "and",
+   "start": 55.863,
+   "end": 56.1
+  },
+  {
+   "line": 16,
+   "text": "I'll",
+   "start": 55.988,
+   "end": 56.312
+  },
+  {
+   "line": 16,
+   "text": "send",
+   "start": 56.1,
+   "end": 56.45
+  },
+  {
+   "line": 16,
+   "text": "my",
+   "start": 56.312,
+   "end": 56.725
+  },
+  {
+   "line": 16,
+   "text": "drop-day",
+   "start": 56.45,
+   "end": 56.9
+  },
+  {
+   "line": 16,
+   "text": "checklist.",
+   "start": 56.725,
+   "end": 57.6
+  },
+  {
+   "line": 17,
+   "text": "Save",
+   "start": 58.4,
+   "end": 58.613
+  },
+  {
+   "line": 17,
+   "text": "this",
+   "start": 58.613,
+   "end": 58.775
+  },
+  {
+   "line": 17,
+   "text": "so",
+   "start": 58.775,
+   "end": 58.925
+  },
+  {
+   "line": 17,
+   "text": "you",
+   "start": 58.925,
+   "end": 59.013
+  },
+  {
+   "line": 17,
+   "text": "can",
+   "start": 59.013,
+   "end": 59.125
+  },
+  {
+   "line": 17,
+   "text": "come",
+   "start": 59.125,
+   "end": 59.3
+  },
+  {
+   "line": 17,
+   "text": "back",
+   "start": 59.3,
+   "end": 59.575
+  },
+  {
+   "line": 17,
+   "text": "to",
+   "start": 59.575,
+   "end": 59.725
+  },
+  {
+   "line": 17,
+   "text": "it.",
+   "start": 59.725,
+   "end": 60.075
+  }
+ ],
+ "duration": 61.15
+}

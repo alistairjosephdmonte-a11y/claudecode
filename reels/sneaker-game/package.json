@@ -1,0 +1,23 @@
+{
+  "name": "sneaker-game-reel",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render SneakerReel out/raw.mp4 --crf 17 --codec h264"
+  },
+  "dependencies": {
+    "@fontsource/instrument-serif": "^5.3.0",
+    "@fontsource/manrope": "^5.3.0",
+    "@remotion/cli": "^4.0.539",
+    "@remotion/google-fonts": "^4.0.539",
+    "@remotion/media": "^4.0.539",
+    "lucide-react": "^1.66.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.539"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
