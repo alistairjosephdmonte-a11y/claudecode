@@ -1,0 +1,637 @@
+{
+  "project": "BRAND CORONER \u00b7 CASE 002: WEWORK",
+  "title": "the $47 billion illusion",
+  "fps": 24,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "total_frames": 11520,
+  "duration_s": 480.0,
+  "narration": "not supplied \u2014 silent animatic with narration markers (topics only)",
+  "scenes": [
+    {
+      "scene": 1,
+      "id": "SC01",
+      "act": "ACT 01 \u00b7 the valuation",
+      "title": "the $47 billion contradiction",
+      "frame_start": 1,
+      "frame_end": 720,
+      "timecode_in": "00:00:00",
+      "timecode_out": "00:30:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 0.0,
+          "end_s": 9.0,
+          "narration_marker": "open on the reported 2019 private valuation",
+          "sources": [
+            "VAL47"
+          ]
+        },
+        {
+          "beat": 2,
+          "start_s": 9.0,
+          "end_s": 17.0,
+          "narration_marker": "the company the number described (archival photography slot)",
+          "sources": [
+            "VAL47"
+          ]
+        },
+        {
+          "beat": 3,
+          "start_s": 17.0,
+          "end_s": 30.0,
+          "narration_marker": "2019 valuation versus the november 2023 chapter 11 filing; what went wrong?",
+          "sources": [
+            "VAL47",
+            "CH11"
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "id": "SC02",
+      "act": "ACT 01 \u00b7 the valuation",
+      "title": "the first clue",
+      "frame_start": 721,
+      "frame_end": 1440,
+      "timecode_in": "00:30:00",
+      "timecode_out": "01:00:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 30.0,
+          "end_s": 40.0,
+          "narration_marker": "the bankruptcy filing and its date",
+          "sources": [
+            "CH11"
+          ]
+        },
+        {
+          "beat": 2,
+          "start_s": 40.0,
+          "end_s": 51.0,
+          "narration_marker": "how money moved: landlord, wework, member",
+          "sources": [
+            "ILLUS"
+          ]
+        },
+        {
+          "beat": 3,
+          "start_s": 51.0,
+          "end_s": 60.0,
+          "narration_marker": "flexible customers, long-term leases: the contradiction",
+          "sources": [
+            "ILLUS"
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 3,
+      "id": "SC03",
+      "act": "ACT 02 \u00b7 the promise",
+      "title": "a different kind of office",
+      "frame_start": 1441,
+      "frame_end": 2160,
+      "timecode_in": "01:00:00",
+      "timecode_out": "01:30:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 60.0,
+          "end_s": 70.0,
+          "narration_marker": "traditional office versus flexible workspace",
+          "sources": [
+            "ILLUS"
+          ]
+        },
+        {
+          "beat": 2,
+          "start_s": 70.0,
+          "end_s": 80.0,
+          "narration_marker": "what members got (archival photography slots)",
+          "sources": []
+        },
+        {
+          "beat": 3,
+          "start_s": 80.0,
+          "end_s": 90.0,
+          "narration_marker": "the first location, 154 grand street, 2010",
+          "sources": [
+            "S1"
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 4,
+      "id": "SC04",
+      "act": "ACT 02 \u00b7 the promise",
+      "title": "selling the future",
+      "frame_start": 2161,
+      "frame_end": 2880,
+      "timecode_in": "01:30:00",
+      "timecode_out": "02:00:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 90.0,
+          "end_s": 98.0,
+          "narration_marker": "adam neumann and the expansion narrative (authenticated photo slot)",
+          "sources": []
+        },
+        {
+          "beat": 2,
+          "start_s": 98.0,
+          "end_s": 110.0,
+          "narration_marker": "from one building to 528 locations in 111 cities",
+          "sources": [
+            "S1",
+            "NE"
+          ]
+        },
+        {
+          "beat": 3,
+          "start_s": 110.0,
+          "end_s": 120.0,
+          "narration_marker": "growth is not profitability; could the economics support the ambition?",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "scene": 5,
+      "id": "SC05",
+      "act": "ACT 03 \u00b7 the machine",
+      "title": "the business model",
+      "frame_start": 2881,
+      "frame_end": 3600,
+      "timecode_in": "02:00:00",
+      "timecode_out": "02:30:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 120.0,
+          "end_s": 130.0,
+          "narration_marker": "wework leases property from landlords",
+          "sources": [
+            "ILLUS"
+          ]
+        },
+        {
+          "beat": 2,
+          "start_s": 130.0,
+          "end_s": 140.0,
+          "narration_marker": "fits it out and operates it",
+          "sources": [
+            "ILLUS"
+          ]
+        },
+        {
+          "beat": 3,
+          "start_s": 140.0,
+          "end_s": 150.0,
+          "narration_marker": "members pay for access: lease, fit-out, operate, collect revenue",
+          "sources": [
+            "ILLUS"
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 6,
+      "id": "SC06",
+      "act": "ACT 03 \u00b7 the machine",
+      "title": "the lease mismatch",
+      "frame_start": 3601,
+      "frame_end": 4320,
+      "timecode_in": "02:30:00",
+      "timecode_out": "03:00:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 150.0,
+          "end_s": 160.0,
+          "narration_marker": "two commitments of different lengths",
+          "sources": [
+            "ILLUS"
+          ]
+        },
+        {
+          "beat": 2,
+          "start_s": 160.0,
+          "end_s": 170.0,
+          "narration_marker": "the shorter one can end; the longer one remains",
+          "sources": [
+            "ILLUS"
+          ]
+        },
+        {
+          "beat": 3,
+          "start_s": 170.0,
+          "end_s": 180.0,
+          "narration_marker": "what the s-1 disclosed about lease length",
+          "sources": [
+            "S1"
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 7,
+      "id": "SC07",
+      "act": "ACT 03 \u00b7 the machine",
+      "title": "the expansion machine",
+      "frame_start": 4321,
+      "frame_end": 5040,
+      "timecode_in": "03:00:00",
+      "timecode_out": "03:30:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 180.0,
+          "end_s": 190.0,
+          "narration_marker": "the contractual obligations table",
+          "sources": [
+            "S1"
+          ]
+        },
+        {
+          "beat": 2,
+          "start_s": 190.0,
+          "end_s": 200.0,
+          "narration_marker": "$33.95 billion of commenced operating lease payments, undiscounted",
+          "sources": [
+            "S1"
+          ]
+        },
+        {
+          "beat": 3,
+          "start_s": 200.0,
+          "end_s": 210.0,
+          "narration_marker": "plus about $13.1 billion signed but not yet commenced: a separate category",
+          "sources": [
+            "S1"
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 8,
+      "id": "SC08",
+      "act": "ACT 04 \u00b7 the documents speak",
+      "title": "the ipo document",
+      "frame_start": 5041,
+      "frame_end": 5760,
+      "timecode_in": "03:30:00",
+      "timecode_out": "04:00:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 210.0,
+          "end_s": 219.0,
+          "narration_marker": "august 14, 2019: the s-1 is filed",
+          "sources": [
+            "S1"
+          ]
+        },
+        {
+          "beat": 2,
+          "start_s": 219.0,
+          "end_s": 231.0,
+          "narration_marker": "financial statements, risk factors, related-party transactions",
+          "sources": [
+            "S1"
+          ]
+        },
+        {
+          "beat": 3,
+          "start_s": 231.0,
+          "end_s": 240.0,
+          "narration_marker": "the evidence was public",
+          "sources": [
+            "S1"
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 9,
+      "id": "SC09",
+      "act": "ACT 04 \u00b7 the documents speak",
+      "title": "the financial evidence",
+      "frame_start": 5761,
+      "frame_end": 6480,
+      "timecode_in": "04:00:00",
+      "timecode_out": "04:30:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 240.0,
+          "end_s": 252.0,
+          "narration_marker": "2018 revenue against 2018 net loss",
+          "sources": [
+            "S1"
+          ]
+        },
+        {
+          "beat": 2,
+          "start_s": 252.0,
+          "end_s": 262.0,
+          "narration_marker": "the rows in the filing",
+          "sources": [
+            "S1"
+          ]
+        },
+        {
+          "beat": 3,
+          "start_s": 262.0,
+          "end_s": 270.0,
+          "narration_marker": "revenue was growing; so were the questions",
+          "sources": [
+            "S1"
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 10,
+      "id": "SC10",
+      "act": "ACT 04 \u00b7 the documents speak",
+      "title": "governance",
+      "frame_start": 6481,
+      "frame_end": 7200,
+      "timecode_in": "04:30:00",
+      "timecode_out": "05:00:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 270.0,
+          "end_s": 280.0,
+          "narration_marker": "the 'we' trademark transaction, about $5.9 million",
+          "sources": [
+            "S1"
+          ]
+        },
+        {
+          "beat": 2,
+          "start_s": 280.0,
+          "end_s": 288.0,
+          "narration_marker": "later unwound",
+          "sources": [
+            "S1A_0904"
+          ]
+        },
+        {
+          "beat": 3,
+          "start_s": 288.0,
+          "end_s": 300.0,
+          "narration_marker": "high-vote shares: 20 votes, later 10; who controlled the company?",
+          "sources": [
+            "S1",
+            "S1A_0913"
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 11,
+      "id": "SC11",
+      "act": "ACT 05 \u00b7 the break",
+      "title": "the failed ipo",
+      "frame_start": 7201,
+      "frame_end": 7920,
+      "timecode_in": "05:00:00",
+      "timecode_out": "05:30:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 300.0,
+          "end_s": 310.0,
+          "narration_marker": "august 14, 2019: ipo registration",
+          "sources": [
+            "S1"
+          ]
+        },
+        {
+          "beat": 2,
+          "start_s": 310.0,
+          "end_s": 320.0,
+          "narration_marker": "september 2019: adam neumann steps down as ceo",
+          "sources": [
+            "10K22"
+          ]
+        },
+        {
+          "beat": 3,
+          "start_s": 320.0,
+          "end_s": 330.0,
+          "narration_marker": "september 30, 2019: ipo withdrawn; the ipo never happened",
+          "sources": [
+            "RW"
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 12,
+      "id": "SC12",
+      "act": "ACT 05 \u00b7 the break",
+      "title": "the rescue",
+      "frame_start": 7921,
+      "frame_end": 8640,
+      "timecode_in": "05:30:00",
+      "timecode_out": "06:00:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 330.0,
+          "end_s": 340.0,
+          "narration_marker": "softbank's october 2019 financing package",
+          "sources": [
+            "SB"
+          ]
+        },
+        {
+          "beat": 2,
+          "start_s": 340.0,
+          "end_s": 350.0,
+          "narration_marker": "2021: merger with bowx, public listing",
+          "sources": [
+            "BOWX",
+            "CLOSE"
+          ]
+        },
+        {
+          "beat": 3,
+          "start_s": 350.0,
+          "end_s": 360.0,
+          "narration_marker": "two different measures; the dream was repriced",
+          "sources": [
+            "VAL47",
+            "BOWX"
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 13,
+      "id": "SC13",
+      "act": "ACT 06 \u00b7 the reckoning",
+      "title": "a world without offices",
+      "frame_start": 8641,
+      "frame_end": 9360,
+      "timecode_in": "06:00:00",
+      "timecode_out": "06:30:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 360.0,
+          "end_s": 370.0,
+          "narration_marker": "2020: remote work disruption (archival photography slot)",
+          "sources": []
+        },
+        {
+          "beat": 2,
+          "start_s": 370.0,
+          "end_s": 380.0,
+          "narration_marker": "what the company said, and what demand did",
+          "sources": [
+            "10K22",
+            "10Q"
+          ]
+        },
+        {
+          "beat": 3,
+          "start_s": 380.0,
+          "end_s": 390.0,
+          "narration_marker": "restructuring and lease renegotiation; a new shock, an old problem",
+          "sources": [
+            "10K22",
+            "Q3"
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 14,
+      "id": "SC14",
+      "act": "ACT 06 \u00b7 the reckoning",
+      "title": "the warning",
+      "frame_start": 9361,
+      "frame_end": 10080,
+      "timecode_in": "06:30:00",
+      "timecode_out": "07:00:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 390.0,
+          "end_s": 400.0,
+          "narration_marker": "august 2023: the going-concern warning",
+          "sources": [
+            "10Q"
+          ]
+        },
+        {
+          "beat": 2,
+          "start_s": 400.0,
+          "end_s": 410.0,
+          "narration_marker": "cash at september 30, 2023: $462 million (unaudited, disclosed november 21)",
+          "sources": [
+            "Q3"
+          ]
+        },
+        {
+          "beat": 3,
+          "start_s": 410.0,
+          "end_s": 420.0,
+          "narration_marker": "november 6, 2023: chapter 11; warning and filing are separate events",
+          "sources": [
+            "10Q",
+            "CH11",
+            "Q3"
+          ]
+        }
+      ]
+    },
+    {
+      "scene": 15,
+      "id": "SC15",
+      "act": "ACT 06 \u00b7 the reckoning",
+      "title": "what survived",
+      "frame_start": 10081,
+      "frame_end": 10800,
+      "timecode_in": "07:00:00",
+      "timecode_out": "07:30:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 420.0,
+          "end_s": 432.0,
+          "narration_marker": "chapter 11 to emergence: november 6, 2023 to june 11, 2024",
+          "sources": [
+            "CH11",
+            "EMERGE"
+          ]
+        },
+        {
+          "beat": 2,
+          "start_s": 432.0,
+          "end_s": 440.0,
+          "narration_marker": "the company continued in reorganized form (licensed photography slot)",
+          "sources": [
+            "EMERGE"
+          ]
+        },
+        {
+          "beat": 3,
+          "start_s": 440.0,
+          "end_s": 450.0,
+          "narration_marker": "the business survived; the original valuation story did not",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "scene": 16,
+      "id": "SC16",
+      "act": "ACT 06 \u00b7 the reckoning",
+      "title": "the final verdict",
+      "frame_start": 10801,
+      "frame_end": 11520,
+      "timecode_in": "07:30:00",
+      "timecode_out": "08:00:00",
+      "beats": [
+        {
+          "beat": 1,
+          "start_s": 450.0,
+          "end_s": 458.0,
+          "narration_marker": "return to the number",
+          "sources": [
+            "VAL47"
+          ]
+        },
+        {
+          "beat": 2,
+          "start_s": 458.0,
+          "end_s": 468.0,
+          "narration_marker": "four pieces of evidence",
+          "sources": [
+            "S1",
+            "10Q"
+          ]
+        },
+        {
+          "beat": 3,
+          "start_s": 468.0,
+          "end_s": 480.0,
+          "narration_marker": "verdict and brand coroner identity",
+          "sources": []
+        }
+      ]
+    }
+  ]
+}

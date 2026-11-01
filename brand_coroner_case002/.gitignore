@@ -1,0 +1,8 @@
+renders/frames/
+renders/tests/
+evidence/sec_filings/*.htm
+audio/*.wav
+scenes/*.blend1
+scenes/BC002_PARTIAL.blend
+metadata/build_log_partial.json
+__pycache__/

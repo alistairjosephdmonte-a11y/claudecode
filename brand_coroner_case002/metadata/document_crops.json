@@ -1,0 +1,580 @@
+{
+  "D01_S1_COVER": {
+    "file": "S1_20190814.htm",
+    "png": "evidence/document_crops/D01_S1_COVER.png",
+    "css_w": 864,
+    "css_h": 352,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "August 14, 2019",
+        "rects": [
+          {
+            "x": 538.0625,
+            "y": 10,
+            "w": 81.15625,
+            "h": 12
+          }
+        ]
+      },
+      {
+        "text": "The We Company",
+        "rects": [
+          {
+            "x": 320.421875,
+            "y": 196.984375,
+            "w": 223.15625,
+            "h": 30
+          }
+        ]
+      }
+    ]
+  },
+  "D02_8K_CH11": {
+    "file": "8K_20231107_ch11.htm",
+    "png": "evidence/document_crops/D02_8K_CH11.png",
+    "css_w": 864,
+    "css_h": 272,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "On November 6, 2023",
+        "rects": [
+          {
+            "x": 56.625,
+            "y": 70,
+            "w": 119.203125,
+            "h": 15
+          }
+        ]
+      },
+      {
+        "text": "Chapter 11",
+        "rects": [
+          {
+            "x": 568.6875,
+            "y": 86,
+            "w": 58.359375,
+            "h": 15
+          }
+        ]
+      }
+    ]
+  },
+  "D03_LEASE_TABLE": {
+    "file": "S1_20190814.htm",
+    "png": "evidence/document_crops/D03_LEASE_TABLE.png",
+    "css_w": 864,
+    "css_h": 177.5,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "33,953,402",
+        "rects": [
+          {
+            "x": 776.59375,
+            "y": 41.5,
+            "w": 60.0625,
+            "h": 14
+          }
+        ]
+      },
+      {
+        "text": "Non-cancelable operating lease",
+        "rects": []
+      }
+    ]
+  },
+  "D04_LEASE_FOOTNOTE": {
+    "file": "S1_20190814.htm",
+    "png": "evidence/document_crops/D04_LEASE_FOOTNOTE.png",
+    "css_w": 864,
+    "css_h": 90,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "$13.1 billion",
+        "rects": [
+          {
+            "x": 546.109375,
+            "y": 40,
+            "w": 49.796875,
+            "h": 10
+          }
+        ]
+      },
+      {
+        "text": "not yet commenced",
+        "rects": [
+          {
+            "x": 818.890625,
+            "y": 40,
+            "w": 12.96875,
+            "h": 10
+          },
+          {
+            "x": 56.625,
+            "y": 50,
+            "w": 65.84375,
+            "h": 10
+          }
+        ]
+      }
+    ]
+  },
+  "D05_SELECTED_FINANCIALS": {
+    "file": "S1_20190814.htm",
+    "png": "evidence/document_crops/D05_SELECTED_FINANCIALS.png",
+    "css_w": 837.578125,
+    "css_h": 394.5,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "1,821,751",
+        "rects": [
+          {
+            "x": 620.859375,
+            "y": 70.5,
+            "w": 47.421875,
+            "h": 12
+          }
+        ]
+      },
+      {
+        "text": "(1,610,792)",
+        "rects": [
+          {
+            "x": 616.71875,
+            "y": 346.5,
+            "w": 54.515625,
+            "h": 12
+          }
+        ]
+      },
+      {
+        "text": "Net loss attributable to WeWork Companies Inc.",
+        "rects": [
+          {
+            "x": 29.90625,
+            "y": 346.5,
+            "w": 226.46875,
+            "h": 12
+          }
+        ]
+      },
+      {
+        "text": "(1,927,419)",
+        "rects": [
+          {
+            "x": 616.71875,
+            "y": 312.5,
+            "w": 54.515625,
+            "h": 12
+          }
+        ]
+      }
+    ]
+  },
+  "D06_TRADEMARK": {
+    "file": "S1_20190814.htm",
+    "png": "evidence/document_crops/D06_TRADEMARK.png",
+    "css_w": 864,
+    "css_h": 262,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "approximately $5.9 million",
+        "rects": [
+          {
+            "x": 324.578125,
+            "y": 188,
+            "w": 138.734375,
+            "h": 14
+          }
+        ]
+      },
+      {
+        "text": "in lieu of paying cash",
+        "rects": [
+          {
+            "x": 372.21875,
+            "y": 174,
+            "w": 112.078125,
+            "h": 14
+          }
+        ]
+      }
+    ]
+  },
+  "D07_TRADEMARK_UNWOUND": {
+    "file": "S1A_20190904.htm",
+    "png": "evidence/document_crops/D07_TRADEMARK_UNWOUND.png",
+    "css_w": 837.578125,
+    "css_h": 195,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "Unwinding of Receipt of Partnership Interests",
+        "rects": [
+          {
+            "x": 24,
+            "y": 10,
+            "w": 289.5625,
+            "h": 15
+          }
+        ]
+      }
+    ]
+  },
+  "D08_TWENTY_VOTES": {
+    "file": "S1_20190814.htm",
+    "png": "evidence/document_crops/D08_TWENTY_VOTES.png",
+    "css_w": 864,
+    "css_h": 102,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "twenty votes per share",
+        "rects": [
+          {
+            "x": 172.046875,
+            "y": 60,
+            "w": 6.625,
+            "h": 1
+          }
+        ]
+      },
+      {
+        "text": "one vote per share",
+        "rects": [
+          {
+            "x": 139.15625,
+            "y": 60,
+            "w": 5.484375,
+            "h": 1
+          }
+        ]
+      }
+    ]
+  },
+  "D09_TEN_VOTES": {
+    "file": "S1A_20190913.htm",
+    "png": "evidence/document_crops/D09_TEN_VOTES.png",
+    "css_w": 837.578125,
+    "css_h": 224,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "from 20 votes per share to 10 votes per share",
+        "rects": [
+          {
+            "x": 251.421875,
+            "y": 120,
+            "w": 242.8125,
+            "h": 14
+          }
+        ]
+      }
+    ]
+  },
+  "D10_RISK_FACTORS": {
+    "file": "S1_20190814.htm",
+    "png": "evidence/document_crops/D10_RISK_FACTORS.png",
+    "css_w": 864,
+    "css_h": 164,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "$47.2 billion",
+        "rects": [
+          {
+            "x": 338.875,
+            "y": 68,
+            "w": 64.0625,
+            "h": 14
+          }
+        ]
+      },
+      {
+        "text": "approximately 15 years",
+        "rects": [
+          {
+            "x": 389.28125,
+            "y": 54,
+            "w": 124.078125,
+            "h": 14
+          }
+        ]
+      }
+    ]
+  },
+  "D11_RW_WITHDRAWAL": {
+    "file": "RW_20190930.htm",
+    "png": "evidence/document_crops/D11_RW_WITHDRAWAL.png",
+    "css_w": 864,
+    "css_h": 590,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "consent to the withdrawal of the Registration Statement",
+        "rects": [
+          {
+            "x": 24,
+            "y": 412,
+            "w": 296.484375,
+            "h": 15
+          }
+        ]
+      },
+      {
+        "text": "September 30, 2019",
+        "rects": [
+          {
+            "x": 465.453125,
+            "y": 26,
+            "w": 106.984375,
+            "h": 15
+          }
+        ]
+      }
+    ]
+  },
+  "D12_SOFTBANK_RELEASE": {
+    "file": "SB_20191023.htm",
+    "png": "evidence/document_crops/D12_SOFTBANK_RELEASE.png",
+    "css_w": 1000,
+    "css_h": 245,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "$5 billion in new",
+        "rects": [
+          {
+            "x": 460.390625,
+            "y": 150,
+            "w": 108.890625,
+            "h": 17
+          }
+        ]
+      },
+      {
+        "text": "up to $3 billion",
+        "rects": [
+          {
+            "x": 964.40625,
+            "y": 150,
+            "w": 16.015625,
+            "h": 17
+          },
+          {
+            "x": 8,
+            "y": 168,
+            "w": 78.234375,
+            "h": 17
+          }
+        ]
+      },
+      {
+        "text": "$1.5 billion",
+        "rects": [
+          {
+            "x": 745.484375,
+            "y": 168,
+            "w": 73.796875,
+            "h": 17
+          }
+        ]
+      }
+    ]
+  },
+  "D13_BOWX_EV": {
+    "file": "BOWX_ex991.htm",
+    "png": "evidence/document_crops/D13_BOWX_EV.png",
+    "css_w": 790.578125,
+    "css_h": 152,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "initial enterprise value of approximately $9 billion",
+        "rects": [
+          {
+            "x": 217.921875,
+            "y": 60,
+            "w": 268.734375,
+            "h": 15
+          }
+        ]
+      }
+    ]
+  },
+  "D14_SPAC_CLOSE": {
+    "file": "8K_20211026_close.htm",
+    "png": "evidence/document_crops/D14_SPAC_CLOSE.png",
+    "css_w": 864,
+    "css_h": 196,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "October 20, 2021",
+        "rects": [
+          {
+            "x": 354.21875,
+            "y": 10,
+            "w": 92.921875,
+            "h": 15
+          }
+        ]
+      }
+    ]
+  },
+  "D15_GOING_CONCERN": {
+    "file": "10Q_20230808.htm",
+    "png": "evidence/document_crops/D15_GOING_CONCERN.png",
+    "css_w": 1000,
+    "css_h": 205,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "substantial doubt exists about the Company’s ability to continue as a going concern",
+        "rects": [
+          {
+            "x": 8,
+            "y": 150,
+            "w": 519.90625,
+            "h": 15
+          }
+        ]
+      },
+      {
+        "text": "higher member churn and weaker demand",
+        "rects": [
+          {
+            "x": 422.703125,
+            "y": 14,
+            "w": 259.5625,
+            "h": 15
+          }
+        ]
+      }
+    ]
+  },
+  "D16_Q3_CASH": {
+    "file": "EX991_2023Q3.htm",
+    "png": "evidence/document_crops/D16_Q3_CASH.png",
+    "css_w": 1000,
+    "css_h": 126,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "$462 million",
+        "rects": [
+          {
+            "x": 279.171875,
+            "y": 10,
+            "w": 71.140625,
+            "h": 15
+          }
+        ]
+      },
+      {
+        "text": "September 30, 2023",
+        "rects": [
+          {
+            "x": 42.0625,
+            "y": 10,
+            "w": 120.796875,
+            "h": 15
+          }
+        ]
+      }
+    ]
+  },
+  "D17_EMERGENCE": {
+    "file": "8K_20240612_emerge.htm",
+    "png": "evidence/document_crops/D17_EMERGENCE.png",
+    "css_w": 864,
+    "css_h": 164,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "The Plan became effective on June 11, 2024",
+        "rects": [
+          {
+            "x": 631.109375,
+            "y": 122,
+            "w": 205.40625,
+            "h": 15
+          },
+          {
+            "x": 24,
+            "y": 138,
+            "w": 26.65625,
+            "h": 15
+          }
+        ]
+      }
+    ]
+  },
+  "D18_FIRST_LOCATION": {
+    "file": "S1_20190814.htm",
+    "png": "evidence/document_crops/D18_FIRST_LOCATION.png",
+    "css_w": 837.578125,
+    "css_h": 90,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "154 Grand Street in New York City",
+        "rects": [
+          {
+            "x": 394.84375,
+            "y": 10,
+            "w": 181.875,
+            "h": 14
+          }
+        ]
+      },
+      {
+        "text": "528",
+        "rects": [
+          {
+            "x": 494.453125,
+            "y": 38,
+            "w": 20.03125,
+            "h": 14
+          }
+        ]
+      },
+      {
+        "text": "111 cities across 29 countries",
+        "rects": [
+          {
+            "x": 581.171875,
+            "y": 38,
+            "w": 156.3125,
+            "h": 14
+          }
+        ]
+      }
+    ]
+  },
+  "D19_COVID_10K": {
+    "file": "10K_2022.htm",
+    "png": "evidence/document_crops/D19_COVID_10K.png",
+    "css_w": 1000,
+    "css_h": 68,
+    "scale": 2,
+    "marks": [
+      {
+        "text": "COVID-19",
+        "rects": [
+          {
+            "x": 128.6875,
+            "y": 10,
+            "w": 61.484375,
+            "h": 15
+          }
+        ]
+      }
+    ]
+  }
+}

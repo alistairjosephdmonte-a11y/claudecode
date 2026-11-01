@@ -1,0 +1,348 @@
+{
+ "note": "Temporary sound design synthesized in scripts/sound_design.py (sine/noise only; no samples, no music, no voice). Replace with the licensed score and the supplied narration.",
+ "duration_s": 480.0,
+ "cues": [
+  {
+   "t": 18.7,
+   "type": "paper",
+   "scene": "SC01",
+   "doc": "D02_8K_CH11"
+  },
+  {
+   "t": 19.8,
+   "type": "click",
+   "scene": "SC01",
+   "phrase": "On November 6, 2023"
+  },
+  {
+   "t": 25.0,
+   "type": "bass",
+   "scene": "SC01",
+   "why": "what went wrong?"
+  },
+  {
+   "t": 31.3,
+   "type": "paper",
+   "scene": "SC02",
+   "doc": "D02_8K_CH11"
+  },
+  {
+   "t": 32.4,
+   "type": "click",
+   "scene": "SC02",
+   "phrase": "On November 6, 2023"
+  },
+  {
+   "t": 34.6,
+   "type": "click",
+   "scene": "SC02",
+   "phrase": "Chapter 11"
+  },
+  {
+   "t": 80.5,
+   "type": "paper",
+   "scene": "SC03",
+   "doc": "D18_FIRST_LOCATION"
+  },
+  {
+   "t": 81.6,
+   "type": "click",
+   "scene": "SC03",
+   "phrase": "154 Grand Street in New York City"
+  },
+  {
+   "t": 170.7,
+   "type": "paper",
+   "scene": "SC06",
+   "doc": "D10_RISK_FACTORS"
+  },
+  {
+   "t": 171.8,
+   "type": "click",
+   "scene": "SC06",
+   "phrase": "approximately 15 years"
+  },
+  {
+   "t": 184.1,
+   "type": "paper",
+   "scene": "SC07",
+   "doc": "D03_LEASE_TABLE"
+  },
+  {
+   "t": 185.2,
+   "type": "click",
+   "scene": "SC07",
+   "phrase": "33,953,402"
+  },
+  {
+   "t": 190.4,
+   "type": "bass",
+   "scene": "SC07",
+   "why": "$33.95 billion"
+  },
+  {
+   "t": 194.5,
+   "type": "paper",
+   "scene": "SC07",
+   "doc": "D04_LEASE_FOOTNOTE"
+  },
+  {
+   "t": 195.6,
+   "type": "click",
+   "scene": "SC07",
+   "phrase": "$13.1 billion"
+  },
+  {
+   "t": 196.6,
+   "type": "click",
+   "scene": "SC07",
+   "phrase": "not yet commenced"
+  },
+  {
+   "t": 211.1,
+   "type": "paper",
+   "scene": "SC08",
+   "doc": "D01_S1_COVER"
+  },
+  {
+   "t": 212.2,
+   "type": "click",
+   "scene": "SC08",
+   "phrase": "August 14, 2019"
+  },
+  {
+   "t": 252.7,
+   "type": "paper",
+   "scene": "SC09",
+   "doc": "D05_SELECTED_FINANCIALS"
+  },
+  {
+   "t": 253.8,
+   "type": "click",
+   "scene": "SC09",
+   "phrase": "1,821,751"
+  },
+  {
+   "t": 255.4,
+   "type": "click",
+   "scene": "SC09",
+   "phrase": "(1,610,792)"
+  },
+  {
+   "t": 255.8,
+   "type": "click",
+   "scene": "SC09",
+   "phrase": "Net loss attributable to WeWork Companies Inc."
+  },
+  {
+   "t": 257.6,
+   "type": "click",
+   "scene": "SC09",
+   "phrase": "(1,927,419)"
+  },
+  {
+   "t": 270.9,
+   "type": "paper",
+   "scene": "SC10",
+   "doc": "D06_TRADEMARK"
+  },
+  {
+   "t": 272.0,
+   "type": "click",
+   "scene": "SC10",
+   "phrase": "approximately $5.9 million"
+  },
+  {
+   "t": 273.6,
+   "type": "click",
+   "scene": "SC10",
+   "phrase": "in lieu of paying cash"
+  },
+  {
+   "t": 280.1,
+   "type": "paper",
+   "scene": "SC10",
+   "doc": "D07_TRADEMARK_UNWOUND"
+  },
+  {
+   "t": 281.2,
+   "type": "click",
+   "scene": "SC10",
+   "phrase": "Unwinding of Receipt of Partnership Interests"
+  },
+  {
+   "t": 302.5,
+   "type": "paper",
+   "scene": "SC11",
+   "doc": "D01_S1_COVER"
+  },
+  {
+   "t": 303.6,
+   "type": "click",
+   "scene": "SC11",
+   "phrase": "August 14, 2019"
+  },
+  {
+   "t": 319.7,
+   "type": "paper",
+   "scene": "SC11",
+   "doc": "D11_RW_WITHDRAWAL"
+  },
+  {
+   "t": 320.8,
+   "type": "click",
+   "scene": "SC11",
+   "phrase": "consent to the withdrawal of the Registration Statement"
+  },
+  {
+   "t": 321.4,
+   "type": "bass",
+   "scene": "SC11",
+   "why": "the timeline breaks"
+  },
+  {
+   "t": 330.7,
+   "type": "paper",
+   "scene": "SC12",
+   "doc": "D12_SOFTBANK_RELEASE"
+  },
+  {
+   "t": 331.8,
+   "type": "click",
+   "scene": "SC12",
+   "phrase": "$5 billion in new"
+  },
+  {
+   "t": 332.8,
+   "type": "click",
+   "scene": "SC12",
+   "phrase": "up to $3 billion"
+  },
+  {
+   "t": 333.8,
+   "type": "click",
+   "scene": "SC12",
+   "phrase": "$1.5 billion"
+  },
+  {
+   "t": 343.1,
+   "type": "paper",
+   "scene": "SC12",
+   "doc": "D13_BOWX_EV"
+  },
+  {
+   "t": 344.2,
+   "type": "click",
+   "scene": "SC12",
+   "phrase": "initial enterprise value of approximately $9 billion"
+  },
+  {
+   "t": 345.1,
+   "type": "paper",
+   "scene": "SC12",
+   "doc": "D14_SPAC_CLOSE"
+  },
+  {
+   "t": 346.2,
+   "type": "click",
+   "scene": "SC12",
+   "phrase": "October 20, 2021"
+  },
+  {
+   "t": 370.3,
+   "type": "paper",
+   "scene": "SC13",
+   "doc": "D19_COVID_10K"
+  },
+  {
+   "t": 371.4,
+   "type": "click",
+   "scene": "SC13",
+   "phrase": "COVID-19"
+  },
+  {
+   "t": 374.5,
+   "type": "paper",
+   "scene": "SC13",
+   "doc": "D15_GOING_CONCERN"
+  },
+  {
+   "t": 375.6,
+   "type": "click",
+   "scene": "SC13",
+   "phrase": "higher member churn and weaker demand"
+  },
+  {
+   "t": 391.1,
+   "type": "paper",
+   "scene": "SC14",
+   "doc": "D15_GOING_CONCERN"
+  },
+  {
+   "t": 392.2,
+   "type": "click",
+   "scene": "SC14",
+   "phrase": "substantial doubt exists about the Company\u2019s ability to continue as a going concern"
+  },
+  {
+   "t": 403.3,
+   "type": "paper",
+   "scene": "SC14",
+   "doc": "D16_Q3_CASH"
+  },
+  {
+   "t": 404.4,
+   "type": "click",
+   "scene": "SC14",
+   "phrase": "$462 million"
+  },
+  {
+   "t": 412.4,
+   "type": "bass",
+   "scene": "SC14",
+   "why": "chapter 11 filing"
+  },
+  {
+   "t": 413.3,
+   "type": "paper",
+   "scene": "SC14",
+   "doc": "D02_8K_CH11"
+  },
+  {
+   "t": 414.4,
+   "type": "click",
+   "scene": "SC14",
+   "phrase": "On November 6, 2023"
+  },
+  {
+   "t": 420.7,
+   "type": "paper",
+   "scene": "SC15",
+   "doc": "D02_8K_CH11"
+  },
+  {
+   "t": 421.8,
+   "type": "click",
+   "scene": "SC15",
+   "phrase": "On November 6, 2023"
+  },
+  {
+   "t": 423.5,
+   "type": "paper",
+   "scene": "SC15",
+   "doc": "D17_EMERGENCE"
+  },
+  {
+   "t": 424.6,
+   "type": "click",
+   "scene": "SC15",
+   "phrase": "The Plan became effective on June 11, 2024"
+  },
+  {
+   "t": 468.8,
+   "type": "bass",
+   "scene": "SC16",
+   "why": "the verdict"
+  }
+ ]
+}

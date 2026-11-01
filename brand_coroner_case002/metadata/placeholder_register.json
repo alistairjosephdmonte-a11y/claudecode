@@ -1,0 +1,41 @@
+{
+  "rule": "placeholders mark media that must be licensed or authenticated; nothing is generated",
+  "placeholders": {
+    "P01": {
+      "title": "wework location photograph, 2019",
+      "required": "exterior or interior of an operating wework location, dated 2019. licensed archive (getty images, ap, reuters) or wework press archive."
+    },
+    "P02": {
+      "title": "early wework workspace, c. 2010\u20132012",
+      "required": "interior of an early wework space (e.g. 154 grand street, new york). licensed archive or wework press archive; date and location must be captioned by the source."
+    },
+    "P03": {
+      "title": "furnished private offices",
+      "required": "wework private-office interior, dated, captioned by the licensor."
+    },
+    "P04": {
+      "title": "shared workspace / lounge",
+      "required": "wework common area or hot-desk floor, dated, captioned by the licensor."
+    },
+    "P05": {
+      "title": "meeting room",
+      "required": "wework conference room, dated, captioned by the licensor."
+    },
+    "P06": {
+      "title": "adam neumann, authenticated photograph",
+      "required": "editorial photograph of adam neumann, c. 2017\u20132019, licensed (getty images / ap / reuters). no generated or altered likeness."
+    },
+    "P07": {
+      "title": "adam neumann, september 2019",
+      "required": "dated editorial photograph or wire image tied to the september 2019 ceo change. licensed."
+    },
+    "P08": {
+      "title": "empty office, 2020",
+      "required": "dated editorial photograph of an empty office or closed workspace during 2020 pandemic restrictions. licensed."
+    },
+    "P09": {
+      "title": "wework location in operation, 2024 or later",
+      "required": "dated photograph of a wework location operating after the june 11, 2024 emergence. licensed or wework press kit."
+    }
+  }
+}

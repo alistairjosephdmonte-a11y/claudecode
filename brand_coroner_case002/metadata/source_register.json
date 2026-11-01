@@ -1,0 +1,103 @@
+{
+  "rule": "verified = checked against the primary document stored in evidence/sec_filings; reported = no primary document attached, flagged on screen",
+  "sources": {
+    "S1": {
+      "label": "the we company \u00b7 form s-1 \u00b7 filed aug 14, 2019 \u00b7 sec edgar",
+      "status": "verified",
+      "url": "https://www.sec.gov/Archives/edgar/data/1533523/000119312519220499/d781982ds1.htm"
+    },
+    "S1A_0904": {
+      "label": "the we company \u00b7 form s-1/a \u00b7 filed sep 4, 2019 \u00b7 sec edgar",
+      "status": "verified",
+      "url": "https://www.sec.gov/Archives/edgar/data/1533523/000119312519236798/d781982ds1a.htm"
+    },
+    "S1A_0913": {
+      "label": "the we company \u00b7 form s-1/a \u00b7 filed sep 13, 2019 \u00b7 sec edgar",
+      "status": "verified",
+      "url": "https://www.sec.gov/Archives/edgar/data/1533523/000119312519244329/d804478ds1a.htm"
+    },
+    "RW": {
+      "label": "the we company \u00b7 form rw (withdrawal request) \u00b7 sep 30, 2019 \u00b7 sec edgar",
+      "status": "verified",
+      "url": "https://www.sec.gov/Archives/edgar/data/1533523/000119312519258913/d808793drw.htm"
+    },
+    "SB": {
+      "label": "softbank group corp. \u00b7 press release \u00b7 oct 23, 2019",
+      "status": "verified",
+      "url": "https://group.softbank/en/news/press/20191023"
+    },
+    "BOWX": {
+      "label": "wework / bowx \u00b7 press release, ex. 99.1 to form 8-k \u00b7 filed mar 26, 2021 \u00b7 sec edgar",
+      "status": "verified",
+      "url": "https://www.sec.gov/Archives/edgar/data/1813756/000119312521095508/d29340dex991.htm"
+    },
+    "CLOSE": {
+      "label": "wework inc. \u00b7 form 8-k \u00b7 filed oct 26, 2021 \u00b7 sec edgar",
+      "status": "verified",
+      "url": "https://www.sec.gov/Archives/edgar/data/1813756/000119312521308162/d188107d8k.htm"
+    },
+    "10K22": {
+      "label": "wework inc. \u00b7 form 10-k, fiscal 2022 \u00b7 filed mar 29, 2023 \u00b7 sec edgar",
+      "status": "verified",
+      "url": "https://www.sec.gov/Archives/edgar/data/1813756/000181375623000016/we-20221231.htm"
+    },
+    "10Q": {
+      "label": "wework inc. \u00b7 form 10-q, quarter ended jun 30, 2023 \u00b7 filed aug 8, 2023 \u00b7 sec edgar",
+      "status": "verified",
+      "url": "https://www.sec.gov/Archives/edgar/data/1813756/000181375623000059/we-20230630.htm"
+    },
+    "CH11": {
+      "label": "wework inc. \u00b7 form 8-k \u00b7 filed nov 7, 2023 \u00b7 sec edgar",
+      "status": "verified",
+      "url": "https://www.sec.gov/Archives/edgar/data/1813756/000119312523271902/d522028d8k.htm"
+    },
+    "Q3": {
+      "label": "wework inc. \u00b7 form 8-k, ex. 99.1 (unaudited) \u00b7 filed nov 21, 2023 \u00b7 sec edgar",
+      "status": "verified",
+      "url": "https://www.sec.gov/Archives/edgar/data/1813756/000181375623000067/wework2023q310q.htm"
+    },
+    "EMERGE": {
+      "label": "wework inc. \u00b7 form 8-k \u00b7 filed jun 12, 2024 \u00b7 sec edgar",
+      "status": "verified",
+      "url": "https://www.sec.gov/Archives/edgar/data/1813756/000119312524159419/d803133d8k.htm"
+    },
+    "VAL47": {
+      "label": "$47 billion private valuation, january 2019 \u00b7 widely reported \u00b7 primary citation to attach",
+      "status": "reported",
+      "url": ""
+    },
+    "NE": {
+      "label": "map: natural earth 1:110m land \u00b7 public domain",
+      "status": "verified",
+      "url": "https://www.naturalearthdata.com/"
+    },
+    "ILLUS": {
+      "label": "illustrative diagram \u00b7 not drawn from contract data",
+      "status": "illustrative",
+      "url": ""
+    }
+  },
+  "facts": {
+    "revenue_2016_k": 436099,
+    "revenue_2017_k": 886004,
+    "revenue_2018_k": 1821751,
+    "net_loss_2018_k": 1927419,
+    "net_loss_attrib_2018_k": 1610792,
+    "op_lease_commenced_k": 33953402,
+    "not_commenced_bn": 13.1,
+    "total_signed_bn": 47.2,
+    "trademark_m": 5.9,
+    "votes_high_aug": 20,
+    "votes_high_sep": 10,
+    "votes_class_a": 1,
+    "softbank_new_financing_bn": 5.0,
+    "softbank_tender_bn": 3.0,
+    "softbank_accelerated_bn": 1.5,
+    "bowx_ev_bn": 9.0,
+    "cash_jun30_2023_m": 205,
+    "cash_sep30_2023_m": 462,
+    "locations_jun2019": 528,
+    "cities_jun2019": 111,
+    "countries_jun2019": 29
+  }
+}
