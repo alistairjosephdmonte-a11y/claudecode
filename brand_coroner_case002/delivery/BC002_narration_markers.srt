@@ -1,0 +1,191 @@
+1
+00:00:00,000 --> 00:00:09,000
+[narration marker SC01.1] open on the reported 2019 private valuation
+
+2
+00:00:09,000 --> 00:00:17,000
+[narration marker SC01.2] the company the number described (archival photography slot)
+
+3
+00:00:17,000 --> 00:00:30,000
+[narration marker SC01.3] 2019 valuation versus the november 2023 chapter 11 filing; what went wrong?
+
+4
+00:00:30,000 --> 00:00:40,000
+[narration marker SC02.1] the bankruptcy filing and its date
+
+5
+00:00:40,000 --> 00:00:51,000
+[narration marker SC02.2] how money moved: landlord, wework, member
+
+6
+00:00:51,000 --> 00:01:00,000
+[narration marker SC02.3] flexible customers, long-term leases: the contradiction
+
+7
+00:01:00,000 --> 00:01:10,000
+[narration marker SC03.1] traditional office versus flexible workspace
+
+8
+00:01:10,000 --> 00:01:20,000
+[narration marker SC03.2] what members got (archival photography slots)
+
+9
+00:01:20,000 --> 00:01:30,000
+[narration marker SC03.3] the first location, 154 grand street, 2010
+
+10
+00:01:30,000 --> 00:01:38,000
+[narration marker SC04.1] adam neumann and the expansion narrative (authenticated photo slot)
+
+11
+00:01:38,000 --> 00:01:50,000
+[narration marker SC04.2] from one building to 528 locations in 111 cities
+
+12
+00:01:50,000 --> 00:02:00,000
+[narration marker SC04.3] growth is not profitability; could the economics support the ambition?
+
+13
+00:02:00,000 --> 00:02:10,000
+[narration marker SC05.1] wework leases property from landlords
+
+14
+00:02:10,000 --> 00:02:20,000
+[narration marker SC05.2] fits it out and operates it
+
+15
+00:02:20,000 --> 00:02:30,000
+[narration marker SC05.3] members pay for access: lease, fit-out, operate, collect revenue
+
+16
+00:02:30,000 --> 00:02:40,000
+[narration marker SC06.1] two commitments of different lengths
+
+17
+00:02:40,000 --> 00:02:50,000
+[narration marker SC06.2] the shorter one can end; the longer one remains
+
+18
+00:02:50,000 --> 00:03:00,000
+[narration marker SC06.3] what the s-1 disclosed about lease length
+
+19
+00:03:00,000 --> 00:03:10,000
+[narration marker SC07.1] the contractual obligations table
+
+20
+00:03:10,000 --> 00:03:20,000
+[narration marker SC07.2] $33.95 billion of commenced operating lease payments, undiscounted
+
+21
+00:03:20,000 --> 00:03:30,000
+[narration marker SC07.3] plus about $13.1 billion signed but not yet commenced: a separate category
+
+22
+00:03:30,000 --> 00:03:39,000
+[narration marker SC08.1] august 14, 2019: the s-1 is filed
+
+23
+00:03:39,000 --> 00:03:51,000
+[narration marker SC08.2] financial statements, risk factors, related-party transactions
+
+24
+00:03:51,000 --> 00:04:00,000
+[narration marker SC08.3] the evidence was public
+
+25
+00:04:00,000 --> 00:04:12,000
+[narration marker SC09.1] 2018 revenue against 2018 net loss
+
+26
+00:04:12,000 --> 00:04:22,000
+[narration marker SC09.2] the rows in the filing
+
+27
+00:04:22,000 --> 00:04:30,000
+[narration marker SC09.3] revenue was growing; so were the questions
+
+28
+00:04:30,000 --> 00:04:40,000
+[narration marker SC10.1] the 'we' trademark transaction, about $5.9 million
+
+29
+00:04:40,000 --> 00:04:48,000
+[narration marker SC10.2] later unwound
+
+30
+00:04:48,000 --> 00:05:00,000
+[narration marker SC10.3] high-vote shares: 20 votes, later 10; who controlled the company?
+
+31
+00:05:00,000 --> 00:05:10,000
+[narration marker SC11.1] august 14, 2019: ipo registration
+
+32
+00:05:10,000 --> 00:05:20,000
+[narration marker SC11.2] september 2019: adam neumann steps down as ceo
+
+33
+00:05:20,000 --> 00:05:30,000
+[narration marker SC11.3] september 30, 2019: ipo withdrawn; the ipo never happened
+
+34
+00:05:30,000 --> 00:05:40,000
+[narration marker SC12.1] softbank's october 2019 financing package
+
+35
+00:05:40,000 --> 00:05:50,000
+[narration marker SC12.2] 2021: merger with bowx, public listing
+
+36
+00:05:50,000 --> 00:06:00,000
+[narration marker SC12.3] two different measures; the dream was repriced
+
+37
+00:06:00,000 --> 00:06:10,000
+[narration marker SC13.1] 2020: remote work disruption (archival photography slot)
+
+38
+00:06:10,000 --> 00:06:20,000
+[narration marker SC13.2] what the company said, and what demand did
+
+39
+00:06:20,000 --> 00:06:30,000
+[narration marker SC13.3] restructuring and lease renegotiation; a new shock, an old problem
+
+40
+00:06:30,000 --> 00:06:40,000
+[narration marker SC14.1] august 2023: the going-concern warning
+
+41
+00:06:40,000 --> 00:06:50,000
+[narration marker SC14.2] cash at september 30, 2023: $462 million (unaudited, disclosed november 21)
+
+42
+00:06:50,000 --> 00:07:00,000
+[narration marker SC14.3] november 6, 2023: chapter 11; warning and filing are separate events
+
+43
+00:07:00,000 --> 00:07:12,000
+[narration marker SC15.1] chapter 11 to emergence: november 6, 2023 to june 11, 2024
+
+44
+00:07:12,000 --> 00:07:20,000
+[narration marker SC15.2] the company continued in reorganized form (licensed photography slot)
+
+45
+00:07:20,000 --> 00:07:30,000
+[narration marker SC15.3] the business survived; the original valuation story did not
+
+46
+00:07:30,000 --> 00:07:38,000
+[narration marker SC16.1] return to the number
+
+47
+00:07:38,000 --> 00:07:48,000
+[narration marker SC16.2] four pieces of evidence
+
+48
+00:07:48,000 --> 00:08:00,000
+[narration marker SC16.3] verdict and brand coroner identity
