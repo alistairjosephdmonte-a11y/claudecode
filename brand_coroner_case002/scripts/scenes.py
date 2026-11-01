@@ -713,6 +713,8 @@ def sc16():
              S.text(title, -w / 2 + 0.22, h / 2 - 0.3, 0.26, "type", "display", width=w - 0.44, valign="TOP"),
              S.text(ev, -w / 2 + 0.22, -h / 2 + 0.2, 0.16, "gray", "semi", width=w - 0.44, valign="BOTTOM", line=1.08)]
         g = S.group(0, 0, "card")
+        for ob in o[1:]:
+            ob["overlay"] = True
         for ob in o:
             ob.parent = g
         t0 = 8.4 + i * 0.8

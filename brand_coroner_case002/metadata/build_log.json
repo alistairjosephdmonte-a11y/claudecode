@@ -1,7 +1,7 @@
 {
  "SC01": {
   "scene": "SC01",
-  "objects": 49,
+  "objects": 52,
   "highlights": [
    {
     "doc": "D02_8K_CH11",
@@ -68,7 +68,7 @@
  },
  "SC02": {
   "scene": "SC02",
-  "objects": 48,
+  "objects": 51,
   "highlights": [
    {
     "doc": "D02_8K_CH11",
@@ -130,7 +130,7 @@
  },
  "SC03": {
   "scene": "SC03",
-  "objects": 101,
+  "objects": 104,
   "highlights": [
    {
     "doc": "D18_FIRST_LOCATION",
@@ -288,7 +288,7 @@
  },
  "SC06": {
   "scene": "SC06",
-  "objects": 30,
+  "objects": 33,
   "highlights": [
    {
     "doc": "D10_RISK_FACTORS",
@@ -345,7 +345,7 @@
  },
  "SC07": {
   "scene": "SC07",
-  "objects": 35,
+  "objects": 41,
   "highlights": [
    {
     "doc": "D03_LEASE_TABLE",
@@ -427,7 +427,7 @@
  },
  "SC08": {
   "scene": "SC08",
-  "objects": 29,
+  "objects": 41,
   "highlights": [
    {
     "doc": "D01_S1_COVER",
@@ -537,7 +537,7 @@
  },
  "SC09": {
   "scene": "SC09",
-  "objects": 51,
+  "objects": 54,
   "highlights": [
    {
     "doc": "D05_SELECTED_FINANCIALS",
@@ -617,7 +617,7 @@
  },
  "SC10": {
   "scene": "SC10",
-  "objects": 54,
+  "objects": 60,
   "highlights": [
    {
     "doc": "D06_TRADEMARK",
@@ -699,7 +699,7 @@
  },
  "SC11": {
   "scene": "SC11",
-  "objects": 50,
+  "objects": 56,
   "highlights": [
    {
     "doc": "D01_S1_COVER",
@@ -782,7 +782,7 @@
  },
  "SC12": {
   "scene": "SC12",
-  "objects": 62,
+  "objects": 71,
   "highlights": [
    {
     "doc": "D12_SOFTBANK_RELEASE",
@@ -863,7 +863,7 @@
  },
  "SC13": {
   "scene": "SC13",
-  "objects": 55,
+  "objects": 61,
   "highlights": [
    {
     "doc": "D19_COVID_10K",
@@ -942,7 +942,7 @@
  },
  "SC14": {
   "scene": "SC14",
-  "objects": 52,
+  "objects": 61,
   "highlights": [
    {
     "doc": "D15_GOING_CONCERN",
@@ -1019,7 +1019,7 @@
  },
  "SC15": {
   "scene": "SC15",
-  "objects": 48,
+  "objects": 54,
   "highlights": [
    {
     "doc": "D02_8K_CH11",

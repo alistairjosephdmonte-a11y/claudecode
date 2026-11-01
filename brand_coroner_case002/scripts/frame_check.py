@@ -18,6 +18,7 @@ if __name__ == "__main__":
         for seg in lg["shots"][1:]:
             cuts.add(C.scene_start(n) + int(round(seg[0][0] * C.FPS)))
     missing, badsize, jumps, black, prev = [], [], [], [], None
+    diffs = {}
     bg = []
     per = {}
     for f in range(1, C.TOTAL_FRAMES + 1):
@@ -38,15 +39,21 @@ if __name__ == "__main__":
             d = float(np.abs(a - prev).mean())
             sc = (f - 1) // C.SCENE_FRAMES + 1
             per[sc] = max(per.get(sc, 0), d if f not in cuts else 0)
-            if d > 6.0 and f not in cuts:
-                jumps.append((f, round(d, 2)))
+            diffs[f] = d
         prev = a
+    # a jump is a single-frame spike: much larger than both neighbours' change (smooth fades change steadily)
+    for f, d in diffs.items():
+        nb = [diffs.get(f - 1, 0), diffs.get(f + 1, 0)]
+        if f not in cuts and d > 4.0 and d > 2.5 * max(max(nb), 0.5):
+            jumps.append((f, round(d, 2)))
     # black frames are expected only inside deliberate fades at act boundaries and the final fade-out
     allowed = set()
     for a in C.ACTS:
         e = C.scene_start(a[2][-1]) + C.SCENE_FRAMES
         allowed |= set(range(e - 16, e + 16))
     allowed |= set(range(1, 60))
+    for n in range(1, 17):                            # each scene opens on black before its first fade-in
+        allowed |= set(range(C.scene_start(n), C.scene_start(n) + 14))
     out = {"frames_expected": C.TOTAL_FRAMES, "frames_present": C.TOTAL_FRAMES - len(missing), "missing": missing[:50],
            "wrong_size": badsize[:50], "unexpected_jumps": jumps[:50],
            "unexpected_black_frames": [f for f in black if f not in allowed][:50],

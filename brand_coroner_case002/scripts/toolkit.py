@@ -188,9 +188,10 @@ class Scene:
     def life(self, objs, t_in, t_out=None, d=0.5, d_out=None):
         for o in objs if isinstance(objs, (list, tuple)) else [objs]:
             a = o.get("a", 1.0)
-            k = [(t_in, 0.0), (t_in + d, a)]
+            lag = d if o.get("overlay") else 0.0       # overlays wait for their opaque base (no transparent-on-transparent)
+            k = [(t_in + lag, 0.0), (t_in + lag + d, a)]
             if t_out is not None:
-                k += [(t_out - (d_out or d), a), (t_out, 0.0)]
+                k += [(t_out - (d_out or d) - lag, a), (t_out - lag, 0.0)]
             self.alpha(o, k)
         return objs
 
@@ -308,8 +309,11 @@ class Scene:
         h = w * vis / cw
         img = os.path.join(C.ROOT, meta["png"])
         objs = []
-        if border:
-            objs.append(self.rect(x, y, w + 0.06, h + 0.06, "rule", 1.0, name=f"{cid}_edge"))
+        if border:      # four strips, never underneath the page: overlapping transparent layers average in Workbench
+            e = 0.03
+            for (bx, by, bw, bh) in ((x, y + h / 2 + e / 2, w + 2 * e, e), (x, y - h / 2 - e / 2, w + 2 * e, e),
+                                     (x - w / 2 - e / 2, y, e, h), (x + w / 2 + e / 2, y, e, h)):
+                objs.append(self.rect(bx, by, bw, bh, "rule", 1.0, name=f"{cid}_edge"))
         uv = (0, crop_bottom / ch, 1, 1 - crop_top / ch)
         p = self.rect(x, y, w, h, "#FFFFFF", 1.0, name=cid, image=img, uv=uv)
         objs.append(p)
@@ -337,6 +341,8 @@ class Scene:
                            valign="BOTTOM", line=1.1))
         o.append(self.text("no generated or simulated imagery", x + w / 2 - pad, y + h / 2 - pad, sz * 0.7, "gray", "semi",
                            align="RIGHT", valign="TOP"))
+        for ob in o[1:]:
+            ob["overlay"] = True
         self.log["placeholders"].append(pid)
         return o
 
