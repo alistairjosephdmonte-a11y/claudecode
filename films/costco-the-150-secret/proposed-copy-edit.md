@@ -1,0 +1,26 @@
+# Proposed copy edit (whole sentences removed; no wording changed)
+
+- Scene 02: ~~And that raises a more interesting question.~~
+- Scene 03: ~~Costco isn't designed like a conventional supermarket.~~
+- Scene 03: ~~The company wants to sell large volumes of merchandise while keeping operating costs under control.~~
+- Scene 04: ~~There's another difference.~~
+- Scene 04: ~~That changes the relationship between retailer and customer.~~
+- Scene 04: ~~And that promise is central to the business.~~
+- Scene 05: ~~Those figures tell us something important.~~
+- Scene 05: ~~Costco has built a business where customers repeatedly pay for the privilege of shopping there.~~
+- Scene 06: ~~Now look at the shelves.~~
+- Scene 07: ~~Costco could have responded by increasing the price.~~
+- Scene 07: ~~The question became less about how much more customers would pay, and more about how efficiently Costco could keep serving them.~~
+- Scene 08: ~~Its purchasing scale also matters.~~
+- Scene 09: ~~Here's where the story becomes more interesting.~~
+- Scene 10: ~~Customers begin to recognize a pattern.~~
+- Scene 10: ~~But there's an important distinction.~~
+- Scene 11: ~~Scale can strengthen purchasing power, while operational simplicity can help limit costs.~~
+- Scene 11: ~~That doesn't make every product equally profitable.~~
+- Scene 12: ~~Costco's real strength isn't that it discovered a magical price.~~
+- Scene 13: ~~There's another detail that makes the hot dog decision revealing.~~
+- Scene 13: ~~That contrast matters.~~
+- Scene 13: ~~It makes different decisions about different parts of the business.~~
+- Scene 14: ~~But that explanation skips an important question.~~
+- Scene 15: ~~And its operating system is designed to support competitive pricing at scale.~~
+- Scene 16: ~~Because the decision represents something larger than the meal.~~

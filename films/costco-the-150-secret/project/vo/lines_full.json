@@ -1,0 +1,557 @@
+[
+ {
+  "id": "s01_01",
+  "text": "One dollar and fifty cents.",
+  "scene": 1
+ },
+ {
+  "id": "s01_02",
+  "text": "In 1985, that could buy you a hot dog and a soda at Costco.",
+  "scene": 1
+ },
+ {
+  "id": "s01_03",
+  "text": "More than forty years later, the price is still one dollar and fifty cents.",
+  "scene": 1
+ },
+ {
+  "id": "s01_04",
+  "text": "Think about everything that has changed. Rent. Wages. Food costs. The price of almost everything around us.",
+  "scene": 1
+ },
+ {
+  "id": "s01_05",
+  "text": "Yet one of America's largest retailers keeps selling this combination for the same price.",
+  "scene": 1
+ },
+ {
+  "id": "s01_06",
+  "text": "Why?",
+  "scene": 1
+ },
+ {
+  "id": "s01_07",
+  "text": "The answer is bigger than a hot dog.",
+  "scene": 1
+ },
+ {
+  "id": "s02_01",
+  "text": "Keeping a price unchanged for four decades is unusual.",
+  "scene": 2
+ },
+ {
+  "id": "s02_02",
+  "text": "Inflation means the same dollar buys less over time. Businesses normally respond by raising prices, reducing costs, or changing what they sell.",
+  "scene": 2
+ },
+ {
+  "id": "s02_03",
+  "text": "Costco chose a different path for its most recognizable food-court item.",
+  "scene": 2
+ },
+ {
+  "id": "s02_04",
+  "text": "The company protected the price while adapting the operation behind it.",
+  "scene": 2
+ },
+ {
+  "id": "s02_05",
+  "text": "And that raises a more interesting question.",
+  "scene": 2
+ },
+ {
+  "id": "s02_06",
+  "text": "What makes a cheap hot dog valuable to a retailer selling hundreds of billions of dollars in merchandise?",
+  "scene": 2
+ },
+ {
+  "id": "s03_01",
+  "text": "To understand the hot dog, you first have to understand Costco.",
+  "scene": 3
+ },
+ {
+  "id": "s03_02",
+  "text": "Costco isn't designed like a conventional supermarket.",
+  "scene": 3
+ },
+ {
+  "id": "s03_03",
+  "text": "Its warehouses are enormous. Products are frequently sold in bulk.",
+  "scene": 3
+ },
+ {
+  "id": "s03_04",
+  "text": "The shelves are practical, the presentation is restrained, and the assortment is deliberately limited.",
+  "scene": 3
+ },
+ {
+  "id": "s03_05",
+  "text": "The company wants to sell large volumes of merchandise while keeping operating costs under control.",
+  "scene": 3
+ },
+ {
+  "id": "s03_06",
+  "text": "Instead of convincing customers to pay more for an elaborate shopping experience, Costco works to convince them they're getting more for their money.",
+  "scene": 3
+ },
+ {
+  "id": "s04_01",
+  "text": "There's another difference.",
+  "scene": 4
+ },
+ {
+  "id": "s04_02",
+  "text": "Most shoppers pay Costco before they buy their groceries.",
+  "scene": 4
+ },
+ {
+  "id": "s04_03",
+  "text": "They purchase an annual membership.",
+  "scene": 4
+ },
+ {
+  "id": "s04_04",
+  "text": "That changes the relationship between retailer and customer.",
+  "scene": 4
+ },
+ {
+  "id": "s04_05",
+  "text": "Costco must give people a reason to join, and then a reason to renew.",
+  "scene": 4
+ },
+ {
+  "id": "s04_06",
+  "text": "Every visit becomes an opportunity to demonstrate value.",
+  "scene": 4
+ },
+ {
+  "id": "s04_07",
+  "text": "Low prices aren't simply a promotional message. They're part of the promise customers expect their membership to deliver.",
+  "scene": 4
+ },
+ {
+  "id": "s04_08",
+  "text": "And that promise is central to the business.",
+  "scene": 4
+ },
+ {
+  "id": "s05_01",
+  "text": "In fiscal 2025, Costco reported more than five point three billion dollars in membership fee revenue.",
+  "scene": 5
+ },
+ {
+  "id": "s05_02",
+  "text": "Its renewal rate in the United States and Canada was over ninety-two percent.",
+  "scene": 5
+ },
+ {
+  "id": "s05_03",
+  "text": "Those figures tell us something important.",
+  "scene": 5
+ },
+ {
+  "id": "s05_04",
+  "text": "Costco has built a business where customers repeatedly pay for the privilege of shopping there.",
+  "scene": 5
+ },
+ {
+  "id": "s05_05",
+  "text": "That revenue supports the overall economics, although it doesn't mean every membership dollar is pure profit.",
+  "scene": 5
+ },
+ {
+  "id": "s05_06",
+  "text": "The retailer has a powerful incentive to protect the value customers believe they're receiving.",
+  "scene": 5
+ },
+ {
+  "id": "s06_01",
+  "text": "Now look at the shelves.",
+  "scene": 6
+ },
+ {
+  "id": "s06_02",
+  "text": "Costco doesn't try to offer every possible version of every product.",
+  "scene": 6
+ },
+ {
+  "id": "s06_03",
+  "text": "By concentrating demand on a smaller assortment, it can purchase greater volumes of individual items.",
+  "scene": 6
+ },
+ {
+  "id": "s06_04",
+  "text": "That can strengthen negotiating power, simplify inventory and reduce handling costs.",
+  "scene": 6
+ },
+ {
+  "id": "s06_05",
+  "text": "The important lesson is that low prices aren't created at the checkout.",
+  "scene": 6
+ },
+ {
+  "id": "s06_06",
+  "text": "They're created through thousands of decisions made before a product reaches the shelf.",
+  "scene": 6
+ },
+ {
+  "id": "s07_01",
+  "text": "But the hot dog presents a special challenge.",
+  "scene": 7
+ },
+ {
+  "id": "s07_02",
+  "text": "Unlike a television or a box of detergent, it has to be prepared and served.",
+  "scene": 7
+ },
+ {
+  "id": "s07_03",
+  "text": "There are ingredients, equipment, labor, packaging and drinks to consider.",
+  "scene": 7
+ },
+ {
+  "id": "s07_04",
+  "text": "And over time, those costs change.",
+  "scene": 7
+ },
+ {
+  "id": "s07_05",
+  "text": "Costco could have responded by increasing the price.",
+  "scene": 7
+ },
+ {
+  "id": "s07_06",
+  "text": "Instead, it focused on controlling the operation behind the meal.",
+  "scene": 7
+ },
+ {
+  "id": "s07_07",
+  "text": "The question became less about how much more customers would pay, and more about how efficiently Costco could keep serving them.",
+  "scene": 7
+ },
+ {
+  "id": "s08_01",
+  "text": "Costco has changed parts of the hot dog operation while keeping the headline price.",
+  "scene": 8
+ },
+ {
+  "id": "s08_02",
+  "text": "It moved toward its own Kirkland Signature hot dogs, giving the company more control over sourcing and production.",
+  "scene": 8
+ },
+ {
+  "id": "s08_03",
+  "text": "Its purchasing scale also matters.",
+  "scene": 8
+ },
+ {
+  "id": "s08_04",
+  "text": "Stronger buying power helps Costco keep costs down.",
+  "scene": 8
+ },
+ {
+  "id": "s08_05",
+  "text": "None of this means the combo is immune to inflation.",
+  "scene": 8
+ },
+ {
+  "id": "s08_06",
+  "text": "It means the company has repeatedly chosen to defend the customer-facing price by working on the economics behind it.",
+  "scene": 8
+ },
+ {
+  "id": "s09_01",
+  "text": "Here's where the story becomes more interesting.",
+  "scene": 9
+ },
+ {
+  "id": "s09_02",
+  "text": "Customers cannot memorize the price of every product in a warehouse.",
+  "scene": 9
+ },
+ {
+  "id": "s09_03",
+  "text": "But they can remember one dollar and fifty cents.",
+  "scene": 9
+ },
+ {
+  "id": "s09_04",
+  "text": "That makes the hot dog an unusually visible symbol of Costco's pricing philosophy.",
+  "scene": 9
+ },
+ {
+  "id": "s09_05",
+  "text": "Every time a shopper sees that familiar price, the company reinforces a simple message.",
+  "scene": 9
+ },
+ {
+  "id": "s09_06",
+  "text": "We're still trying to give you value.",
+  "scene": 9
+ },
+ {
+  "id": "s09_07",
+  "text": "The hot dog doesn't prove every item is the cheapest.",
+  "scene": 9
+ },
+ {
+  "id": "s09_08",
+  "text": "It makes the promise of value easier to recognize.",
+  "scene": 9
+ },
+ {
+  "id": "s10_01",
+  "text": "Think about what happens when a company keeps a familiar promise for decades.",
+  "scene": 10
+ },
+ {
+  "id": "s10_02",
+  "text": "Customers begin to recognize a pattern.",
+  "scene": 10
+ },
+ {
+  "id": "s10_03",
+  "text": "They may come to expect consistency, especially from a retailer whose business depends on repeat visits and membership renewals.",
+  "scene": 10
+ },
+ {
+  "id": "s10_04",
+  "text": "The hot dog is one highly visible example of that consistency.",
+  "scene": 10
+ },
+ {
+  "id": "s10_05",
+  "text": "But there's an important distinction.",
+  "scene": 10
+ },
+ {
+  "id": "s10_06",
+  "text": "Costco's membership performance is measurable.",
+  "scene": 10
+ },
+ {
+  "id": "s10_07",
+  "text": "The exact contribution of the hot dog to renewals is not publicly established.",
+  "scene": 10
+ },
+ {
+  "id": "s10_08",
+  "text": "The connection is a strategic interpretation, not a proven dollar-for-dollar return.",
+  "scene": 10
+ },
+ {
+  "id": "s11_01",
+  "text": "The hot dog is a tiny part of an enormous retail operation.",
+  "scene": 11
+ },
+ {
+  "id": "s11_02",
+  "text": "In fiscal 2025, Costco reported nearly two hundred and seventy billion dollars in net sales.",
+  "scene": 11
+ },
+ {
+  "id": "s11_03",
+  "text": "Its model depends on moving large quantities of merchandise through a disciplined warehouse network.",
+  "scene": 11
+ },
+ {
+  "id": "s11_04",
+  "text": "Scale can strengthen purchasing power, while operational simplicity can help limit costs.",
+  "scene": 11
+ },
+ {
+  "id": "s11_05",
+  "text": "That doesn't make every product equally profitable.",
+  "scene": 11
+ },
+ {
+  "id": "s11_06",
+  "text": "It does mean Costco evaluates its business as a system, not simply as a collection of isolated price tags.",
+  "scene": 11
+ },
+ {
+  "id": "s12_01",
+  "text": "So why doesn't every retailer simply copy the one-dollar-fifty-cent hot dog?",
+  "scene": 12
+ },
+ {
+  "id": "s12_02",
+  "text": "Because copying a price is easy.",
+  "scene": 12
+ },
+ {
+  "id": "s12_03",
+  "text": "Copying the system supporting it is much harder.",
+  "scene": 12
+ },
+ {
+  "id": "s12_04",
+  "text": "A competitor would need its own purchasing advantages, efficient operations, customer relationships and reasons for shoppers to return.",
+  "scene": 12
+ },
+ {
+  "id": "s12_05",
+  "text": "Discounting one item without those advantages may simply reduce earnings.",
+  "scene": 12
+ },
+ {
+  "id": "s12_06",
+  "text": "Costco's real strength isn't that it discovered a magical price.",
+  "scene": 12
+ },
+ {
+  "id": "s12_07",
+  "text": "It's that the price fits within a broader business model built to deliver value consistently.",
+  "scene": 12
+ },
+ {
+  "id": "s13_01",
+  "text": "There's another detail that makes the hot dog decision revealing.",
+  "scene": 13
+ },
+ {
+  "id": "s13_02",
+  "text": "Costco does raise prices when its broader economics require it.",
+  "scene": 13
+ },
+ {
+  "id": "s13_03",
+  "text": "In September 2024, it increased annual membership fees in the United States and Canada.",
+  "scene": 13
+ },
+ {
+  "id": "s13_04",
+  "text": "Yet the famous hot dog combo remained at one dollar and fifty cents.",
+  "scene": 13
+ },
+ {
+  "id": "s13_05",
+  "text": "That contrast matters.",
+  "scene": 13
+ },
+ {
+  "id": "s13_06",
+  "text": "The company is not committed to freezing every price forever.",
+  "scene": 13
+ },
+ {
+  "id": "s13_07",
+  "text": "It makes different decisions about different parts of the business.",
+  "scene": 13
+ },
+ {
+  "id": "s13_08",
+  "text": "The hot dog appears to occupy a special place in how Costco communicates value.",
+  "scene": 13
+ },
+ {
+  "id": "s14_01",
+  "text": "It's tempting to call the hot dog a loss leader and leave the story there.",
+  "scene": 14
+ },
+ {
+  "id": "s14_02",
+  "text": "But that explanation skips an important question.",
+  "scene": 14
+ },
+ {
+  "id": "s14_03",
+  "text": "Does Costco actually lose money on every combo?",
+  "scene": 14
+ },
+ {
+  "id": "s14_04",
+  "text": "The company's public financial reports don't give us a precise answer.",
+  "scene": 14
+ },
+ {
+  "id": "s14_05",
+  "text": "We can document the price. We can examine its supply chain decisions. And we can measure Costco's broader financial performance.",
+  "scene": 14
+ },
+ {
+  "id": "s14_06",
+  "text": "What we cannot responsibly do is invent a per-hot-dog loss and present it as fact.",
+  "scene": 14
+ },
+ {
+  "id": "s14_07",
+  "text": "The real strategy is interesting enough without that claim.",
+  "scene": 14
+ },
+ {
+  "id": "s15_01",
+  "text": "The most valuable part of this story may not be the hot dog itself.",
+  "scene": 15
+ },
+ {
+  "id": "s15_02",
+  "text": "It may be the expectation the price helps reinforce.",
+  "scene": 15
+ },
+ {
+  "id": "s15_03",
+  "text": "A customer enters Costco believing the company is serious about value.",
+  "scene": 15
+ },
+ {
+  "id": "s15_04",
+  "text": "The membership model gives Costco a reason to keep earning that belief.",
+  "scene": 15
+ },
+ {
+  "id": "s15_05",
+  "text": "And its operating system is designed to support competitive pricing at scale.",
+  "scene": 15
+ },
+ {
+  "id": "s15_06",
+  "text": "The hot dog is a symbol of those choices.",
+  "scene": 15
+ },
+ {
+  "id": "s15_07",
+  "text": "Small enough to remember. Familiar enough to notice. And unusual enough to make people ask why.",
+  "scene": 15
+ },
+ {
+  "id": "s16_01",
+  "text": "So why does Costco refuse to raise the price of its famous hot dog?",
+  "scene": 16
+ },
+ {
+  "id": "s16_02",
+  "text": "Because the decision represents something larger than the meal.",
+  "scene": 16
+ },
+ {
+  "id": "s16_03",
+  "text": "It demonstrates a commitment to recognizable value, supported by purchasing scale, operating discipline and a membership business that rewards customer loyalty.",
+  "scene": 16
+ },
+ {
+  "id": "s16_04",
+  "text": "Costco hasn't frozen the entire business in 1985.",
+  "scene": 16
+ },
+ {
+  "id": "s16_05",
+  "text": "It has adapted the business while protecting one extraordinary price.",
+  "scene": 16
+ },
+ {
+  "id": "s16_06",
+  "text": "Sometimes the clearest evidence of a company's strategy isn't found in a boardroom.",
+  "scene": 16
+ },
+ {
+  "id": "s16_07",
+  "text": "It's printed above a hot dog.",
+  "scene": 16
+ },
+ {
+  "id": "s16_08",
+  "text": "Every brand leaves evidence.",
+  "scene": 16
+ }
+]

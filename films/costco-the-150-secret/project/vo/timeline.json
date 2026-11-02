@@ -1,0 +1,1250 @@
+{
+ "total": 491.664,
+ "scenes": [
+  {
+   "i": 1,
+   "base": 0.0,
+   "dur": 35.884,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     3.6,
+     3.5
+    ],
+    [
+     8.6,
+     5.928
+    ],
+    [
+     12.0,
+     10.972
+    ],
+    [
+     18.0,
+     16.695
+    ],
+    [
+     25.0,
+     30.893
+    ],
+    [
+     30.0,
+     35.884
+    ]
+   ]
+  },
+  {
+   "i": 2,
+   "base": 35.884,
+   "dur": 32.272,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     2.0,
+     4.69
+    ],
+    [
+     14.0,
+     14.89
+    ],
+    [
+     20.0,
+     20.047
+    ],
+    [
+     24.0,
+     24.711
+    ],
+    [
+     30.0,
+     32.272
+    ]
+   ]
+  },
+  {
+   "i": 3,
+   "base": 68.156,
+   "dur": 26.935,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     9.0,
+     4.885
+    ],
+    [
+     15.0,
+     10.436
+    ],
+    [
+     24.0,
+     17.179
+    ],
+    [
+     30.0,
+     26.935
+    ]
+   ]
+  },
+  {
+   "i": 4,
+   "base": 95.091,
+   "dur": 24.991,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     6.0,
+     4.474
+    ],
+    [
+     10.0,
+     7.024
+    ],
+    [
+     18.0,
+     12.06
+    ],
+    [
+     24.0,
+     16.248
+    ],
+    [
+     30.0,
+     24.991
+    ]
+   ]
+  },
+  {
+   "i": 5,
+   "base": 120.082,
+   "dur": 27.206,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.6,
+     0.35
+    ],
+    [
+     10.0,
+     7.904
+    ],
+    [
+     20.0,
+     13.456
+    ],
+    [
+     30.0,
+     27.206
+    ]
+   ]
+  },
+  {
+   "i": 6,
+   "base": 147.288,
+   "dur": 30.471,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     8.0,
+     5.601
+    ],
+    [
+     15.0,
+     12.942
+    ],
+    [
+     22.0,
+     19.166
+    ],
+    [
+     30.0,
+     30.471
+    ]
+   ]
+  },
+  {
+   "i": 7,
+   "base": 177.759,
+   "dur": 23.592,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     6.0,
+     3.992
+    ],
+    [
+     10.0,
+     9.382
+    ],
+    [
+     20.0,
+     14.786
+    ],
+    [
+     30.0,
+     23.592
+    ]
+   ]
+  },
+  {
+   "i": 8,
+   "base": 201.351,
+   "dur": 30.637,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     6.0,
+     5.984
+    ],
+    [
+     14.0,
+     13.582
+    ],
+    [
+     20.0,
+     17.831
+    ],
+    [
+     25.0,
+     21.646
+    ],
+    [
+     30.0,
+     30.637
+    ]
+   ]
+  },
+  {
+   "i": 9,
+   "base": 231.988,
+   "dur": 32.012,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     6.0,
+     5.369
+    ],
+    [
+     12.0,
+     8.854
+    ],
+    [
+     18.0,
+     14.52
+    ],
+    [
+     24.0,
+     23.208
+    ],
+    [
+     30.0,
+     32.012
+    ]
+   ]
+  },
+  {
+   "i": 10,
+   "base": 264.0,
+   "dur": 33.689,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     8.0,
+     5.617
+    ],
+    [
+     11.0,
+     14.119
+    ],
+    [
+     20.0,
+     18.29
+    ],
+    [
+     30.0,
+     33.689
+    ]
+   ]
+  },
+  {
+   "i": 11,
+   "base": 297.689,
+   "dur": 27.907,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     4.0,
+     4.824
+    ],
+    [
+     12.0,
+     12.203
+    ],
+    [
+     22.0,
+     19.087
+    ],
+    [
+     30.0,
+     27.907
+    ]
+   ]
+  },
+  {
+   "i": 12,
+   "base": 325.596,
+   "dur": 33.381,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     6.0,
+     6.425
+    ],
+    [
+     10.0,
+     8.962
+    ],
+    [
+     14.0,
+     12.428
+    ],
+    [
+     16.0,
+     21.476
+    ],
+    [
+     30.0,
+     33.381
+    ]
+   ]
+  },
+  {
+   "i": 13,
+   "base": 358.977,
+   "dur": 28.06,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     10.0,
+     11.742
+    ],
+    [
+     18.0,
+     16.982
+    ],
+    [
+     30.0,
+     28.06
+    ]
+   ]
+  },
+  {
+   "i": 14,
+   "base": 387.037,
+   "dur": 33.318,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     8.0,
+     8.593
+    ],
+    [
+     12.0,
+     13.141
+    ],
+    [
+     20.0,
+     21.636
+    ],
+    [
+     24.0,
+     28.495
+    ],
+    [
+     30.0,
+     33.318
+    ]
+   ]
+  },
+  {
+   "i": 15,
+   "base": 420.355,
+   "dur": 30.046,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     14.0,
+     14.094
+    ],
+    [
+     24.0,
+     22.267
+    ],
+    [
+     30.0,
+     30.046
+    ]
+   ]
+  },
+  {
+   "i": 16,
+   "base": 450.401,
+   "dur": 41.263,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     8.0,
+     5.689
+    ],
+    [
+     14.0,
+     20.593
+    ],
+    [
+     21.0,
+     30.739
+    ],
+    [
+     23.4,
+     33.179
+    ],
+    [
+     30.0,
+     41.263
+    ]
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "s01_01",
+   "text": "One dollar and fifty cents.",
+   "scene": 1,
+   "t": 3.6,
+   "local": 3.6,
+   "dur": 2.128,
+   "trim": 0.149
+  },
+  {
+   "id": "s01_02",
+   "text": "In 1985, that could buy you a hot dog and a soda at Costco.",
+   "scene": 1,
+   "t": 6.178,
+   "local": 6.178,
+   "dur": 4.594,
+   "trim": 0.407
+  },
+  {
+   "id": "s01_03",
+   "text": "More than forty years later, the price is still one dollar and fifty cents.",
+   "scene": 1,
+   "t": 11.222,
+   "local": 11.222,
+   "dur": 5.273,
+   "trim": 0.187
+  },
+  {
+   "id": "s01_04",
+   "text": "Think about everything that has changed. Rent. Wages. Food costs. The price of almost everything around us.",
+   "scene": 1,
+   "t": 16.945,
+   "local": 16.945,
+   "dur": 7.223,
+   "trim": 0.196
+  },
+  {
+   "id": "s01_05",
+   "text": "Yet one of America's largest retailers keeps selling this combination for the same price.",
+   "scene": 1,
+   "t": 24.618,
+   "local": 24.618,
+   "dur": 6.075,
+   "trim": 0.256
+  },
+  {
+   "id": "s01_06",
+   "text": "Why?",
+   "scene": 1,
+   "t": 31.143,
+   "local": 31.143,
+   "dur": 0.503,
+   "trim": 0.081
+  },
+  {
+   "id": "s01_07",
+   "text": "The answer is bigger than a hot dog.",
+   "scene": 1,
+   "t": 32.096,
+   "local": 32.096,
+   "dur": 2.688,
+   "trim": 0.141
+  },
+  {
+   "id": "s02_01",
+   "text": "Keeping a price unchanged for four decades is unusual.",
+   "scene": 2,
+   "t": 36.484,
+   "local": 0.6,
+   "dur": 3.89,
+   "trim": 0.181
+  },
+  {
+   "id": "s02_02",
+   "text": "Inflation means the same dollar buys less over time. Businesses normally respond by raising prices, reducing costs, or changing what they sell.",
+   "scene": 2,
+   "t": 40.824,
+   "local": 4.94,
+   "dur": 9.75,
+   "trim": 0.187
+  },
+  {
+   "id": "s02_03",
+   "text": "Costco chose a different path for its most recognizable food-court item.",
+   "scene": 2,
+   "t": 51.024,
+   "local": 15.14,
+   "dur": 4.708,
+   "trim": 0.22
+  },
+  {
+   "id": "s02_04",
+   "text": "The company protected the price while adapting the operation behind it.",
+   "scene": 2,
+   "t": 56.181,
+   "local": 20.297,
+   "dur": 4.214,
+   "trim": 0.09
+  },
+  {
+   "id": "s02_06",
+   "text": "What makes a cheap hot dog valuable to a retailer selling hundreds of billions of dollars in merchandise?",
+   "scene": 2,
+   "t": 60.845,
+   "local": 24.961,
+   "dur": 6.211,
+   "trim": 0.208
+  },
+  {
+   "id": "s03_01",
+   "text": "To understand the hot dog, you first have to understand Costco.",
+   "scene": 3,
+   "t": 68.756,
+   "local": 0.6,
+   "dur": 4.085,
+   "trim": 0.227
+  },
+  {
+   "id": "s03_03",
+   "text": "Its warehouses are enormous. Products are frequently sold in bulk.",
+   "scene": 3,
+   "t": 73.291,
+   "local": 5.135,
+   "dur": 5.101,
+   "trim": 0.187
+  },
+  {
+   "id": "s03_04",
+   "text": "The shelves are practical, the presentation is restrained, and the assortment is deliberately limited.",
+   "scene": 3,
+   "t": 78.842,
+   "local": 10.686,
+   "dur": 6.292,
+   "trim": 0.247
+  },
+  {
+   "id": "s03_06",
+   "text": "Instead of convincing customers to pay more for an elaborate shopping experience, Costco works to convince them they're getting more for their money.",
+   "scene": 3,
+   "t": 85.585,
+   "local": 17.429,
+   "dur": 8.407,
+   "trim": 0.164
+  },
+  {
+   "id": "s04_02",
+   "text": "Most shoppers pay Costco before they buy their groceries.",
+   "scene": 4,
+   "t": 95.691,
+   "local": 0.6,
+   "dur": 3.674,
+   "trim": 0.179
+  },
+  {
+   "id": "s04_03",
+   "text": "They purchase an annual membership.",
+   "scene": 4,
+   "t": 99.815,
+   "local": 4.724,
+   "dur": 2.1,
+   "trim": 0.103
+  },
+  {
+   "id": "s04_05",
+   "text": "Costco must give people a reason to join, and then a reason to renew.",
+   "scene": 4,
+   "t": 102.365,
+   "local": 7.274,
+   "dur": 4.586,
+   "trim": 0.177
+  },
+  {
+   "id": "s04_06",
+   "text": "Every visit becomes an opportunity to demonstrate value.",
+   "scene": 4,
+   "t": 107.401,
+   "local": 12.31,
+   "dur": 3.738,
+   "trim": 0.182
+  },
+  {
+   "id": "s04_07",
+   "text": "Low prices aren't simply a promotional message. They're part of the promise customers expect their membership to deliver.",
+   "scene": 4,
+   "t": 111.589,
+   "local": 16.498,
+   "dur": 7.393,
+   "trim": 0.178
+  },
+  {
+   "id": "s05_01",
+   "text": "In fiscal 2025, Costco reported more than five point three billion dollars in membership fee revenue.",
+   "scene": 5,
+   "t": 120.682,
+   "local": 0.6,
+   "dur": 7.104,
+   "trim": 0.205
+  },
+  {
+   "id": "s05_02",
+   "text": "Its renewal rate in the United States and Canada was over ninety-two percent.",
+   "scene": 5,
+   "t": 128.236,
+   "local": 8.154,
+   "dur": 5.102,
+   "trim": 0.183
+  },
+  {
+   "id": "s05_05",
+   "text": "That revenue supports the overall economics, although it doesn't mean every membership dollar is pure profit.",
+   "scene": 5,
+   "t": 133.788,
+   "local": 13.706,
+   "dur": 6.763,
+   "trim": 0.167
+  },
+  {
+   "id": "s05_06",
+   "text": "The retailer has a powerful incentive to protect the value customers believe they're receiving.",
+   "scene": 5,
+   "t": 141.001,
+   "local": 20.919,
+   "dur": 5.187,
+   "trim": 0.204
+  },
+  {
+   "id": "s06_02",
+   "text": "Costco doesn't try to offer every possible version of every product.",
+   "scene": 6,
+   "t": 147.888,
+   "local": 0.6,
+   "dur": 4.801,
+   "trim": 0.135
+  },
+  {
+   "id": "s06_03",
+   "text": "By concentrating demand on a smaller assortment, it can purchase greater volumes of individual items.",
+   "scene": 6,
+   "t": 153.139,
+   "local": 5.851,
+   "dur": 6.891,
+   "trim": 0.161
+  },
+  {
+   "id": "s06_04",
+   "text": "That can strengthen negotiating power, simplify inventory and reduce handling costs.",
+   "scene": 6,
+   "t": 160.48,
+   "local": 13.192,
+   "dur": 5.774,
+   "trim": 0.266
+  },
+  {
+   "id": "s06_05",
+   "text": "The important lesson is that low prices aren't created at the checkout.",
+   "scene": 6,
+   "t": 166.704,
+   "local": 19.416,
+   "dur": 4.735,
+   "trim": 0.27
+  },
+  {
+   "id": "s06_06",
+   "text": "They're created through thousands of decisions made before a product reaches the shelf.",
+   "scene": 6,
+   "t": 171.889,
+   "local": 24.601,
+   "dur": 4.77,
+   "trim": 0.199
+  },
+  {
+   "id": "s07_01",
+   "text": "But the hot dog presents a special challenge.",
+   "scene": 7,
+   "t": 178.359,
+   "local": 0.6,
+   "dur": 3.192,
+   "trim": 0.168
+  },
+  {
+   "id": "s07_02",
+   "text": "Unlike a television or a box of detergent, it has to be prepared and served.",
+   "scene": 7,
+   "t": 182.001,
+   "local": 4.242,
+   "dur": 4.94,
+   "trim": 0.212
+  },
+  {
+   "id": "s07_03",
+   "text": "There are ingredients, equipment, labor, packaging and drinks to consider.",
+   "scene": 7,
+   "t": 187.391,
+   "local": 9.632,
+   "dur": 4.954,
+   "trim": 0.209
+  },
+  {
+   "id": "s07_04",
+   "text": "And over time, those costs change.",
+   "scene": 7,
+   "t": 192.795,
+   "local": 15.036,
+   "dur": 2.701,
+   "trim": 0.08
+  },
+  {
+   "id": "s07_06",
+   "text": "Instead, it focused on controlling the operation behind the meal.",
+   "scene": 7,
+   "t": 195.946,
+   "local": 18.187,
+   "dur": 4.304,
+   "trim": 0.167
+  },
+  {
+   "id": "s08_01",
+   "text": "Costco has changed parts of the hot dog operation while keeping the headline price.",
+   "scene": 8,
+   "t": 201.951,
+   "local": 0.6,
+   "dur": 5.184,
+   "trim": 0.176
+  },
+  {
+   "id": "s08_02",
+   "text": "It moved toward its own Kirkland Signature hot dogs, giving the company more control over sourcing and production.",
+   "scene": 8,
+   "t": 207.585,
+   "local": 6.234,
+   "dur": 7.148,
+   "trim": 0.216
+  },
+  {
+   "id": "s08_04",
+   "text": "Stronger buying power helps Costco keep costs down.",
+   "scene": 8,
+   "t": 215.183,
+   "local": 13.832,
+   "dur": 3.799,
+   "trim": 0.186
+  },
+  {
+   "id": "s08_05",
+   "text": "None of this means the combo is immune to inflation.",
+   "scene": 8,
+   "t": 219.432,
+   "local": 18.081,
+   "dur": 3.364,
+   "trim": 0.09
+  },
+  {
+   "id": "s08_06",
+   "text": "It means the company has repeatedly chosen to defend the customer-facing price by working on the economics behind it.",
+   "scene": 8,
+   "t": 223.247,
+   "local": 21.896,
+   "dur": 7.641,
+   "trim": 0.152
+  },
+  {
+   "id": "s09_02",
+   "text": "Customers cannot memorize the price of every product in a warehouse.",
+   "scene": 9,
+   "t": 232.588,
+   "local": 0.6,
+   "dur": 4.569,
+   "trim": 0.161
+  },
+  {
+   "id": "s09_03",
+   "text": "But they can remember one dollar and fifty cents.",
+   "scene": 9,
+   "t": 237.607,
+   "local": 5.619,
+   "dur": 3.036,
+   "trim": 0.186
+  },
+  {
+   "id": "s09_04",
+   "text": "That makes the hot dog an unusually visible symbol of Costco's pricing philosophy.",
+   "scene": 9,
+   "t": 241.092,
+   "local": 9.104,
+   "dur": 5.215,
+   "trim": 0.132
+  },
+  {
+   "id": "s09_05",
+   "text": "Every time a shopper sees that familiar price, the company reinforces a simple message.",
+   "scene": 9,
+   "t": 246.758,
+   "local": 14.77,
+   "dur": 5.873,
+   "trim": 0.147
+  },
+  {
+   "id": "s09_06",
+   "text": "We're still trying to give you value.",
+   "scene": 9,
+   "t": 253.081,
+   "local": 21.093,
+   "dur": 1.915,
+   "trim": 0.146
+  },
+  {
+   "id": "s09_07",
+   "text": "The hot dog doesn't prove every item is the cheapest.",
+   "scene": 9,
+   "t": 255.446,
+   "local": 23.458,
+   "dur": 3.28,
+   "trim": 0.359
+  },
+  {
+   "id": "s09_08",
+   "text": "It makes the promise of value easier to recognize.",
+   "scene": 9,
+   "t": 259.176,
+   "local": 27.188,
+   "dur": 3.724,
+   "trim": 0.132
+  },
+  {
+   "id": "s10_01",
+   "text": "Think about what happens when a company keeps a familiar promise for decades.",
+   "scene": 10,
+   "t": 264.6,
+   "local": 0.6,
+   "dur": 4.817,
+   "trim": 0.219
+  },
+  {
+   "id": "s10_03",
+   "text": "They may come to expect consistency, especially from a retailer whose business depends on repeat visits and membership renewals.",
+   "scene": 10,
+   "t": 269.867,
+   "local": 5.867,
+   "dur": 8.052,
+   "trim": 0.177
+  },
+  {
+   "id": "s10_04",
+   "text": "The hot dog is one highly visible example of that consistency.",
+   "scene": 10,
+   "t": 278.369,
+   "local": 14.369,
+   "dur": 3.721,
+   "trim": 0.183
+  },
+  {
+   "id": "s10_06",
+   "text": "Costco's membership performance is measurable.",
+   "scene": 10,
+   "t": 282.54,
+   "local": 18.54,
+   "dur": 2.809,
+   "trim": 0.144
+  },
+  {
+   "id": "s10_07",
+   "text": "The exact contribution of the hot dog to renewals is not publicly established.",
+   "scene": 10,
+   "t": 285.8,
+   "local": 21.8,
+   "dur": 5.312,
+   "trim": 0.43
+  },
+  {
+   "id": "s10_08",
+   "text": "The connection is a strategic interpretation, not a proven dollar-for-dollar return.",
+   "scene": 10,
+   "t": 291.562,
+   "local": 27.562,
+   "dur": 5.028,
+   "trim": 0.228
+  },
+  {
+   "id": "s11_01",
+   "text": "The hot dog is a tiny part of an enormous retail operation.",
+   "scene": 11,
+   "t": 298.289,
+   "local": 0.6,
+   "dur": 4.024,
+   "trim": 0.207
+  },
+  {
+   "id": "s11_02",
+   "text": "In fiscal 2025, Costco reported nearly two hundred and seventy billion dollars in net sales.",
+   "scene": 11,
+   "t": 302.763,
+   "local": 5.074,
+   "dur": 6.93,
+   "trim": 0.408
+  },
+  {
+   "id": "s11_03",
+   "text": "Its model depends on moving large quantities of merchandise through a disciplined warehouse network.",
+   "scene": 11,
+   "t": 310.142,
+   "local": 12.453,
+   "dur": 6.433,
+   "trim": 0.193
+  },
+  {
+   "id": "s11_06",
+   "text": "It does mean Costco evaluates its business as a system, not simply as a collection of isolated price tags.",
+   "scene": 11,
+   "t": 317.026,
+   "local": 19.337,
+   "dur": 7.47,
+   "trim": 0.18
+  },
+  {
+   "id": "s12_01",
+   "text": "So why doesn't every retailer simply copy the one-dollar-fifty-cent hot dog?",
+   "scene": 12,
+   "t": 326.196,
+   "local": 0.6,
+   "dur": 5.625,
+   "trim": 0.189
+  },
+  {
+   "id": "s12_02",
+   "text": "Because copying a price is easy.",
+   "scene": 12,
+   "t": 332.271,
+   "local": 6.675,
+   "dur": 2.087,
+   "trim": 0.148
+  },
+  {
+   "id": "s12_03",
+   "text": "Copying the system supporting it is much harder.",
+   "scene": 12,
+   "t": 334.808,
+   "local": 9.212,
+   "dur": 3.016,
+   "trim": 0.185
+  },
+  {
+   "id": "s12_04",
+   "text": "A competitor would need its own purchasing advantages, efficient operations, customer relationships and reasons for shoppers to return.",
+   "scene": 12,
+   "t": 338.274,
+   "local": 12.678,
+   "dur": 8.598,
+   "trim": 0.229
+  },
+  {
+   "id": "s12_05",
+   "text": "Discounting one item without those advantages may simply reduce earnings.",
+   "scene": 12,
+   "t": 347.322,
+   "local": 21.726,
+   "dur": 4.741,
+   "trim": 0.206
+  },
+  {
+   "id": "s12_07",
+   "text": "It's that the price fits within a broader business model built to deliver value consistently.",
+   "scene": 12,
+   "t": 352.513,
+   "local": 26.917,
+   "dur": 5.364,
+   "trim": 0.226
+  },
+  {
+   "id": "s13_02",
+   "text": "Costco does raise prices when its broader economics require it.",
+   "scene": 13,
+   "t": 359.577,
+   "local": 0.6,
+   "dur": 4.182,
+   "trim": 0.175
+  },
+  {
+   "id": "s13_03",
+   "text": "In September 2024, it increased annual membership fees in the United States and Canada.",
+   "scene": 13,
+   "t": 364.209,
+   "local": 5.232,
+   "dur": 6.31,
+   "trim": 0.179
+  },
+  {
+   "id": "s13_04",
+   "text": "Yet the famous hot dog combo remained at one dollar and fifty cents.",
+   "scene": 13,
+   "t": 370.969,
+   "local": 11.992,
+   "dur": 4.79,
+   "trim": 0.187
+  },
+  {
+   "id": "s13_06",
+   "text": "The company is not committed to freezing every price forever.",
+   "scene": 13,
+   "t": 376.209,
+   "local": 17.232,
+   "dur": 4.028,
+   "trim": 0.201
+  },
+  {
+   "id": "s13_08",
+   "text": "The hot dog appears to occupy a special place in how Costco communicates value.",
+   "scene": 13,
+   "t": 380.687,
+   "local": 21.71,
+   "dur": 5.25,
+   "trim": 0.179
+  },
+  {
+   "id": "s14_01",
+   "text": "It's tempting to call the hot dog a loss leader and leave the story there.",
+   "scene": 14,
+   "t": 387.637,
+   "local": 0.6,
+   "dur": 4.281,
+   "trim": 0.144
+  },
+  {
+   "id": "s14_03",
+   "text": "Does Costco actually lose money on every combo?",
+   "scene": 14,
+   "t": 392.368,
+   "local": 5.331,
+   "dur": 3.062,
+   "trim": 0.181
+  },
+  {
+   "id": "s14_04",
+   "text": "The company's public financial reports don't give us a precise answer.",
+   "scene": 14,
+   "t": 395.88,
+   "local": 8.843,
+   "dur": 4.098,
+   "trim": 0.207
+  },
+  {
+   "id": "s14_05",
+   "text": "We can document the price. We can examine its supply chain decisions. And we can measure Costco's broader financial performance.",
+   "scene": 14,
+   "t": 400.428,
+   "local": 13.391,
+   "dur": 8.044,
+   "trim": 0.191
+  },
+  {
+   "id": "s14_06",
+   "text": "What we cannot responsibly do is invent a per-hot-dog loss and present it as fact.",
+   "scene": 14,
+   "t": 408.922,
+   "local": 21.886,
+   "dur": 6.409,
+   "trim": 0.212
+  },
+  {
+   "id": "s14_07",
+   "text": "The real strategy is interesting enough without that claim.",
+   "scene": 14,
+   "t": 415.782,
+   "local": 28.745,
+   "dur": 3.473,
+   "trim": 0.263
+  },
+  {
+   "id": "s15_01",
+   "text": "The most valuable part of this story may not be the hot dog itself.",
+   "scene": 15,
+   "t": 420.955,
+   "local": 0.6,
+   "dur": 4.386,
+   "trim": 0.158
+  },
+  {
+   "id": "s15_02",
+   "text": "It may be the expectation the price helps reinforce.",
+   "scene": 15,
+   "t": 425.791,
+   "local": 5.436,
+   "dur": 3.552,
+   "trim": 0.176
+  },
+  {
+   "id": "s15_03",
+   "text": "A customer enters Costco believing the company is serious about value.",
+   "scene": 15,
+   "t": 429.792,
+   "local": 9.437,
+   "dur": 4.456,
+   "trim": 0.139
+  },
+  {
+   "id": "s15_04",
+   "text": "The membership model gives Costco a reason to keep earning that belief.",
+   "scene": 15,
+   "t": 434.699,
+   "local": 14.344,
+   "dur": 4.584,
+   "trim": 0.166
+  },
+  {
+   "id": "s15_06",
+   "text": "The hot dog is a symbol of those choices.",
+   "scene": 15,
+   "t": 439.732,
+   "local": 19.377,
+   "dur": 2.689,
+   "trim": 0.198
+  },
+  {
+   "id": "s15_07",
+   "text": "Small enough to remember. Familiar enough to notice. And unusual enough to make people ask why.",
+   "scene": 15,
+   "t": 442.872,
+   "local": 22.517,
+   "dur": 6.43,
+   "trim": 0.227
+  },
+  {
+   "id": "s16_01",
+   "text": "So why does Costco refuse to raise the price of its famous hot dog?",
+   "scene": 16,
+   "t": 451.001,
+   "local": 0.6,
+   "dur": 4.889,
+   "trim": 0.187
+  },
+  {
+   "id": "s16_03",
+   "text": "It demonstrates a commitment to recognizable value, supported by purchasing scale, operating discipline and a membership business that rewards customer loyalty.",
+   "scene": 16,
+   "t": 456.34,
+   "local": 5.939,
+   "dur": 10.228,
+   "trim": 0.164
+  },
+  {
+   "id": "s16_04",
+   "text": "Costco hasn't frozen the entire business in 1985.",
+   "scene": 16,
+   "t": 467.018,
+   "local": 16.617,
+   "dur": 3.776,
+   "trim": 0.114
+  },
+  {
+   "id": "s16_05",
+   "text": "It has adapted the business while protecting one extraordinary price.",
+   "scene": 16,
+   "t": 471.244,
+   "local": 20.843,
+   "dur": 4.252,
+   "trim": 0.231
+  },
+  {
+   "id": "s16_06",
+   "text": "Sometimes the clearest evidence of a company's strategy isn't found in a boardroom.",
+   "scene": 16,
+   "t": 475.946,
+   "local": 25.545,
+   "dur": 4.994,
+   "trim": 0.159
+  },
+  {
+   "id": "s16_07",
+   "text": "It's printed above a hot dog.",
+   "scene": 16,
+   "t": 481.39,
+   "local": 30.989,
+   "dur": 1.99,
+   "trim": 0.205
+  },
+  {
+   "id": "s16_08",
+   "text": "Every brand leaves evidence.",
+   "scene": 16,
+   "t": 483.83,
+   "local": 33.429,
+   "dur": 2.334,
+   "trim": 0.108
+  }
+ ]
+}
