@@ -1,0 +1,789 @@
+1
+00:00:02,950 --> 00:00:05,359
+October twenty-ninth, 2018.
+
+2
+00:00:05,933 --> 00:00:09,980
+Lion Air Flight 610 departed
+Jakarta, Indonesia.
+
+3
+00:00:10,616 --> 00:00:14,602
+Thirteen minutes later, the
+aircraft crashed into the Java Sea.
+
+4
+00:00:15,038 --> 00:00:16,981
+One hundred and eighty-nine people died.
+
+5
+00:00:17,500 --> 00:00:23,095
+Less than five months later, Ethiopian
+Airlines Flight 302 crashed shortly after
+
+6
+00:00:23,135 --> 00:00:24,665
+departing Addis Ababa.
+
+7
+00:00:25,125 --> 00:00:27,906
+Another one hundred and
+fifty-seven people died.
+
+8
+00:00:28,408 --> 00:00:33,157
+Two aircraft. Two countries. Three
+hundred and forty-six lives lost.
+
+9
+00:00:33,645 --> 00:00:37,136
+Both aircraft were Boeing 737 MAX jets.
+
+10
+00:00:37,692 --> 00:00:41,295
+And the investigations would reveal
+a deeply troubling connection.
+
+11
+00:00:43,198 --> 00:00:47,786
+Following the second crash, aviation
+authorities around the world began grounding
+
+12
+00:00:47,826 --> 00:00:49,556
+the 737 MAX.
+
+13
+00:00:50,118 --> 00:00:56,054
+On March thirteenth, 2019, the United States
+Federal Aviation Administration ordered
+
+14
+00:00:56,094 --> 00:00:57,604
+the aircraft grounded.
+
+15
+00:00:58,091 --> 00:01:00,029
+Airlines canceled flights.
+
+16
+00:01:00,909 --> 00:01:02,361
+Deliveries were disrupted.
+
+17
+00:01:02,948 --> 00:01:08,495
+And one of the world's largest aerospace
+manufacturers faced a crisis that went far
+
+18
+00:01:08,535 --> 00:01:10,365
+beyond financial losses.
+
+19
+00:01:10,912 --> 00:01:16,186
+How had a modern commercial aircraft,
+developed by an experienced manufacturer and
+
+20
+00:01:16,226 --> 00:01:21,416
+certified for passenger service, become
+the subject of two catastrophic accidents?
+
+21
+00:01:21,974 --> 00:01:25,360
+The answer begins years
+earlier, with a competitor.
+
+22
+00:01:27,210 --> 00:01:31,534
+In 2010, Airbus launched
+the A320neo program.
+
+23
+00:01:32,120 --> 00:01:33,357
+The promise was straightforward.
+
+24
+00:01:34,114 --> 00:01:39,220
+New engines would improve fuel efficiency,
+giving airlines a compelling reason to
+
+25
+00:01:39,260 --> 00:01:40,410
+upgrade their fleets.
+
+26
+00:01:40,997 --> 00:01:44,565
+For Boeing, this presented a
+serious competitive challenge.
+
+27
+00:01:45,087 --> 00:01:50,510
+Its 737 was one of the most successful
+commercial aircraft families in history.
+
+28
+00:01:50,982 --> 00:01:54,259
+But airlines increasingly
+wanted better fuel economics.
+
+29
+00:01:54,920 --> 00:01:56,702
+Boeing needed an answer.
+
+30
+00:01:57,141 --> 00:02:01,978
+And the decision it made would shape
+the development of the 737 MAX.
+
+31
+00:02:03,783 --> 00:02:07,012
+Boeing could pursue an
+entirely new aircraft design.
+
+32
+00:02:07,557 --> 00:02:11,223
+Or it could update the
+existing 737 platform.
+
+33
+00:02:11,785 --> 00:02:13,645
+It chose the second approach.
+
+34
+00:02:14,204 --> 00:02:18,428
+In 2011, Boeing launched
+the 737 MAX program.
+
+35
+00:02:19,034 --> 00:02:22,114
+The strategy offered important
+commercial advantages.
+
+36
+00:02:22,866 --> 00:02:27,736
+An established aircraft family, an existing
+customer base, and the prospect of
+
+37
+00:02:27,776 --> 00:02:31,406
+limiting the differences pilots
+and airlines would have to manage.
+
+38
+00:02:31,906 --> 00:02:37,066
+But updating a decades-old design with
+larger, more efficient engines created
+
+39
+00:02:37,106 --> 00:02:39,136
+engineering challenges.
+
+40
+00:02:39,832 --> 00:02:43,173
+And one of the solutions would become
+central to the investigations.
+
+41
+00:02:45,122 --> 00:02:50,901
+The 737 MAX used larger engines positioned
+differently from those on earlier 737
+
+42
+00:02:50,941 --> 00:02:51,941
+models.
+
+43
+00:02:52,528 --> 00:02:57,147
+These changes affected the aircraft's
+aerodynamic behavior in certain flight
+
+44
+00:02:57,187 --> 00:02:58,187
+conditions.
+
+45
+00:02:58,506 --> 00:03:02,489
+Boeing developed a flight-control function
+called the Maneuvering Characteristics
+
+46
+00:03:02,529 --> 00:03:05,279
+Augmentation System.
+
+47
+00:03:05,709 --> 00:03:10,419
+MCAS was intended to help produce handling
+characteristics that met certification
+
+48
+00:03:10,459 --> 00:03:11,569
+requirements.
+
+49
+00:03:12,178 --> 00:03:17,387
+A flight-control system isn't inherently
+dangerous simply because it's automated.
+
+50
+00:03:17,996 --> 00:03:23,013
+The critical questions are how it receives
+information, what authority it has, and
+
+51
+00:03:23,053 --> 00:03:25,103
+what happens when something goes wrong.
+
+52
+00:03:26,776 --> 00:03:31,560
+MCAS could automatically command
+nose-down stabilizer trim under specific
+
+53
+00:03:31,600 --> 00:03:33,050
+manual-flight conditions.
+
+54
+00:03:33,795 --> 00:03:38,034
+In normal circumstances, the system was
+intended to operate without demanding
+
+55
+00:03:38,074 --> 00:03:40,044
+special attention from pilots.
+
+56
+00:03:40,783 --> 00:03:44,866
+But its original design created
+a dangerous possibility.
+
+57
+00:03:45,513 --> 00:03:50,126
+If the system received incorrect information
+indicating an excessive angle of
+
+58
+00:03:50,166 --> 00:03:55,456
+attack, it could command nose-down trim
+when that correction was not needed.
+
+59
+00:03:55,901 --> 00:04:00,807
+And the consequences depended on how the
+aircraft, the automation, and the flight
+
+60
+00:04:00,847 --> 00:04:02,077
+crew interacted.
+
+61
+00:04:02,589 --> 00:04:05,640
+The next design choice made
+that problem more serious.
+
+62
+00:04:07,577 --> 00:04:12,558
+The original MCAS design relied on information
+from a single angle-of-attack sensor
+
+63
+00:04:12,598 --> 00:04:13,948
+at a time.
+
+64
+00:04:14,353 --> 00:04:19,069
+That sensor helps indicate the angle between
+the aircraft's reference line and the
+
+65
+00:04:19,109 --> 00:04:20,119
+approaching airflow.
+
+66
+00:04:20,754 --> 00:04:25,492
+An erroneous reading could therefore
+trigger MCAS even when the aircraft was not
+
+67
+00:04:25,532 --> 00:04:27,074
+approaching a stall.
+
+68
+00:04:27,114 --> 00:04:32,204
+The system could also activate repeatedly
+after pilot counter-trim inputs.
+
+69
+00:04:32,739 --> 00:04:37,778
+Investigators later identified serious
+weaknesses in the assumptions used to assess
+
+70
+00:04:37,818 --> 00:04:38,818
+these hazards.
+
+71
+00:04:39,412 --> 00:04:44,103
+A single faulty input had become capable
+of creating a much larger flight-control
+
+72
+00:04:44,143 --> 00:04:45,333
+problem.
+
+73
+00:04:46,976 --> 00:04:48,963
+There was another critical issue.
+
+74
+00:04:49,364 --> 00:04:54,908
+Many 737 MAX pilots had not been informed
+about MCAS before the first accident.
+
+75
+00:04:55,396 --> 00:04:59,371
+Boeing's safety assessments relied partly
+on assumptions about how quickly crews
+
+76
+00:04:59,411 --> 00:05:04,141
+would recognize and respond to an
+unexpected stabilizer-trim problem.
+
+77
+00:05:04,556 --> 00:05:07,805
+But real emergencies are
+rarely clean or simple.
+
+78
+00:05:08,274 --> 00:05:09,915
+Warnings can arrive together.
+
+79
+00:05:10,458 --> 00:05:12,198
+Workload can escalate.
+
+80
+00:05:12,648 --> 00:05:16,372
+And pilots may have seconds to
+understand conflicting information.
+
+81
+00:05:17,093 --> 00:05:21,632
+Investigators questioned whether the
+system's design and certification adequately
+
+82
+00:05:21,672 --> 00:05:24,042
+accounted for those human realities.
+
+83
+00:05:25,924 --> 00:05:32,217
+On October twenty-ninth, 2018, Lion
+Air Flight 610 experienced erroneous
+
+84
+00:05:32,257 --> 00:05:33,467
+angle-of-attack information.
+
+85
+00:05:34,191 --> 00:05:38,693
+The resulting system behavior included
+repeated nose-down trim commands associated
+
+86
+00:05:38,733 --> 00:05:41,183
+with MCAS.
+
+87
+00:05:41,739 --> 00:05:46,423
+The crew struggled with multiple indications
+and flight-control difficulties.
+
+88
+00:05:47,043 --> 00:05:51,775
+The aircraft crashed into the Java
+Sea, killing everyone on board.
+
+89
+00:05:52,218 --> 00:05:57,084
+Indonesia's investigation identified a
+combination of contributing factors,
+
+90
+00:05:57,194 --> 00:06:02,274
+including design assumptions, system
+behavior, maintenance issues, and the crew's
+
+91
+00:06:02,314 --> 00:06:03,314
+circumstances.
+
+92
+00:06:03,732 --> 00:06:07,509
+The accident exposed weaknesses
+that demanded urgent attention.
+
+93
+00:06:08,136 --> 00:06:11,357
+But the 737 MAX remained
+in commercial service.
+
+94
+00:06:13,141 --> 00:06:19,806
+On March tenth, 2019, Ethiopian Airlines
+Flight 302 departed Addis Ababa for
+
+95
+00:06:19,846 --> 00:06:20,846
+Nairobi.
+
+96
+00:06:21,396 --> 00:06:25,909
+Soon after takeoff, erroneous angle-of-attack
+information again contributed to
+
+97
+00:06:25,949 --> 00:06:28,239
+unwanted MCAS activation.
+
+98
+00:06:28,943 --> 00:06:32,524
+The crew faced a rapidly
+deteriorating situation.
+
+99
+00:06:32,969 --> 00:06:37,449
+The aircraft crashed, killing all one
+hundred and fifty-seven people aboard.
+
+100
+00:06:37,987 --> 00:06:40,316
+The two accidents were not identical.
+
+101
+00:06:40,921 --> 00:06:45,908
+Investigators have disagreed about some
+technical details of the Ethiopian accident.
+
+102
+00:06:46,449 --> 00:06:52,108
+But the central role of MCAS and related
+system vulnerabilities became impossible to
+
+103
+00:06:52,148 --> 00:06:53,148
+ignore.
+
+104
+00:06:53,193 --> 00:06:54,854
+The crisis was now global.
+
+105
+00:06:56,636 --> 00:07:01,283
+As investigators examined Boeing's internal
+records and the aircraft's certification
+
+106
+00:07:01,323 --> 00:07:04,753
+process, the story became more disturbing.
+
+107
+00:07:05,249 --> 00:07:10,215
+A United States congressional investigation
+identified production pressure, flawed
+
+108
+00:07:10,255 --> 00:07:15,455
+technical assumptions, failures to communicate
+crucial information, and inadequate
+
+109
+00:07:15,495 --> 00:07:17,165
+regulatory oversight.
+
+110
+00:07:17,752 --> 00:07:21,967
+The report described how commercial goals
+influenced the program's development.
+
+111
+00:07:22,475 --> 00:07:27,676
+It also examined information that had not
+been adequately shared with regulators and
+
+112
+00:07:27,716 --> 00:07:28,716
+pilots.
+
+113
+00:07:28,884 --> 00:07:32,727
+This was no longer simply a question
+of whether one software function had
+
+114
+00:07:32,767 --> 00:07:33,837
+malfunctioned.
+
+115
+00:07:34,106 --> 00:07:37,067
+It was a question of how the
+system had been approved.
+
+116
+00:07:38,871 --> 00:07:42,895
+Commercial aviation relies on
+multiple layers of protection.
+
+117
+00:07:43,372 --> 00:07:45,441
+Engineers identify hazards.
+
+118
+00:07:46,076 --> 00:07:48,297
+Manufacturers assess risks.
+
+119
+00:07:48,893 --> 00:07:50,414
+Regulators review compliance.
+
+120
+00:07:51,189 --> 00:07:56,061
+Pilots receive the information and training
+needed to operate aircraft safely.
+
+121
+00:07:56,610 --> 00:08:02,108
+In the 737 MAX program, investigators
+found weaknesses across several of those
+
+122
+00:08:02,148 --> 00:08:03,148
+layers.
+
+123
+00:08:03,273 --> 00:08:08,566
+The Federal Aviation Administration's
+technical review identified problems in safety
+
+124
+00:08:08,606 --> 00:08:12,936
+assessments, including how changes
+to MCAS had been evaluated.
+
+125
+00:08:13,559 --> 00:08:17,577
+Congressional investigators also
+questioned the effectiveness of delegated
+
+126
+00:08:17,617 --> 00:08:19,227
+certification oversight.
+
+127
+00:08:19,832 --> 00:08:23,056
+The deeper problem was
+not one failed safeguard.
+
+128
+00:08:23,482 --> 00:08:25,586
+It was the interaction of several.
+
+129
+00:08:27,387 --> 00:08:30,858
+The grounding carried enormous
+financial consequences.
+
+130
+00:08:31,407 --> 00:08:36,845
+In July 2019, Boeing announced an after-tax
+charge of approximately four point nine
+
+131
+00:08:36,885 --> 00:08:42,935
+billion dollars related to estimated customer
+compensation and other considerations.
+
+132
+00:08:43,729 --> 00:08:49,054
+The disruption also affected production,
+deliveries, airline schedules, and Boeing's
+
+133
+00:08:49,094 --> 00:08:50,094
+earnings.
+
+134
+00:08:50,174 --> 00:08:54,560
+In 2019, its commercial airplanes
+division reported an operating loss of
+
+135
+00:08:54,600 --> 00:08:57,770
+approximately six point
+seven billion dollars.
+
+136
+00:08:58,607 --> 00:09:01,950
+But those figures are not a
+single total cost of the crisis.
+
+137
+00:09:02,663 --> 00:09:06,673
+And no financial calculation can adequately
+represent the loss of three hundred and
+
+138
+00:09:06,713 --> 00:09:08,803
+forty-six lives.
+
+139
+00:09:10,652 --> 00:09:15,799
+Boeing and aviation regulators worked on
+changes to the aircraft and its operating
+
+140
+00:09:15,839 --> 00:09:16,869
+requirements.
+
+141
+00:09:17,425 --> 00:09:22,644
+The revised MCAS design introduced
+additional safeguards, including comparing
+
+142
+00:09:22,684 --> 00:09:27,674
+information from both angle-of-attack
+sensors and limiting the system's authority.
+
+143
+00:09:28,166 --> 00:09:32,072
+Pilot training and operational
+procedures were also revised.
+
+144
+00:09:32,802 --> 00:09:40,482
+In November 2020, the FAA authorized the
+737 MAX to return to commercial service in
+
+145
+00:09:40,522 --> 00:09:44,812
+the United States, subject to
+required modifications and training.
+
+146
+00:09:45,393 --> 00:09:49,549
+The aircraft returned to service in
+stages across different jurisdictions.
+
+147
+00:09:50,348 --> 00:09:54,597
+But restoring certification was
+not the same as restoring trust.
+
+148
+00:09:56,500 --> 00:10:01,211
+So was the 737 MAX crisis caused
+by competition with Airbus?
+
+149
+00:10:01,941 --> 00:10:05,543
+Competition was an important
+part of the commercial context.
+
+150
+00:10:06,140 --> 00:10:09,149
+But competition alone did
+not cause the crashes.
+
+151
+00:10:09,798 --> 00:10:12,517
+The evidence points to
+a more complex failure.
+
+152
+00:10:13,014 --> 00:10:14,619
+Design decisions.
+
+153
+00:10:15,148 --> 00:10:17,051
+Incorrect safety assumptions.
+
+154
+00:10:17,794 --> 00:10:19,239
+Insufficient communication.
+
+155
+00:10:20,005 --> 00:10:22,330
+Weaknesses in certification oversight.
+
+156
+00:10:22,979 --> 00:10:28,129
+And a failure to adequately anticipate how
+pilots would respond to the system under
+
+157
+00:10:28,169 --> 00:10:29,499
+real-world conditions.
+
+158
+00:10:30,234 --> 00:10:35,598
+The catastrophe emerged when multiple
+defenses failed to prevent a dangerous design
+
+159
+00:10:35,638 --> 00:10:38,108
+from entering and remaining in service.
+
+160
+00:10:39,956 --> 00:10:45,575
+The Boeing 737 MAX crisis is a warning about
+the distance between commercial success
+
+161
+00:10:45,615 --> 00:10:47,765
+and engineering responsibility.
+
+162
+00:10:48,705 --> 00:10:54,248
+An aircraft program can meet deadlines,
+win customers, and appear competitive.
+
+163
+00:10:54,888 --> 00:10:59,370
+But none of those achievements can
+substitute for rigorous safety design and
+
+164
+00:10:59,410 --> 00:11:00,640
+independent oversight.
+
+165
+00:11:01,342 --> 00:11:05,773
+The critical question is not whether a
+company can move faster than its rivals.
+
+166
+00:11:06,425 --> 00:11:10,805
+It's whether its decisions remain
+safe when assumptions prove wrong.
+
+167
+00:11:11,289 --> 00:11:13,837
+For Boeing, the consequences
+were devastating.
+
+168
+00:11:14,632 --> 00:11:18,029
+Three hundred and forty-six
+people lost their lives.
+
+169
+00:11:18,562 --> 00:11:22,930
+And the evidence exposed failures
+far beyond one piece of software.
+
+170
+00:11:23,297 --> 00:11:25,260
+Every brand leaves evidence.
+

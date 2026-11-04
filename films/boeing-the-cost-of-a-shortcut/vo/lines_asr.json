@@ -1,0 +1,633 @@
+[
+ {
+  "id": "s01_01",
+  "text": "October twenty-ninth, twenty eighteen.",
+  "scene": 1,
+  "say": "October twenty-ninth, twenty eighteen."
+ },
+ {
+  "id": "s01_02",
+  "text": "Lion Air Flight six ten departed Jakarta, Indonesia.",
+  "scene": 1,
+  "say": "Lion Air Flight six ten departed Jakarta, Indonesia."
+ },
+ {
+  "id": "s01_03",
+  "text": "Thirteen minutes later, the aircraft crashed into the Java Sea.",
+  "scene": 1
+ },
+ {
+  "id": "s01_04",
+  "text": "One hundred and eighty-nine people died.",
+  "scene": 1
+ },
+ {
+  "id": "s01_05",
+  "text": "Less than five months later, Ethiopian Airlines Flight three oh two crashed shortly after departing Addis Ababa.",
+  "scene": 1,
+  "say": "Less than five months later, Ethiopian Airlines Flight three oh two crashed shortly after departing Addis Ababa."
+ },
+ {
+  "id": "s01_06",
+  "text": "Another one hundred and fifty-seven people died.",
+  "scene": 1
+ },
+ {
+  "id": "s01_07",
+  "text": "Two aircraft. Two countries. Three hundred and forty-six lives lost.",
+  "scene": 1
+ },
+ {
+  "id": "s01_08",
+  "text": "Both aircraft were Boeing seven thirty-seven MAX jets.",
+  "scene": 1,
+  "say": "Both aircraft were Boeing seven thirty-seven MAX jets."
+ },
+ {
+  "id": "s01_09",
+  "text": "And the investigations would reveal a deeply troubling connection.",
+  "scene": 1
+ },
+ {
+  "id": "s02_01",
+  "text": "Following the second crash, aviation authorities around the world began grounding the seven thirty-seven MAX.",
+  "scene": 2,
+  "say": "Following the second crash, aviation authorities around the world began grounding the seven thirty-seven MAX."
+ },
+ {
+  "id": "s02_02",
+  "text": "On March thirteenth, twenty nineteen, the United States Federal Aviation Administration ordered the aircraft grounded.",
+  "scene": 2,
+  "say": "On March thirteenth, twenty nineteen, the United States Federal Aviation Administration ordered the aircraft grounded."
+ },
+ {
+  "id": "s02_03",
+  "text": "Airlines canceled flights.",
+  "scene": 2
+ },
+ {
+  "id": "s02_04",
+  "text": "Deliveries were disrupted.",
+  "scene": 2
+ },
+ {
+  "id": "s02_05",
+  "text": "And one of the world's largest aerospace manufacturers faced a crisis that went far beyond financial losses.",
+  "scene": 2
+ },
+ {
+  "id": "s02_06",
+  "text": "How had a modern commercial aircraft, developed by an experienced manufacturer and certified for passenger service, become the subject of two catastrophic accidents?",
+  "scene": 2
+ },
+ {
+  "id": "s02_07",
+  "text": "The answer begins years earlier, with a competitor.",
+  "scene": 2
+ },
+ {
+  "id": "s03_01",
+  "text": "In twenty ten, Airbus launched the A three twenty neo program.",
+  "scene": 3,
+  "say": "In twenty ten, Airbus launched the A three twenty neo program."
+ },
+ {
+  "id": "s03_02",
+  "text": "The promise was straightforward.",
+  "scene": 3
+ },
+ {
+  "id": "s03_03",
+  "text": "New engines would improve fuel efficiency, giving airlines a compelling reason to upgrade their fleets.",
+  "scene": 3
+ },
+ {
+  "id": "s03_04",
+  "text": "For Boeing, this presented a serious competitive challenge.",
+  "scene": 3
+ },
+ {
+  "id": "s03_05",
+  "text": "Its seven thirty-seven was one of the most successful commercial aircraft families in history.",
+  "scene": 3,
+  "say": "Its seven thirty-seven was one of the most successful commercial aircraft families in history."
+ },
+ {
+  "id": "s03_06",
+  "text": "But airlines increasingly wanted better fuel economics.",
+  "scene": 3
+ },
+ {
+  "id": "s03_07",
+  "text": "Boeing needed an answer.",
+  "scene": 3
+ },
+ {
+  "id": "s03_08",
+  "text": "And the decision it made would shape the development of the seven thirty-seven MAX.",
+  "scene": 3,
+  "say": "And the decision it made would shape the development of the seven thirty-seven MAX."
+ },
+ {
+  "id": "s04_01",
+  "text": "Boeing could pursue an entirely new aircraft design.",
+  "scene": 4
+ },
+ {
+  "id": "s04_02",
+  "text": "Or it could update the existing seven thirty-seven platform.",
+  "scene": 4,
+  "say": "Or it could update the existing seven thirty-seven platform."
+ },
+ {
+  "id": "s04_03",
+  "text": "It chose the second approach.",
+  "scene": 4
+ },
+ {
+  "id": "s04_04",
+  "text": "In twenty eleven, Boeing launched the seven thirty-seven MAX program.",
+  "scene": 4,
+  "say": "In twenty eleven, Boeing launched the seven thirty-seven MAX program."
+ },
+ {
+  "id": "s04_05",
+  "text": "The strategy offered important commercial advantages.",
+  "scene": 4
+ },
+ {
+  "id": "s04_06",
+  "text": "An established aircraft family, an existing customer base, and the prospect of limiting the differences pilots and airlines would have to manage.",
+  "scene": 4
+ },
+ {
+  "id": "s04_07",
+  "text": "But updating a decades-old design with larger, more efficient engines created engineering challenges.",
+  "scene": 4
+ },
+ {
+  "id": "s04_08",
+  "text": "And one of the solutions would become central to the investigations.",
+  "scene": 4
+ },
+ {
+  "id": "s05_01",
+  "text": "The seven thirty-seven MAX used larger engines positioned differently from those on earlier seven thirty-seven models.",
+  "scene": 5,
+  "say": "The seven thirty-seven MAX used larger engines positioned differently from those on earlier seven thirty-seven models."
+ },
+ {
+  "id": "s05_02",
+  "text": "These changes affected the aircraft's aerodynamic behavior in certain flight conditions.",
+  "scene": 5
+ },
+ {
+  "id": "s05_03",
+  "text": "Boeing developed a flight-control function called the Maneuvering Characteristics Augmentation System.",
+  "scene": 5
+ },
+ {
+  "id": "s05_04",
+  "text": "em-cass was intended to help produce handling characteristics that met certification requirements.",
+  "scene": 5,
+  "say": "em-cass was intended to help produce handling characteristics that met certification requirements."
+ },
+ {
+  "id": "s05_05",
+  "text": "A flight-control system isn't inherently dangerous simply because it's automated.",
+  "scene": 5
+ },
+ {
+  "id": "s05_06",
+  "text": "The critical questions are how it receives information, what authority it has, and what happens when something goes wrong.",
+  "scene": 5
+ },
+ {
+  "id": "s06_01",
+  "text": "em-cass could automatically command nose-down stabilizer trim under specific manual-flight conditions.",
+  "scene": 6,
+  "say": "em-cass could automatically command nose-down stabilizer trim under specific manual-flight conditions."
+ },
+ {
+  "id": "s06_02",
+  "text": "In normal circumstances, the system was intended to operate without demanding special attention from pilots.",
+  "scene": 6
+ },
+ {
+  "id": "s06_03",
+  "text": "But its original design created a dangerous possibility.",
+  "scene": 6
+ },
+ {
+  "id": "s06_04",
+  "text": "If the system received incorrect information indicating an excessive angle of attack, it could command nose-down trim when that correction was not needed.",
+  "scene": 6
+ },
+ {
+  "id": "s06_05",
+  "text": "And the consequences depended on how the aircraft, the automation, and the flight crew interacted.",
+  "scene": 6
+ },
+ {
+  "id": "s06_06",
+  "text": "The next design choice made that problem more serious.",
+  "scene": 6
+ },
+ {
+  "id": "s07_01",
+  "text": "The original em-cass design relied on information from a single angle-of-attack sensor at a time.",
+  "scene": 7,
+  "say": "The original em-cass design relied on information from a single angle-of-attack sensor at a time."
+ },
+ {
+  "id": "s07_02",
+  "text": "That sensor helps indicate the angle between the aircraft's reference line and the approaching airflow.",
+  "scene": 7
+ },
+ {
+  "id": "s07_03",
+  "text": "An erroneous reading could therefore trigger em-cass even when the aircraft was not approaching a stall.",
+  "scene": 7,
+  "say": "An erroneous reading could therefore trigger em-cass even when the aircraft was not approaching a stall."
+ },
+ {
+  "id": "s07_04",
+  "text": "The system could also activate repeatedly after pilot counter-trim inputs.",
+  "scene": 7
+ },
+ {
+  "id": "s07_05",
+  "text": "Investigators later identified serious weaknesses in the assumptions used to assess these hazards.",
+  "scene": 7
+ },
+ {
+  "id": "s07_06",
+  "text": "A single faulty input had become capable of creating a much larger flight-control problem.",
+  "scene": 7
+ },
+ {
+  "id": "s08_01",
+  "text": "There was another critical issue.",
+  "scene": 8
+ },
+ {
+  "id": "s08_02",
+  "text": "Many seven thirty-seven MAX pilots had not been informed about em-cass before the first accident.",
+  "scene": 8,
+  "say": "Many seven thirty-seven MAX pilots had not been informed about em-cass before the first accident."
+ },
+ {
+  "id": "s08_03",
+  "text": "Boeing's safety assessments relied partly on assumptions about how quickly crews would recognize and respond to an unexpected stabilizer-trim problem.",
+  "scene": 8
+ },
+ {
+  "id": "s08_04",
+  "text": "But real emergencies are rarely clean or simple.",
+  "scene": 8
+ },
+ {
+  "id": "s08_05",
+  "text": "Warnings can arrive together.",
+  "scene": 8
+ },
+ {
+  "id": "s08_06",
+  "text": "Workload can escalate.",
+  "scene": 8
+ },
+ {
+  "id": "s08_07",
+  "text": "And pilots may have seconds to understand conflicting information.",
+  "scene": 8
+ },
+ {
+  "id": "s08_08",
+  "text": "Investigators questioned whether the system's design and certification adequately accounted for those human realities.",
+  "scene": 8
+ },
+ {
+  "id": "s09_01",
+  "text": "On October twenty-ninth, twenty eighteen, Lion Air Flight six ten experienced erroneous angle-of-attack information.",
+  "scene": 9,
+  "say": "On October twenty-ninth, twenty eighteen, Lion Air Flight six ten experienced erroneous angle-of-attack information."
+ },
+ {
+  "id": "s09_02",
+  "text": "The resulting system behavior included repeated nose-down trim commands associated with em-cass.",
+  "scene": 9,
+  "say": "The resulting system behavior included repeated nose-down trim commands associated with em-cass."
+ },
+ {
+  "id": "s09_03",
+  "text": "The crew struggled with multiple indications and flight-control difficulties.",
+  "scene": 9
+ },
+ {
+  "id": "s09_04",
+  "text": "The aircraft crashed into the Java Sea, killing everyone on board.",
+  "scene": 9
+ },
+ {
+  "id": "s09_05",
+  "text": "Indonesia's investigation identified a combination of contributing factors, including design assumptions, system behavior, maintenance issues, and the crew's circumstances.",
+  "scene": 9
+ },
+ {
+  "id": "s09_06",
+  "text": "The accident exposed weaknesses that demanded urgent attention.",
+  "scene": 9
+ },
+ {
+  "id": "s09_07",
+  "text": "But the seven thirty-seven MAX remained in commercial service.",
+  "scene": 9,
+  "say": "But the seven thirty-seven MAX remained in commercial service."
+ },
+ {
+  "id": "s10_01",
+  "text": "On March tenth, twenty nineteen, Ethiopian Airlines Flight three oh two departed Addis Ababa for Nairobi.",
+  "scene": 10,
+  "say": "On March tenth, twenty nineteen, Ethiopian Airlines Flight three oh two departed Addis Ababa for Nairobi."
+ },
+ {
+  "id": "s10_02",
+  "text": "Soon after takeoff, erroneous angle-of-attack information again contributed to unwanted em-cass activation.",
+  "scene": 10,
+  "say": "Soon after takeoff, erroneous angle-of-attack information again contributed to unwanted em-cass activation."
+ },
+ {
+  "id": "s10_03",
+  "text": "The crew faced a rapidly deteriorating situation.",
+  "scene": 10
+ },
+ {
+  "id": "s10_04",
+  "text": "The aircraft crashed, killing all one hundred and fifty-seven people aboard.",
+  "scene": 10
+ },
+ {
+  "id": "s10_05",
+  "text": "The two accidents were not identical.",
+  "scene": 10
+ },
+ {
+  "id": "s10_06",
+  "text": "Investigators have disagreed about some technical details of the Ethiopian accident.",
+  "scene": 10
+ },
+ {
+  "id": "s10_07",
+  "text": "But the central role of em-cass and related system vulnerabilities became impossible to ignore.",
+  "scene": 10,
+  "say": "But the central role of em-cass and related system vulnerabilities became impossible to ignore."
+ },
+ {
+  "id": "s10_08",
+  "text": "The crisis was now global.",
+  "scene": 10
+ },
+ {
+  "id": "s11_01",
+  "text": "As investigators examined Boeing's internal records and the aircraft's certification process, the story became more disturbing.",
+  "scene": 11
+ },
+ {
+  "id": "s11_02",
+  "text": "A United States congressional investigation identified production pressure, flawed technical assumptions, failures to communicate crucial information, and inadequate regulatory oversight.",
+  "scene": 11
+ },
+ {
+  "id": "s11_03",
+  "text": "The report described how commercial goals influenced the program's development.",
+  "scene": 11
+ },
+ {
+  "id": "s11_04",
+  "text": "It also examined information that had not been adequately shared with regulators and pilots.",
+  "scene": 11
+ },
+ {
+  "id": "s11_05",
+  "text": "This was no longer simply a question of whether one software function had malfunctioned.",
+  "scene": 11
+ },
+ {
+  "id": "s11_06",
+  "text": "It was a question of how the system had been approved.",
+  "scene": 11
+ },
+ {
+  "id": "s12_01",
+  "text": "Commercial aviation relies on multiple layers of protection.",
+  "scene": 12
+ },
+ {
+  "id": "s12_02",
+  "text": "Engineers identify hazards.",
+  "scene": 12
+ },
+ {
+  "id": "s12_03",
+  "text": "Manufacturers assess risks.",
+  "scene": 12
+ },
+ {
+  "id": "s12_04",
+  "text": "Regulators review compliance.",
+  "scene": 12
+ },
+ {
+  "id": "s12_05",
+  "text": "Pilots receive the information and training needed to operate aircraft safely.",
+  "scene": 12
+ },
+ {
+  "id": "s12_06",
+  "text": "In the seven thirty-seven MAX program, investigators found weaknesses across several of those layers.",
+  "scene": 12,
+  "say": "In the seven thirty-seven MAX program, investigators found weaknesses across several of those layers."
+ },
+ {
+  "id": "s12_07",
+  "text": "The Federal Aviation Administration's technical review identified problems in safety assessments, including how changes to em-cass had been evaluated.",
+  "scene": 12,
+  "say": "The Federal Aviation Administration's technical review identified problems in safety assessments, including how changes to em-cass had been evaluated."
+ },
+ {
+  "id": "s12_08",
+  "text": "Congressional investigators also questioned the effectiveness of delegated certification oversight.",
+  "scene": 12
+ },
+ {
+  "id": "s12_09",
+  "text": "The deeper problem was not one failed safeguard.",
+  "scene": 12
+ },
+ {
+  "id": "s12_10",
+  "text": "It was the interaction of several.",
+  "scene": 12
+ },
+ {
+  "id": "s13_01",
+  "text": "The grounding carried enormous financial consequences.",
+  "scene": 13
+ },
+ {
+  "id": "s13_02",
+  "text": "In July twenty nineteen, Boeing announced an after-tax charge of approximately four point nine billion dollars related to estimated customer compensation and other considerations.",
+  "scene": 13,
+  "say": "In July twenty nineteen, Boeing announced an after-tax charge of approximately four point nine billion dollars related to estimated customer compensation and other considerations."
+ },
+ {
+  "id": "s13_03",
+  "text": "The disruption also affected production, deliveries, airline schedules, and Boeing's earnings.",
+  "scene": 13
+ },
+ {
+  "id": "s13_04",
+  "text": "In twenty nineteen, its commercial airplanes division reported an operating loss of approximately six point seven billion dollars.",
+  "scene": 13,
+  "say": "In twenty nineteen, its commercial airplanes division reported an operating loss of approximately six point seven billion dollars."
+ },
+ {
+  "id": "s13_05",
+  "text": "But those figures are not a single total cost of the crisis.",
+  "scene": 13
+ },
+ {
+  "id": "s13_06",
+  "text": "And no financial calculation can adequately represent the loss of three hundred and forty-six lives.",
+  "scene": 13
+ },
+ {
+  "id": "s14_01",
+  "text": "Boeing and aviation regulators worked on changes to the aircraft and its operating requirements.",
+  "scene": 14
+ },
+ {
+  "id": "s14_02",
+  "text": "The revised em-cass design introduced additional safeguards, including comparing information from both angle-of-attack sensors and limiting the system's authority.",
+  "scene": 14,
+  "say": "The revised em-cass design introduced additional safeguards, including comparing information from both angle-of-attack sensors and limiting the system's authority."
+ },
+ {
+  "id": "s14_03",
+  "text": "Pilot training and operational procedures were also revised.",
+  "scene": 14
+ },
+ {
+  "id": "s14_04",
+  "text": "In November twenty twenty, the F A A authorized the seven thirty-seven MAX to return to commercial service in the United States, subject to required modifications and training.",
+  "scene": 14,
+  "say": "In November twenty twenty, the F A A authorized the seven thirty-seven MAX to return to commercial service in the United States, subject to required modifications and training."
+ },
+ {
+  "id": "s14_05",
+  "text": "The aircraft returned to service in stages across different jurisdictions.",
+  "scene": 14
+ },
+ {
+  "id": "s14_06",
+  "text": "But restoring certification was not the same as restoring trust.",
+  "scene": 14
+ },
+ {
+  "id": "s15_01",
+  "text": "So was the seven thirty-seven MAX crisis caused by competition with Airbus?",
+  "scene": 15,
+  "say": "So was the seven thirty-seven MAX crisis caused by competition with Airbus?"
+ },
+ {
+  "id": "s15_02",
+  "text": "Competition was an important part of the commercial context.",
+  "scene": 15
+ },
+ {
+  "id": "s15_03",
+  "text": "But competition alone did not cause the crashes.",
+  "scene": 15
+ },
+ {
+  "id": "s15_04",
+  "text": "The evidence points to a more complex failure.",
+  "scene": 15
+ },
+ {
+  "id": "s15_05",
+  "text": "Design decisions.",
+  "scene": 15
+ },
+ {
+  "id": "s15_06",
+  "text": "Incorrect safety assumptions.",
+  "scene": 15
+ },
+ {
+  "id": "s15_07",
+  "text": "Insufficient communication.",
+  "scene": 15
+ },
+ {
+  "id": "s15_08",
+  "text": "Weaknesses in certification oversight.",
+  "scene": 15
+ },
+ {
+  "id": "s15_09",
+  "text": "And a failure to adequately anticipate how pilots would respond to the system under real-world conditions.",
+  "scene": 15
+ },
+ {
+  "id": "s15_10",
+  "text": "The catastrophe emerged when multiple defenses failed to prevent a dangerous design from entering and remaining in service.",
+  "scene": 15
+ },
+ {
+  "id": "s16_01",
+  "text": "The Boeing seven thirty-seven MAX crisis is a warning about the distance between commercial success and engineering responsibility.",
+  "scene": 16,
+  "say": "The Boeing seven thirty-seven MAX crisis is a warning about the distance between commercial success and engineering responsibility."
+ },
+ {
+  "id": "s16_02",
+  "text": "An aircraft program can meet deadlines, win customers, and appear competitive.",
+  "scene": 16
+ },
+ {
+  "id": "s16_03",
+  "text": "But none of those achievements can substitute for rigorous safety design and independent oversight.",
+  "scene": 16
+ },
+ {
+  "id": "s16_04",
+  "text": "The critical question is not whether a company can move faster than its rivals.",
+  "scene": 16
+ },
+ {
+  "id": "s16_05",
+  "text": "It's whether its decisions remain safe when assumptions prove wrong.",
+  "scene": 16
+ },
+ {
+  "id": "s16_06",
+  "text": "For Boeing, the consequences were devastating.",
+  "scene": 16
+ },
+ {
+  "id": "s16_07",
+  "text": "Three hundred and forty-six people lost their lives.",
+  "scene": 16
+ },
+ {
+  "id": "s16_08",
+  "text": "And the evidence exposed failures far beyond one piece of software.",
+  "scene": 16
+ },
+ {
+  "id": "s16_09",
+  "text": "Every brand leaves evidence.",
+  "scene": 16
+ }
+]
