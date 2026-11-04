@@ -1,0 +1,1976 @@
+{
+ "total": 659.397,
+ "scenes": [
+  {
+   "i": 1,
+   "base": 0.0,
+   "dur": 36.449,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     2.75
+    ],
+    [
+     4.857142857142858,
+     12.676
+    ],
+    [
+     8.714285714285715,
+     19.456
+    ],
+    [
+     12.571428571428571,
+     23.24
+    ],
+    [
+     16.42857142857143,
+     26.255
+    ],
+    [
+     20.285714285714285,
+     28.748
+    ],
+    [
+     24.142857142857142,
+     32.783
+    ],
+    [
+     30.0,
+     36.449
+    ]
+   ]
+  },
+  {
+   "i": 2,
+   "base": 36.449,
+   "dur": 39.891,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     8.898
+    ],
+    [
+     7.0,
+     16.463
+    ],
+    [
+     10.0,
+     19.137
+    ],
+    [
+     13.0,
+     23.662
+    ],
+    [
+     16.0,
+     25.828
+    ],
+    [
+     19.0,
+     29.409
+    ],
+    [
+     22.0,
+     31.397
+    ],
+    [
+     25.0,
+     34.72
+    ],
+    [
+     30.0,
+     39.891
+    ]
+   ]
+  },
+  {
+   "i": 3,
+   "base": 76.34,
+   "dur": 37.254,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     5.944
+    ],
+    [
+     8.714285714285715,
+     13.139
+    ],
+    [
+     12.571428571428571,
+     18.485
+    ],
+    [
+     16.42857142857143,
+     22.8
+    ],
+    [
+     20.285714285714285,
+     26.892
+    ],
+    [
+     24.142857142857142,
+     32.942
+    ],
+    [
+     30.0,
+     37.254
+    ]
+   ]
+  },
+  {
+   "i": 4,
+   "base": 113.594,
+   "dur": 39.185,
+   "n": 10,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.7,
+     3.651
+    ],
+    [
+     6.4,
+     6.109
+    ],
+    [
+     9.1,
+     8.041
+    ],
+    [
+     11.8,
+     13.223
+    ],
+    [
+     14.5,
+     15.276
+    ],
+    [
+     17.2,
+     23.409
+    ],
+    [
+     19.9,
+     27.451
+    ],
+    [
+     22.6,
+     30.147
+    ],
+    [
+     25.3,
+     33.153
+    ],
+    [
+     30.0,
+     39.185
+    ]
+   ]
+  },
+  {
+   "i": 5,
+   "base": 152.779,
+   "dur": 44.192,
+   "n": 10,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.7,
+     6.38
+    ],
+    [
+     6.4,
+     8.607
+    ],
+    [
+     9.1,
+     11.232
+    ],
+    [
+     11.8,
+     14.746
+    ],
+    [
+     14.5,
+     18.557
+    ],
+    [
+     17.2,
+     24.191
+    ],
+    [
+     19.9,
+     26.474
+    ],
+    [
+     22.6,
+     32.57
+    ],
+    [
+     25.3,
+     36.778
+    ],
+    [
+     30.0,
+     44.192
+    ]
+   ]
+  },
+  {
+   "i": 6,
+   "base": 196.971,
+   "dur": 41.102,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     7.071
+    ],
+    [
+     7.75,
+     12.479
+    ],
+    [
+     11.125,
+     15.181
+    ],
+    [
+     14.5,
+     19.009
+    ],
+    [
+     17.875,
+     24.602
+    ],
+    [
+     21.25,
+     30.491
+    ],
+    [
+     24.625,
+     35.462
+    ],
+    [
+     30.0,
+     41.102
+    ]
+   ]
+  },
+  {
+   "i": 7,
+   "base": 238.073,
+   "dur": 46.108,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     4.114
+    ],
+    [
+     7.75,
+     7.201
+    ],
+    [
+     11.125,
+     12.75
+    ],
+    [
+     14.5,
+     18.642
+    ],
+    [
+     17.875,
+     28.259
+    ],
+    [
+     21.25,
+     32.75
+    ],
+    [
+     24.625,
+     37.401
+    ],
+    [
+     30.0,
+     46.108
+    ]
+   ]
+  },
+  {
+   "i": 8,
+   "base": 284.181,
+   "dur": 43.447,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     7.271
+    ],
+    [
+     7.0,
+     13.52
+    ],
+    [
+     10.0,
+     18.479
+    ],
+    [
+     13.0,
+     22.452
+    ],
+    [
+     16.0,
+     24.964
+    ],
+    [
+     19.0,
+     27.306
+    ],
+    [
+     22.0,
+     29.881
+    ],
+    [
+     25.0,
+     36.087
+    ],
+    [
+     30.0,
+     43.447
+    ]
+   ]
+  },
+  {
+   "i": 9,
+   "base": 327.628,
+   "dur": 37.702,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     3.729
+    ],
+    [
+     8.714285714285715,
+     7.476
+    ],
+    [
+     12.571428571428571,
+     13.482
+    ],
+    [
+     16.42857142857143,
+     19.672
+    ],
+    [
+     20.285714285714285,
+     25.918
+    ],
+    [
+     24.142857142857142,
+     30.291
+    ],
+    [
+     30.0,
+     37.702
+    ]
+   ]
+  },
+  {
+   "i": 10,
+   "base": 365.33,
+   "dur": 41.051,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     6.009
+    ],
+    [
+     8.714285714285715,
+     12.202
+    ],
+    [
+     12.571428571428571,
+     16.828
+    ],
+    [
+     16.42857142857143,
+     23.68
+    ],
+    [
+     20.285714285714285,
+     27.05
+    ],
+    [
+     24.142857142857142,
+     35.086
+    ],
+    [
+     30.0,
+     41.051
+    ]
+   ]
+  },
+  {
+   "i": 11,
+   "base": 406.381,
+   "dur": 41.375,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     6.114
+    ],
+    [
+     8.714285714285715,
+     14.243
+    ],
+    [
+     12.571428571428571,
+     17.622
+    ],
+    [
+     16.42857142857143,
+     26.957
+    ],
+    [
+     20.285714285714285,
+     29.268
+    ],
+    [
+     24.142857142857142,
+     36.078
+    ],
+    [
+     30.0,
+     41.375
+    ]
+   ]
+  },
+  {
+   "i": 12,
+   "base": 447.756,
+   "dur": 41.788,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     8.941
+    ],
+    [
+     7.75,
+     12.313
+    ],
+    [
+     11.125,
+     15.108
+    ],
+    [
+     14.5,
+     22.23
+    ],
+    [
+     17.875,
+     25.264
+    ],
+    [
+     21.25,
+     32.49
+    ],
+    [
+     24.625,
+     36.465
+    ],
+    [
+     30.0,
+     41.788
+    ]
+   ]
+  },
+  {
+   "i": 13,
+   "base": 489.544,
+   "dur": 39.138,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     5.719
+    ],
+    [
+     7.75,
+     9.86
+    ],
+    [
+     11.125,
+     15.553
+    ],
+    [
+     14.5,
+     19.629
+    ],
+    [
+     17.875,
+     26.073
+    ],
+    [
+     21.25,
+     32.887
+    ],
+    [
+     24.625,
+     35.675
+    ],
+    [
+     30.0,
+     39.138
+    ]
+   ]
+  },
+  {
+   "i": 14,
+   "base": 528.682,
+   "dur": 43.676,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     10.709
+    ],
+    [
+     8.714285714285715,
+     12.891
+    ],
+    [
+     12.571428571428571,
+     18.185
+    ],
+    [
+     16.42857142857143,
+     26.482
+    ],
+    [
+     20.285714285714285,
+     33.23
+    ],
+    [
+     24.142857142857142,
+     37.046
+    ],
+    [
+     30.0,
+     43.676
+    ]
+   ]
+  },
+  {
+   "i": 15,
+   "base": 572.358,
+   "dur": 40.752,
+   "n": 10,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.7,
+     5.994
+    ],
+    [
+     6.4,
+     6.991
+    ],
+    [
+     9.1,
+     9.595
+    ],
+    [
+     11.8,
+     17.574
+    ],
+    [
+     14.5,
+     20.703
+    ],
+    [
+     17.2,
+     22.63
+    ],
+    [
+     19.9,
+     25.172
+    ],
+    [
+     22.6,
+     30.886
+    ],
+    [
+     25.3,
+     33.377
+    ],
+    [
+     30.0,
+     40.752
+    ]
+   ]
+  },
+  {
+   "i": 16,
+   "base": 613.11,
+   "dur": 46.287,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     5.18
+    ],
+    [
+     7.0,
+     13.264
+    ],
+    [
+     10.0,
+     17.191
+    ],
+    [
+     13.0,
+     21.305
+    ],
+    [
+     16.0,
+     23.674
+    ],
+    [
+     19.0,
+     30.235
+    ],
+    [
+     22.0,
+     34.879
+    ],
+    [
+     25.0,
+     38.215
+    ],
+    [
+     30.0,
+     46.287
+    ]
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "s01_01",
+   "text": "1975. Inside a Kodak laboratory in Rochester, New York, an engineer named Steven Sasson was building something extraordinary.",
+   "scene": 1,
+   "say": "Nineteen seventy-five. Inside a Kodak laboratory in Rochester, New York, an engineer named Steven Sasson was building something extraordinary.",
+   "t": 3.0,
+   "local": 3.0,
+   "dur": 9.476,
+   "trim": 0.402
+  },
+  {
+   "id": "s01_02",
+   "text": "It weighed about eight pounds. It captured black-and-white images. And it recorded them onto magnetic tape.",
+   "scene": 1,
+   "say": "It weighed about eight pounds. It captured black and white images. And it recorded them onto magnetic tape.",
+   "t": 12.926,
+   "local": 12.926,
+   "dur": 6.33,
+   "trim": 0.192
+  },
+  {
+   "id": "s01_03",
+   "text": "The resolution? Just ten thousand pixels.",
+   "scene": 1,
+   "t": 19.706,
+   "local": 19.706,
+   "dur": 3.334,
+   "trim": 0.201
+  },
+  {
+   "id": "s01_04",
+   "text": "By modern standards, it was primitive.",
+   "scene": 1,
+   "t": 23.49,
+   "local": 23.49,
+   "dur": 2.565,
+   "trim": 0.184
+  },
+  {
+   "id": "s01_05",
+   "text": "But the principle was revolutionary.",
+   "scene": 1,
+   "t": 26.505,
+   "local": 26.505,
+   "dur": 2.043,
+   "trim": 0.173
+  },
+  {
+   "id": "s01_06",
+   "text": "A camera that could take photographs without photographic film.",
+   "scene": 1,
+   "t": 28.998,
+   "local": 28.998,
+   "dur": 3.585,
+   "trim": 0.127
+  },
+  {
+   "id": "s01_07",
+   "text": "And the company behind it was Kodak.",
+   "scene": 1,
+   "t": 33.033,
+   "local": 33.033,
+   "dur": 2.315,
+   "trim": 0.087
+  },
+  {
+   "id": "s02_01",
+   "text": "Thirty-seven years later, on January nineteenth, 2012, Eastman Kodak filed for Chapter Eleven bankruptcy protection.",
+   "scene": 2,
+   "say": "Thirty seven years later, on January nineteenth, twenty twelve, Eastman Kodak filed for Chapter Eleven bankruptcy protection.",
+   "t": 37.049,
+   "local": 0.6,
+   "dur": 8.098,
+   "trim": 0.173
+  },
+  {
+   "id": "s02_02",
+   "text": "The company that helped pioneer digital photography had failed to build a sustainable business through the industry's transformation.",
+   "scene": 2,
+   "t": 45.597,
+   "local": 9.148,
+   "dur": 7.115,
+   "trim": 0.259
+  },
+  {
+   "id": "s02_03",
+   "text": "The popular explanation is simple.",
+   "scene": 2,
+   "t": 53.162,
+   "local": 16.713,
+   "dur": 2.224,
+   "trim": 0.202
+  },
+  {
+   "id": "s02_04",
+   "text": "Kodak invented the digital camera, ignored it, and paid the price.",
+   "scene": 2,
+   "t": 55.836,
+   "local": 19.387,
+   "dur": 4.075,
+   "trim": 0.182
+  },
+  {
+   "id": "s02_05",
+   "text": "But that isn't quite what happened.",
+   "scene": 2,
+   "t": 60.361,
+   "local": 23.912,
+   "dur": 1.717,
+   "trim": 0.175
+  },
+  {
+   "id": "s02_06",
+   "text": "Kodak didn't simply ignore digital photography.",
+   "scene": 2,
+   "t": 62.527,
+   "local": 26.078,
+   "dur": 3.131,
+   "trim": 0.179
+  },
+  {
+   "id": "s02_07",
+   "text": "It invested in it.",
+   "scene": 2,
+   "t": 66.108,
+   "local": 29.659,
+   "dur": 1.537,
+   "trim": 0.143
+  },
+  {
+   "id": "s02_08",
+   "text": "Which makes the real question far more interesting.",
+   "scene": 2,
+   "t": 68.096,
+   "local": 31.647,
+   "dur": 2.873,
+   "trim": 0.224
+  },
+  {
+   "id": "s02_09",
+   "text": "How did Kodak see the future and still lose its position in it?",
+   "scene": 2,
+   "t": 71.418,
+   "local": 34.97,
+   "dur": 3.821,
+   "trim": 0.126
+  },
+  {
+   "id": "s03_01",
+   "text": "For much of the twentieth century, Kodak was one of the most recognizable names in photography.",
+   "scene": 3,
+   "t": 76.94,
+   "local": 0.6,
+   "dur": 5.144,
+   "trim": 0.216
+  },
+  {
+   "id": "s03_02",
+   "text": "Its products helped millions of people capture birthdays, weddings, holidays and ordinary moments.",
+   "scene": 3,
+   "t": 82.534,
+   "local": 6.194,
+   "dur": 6.745,
+   "trim": 0.181
+  },
+  {
+   "id": "s03_03",
+   "text": "The company made cameras, photographic film, paper and processing equipment.",
+   "scene": 3,
+   "t": 89.729,
+   "local": 13.389,
+   "dur": 4.896,
+   "trim": 0.183
+  },
+  {
+   "id": "s03_04",
+   "text": "And its famous yellow packaging became part of everyday life.",
+   "scene": 3,
+   "t": 95.075,
+   "local": 18.735,
+   "dur": 3.865,
+   "trim": 0.142
+  },
+  {
+   "id": "s03_05",
+   "text": "But Kodak's success wasn't simply about making cameras.",
+   "scene": 3,
+   "t": 99.39,
+   "local": 23.05,
+   "dur": 3.643,
+   "trim": 0.193
+  },
+  {
+   "id": "s03_06",
+   "text": "Its real strength was the enormous commercial system surrounding every photograph.",
+   "scene": 3,
+   "t": 103.482,
+   "local": 27.142,
+   "dur": 5.599,
+   "trim": 0.187
+  },
+  {
+   "id": "s03_07",
+   "text": "A system that encouraged customers to keep buying.",
+   "scene": 3,
+   "t": 109.532,
+   "local": 33.192,
+   "dur": 2.962,
+   "trim": 0.208
+  },
+  {
+   "id": "s04_01",
+   "text": "Consider the economics of traditional photography.",
+   "scene": 4,
+   "t": 114.194,
+   "local": 0.6,
+   "dur": 2.851,
+   "trim": 0.181
+  },
+  {
+   "id": "s04_02",
+   "text": "A customer bought a camera.",
+   "scene": 4,
+   "t": 117.495,
+   "local": 3.901,
+   "dur": 2.008,
+   "trim": 0.392
+  },
+  {
+   "id": "s04_03",
+   "text": "Then they bought film.",
+   "scene": 4,
+   "t": 119.953,
+   "local": 6.359,
+   "dur": 1.482,
+   "trim": 0.159
+  },
+  {
+   "id": "s04_04",
+   "text": "After taking photographs, they paid to have that film developed and printed.",
+   "scene": 4,
+   "t": 121.885,
+   "local": 8.291,
+   "dur": 4.732,
+   "trim": 0.236
+  },
+  {
+   "id": "s04_05",
+   "text": "Then they bought more film.",
+   "scene": 4,
+   "t": 127.067,
+   "local": 13.473,
+   "dur": 1.603,
+   "trim": 0.087
+  },
+  {
+   "id": "s04_06",
+   "text": "For Kodak, photography created recurring demand for products and services long after the original camera purchase.",
+   "scene": 4,
+   "t": 129.12,
+   "local": 15.526,
+   "dur": 7.683,
+   "trim": 0.205
+  },
+  {
+   "id": "s04_07",
+   "text": "This was an extraordinarily attractive business structure.",
+   "scene": 4,
+   "t": 137.253,
+   "local": 23.659,
+   "dur": 3.592,
+   "trim": 0.199
+  },
+  {
+   "id": "s04_08",
+   "text": "But it depended on something fundamental.",
+   "scene": 4,
+   "t": 141.295,
+   "local": 27.701,
+   "dur": 2.246,
+   "trim": 0.159
+  },
+  {
+   "id": "s04_09",
+   "text": "People had to keep using physical film.",
+   "scene": 4,
+   "t": 143.991,
+   "local": 30.397,
+   "dur": 2.556,
+   "trim": 0.148
+  },
+  {
+   "id": "s04_10",
+   "text": "And digital photography threatened to remove that requirement entirely.",
+   "scene": 4,
+   "t": 146.997,
+   "local": 33.403,
+   "dur": 4.682,
+   "trim": 0.006
+  },
+  {
+   "id": "s05_01",
+   "text": "Sasson's prototype demonstrated that a photograph could become electronic information.",
+   "scene": 5,
+   "t": 153.379,
+   "local": 0.6,
+   "dur": 5.58,
+   "trim": 0.178
+  },
+  {
+   "id": "s05_02",
+   "text": "No chemical development.",
+   "scene": 5,
+   "t": 159.409,
+   "local": 6.63,
+   "dur": 1.777,
+   "trim": 0.096
+  },
+  {
+   "id": "s05_03",
+   "text": "No conventional film negative.",
+   "scene": 5,
+   "t": 161.636,
+   "local": 8.857,
+   "dur": 2.175,
+   "trim": 0.093
+  },
+  {
+   "id": "s05_04",
+   "text": "No physical print required to see the image.",
+   "scene": 5,
+   "t": 164.261,
+   "local": 11.482,
+   "dur": 3.064,
+   "trim": 0.2
+  },
+  {
+   "id": "s05_05",
+   "text": "But the technology was far from ready for mass adoption.",
+   "scene": 5,
+   "t": 167.774,
+   "local": 14.996,
+   "dur": 3.362,
+   "trim": 0.141
+  },
+  {
+   "id": "s05_06",
+   "text": "The camera was bulky, image quality was limited, and storing photographs was slow.",
+   "scene": 5,
+   "t": 171.586,
+   "local": 18.807,
+   "dur": 5.184,
+   "trim": 0.343
+  },
+  {
+   "id": "s05_07",
+   "text": "Kodak had time to respond.",
+   "scene": 5,
+   "t": 177.22,
+   "local": 24.441,
+   "dur": 1.832,
+   "trim": 0.18
+  },
+  {
+   "id": "s05_08",
+   "text": "And over the following decades, the company continued developing digital imaging technology.",
+   "scene": 5,
+   "t": 179.503,
+   "local": 26.724,
+   "dur": 5.647,
+   "trim": 0.006
+  },
+  {
+   "id": "s05_09",
+   "text": "The challenge wasn't simply recognizing what might become possible.",
+   "scene": 5,
+   "t": 185.599,
+   "local": 32.82,
+   "dur": 3.757,
+   "trim": 0.125
+  },
+  {
+   "id": "s05_10",
+   "text": "It was understanding what would happen to Kodak's business when that possibility became normal.",
+   "scene": 5,
+   "t": 189.807,
+   "local": 37.028,
+   "dur": 6.064,
+   "trim": 0.157
+  },
+  {
+   "id": "s06_01",
+   "text": "Imagine running a company whose most valuable business depends on customers buying something repeatedly.",
+   "scene": 6,
+   "t": 197.571,
+   "local": 0.6,
+   "dur": 6.271,
+   "trim": 0.224
+  },
+  {
+   "id": "s06_02",
+   "text": "Now imagine developing a technology that allows those customers to stop buying it.",
+   "scene": 6,
+   "t": 204.292,
+   "local": 7.321,
+   "dur": 4.958,
+   "trim": 0.173
+  },
+  {
+   "id": "s06_03",
+   "text": "That was Kodak's strategic dilemma.",
+   "scene": 6,
+   "t": 209.7,
+   "local": 12.729,
+   "dur": 2.252,
+   "trim": 0.439
+  },
+  {
+   "id": "s06_04",
+   "text": "Digital photography offered enormous possibilities.",
+   "scene": 6,
+   "t": 212.402,
+   "local": 15.431,
+   "dur": 3.378,
+   "trim": 0.096
+  },
+  {
+   "id": "s06_05",
+   "text": "But it also threatened the recurring economics of film, processing and printing.",
+   "scene": 6,
+   "t": 216.23,
+   "local": 19.259,
+   "dur": 5.144,
+   "trim": 0.18
+  },
+  {
+   "id": "s06_06",
+   "text": "The company needed to develop a new business while its established business remained valuable.",
+   "scene": 6,
+   "t": 221.823,
+   "local": 24.852,
+   "dur": 5.439,
+   "trim": 0.2
+  },
+  {
+   "id": "s06_07",
+   "text": "And the new technology didn't automatically offer the same profitability.",
+   "scene": 6,
+   "t": 227.712,
+   "local": 30.741,
+   "dur": 4.521,
+   "trim": 0.171
+  },
+  {
+   "id": "s06_08",
+   "text": "Kodak had to manage two very different economic worlds at once.",
+   "scene": 6,
+   "t": 232.683,
+   "local": 35.712,
+   "dur": 4.29,
+   "trim": 0.214
+  },
+  {
+   "id": "s07_01",
+   "text": "Here's the part of the story that often gets overlooked.",
+   "scene": 7,
+   "t": 238.673,
+   "local": 0.6,
+   "dur": 3.314,
+   "trim": 0.153
+  },
+  {
+   "id": "s07_02",
+   "text": "Kodak did not abandon digital photography.",
+   "scene": 7,
+   "t": 242.437,
+   "local": 4.364,
+   "dur": 2.637,
+   "trim": 0.097
+  },
+  {
+   "id": "s07_03",
+   "text": "In 1991, it introduced a professional digital camera system.",
+   "scene": 7,
+   "say": "In nineteen ninety-one, it introduced a professional digital camera system.",
+   "t": 245.524,
+   "local": 7.451,
+   "dur": 5.1,
+   "trim": 0.193
+  },
+  {
+   "id": "s07_04",
+   "text": "In 1995, it launched the DC40 consumer digital camera.",
+   "scene": 7,
+   "say": "In nineteen ninety-five, it launched the D C forty consumer digital camera.",
+   "t": 251.073,
+   "local": 13.0,
+   "dur": 5.442,
+   "trim": 0.197
+  },
+  {
+   "id": "s07_05",
+   "text": "And in 2001, it introduced the EasyShare system, designed to make digital photography easier for ordinary customers.",
+   "scene": 7,
+   "say": "And in two thousand one, it introduced the Easy Share system, designed to make digital photography easier for ordinary customers.",
+   "t": 256.965,
+   "local": 18.892,
+   "dur": 9.167,
+   "trim": 0.186
+  },
+  {
+   "id": "s07_06",
+   "text": "These were real products, backed by engineering and investment.",
+   "scene": 7,
+   "t": 266.582,
+   "local": 28.509,
+   "dur": 4.04,
+   "trim": 0.188
+  },
+  {
+   "id": "s07_07",
+   "text": "So the story isn't that Kodak refused to enter the digital market.",
+   "scene": 7,
+   "t": 271.073,
+   "local": 33.0,
+   "dur": 4.202,
+   "trim": 0.164
+  },
+  {
+   "id": "s07_08",
+   "text": "The story is that entering a market and building a profitable position within it are two very different achievements.",
+   "scene": 7,
+   "t": 275.724,
+   "local": 37.651,
+   "dur": 7.357,
+   "trim": 0.215
+  },
+  {
+   "id": "s08_01",
+   "text": "Kodak understood that consumers wanted simpler ways to take, store, share and print photographs.",
+   "scene": 8,
+   "t": 284.781,
+   "local": 0.6,
+   "dur": 6.471,
+   "trim": 0.178
+  },
+  {
+   "id": "s08_02",
+   "text": "Its EasyShare cameras and docking systems were designed around that experience.",
+   "scene": 8,
+   "say": "Its Easy Share cameras and docking systems were designed around that experience.",
+   "t": 291.702,
+   "local": 7.521,
+   "dur": 5.799,
+   "trim": 0.21
+  },
+  {
+   "id": "s08_03",
+   "text": "The company also invested in digital printing and imaging technologies.",
+   "scene": 8,
+   "t": 297.951,
+   "local": 13.77,
+   "dur": 4.509,
+   "trim": 0.411
+  },
+  {
+   "id": "s08_04",
+   "text": "But digital cameras were becoming increasingly competitive.",
+   "scene": 8,
+   "t": 302.91,
+   "local": 18.729,
+   "dur": 3.523,
+   "trim": 0.167
+  },
+  {
+   "id": "s08_05",
+   "text": "Hardware prices faced pressure.",
+   "scene": 8,
+   "t": 306.883,
+   "local": 22.702,
+   "dur": 2.062,
+   "trim": 0.199
+  },
+  {
+   "id": "s08_06",
+   "text": "Technology improved quickly.",
+   "scene": 8,
+   "t": 309.395,
+   "local": 25.214,
+   "dur": 1.892,
+   "trim": 0.138
+  },
+  {
+   "id": "s08_07",
+   "text": "And customers gained more choices.",
+   "scene": 8,
+   "t": 311.737,
+   "local": 27.556,
+   "dur": 2.125,
+   "trim": 0.091
+  },
+  {
+   "id": "s08_08",
+   "text": "Kodak could participate in the transition without controlling the economics of the new industry.",
+   "scene": 8,
+   "t": 314.312,
+   "local": 30.131,
+   "dur": 5.756,
+   "trim": 0.217
+  },
+  {
+   "id": "s08_09",
+   "text": "The company that had dominated the film ecosystem was now competing in a very different market.",
+   "scene": 8,
+   "t": 320.518,
+   "local": 36.337,
+   "dur": 6.01,
+   "trim": 0.186
+  },
+  {
+   "id": "s09_01",
+   "text": "Digital photography changed more than the camera.",
+   "scene": 9,
+   "t": 328.228,
+   "local": 0.6,
+   "dur": 2.929,
+   "trim": 0.442
+  },
+  {
+   "id": "s09_02",
+   "text": "It changed what happened after someone pressed the shutter.",
+   "scene": 9,
+   "t": 331.607,
+   "local": 3.979,
+   "dur": 3.297,
+   "trim": 0.227
+  },
+  {
+   "id": "s09_03",
+   "text": "Photographs could be stored on computers, shared electronically and viewed without printing.",
+   "scene": 9,
+   "t": 335.354,
+   "local": 7.726,
+   "dur": 5.556,
+   "trim": 0.236
+  },
+  {
+   "id": "s09_04",
+   "text": "That weakened the relationship between taking pictures and buying film, chemicals or paper.",
+   "scene": 9,
+   "t": 341.36,
+   "local": 13.732,
+   "dur": 5.74,
+   "trim": 0.192
+  },
+  {
+   "id": "s09_05",
+   "text": "And as digital imaging spread, the traditional photographic supply chain came under pressure.",
+   "scene": 9,
+   "t": 347.55,
+   "local": 19.922,
+   "dur": 5.796,
+   "trim": 0.154
+  },
+  {
+   "id": "s09_06",
+   "text": "Kodak's challenge was not simply to sell a different kind of camera.",
+   "scene": 9,
+   "t": 353.796,
+   "local": 26.168,
+   "dur": 3.923,
+   "trim": 0.216
+  },
+  {
+   "id": "s09_07",
+   "text": "It was to replace an entire economic system that had supported the company for generations.",
+   "scene": 9,
+   "t": 358.169,
+   "local": 30.541,
+   "dur": 6.061,
+   "trim": 0.22
+  },
+  {
+   "id": "s10_01",
+   "text": "This is where technological leadership and business success begin to separate.",
+   "scene": 10,
+   "t": 365.93,
+   "local": 0.6,
+   "dur": 5.209,
+   "trim": 0.242
+  },
+  {
+   "id": "s10_02",
+   "text": "A company can invent important technology and still struggle to earn attractive returns from it.",
+   "scene": 10,
+   "t": 371.589,
+   "local": 6.259,
+   "dur": 5.743,
+   "trim": 0.221
+  },
+  {
+   "id": "s10_03",
+   "text": "Kodak had expertise, patents and a globally recognized brand.",
+   "scene": 10,
+   "t": 377.782,
+   "local": 12.452,
+   "dur": 4.176,
+   "trim": 0.198
+  },
+  {
+   "id": "s10_04",
+   "text": "But digital imaging demanded different capabilities, different investments and different sources of profit.",
+   "scene": 10,
+   "t": 382.408,
+   "local": 17.078,
+   "dur": 6.403,
+   "trim": 0.119
+  },
+  {
+   "id": "s10_05",
+   "text": "Meanwhile, the old film business was declining.",
+   "scene": 10,
+   "t": 389.26,
+   "local": 23.93,
+   "dur": 2.92,
+   "trim": 0.201
+  },
+  {
+   "id": "s10_06",
+   "text": "The transition required Kodak to fund new opportunities while managing the deterioration of established ones.",
+   "scene": 10,
+   "t": 392.63,
+   "local": 27.3,
+   "dur": 7.586,
+   "trim": 0.206
+  },
+  {
+   "id": "s10_07",
+   "text": "And eventually, the financial pressure became impossible to ignore.",
+   "scene": 10,
+   "t": 400.666,
+   "local": 35.336,
+   "dur": 4.615,
+   "trim": 0.007
+  },
+  {
+   "id": "s11_01",
+   "text": "By 2011, Kodak's financial statements showed a company under severe strain.",
+   "scene": 11,
+   "say": "By twenty eleven, Kodak's financial statements showed a company under severe strain.",
+   "t": 406.981,
+   "local": 0.6,
+   "dur": 5.314,
+   "trim": 0.198
+  },
+  {
+   "id": "s11_02",
+   "text": "Annual revenue had fallen to approximately six billion dollars, down from roughly seven point two billion the previous year.",
+   "scene": 11,
+   "t": 412.746,
+   "local": 6.364,
+   "dur": 7.678,
+   "trim": 0.193
+  },
+  {
+   "id": "s11_03",
+   "text": "The company reported a substantial net loss.",
+   "scene": 11,
+   "t": 420.874,
+   "local": 14.493,
+   "dur": 2.93,
+   "trim": 0.208
+  },
+  {
+   "id": "s11_04",
+   "text": "Its filings described declining traditional-product volumes, competitive pressure in digital cameras and rising material costs.",
+   "scene": 11,
+   "t": 424.253,
+   "local": 17.872,
+   "dur": 8.885,
+   "trim": 0.172
+  },
+  {
+   "id": "s11_05",
+   "text": "This wasn't one product failing.",
+   "scene": 11,
+   "t": 433.588,
+   "local": 27.207,
+   "dur": 1.861,
+   "trim": 0.186
+  },
+  {
+   "id": "s11_06",
+   "text": "It was a business trying to finance a transformation while its historical sources of revenue weakened.",
+   "scene": 11,
+   "t": 435.899,
+   "local": 29.518,
+   "dur": 6.36,
+   "trim": 0.225
+  },
+  {
+   "id": "s11_07",
+   "text": "The numbers revealed how difficult that transformation had become.",
+   "scene": 11,
+   "t": 442.71,
+   "local": 36.328,
+   "dur": 3.946,
+   "trim": 0.124
+  },
+  {
+   "id": "s12_01",
+   "text": "On January nineteenth, 2012, Kodak and certain United States subsidiaries filed for Chapter Eleven bankruptcy protection.",
+   "scene": 12,
+   "say": "On January nineteenth, twenty twelve, Kodak and certain United States subsidiaries filed for Chapter Eleven bankruptcy protection.",
+   "t": 448.356,
+   "local": 0.6,
+   "dur": 8.141,
+   "trim": 0.173
+  },
+  {
+   "id": "s12_02",
+   "text": "The filing was not the disappearance of the company.",
+   "scene": 12,
+   "t": 456.947,
+   "local": 9.191,
+   "dur": 2.922,
+   "trim": 0.208
+  },
+  {
+   "id": "s12_03",
+   "text": "It was a legal restructuring process.",
+   "scene": 12,
+   "t": 460.319,
+   "local": 12.563,
+   "dur": 2.345,
+   "trim": 0.224
+  },
+  {
+   "id": "s12_04",
+   "text": "Kodak continued operating while attempting to reorganize its obligations and focus its remaining businesses.",
+   "scene": 12,
+   "t": 463.114,
+   "local": 15.358,
+   "dur": 6.672,
+   "trim": 0.221
+  },
+  {
+   "id": "s12_05",
+   "text": "But the symbolic impact was enormous.",
+   "scene": 12,
+   "t": 470.236,
+   "local": 22.48,
+   "dur": 2.584,
+   "trim": 0.196
+  },
+  {
+   "id": "s12_06",
+   "text": "A name that had once represented the future of photography was now restructuring in the middle of the digital age.",
+   "scene": 12,
+   "t": 473.27,
+   "local": 25.514,
+   "dur": 6.776,
+   "trim": 0.212
+  },
+  {
+   "id": "s12_07",
+   "text": "The company had helped create a technological revolution.",
+   "scene": 12,
+   "t": 480.496,
+   "local": 32.74,
+   "dur": 3.525,
+   "trim": 0.137
+  },
+  {
+   "id": "s12_08",
+   "text": "It had not successfully transformed its original business around it.",
+   "scene": 12,
+   "t": 484.471,
+   "local": 36.715,
+   "dur": 3.973,
+   "trim": 0.157
+  },
+  {
+   "id": "s13_01",
+   "text": "During restructuring, Kodak made difficult decisions about what would remain.",
+   "scene": 13,
+   "t": 490.144,
+   "local": 0.6,
+   "dur": 4.919,
+   "trim": 0.16
+  },
+  {
+   "id": "s13_02",
+   "text": "It moved away from much of its consumer digital-camera business.",
+   "scene": 13,
+   "t": 495.513,
+   "local": 5.969,
+   "dur": 3.69,
+   "trim": 0.224
+  },
+  {
+   "id": "s13_03",
+   "text": "It sold assets associated with online photo services and other operations.",
+   "scene": 13,
+   "t": 499.654,
+   "local": 10.11,
+   "dur": 5.243,
+   "trim": 0.184
+  },
+  {
+   "id": "s13_04",
+   "text": "It also reached agreements to sell digital imaging patents.",
+   "scene": 13,
+   "t": 505.347,
+   "local": 15.803,
+   "dur": 3.627,
+   "trim": 0.373
+  },
+  {
+   "id": "s13_05",
+   "text": "The company increasingly concentrated on commercial printing, packaging and imaging technologies.",
+   "scene": 13,
+   "t": 509.423,
+   "local": 19.879,
+   "dur": 5.994,
+   "trim": 0.219
+  },
+  {
+   "id": "s13_06",
+   "text": "These decisions reflected a different future from the consumer photography empire Kodak had once built.",
+   "scene": 13,
+   "t": 515.867,
+   "local": 26.323,
+   "dur": 6.364,
+   "trim": 0.135
+  },
+  {
+   "id": "s13_07",
+   "text": "The brand was still recognizable.",
+   "scene": 13,
+   "t": 522.681,
+   "local": 33.137,
+   "dur": 2.338,
+   "trim": 0.175
+  },
+  {
+   "id": "s13_08",
+   "text": "But the company behind it was changing.",
+   "scene": 13,
+   "t": 525.469,
+   "local": 35.925,
+   "dur": 2.113,
+   "trim": 0.184
+  },
+  {
+   "id": "s14_01",
+   "text": "On September third, 2013, Kodak emerged from Chapter Eleven as a reorganized company focused primarily on business imaging.",
+   "scene": 14,
+   "say": "On September third, twenty thirteen, Kodak emerged from Chapter Eleven as a reorganized company focused primarily on business imaging.",
+   "t": 529.282,
+   "local": 0.6,
+   "dur": 9.909,
+   "trim": 0.215
+  },
+  {
+   "id": "s14_02",
+   "text": "Kodak had not vanished.",
+   "scene": 14,
+   "t": 539.641,
+   "local": 10.959,
+   "dur": 1.732,
+   "trim": 0.114
+  },
+  {
+   "id": "s14_03",
+   "text": "It continued operating in commercial printing, film and related technologies.",
+   "scene": 14,
+   "t": 541.823,
+   "local": 13.141,
+   "dur": 4.844,
+   "trim": 0.225
+  },
+  {
+   "id": "s14_04",
+   "text": "Some consumer imaging activities and brand relationships continued through separate businesses and licensing arrangements.",
+   "scene": 14,
+   "t": 547.117,
+   "local": 18.435,
+   "dur": 7.846,
+   "trim": 0.187
+  },
+  {
+   "id": "s14_05",
+   "text": "The important distinction is that Kodak's bankruptcy did not mean photography itself had disappeared.",
+   "scene": 14,
+   "t": 555.414,
+   "local": 26.732,
+   "dur": 6.298,
+   "trim": 0.03
+  },
+  {
+   "id": "s14_06",
+   "text": "People were taking more digital photographs than ever.",
+   "scene": 14,
+   "t": 562.162,
+   "local": 33.48,
+   "dur": 3.366,
+   "trim": 0.126
+  },
+  {
+   "id": "s14_07",
+   "text": "What had changed was the economic structure of the industry, and Kodak's position within it.",
+   "scene": 14,
+   "t": 565.978,
+   "local": 37.296,
+   "dur": 5.279,
+   "trim": 0.227
+  },
+  {
+   "id": "s15_01",
+   "text": "So was Kodak's mistake inventing a technology that threatened its own business?",
+   "scene": 15,
+   "t": 572.958,
+   "local": 0.6,
+   "dur": 5.194,
+   "trim": 0.219
+  },
+  {
+   "id": "s15_02",
+   "text": "No.",
+   "scene": 15,
+   "t": 578.602,
+   "local": 6.244,
+   "dur": 0.547,
+   "trim": 0.064
+  },
+  {
+   "id": "s15_03",
+   "text": "Innovation wasn't the mistake.",
+   "scene": 15,
+   "t": 579.599,
+   "local": 7.241,
+   "dur": 2.154,
+   "trim": 0.147
+  },
+  {
+   "id": "s15_04",
+   "text": "The deeper failure was the inability to build a sufficiently strong and sustainable business as the market moved away from film.",
+   "scene": 15,
+   "t": 582.203,
+   "local": 9.845,
+   "dur": 7.529,
+   "trim": 0.418
+  },
+  {
+   "id": "s15_05",
+   "text": "Kodak recognized digital imaging.",
+   "scene": 15,
+   "t": 590.182,
+   "local": 17.824,
+   "dur": 2.679,
+   "trim": 0.103
+  },
+  {
+   "id": "s15_06",
+   "text": "It developed products.",
+   "scene": 15,
+   "t": 593.311,
+   "local": 20.953,
+   "dur": 1.478,
+   "trim": 0.189
+  },
+  {
+   "id": "s15_07",
+   "text": "It invested in technology.",
+   "scene": 15,
+   "t": 595.238,
+   "local": 22.88,
+   "dur": 2.092,
+   "trim": 0.144
+  },
+  {
+   "id": "s15_08",
+   "text": "But its historic advantages didn't translate automatically into the new industry.",
+   "scene": 15,
+   "t": 597.78,
+   "local": 25.422,
+   "dur": 5.263,
+   "trim": 0.217
+  },
+  {
+   "id": "s15_09",
+   "text": "That is the danger of disruption.",
+   "scene": 15,
+   "t": 603.494,
+   "local": 31.136,
+   "dur": 2.041,
+   "trim": 0.051
+  },
+  {
+   "id": "s15_10",
+   "text": "A company can understand where technology is going without successfully changing how it makes money.",
+   "scene": 15,
+   "t": 605.985,
+   "local": 33.627,
+   "dur": 6.025,
+   "trim": 0.19
+  },
+  {
+   "id": "s16_01",
+   "text": "Kodak's story isn't simply about a company that ignored the future.",
+   "scene": 16,
+   "t": 613.71,
+   "local": 0.6,
+   "dur": 4.38,
+   "trim": 0.14
+  },
+  {
+   "id": "s16_02",
+   "text": "It's about a company that helped create the future, participated in it, and still struggled to survive the economic transition.",
+   "scene": 16,
+   "t": 618.54,
+   "local": 5.43,
+   "dur": 7.634,
+   "trim": 0.232
+  },
+  {
+   "id": "s16_03",
+   "text": "Its old business model was extraordinarily successful.",
+   "scene": 16,
+   "t": 626.624,
+   "local": 13.514,
+   "dur": 3.477,
+   "trim": 0.121
+  },
+  {
+   "id": "s16_04",
+   "text": "Its new businesses couldn't replace that success quickly enough.",
+   "scene": 16,
+   "t": 630.551,
+   "local": 17.441,
+   "dur": 3.664,
+   "trim": 0.361
+  },
+  {
+   "id": "s16_05",
+   "text": "And that is the final lesson.",
+   "scene": 16,
+   "t": 634.665,
+   "local": 21.555,
+   "dur": 1.919,
+   "trim": 0.128
+  },
+  {
+   "id": "s16_06",
+   "text": "Inventing the next generation of technology does not guarantee that you'll own the next generation of business.",
+   "scene": 16,
+   "t": 637.034,
+   "local": 23.924,
+   "dur": 6.111,
+   "trim": 0.189
+  },
+  {
+   "id": "s16_07",
+   "text": "Sometimes the greatest threat to an empire isn't a competitor.",
+   "scene": 16,
+   "t": 643.595,
+   "local": 30.485,
+   "dur": 4.193,
+   "trim": 0.194
+  },
+  {
+   "id": "s16_08",
+   "text": "It's the disappearance of the economics that built it.",
+   "scene": 16,
+   "t": 648.239,
+   "local": 35.129,
+   "dur": 2.886,
+   "trim": 0.191
+  },
+  {
+   "id": "s16_09",
+   "text": "Every brand leaves evidence.",
+   "scene": 16,
+   "t": 651.575,
+   "local": 38.465,
+   "dur": 2.322,
+   "trim": 0.179
+  }
+ ]
+}

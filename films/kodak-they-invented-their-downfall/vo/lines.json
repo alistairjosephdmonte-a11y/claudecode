@@ -1,0 +1,667 @@
+[
+ {
+  "id": "s01_01",
+  "text": "1975. Inside a Kodak laboratory in Rochester, New York, an engineer named Steven Sasson was building something extraordinary.",
+  "scene": 1,
+  "say": "Nineteen seventy-five. Inside a Kodak laboratory in Rochester, New York, an engineer named Steven Sasson was building something extraordinary."
+ },
+ {
+  "id": "s01_02",
+  "text": "It weighed about eight pounds. It captured black-and-white images. And it recorded them onto magnetic tape.",
+  "scene": 1,
+  "say": "It weighed about eight pounds. It captured black and white images. And it recorded them onto magnetic tape."
+ },
+ {
+  "id": "s01_03",
+  "text": "The resolution? Just ten thousand pixels.",
+  "scene": 1
+ },
+ {
+  "id": "s01_04",
+  "text": "By modern standards, it was primitive.",
+  "scene": 1
+ },
+ {
+  "id": "s01_05",
+  "text": "But the principle was revolutionary.",
+  "scene": 1
+ },
+ {
+  "id": "s01_06",
+  "text": "A camera that could take photographs without photographic film.",
+  "scene": 1
+ },
+ {
+  "id": "s01_07",
+  "text": "And the company behind it was Kodak.",
+  "scene": 1
+ },
+ {
+  "id": "s02_01",
+  "text": "Thirty-seven years later, on January nineteenth, 2012, Eastman Kodak filed for Chapter Eleven bankruptcy protection.",
+  "scene": 2,
+  "say": "Thirty seven years later, on January nineteenth, twenty twelve, Eastman Kodak filed for Chapter Eleven bankruptcy protection."
+ },
+ {
+  "id": "s02_02",
+  "text": "The company that helped pioneer digital photography had failed to build a sustainable business through the industry's transformation.",
+  "scene": 2
+ },
+ {
+  "id": "s02_03",
+  "text": "The popular explanation is simple.",
+  "scene": 2
+ },
+ {
+  "id": "s02_04",
+  "text": "Kodak invented the digital camera, ignored it, and paid the price.",
+  "scene": 2
+ },
+ {
+  "id": "s02_05",
+  "text": "But that isn't quite what happened.",
+  "scene": 2
+ },
+ {
+  "id": "s02_06",
+  "text": "Kodak didn't simply ignore digital photography.",
+  "scene": 2
+ },
+ {
+  "id": "s02_07",
+  "text": "It invested in it.",
+  "scene": 2
+ },
+ {
+  "id": "s02_08",
+  "text": "Which makes the real question far more interesting.",
+  "scene": 2
+ },
+ {
+  "id": "s02_09",
+  "text": "How did Kodak see the future and still lose its position in it?",
+  "scene": 2
+ },
+ {
+  "id": "s03_01",
+  "text": "For much of the twentieth century, Kodak was one of the most recognizable names in photography.",
+  "scene": 3
+ },
+ {
+  "id": "s03_02",
+  "text": "Its products helped millions of people capture birthdays, weddings, holidays and ordinary moments.",
+  "scene": 3
+ },
+ {
+  "id": "s03_03",
+  "text": "The company made cameras, photographic film, paper and processing equipment.",
+  "scene": 3
+ },
+ {
+  "id": "s03_04",
+  "text": "And its famous yellow packaging became part of everyday life.",
+  "scene": 3
+ },
+ {
+  "id": "s03_05",
+  "text": "But Kodak's success wasn't simply about making cameras.",
+  "scene": 3
+ },
+ {
+  "id": "s03_06",
+  "text": "Its real strength was the enormous commercial system surrounding every photograph.",
+  "scene": 3
+ },
+ {
+  "id": "s03_07",
+  "text": "A system that encouraged customers to keep buying.",
+  "scene": 3
+ },
+ {
+  "id": "s04_01",
+  "text": "Consider the economics of traditional photography.",
+  "scene": 4
+ },
+ {
+  "id": "s04_02",
+  "text": "A customer bought a camera.",
+  "scene": 4
+ },
+ {
+  "id": "s04_03",
+  "text": "Then they bought film.",
+  "scene": 4
+ },
+ {
+  "id": "s04_04",
+  "text": "After taking photographs, they paid to have that film developed and printed.",
+  "scene": 4
+ },
+ {
+  "id": "s04_05",
+  "text": "Then they bought more film.",
+  "scene": 4
+ },
+ {
+  "id": "s04_06",
+  "text": "For Kodak, photography created recurring demand for products and services long after the original camera purchase.",
+  "scene": 4
+ },
+ {
+  "id": "s04_07",
+  "text": "This was an extraordinarily attractive business structure.",
+  "scene": 4
+ },
+ {
+  "id": "s04_08",
+  "text": "But it depended on something fundamental.",
+  "scene": 4
+ },
+ {
+  "id": "s04_09",
+  "text": "People had to keep using physical film.",
+  "scene": 4
+ },
+ {
+  "id": "s04_10",
+  "text": "And digital photography threatened to remove that requirement entirely.",
+  "scene": 4
+ },
+ {
+  "id": "s05_01",
+  "text": "Sasson's prototype demonstrated that a photograph could become electronic information.",
+  "scene": 5
+ },
+ {
+  "id": "s05_02",
+  "text": "No chemical development.",
+  "scene": 5
+ },
+ {
+  "id": "s05_03",
+  "text": "No conventional film negative.",
+  "scene": 5
+ },
+ {
+  "id": "s05_04",
+  "text": "No physical print required to see the image.",
+  "scene": 5
+ },
+ {
+  "id": "s05_05",
+  "text": "But the technology was far from ready for mass adoption.",
+  "scene": 5
+ },
+ {
+  "id": "s05_06",
+  "text": "The camera was bulky, image quality was limited, and storing photographs was slow.",
+  "scene": 5
+ },
+ {
+  "id": "s05_07",
+  "text": "Kodak had time to respond.",
+  "scene": 5
+ },
+ {
+  "id": "s05_08",
+  "text": "And over the following decades, the company continued developing digital imaging technology.",
+  "scene": 5
+ },
+ {
+  "id": "s05_09",
+  "text": "The challenge wasn't simply recognizing what might become possible.",
+  "scene": 5
+ },
+ {
+  "id": "s05_10",
+  "text": "It was understanding what would happen to Kodak's business when that possibility became normal.",
+  "scene": 5
+ },
+ {
+  "id": "s06_01",
+  "text": "Imagine running a company whose most valuable business depends on customers buying something repeatedly.",
+  "scene": 6
+ },
+ {
+  "id": "s06_02",
+  "text": "Now imagine developing a technology that allows those customers to stop buying it.",
+  "scene": 6
+ },
+ {
+  "id": "s06_03",
+  "text": "That was Kodak's strategic dilemma.",
+  "scene": 6
+ },
+ {
+  "id": "s06_04",
+  "text": "Digital photography offered enormous possibilities.",
+  "scene": 6
+ },
+ {
+  "id": "s06_05",
+  "text": "But it also threatened the recurring economics of film, processing and printing.",
+  "scene": 6
+ },
+ {
+  "id": "s06_06",
+  "text": "The company needed to develop a new business while its established business remained valuable.",
+  "scene": 6
+ },
+ {
+  "id": "s06_07",
+  "text": "And the new technology didn't automatically offer the same profitability.",
+  "scene": 6
+ },
+ {
+  "id": "s06_08",
+  "text": "Kodak had to manage two very different economic worlds at once.",
+  "scene": 6
+ },
+ {
+  "id": "s07_01",
+  "text": "Here's the part of the story that often gets overlooked.",
+  "scene": 7
+ },
+ {
+  "id": "s07_02",
+  "text": "Kodak did not abandon digital photography.",
+  "scene": 7
+ },
+ {
+  "id": "s07_03",
+  "text": "In 1991, it introduced a professional digital camera system.",
+  "scene": 7,
+  "say": "In nineteen ninety-one, it introduced a professional digital camera system."
+ },
+ {
+  "id": "s07_04",
+  "text": "In 1995, it launched the DC40 consumer digital camera.",
+  "scene": 7,
+  "say": "In nineteen ninety-five, it launched the D C forty consumer digital camera."
+ },
+ {
+  "id": "s07_05",
+  "text": "And in 2001, it introduced the EasyShare system, designed to make digital photography easier for ordinary customers.",
+  "scene": 7,
+  "say": "And in two thousand one, it introduced the Easy Share system, designed to make digital photography easier for ordinary customers."
+ },
+ {
+  "id": "s07_06",
+  "text": "These were real products, backed by engineering and investment.",
+  "scene": 7
+ },
+ {
+  "id": "s07_07",
+  "text": "So the story isn't that Kodak refused to enter the digital market.",
+  "scene": 7
+ },
+ {
+  "id": "s07_08",
+  "text": "The story is that entering a market and building a profitable position within it are two very different achievements.",
+  "scene": 7
+ },
+ {
+  "id": "s08_01",
+  "text": "Kodak understood that consumers wanted simpler ways to take, store, share and print photographs.",
+  "scene": 8
+ },
+ {
+  "id": "s08_02",
+  "text": "Its EasyShare cameras and docking systems were designed around that experience.",
+  "scene": 8,
+  "say": "Its Easy Share cameras and docking systems were designed around that experience."
+ },
+ {
+  "id": "s08_03",
+  "text": "The company also invested in digital printing and imaging technologies.",
+  "scene": 8
+ },
+ {
+  "id": "s08_04",
+  "text": "But digital cameras were becoming increasingly competitive.",
+  "scene": 8
+ },
+ {
+  "id": "s08_05",
+  "text": "Hardware prices faced pressure.",
+  "scene": 8
+ },
+ {
+  "id": "s08_06",
+  "text": "Technology improved quickly.",
+  "scene": 8
+ },
+ {
+  "id": "s08_07",
+  "text": "And customers gained more choices.",
+  "scene": 8
+ },
+ {
+  "id": "s08_08",
+  "text": "Kodak could participate in the transition without controlling the economics of the new industry.",
+  "scene": 8
+ },
+ {
+  "id": "s08_09",
+  "text": "The company that had dominated the film ecosystem was now competing in a very different market.",
+  "scene": 8
+ },
+ {
+  "id": "s09_01",
+  "text": "Digital photography changed more than the camera.",
+  "scene": 9
+ },
+ {
+  "id": "s09_02",
+  "text": "It changed what happened after someone pressed the shutter.",
+  "scene": 9
+ },
+ {
+  "id": "s09_03",
+  "text": "Photographs could be stored on computers, shared electronically and viewed without printing.",
+  "scene": 9
+ },
+ {
+  "id": "s09_04",
+  "text": "That weakened the relationship between taking pictures and buying film, chemicals or paper.",
+  "scene": 9
+ },
+ {
+  "id": "s09_05",
+  "text": "And as digital imaging spread, the traditional photographic supply chain came under pressure.",
+  "scene": 9
+ },
+ {
+  "id": "s09_06",
+  "text": "Kodak's challenge was not simply to sell a different kind of camera.",
+  "scene": 9
+ },
+ {
+  "id": "s09_07",
+  "text": "It was to replace an entire economic system that had supported the company for generations.",
+  "scene": 9
+ },
+ {
+  "id": "s10_01",
+  "text": "This is where technological leadership and business success begin to separate.",
+  "scene": 10
+ },
+ {
+  "id": "s10_02",
+  "text": "A company can invent important technology and still struggle to earn attractive returns from it.",
+  "scene": 10
+ },
+ {
+  "id": "s10_03",
+  "text": "Kodak had expertise, patents and a globally recognized brand.",
+  "scene": 10
+ },
+ {
+  "id": "s10_04",
+  "text": "But digital imaging demanded different capabilities, different investments and different sources of profit.",
+  "scene": 10
+ },
+ {
+  "id": "s10_05",
+  "text": "Meanwhile, the old film business was declining.",
+  "scene": 10
+ },
+ {
+  "id": "s10_06",
+  "text": "The transition required Kodak to fund new opportunities while managing the deterioration of established ones.",
+  "scene": 10
+ },
+ {
+  "id": "s10_07",
+  "text": "And eventually, the financial pressure became impossible to ignore.",
+  "scene": 10
+ },
+ {
+  "id": "s11_01",
+  "text": "By 2011, Kodak's financial statements showed a company under severe strain.",
+  "scene": 11,
+  "say": "By twenty eleven, Kodak's financial statements showed a company under severe strain."
+ },
+ {
+  "id": "s11_02",
+  "text": "Annual revenue had fallen to approximately six billion dollars, down from roughly seven point two billion the previous year.",
+  "scene": 11
+ },
+ {
+  "id": "s11_03",
+  "text": "The company reported a substantial net loss.",
+  "scene": 11
+ },
+ {
+  "id": "s11_04",
+  "text": "Its filings described declining traditional-product volumes, competitive pressure in digital cameras and rising material costs.",
+  "scene": 11
+ },
+ {
+  "id": "s11_05",
+  "text": "This wasn't one product failing.",
+  "scene": 11
+ },
+ {
+  "id": "s11_06",
+  "text": "It was a business trying to finance a transformation while its historical sources of revenue weakened.",
+  "scene": 11
+ },
+ {
+  "id": "s11_07",
+  "text": "The numbers revealed how difficult that transformation had become.",
+  "scene": 11
+ },
+ {
+  "id": "s12_01",
+  "text": "On January nineteenth, 2012, Kodak and certain United States subsidiaries filed for Chapter Eleven bankruptcy protection.",
+  "scene": 12,
+  "say": "On January nineteenth, twenty twelve, Kodak and certain United States subsidiaries filed for Chapter Eleven bankruptcy protection."
+ },
+ {
+  "id": "s12_02",
+  "text": "The filing was not the disappearance of the company.",
+  "scene": 12
+ },
+ {
+  "id": "s12_03",
+  "text": "It was a legal restructuring process.",
+  "scene": 12
+ },
+ {
+  "id": "s12_04",
+  "text": "Kodak continued operating while attempting to reorganize its obligations and focus its remaining businesses.",
+  "scene": 12
+ },
+ {
+  "id": "s12_05",
+  "text": "But the symbolic impact was enormous.",
+  "scene": 12
+ },
+ {
+  "id": "s12_06",
+  "text": "A name that had once represented the future of photography was now restructuring in the middle of the digital age.",
+  "scene": 12
+ },
+ {
+  "id": "s12_07",
+  "text": "The company had helped create a technological revolution.",
+  "scene": 12
+ },
+ {
+  "id": "s12_08",
+  "text": "It had not successfully transformed its original business around it.",
+  "scene": 12
+ },
+ {
+  "id": "s13_01",
+  "text": "During restructuring, Kodak made difficult decisions about what would remain.",
+  "scene": 13
+ },
+ {
+  "id": "s13_02",
+  "text": "It moved away from much of its consumer digital-camera business.",
+  "scene": 13
+ },
+ {
+  "id": "s13_03",
+  "text": "It sold assets associated with online photo services and other operations.",
+  "scene": 13
+ },
+ {
+  "id": "s13_04",
+  "text": "It also reached agreements to sell digital imaging patents.",
+  "scene": 13
+ },
+ {
+  "id": "s13_05",
+  "text": "The company increasingly concentrated on commercial printing, packaging and imaging technologies.",
+  "scene": 13
+ },
+ {
+  "id": "s13_06",
+  "text": "These decisions reflected a different future from the consumer photography empire Kodak had once built.",
+  "scene": 13
+ },
+ {
+  "id": "s13_07",
+  "text": "The brand was still recognizable.",
+  "scene": 13
+ },
+ {
+  "id": "s13_08",
+  "text": "But the company behind it was changing.",
+  "scene": 13
+ },
+ {
+  "id": "s14_01",
+  "text": "On September third, 2013, Kodak emerged from Chapter Eleven as a reorganized company focused primarily on business imaging.",
+  "scene": 14,
+  "say": "On September third, twenty thirteen, Kodak emerged from Chapter Eleven as a reorganized company focused primarily on business imaging."
+ },
+ {
+  "id": "s14_02",
+  "text": "Kodak had not vanished.",
+  "scene": 14
+ },
+ {
+  "id": "s14_03",
+  "text": "It continued operating in commercial printing, film and related technologies.",
+  "scene": 14
+ },
+ {
+  "id": "s14_04",
+  "text": "Some consumer imaging activities and brand relationships continued through separate businesses and licensing arrangements.",
+  "scene": 14
+ },
+ {
+  "id": "s14_05",
+  "text": "The important distinction is that Kodak's bankruptcy did not mean photography itself had disappeared.",
+  "scene": 14
+ },
+ {
+  "id": "s14_06",
+  "text": "People were taking more digital photographs than ever.",
+  "scene": 14
+ },
+ {
+  "id": "s14_07",
+  "text": "What had changed was the economic structure of the industry, and Kodak's position within it.",
+  "scene": 14
+ },
+ {
+  "id": "s15_01",
+  "text": "So was Kodak's mistake inventing a technology that threatened its own business?",
+  "scene": 15
+ },
+ {
+  "id": "s15_02",
+  "text": "No.",
+  "scene": 15
+ },
+ {
+  "id": "s15_03",
+  "text": "Innovation wasn't the mistake.",
+  "scene": 15
+ },
+ {
+  "id": "s15_04",
+  "text": "The deeper failure was the inability to build a sufficiently strong and sustainable business as the market moved away from film.",
+  "scene": 15
+ },
+ {
+  "id": "s15_05",
+  "text": "Kodak recognized digital imaging.",
+  "scene": 15
+ },
+ {
+  "id": "s15_06",
+  "text": "It developed products.",
+  "scene": 15
+ },
+ {
+  "id": "s15_07",
+  "text": "It invested in technology.",
+  "scene": 15
+ },
+ {
+  "id": "s15_08",
+  "text": "But its historic advantages didn't translate automatically into the new industry.",
+  "scene": 15
+ },
+ {
+  "id": "s15_09",
+  "text": "That is the danger of disruption.",
+  "scene": 15
+ },
+ {
+  "id": "s15_10",
+  "text": "A company can understand where technology is going without successfully changing how it makes money.",
+  "scene": 15
+ },
+ {
+  "id": "s16_01",
+  "text": "Kodak's story isn't simply about a company that ignored the future.",
+  "scene": 16
+ },
+ {
+  "id": "s16_02",
+  "text": "It's about a company that helped create the future, participated in it, and still struggled to survive the economic transition.",
+  "scene": 16
+ },
+ {
+  "id": "s16_03",
+  "text": "Its old business model was extraordinarily successful.",
+  "scene": 16
+ },
+ {
+  "id": "s16_04",
+  "text": "Its new businesses couldn't replace that success quickly enough.",
+  "scene": 16
+ },
+ {
+  "id": "s16_05",
+  "text": "And that is the final lesson.",
+  "scene": 16
+ },
+ {
+  "id": "s16_06",
+  "text": "Inventing the next generation of technology does not guarantee that you'll own the next generation of business.",
+  "scene": 16
+ },
+ {
+  "id": "s16_07",
+  "text": "Sometimes the greatest threat to an empire isn't a competitor.",
+  "scene": 16
+ },
+ {
+  "id": "s16_08",
+  "text": "It's the disappearance of the economics that built it.",
+  "scene": 16
+ },
+ {
+  "id": "s16_09",
+  "text": "Every brand leaves evidence.",
+  "scene": 16
+ }
+]

@@ -1,0 +1,785 @@
+1
+00:00:02,950 --> 00:00:09,548
+1975. Inside a Kodak laboratory in Rochester,
+New York, an engineer named Steven
+
+2
+00:00:09,588 --> 00:00:12,378
+Sasson was building
+something extraordinary.
+
+3
+00:00:12,876 --> 00:00:16,064
+It weighed about eight pounds. It
+captured black-and-white images.
+
+4
+00:00:16,104 --> 00:00:19,154
+And it recorded them onto magnetic tape.
+
+5
+00:00:19,656 --> 00:00:22,725
+The resolution? Just ten thousand pixels.
+
+6
+00:00:23,440 --> 00:00:25,866
+By modern standards, it was primitive.
+
+7
+00:00:26,455 --> 00:00:28,312
+But the principle was revolutionary.
+
+8
+00:00:28,948 --> 00:00:32,531
+A camera that could take photographs
+without photographic film.
+
+9
+00:00:32,983 --> 00:00:35,326
+And the company behind it was Kodak.
+
+10
+00:00:36,999 --> 00:00:42,706
+Thirty-seven years later, on January
+nineteenth, 2012, Eastman Kodak filed for
+
+11
+00:00:42,746 --> 00:00:45,016
+Chapter Eleven bankruptcy protection.
+
+12
+00:00:45,547 --> 00:00:49,668
+The company that helped pioneer digital
+photography had failed to build a
+
+13
+00:00:49,708 --> 00:00:52,718
+sustainable business through
+the industry's transformation.
+
+14
+00:00:53,112 --> 00:00:55,280
+The popular explanation is simple.
+
+15
+00:00:55,786 --> 00:00:59,794
+Kodak invented the digital camera,
+ignored it, and paid the price.
+
+16
+00:01:00,311 --> 00:01:02,046
+But that isn't quite what happened.
+
+17
+00:01:02,477 --> 00:01:05,428
+Kodak didn't simply ignore
+digital photography.
+
+18
+00:01:06,058 --> 00:01:07,485
+It invested in it.
+
+19
+00:01:08,046 --> 00:01:10,772
+Which makes the real question
+far more interesting.
+
+20
+00:01:11,368 --> 00:01:15,292
+How did Kodak see the future and
+still lose its position in it?
+
+21
+00:01:16,890 --> 00:01:21,174
+For much of the twentieth century, Kodak
+was one of the most recognizable names in
+
+22
+00:01:21,214 --> 00:01:22,214
+photography.
+
+23
+00:01:22,484 --> 00:01:27,943
+Its products helped millions of people
+capture birthdays, weddings, holidays and
+
+24
+00:01:27,983 --> 00:01:29,113
+ordinary moments.
+
+25
+00:01:29,679 --> 00:01:34,346
+The company made cameras, photographic
+film, paper and processing equipment.
+
+26
+00:01:35,025 --> 00:01:38,833
+And its famous yellow packaging
+became part of everyday life.
+
+27
+00:01:39,340 --> 00:01:42,877
+But Kodak's success wasn't
+simply about making cameras.
+
+28
+00:01:43,432 --> 00:01:48,955
+Its real strength was the enormous commercial
+system surrounding every photograph.
+
+29
+00:01:49,482 --> 00:01:52,464
+A system that encouraged
+customers to keep buying.
+
+30
+00:01:54,144 --> 00:01:56,773
+Consider the economics of
+traditional photography.
+
+31
+00:01:57,445 --> 00:01:59,243
+A customer bought a camera.
+
+32
+00:01:59,903 --> 00:02:01,354
+Then they bought film.
+
+33
+00:02:01,835 --> 00:02:06,489
+After taking photographs, they paid to
+have that film developed and printed.
+
+34
+00:02:07,017 --> 00:02:08,620
+Then they bought more film.
+
+35
+00:02:09,070 --> 00:02:14,985
+For Kodak, photography created recurring
+demand for products and services long after
+
+36
+00:02:15,025 --> 00:02:16,695
+the original camera purchase.
+
+37
+00:02:17,203 --> 00:02:20,814
+This was an extraordinarily
+attractive business structure.
+
+38
+00:02:21,245 --> 00:02:23,356
+But it depended on something fundamental.
+
+39
+00:02:23,941 --> 00:02:26,483
+People had to keep using physical film.
+
+40
+00:02:26,947 --> 00:02:31,491
+And digital photography threatened
+to remove that requirement entirely.
+
+41
+00:02:33,329 --> 00:02:37,551
+Sasson's prototype demonstrated that
+a photograph could become electronic
+
+42
+00:02:37,591 --> 00:02:39,301
+information.
+
+43
+00:02:39,359 --> 00:02:40,913
+No chemical development.
+
+44
+00:02:41,586 --> 00:02:43,623
+No conventional film negative.
+
+45
+00:02:44,211 --> 00:02:47,261
+No physical print required
+to see the image.
+
+46
+00:02:47,724 --> 00:02:50,953
+But the technology was far
+from ready for mass adoption.
+
+47
+00:02:51,536 --> 00:02:56,703
+The camera was bulky, image quality was
+limited, and storing photographs was slow.
+
+48
+00:02:57,170 --> 00:02:58,840
+Kodak had time to respond.
+
+49
+00:02:59,453 --> 00:03:03,947
+And over the following decades, the company
+continued developing digital imaging
+
+50
+00:03:03,987 --> 00:03:04,987
+technology.
+
+51
+00:03:05,549 --> 00:03:09,134
+The challenge wasn't simply recognizing
+what might become possible.
+
+52
+00:03:09,757 --> 00:03:14,400
+It was understanding what would happen to
+Kodak's business when that possibility
+
+53
+00:03:14,440 --> 00:03:15,870
+became normal.
+
+54
+00:03:17,521 --> 00:03:22,297
+Imagine running a company whose most valuable
+business depends on customers buying
+
+55
+00:03:22,337 --> 00:03:23,607
+something repeatedly.
+
+56
+00:03:24,242 --> 00:03:29,299
+Now imagine developing a technology that
+allows those customers to stop buying it.
+
+57
+00:03:29,650 --> 00:03:32,001
+That was Kodak's strategic dilemma.
+
+58
+00:03:32,352 --> 00:03:35,426
+Digital photography offered
+enormous possibilities.
+
+59
+00:03:36,180 --> 00:03:41,190
+But it also threatened the recurring
+economics of film, processing and printing.
+
+60
+00:03:41,773 --> 00:03:46,173
+The company needed to develop a new business
+while its established business remained
+
+61
+00:03:46,213 --> 00:03:47,283
+valuable.
+
+62
+00:03:47,662 --> 00:03:51,861
+And the new technology didn't automatically
+offer the same profitability.
+
+63
+00:03:52,633 --> 00:03:56,809
+Kodak had to manage two very
+different economic worlds at once.
+
+64
+00:03:58,623 --> 00:04:01,740
+Here's the part of the story
+that often gets overlooked.
+
+65
+00:04:02,387 --> 00:04:04,840
+Kodak did not abandon digital photography.
+
+66
+00:04:05,474 --> 00:04:10,591
+In 1991, it introduced a
+professional digital camera system.
+
+67
+00:04:11,023 --> 00:04:16,496
+In 1995, it launched the DC40
+consumer digital camera.
+
+68
+00:04:16,915 --> 00:04:22,469
+And in 2001, it introduced the EasyShare
+system, designed to make digital
+
+69
+00:04:22,509 --> 00:04:26,019
+photography easier for ordinary customers.
+
+70
+00:04:26,532 --> 00:04:30,454
+These were real products, backed
+by engineering and investment.
+
+71
+00:04:31,023 --> 00:04:35,169
+So the story isn't that Kodak
+refused to enter the digital market.
+
+72
+00:04:35,674 --> 00:04:40,719
+The story is that entering a market and
+building a profitable position within it are
+
+73
+00:04:40,759 --> 00:04:42,809
+two very different achievements.
+
+74
+00:04:44,731 --> 00:04:50,213
+Kodak understood that consumers wanted
+simpler ways to take, store, share and print
+
+75
+00:04:50,253 --> 00:04:51,253
+photographs.
+
+76
+00:04:51,652 --> 00:04:57,332
+Its EasyShare cameras and docking systems
+were designed around that experience.
+
+77
+00:04:57,901 --> 00:05:02,220
+The company also invested in digital
+printing and imaging technologies.
+
+78
+00:05:02,860 --> 00:05:06,123
+But digital cameras were becoming
+increasingly competitive.
+
+79
+00:05:06,833 --> 00:05:08,864
+Hardware prices faced pressure.
+
+80
+00:05:09,345 --> 00:05:11,197
+Technology improved quickly.
+
+81
+00:05:11,687 --> 00:05:13,646
+And customers gained more choices.
+
+82
+00:05:14,262 --> 00:05:19,105
+Kodak could participate in the transition
+without controlling the economics of the
+
+83
+00:05:19,145 --> 00:05:20,145
+new industry.
+
+84
+00:05:20,468 --> 00:05:25,362
+The company that had dominated the film
+ecosystem was now competing in a very
+
+85
+00:05:25,402 --> 00:05:26,532
+different market.
+
+86
+00:05:28,178 --> 00:05:31,146
+Digital photography changed
+more than the camera.
+
+87
+00:05:31,557 --> 00:05:34,840
+It changed what happened after
+someone pressed the shutter.
+
+88
+00:05:35,304 --> 00:05:40,088
+Photographs could be stored on computers,
+shared electronically and viewed without
+
+89
+00:05:40,128 --> 00:05:41,128
+printing.
+
+90
+00:05:41,310 --> 00:05:46,498
+That weakened the relationship between taking
+pictures and buying film, chemicals or
+
+91
+00:05:46,538 --> 00:05:47,460
+paper.
+
+92
+00:05:47,500 --> 00:05:52,586
+And as digital imaging spread, the traditional
+photographic supply chain came under
+
+93
+00:05:52,626 --> 00:05:53,626
+pressure.
+
+94
+00:05:53,746 --> 00:05:58,079
+Kodak's challenge was not simply to
+sell a different kind of camera.
+
+95
+00:05:58,119 --> 00:06:03,139
+It was to replace an entire economic
+system that had supported the company for
+
+96
+00:06:03,179 --> 00:06:04,179
+generations.
+
+97
+00:06:05,880 --> 00:06:11,008
+This is where technological leadership
+and business success begin to separate.
+
+98
+00:06:11,539 --> 00:06:16,258
+A company can invent important technology
+and still struggle to earn attractive
+
+99
+00:06:16,298 --> 00:06:17,692
+returns from it.
+
+100
+00:06:17,732 --> 00:06:21,904
+Kodak had expertise, patents and
+a globally recognized brand.
+
+101
+00:06:22,358 --> 00:06:27,059
+But digital imaging demanded different
+capabilities, different investments and
+
+102
+00:06:27,099 --> 00:06:28,789
+different sources of profit.
+
+103
+00:06:29,210 --> 00:06:31,979
+Meanwhile, the old film
+business was declining.
+
+104
+00:06:32,580 --> 00:06:37,794
+The transition required Kodak to fund
+new opportunities while managing the
+
+105
+00:06:37,834 --> 00:06:40,084
+deterioration of established ones.
+
+106
+00:06:40,616 --> 00:06:45,099
+And eventually, the financial
+pressure became impossible to ignore.
+
+107
+00:06:46,931 --> 00:06:52,283
+By 2011, Kodak's financial statements
+showed a company under severe strain.
+
+108
+00:06:52,696 --> 00:06:57,403
+Annual revenue had fallen to approximately
+six billion dollars, down from roughly
+
+109
+00:06:57,443 --> 00:07:00,433
+seven point two billion the previous year.
+
+110
+00:07:00,824 --> 00:07:03,606
+The company reported a
+substantial net loss.
+
+111
+00:07:04,203 --> 00:07:09,211
+Its filings described declining traditional-product
+volumes, competitive pressure in
+
+112
+00:07:09,251 --> 00:07:12,961
+digital cameras and rising material costs.
+
+113
+00:07:13,538 --> 00:07:15,442
+This wasn't one product failing.
+
+114
+00:07:15,849 --> 00:07:21,044
+It was a business trying to finance a
+transformation while its historical sources of
+
+115
+00:07:21,084 --> 00:07:22,614
+revenue weakened.
+
+116
+00:07:22,660 --> 00:07:26,626
+The numbers revealed how difficult
+that transformation had become.
+
+117
+00:07:28,306 --> 00:07:34,313
+On January nineteenth, 2012, Kodak and
+certain United States subsidiaries filed for
+
+118
+00:07:34,353 --> 00:07:36,403
+Chapter Eleven bankruptcy protection.
+
+119
+00:07:36,897 --> 00:07:39,839
+The filing was not the
+disappearance of the company.
+
+120
+00:07:40,269 --> 00:07:42,495
+It was a legal restructuring process.
+
+121
+00:07:43,064 --> 00:07:48,023
+Kodak continued operating while attempting
+to reorganize its obligations and focus
+
+122
+00:07:48,063 --> 00:07:49,553
+its remaining businesses.
+
+123
+00:07:50,186 --> 00:07:52,560
+But the symbolic impact was enormous.
+
+124
+00:07:53,220 --> 00:07:58,088
+A name that had once represented the future
+of photography was now restructuring in
+
+125
+00:07:58,128 --> 00:07:59,858
+the middle of the digital age.
+
+126
+00:08:00,446 --> 00:08:03,779
+The company had helped create
+a technological revolution.
+
+127
+00:08:04,421 --> 00:08:08,514
+It had not successfully transformed
+its original business around it.
+
+128
+00:08:10,094 --> 00:08:14,884
+During restructuring, Kodak made difficult
+decisions about what would remain.
+
+129
+00:08:15,463 --> 00:08:19,029
+It moved away from much of its
+consumer digital-camera business.
+
+130
+00:08:19,604 --> 00:08:24,550
+It sold assets associated with online
+photo services and other operations.
+
+131
+00:08:25,297 --> 00:08:28,514
+It also reached agreements to
+sell digital imaging patents.
+
+132
+00:08:29,373 --> 00:08:34,214
+The company increasingly concentrated on
+commercial printing, packaging and imaging
+
+133
+00:08:34,254 --> 00:08:35,254
+technologies.
+
+134
+00:08:35,817 --> 00:08:40,622
+These decisions reflected a different
+future from the consumer photography empire
+
+135
+00:08:40,662 --> 00:08:42,212
+Kodak had once built.
+
+136
+00:08:42,631 --> 00:08:44,606
+The brand was still recognizable.
+
+137
+00:08:45,419 --> 00:08:47,485
+But the company behind it was changing.
+
+138
+00:08:49,232 --> 00:08:56,077
+On September third, 2013, Kodak emerged from
+Chapter Eleven as a reorganized company
+
+139
+00:08:56,117 --> 00:08:58,987
+focused primarily on business imaging.
+
+140
+00:08:59,591 --> 00:09:01,107
+Kodak had not vanished.
+
+141
+00:09:01,773 --> 00:09:06,418
+It continued operating in commercial
+printing, film and related technologies.
+
+142
+00:09:07,067 --> 00:09:12,200
+Some consumer imaging activities and brand
+relationships continued through separate
+
+143
+00:09:12,240 --> 00:09:14,710
+businesses and licensing arrangements.
+
+144
+00:09:15,364 --> 00:09:20,414
+The important distinction is that Kodak's
+bankruptcy did not mean photography itself
+
+145
+00:09:20,454 --> 00:09:21,504
+had disappeared.
+
+146
+00:09:22,112 --> 00:09:25,556
+People were taking more
+digital photographs than ever.
+
+147
+00:09:25,928 --> 00:09:30,421
+What had changed was the economic structure
+of the industry, and Kodak's position
+
+148
+00:09:30,461 --> 00:09:31,461
+within it.
+
+149
+00:09:32,908 --> 00:09:37,879
+So was Kodak's mistake inventing a
+technology that threatened its own business?
+
+150
+00:09:38,552 --> 00:09:39,509
+No.
+
+151
+00:09:39,549 --> 00:09:41,672
+Innovation wasn't the mistake.
+
+152
+00:09:42,153 --> 00:09:46,815
+The deeper failure was the inability to
+build a sufficiently strong and sustainable
+
+153
+00:09:46,855 --> 00:09:49,625
+business as the market
+moved away from film.
+
+154
+00:09:50,132 --> 00:09:52,599
+Kodak recognized digital imaging.
+
+155
+00:09:53,261 --> 00:09:54,482
+It developed products.
+
+156
+00:09:55,188 --> 00:09:57,134
+It invested in technology.
+
+157
+00:09:57,730 --> 00:10:02,743
+But its historic advantages didn't translate
+automatically into the new industry.
+
+158
+00:10:03,444 --> 00:10:05,323
+That is the danger of disruption.
+
+159
+00:10:05,935 --> 00:10:11,045
+A company can understand where technology
+is going without successfully changing how
+
+160
+00:10:11,085 --> 00:10:12,085
+it makes money.
+
+161
+00:10:13,660 --> 00:10:18,070
+Kodak's story isn't simply about a
+company that ignored the future.
+
+162
+00:10:18,490 --> 00:10:23,238
+It's about a company that helped create
+the future, participated in it, and still
+
+163
+00:10:23,278 --> 00:10:26,028
+struggled to survive the
+economic transition.
+
+164
+00:10:26,574 --> 00:10:29,863
+Its old business model was
+extraordinarily successful.
+
+165
+00:10:30,501 --> 00:10:34,070
+Its new businesses couldn't replace
+that success quickly enough.
+
+166
+00:10:34,615 --> 00:10:36,517
+And that is the final lesson.
+
+167
+00:10:36,984 --> 00:10:41,495
+Inventing the next generation of technology
+does not guarantee that you'll own the
+
+168
+00:10:41,535 --> 00:10:43,005
+next generation of business.
+
+169
+00:10:43,545 --> 00:10:47,601
+Sometimes the greatest threat to
+an empire isn't a competitor.
+
+170
+00:10:48,189 --> 00:10:51,168
+It's the disappearance of
+the economics that built it.
+
+171
+00:10:51,525 --> 00:10:53,656
+Every brand leaves evidence.
+
