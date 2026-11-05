@@ -29,6 +29,10 @@ claudecode/
 
 Update this section once the actual structure is established.
 
+### Blender skills
+
+`.claude/skills/` holds 94 Blender skills vendored from [arjun988/blender-skills](https://github.com/arjun988/blender-skills) (MIT; see `.claude/skills/README.md` for the source commit). Claude Code loads them automatically in this repo. Update them by re-copying from upstream rather than editing in place.
+
 ---
 
 ## Development Workflow
