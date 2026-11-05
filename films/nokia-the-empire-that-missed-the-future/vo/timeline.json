@@ -1,0 +1,2018 @@
+{
+ "total": 671.866,
+ "scenes": [
+  {
+   "i": 1,
+   "base": 0.0,
+   "dur": 42.663,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     2.75
+    ],
+    [
+     4.375,
+     6.711
+    ],
+    [
+     7.75,
+     12.656
+    ],
+    [
+     11.125,
+     18.182
+    ],
+    [
+     14.5,
+     25.294
+    ],
+    [
+     17.875,
+     29.465
+    ],
+    [
+     21.25,
+     31.191
+    ],
+    [
+     24.625,
+     37.813
+    ],
+    [
+     30.0,
+     42.663
+    ]
+   ]
+  },
+  {
+   "i": 2,
+   "base": 42.663,
+   "dur": 41.288,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     2.958
+    ],
+    [
+     7.75,
+     10.134
+    ],
+    [
+     11.125,
+     18.714
+    ],
+    [
+     14.5,
+     23.491
+    ],
+    [
+     17.875,
+     30.482
+    ],
+    [
+     21.25,
+     33.029
+    ],
+    [
+     24.625,
+     35.584
+    ],
+    [
+     30.0,
+     41.288
+    ]
+   ]
+  },
+  {
+   "i": 3,
+   "base": 83.951,
+   "dur": 40.545,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     4.076
+    ],
+    [
+     7.75,
+     13.15
+    ],
+    [
+     11.125,
+     15.53
+    ],
+    [
+     14.5,
+     17.748
+    ],
+    [
+     17.875,
+     22.386
+    ],
+    [
+     21.25,
+     28.468
+    ],
+    [
+     24.625,
+     32.023
+    ],
+    [
+     30.0,
+     40.545
+    ]
+   ]
+  },
+  {
+   "i": 4,
+   "base": 124.496,
+   "dur": 44.171,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     3.927
+    ],
+    [
+     7.75,
+     7.666
+    ],
+    [
+     11.125,
+     9.398
+    ],
+    [
+     14.5,
+     15.732
+    ],
+    [
+     17.875,
+     26.29
+    ],
+    [
+     21.25,
+     32.147
+    ],
+    [
+     24.625,
+     36.042
+    ],
+    [
+     30.0,
+     44.171
+    ]
+   ]
+  },
+  {
+   "i": 5,
+   "base": 168.667,
+   "dur": 35.612,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     5.535
+    ],
+    [
+     7.0,
+     7.695
+    ],
+    [
+     10.0,
+     10.608
+    ],
+    [
+     13.0,
+     13.492
+    ],
+    [
+     16.0,
+     15.507
+    ],
+    [
+     19.0,
+     19.563
+    ],
+    [
+     22.0,
+     25.477
+    ],
+    [
+     25.0,
+     30.637
+    ],
+    [
+     30.0,
+     35.612
+    ]
+   ]
+  },
+  {
+   "i": 6,
+   "base": 204.279,
+   "dur": 41.484,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     4.399
+    ],
+    [
+     7.75,
+     7.661
+    ],
+    [
+     11.125,
+     12.753
+    ],
+    [
+     14.5,
+     19.281
+    ],
+    [
+     17.875,
+     25.366
+    ],
+    [
+     21.25,
+     29.953
+    ],
+    [
+     24.625,
+     35.371
+    ],
+    [
+     30.0,
+     41.484
+    ]
+   ]
+  },
+  {
+   "i": 7,
+   "base": 245.763,
+   "dur": 40.804,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     4.753
+    ],
+    [
+     8.714285714285715,
+     8.673
+    ],
+    [
+     12.571428571428571,
+     17.396
+    ],
+    [
+     16.42857142857143,
+     23.064
+    ],
+    [
+     20.285714285714285,
+     26.677
+    ],
+    [
+     24.142857142857142,
+     32.315
+    ],
+    [
+     30.0,
+     40.804
+    ]
+   ]
+  },
+  {
+   "i": 8,
+   "base": 286.567,
+   "dur": 45.201,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     3.829
+    ],
+    [
+     7.0,
+     6.443
+    ],
+    [
+     10.0,
+     11.594
+    ],
+    [
+     13.0,
+     17.351
+    ],
+    [
+     16.0,
+     22.809
+    ],
+    [
+     19.0,
+     28.544
+    ],
+    [
+     22.0,
+     35.731
+    ],
+    [
+     25.0,
+     39.275
+    ],
+    [
+     30.0,
+     45.201
+    ]
+   ]
+  },
+  {
+   "i": 9,
+   "base": 331.768,
+   "dur": 38.027,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     6.665
+    ],
+    [
+     7.0,
+     14.505
+    ],
+    [
+     10.0,
+     18.937
+    ],
+    [
+     13.0,
+     20.1
+    ],
+    [
+     16.0,
+     24.701
+    ],
+    [
+     19.0,
+     26.94
+    ],
+    [
+     22.0,
+     29.987
+    ],
+    [
+     25.0,
+     32.385
+    ],
+    [
+     30.0,
+     38.027
+    ]
+   ]
+  },
+  {
+   "i": 10,
+   "base": 369.795,
+   "dur": 42.986,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     7.121
+    ],
+    [
+     7.75,
+     11.936
+    ],
+    [
+     11.125,
+     14.312
+    ],
+    [
+     14.5,
+     19.802
+    ],
+    [
+     17.875,
+     26.01
+    ],
+    [
+     21.25,
+     31.869
+    ],
+    [
+     24.625,
+     39.539
+    ],
+    [
+     30.0,
+     42.986
+    ]
+   ]
+  },
+  {
+   "i": 11,
+   "base": 412.781,
+   "dur": 41.706,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     3.605
+    ],
+    [
+     7.75,
+     11.112
+    ],
+    [
+     11.125,
+     15.623
+    ],
+    [
+     14.5,
+     19.575
+    ],
+    [
+     17.875,
+     29.54
+    ],
+    [
+     21.25,
+     33.466
+    ],
+    [
+     24.625,
+     36.294
+    ],
+    [
+     30.0,
+     41.706
+    ]
+   ]
+  },
+  {
+   "i": 12,
+   "base": 454.487,
+   "dur": 44.16,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     7.363
+    ],
+    [
+     7.75,
+     16.103
+    ],
+    [
+     11.125,
+     19.344
+    ],
+    [
+     14.5,
+     23.582
+    ],
+    [
+     17.875,
+     26.324
+    ],
+    [
+     21.25,
+     34.917
+    ],
+    [
+     24.625,
+     39.492
+    ],
+    [
+     30.0,
+     44.16
+    ]
+   ]
+  },
+  {
+   "i": 13,
+   "base": 498.647,
+   "dur": 40.681,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     4.268
+    ],
+    [
+     7.75,
+     12.996
+    ],
+    [
+     11.125,
+     16.098
+    ],
+    [
+     14.5,
+     20.071
+    ],
+    [
+     17.875,
+     24.111
+    ],
+    [
+     21.25,
+     28.941
+    ],
+    [
+     24.625,
+     36.612
+    ],
+    [
+     30.0,
+     40.681
+    ]
+   ]
+  },
+  {
+   "i": 14,
+   "base": 539.328,
+   "dur": 40.07,
+   "n": 6,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     5.5,
+     9.43
+    ],
+    [
+     10.0,
+     18.219
+    ],
+    [
+     14.5,
+     22.623
+    ],
+    [
+     19.0,
+     27.18
+    ],
+    [
+     23.5,
+     31.599
+    ],
+    [
+     30.0,
+     40.07
+    ]
+   ]
+  },
+  {
+   "i": 15,
+   "base": 579.398,
+   "dur": 44.263,
+   "n": 13,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.076923076923077,
+     3.745
+    ],
+    [
+     5.153846153846154,
+     5.546
+    ],
+    [
+     7.230769230769231,
+     7.807
+    ],
+    [
+     9.307692307692308,
+     10.754
+    ],
+    [
+     11.384615384615385,
+     14.497
+    ],
+    [
+     13.461538461538462,
+     17.035
+    ],
+    [
+     15.538461538461538,
+     21.509
+    ],
+    [
+     17.615384615384617,
+     24.19
+    ],
+    [
+     19.692307692307693,
+     30.027
+    ],
+    [
+     21.76923076923077,
+     33.001
+    ],
+    [
+     23.846153846153847,
+     36.445
+    ],
+    [
+     25.923076923076923,
+     39.781
+    ],
+    [
+     30.0,
+     44.263
+    ]
+   ]
+  },
+  {
+   "i": 16,
+   "base": 623.661,
+   "dur": 48.205,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     4.355
+    ],
+    [
+     7.0,
+     7.646
+    ],
+    [
+     10.0,
+     10.475
+    ],
+    [
+     13.0,
+     14.778
+    ],
+    [
+     16.0,
+     23.734
+    ],
+    [
+     19.0,
+     26.016
+    ],
+    [
+     22.0,
+     29.123
+    ],
+    [
+     25.0,
+     40.357
+    ],
+    [
+     30.0,
+     48.205
+    ]
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "s01_01",
+   "text": "In 2007, Nokia was almost untouchable.",
+   "scene": 1,
+   "say": "In two thousand seven, Nokia was almost untouchable.",
+   "t": 3.0,
+   "local": 3.0,
+   "dur": 3.511,
+   "trim": 0.169
+  },
+  {
+   "id": "s01_02",
+   "text": "It sold approximately 437 million mobile devices in a single year.",
+   "scene": 1,
+   "say": "It sold approximately four hundred thirty-seven million mobile devices in a single year.",
+   "t": 6.961,
+   "local": 6.961,
+   "dur": 5.494,
+   "trim": 0.141
+  },
+  {
+   "id": "s01_03",
+   "text": "Its estimated share of the global mobile phone market was thirty-eight percent.",
+   "scene": 1,
+   "t": 12.906,
+   "local": 12.906,
+   "dur": 5.076,
+   "trim": 0.19
+  },
+  {
+   "id": "s01_04",
+   "text": "Its phones were everywhere. In offices, schools, taxis, airports, and millions of homes.",
+   "scene": 1,
+   "t": 18.432,
+   "local": 18.432,
+   "dur": 6.662,
+   "trim": 0.233
+  },
+  {
+   "id": "s01_05",
+   "text": "Nokia wasn't merely participating in the mobile revolution.",
+   "scene": 1,
+   "t": 25.544,
+   "local": 25.544,
+   "dur": 3.721,
+   "trim": 0.097
+  },
+  {
+   "id": "s01_06",
+   "text": "It was leading it.",
+   "scene": 1,
+   "t": 29.715,
+   "local": 29.715,
+   "dur": 1.277,
+   "trim": 0.135
+  },
+  {
+   "id": "s01_07",
+   "text": "And yet, just six years later, the company would announce the sale of its legendary handset business.",
+   "scene": 1,
+   "t": 31.441,
+   "local": 31.441,
+   "dur": 6.172,
+   "trim": 0.181
+  },
+  {
+   "id": "s01_08",
+   "text": "How does a market leader lose the market it helped create?",
+   "scene": 1,
+   "t": 38.063,
+   "local": 38.063,
+   "dur": 3.5,
+   "trim": 0.407
+  },
+  {
+   "id": "s02_01",
+   "text": "September third, 2013.",
+   "scene": 2,
+   "say": "September third, twenty thirteen.",
+   "t": 43.263,
+   "local": 0.6,
+   "dur": 2.158,
+   "trim": 0.195
+  },
+  {
+   "id": "s02_02",
+   "text": "Nokia announced an agreement to sell substantially all of its Devices and Services business to Microsoft.",
+   "scene": 2,
+   "t": 45.871,
+   "local": 3.208,
+   "dur": 6.726,
+   "trim": 0.147
+  },
+  {
+   "id": "s02_03",
+   "text": "The announced transaction was valued at approximately five point four four billion euros, including a patent licensing component.",
+   "scene": 2,
+   "t": 53.047,
+   "local": 10.384,
+   "dur": 8.131,
+   "trim": 0.273
+  },
+  {
+   "id": "s02_04",
+   "text": "For millions of customers, Nokia had been synonymous with the mobile phone.",
+   "scene": 2,
+   "t": 61.627,
+   "local": 18.964,
+   "dur": 4.327,
+   "trim": 0.144
+  },
+  {
+   "id": "s02_05",
+   "text": "Now, the company that once defined the category was preparing to leave handset manufacturing behind.",
+   "scene": 2,
+   "t": 66.404,
+   "local": 23.741,
+   "dur": 6.541,
+   "trim": 0.026
+  },
+  {
+   "id": "s02_06",
+   "text": "But this wasn't the bankruptcy of Nokia.",
+   "scene": 2,
+   "t": 73.395,
+   "local": 30.732,
+   "dur": 2.097,
+   "trim": 0.149
+  },
+  {
+   "id": "s02_07",
+   "text": "The company would continue operating.",
+   "scene": 2,
+   "t": 75.942,
+   "local": 33.279,
+   "dur": 2.105,
+   "trim": 0.232
+  },
+  {
+   "id": "s02_08",
+   "text": "What had collapsed was its position as a dominant mobile phone manufacturer.",
+   "scene": 2,
+   "t": 78.497,
+   "local": 35.834,
+   "dur": 4.354,
+   "trim": 0.188
+  },
+  {
+   "id": "s03_01",
+   "text": "Nokia's mobile dominance didn't happen by accident.",
+   "scene": 3,
+   "t": 84.551,
+   "local": 0.6,
+   "dur": 3.276,
+   "trim": 0.178
+  },
+  {
+   "id": "s03_02",
+   "text": "The Finnish company built an extraordinary combination of hardware engineering, manufacturing scale, distribution, and brand recognition.",
+   "scene": 3,
+   "t": 88.277,
+   "local": 4.326,
+   "dur": 8.624,
+   "trim": 0.221
+  },
+  {
+   "id": "s03_03",
+   "text": "Its devices were dependable.",
+   "scene": 3,
+   "t": 97.351,
+   "local": 13.4,
+   "dur": 1.93,
+   "trim": 0.191
+  },
+  {
+   "id": "s03_04",
+   "text": "Its designs were familiar.",
+   "scene": 3,
+   "t": 99.731,
+   "local": 15.78,
+   "dur": 1.768,
+   "trim": 0.185
+  },
+  {
+   "id": "s03_05",
+   "text": "Its supply chain reached markets that competitors struggled to serve.",
+   "scene": 3,
+   "t": 101.949,
+   "local": 17.998,
+   "dur": 4.188,
+   "trim": 0.091
+  },
+  {
+   "id": "s03_06",
+   "text": "By the late nineteen-nineties, Nokia had become the world's leading mobile phone manufacturer.",
+   "scene": 3,
+   "t": 106.587,
+   "local": 22.636,
+   "dur": 5.632,
+   "trim": 0.17
+  },
+  {
+   "id": "s03_07",
+   "text": "And it continued expanding through the next decade.",
+   "scene": 3,
+   "t": 112.669,
+   "local": 28.718,
+   "dur": 3.105,
+   "trim": 0.147
+  },
+  {
+   "id": "s03_08",
+   "text": "Its greatest advantage was the ability to make mobile technology accessible to enormous numbers of people.",
+   "scene": 3,
+   "t": 116.224,
+   "local": 32.273,
+   "dur": 7.172,
+   "trim": 0.19
+  },
+  {
+   "id": "s04_01",
+   "text": "There's a popular explanation for Nokia's decline.",
+   "scene": 4,
+   "t": 125.096,
+   "local": 0.6,
+   "dur": 3.127,
+   "trim": 0.126
+  },
+  {
+   "id": "s04_02",
+   "text": "That it failed because it didn't understand smartphones.",
+   "scene": 4,
+   "t": 128.673,
+   "local": 4.177,
+   "dur": 3.289,
+   "trim": 0.173
+  },
+  {
+   "id": "s04_03",
+   "text": "But that isn't accurate.",
+   "scene": 4,
+   "t": 132.412,
+   "local": 7.916,
+   "dur": 1.283,
+   "trim": 0.11
+  },
+  {
+   "id": "s04_04",
+   "text": "Nokia was already selling sophisticated mobile computers before the first iPhone appeared.",
+   "scene": 4,
+   "t": 134.144,
+   "local": 9.648,
+   "dur": 5.884,
+   "trim": 0.126
+  },
+  {
+   "id": "s04_05",
+   "text": "Its Nseries and Eseries devices combined cameras, internet access, email, navigation, and multimedia capabilities.",
+   "scene": 4,
+   "say": "Its N-series and E-series devices combined cameras, internet access, email, navigation, and multimedia capabilities.",
+   "t": 140.478,
+   "local": 15.982,
+   "dur": 10.108,
+   "trim": 0.222
+  },
+  {
+   "id": "s04_06",
+   "text": "The Nokia N95, introduced in 2007, was a powerful example.",
+   "scene": 4,
+   "say": "The Nokia N ninety-five, introduced in two thousand seven, was a powerful example.",
+   "t": 151.036,
+   "local": 26.54,
+   "dur": 5.407,
+   "trim": 0.439
+  },
+  {
+   "id": "s04_07",
+   "text": "Nokia understood that phones were becoming computers.",
+   "scene": 4,
+   "t": 156.893,
+   "local": 32.397,
+   "dur": 3.444,
+   "trim": 0.185
+  },
+  {
+   "id": "s04_08",
+   "text": "What it underestimated was how radically the experience of using those computers was about to change.",
+   "scene": 4,
+   "t": 160.788,
+   "local": 36.292,
+   "dur": 6.779,
+   "trim": 0.224
+  },
+  {
+   "id": "s05_01",
+   "text": "On January ninth, 2007, Apple introduced the iPhone.",
+   "scene": 5,
+   "say": "On January ninth, two thousand seven, Apple introduced the iPhone.",
+   "t": 169.267,
+   "local": 0.6,
+   "dur": 4.735,
+   "trim": 0.142
+  },
+  {
+   "id": "s05_02",
+   "text": "It wasn't the first smartphone.",
+   "scene": 5,
+   "t": 174.452,
+   "local": 5.785,
+   "dur": 1.709,
+   "trim": 0.143
+  },
+  {
+   "id": "s05_03",
+   "text": "And it wasn't the first touchscreen phone.",
+   "scene": 5,
+   "t": 176.612,
+   "local": 7.945,
+   "dur": 2.464,
+   "trim": 0.137
+  },
+  {
+   "id": "s05_04",
+   "text": "But it brought a different philosophy into focus.",
+   "scene": 5,
+   "t": 179.525,
+   "local": 10.858,
+   "dur": 2.434,
+   "trim": 0.099
+  },
+  {
+   "id": "s05_05",
+   "text": "A large touchscreen.",
+   "scene": 5,
+   "t": 182.409,
+   "local": 13.742,
+   "dur": 1.565,
+   "trim": 0.17
+  },
+  {
+   "id": "s05_06",
+   "text": "Software designed around direct interaction.",
+   "scene": 5,
+   "t": 184.424,
+   "local": 15.757,
+   "dur": 3.607,
+   "trim": 0.322
+  },
+  {
+   "id": "s05_07",
+   "text": "And a product experience in which hardware and operating system were tightly integrated.",
+   "scene": 5,
+   "t": 188.48,
+   "local": 19.813,
+   "dur": 5.464,
+   "trim": 0.138
+  },
+  {
+   "id": "s05_08",
+   "text": "For Nokia, the immediate threat was not simply another expensive handset.",
+   "scene": 5,
+   "t": 194.394,
+   "local": 25.727,
+   "dur": 4.71,
+   "trim": 0.137
+  },
+  {
+   "id": "s05_09",
+   "text": "It was a different definition of what a smartphone should feel like.",
+   "scene": 5,
+   "t": 199.554,
+   "local": 30.887,
+   "dur": 3.625,
+   "trim": 0.278
+  },
+  {
+   "id": "s06_01",
+   "text": "The competition soon expanded beyond individual devices.",
+   "scene": 6,
+   "t": 204.879,
+   "local": 0.6,
+   "dur": 3.599,
+   "trim": 0.19
+  },
+  {
+   "id": "s06_02",
+   "text": "Apple launched its App Store in 2008.",
+   "scene": 6,
+   "say": "Apple launched its App Store in two thousand eight.",
+   "t": 208.928,
+   "local": 4.649,
+   "dur": 2.812,
+   "trim": 0.227
+  },
+  {
+   "id": "s06_03",
+   "text": "Google's Android ecosystem began growing across multiple manufacturers.",
+   "scene": 6,
+   "t": 212.19,
+   "local": 7.911,
+   "dur": 4.642,
+   "trim": 0.19
+  },
+  {
+   "id": "s06_04",
+   "text": "Applications, developers, operating systems, and services became increasingly important.",
+   "scene": 6,
+   "t": 217.282,
+   "local": 13.003,
+   "dur": 6.078,
+   "trim": 0.178
+  },
+  {
+   "id": "s06_05",
+   "text": "A smartphone was no longer judged only by its camera, battery, or physical design.",
+   "scene": 6,
+   "t": 223.81,
+   "local": 19.531,
+   "dur": 5.635,
+   "trim": 0.163
+  },
+  {
+   "id": "s06_06",
+   "text": "Its software ecosystem determined what users could do with it.",
+   "scene": 6,
+   "t": 229.895,
+   "local": 25.616,
+   "dur": 4.137,
+   "trim": 0.186
+  },
+  {
+   "id": "s06_07",
+   "text": "Nokia had services, applications, and an established operating system.",
+   "scene": 6,
+   "t": 234.482,
+   "local": 30.203,
+   "dur": 4.968,
+   "trim": 0.186
+  },
+  {
+   "id": "s06_08",
+   "text": "But the market was moving toward integrated platforms at extraordinary speed.",
+   "scene": 6,
+   "t": 239.9,
+   "local": 35.621,
+   "dur": 4.763,
+   "trim": 0.179
+  },
+  {
+   "id": "s07_01",
+   "text": "Nokia's principal smartphone operating system was Symbian.",
+   "scene": 7,
+   "t": 246.363,
+   "local": 0.6,
+   "dur": 3.953,
+   "trim": 0.091
+  },
+  {
+   "id": "s07_02",
+   "text": "It had helped power millions of capable devices.",
+   "scene": 7,
+   "t": 250.766,
+   "local": 5.003,
+   "dur": 3.47,
+   "trim": 0.195
+  },
+  {
+   "id": "s07_03",
+   "text": "But its legacy architecture and development complexity made competing in the new touchscreen-centered market difficult.",
+   "scene": 7,
+   "t": 254.686,
+   "local": 8.923,
+   "dur": 8.273,
+   "trim": 0.146
+  },
+  {
+   "id": "s07_04",
+   "text": "Nokia continued investing in Symbian while pursuing alternative software strategies.",
+   "scene": 7,
+   "t": 263.409,
+   "local": 17.646,
+   "dur": 5.218,
+   "trim": 0.175
+  },
+  {
+   "id": "s07_05",
+   "text": "The challenge wasn't a complete absence of innovation.",
+   "scene": 7,
+   "t": 269.077,
+   "local": 23.314,
+   "dur": 3.163,
+   "trim": 0.151
+  },
+  {
+   "id": "s07_06",
+   "text": "It was the difficulty of coordinating that innovation into one competitive platform.",
+   "scene": 7,
+   "t": 272.69,
+   "local": 26.927,
+   "dur": 5.188,
+   "trim": 0.159
+  },
+  {
+   "id": "s07_07",
+   "text": "Every delay gave Apple and Android more time to attract customers, developers, and manufacturers.",
+   "scene": 7,
+   "t": 278.328,
+   "local": 32.565,
+   "dur": 7.138,
+   "trim": 0.17
+  },
+  {
+   "id": "s08_01",
+   "text": "Nokia explored several routes into the future.",
+   "scene": 8,
+   "t": 287.167,
+   "local": 0.6,
+   "dur": 3.029,
+   "trim": 0.364
+  },
+  {
+   "id": "s08_02",
+   "text": "Symbian remained important.",
+   "scene": 8,
+   "t": 290.646,
+   "local": 4.079,
+   "dur": 2.164,
+   "trim": 0.093
+  },
+  {
+   "id": "s08_03",
+   "text": "MeeGo represented another attempt to build a modern smartphone platform.",
+   "scene": 8,
+   "say": "Mee-Go represented another attempt to build a modern smartphone platform.",
+   "t": 293.26,
+   "local": 6.693,
+   "dur": 4.701,
+   "trim": 0.412
+  },
+  {
+   "id": "s08_04",
+   "text": "The company also invested in services, mapping, and new user experiences.",
+   "scene": 8,
+   "t": 298.411,
+   "local": 11.844,
+   "dur": 5.307,
+   "trim": 0.182
+  },
+  {
+   "id": "s08_05",
+   "text": "These efforts showed that Nokia recognized the need for change.",
+   "scene": 8,
+   "t": 304.168,
+   "local": 17.601,
+   "dur": 5.008,
+   "trim": 0.213
+  },
+  {
+   "id": "s08_06",
+   "text": "But recognizing change and delivering a unified response are different problems.",
+   "scene": 8,
+   "t": 309.626,
+   "local": 23.059,
+   "dur": 5.286,
+   "trim": 0.209
+  },
+  {
+   "id": "s08_07",
+   "text": "Multiple technologies required resources, management attention, and difficult prioritization decisions.",
+   "scene": 8,
+   "t": 315.361,
+   "local": 28.794,
+   "dur": 6.737,
+   "trim": 0.204
+  },
+  {
+   "id": "s08_08",
+   "text": "Meanwhile, the market was becoming less forgiving.",
+   "scene": 8,
+   "t": 322.548,
+   "local": 35.981,
+   "dur": 3.094,
+   "trim": 0.187
+  },
+  {
+   "id": "s08_09",
+   "text": "The longer Nokia's transition took, the harder catching up became.",
+   "scene": 8,
+   "t": 326.092,
+   "local": 39.525,
+   "dur": 4.576,
+   "trim": 0.155
+  },
+  {
+   "id": "s09_01",
+   "text": "In September 2010, Stephen Elop became Nokia's president and chief executive.",
+   "scene": 9,
+   "say": "In September twenty ten, Stephen Ee-lop became Nokia's president and chief executive.",
+   "t": 332.368,
+   "local": 0.6,
+   "dur": 5.865,
+   "trim": 0.193
+  },
+  {
+   "id": "s09_02",
+   "text": "He inherited a company with enormous assets and a rapidly deteriorating competitive position in high-end smartphones.",
+   "scene": 9,
+   "t": 338.683,
+   "local": 6.915,
+   "dur": 7.39,
+   "trim": 0.126
+  },
+  {
+   "id": "s09_03",
+   "text": "The question was no longer whether Nokia needed to change.",
+   "scene": 9,
+   "t": 346.523,
+   "local": 14.755,
+   "dur": 3.982,
+   "trim": 0.184
+  },
+  {
+   "id": "s09_04",
+   "text": "It was how.",
+   "scene": 9,
+   "t": 350.955,
+   "local": 19.187,
+   "dur": 0.713,
+   "trim": 0.136
+  },
+  {
+   "id": "s09_05",
+   "text": "Should Nokia continue developing its own smartphone platforms?",
+   "scene": 9,
+   "t": 352.118,
+   "local": 20.35,
+   "dur": 4.151,
+   "trim": 0.126
+  },
+  {
+   "id": "s09_06",
+   "text": "Should it embrace Android?",
+   "scene": 9,
+   "t": 356.719,
+   "local": 24.951,
+   "dur": 1.79,
+   "trim": 0.103
+  },
+  {
+   "id": "s09_07",
+   "text": "Or should it pursue a different partnership?",
+   "scene": 9,
+   "t": 358.958,
+   "local": 27.19,
+   "dur": 2.597,
+   "trim": 0.197
+  },
+  {
+   "id": "s09_08",
+   "text": "Each option carried risks.",
+   "scene": 9,
+   "t": 362.005,
+   "local": 30.237,
+   "dur": 1.948,
+   "trim": 0.187
+  },
+  {
+   "id": "s09_09",
+   "text": "But one decision would fundamentally redirect the company's future.",
+   "scene": 9,
+   "t": 364.403,
+   "local": 32.635,
+   "dur": 4.291,
+   "trim": 0.165
+  },
+  {
+   "id": "s10_01",
+   "text": "On February eleventh, 2011, Nokia and Microsoft announced a strategic partnership.",
+   "scene": 10,
+   "say": "On February eleventh, twenty eleven, Nokia and Microsoft announced a strategic partnership.",
+   "t": 370.395,
+   "local": 0.6,
+   "dur": 6.321,
+   "trim": 0.242
+  },
+  {
+   "id": "s10_02",
+   "text": "Windows Phone would become Nokia's primary smartphone platform.",
+   "scene": 10,
+   "t": 377.166,
+   "local": 7.371,
+   "dur": 4.364,
+   "trim": 0.124
+  },
+  {
+   "id": "s10_03",
+   "text": "The logic was ambitious.",
+   "scene": 10,
+   "t": 381.981,
+   "local": 12.186,
+   "dur": 1.927,
+   "trim": 0.175
+  },
+  {
+   "id": "s10_04",
+   "text": "Nokia would contribute hardware, distribution, and design expertise.",
+   "scene": 10,
+   "t": 384.357,
+   "local": 14.562,
+   "dur": 5.04,
+   "trim": 0.136
+  },
+  {
+   "id": "s10_05",
+   "text": "Microsoft would contribute software, services, and a broader technology ecosystem.",
+   "scene": 10,
+   "t": 389.847,
+   "local": 20.052,
+   "dur": 5.758,
+   "trim": 0.188
+  },
+  {
+   "id": "s10_06",
+   "text": "Together, they hoped to establish a powerful alternative to Apple and Android.",
+   "scene": 10,
+   "t": 396.055,
+   "local": 26.26,
+   "dur": 5.409,
+   "trim": 0.127
+  },
+  {
+   "id": "s10_07",
+   "text": "But Nokia was committing its smartphone future to a platform that had not yet established comparable market scale.",
+   "scene": 10,
+   "t": 401.914,
+   "local": 32.119,
+   "dur": 7.22,
+   "trim": 0.197
+  },
+  {
+   "id": "s10_08",
+   "text": "It was a strategic gamble.",
+   "scene": 10,
+   "t": 409.584,
+   "local": 39.789,
+   "dur": 2.097,
+   "trim": 0.184
+  },
+  {
+   "id": "s11_01",
+   "text": "The partnership created an immediate problem.",
+   "scene": 11,
+   "t": 413.381,
+   "local": 0.6,
+   "dur": 2.805,
+   "trim": 0.199
+  },
+  {
+   "id": "s11_02",
+   "text": "Nokia needed customers to continue buying its existing smartphones while waiting for its new Windows Phone products.",
+   "scene": 11,
+   "t": 416.636,
+   "local": 3.855,
+   "dur": 7.057,
+   "trim": 0.199
+  },
+  {
+   "id": "s11_03",
+   "text": "But the announcement made the company's future direction clear.",
+   "scene": 11,
+   "t": 424.143,
+   "local": 11.362,
+   "dur": 4.061,
+   "trim": 0.121
+  },
+  {
+   "id": "s11_04",
+   "text": "Symbian was no longer the long-term centerpiece.",
+   "scene": 11,
+   "t": 428.654,
+   "local": 15.873,
+   "dur": 3.502,
+   "trim": 0.061
+  },
+  {
+   "id": "s11_05",
+   "text": "In Nokia's own annual reporting, the company acknowledged that demand for Symbian devices deteriorated faster than anticipated during the transition.",
+   "scene": 11,
+   "t": 432.606,
+   "local": 19.825,
+   "dur": 9.515,
+   "trim": 0.18
+  },
+  {
+   "id": "s11_06",
+   "text": "The new products needed time to establish themselves.",
+   "scene": 11,
+   "t": 442.571,
+   "local": 29.79,
+   "dur": 3.477,
+   "trim": 0.208
+  },
+  {
+   "id": "s11_07",
+   "text": "The old products were losing momentum.",
+   "scene": 11,
+   "t": 446.497,
+   "local": 33.716,
+   "dur": 2.377,
+   "trim": 0.243
+  },
+  {
+   "id": "s11_08",
+   "text": "Nokia was caught between two generations of its own strategy.",
+   "scene": 11,
+   "t": 449.325,
+   "local": 36.544,
+   "dur": 4.062,
+   "trim": 0.163
+  },
+  {
+   "id": "s12_01",
+   "text": "In October 2011, Nokia introduced its first Lumia smartphones running Windows Phone.",
+   "scene": 12,
+   "say": "In October twenty eleven, Nokia introduced its first Lumia smartphones running Windows Phone.",
+   "t": 455.087,
+   "local": 0.6,
+   "dur": 6.563,
+   "trim": 0.21
+  },
+  {
+   "id": "s12_02",
+   "text": "The Lumia family would showcase distinctive industrial design, imaging capabilities, and Microsoft's mobile software.",
+   "scene": 12,
+   "t": 462.1,
+   "local": 7.613,
+   "dur": 8.289,
+   "trim": 0.191
+  },
+  {
+   "id": "s12_03",
+   "text": "These weren't simply poorly made phones.",
+   "scene": 12,
+   "t": 470.84,
+   "local": 16.353,
+   "dur": 2.791,
+   "trim": 0.105
+  },
+  {
+   "id": "s12_04",
+   "text": "Nokia continued demonstrating serious hardware expertise.",
+   "scene": 12,
+   "t": 474.081,
+   "local": 19.594,
+   "dur": 3.787,
+   "trim": 0.094
+  },
+  {
+   "id": "s12_05",
+   "text": "But strong hardware wasn't enough.",
+   "scene": 12,
+   "t": 478.319,
+   "local": 23.832,
+   "dur": 2.292,
+   "trim": 0.119
+  },
+  {
+   "id": "s12_06",
+   "text": "Apple and Android already had powerful ecosystems of users, developers, applications, and commercial partners.",
+   "scene": 12,
+   "t": 481.061,
+   "local": 26.574,
+   "dur": 8.143,
+   "trim": 0.164
+  },
+  {
+   "id": "s12_07",
+   "text": "Nokia now needed to persuade people to join a third platform.",
+   "scene": 12,
+   "t": 489.654,
+   "local": 35.167,
+   "dur": 4.125,
+   "trim": 0.123
+  },
+  {
+   "id": "s12_08",
+   "text": "And platform competition rewards momentum.",
+   "scene": 12,
+   "t": 494.229,
+   "local": 39.742,
+   "dur": 3.318,
+   "trim": 0.094
+  },
+  {
+   "id": "s13_01",
+   "text": "Nokia's own financial reporting revealed the damage.",
+   "scene": 13,
+   "t": 499.247,
+   "local": 0.6,
+   "dur": 3.468,
+   "trim": 0.135
+  },
+  {
+   "id": "s13_02",
+   "text": "Its smartphone business faced declining Symbian demand, pressure on selling prices, and difficulties during the platform transition.",
+   "scene": 13,
+   "t": 503.165,
+   "local": 4.518,
+   "dur": 8.279,
+   "trim": 0.223
+  },
+  {
+   "id": "s13_03",
+   "text": "The company was still selling millions of phones.",
+   "scene": 13,
+   "t": 511.893,
+   "local": 13.246,
+   "dur": 2.652,
+   "trim": 0.181
+  },
+  {
+   "id": "s13_04",
+   "text": "But scale alone no longer guaranteed leadership.",
+   "scene": 13,
+   "t": 514.995,
+   "local": 16.348,
+   "dur": 3.523,
+   "trim": 0.177
+  },
+  {
+   "id": "s13_05",
+   "text": "Customers were moving toward competing smartphone ecosystems.",
+   "scene": 13,
+   "t": 518.968,
+   "local": 20.321,
+   "dur": 3.59,
+   "trim": 0.22
+  },
+  {
+   "id": "s13_06",
+   "text": "Nokia's challenge was not merely producing an attractive replacement handset.",
+   "scene": 13,
+   "t": 523.008,
+   "local": 24.361,
+   "dur": 4.38,
+   "trim": 0.137
+  },
+  {
+   "id": "s13_07",
+   "text": "It needed to rebuild its position in a market whose software and developer relationships were already shifting elsewhere.",
+   "scene": 13,
+   "t": 527.838,
+   "local": 29.191,
+   "dur": 7.221,
+   "trim": 0.184
+  },
+  {
+   "id": "s13_08",
+   "text": "Time had become its scarcest resource.",
+   "scene": 13,
+   "t": 535.509,
+   "local": 36.862,
+   "dur": 2.719,
+   "trim": 0.161
+  },
+  {
+   "id": "s14_01",
+   "text": "By September 2013, Nokia and Microsoft had agreed on the sale of substantially all of Nokia's Devices and Services business.",
+   "scene": 14,
+   "say": "By September twenty thirteen, Nokia and Microsoft had agreed on the sale of substantially all of Nokia's Devices and Services business.",
+   "t": 539.928,
+   "local": 0.6,
+   "dur": 8.63,
+   "trim": 0.218
+  },
+  {
+   "id": "s14_02",
+   "text": "The announced transaction price was approximately five point four four billion euros, including patent-related arrangements.",
+   "scene": 14,
+   "t": 549.008,
+   "local": 9.68,
+   "dur": 8.339,
+   "trim": 0.17
+  },
+  {
+   "id": "s14_03",
+   "text": "On April twenty-fifth, 2014, the sale was completed.",
+   "scene": 14,
+   "say": "On April twenty-fifth, twenty fourteen, the sale was completed.",
+   "t": 557.797,
+   "local": 18.469,
+   "dur": 3.954,
+   "trim": 0.085
+  },
+  {
+   "id": "s14_04",
+   "text": "Nokia retained important businesses and intellectual property.",
+   "scene": 14,
+   "t": 562.201,
+   "local": 22.873,
+   "dur": 4.107,
+   "trim": 0.214
+  },
+  {
+   "id": "s14_05",
+   "text": "It would continue as a major telecommunications technology company.",
+   "scene": 14,
+   "t": 566.758,
+   "local": 27.43,
+   "dur": 3.969,
+   "trim": 0.207
+  },
+  {
+   "id": "s14_06",
+   "text": "But the era of Nokia as the manufacturer behind one of the world's most recognizable handset empires had ended.",
+   "scene": 14,
+   "t": 571.177,
+   "local": 31.849,
+   "dur": 7.122,
+   "trim": 0.2
+  },
+  {
+   "id": "s15_01",
+   "text": "So what destroyed Nokia's handset dominance?",
+   "scene": 15,
+   "t": 579.998,
+   "local": 0.6,
+   "dur": 2.945,
+   "trim": 0.128
+  },
+  {
+   "id": "s15_02",
+   "text": "Not one phone.",
+   "scene": 15,
+   "t": 583.393,
+   "local": 3.995,
+   "dur": 1.35,
+   "trim": 0.085
+  },
+  {
+   "id": "s15_03",
+   "text": "Not one competitor.",
+   "scene": 15,
+   "t": 585.194,
+   "local": 5.796,
+   "dur": 1.812,
+   "trim": 0.153
+  },
+  {
+   "id": "s15_04",
+   "text": "And not one executive decision.",
+   "scene": 15,
+   "t": 587.455,
+   "local": 8.057,
+   "dur": 2.496,
+   "trim": 0.187
+  },
+  {
+   "id": "s15_05",
+   "text": "The evidence points to an accumulation of problems.",
+   "scene": 15,
+   "t": 590.402,
+   "local": 11.004,
+   "dur": 3.294,
+   "trim": 0.145
+  },
+  {
+   "id": "s15_06",
+   "text": "Legacy software complexity.",
+   "scene": 15,
+   "t": 594.145,
+   "local": 14.747,
+   "dur": 2.088,
+   "trim": 0.143
+  },
+  {
+   "id": "s15_07",
+   "text": "Slow execution during a fundamental market transition.",
+   "scene": 15,
+   "t": 596.683,
+   "local": 17.285,
+   "dur": 4.024,
+   "trim": 0.111
+  },
+  {
+   "id": "s15_08",
+   "text": "Fragmented platform development.",
+   "scene": 15,
+   "t": 601.157,
+   "local": 21.759,
+   "dur": 2.232,
+   "trim": 0.239
+  },
+  {
+   "id": "s15_09",
+   "text": "And a late strategic commitment to an ecosystem that struggled to match its rivals.",
+   "scene": 15,
+   "t": 603.839,
+   "local": 24.44,
+   "dur": 5.386,
+   "trim": 0.181
+  },
+  {
+   "id": "s15_10",
+   "text": "Nokia's hardware strengths remained real.",
+   "scene": 15,
+   "t": 609.675,
+   "local": 30.277,
+   "dur": 2.525,
+   "trim": 0.165
+  },
+  {
+   "id": "s15_11",
+   "text": "But the industry's competitive advantage had moved.",
+   "scene": 15,
+   "t": 612.649,
+   "local": 33.251,
+   "dur": 2.994,
+   "trim": 0.185
+  },
+  {
+   "id": "s15_12",
+   "text": "The company could still build impressive phones.",
+   "scene": 15,
+   "t": 616.093,
+   "local": 36.695,
+   "dur": 2.886,
+   "trim": 0.388
+  },
+  {
+   "id": "s15_13",
+   "text": "It could no longer reliably win the platform battle.",
+   "scene": 15,
+   "t": 619.429,
+   "local": 40.031,
+   "dur": 3.132,
+   "trim": 0.139
+  },
+  {
+   "id": "s16_01",
+   "text": "Nokia's story contains a warning for every market leader.",
+   "scene": 16,
+   "t": 624.261,
+   "local": 0.6,
+   "dur": 3.555,
+   "trim": 0.178
+  },
+  {
+   "id": "s16_02",
+   "text": "Dominance is evidence of past success.",
+   "scene": 16,
+   "t": 628.266,
+   "local": 4.605,
+   "dur": 2.84,
+   "trim": 0.184
+  },
+  {
+   "id": "s16_03",
+   "text": "It is not proof of future relevance.",
+   "scene": 16,
+   "t": 631.557,
+   "local": 7.896,
+   "dur": 2.38,
+   "trim": 0.083
+  },
+  {
+   "id": "s16_04",
+   "text": "The greatest danger isn't always failing to recognize change.",
+   "scene": 16,
+   "t": 634.386,
+   "local": 10.725,
+   "dur": 3.853,
+   "trim": 0.226
+  },
+  {
+   "id": "s16_05",
+   "text": "Sometimes it's recognizing change, investing in it, and still moving too slowly to turn that investment into a winning strategy.",
+   "scene": 16,
+   "t": 638.689,
+   "local": 15.028,
+   "dur": 8.506,
+   "trim": 0.221
+  },
+  {
+   "id": "s16_06",
+   "text": "Nokia didn't disappear.",
+   "scene": 16,
+   "t": 647.645,
+   "local": 23.984,
+   "dur": 1.832,
+   "trim": 0.138
+  },
+  {
+   "id": "s16_07",
+   "text": "It reinvented itself beyond handsets.",
+   "scene": 16,
+   "t": 649.927,
+   "local": 26.266,
+   "dur": 2.657,
+   "trim": 0.145
+  },
+  {
+   "id": "s16_08",
+   "text": "But its mobile phone empire became a case study in what happens when a company's strongest capabilities no longer match the market's most important demands.",
+   "scene": 16,
+   "t": 653.034,
+   "local": 29.373,
+   "dur": 10.784,
+   "trim": 0.118
+  },
+  {
+   "id": "s16_09",
+   "text": "Every brand leaves evidence.",
+   "scene": 16,
+   "t": 664.268,
+   "local": 40.607,
+   "dur": 2.097,
+   "trim": 0.138
+  }
+ ]
+}

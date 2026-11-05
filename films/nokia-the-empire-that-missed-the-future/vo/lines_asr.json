@@ -1,0 +1,685 @@
+[
+ {
+  "id": "s01_01",
+  "text": "In two thousand seven, Nokia was almost untouchable.",
+  "scene": 1,
+  "say": "In two thousand seven, Nokia was almost untouchable."
+ },
+ {
+  "id": "s01_02",
+  "text": "It sold approximately four hundred thirty-seven million mobile devices in a single year.",
+  "scene": 1,
+  "say": "It sold approximately four hundred thirty-seven million mobile devices in a single year."
+ },
+ {
+  "id": "s01_03",
+  "text": "Its estimated share of the global mobile phone market was thirty-eight percent.",
+  "scene": 1
+ },
+ {
+  "id": "s01_04",
+  "text": "Its phones were everywhere. In offices, schools, taxis, airports, and millions of homes.",
+  "scene": 1
+ },
+ {
+  "id": "s01_05",
+  "text": "Nokia wasn't merely participating in the mobile revolution.",
+  "scene": 1
+ },
+ {
+  "id": "s01_06",
+  "text": "It was leading it.",
+  "scene": 1
+ },
+ {
+  "id": "s01_07",
+  "text": "And yet, just six years later, the company would announce the sale of its legendary handset business.",
+  "scene": 1
+ },
+ {
+  "id": "s01_08",
+  "text": "How does a market leader lose the market it helped create?",
+  "scene": 1
+ },
+ {
+  "id": "s02_01",
+  "text": "September third, twenty thirteen.",
+  "scene": 2,
+  "say": "September third, twenty thirteen."
+ },
+ {
+  "id": "s02_02",
+  "text": "Nokia announced an agreement to sell substantially all of its Devices and Services business to Microsoft.",
+  "scene": 2
+ },
+ {
+  "id": "s02_03",
+  "text": "The announced transaction was valued at approximately five point four four billion euros, including a patent licensing component.",
+  "scene": 2
+ },
+ {
+  "id": "s02_04",
+  "text": "For millions of customers, Nokia had been synonymous with the mobile phone.",
+  "scene": 2
+ },
+ {
+  "id": "s02_05",
+  "text": "Now, the company that once defined the category was preparing to leave handset manufacturing behind.",
+  "scene": 2
+ },
+ {
+  "id": "s02_06",
+  "text": "But this wasn't the bankruptcy of Nokia.",
+  "scene": 2
+ },
+ {
+  "id": "s02_07",
+  "text": "The company would continue operating.",
+  "scene": 2
+ },
+ {
+  "id": "s02_08",
+  "text": "What had collapsed was its position as a dominant mobile phone manufacturer.",
+  "scene": 2
+ },
+ {
+  "id": "s03_01",
+  "text": "Nokia's mobile dominance didn't happen by accident.",
+  "scene": 3
+ },
+ {
+  "id": "s03_02",
+  "text": "The Finnish company built an extraordinary combination of hardware engineering, manufacturing scale, distribution, and brand recognition.",
+  "scene": 3
+ },
+ {
+  "id": "s03_03",
+  "text": "Its devices were dependable.",
+  "scene": 3
+ },
+ {
+  "id": "s03_04",
+  "text": "Its designs were familiar.",
+  "scene": 3
+ },
+ {
+  "id": "s03_05",
+  "text": "Its supply chain reached markets that competitors struggled to serve.",
+  "scene": 3
+ },
+ {
+  "id": "s03_06",
+  "text": "By the late nineteen-nineties, Nokia had become the world's leading mobile phone manufacturer.",
+  "scene": 3
+ },
+ {
+  "id": "s03_07",
+  "text": "And it continued expanding through the next decade.",
+  "scene": 3
+ },
+ {
+  "id": "s03_08",
+  "text": "Its greatest advantage was the ability to make mobile technology accessible to enormous numbers of people.",
+  "scene": 3
+ },
+ {
+  "id": "s04_01",
+  "text": "There's a popular explanation for Nokia's decline.",
+  "scene": 4
+ },
+ {
+  "id": "s04_02",
+  "text": "That it failed because it didn't understand smartphones.",
+  "scene": 4
+ },
+ {
+  "id": "s04_03",
+  "text": "But that isn't accurate.",
+  "scene": 4
+ },
+ {
+  "id": "s04_04",
+  "text": "Nokia was already selling sophisticated mobile computers before the first iPhone appeared.",
+  "scene": 4
+ },
+ {
+  "id": "s04_05",
+  "text": "Its N-series and E-series devices combined cameras, internet access, email, navigation, and multimedia capabilities.",
+  "scene": 4,
+  "say": "Its N-series and E-series devices combined cameras, internet access, email, navigation, and multimedia capabilities."
+ },
+ {
+  "id": "s04_06",
+  "text": "The Nokia N ninety-five, introduced in two thousand seven, was a powerful example.",
+  "scene": 4,
+  "say": "The Nokia N ninety-five, introduced in two thousand seven, was a powerful example."
+ },
+ {
+  "id": "s04_07",
+  "text": "Nokia understood that phones were becoming computers.",
+  "scene": 4
+ },
+ {
+  "id": "s04_08",
+  "text": "What it underestimated was how radically the experience of using those computers was about to change.",
+  "scene": 4
+ },
+ {
+  "id": "s05_01",
+  "text": "On January ninth, two thousand seven, Apple introduced the iPhone.",
+  "scene": 5,
+  "say": "On January ninth, two thousand seven, Apple introduced the iPhone."
+ },
+ {
+  "id": "s05_02",
+  "text": "It wasn't the first smartphone.",
+  "scene": 5
+ },
+ {
+  "id": "s05_03",
+  "text": "And it wasn't the first touchscreen phone.",
+  "scene": 5
+ },
+ {
+  "id": "s05_04",
+  "text": "But it brought a different philosophy into focus.",
+  "scene": 5
+ },
+ {
+  "id": "s05_05",
+  "text": "A large touchscreen.",
+  "scene": 5
+ },
+ {
+  "id": "s05_06",
+  "text": "Software designed around direct interaction.",
+  "scene": 5
+ },
+ {
+  "id": "s05_07",
+  "text": "And a product experience in which hardware and operating system were tightly integrated.",
+  "scene": 5
+ },
+ {
+  "id": "s05_08",
+  "text": "For Nokia, the immediate threat was not simply another expensive handset.",
+  "scene": 5
+ },
+ {
+  "id": "s05_09",
+  "text": "It was a different definition of what a smartphone should feel like.",
+  "scene": 5
+ },
+ {
+  "id": "s06_01",
+  "text": "The competition soon expanded beyond individual devices.",
+  "scene": 6
+ },
+ {
+  "id": "s06_02",
+  "text": "Apple launched its App Store in two thousand eight.",
+  "scene": 6,
+  "say": "Apple launched its App Store in two thousand eight."
+ },
+ {
+  "id": "s06_03",
+  "text": "Google's Android ecosystem began growing across multiple manufacturers.",
+  "scene": 6
+ },
+ {
+  "id": "s06_04",
+  "text": "Applications, developers, operating systems, and services became increasingly important.",
+  "scene": 6
+ },
+ {
+  "id": "s06_05",
+  "text": "A smartphone was no longer judged only by its camera, battery, or physical design.",
+  "scene": 6
+ },
+ {
+  "id": "s06_06",
+  "text": "Its software ecosystem determined what users could do with it.",
+  "scene": 6
+ },
+ {
+  "id": "s06_07",
+  "text": "Nokia had services, applications, and an established operating system.",
+  "scene": 6
+ },
+ {
+  "id": "s06_08",
+  "text": "But the market was moving toward integrated platforms at extraordinary speed.",
+  "scene": 6
+ },
+ {
+  "id": "s07_01",
+  "text": "Nokia's principal smartphone operating system was Symbian.",
+  "scene": 7
+ },
+ {
+  "id": "s07_02",
+  "text": "It had helped power millions of capable devices.",
+  "scene": 7
+ },
+ {
+  "id": "s07_03",
+  "text": "But its legacy architecture and development complexity made competing in the new touchscreen-centered market difficult.",
+  "scene": 7
+ },
+ {
+  "id": "s07_04",
+  "text": "Nokia continued investing in Symbian while pursuing alternative software strategies.",
+  "scene": 7
+ },
+ {
+  "id": "s07_05",
+  "text": "The challenge wasn't a complete absence of innovation.",
+  "scene": 7
+ },
+ {
+  "id": "s07_06",
+  "text": "It was the difficulty of coordinating that innovation into one competitive platform.",
+  "scene": 7
+ },
+ {
+  "id": "s07_07",
+  "text": "Every delay gave Apple and Android more time to attract customers, developers, and manufacturers.",
+  "scene": 7
+ },
+ {
+  "id": "s08_01",
+  "text": "Nokia explored several routes into the future.",
+  "scene": 8
+ },
+ {
+  "id": "s08_02",
+  "text": "Symbian remained important.",
+  "scene": 8
+ },
+ {
+  "id": "s08_03",
+  "text": "Mee-Go represented another attempt to build a modern smartphone platform.",
+  "scene": 8,
+  "say": "Mee-Go represented another attempt to build a modern smartphone platform."
+ },
+ {
+  "id": "s08_04",
+  "text": "The company also invested in services, mapping, and new user experiences.",
+  "scene": 8
+ },
+ {
+  "id": "s08_05",
+  "text": "These efforts showed that Nokia recognized the need for change.",
+  "scene": 8
+ },
+ {
+  "id": "s08_06",
+  "text": "But recognizing change and delivering a unified response are different problems.",
+  "scene": 8
+ },
+ {
+  "id": "s08_07",
+  "text": "Multiple technologies required resources, management attention, and difficult prioritization decisions.",
+  "scene": 8
+ },
+ {
+  "id": "s08_08",
+  "text": "Meanwhile, the market was becoming less forgiving.",
+  "scene": 8
+ },
+ {
+  "id": "s08_09",
+  "text": "The longer Nokia's transition took, the harder catching up became.",
+  "scene": 8
+ },
+ {
+  "id": "s09_01",
+  "text": "In September twenty ten, Stephen Ee-lop became Nokia's president and chief executive.",
+  "scene": 9,
+  "say": "In September twenty ten, Stephen Ee-lop became Nokia's president and chief executive."
+ },
+ {
+  "id": "s09_02",
+  "text": "He inherited a company with enormous assets and a rapidly deteriorating competitive position in high-end smartphones.",
+  "scene": 9
+ },
+ {
+  "id": "s09_03",
+  "text": "The question was no longer whether Nokia needed to change.",
+  "scene": 9
+ },
+ {
+  "id": "s09_04",
+  "text": "It was how.",
+  "scene": 9
+ },
+ {
+  "id": "s09_05",
+  "text": "Should Nokia continue developing its own smartphone platforms?",
+  "scene": 9
+ },
+ {
+  "id": "s09_06",
+  "text": "Should it embrace Android?",
+  "scene": 9
+ },
+ {
+  "id": "s09_07",
+  "text": "Or should it pursue a different partnership?",
+  "scene": 9
+ },
+ {
+  "id": "s09_08",
+  "text": "Each option carried risks.",
+  "scene": 9
+ },
+ {
+  "id": "s09_09",
+  "text": "But one decision would fundamentally redirect the company's future.",
+  "scene": 9
+ },
+ {
+  "id": "s10_01",
+  "text": "On February eleventh, twenty eleven, Nokia and Microsoft announced a strategic partnership.",
+  "scene": 10,
+  "say": "On February eleventh, twenty eleven, Nokia and Microsoft announced a strategic partnership."
+ },
+ {
+  "id": "s10_02",
+  "text": "Windows Phone would become Nokia's primary smartphone platform.",
+  "scene": 10
+ },
+ {
+  "id": "s10_03",
+  "text": "The logic was ambitious.",
+  "scene": 10
+ },
+ {
+  "id": "s10_04",
+  "text": "Nokia would contribute hardware, distribution, and design expertise.",
+  "scene": 10
+ },
+ {
+  "id": "s10_05",
+  "text": "Microsoft would contribute software, services, and a broader technology ecosystem.",
+  "scene": 10
+ },
+ {
+  "id": "s10_06",
+  "text": "Together, they hoped to establish a powerful alternative to Apple and Android.",
+  "scene": 10
+ },
+ {
+  "id": "s10_07",
+  "text": "But Nokia was committing its smartphone future to a platform that had not yet established comparable market scale.",
+  "scene": 10
+ },
+ {
+  "id": "s10_08",
+  "text": "It was a strategic gamble.",
+  "scene": 10
+ },
+ {
+  "id": "s11_01",
+  "text": "The partnership created an immediate problem.",
+  "scene": 11
+ },
+ {
+  "id": "s11_02",
+  "text": "Nokia needed customers to continue buying its existing smartphones while waiting for its new Windows Phone products.",
+  "scene": 11
+ },
+ {
+  "id": "s11_03",
+  "text": "But the announcement made the company's future direction clear.",
+  "scene": 11
+ },
+ {
+  "id": "s11_04",
+  "text": "Symbian was no longer the long-term centerpiece.",
+  "scene": 11
+ },
+ {
+  "id": "s11_05",
+  "text": "In Nokia's own annual reporting, the company acknowledged that demand for Symbian devices deteriorated faster than anticipated during the transition.",
+  "scene": 11
+ },
+ {
+  "id": "s11_06",
+  "text": "The new products needed time to establish themselves.",
+  "scene": 11
+ },
+ {
+  "id": "s11_07",
+  "text": "The old products were losing momentum.",
+  "scene": 11
+ },
+ {
+  "id": "s11_08",
+  "text": "Nokia was caught between two generations of its own strategy.",
+  "scene": 11
+ },
+ {
+  "id": "s12_01",
+  "text": "In October twenty eleven, Nokia introduced its first Lumia smartphones running Windows Phone.",
+  "scene": 12,
+  "say": "In October twenty eleven, Nokia introduced its first Lumia smartphones running Windows Phone."
+ },
+ {
+  "id": "s12_02",
+  "text": "The Lumia family would showcase distinctive industrial design, imaging capabilities, and Microsoft's mobile software.",
+  "scene": 12
+ },
+ {
+  "id": "s12_03",
+  "text": "These weren't simply poorly made phones.",
+  "scene": 12
+ },
+ {
+  "id": "s12_04",
+  "text": "Nokia continued demonstrating serious hardware expertise.",
+  "scene": 12
+ },
+ {
+  "id": "s12_05",
+  "text": "But strong hardware wasn't enough.",
+  "scene": 12
+ },
+ {
+  "id": "s12_06",
+  "text": "Apple and Android already had powerful ecosystems of users, developers, applications, and commercial partners.",
+  "scene": 12
+ },
+ {
+  "id": "s12_07",
+  "text": "Nokia now needed to persuade people to join a third platform.",
+  "scene": 12
+ },
+ {
+  "id": "s12_08",
+  "text": "And platform competition rewards momentum.",
+  "scene": 12
+ },
+ {
+  "id": "s13_01",
+  "text": "Nokia's own financial reporting revealed the damage.",
+  "scene": 13
+ },
+ {
+  "id": "s13_02",
+  "text": "Its smartphone business faced declining Symbian demand, pressure on selling prices, and difficulties during the platform transition.",
+  "scene": 13
+ },
+ {
+  "id": "s13_03",
+  "text": "The company was still selling millions of phones.",
+  "scene": 13
+ },
+ {
+  "id": "s13_04",
+  "text": "But scale alone no longer guaranteed leadership.",
+  "scene": 13
+ },
+ {
+  "id": "s13_05",
+  "text": "Customers were moving toward competing smartphone ecosystems.",
+  "scene": 13
+ },
+ {
+  "id": "s13_06",
+  "text": "Nokia's challenge was not merely producing an attractive replacement handset.",
+  "scene": 13
+ },
+ {
+  "id": "s13_07",
+  "text": "It needed to rebuild its position in a market whose software and developer relationships were already shifting elsewhere.",
+  "scene": 13
+ },
+ {
+  "id": "s13_08",
+  "text": "Time had become its scarcest resource.",
+  "scene": 13
+ },
+ {
+  "id": "s14_01",
+  "text": "By September twenty thirteen, Nokia and Microsoft had agreed on the sale of substantially all of Nokia's Devices and Services business.",
+  "scene": 14,
+  "say": "By September twenty thirteen, Nokia and Microsoft had agreed on the sale of substantially all of Nokia's Devices and Services business."
+ },
+ {
+  "id": "s14_02",
+  "text": "The announced transaction price was approximately five point four four billion euros, including patent-related arrangements.",
+  "scene": 14
+ },
+ {
+  "id": "s14_03",
+  "text": "On April twenty-fifth, twenty fourteen, the sale was completed.",
+  "scene": 14,
+  "say": "On April twenty-fifth, twenty fourteen, the sale was completed."
+ },
+ {
+  "id": "s14_04",
+  "text": "Nokia retained important businesses and intellectual property.",
+  "scene": 14
+ },
+ {
+  "id": "s14_05",
+  "text": "It would continue as a major telecommunications technology company.",
+  "scene": 14
+ },
+ {
+  "id": "s14_06",
+  "text": "But the era of Nokia as the manufacturer behind one of the world's most recognizable handset empires had ended.",
+  "scene": 14
+ },
+ {
+  "id": "s15_01",
+  "text": "So what destroyed Nokia's handset dominance?",
+  "scene": 15
+ },
+ {
+  "id": "s15_02",
+  "text": "Not one phone.",
+  "scene": 15
+ },
+ {
+  "id": "s15_03",
+  "text": "Not one competitor.",
+  "scene": 15
+ },
+ {
+  "id": "s15_04",
+  "text": "And not one executive decision.",
+  "scene": 15
+ },
+ {
+  "id": "s15_05",
+  "text": "The evidence points to an accumulation of problems.",
+  "scene": 15
+ },
+ {
+  "id": "s15_06",
+  "text": "Legacy software complexity.",
+  "scene": 15
+ },
+ {
+  "id": "s15_07",
+  "text": "Slow execution during a fundamental market transition.",
+  "scene": 15
+ },
+ {
+  "id": "s15_08",
+  "text": "Fragmented platform development.",
+  "scene": 15
+ },
+ {
+  "id": "s15_09",
+  "text": "And a late strategic commitment to an ecosystem that struggled to match its rivals.",
+  "scene": 15
+ },
+ {
+  "id": "s15_10",
+  "text": "Nokia's hardware strengths remained real.",
+  "scene": 15
+ },
+ {
+  "id": "s15_11",
+  "text": "But the industry's competitive advantage had moved.",
+  "scene": 15
+ },
+ {
+  "id": "s15_12",
+  "text": "The company could still build impressive phones.",
+  "scene": 15
+ },
+ {
+  "id": "s15_13",
+  "text": "It could no longer reliably win the platform battle.",
+  "scene": 15
+ },
+ {
+  "id": "s16_01",
+  "text": "Nokia's story contains a warning for every market leader.",
+  "scene": 16
+ },
+ {
+  "id": "s16_02",
+  "text": "Dominance is evidence of past success.",
+  "scene": 16
+ },
+ {
+  "id": "s16_03",
+  "text": "It is not proof of future relevance.",
+  "scene": 16
+ },
+ {
+  "id": "s16_04",
+  "text": "The greatest danger isn't always failing to recognize change.",
+  "scene": 16
+ },
+ {
+  "id": "s16_05",
+  "text": "Sometimes it's recognizing change, investing in it, and still moving too slowly to turn that investment into a winning strategy.",
+  "scene": 16
+ },
+ {
+  "id": "s16_06",
+  "text": "Nokia didn't disappear.",
+  "scene": 16
+ },
+ {
+  "id": "s16_07",
+  "text": "It reinvented itself beyond handsets.",
+  "scene": 16
+ },
+ {
+  "id": "s16_08",
+  "text": "But its mobile phone empire became a case study in what happens when a company's strongest capabilities no longer match the market's most important demands.",
+  "scene": 16
+ },
+ {
+  "id": "s16_09",
+  "text": "Every brand leaves evidence.",
+  "scene": 16
+ }
+]

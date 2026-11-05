@@ -1,0 +1,760 @@
+1
+00:00:02,950 --> 00:00:06,551
+In 2007, Nokia was almost untouchable.
+
+2
+00:00:06,911 --> 00:00:12,420
+It sold approximately 437 million
+mobile devices in a single year.
+
+3
+00:00:12,856 --> 00:00:17,836
+Its estimated share of the global mobile
+phone market was thirty-eight percent.
+
+4
+00:00:18,382 --> 00:00:24,429
+Its phones were everywhere. In offices,
+schools, taxis, airports, and millions of
+
+5
+00:00:24,469 --> 00:00:25,454
+homes.
+
+6
+00:00:25,494 --> 00:00:29,107
+Nokia wasn't merely participating
+in the mobile revolution.
+
+7
+00:00:29,665 --> 00:00:31,060
+It was leading it.
+
+8
+00:00:31,391 --> 00:00:35,990
+And yet, just six years later, the company
+would announce the sale of its legendary
+
+9
+00:00:36,030 --> 00:00:37,420
+handset business.
+
+10
+00:00:38,013 --> 00:00:41,916
+How does a market leader lose
+the market it helped create?
+
+11
+00:00:43,213 --> 00:00:45,248
+September third, 2013.
+
+12
+00:00:45,821 --> 00:00:50,894
+Nokia announced an agreement to sell
+substantially all of its Devices and Services
+
+13
+00:00:50,934 --> 00:00:52,304
+business to Microsoft.
+
+14
+00:00:52,997 --> 00:00:57,804
+The announced transaction was valued at
+approximately five point four four billion
+
+15
+00:00:57,844 --> 00:01:01,094
+euros, including a patent
+licensing component.
+
+16
+00:01:01,577 --> 00:01:05,923
+For millions of customers, Nokia had
+been synonymous with the mobile phone.
+
+17
+00:01:06,354 --> 00:01:11,148
+Now, the company that once defined the
+category was preparing to leave handset
+
+18
+00:01:11,188 --> 00:01:12,758
+manufacturing behind.
+
+19
+00:01:13,345 --> 00:01:15,326
+But this wasn't the bankruptcy of Nokia.
+
+20
+00:01:15,892 --> 00:01:17,870
+The company would continue operating.
+
+21
+00:01:18,447 --> 00:01:22,609
+What had collapsed was its position as
+a dominant mobile phone manufacturer.
+
+22
+00:01:24,501 --> 00:01:27,693
+Nokia's mobile dominance
+didn't happen by accident.
+
+23
+00:01:28,227 --> 00:01:32,536
+The Finnish company built an extraordinary
+combination of hardware engineering,
+
+24
+00:01:33,026 --> 00:01:36,676
+manufacturing scale, distribution,
+and brand recognition.
+
+25
+00:01:37,301 --> 00:01:39,320
+Its devices were dependable.
+
+26
+00:01:39,681 --> 00:01:41,386
+Its designs were familiar.
+
+27
+00:01:41,899 --> 00:01:46,058
+Its supply chain reached markets
+that competitors struggled to serve.
+
+28
+00:01:46,537 --> 00:01:51,127
+By the late nineteen-nineties, Nokia had
+become the world's leading mobile phone
+
+29
+00:01:51,167 --> 00:01:52,167
+manufacturer.
+
+30
+00:01:52,619 --> 00:01:55,722
+And it continued expanding
+through the next decade.
+
+31
+00:01:56,174 --> 00:02:01,384
+Its greatest advantage was the ability
+to make mobile technology accessible to
+
+32
+00:02:01,424 --> 00:02:03,354
+enormous numbers of people.
+
+33
+00:02:05,046 --> 00:02:08,010
+There's a popular explanation
+for Nokia's decline.
+
+34
+00:02:08,623 --> 00:02:11,440
+That it failed because it
+didn't understand smartphones.
+
+35
+00:02:12,362 --> 00:02:13,502
+But that isn't accurate.
+
+36
+00:02:14,094 --> 00:02:19,008
+Nokia was already selling sophisticated
+mobile computers before the first iPhone
+
+37
+00:02:19,048 --> 00:02:20,048
+appeared.
+
+38
+00:02:20,428 --> 00:02:26,296
+Its Nseries and Eseries devices combined
+cameras, internet access, email,
+
+39
+00:02:26,686 --> 00:02:30,256
+navigation, and multimedia capabilities.
+
+40
+00:02:30,986 --> 00:02:36,377
+The Nokia N95, introduced in
+2007, was a powerful example.
+
+41
+00:02:36,843 --> 00:02:40,128
+Nokia understood that phones
+were becoming computers.
+
+42
+00:02:40,738 --> 00:02:46,254
+What it underestimated was how radically
+the experience of using those computers was
+
+43
+00:02:46,294 --> 00:02:47,384
+about to change.
+
+44
+00:02:49,217 --> 00:02:53,825
+On January ninth, 2007,
+Apple introduced the iPhone.
+
+45
+00:02:54,402 --> 00:02:55,849
+It wasn't the first smartphone.
+
+46
+00:02:56,562 --> 00:02:59,015
+And it wasn't the first touchscreen phone.
+
+47
+00:02:59,475 --> 00:03:01,826
+But it brought a different
+philosophy into focus.
+
+48
+00:03:02,359 --> 00:03:03,899
+A large touchscreen.
+
+49
+00:03:04,374 --> 00:03:07,942
+Software designed around
+direct interaction.
+
+50
+00:03:08,430 --> 00:03:12,972
+And a product experience in which hardware
+and operating system were tightly
+
+51
+00:03:13,012 --> 00:03:14,012
+integrated.
+
+52
+00:03:14,344 --> 00:03:18,837
+For Nokia, the immediate threat was
+not simply another expensive handset.
+
+53
+00:03:19,504 --> 00:03:23,196
+It was a different definition of
+what a smartphone should feel like.
+
+54
+00:03:24,829 --> 00:03:28,109
+The competition soon expanded
+beyond individual devices.
+
+55
+00:03:28,878 --> 00:03:31,781
+Apple launched its App Store in 2008.
+
+56
+00:03:32,140 --> 00:03:36,660
+Google's Android ecosystem began
+growing across multiple manufacturers.
+
+57
+00:03:37,232 --> 00:03:42,254
+Applications, developers, operating
+systems, and services became increasingly
+
+58
+00:03:42,294 --> 00:03:43,294
+important.
+
+59
+00:03:43,760 --> 00:03:49,267
+A smartphone was no longer judged only by
+its camera, battery, or physical design.
+
+60
+00:03:49,845 --> 00:03:54,089
+Its software ecosystem determined
+what users could do with it.
+
+61
+00:03:54,432 --> 00:03:59,496
+Nokia had services, applications,
+and an established operating system.
+
+62
+00:03:59,850 --> 00:04:04,501
+But the market was moving toward integrated
+platforms at extraordinary speed.
+
+63
+00:04:06,313 --> 00:04:10,292
+Nokia's principal smartphone
+operating system was Symbian.
+
+64
+00:04:10,716 --> 00:04:13,831
+It had helped power millions
+of capable devices.
+
+65
+00:04:14,636 --> 00:04:20,450
+But its legacy architecture and development
+complexity made competing in the new
+
+66
+00:04:20,490 --> 00:04:22,800
+touchscreen-centered market difficult.
+
+67
+00:04:23,359 --> 00:04:28,454
+Nokia continued investing in Symbian while
+pursuing alternative software strategies.
+
+68
+00:04:29,027 --> 00:04:31,986
+The challenge wasn't a complete
+absence of innovation.
+
+69
+00:04:32,640 --> 00:04:37,851
+It was the difficulty of coordinating that
+innovation into one competitive platform.
+
+70
+00:04:38,278 --> 00:04:44,188
+Every delay gave Apple and Android more
+time to attract customers, developers, and
+
+71
+00:04:44,228 --> 00:04:45,228
+manufacturers.
+
+72
+00:04:47,117 --> 00:04:50,263
+Nokia explored several
+routes into the future.
+
+73
+00:04:50,596 --> 00:04:52,633
+Symbian remained important.
+
+74
+00:04:53,210 --> 00:04:57,908
+MeeGo represented another attempt to
+build a modern smartphone platform.
+
+75
+00:04:58,361 --> 00:05:03,489
+The company also invested in services,
+mapping, and new user experiences.
+
+76
+00:05:04,118 --> 00:05:08,975
+These efforts showed that Nokia
+recognized the need for change.
+
+77
+00:05:09,576 --> 00:05:14,757
+But recognizing change and delivering a
+unified response are different problems.
+
+78
+00:05:15,311 --> 00:05:20,027
+Multiple technologies required resources,
+management attention, and difficult
+
+79
+00:05:20,067 --> 00:05:21,857
+prioritization decisions.
+
+80
+00:05:22,498 --> 00:05:25,501
+Meanwhile, the market was
+becoming less forgiving.
+
+81
+00:05:26,042 --> 00:05:30,477
+The longer Nokia's transition took,
+the harder catching up became.
+
+82
+00:05:32,318 --> 00:05:38,055
+In September 2010, Stephen Elop became
+Nokia's president and chief executive.
+
+83
+00:05:38,633 --> 00:05:43,407
+He inherited a company with enormous assets
+and a rapidly deteriorating competitive
+
+84
+00:05:43,447 --> 00:05:45,837
+position in high-end smartphones.
+
+85
+00:05:46,473 --> 00:05:50,339
+The question was no longer
+whether Nokia needed to change.
+
+86
+00:05:50,905 --> 00:05:51,905
+It was how.
+
+87
+00:05:52,068 --> 00:05:55,952
+Should Nokia continue developing
+its own smartphone platforms?
+
+88
+00:05:56,669 --> 00:05:58,376
+Should it embrace Android?
+
+89
+00:05:58,908 --> 00:06:01,481
+Or should it pursue a
+different partnership?
+
+90
+00:06:01,955 --> 00:06:03,798
+Each option carried risks.
+
+91
+00:06:04,353 --> 00:06:08,638
+But one decision would fundamentally
+redirect the company's future.
+
+92
+00:06:10,345 --> 00:06:16,573
+On February eleventh, 2011, Nokia and
+Microsoft announced a strategic partnership.
+
+93
+00:06:17,116 --> 00:06:21,382
+Windows Phone would become Nokia's
+primary smartphone platform.
+
+94
+00:06:21,931 --> 00:06:23,566
+The logic was ambitious.
+
+95
+00:06:24,307 --> 00:06:29,101
+Nokia would contribute hardware,
+distribution, and design expertise.
+
+96
+00:06:29,797 --> 00:06:35,319
+Microsoft would contribute software,
+services, and a broader technology ecosystem.
+
+97
+00:06:36,005 --> 00:06:41,268
+Together, they hoped to establish a
+powerful alternative to Apple and Android.
+
+98
+00:06:41,864 --> 00:06:46,767
+But Nokia was committing its smartphone
+future to a platform that had not yet
+
+99
+00:06:46,807 --> 00:06:49,077
+established comparable market scale.
+
+100
+00:06:49,534 --> 00:06:51,520
+It was a strategic gamble.
+
+101
+00:06:53,331 --> 00:06:56,142
+The partnership created
+an immediate problem.
+
+102
+00:06:56,586 --> 00:07:01,747
+Nokia needed customers to continue buying
+its existing smartphones while waiting for
+
+103
+00:07:01,787 --> 00:07:03,477
+its new Windows Phone products.
+
+104
+00:07:04,093 --> 00:07:08,102
+But the announcement made the
+company's future direction clear.
+
+105
+00:07:08,604 --> 00:07:11,753
+Symbian was no longer the
+long-term centerpiece.
+
+106
+00:07:12,556 --> 00:07:17,756
+In Nokia's own annual reporting, the company
+acknowledged that demand for Symbian
+
+107
+00:07:17,796 --> 00:07:21,906
+devices deteriorated faster than
+anticipated during the transition.
+
+108
+00:07:22,521 --> 00:07:25,683
+The new products needed time
+to establish themselves.
+
+109
+00:07:26,447 --> 00:07:28,694
+The old products were losing momentum.
+
+110
+00:07:29,275 --> 00:07:33,162
+Nokia was caught between two
+generations of its own strategy.
+
+111
+00:07:35,037 --> 00:07:41,497
+In October 2011, Nokia introduced its first
+Lumia smartphones running Windows Phone.
+
+112
+00:07:42,050 --> 00:07:47,389
+The Lumia family would showcase distinctive
+industrial design, imaging capabilities,
+
+113
+00:07:48,019 --> 00:07:50,169
+and Microsoft's mobile software.
+
+114
+00:07:50,790 --> 00:07:53,395
+These weren't simply poorly made phones.
+
+115
+00:07:54,031 --> 00:07:57,647
+Nokia continued demonstrating
+serious hardware expertise.
+
+116
+00:07:58,269 --> 00:08:00,500
+But strong hardware wasn't enough.
+
+117
+00:08:01,011 --> 00:08:06,337
+Apple and Android already had powerful
+ecosystems of users, developers,
+
+118
+00:08:07,067 --> 00:08:09,017
+applications, and commercial partners.
+
+119
+00:08:09,604 --> 00:08:13,491
+Nokia now needed to persuade
+people to join a third platform.
+
+120
+00:08:14,179 --> 00:08:17,315
+And platform competition rewards momentum.
+
+121
+00:08:19,197 --> 00:08:22,552
+Nokia's own financial
+reporting revealed the damage.
+
+122
+00:08:23,115 --> 00:08:28,252
+Its smartphone business faced declining
+Symbian demand, pressure on selling prices,
+
+123
+00:08:28,292 --> 00:08:31,322
+and difficulties during
+the platform transition.
+
+124
+00:08:31,843 --> 00:08:34,392
+The company was still
+selling millions of phones.
+
+125
+00:08:34,945 --> 00:08:38,318
+But scale alone no longer
+guaranteed leadership.
+
+126
+00:08:38,918 --> 00:08:42,128
+Customers were moving toward
+competing smartphone ecosystems.
+
+127
+00:08:42,958 --> 00:08:47,291
+Nokia's challenge was not merely producing
+an attractive replacement handset.
+
+128
+00:08:47,788 --> 00:08:52,024
+It needed to rebuild its position in
+a market whose software and developer
+
+129
+00:08:52,064 --> 00:08:55,054
+relationships were already
+shifting elsewhere.
+
+130
+00:08:55,459 --> 00:08:58,048
+Time had become its scarcest resource.
+
+131
+00:08:59,878 --> 00:09:05,720
+By September 2013, Nokia and Microsoft had
+agreed on the sale of substantially all
+
+132
+00:09:05,760 --> 00:09:08,410
+of Nokia's Devices and Services business.
+
+133
+00:09:08,958 --> 00:09:14,698
+The announced transaction price was
+approximately five point four four billion
+
+134
+00:09:14,908 --> 00:09:17,118
+euros, including
+patent-related arrangements.
+
+135
+00:09:17,747 --> 00:09:21,592
+On April twenty-fifth, 2014,
+the sale was completed.
+
+136
+00:09:22,151 --> 00:09:26,187
+Nokia retained important businesses
+and intellectual property.
+
+137
+00:09:26,708 --> 00:09:30,651
+It would continue as a major
+telecommunications technology company.
+
+138
+00:09:31,127 --> 00:09:35,707
+But the era of Nokia as the manufacturer
+behind one of the world's most recognizable
+
+139
+00:09:35,747 --> 00:09:38,257
+handset empires had ended.
+
+140
+00:09:39,948 --> 00:09:42,750
+So what destroyed Nokia's
+handset dominance?
+
+141
+00:09:43,343 --> 00:09:44,648
+Not one phone.
+
+142
+00:09:45,144 --> 00:09:46,821
+Not one competitor.
+
+143
+00:09:47,405 --> 00:09:49,828
+And not one executive decision.
+
+144
+00:09:50,352 --> 00:09:53,517
+The evidence points to an
+accumulation of problems.
+
+145
+00:09:54,095 --> 00:09:56,042
+Legacy software complexity.
+
+146
+00:09:56,633 --> 00:10:00,392
+Slow execution during a
+fundamental market transition.
+
+147
+00:10:01,107 --> 00:10:03,078
+Fragmented platform development.
+
+148
+00:10:03,789 --> 00:10:09,098
+And a late strategic commitment to an
+ecosystem that struggled to match its rivals.
+
+149
+00:10:09,625 --> 00:10:12,170
+Nokia's hardware strengths remained real.
+
+150
+00:10:12,599 --> 00:10:15,504
+But the industry's competitive
+advantage had moved.
+
+151
+00:10:16,043 --> 00:10:18,745
+The company could still
+build impressive phones.
+
+152
+00:10:19,379 --> 00:10:22,490
+It could no longer reliably
+win the platform battle.
+
+153
+00:10:24,211 --> 00:10:27,723
+Nokia's story contains a warning
+for every market leader.
+
+154
+00:10:28,216 --> 00:10:30,822
+Dominance is evidence of past success.
+
+155
+00:10:31,507 --> 00:10:33,594
+It is not proof of future relevance.
+
+156
+00:10:34,336 --> 00:10:38,000
+The greatest danger isn't always
+failing to recognize change.
+
+157
+00:10:38,639 --> 00:10:44,418
+Sometimes it's recognizing change, investing
+in it, and still moving too slowly to
+
+158
+00:10:44,458 --> 00:10:47,188
+turn that investment
+into a winning strategy.
+
+159
+00:10:47,595 --> 00:10:49,267
+Nokia didn't disappear.
+
+160
+00:10:49,877 --> 00:10:52,462
+It reinvented itself beyond handsets.
+
+161
+00:10:52,984 --> 00:10:58,286
+But its mobile phone empire became a case
+study in what happens when a company's
+
+162
+00:10:58,326 --> 00:11:03,536
+strongest capabilities no longer match
+the market's most important demands.
+
+163
+00:11:04,218 --> 00:11:06,110
+Every brand leaves evidence.
+
