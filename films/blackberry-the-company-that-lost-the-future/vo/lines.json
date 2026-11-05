@@ -1,0 +1,747 @@
+[
+ {
+  "id": "s01_01",
+  "text": "In 2010, one of the most powerful names in smartphones wasn't Apple.",
+  "scene": 1,
+  "say": "In twenty ten, one of the most powerful names in smartphones wasn't Apple."
+ },
+ {
+  "id": "s01_02",
+  "text": "It was BlackBerry.",
+  "scene": 1
+ },
+ {
+  "id": "s01_03",
+  "text": "In the United States, BlackBerry accounted for roughly forty-three percent of the smartphone installed base at the beginning of that year.",
+  "scene": 1
+ },
+ {
+  "id": "s01_04",
+  "text": "Its devices were trusted by businesses, governments, and millions of people who needed to stay connected.",
+  "scene": 1
+ },
+ {
+  "id": "s01_05",
+  "text": "But within just three years, its American market share would collapse into single digits.",
+  "scene": 1
+ },
+ {
+  "id": "s01_06",
+  "text": "How did a company that helped define the smartphone become one of its most famous casualties?",
+  "scene": 1
+ },
+ {
+  "id": "s02_01",
+  "text": "September twenty-eighth, 2016.",
+  "scene": 2,
+  "say": "September twenty-eighth, twenty sixteen."
+ },
+ {
+  "id": "s02_02",
+  "text": "BlackBerry announced it would end all internal smartphone hardware development.",
+  "scene": 2
+ },
+ {
+  "id": "s02_03",
+  "text": "Future hardware efforts would be outsourced to partners.",
+  "scene": 2
+ },
+ {
+  "id": "s02_04",
+  "text": "For a company once synonymous with the mobile phone, the decision was extraordinary.",
+  "scene": 2
+ },
+ {
+  "id": "s02_05",
+  "text": "BlackBerry wasn't going bankrupt.",
+  "scene": 2
+ },
+ {
+  "id": "s02_06",
+  "text": "It was redirecting its business toward software, security, and enterprise services.",
+  "scene": 2
+ },
+ {
+  "id": "s02_07",
+  "text": "But the announcement confirmed something the market had already decided.",
+  "scene": 2
+ },
+ {
+  "id": "s02_08",
+  "text": "The company that had made mobile email essential could no longer compete successfully as a major smartphone manufacturer.",
+  "scene": 2
+ },
+ {
+  "id": "s02_09",
+  "text": "The real story began decades earlier.",
+  "scene": 2
+ },
+ {
+  "id": "s03_01",
+  "text": "In 1984, Mike Lazaridis and Douglas Fregin founded Research In Motion in Waterloo, Canada.",
+  "scene": 3,
+  "say": "In nineteen eighty-four, Mike Lazza-riddis and Douglas Fregin founded Research In Motion in Waterloo, Canada."
+ },
+ {
+  "id": "s03_02",
+  "text": "The company specialized in wireless technology.",
+  "scene": 3
+ },
+ {
+  "id": "s03_03",
+  "text": "In the late nineteen-nineties, it began introducing devices that brought digital communication beyond the office.",
+  "scene": 3
+ },
+ {
+  "id": "s03_04",
+  "text": "The original BlackBerry solution launched in 1999.",
+  "scene": 3,
+  "say": "The original BlackBerry solution launched in nineteen ninety-nine."
+ },
+ {
+  "id": "s03_05",
+  "text": "Its central promise was powerful.",
+  "scene": 3
+ },
+ {
+  "id": "s03_06",
+  "text": "You no longer needed to sit at a desk to receive important messages.",
+  "scene": 3
+ },
+ {
+  "id": "s03_07",
+  "text": "For businesses, that changed the meaning of availability.",
+  "scene": 3
+ },
+ {
+  "id": "s03_08",
+  "text": "For Research In Motion, it created the foundation of a global technology empire.",
+  "scene": 3
+ },
+ {
+  "id": "s04_01",
+  "text": "BlackBerry built its reputation around three strengths.",
+  "scene": 4
+ },
+ {
+  "id": "s04_02",
+  "text": "Reliable mobile messaging.",
+  "scene": 4
+ },
+ {
+  "id": "s04_03",
+  "text": "Enterprise security.",
+  "scene": 4
+ },
+ {
+  "id": "s04_04",
+  "text": "And physical keyboards that made writing emails unusually practical.",
+  "scene": 4
+ },
+ {
+  "id": "s04_05",
+  "text": "BlackBerry Messenger added another reason to stay inside its ecosystem.",
+  "scene": 4
+ },
+ {
+  "id": "s04_06",
+  "text": "Users developed habits around the devices.",
+  "scene": 4
+ },
+ {
+  "id": "s04_07",
+  "text": "Organizations built systems around them.",
+  "scene": 4
+ },
+ {
+  "id": "s04_08",
+  "text": "And switching phones could mean abandoning a familiar way of working.",
+  "scene": 4
+ },
+ {
+  "id": "s04_09",
+  "text": "The company's products weren't merely communication tools.",
+  "scene": 4
+ },
+ {
+  "id": "s04_10",
+  "text": "They had become part of the daily operating system of business.",
+  "scene": 4
+ },
+ {
+  "id": "s04_11",
+  "text": "That loyalty would help BlackBerry grow.",
+  "scene": 4
+ },
+ {
+  "id": "s04_12",
+  "text": "It would also complicate its response to change.",
+  "scene": 4
+ },
+ {
+  "id": "s05_01",
+  "text": "On January ninth, 2007, Apple introduced the iPhone.",
+  "scene": 5,
+  "say": "On January ninth, two thousand seven, Apple introduced the iPhone."
+ },
+ {
+  "id": "s05_02",
+  "text": "It wasn't the first smartphone.",
+  "scene": 5
+ },
+ {
+  "id": "s05_03",
+  "text": "And BlackBerry didn't immediately disappear.",
+  "scene": 5
+ },
+ {
+  "id": "s05_04",
+  "text": "In fact, Research In Motion continued growing for several years.",
+  "scene": 5
+ },
+ {
+  "id": "s05_05",
+  "text": "But the iPhone emphasized a different product experience.",
+  "scene": 5
+ },
+ {
+  "id": "s05_06",
+  "text": "A large touchscreen.",
+  "scene": 5
+ },
+ {
+  "id": "s05_07",
+  "text": "A browser designed for the mobile internet.",
+  "scene": 5
+ },
+ {
+  "id": "s05_08",
+  "text": "And software built around direct interaction.",
+  "scene": 5
+ },
+ {
+  "id": "s05_09",
+  "text": "BlackBerry had optimized the smartphone for messaging.",
+  "scene": 5
+ },
+ {
+  "id": "s05_10",
+  "text": "Apple was helping redefine it as a general-purpose pocket computer.",
+  "scene": 5
+ },
+ {
+  "id": "s05_11",
+  "text": "The difference would become increasingly important.",
+  "scene": 5
+ },
+ {
+  "id": "s06_01",
+  "text": "In 2008, Apple launched the App Store.",
+  "scene": 6,
+  "say": "In two thousand eight, Apple launched the App Store."
+ },
+ {
+  "id": "s06_02",
+  "text": "Android devices also began entering the market.",
+  "scene": 6
+ },
+ {
+  "id": "s06_03",
+  "text": "The smartphone battle was becoming a platform war.",
+  "scene": 6
+ },
+ {
+  "id": "s06_04",
+  "text": "Applications mattered.",
+  "scene": 6
+ },
+ {
+  "id": "s06_05",
+  "text": "Developers mattered.",
+  "scene": 6
+ },
+ {
+  "id": "s06_06",
+  "text": "And the operating system increasingly determined the value of the device.",
+  "scene": 6
+ },
+ {
+  "id": "s06_07",
+  "text": "BlackBerry had its own applications and services.",
+  "scene": 6
+ },
+ {
+  "id": "s06_08",
+  "text": "But Apple and Android began building broader consumer ecosystems.",
+  "scene": 6
+ },
+ {
+  "id": "s06_09",
+  "text": "The phone was no longer primarily a secure communications device.",
+  "scene": 6
+ },
+ {
+  "id": "s06_10",
+  "text": "It was becoming a camera, entertainment system, navigation tool, shopping platform, and workplace.",
+  "scene": 6
+ },
+ {
+  "id": "s06_11",
+  "text": "All in one.",
+  "scene": 6
+ },
+ {
+  "id": "s07_01",
+  "text": "BlackBerry's physical keyboard was one of its greatest competitive advantages.",
+  "scene": 7
+ },
+ {
+  "id": "s07_02",
+  "text": "But a strength can become a constraint when customer expectations change.",
+  "scene": 7
+ },
+ {
+  "id": "s07_03",
+  "text": "Larger touchscreens gave applications more room.",
+  "scene": 7
+ },
+ {
+  "id": "s07_04",
+  "text": "They supported new interfaces and experiences.",
+  "scene": 7
+ },
+ {
+  "id": "s07_05",
+  "text": "BlackBerry experimented with touchscreen devices and hybrid designs, including the Storm and Torch families.",
+  "scene": 7
+ },
+ {
+  "id": "s07_06",
+  "text": "So it would be inaccurate to say the company refused to build touchscreen phones.",
+  "scene": 7
+ },
+ {
+  "id": "s07_07",
+  "text": "The problem was deeper.",
+  "scene": 7
+ },
+ {
+  "id": "s07_08",
+  "text": "BlackBerry struggled to move from a keyboard-centered product philosophy toward a competitive, software-first platform.",
+  "scene": 7
+ },
+ {
+  "id": "s07_09",
+  "text": "And the market wasn't waiting.",
+  "scene": 7
+ },
+ {
+  "id": "s08_01",
+  "text": "The numbers revealed how quickly the balance was changing.",
+  "scene": 8
+ },
+ {
+  "id": "s08_02",
+  "text": "In December 2009, BlackBerry represented approximately forty-two percent of the United States smartphone installed base.",
+  "scene": 8,
+  "say": "In December two thousand nine, BlackBerry represented approximately forty-two percent of the United States smartphone installed base."
+ },
+ {
+  "id": "s08_03",
+  "text": "By September 2011, that figure had fallen to roughly nineteen percent.",
+  "scene": 8,
+  "say": "By September twenty eleven, that figure had fallen to roughly nineteen percent."
+ },
+ {
+  "id": "s08_04",
+  "text": "By September 2013, it was around four percent.",
+  "scene": 8,
+  "say": "By September twenty thirteen, it was around four percent."
+ },
+ {
+  "id": "s08_05",
+  "text": "During the same period, Apple and Android gained enormous ground.",
+  "scene": 8
+ },
+ {
+  "id": "s08_06",
+  "text": "These were not global shipment figures.",
+  "scene": 8
+ },
+ {
+  "id": "s08_07",
+  "text": "They measured the American smartphone installed base.",
+  "scene": 8
+ },
+ {
+  "id": "s08_08",
+  "text": "But the trend was unmistakable.",
+  "scene": 8
+ },
+ {
+  "id": "s08_09",
+  "text": "BlackBerry was losing the market where it had once been exceptionally strong.",
+  "scene": 8
+ },
+ {
+  "id": "s09_01",
+  "text": "In 2011, Research In Motion introduced the BlackBerry PlayBook tablet.",
+  "scene": 9,
+  "say": "In twenty eleven, Research In Motion introduced the BlackBerry PlayBook tablet."
+ },
+ {
+  "id": "s09_02",
+  "text": "It used a new operating-system foundation based on technology acquired through QNX.",
+  "scene": 9,
+  "say": "It used a new operating-system foundation based on technology acquired through Q N X."
+ },
+ {
+  "id": "s09_03",
+  "text": "The device demonstrated that the company was investing in a more modern software architecture.",
+  "scene": 9
+ },
+ {
+  "id": "s09_04",
+  "text": "But the launch was troubled.",
+  "scene": 9
+ },
+ {
+  "id": "s09_05",
+  "text": "The PlayBook initially lacked native email, calendar, and contacts applications, requiring integration with a BlackBerry smartphone for some familiar functions.",
+  "scene": 9
+ },
+ {
+  "id": "s09_06",
+  "text": "For a company whose reputation had been built on messaging, the omissions were especially damaging.",
+  "scene": 9
+ },
+ {
+  "id": "s09_07",
+  "text": "BlackBerry was trying to reinvent its software.",
+  "scene": 9
+ },
+ {
+  "id": "s09_08",
+  "text": "The execution was proving difficult.",
+  "scene": 9
+ },
+ {
+  "id": "s10_01",
+  "text": "Then came another blow.",
+  "scene": 10
+ },
+ {
+  "id": "s10_02",
+  "text": "In October 2011, BlackBerry suffered a major service outage affecting customers across multiple continents.",
+  "scene": 10,
+  "say": "In October twenty eleven, BlackBerry suffered a major service outage affecting customers across multiple continents."
+ },
+ {
+  "id": "s10_03",
+  "text": "Email, messaging, and internet services were disrupted.",
+  "scene": 10
+ },
+ {
+  "id": "s10_04",
+  "text": "The failure began in its network infrastructure, and backup systems did not work as intended.",
+  "scene": 10
+ },
+ {
+  "id": "s10_05",
+  "text": "For a company whose brand depended on dependable communication, the incident was particularly painful.",
+  "scene": 10
+ },
+ {
+  "id": "s10_06",
+  "text": "The outage didn't cause BlackBerry's decline by itself.",
+  "scene": 10
+ },
+ {
+  "id": "s10_07",
+  "text": "But it exposed the risks of a tightly managed communications ecosystem.",
+  "scene": 10
+ },
+ {
+  "id": "s10_08",
+  "text": "And it arrived while competitors were gaining ground.",
+  "scene": 10
+ },
+ {
+  "id": "s11_01",
+  "text": "On January thirtieth, 2013, Research In Motion introduced BlackBerry 10.",
+  "scene": 11,
+  "say": "On January thirtieth, twenty thirteen, Research In Motion introduced BlackBerry ten."
+ },
+ {
+  "id": "s11_02",
+  "text": "The company also adopted BlackBerry as its corporate name.",
+  "scene": 11
+ },
+ {
+  "id": "s11_03",
+  "text": "Its new smartphones included the touchscreen Z10 and keyboard-equipped Q10.",
+  "scene": 11,
+  "say": "Its new smartphones included the touchscreen Z ten and keyboard-equipped Q ten."
+ },
+ {
+  "id": "s11_04",
+  "text": "This was not a company refusing to innovate.",
+  "scene": 11
+ },
+ {
+  "id": "s11_05",
+  "text": "BlackBerry had developed a substantially redesigned operating system with new gestures, multitasking features, and messaging tools.",
+  "scene": 11
+ },
+ {
+  "id": "s11_06",
+  "text": "But the platform arrived after years of rapid growth by iOS and Android.",
+  "scene": 11,
+  "say": "But the platform arrived after years of rapid growth by eye-O-S and Android."
+ },
+ {
+  "id": "s11_07",
+  "text": "The challenge was no longer simply building a better BlackBerry.",
+  "scene": 11
+ },
+ {
+  "id": "s11_08",
+  "text": "It was convincing users and developers to invest in another ecosystem.",
+  "scene": 11
+ },
+ {
+  "id": "s12_01",
+  "text": "By 2013, Apple and Android had established powerful network effects.",
+  "scene": 12,
+  "say": "By twenty thirteen, Apple and Android had established powerful network effects."
+ },
+ {
+  "id": "s12_02",
+  "text": "Developers prioritized platforms with large audiences.",
+  "scene": 12
+ },
+ {
+  "id": "s12_03",
+  "text": "Customers preferred platforms offering the applications they wanted.",
+  "scene": 12
+ },
+ {
+  "id": "s12_04",
+  "text": "And those preferences reinforced each other.",
+  "scene": 12
+ },
+ {
+  "id": "s12_05",
+  "text": "BlackBerry faced a difficult cycle.",
+  "scene": 12
+ },
+ {
+  "id": "s12_06",
+  "text": "It needed applications to attract users.",
+  "scene": 12
+ },
+ {
+  "id": "s12_07",
+  "text": "But it needed users to attract developers.",
+  "scene": 12
+ },
+ {
+  "id": "s12_08",
+  "text": "Even strong hardware and a redesigned operating system could not instantly solve that problem.",
+  "scene": 12
+ },
+ {
+  "id": "s12_09",
+  "text": "BlackBerry had been early to mobile communication.",
+  "scene": 12
+ },
+ {
+  "id": "s12_10",
+  "text": "But in the new platform economy, it was struggling to regain momentum.",
+  "scene": 12
+ },
+ {
+  "id": "s13_01",
+  "text": "BlackBerry's financial statements reflected the pressure.",
+  "scene": 13
+ },
+ {
+  "id": "s13_02",
+  "text": "Its fiscal 2014 reporting documented declining handset demand, intense competition, and substantial financial losses.",
+  "scene": 13,
+  "say": "Its fiscal twenty fourteen reporting documented declining handset demand, intense competition, and substantial financial losses."
+ },
+ {
+  "id": "s13_03",
+  "text": "The company recorded significant inventory-related charges as its product strategy struggled.",
+  "scene": 13
+ },
+ {
+  "id": "s13_04",
+  "text": "BlackBerry 10 had not delivered the recovery management had hoped for.",
+  "scene": 13,
+  "say": "BlackBerry ten had not delivered the recovery management had hoped for."
+ },
+ {
+  "id": "s13_05",
+  "text": "The company still possessed valuable technology, patents, enterprise relationships, and security expertise.",
+  "scene": 13
+ },
+ {
+  "id": "s13_06",
+  "text": "But the handset business was no longer the engine of growth it had once been.",
+  "scene": 13
+ },
+ {
+  "id": "s13_07",
+  "text": "The company needed a different future.",
+  "scene": 13
+ },
+ {
+  "id": "s14_01",
+  "text": "In November 2013, John Chen became BlackBerry's chief executive.",
+  "scene": 14,
+  "say": "In November twenty thirteen, John Chen became BlackBerry's chief executive."
+ },
+ {
+  "id": "s14_02",
+  "text": "He accelerated a shift toward enterprise software, security, and services.",
+  "scene": 14
+ },
+ {
+  "id": "s14_03",
+  "text": "BlackBerry also experimented with Android-powered devices.",
+  "scene": 14
+ },
+ {
+  "id": "s14_04",
+  "text": "But in September 2016, the company announced it would stop developing smartphone hardware internally.",
+  "scene": 14,
+  "say": "But in September twenty sixteen, the company announced it would stop developing smartphone hardware internally."
+ },
+ {
+  "id": "s14_05",
+  "text": "Future branded devices could still be produced through licensing and manufacturing partnerships.",
+  "scene": 14
+ },
+ {
+  "id": "s14_06",
+  "text": "The distinction matters.",
+  "scene": 14
+ },
+ {
+  "id": "s14_07",
+  "text": "BlackBerry did not instantly abandon every phone bearing its name.",
+  "scene": 14
+ },
+ {
+  "id": "s14_08",
+  "text": "It abandoned the model of competing as a vertically integrated smartphone hardware manufacturer.",
+  "scene": 14
+ },
+ {
+  "id": "s15_01",
+  "text": "So what caused BlackBerry's collapse in smartphones?",
+  "scene": 15
+ },
+ {
+  "id": "s15_02",
+  "text": "Not simply the iPhone.",
+  "scene": 15
+ },
+ {
+  "id": "s15_03",
+  "text": "And not simply the keyboard.",
+  "scene": 15
+ },
+ {
+  "id": "s15_04",
+  "text": "The evidence points to a combination of problems.",
+  "scene": 15
+ },
+ {
+  "id": "s15_05",
+  "text": "A product identity centered on messaging while the market expanded toward applications.",
+  "scene": 15
+ },
+ {
+  "id": "s15_06",
+  "text": "Difficulty executing a modern software transition.",
+  "scene": 15
+ },
+ {
+  "id": "s15_07",
+  "text": "A growing disadvantage in developer ecosystems.",
+  "scene": 15
+ },
+ {
+  "id": "s15_08",
+  "text": "And a delayed response to competitors whose platforms were gaining scale.",
+  "scene": 15
+ },
+ {
+  "id": "s15_09",
+  "text": "BlackBerry understood mobile communication better than almost anyone.",
+  "scene": 15
+ },
+ {
+  "id": "s15_10",
+  "text": "But understanding the old market was not enough to win the new one.",
+  "scene": 15
+ },
+ {
+  "id": "s16_01",
+  "text": "BlackBerry's downfall reveals a dangerous paradox.",
+  "scene": 16
+ },
+ {
+  "id": "s16_02",
+  "text": "The capabilities that make a company successful can become the assumptions that limit its future.",
+  "scene": 16
+ },
+ {
+  "id": "s16_03",
+  "text": "BlackBerry built a communications empire around reliability, security, and productivity.",
+  "scene": 16
+ },
+ {
+  "id": "s16_04",
+  "text": "Those strengths were real.",
+  "scene": 16
+ },
+ {
+  "id": "s16_05",
+  "text": "But the smartphone became something bigger than the product BlackBerry had perfected.",
+  "scene": 16
+ },
+ {
+  "id": "s16_06",
+  "text": "The company survived by changing its business.",
+  "scene": 16
+ },
+ {
+  "id": "s16_07",
+  "text": "Its handset dominance did not.",
+  "scene": 16
+ },
+ {
+  "id": "s16_08",
+  "text": "And that is the lesson.",
+  "scene": 16
+ },
+ {
+  "id": "s16_09",
+  "text": "A market leader doesn't have to stop innovating to fall behind.",
+  "scene": 16
+ },
+ {
+  "id": "s16_10",
+  "text": "Sometimes it innovates in a direction the market has already moved beyond.",
+  "scene": 16
+ },
+ {
+  "id": "s16_11",
+  "text": "Every brand leaves evidence.",
+  "scene": 16
+ }
+]

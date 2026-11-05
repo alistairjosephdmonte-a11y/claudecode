@@ -1,0 +1,2168 @@
+{
+ "total": 689.874,
+ "scenes": [
+  {
+   "i": 1,
+   "base": 0.0,
+   "dur": 38.522,
+   "n": 6,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     2.75
+    ],
+    [
+     5.5,
+     8.006
+    ],
+    [
+     10.0,
+     9.655
+    ],
+    [
+     14.5,
+     18.142
+    ],
+    [
+     19.0,
+     25.217
+    ],
+    [
+     23.5,
+     31.656
+    ],
+    [
+     30.0,
+     38.522
+    ]
+   ]
+  },
+  {
+   "i": 2,
+   "base": 38.522,
+   "dur": 42.484,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     3.101
+    ],
+    [
+     7.0,
+     8.444
+    ],
+    [
+     10.0,
+     12.339
+    ],
+    [
+     13.0,
+     17.644
+    ],
+    [
+     16.0,
+     20.385
+    ],
+    [
+     19.0,
+     26.445
+    ],
+    [
+     22.0,
+     30.671
+    ],
+    [
+     25.0,
+     38.395
+    ],
+    [
+     30.0,
+     42.484
+    ]
+   ]
+  },
+  {
+   "i": 3,
+   "base": 81.006,
+   "dur": 42.076,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     7.997
+    ],
+    [
+     7.75,
+     11.639
+    ],
+    [
+     11.125,
+     19.197
+    ],
+    [
+     14.5,
+     23.976
+    ],
+    [
+     17.875,
+     26.606
+    ],
+    [
+     21.25,
+     31.204
+    ],
+    [
+     24.625,
+     35.12
+    ],
+    [
+     30.0,
+     42.076
+    ]
+   ]
+  },
+  {
+   "i": 4,
+   "base": 123.082,
+   "dur": 46.861,
+   "n": 12,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.25,
+     4.287
+    ],
+    [
+     5.5,
+     6.576
+    ],
+    [
+     7.75,
+     8.493
+    ],
+    [
+     10.0,
+     14.018
+    ],
+    [
+     12.25,
+     19.494
+    ],
+    [
+     14.5,
+     22.714
+    ],
+    [
+     16.75,
+     25.696
+    ],
+    [
+     19.0,
+     30.701
+    ],
+    [
+     21.25,
+     34.298
+    ],
+    [
+     23.5,
+     38.556
+    ],
+    [
+     25.75,
+     41.555
+    ],
+    [
+     30.0,
+     46.861
+    ]
+   ]
+  },
+  {
+   "i": 5,
+   "base": 169.943,
+   "dur": 40.871,
+   "n": 11,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.4545454545454546,
+     5.549
+    ],
+    [
+     5.909090909090909,
+     7.692
+    ],
+    [
+     8.363636363636363,
+     10.64
+    ],
+    [
+     10.818181818181818,
+     15.568
+    ],
+    [
+     13.272727272727273,
+     19.732
+    ],
+    [
+     15.727272727272727,
+     21.63
+    ],
+    [
+     18.181818181818183,
+     24.686
+    ],
+    [
+     20.636363636363637,
+     28.85
+    ],
+    [
+     23.09090909090909,
+     32.55
+    ],
+    [
+     25.545454545454547,
+     36.945
+    ],
+    [
+     30.0,
+     40.871
+    ]
+   ]
+  },
+  {
+   "i": 6,
+   "base": 210.814,
+   "dur": 43.39,
+   "n": 11,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.4545454545454546,
+     3.892
+    ],
+    [
+     5.909090909090909,
+     7.243
+    ],
+    [
+     8.363636363636363,
+     11.168
+    ],
+    [
+     10.818181818181818,
+     13.152
+    ],
+    [
+     13.272727272727273,
+     14.938
+    ],
+    [
+     15.727272727272727,
+     20.544
+    ],
+    [
+     18.181818181818183,
+     24.261
+    ],
+    [
+     20.636363636363637,
+     29.3
+    ],
+    [
+     23.09090909090909,
+     34.393
+    ],
+    [
+     25.545454545454547,
+     41.033
+    ],
+    [
+     30.0,
+     43.39
+    ]
+   ]
+  },
+  {
+   "i": 7,
+   "base": 254.204,
+   "dur": 44.59,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     5.191
+    ],
+    [
+     7.0,
+     10.697
+    ],
+    [
+     10.0,
+     14.405
+    ],
+    [
+     13.0,
+     18.096
+    ],
+    [
+     16.0,
+     25.837
+    ],
+    [
+     19.0,
+     31.665
+    ],
+    [
+     22.0,
+     33.777
+    ],
+    [
+     25.0,
+     41.533
+    ],
+    [
+     30.0,
+     44.59
+    ]
+   ]
+  },
+  {
+   "i": 8,
+   "base": 298.794,
+   "dur": 43.51,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     4.516
+    ],
+    [
+     7.0,
+     13.443
+    ],
+    [
+     10.0,
+     18.539
+    ],
+    [
+     13.0,
+     22.757
+    ],
+    [
+     16.0,
+     28.191
+    ],
+    [
+     19.0,
+     31.109
+    ],
+    [
+     22.0,
+     34.939
+    ],
+    [
+     25.0,
+     37.509
+    ],
+    [
+     30.0,
+     43.51
+    ]
+   ]
+  },
+  {
+   "i": 9,
+   "base": 342.304,
+   "dur": 45.581,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     6.052
+    ],
+    [
+     7.75,
+     13.047
+    ],
+    [
+     11.125,
+     19.019
+    ],
+    [
+     14.5,
+     21.199
+    ],
+    [
+     17.875,
+     31.628
+    ],
+    [
+     21.25,
+     38.356
+    ],
+    [
+     24.625,
+     42.079
+    ],
+    [
+     30.0,
+     45.581
+    ]
+   ]
+  },
+  {
+   "i": 10,
+   "base": 387.885,
+   "dur": 41.375,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     2.363
+    ],
+    [
+     7.75,
+     10.107
+    ],
+    [
+     11.125,
+     13.878
+    ],
+    [
+     14.5,
+     20.338
+    ],
+    [
+     17.875,
+     26.974
+    ],
+    [
+     21.25,
+     31.332
+    ],
+    [
+     24.625,
+     36.706
+    ],
+    [
+     30.0,
+     41.375
+    ]
+   ]
+  },
+  {
+   "i": 11,
+   "base": 429.26,
+   "dur": 45.651,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     6.845
+    ],
+    [
+     7.75,
+     10.661
+    ],
+    [
+     11.125,
+     16.772
+    ],
+    [
+     14.5,
+     19.906
+    ],
+    [
+     17.875,
+     29.068
+    ],
+    [
+     21.25,
+     35.12
+    ],
+    [
+     24.625,
+     38.988
+    ],
+    [
+     30.0,
+     45.651
+    ]
+   ]
+  },
+  {
+   "i": 12,
+   "base": 474.911,
+   "dur": 43.314,
+   "n": 10,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.7,
+     6.15
+    ],
+    [
+     6.4,
+     10.257
+    ],
+    [
+     9.1,
+     14.637
+    ],
+    [
+     11.8,
+     17.931
+    ],
+    [
+     14.5,
+     20.678
+    ],
+    [
+     17.2,
+     24.032
+    ],
+    [
+     19.9,
+     27.485
+    ],
+    [
+     22.6,
+     34.278
+    ],
+    [
+     25.3,
+     37.517
+    ],
+    [
+     30.0,
+     43.314
+    ]
+   ]
+  },
+  {
+   "i": 13,
+   "base": 518.225,
+   "dur": 40.31,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     4.007
+    ],
+    [
+     8.714285714285715,
+     12.916
+    ],
+    [
+     12.571428571428571,
+     19.277
+    ],
+    [
+     16.42857142857143,
+     24.241
+    ],
+    [
+     20.285714285714285,
+     31.861
+    ],
+    [
+     24.142857142857142,
+     36.622
+    ],
+    [
+     30.0,
+     40.31
+    ]
+   ]
+  },
+  {
+   "i": 14,
+   "base": 558.535,
+   "dur": 42.214,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     5.868
+    ],
+    [
+     7.75,
+     11.722
+    ],
+    [
+     11.125,
+     16.207
+    ],
+    [
+     14.5,
+     22.65
+    ],
+    [
+     17.875,
+     29.176
+    ],
+    [
+     21.25,
+     31.243
+    ],
+    [
+     24.625,
+     35.631
+    ],
+    [
+     30.0,
+     42.214
+    ]
+   ]
+  },
+  {
+   "i": 15,
+   "base": 600.749,
+   "dur": 39.916,
+   "n": 10,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.7,
+     4.338
+    ],
+    [
+     6.4,
+     6.324
+    ],
+    [
+     9.1,
+     8.399
+    ],
+    [
+     11.8,
+     11.725
+    ],
+    [
+     14.5,
+     17.348
+    ],
+    [
+     17.2,
+     20.908
+    ],
+    [
+     19.9,
+     24.58
+    ],
+    [
+     22.6,
+     29.358
+    ],
+    [
+     25.3,
+     34.311
+    ],
+    [
+     30.0,
+     39.916
+    ]
+   ]
+  },
+  {
+   "i": 16,
+   "base": 640.665,
+   "dur": 49.209,
+   "n": 11,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.4545454545454546,
+     4.617
+    ],
+    [
+     5.909090909090909,
+     10.91
+    ],
+    [
+     8.363636363636363,
+     16.895
+    ],
+    [
+     10.818181818181818,
+     19.05
+    ],
+    [
+     13.272727272727273,
+     24.519
+    ],
+    [
+     15.727272727272727,
+     27.979
+    ],
+    [
+     18.181818181818183,
+     30.502
+    ],
+    [
+     20.636363636363637,
+     32.346
+    ],
+    [
+     23.09090909090909,
+     36.476
+    ],
+    [
+     25.545454545454547,
+     41.29
+    ],
+    [
+     30.0,
+     49.209
+    ]
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "s01_01",
+   "text": "In 2010, one of the most powerful names in smartphones wasn't Apple.",
+   "scene": 1,
+   "say": "In twenty ten, one of the most powerful names in smartphones wasn't Apple.",
+   "t": 3.0,
+   "local": 3.0,
+   "dur": 4.806,
+   "trim": 0.381
+  },
+  {
+   "id": "s01_02",
+   "text": "It was BlackBerry.",
+   "scene": 1,
+   "t": 8.256,
+   "local": 8.256,
+   "dur": 1.198,
+   "trim": 0.083
+  },
+  {
+   "id": "s01_03",
+   "text": "In the United States, BlackBerry accounted for roughly forty-three percent of the smartphone installed base at the beginning of that year.",
+   "scene": 1,
+   "t": 9.905,
+   "local": 9.905,
+   "dur": 8.037,
+   "trim": 0.344
+  },
+  {
+   "id": "s01_04",
+   "text": "Its devices were trusted by businesses, governments, and millions of people who needed to stay connected.",
+   "scene": 1,
+   "t": 18.392,
+   "local": 18.392,
+   "dur": 6.625,
+   "trim": 0.203
+  },
+  {
+   "id": "s01_05",
+   "text": "But within just three years, its American market share would collapse into single digits.",
+   "scene": 1,
+   "t": 25.467,
+   "local": 25.467,
+   "dur": 5.989,
+   "trim": 0.19
+  },
+  {
+   "id": "s01_06",
+   "text": "How did a company that helped define the smartphone become one of its most famous casualties?",
+   "scene": 1,
+   "t": 31.906,
+   "local": 31.906,
+   "dur": 5.515,
+   "trim": 0.204
+  },
+  {
+   "id": "s02_01",
+   "text": "September twenty-eighth, 2016.",
+   "scene": 2,
+   "say": "September twenty-eighth, twenty sixteen.",
+   "t": 39.122,
+   "local": 0.6,
+   "dur": 2.301,
+   "trim": 0.131
+  },
+  {
+   "id": "s02_02",
+   "text": "BlackBerry announced it would end all internal smartphone hardware development.",
+   "scene": 2,
+   "t": 41.873,
+   "local": 3.351,
+   "dur": 4.893,
+   "trim": 0.187
+  },
+  {
+   "id": "s02_03",
+   "text": "Future hardware efforts would be outsourced to partners.",
+   "scene": 2,
+   "t": 47.216,
+   "local": 8.694,
+   "dur": 3.445,
+   "trim": 0.212
+  },
+  {
+   "id": "s02_04",
+   "text": "For a company once synonymous with the mobile phone, the decision was extraordinary.",
+   "scene": 2,
+   "t": 51.111,
+   "local": 12.589,
+   "dur": 4.855,
+   "trim": 0.193
+  },
+  {
+   "id": "s02_05",
+   "text": "BlackBerry wasn't going bankrupt.",
+   "scene": 2,
+   "t": 56.416,
+   "local": 17.894,
+   "dur": 2.291,
+   "trim": 0.177
+  },
+  {
+   "id": "s02_06",
+   "text": "It was redirecting its business toward software, security, and enterprise services.",
+   "scene": 2,
+   "t": 59.157,
+   "local": 20.635,
+   "dur": 5.61,
+   "trim": 0.224
+  },
+  {
+   "id": "s02_07",
+   "text": "But the announcement confirmed something the market had already decided.",
+   "scene": 2,
+   "t": 65.217,
+   "local": 26.695,
+   "dur": 3.776,
+   "trim": 0.163
+  },
+  {
+   "id": "s02_08",
+   "text": "The company that had made mobile email essential could no longer compete successfully as a major smartphone manufacturer.",
+   "scene": 2,
+   "t": 69.443,
+   "local": 30.921,
+   "dur": 7.274,
+   "trim": 0.209
+  },
+  {
+   "id": "s02_09",
+   "text": "The real story began decades earlier.",
+   "scene": 2,
+   "t": 77.167,
+   "local": 38.645,
+   "dur": 2.74,
+   "trim": 0.204
+  },
+  {
+   "id": "s03_01",
+   "text": "In 1984, Mike Lazaridis and Douglas Fregin founded Research In Motion in Waterloo, Canada.",
+   "scene": 3,
+   "say": "In nineteen eighty-four, Mike Lazza-riddis and Douglas Fregin founded Research In Motion in Waterloo, Canada.",
+   "t": 81.606,
+   "local": 0.6,
+   "dur": 7.197,
+   "trim": 0.159
+  },
+  {
+   "id": "s03_02",
+   "text": "The company specialized in wireless technology.",
+   "scene": 3,
+   "t": 89.253,
+   "local": 8.247,
+   "dur": 3.192,
+   "trim": 0.12
+  },
+  {
+   "id": "s03_03",
+   "text": "In the late nineteen-nineties, it began introducing devices that brought digital communication beyond the office.",
+   "scene": 3,
+   "t": 92.895,
+   "local": 11.889,
+   "dur": 7.108,
+   "trim": 0.227
+  },
+  {
+   "id": "s03_04",
+   "text": "The original BlackBerry solution launched in 1999.",
+   "scene": 3,
+   "say": "The original BlackBerry solution launched in nineteen ninety-nine.",
+   "t": 100.453,
+   "local": 19.447,
+   "dur": 4.329,
+   "trim": 0.16
+  },
+  {
+   "id": "s03_05",
+   "text": "Its central promise was powerful.",
+   "scene": 3,
+   "t": 105.232,
+   "local": 24.226,
+   "dur": 2.18,
+   "trim": 0.094
+  },
+  {
+   "id": "s03_06",
+   "text": "You no longer needed to sit at a desk to receive important messages.",
+   "scene": 3,
+   "t": 107.862,
+   "local": 26.856,
+   "dur": 4.148,
+   "trim": 0.181
+  },
+  {
+   "id": "s03_07",
+   "text": "For businesses, that changed the meaning of availability.",
+   "scene": 3,
+   "t": 112.46,
+   "local": 31.454,
+   "dur": 3.466,
+   "trim": 0.153
+  },
+  {
+   "id": "s03_08",
+   "text": "For Research In Motion, it created the foundation of a global technology empire.",
+   "scene": 3,
+   "t": 116.376,
+   "local": 35.37,
+   "dur": 5.606,
+   "trim": 0.171
+  },
+  {
+   "id": "s04_01",
+   "text": "BlackBerry built its reputation around three strengths.",
+   "scene": 4,
+   "t": 123.682,
+   "local": 0.6,
+   "dur": 3.487,
+   "trim": 0.09
+  },
+  {
+   "id": "s04_02",
+   "text": "Reliable mobile messaging.",
+   "scene": 4,
+   "t": 127.619,
+   "local": 4.537,
+   "dur": 1.84,
+   "trim": 0.147
+  },
+  {
+   "id": "s04_03",
+   "text": "Enterprise security.",
+   "scene": 4,
+   "t": 129.908,
+   "local": 6.826,
+   "dur": 1.467,
+   "trim": 0.143
+  },
+  {
+   "id": "s04_04",
+   "text": "And physical keyboards that made writing emails unusually practical.",
+   "scene": 4,
+   "t": 131.825,
+   "local": 8.743,
+   "dur": 5.075,
+   "trim": 0.007
+  },
+  {
+   "id": "s04_05",
+   "text": "BlackBerry Messenger added another reason to stay inside its ecosystem.",
+   "scene": 4,
+   "t": 137.35,
+   "local": 14.268,
+   "dur": 5.026,
+   "trim": 0.214
+  },
+  {
+   "id": "s04_06",
+   "text": "Users developed habits around the devices.",
+   "scene": 4,
+   "t": 142.826,
+   "local": 19.744,
+   "dur": 2.77,
+   "trim": 0.201
+  },
+  {
+   "id": "s04_07",
+   "text": "Organizations built systems around them.",
+   "scene": 4,
+   "t": 146.046,
+   "local": 22.964,
+   "dur": 2.532,
+   "trim": 0.189
+  },
+  {
+   "id": "s04_08",
+   "text": "And switching phones could mean abandoning a familiar way of working.",
+   "scene": 4,
+   "t": 149.028,
+   "local": 25.946,
+   "dur": 4.554,
+   "trim": 0.006
+  },
+  {
+   "id": "s04_09",
+   "text": "The company's products weren't merely communication tools.",
+   "scene": 4,
+   "t": 154.033,
+   "local": 30.951,
+   "dur": 3.147,
+   "trim": 0.22
+  },
+  {
+   "id": "s04_10",
+   "text": "They had become part of the daily operating system of business.",
+   "scene": 4,
+   "t": 157.63,
+   "local": 34.548,
+   "dur": 3.809,
+   "trim": 0.079
+  },
+  {
+   "id": "s04_11",
+   "text": "That loyalty would help BlackBerry grow.",
+   "scene": 4,
+   "t": 161.888,
+   "local": 38.806,
+   "dur": 2.549,
+   "trim": 0.139
+  },
+  {
+   "id": "s04_12",
+   "text": "It would also complicate its response to change.",
+   "scene": 4,
+   "t": 164.887,
+   "local": 41.805,
+   "dur": 3.956,
+   "trim": 0.164
+  },
+  {
+   "id": "s05_01",
+   "text": "On January ninth, 2007, Apple introduced the iPhone.",
+   "scene": 5,
+   "say": "On January ninth, two thousand seven, Apple introduced the iPhone.",
+   "t": 170.543,
+   "local": 0.6,
+   "dur": 4.749,
+   "trim": 0.123
+  },
+  {
+   "id": "s05_02",
+   "text": "It wasn't the first smartphone.",
+   "scene": 5,
+   "t": 175.742,
+   "local": 5.799,
+   "dur": 1.693,
+   "trim": 0.337
+  },
+  {
+   "id": "s05_03",
+   "text": "And BlackBerry didn't immediately disappear.",
+   "scene": 5,
+   "t": 177.885,
+   "local": 7.942,
+   "dur": 2.497,
+   "trim": 0.147
+  },
+  {
+   "id": "s05_04",
+   "text": "In fact, Research In Motion continued growing for several years.",
+   "scene": 5,
+   "t": 180.833,
+   "local": 10.89,
+   "dur": 4.478,
+   "trim": 0.161
+  },
+  {
+   "id": "s05_05",
+   "text": "But the iPhone emphasized a different product experience.",
+   "scene": 5,
+   "t": 185.76,
+   "local": 15.818,
+   "dur": 3.714,
+   "trim": 0.182
+  },
+  {
+   "id": "s05_06",
+   "text": "A large touchscreen.",
+   "scene": 5,
+   "t": 189.925,
+   "local": 19.982,
+   "dur": 1.448,
+   "trim": 0.128
+  },
+  {
+   "id": "s05_07",
+   "text": "A browser designed for the mobile internet.",
+   "scene": 5,
+   "t": 191.823,
+   "local": 21.88,
+   "dur": 2.606,
+   "trim": 0.169
+  },
+  {
+   "id": "s05_08",
+   "text": "And software built around direct interaction.",
+   "scene": 5,
+   "t": 194.879,
+   "local": 24.936,
+   "dur": 3.714,
+   "trim": 0.053
+  },
+  {
+   "id": "s05_09",
+   "text": "BlackBerry had optimized the smartphone for messaging.",
+   "scene": 5,
+   "t": 199.043,
+   "local": 29.1,
+   "dur": 3.249,
+   "trim": 0.163
+  },
+  {
+   "id": "s05_10",
+   "text": "Apple was helping redefine it as a general-purpose pocket computer.",
+   "scene": 5,
+   "t": 202.743,
+   "local": 32.8,
+   "dur": 3.945,
+   "trim": 0.22
+  },
+  {
+   "id": "s05_11",
+   "text": "The difference would become increasingly important.",
+   "scene": 5,
+   "t": 207.138,
+   "local": 37.195,
+   "dur": 2.576,
+   "trim": 0.191
+  },
+  {
+   "id": "s06_01",
+   "text": "In 2008, Apple launched the App Store.",
+   "scene": 6,
+   "say": "In two thousand eight, Apple launched the App Store.",
+   "t": 211.414,
+   "local": 0.6,
+   "dur": 3.092,
+   "trim": 0.196
+  },
+  {
+   "id": "s06_02",
+   "text": "Android devices also began entering the market.",
+   "scene": 6,
+   "t": 214.956,
+   "local": 4.142,
+   "dur": 2.902,
+   "trim": 0.181
+  },
+  {
+   "id": "s06_03",
+   "text": "The smartphone battle was becoming a platform war.",
+   "scene": 6,
+   "t": 218.307,
+   "local": 7.493,
+   "dur": 3.474,
+   "trim": 0.159
+  },
+  {
+   "id": "s06_04",
+   "text": "Applications mattered.",
+   "scene": 6,
+   "t": 222.231,
+   "local": 11.418,
+   "dur": 1.535,
+   "trim": 0.165
+  },
+  {
+   "id": "s06_05",
+   "text": "Developers mattered.",
+   "scene": 6,
+   "t": 224.216,
+   "local": 13.402,
+   "dur": 1.336,
+   "trim": 0.159
+  },
+  {
+   "id": "s06_06",
+   "text": "And the operating system increasingly determined the value of the device.",
+   "scene": 6,
+   "t": 226.002,
+   "local": 15.188,
+   "dur": 5.156,
+   "trim": 0.2
+  },
+  {
+   "id": "s06_07",
+   "text": "BlackBerry had its own applications and services.",
+   "scene": 6,
+   "t": 231.608,
+   "local": 20.794,
+   "dur": 3.267,
+   "trim": 0.172
+  },
+  {
+   "id": "s06_08",
+   "text": "But Apple and Android began building broader consumer ecosystems.",
+   "scene": 6,
+   "t": 235.325,
+   "local": 24.511,
+   "dur": 4.589,
+   "trim": 0.18
+  },
+  {
+   "id": "s06_09",
+   "text": "The phone was no longer primarily a secure communications device.",
+   "scene": 6,
+   "t": 240.364,
+   "local": 29.55,
+   "dur": 4.643,
+   "trim": 0.198
+  },
+  {
+   "id": "s06_10",
+   "text": "It was becoming a camera, entertainment system, navigation tool, shopping platform, and workplace.",
+   "scene": 6,
+   "t": 245.457,
+   "local": 34.643,
+   "dur": 6.19,
+   "trim": 0.19
+  },
+  {
+   "id": "s06_11",
+   "text": "All in one.",
+   "scene": 6,
+   "t": 252.097,
+   "local": 41.283,
+   "dur": 1.006,
+   "trim": 0.067
+  },
+  {
+   "id": "s07_01",
+   "text": "BlackBerry's physical keyboard was one of its greatest competitive advantages.",
+   "scene": 7,
+   "t": 254.804,
+   "local": 0.6,
+   "dur": 4.391,
+   "trim": 0.216
+  },
+  {
+   "id": "s07_02",
+   "text": "But a strength can become a constraint when customer expectations change.",
+   "scene": 7,
+   "t": 259.645,
+   "local": 5.441,
+   "dur": 5.056,
+   "trim": 0.164
+  },
+  {
+   "id": "s07_03",
+   "text": "Larger touchscreens gave applications more room.",
+   "scene": 7,
+   "t": 265.151,
+   "local": 10.947,
+   "dur": 3.258,
+   "trim": 0.126
+  },
+  {
+   "id": "s07_04",
+   "text": "They supported new interfaces and experiences.",
+   "scene": 7,
+   "t": 268.859,
+   "local": 14.655,
+   "dur": 3.241,
+   "trim": 0.119
+  },
+  {
+   "id": "s07_05",
+   "text": "BlackBerry experimented with touchscreen devices and hybrid designs, including the Storm and Torch families.",
+   "scene": 7,
+   "t": 272.55,
+   "local": 18.346,
+   "dur": 7.291,
+   "trim": 0.239
+  },
+  {
+   "id": "s07_06",
+   "text": "So it would be inaccurate to say the company refused to build touchscreen phones.",
+   "scene": 7,
+   "t": 280.291,
+   "local": 26.087,
+   "dur": 5.378,
+   "trim": 0.1
+  },
+  {
+   "id": "s07_07",
+   "text": "The problem was deeper.",
+   "scene": 7,
+   "t": 286.119,
+   "local": 31.915,
+   "dur": 1.662,
+   "trim": 0.11
+  },
+  {
+   "id": "s07_08",
+   "text": "BlackBerry struggled to move from a keyboard-centered product philosophy toward a competitive, software-first platform.",
+   "scene": 7,
+   "t": 288.231,
+   "local": 34.027,
+   "dur": 7.306,
+   "trim": 0.178
+  },
+  {
+   "id": "s07_09",
+   "text": "And the market wasn't waiting.",
+   "scene": 7,
+   "t": 295.987,
+   "local": 41.783,
+   "dur": 1.707,
+   "trim": 0.157
+  },
+  {
+   "id": "s08_01",
+   "text": "The numbers revealed how quickly the balance was changing.",
+   "scene": 8,
+   "t": 299.394,
+   "local": 0.6,
+   "dur": 3.716,
+   "trim": 0.161
+  },
+  {
+   "id": "s08_02",
+   "text": "In December 2009, BlackBerry represented approximately forty-two percent of the United States smartphone installed base.",
+   "scene": 8,
+   "say": "In December two thousand nine, BlackBerry represented approximately forty-two percent of the United States smartphone installed base.",
+   "t": 303.56,
+   "local": 4.766,
+   "dur": 8.477,
+   "trim": 0.191
+  },
+  {
+   "id": "s08_03",
+   "text": "By September 2011, that figure had fallen to roughly nineteen percent.",
+   "scene": 8,
+   "say": "By September twenty eleven, that figure had fallen to roughly nineteen percent.",
+   "t": 312.487,
+   "local": 13.693,
+   "dur": 4.645,
+   "trim": 0.194
+  },
+  {
+   "id": "s08_04",
+   "text": "By September 2013, it was around four percent.",
+   "scene": 8,
+   "say": "By September twenty thirteen, it was around four percent.",
+   "t": 317.583,
+   "local": 18.789,
+   "dur": 3.768,
+   "trim": 0.18
+  },
+  {
+   "id": "s08_05",
+   "text": "During the same period, Apple and Android gained enormous ground.",
+   "scene": 8,
+   "t": 321.801,
+   "local": 23.007,
+   "dur": 4.985,
+   "trim": 0.179
+  },
+  {
+   "id": "s08_06",
+   "text": "These were not global shipment figures.",
+   "scene": 8,
+   "t": 327.235,
+   "local": 28.441,
+   "dur": 2.468,
+   "trim": 0.167
+  },
+  {
+   "id": "s08_07",
+   "text": "They measured the American smartphone installed base.",
+   "scene": 8,
+   "t": 330.153,
+   "local": 31.359,
+   "dur": 3.38,
+   "trim": 0.162
+  },
+  {
+   "id": "s08_08",
+   "text": "But the trend was unmistakable.",
+   "scene": 8,
+   "t": 333.983,
+   "local": 35.189,
+   "dur": 2.12,
+   "trim": 0.161
+  },
+  {
+   "id": "s08_09",
+   "text": "BlackBerry was losing the market where it had once been exceptionally strong.",
+   "scene": 8,
+   "t": 336.553,
+   "local": 37.759,
+   "dur": 4.65,
+   "trim": 0.164
+  },
+  {
+   "id": "s09_01",
+   "text": "In 2011, Research In Motion introduced the BlackBerry PlayBook tablet.",
+   "scene": 9,
+   "say": "In twenty eleven, Research In Motion introduced the BlackBerry PlayBook tablet.",
+   "t": 342.904,
+   "local": 0.6,
+   "dur": 5.252,
+   "trim": 0.213
+  },
+  {
+   "id": "s09_02",
+   "text": "It used a new operating-system foundation based on technology acquired through QNX.",
+   "scene": 9,
+   "say": "It used a new operating-system foundation based on technology acquired through Q N X.",
+   "t": 348.605,
+   "local": 6.302,
+   "dur": 6.546,
+   "trim": 0.214
+  },
+  {
+   "id": "s09_03",
+   "text": "The device demonstrated that the company was investing in a more modern software architecture.",
+   "scene": 9,
+   "t": 355.601,
+   "local": 13.297,
+   "dur": 5.522,
+   "trim": 0.21
+  },
+  {
+   "id": "s09_04",
+   "text": "But the launch was troubled.",
+   "scene": 9,
+   "t": 361.573,
+   "local": 19.269,
+   "dur": 1.73,
+   "trim": 0.187
+  },
+  {
+   "id": "s09_05",
+   "text": "The PlayBook initially lacked native email, calendar, and contacts applications, requiring integration with a BlackBerry smartphone for some familiar functions.",
+   "scene": 9,
+   "t": 363.753,
+   "local": 21.449,
+   "dur": 9.98,
+   "trim": 0.199
+  },
+  {
+   "id": "s09_06",
+   "text": "For a company whose reputation had been built on messaging, the omissions were especially damaging.",
+   "scene": 9,
+   "t": 374.182,
+   "local": 31.878,
+   "dur": 6.278,
+   "trim": 0.203
+  },
+  {
+   "id": "s09_07",
+   "text": "BlackBerry was trying to reinvent its software.",
+   "scene": 9,
+   "t": 380.91,
+   "local": 38.606,
+   "dur": 3.273,
+   "trim": 0.1
+  },
+  {
+   "id": "s09_08",
+   "text": "The execution was proving difficult.",
+   "scene": 9,
+   "t": 384.633,
+   "local": 42.329,
+   "dur": 2.152,
+   "trim": 0.179
+  },
+  {
+   "id": "s10_01",
+   "text": "Then came another blow.",
+   "scene": 10,
+   "t": 388.485,
+   "local": 0.6,
+   "dur": 1.563,
+   "trim": 0.102
+  },
+  {
+   "id": "s10_02",
+   "text": "In October 2011, BlackBerry suffered a major service outage affecting customers across multiple continents.",
+   "scene": 10,
+   "say": "In October twenty eleven, BlackBerry suffered a major service outage affecting customers across multiple continents.",
+   "t": 390.498,
+   "local": 2.613,
+   "dur": 7.294,
+   "trim": 0.184
+  },
+  {
+   "id": "s10_03",
+   "text": "Email, messaging, and internet services were disrupted.",
+   "scene": 10,
+   "t": 398.242,
+   "local": 10.357,
+   "dur": 3.321,
+   "trim": 0.151
+  },
+  {
+   "id": "s10_04",
+   "text": "The failure began in its network infrastructure, and backup systems did not work as intended.",
+   "scene": 10,
+   "t": 402.013,
+   "local": 14.128,
+   "dur": 6.01,
+   "trim": 0.27
+  },
+  {
+   "id": "s10_05",
+   "text": "For a company whose brand depended on dependable communication, the incident was particularly painful.",
+   "scene": 10,
+   "t": 408.473,
+   "local": 20.588,
+   "dur": 6.187,
+   "trim": 0.202
+  },
+  {
+   "id": "s10_06",
+   "text": "The outage didn't cause BlackBerry's decline by itself.",
+   "scene": 10,
+   "t": 415.109,
+   "local": 27.224,
+   "dur": 3.907,
+   "trim": 0.147
+  },
+  {
+   "id": "s10_07",
+   "text": "But it exposed the risks of a tightly managed communications ecosystem.",
+   "scene": 10,
+   "t": 419.467,
+   "local": 31.582,
+   "dur": 4.924,
+   "trim": 0.185
+  },
+  {
+   "id": "s10_08",
+   "text": "And it arrived while competitors were gaining ground.",
+   "scene": 10,
+   "t": 424.841,
+   "local": 36.956,
+   "dur": 3.319,
+   "trim": 0.118
+  },
+  {
+   "id": "s11_01",
+   "text": "On January thirtieth, 2013, Research In Motion introduced BlackBerry 10.",
+   "scene": 11,
+   "say": "On January thirtieth, twenty thirteen, Research In Motion introduced BlackBerry ten.",
+   "t": 429.86,
+   "local": 0.6,
+   "dur": 6.045,
+   "trim": 0.239
+  },
+  {
+   "id": "s11_02",
+   "text": "The company also adopted BlackBerry as its corporate name.",
+   "scene": 11,
+   "t": 436.355,
+   "local": 7.095,
+   "dur": 3.366,
+   "trim": 0.399
+  },
+  {
+   "id": "s11_03",
+   "text": "Its new smartphones included the touchscreen Z10 and keyboard-equipped Q10.",
+   "scene": 11,
+   "say": "Its new smartphones included the touchscreen Z ten and keyboard-equipped Q ten.",
+   "t": 440.171,
+   "local": 10.911,
+   "dur": 5.661,
+   "trim": 0.164
+  },
+  {
+   "id": "s11_04",
+   "text": "This was not a company refusing to innovate.",
+   "scene": 11,
+   "t": 446.282,
+   "local": 17.022,
+   "dur": 2.685,
+   "trim": 0.203
+  },
+  {
+   "id": "s11_05",
+   "text": "BlackBerry had developed a substantially redesigned operating system with new gestures, multitasking features, and messaging tools.",
+   "scene": 11,
+   "t": 449.416,
+   "local": 20.156,
+   "dur": 8.712,
+   "trim": 0.195
+  },
+  {
+   "id": "s11_06",
+   "text": "But the platform arrived after years of rapid growth by iOS and Android.",
+   "scene": 11,
+   "say": "But the platform arrived after years of rapid growth by eye-O-S and Android.",
+   "t": 458.578,
+   "local": 29.318,
+   "dur": 5.602,
+   "trim": 0.176
+  },
+  {
+   "id": "s11_07",
+   "text": "The challenge was no longer simply building a better BlackBerry.",
+   "scene": 11,
+   "t": 464.63,
+   "local": 35.37,
+   "dur": 3.419,
+   "trim": 0.193
+  },
+  {
+   "id": "s11_08",
+   "text": "It was convincing users and developers to invest in another ecosystem.",
+   "scene": 11,
+   "t": 468.498,
+   "local": 39.238,
+   "dur": 5.312,
+   "trim": 0.235
+  },
+  {
+   "id": "s12_01",
+   "text": "By 2013, Apple and Android had established powerful network effects.",
+   "scene": 12,
+   "say": "By twenty thirteen, Apple and Android had established powerful network effects.",
+   "t": 475.511,
+   "local": 0.6,
+   "dur": 5.35,
+   "trim": 0.183
+  },
+  {
+   "id": "s12_02",
+   "text": "Developers prioritized platforms with large audiences.",
+   "scene": 12,
+   "t": 481.311,
+   "local": 6.4,
+   "dur": 3.657,
+   "trim": 0.181
+  },
+  {
+   "id": "s12_03",
+   "text": "Customers preferred platforms offering the applications they wanted.",
+   "scene": 12,
+   "t": 485.418,
+   "local": 10.507,
+   "dur": 3.93,
+   "trim": 0.218
+  },
+  {
+   "id": "s12_04",
+   "text": "And those preferences reinforced each other.",
+   "scene": 12,
+   "t": 489.798,
+   "local": 14.887,
+   "dur": 2.844,
+   "trim": 0.127
+  },
+  {
+   "id": "s12_05",
+   "text": "BlackBerry faced a difficult cycle.",
+   "scene": 12,
+   "t": 493.092,
+   "local": 18.181,
+   "dur": 2.296,
+   "trim": 0.398
+  },
+  {
+   "id": "s12_06",
+   "text": "It needed applications to attract users.",
+   "scene": 12,
+   "t": 495.839,
+   "local": 20.928,
+   "dur": 2.905,
+   "trim": 0.202
+  },
+  {
+   "id": "s12_07",
+   "text": "But it needed users to attract developers.",
+   "scene": 12,
+   "t": 499.193,
+   "local": 24.282,
+   "dur": 3.003,
+   "trim": 0.094
+  },
+  {
+   "id": "s12_08",
+   "text": "Even strong hardware and a redesigned operating system could not instantly solve that problem.",
+   "scene": 12,
+   "t": 502.646,
+   "local": 27.735,
+   "dur": 6.343,
+   "trim": 0.15
+  },
+  {
+   "id": "s12_09",
+   "text": "BlackBerry had been early to mobile communication.",
+   "scene": 12,
+   "t": 509.439,
+   "local": 34.528,
+   "dur": 2.789,
+   "trim": 0.195
+  },
+  {
+   "id": "s12_10",
+   "text": "But in the new platform economy, it was struggling to regain momentum.",
+   "scene": 12,
+   "t": 512.678,
+   "local": 37.767,
+   "dur": 4.447,
+   "trim": 0.22
+  },
+  {
+   "id": "s13_01",
+   "text": "BlackBerry's financial statements reflected the pressure.",
+   "scene": 13,
+   "t": 518.825,
+   "local": 0.6,
+   "dur": 3.207,
+   "trim": 0.12
+  },
+  {
+   "id": "s13_02",
+   "text": "Its fiscal 2014 reporting documented declining handset demand, intense competition, and substantial financial losses.",
+   "scene": 13,
+   "say": "Its fiscal twenty fourteen reporting documented declining handset demand, intense competition, and substantial financial losses.",
+   "t": 522.482,
+   "local": 4.257,
+   "dur": 8.459,
+   "trim": 0.163
+  },
+  {
+   "id": "s13_03",
+   "text": "The company recorded significant inventory-related charges as its product strategy struggled.",
+   "scene": 13,
+   "t": 531.39,
+   "local": 13.166,
+   "dur": 5.912,
+   "trim": 0.173
+  },
+  {
+   "id": "s13_04",
+   "text": "BlackBerry 10 had not delivered the recovery management had hoped for.",
+   "scene": 13,
+   "say": "BlackBerry ten had not delivered the recovery management had hoped for.",
+   "t": 537.752,
+   "local": 19.527,
+   "dur": 4.514,
+   "trim": 0.178
+  },
+  {
+   "id": "s13_05",
+   "text": "The company still possessed valuable technology, patents, enterprise relationships, and security expertise.",
+   "scene": 13,
+   "t": 542.716,
+   "local": 24.491,
+   "dur": 7.169,
+   "trim": 0.199
+  },
+  {
+   "id": "s13_06",
+   "text": "But the handset business was no longer the engine of growth it had once been.",
+   "scene": 13,
+   "t": 550.336,
+   "local": 32.111,
+   "dur": 4.312,
+   "trim": 0.181
+  },
+  {
+   "id": "s13_07",
+   "text": "The company needed a different future.",
+   "scene": 13,
+   "t": 555.097,
+   "local": 36.872,
+   "dur": 2.337,
+   "trim": 0.367
+  },
+  {
+   "id": "s14_01",
+   "text": "In November 2013, John Chen became BlackBerry's chief executive.",
+   "scene": 14,
+   "say": "In November twenty thirteen, John Chen became BlackBerry's chief executive.",
+   "t": 559.135,
+   "local": 0.6,
+   "dur": 5.068,
+   "trim": 0.212
+  },
+  {
+   "id": "s14_02",
+   "text": "He accelerated a shift toward enterprise software, security, and services.",
+   "scene": 14,
+   "t": 564.653,
+   "local": 6.118,
+   "dur": 5.404,
+   "trim": 0.196
+  },
+  {
+   "id": "s14_03",
+   "text": "BlackBerry also experimented with Android-powered devices.",
+   "scene": 14,
+   "t": 570.507,
+   "local": 11.972,
+   "dur": 4.035,
+   "trim": 0.218
+  },
+  {
+   "id": "s14_04",
+   "text": "But in September 2016, the company announced it would stop developing smartphone hardware internally.",
+   "scene": 14,
+   "say": "But in September twenty sixteen, the company announced it would stop developing smartphone hardware internally.",
+   "t": 574.992,
+   "local": 16.457,
+   "dur": 5.993,
+   "trim": 0.161
+  },
+  {
+   "id": "s14_05",
+   "text": "Future branded devices could still be produced through licensing and manufacturing partnerships.",
+   "scene": 14,
+   "t": 581.435,
+   "local": 22.9,
+   "dur": 6.075,
+   "trim": 0.116
+  },
+  {
+   "id": "s14_06",
+   "text": "The distinction matters.",
+   "scene": 14,
+   "t": 587.961,
+   "local": 29.426,
+   "dur": 1.617,
+   "trim": 0.183
+  },
+  {
+   "id": "s14_07",
+   "text": "BlackBerry did not instantly abandon every phone bearing its name.",
+   "scene": 14,
+   "t": 590.028,
+   "local": 31.493,
+   "dur": 3.938,
+   "trim": 0.183
+  },
+  {
+   "id": "s14_08",
+   "text": "It abandoned the model of competing as a vertically integrated smartphone hardware manufacturer.",
+   "scene": 14,
+   "t": 594.416,
+   "local": 35.881,
+   "dur": 5.233,
+   "trim": 0.144
+  },
+  {
+   "id": "s15_01",
+   "text": "So what caused BlackBerry's collapse in smartphones?",
+   "scene": 15,
+   "t": 601.349,
+   "local": 0.6,
+   "dur": 3.538,
+   "trim": 0.184
+  },
+  {
+   "id": "s15_02",
+   "text": "Not simply the iPhone.",
+   "scene": 15,
+   "t": 605.337,
+   "local": 4.588,
+   "dur": 1.535,
+   "trim": 0.055
+  },
+  {
+   "id": "s15_03",
+   "text": "And not simply the keyboard.",
+   "scene": 15,
+   "t": 607.323,
+   "local": 6.574,
+   "dur": 1.625,
+   "trim": 0.113
+  },
+  {
+   "id": "s15_04",
+   "text": "The evidence points to a combination of problems.",
+   "scene": 15,
+   "t": 609.398,
+   "local": 8.649,
+   "dur": 2.876,
+   "trim": 0.365
+  },
+  {
+   "id": "s15_05",
+   "text": "A product identity centered on messaging while the market expanded toward applications.",
+   "scene": 15,
+   "t": 612.724,
+   "local": 11.975,
+   "dur": 5.174,
+   "trim": 0.226
+  },
+  {
+   "id": "s15_06",
+   "text": "Difficulty executing a modern software transition.",
+   "scene": 15,
+   "t": 618.347,
+   "local": 17.598,
+   "dur": 3.109,
+   "trim": 0.183
+  },
+  {
+   "id": "s15_07",
+   "text": "A growing disadvantage in developer ecosystems.",
+   "scene": 15,
+   "t": 621.907,
+   "local": 21.158,
+   "dur": 3.223,
+   "trim": 0.395
+  },
+  {
+   "id": "s15_08",
+   "text": "And a delayed response to competitors whose platforms were gaining scale.",
+   "scene": 15,
+   "t": 625.579,
+   "local": 24.83,
+   "dur": 4.328,
+   "trim": 0.182
+  },
+  {
+   "id": "s15_09",
+   "text": "BlackBerry understood mobile communication better than almost anyone.",
+   "scene": 15,
+   "t": 630.357,
+   "local": 29.608,
+   "dur": 4.503,
+   "trim": 0.201
+  },
+  {
+   "id": "s15_10",
+   "text": "But understanding the old market was not enough to win the new one.",
+   "scene": 15,
+   "t": 635.31,
+   "local": 34.561,
+   "dur": 4.255,
+   "trim": 0.15
+  },
+  {
+   "id": "s16_01",
+   "text": "BlackBerry's downfall reveals a dangerous paradox.",
+   "scene": 16,
+   "t": 641.265,
+   "local": 0.6,
+   "dur": 3.817,
+   "trim": 0.14
+  },
+  {
+   "id": "s16_02",
+   "text": "The capabilities that make a company successful can become the assumptions that limit its future.",
+   "scene": 16,
+   "t": 645.532,
+   "local": 4.867,
+   "dur": 5.844,
+   "trim": 0.006
+  },
+  {
+   "id": "s16_03",
+   "text": "BlackBerry built a communications empire around reliability, security, and productivity.",
+   "scene": 16,
+   "t": 651.825,
+   "local": 11.16,
+   "dur": 5.534,
+   "trim": 0.221
+  },
+  {
+   "id": "s16_04",
+   "text": "Those strengths were real.",
+   "scene": 16,
+   "t": 657.81,
+   "local": 17.145,
+   "dur": 1.705,
+   "trim": 0.192
+  },
+  {
+   "id": "s16_05",
+   "text": "But the smartphone became something bigger than the product BlackBerry had perfected.",
+   "scene": 16,
+   "t": 659.965,
+   "local": 19.3,
+   "dur": 5.019,
+   "trim": 0.149
+  },
+  {
+   "id": "s16_06",
+   "text": "The company survived by changing its business.",
+   "scene": 16,
+   "t": 665.434,
+   "local": 24.769,
+   "dur": 3.01,
+   "trim": 0.277
+  },
+  {
+   "id": "s16_07",
+   "text": "Its handset dominance did not.",
+   "scene": 16,
+   "t": 668.894,
+   "local": 28.229,
+   "dur": 2.073,
+   "trim": 0.141
+  },
+  {
+   "id": "s16_08",
+   "text": "And that is the lesson.",
+   "scene": 16,
+   "t": 671.417,
+   "local": 30.752,
+   "dur": 1.394,
+   "trim": 0.186
+  },
+  {
+   "id": "s16_09",
+   "text": "A market leader doesn't have to stop innovating to fall behind.",
+   "scene": 16,
+   "t": 673.261,
+   "local": 32.596,
+   "dur": 3.679,
+   "trim": 0.186
+  },
+  {
+   "id": "s16_10",
+   "text": "Sometimes it innovates in a direction the market has already moved beyond.",
+   "scene": 16,
+   "t": 677.391,
+   "local": 36.726,
+   "dur": 4.364,
+   "trim": 0.144
+  },
+  {
+   "id": "s16_11",
+   "text": "Every brand leaves evidence.",
+   "scene": 16,
+   "t": 682.205,
+   "local": 41.54,
+   "dur": 2.17,
+   "trim": 0.187
+  }
+ ]
+}
