@@ -1,0 +1,805 @@
+1
+00:00:02,950 --> 00:00:07,494
+Before Google became a verb, before
+Facebook connected billions, and before
+
+2
+00:00:07,534 --> 00:00:11,604
+smartphones put the internet in
+everyone's pocket, there was Yahoo.
+
+3
+00:00:12,133 --> 00:00:15,420
+For millions of people,
+Yahoo was the internet.
+
+4
+00:00:16,048 --> 00:00:20,065
+It was where they searched, checked their
+email, followed the news, and discovered
+
+5
+00:00:20,105 --> 00:00:21,575
+what was happening online.
+
+6
+00:00:22,319 --> 00:00:26,275
+At the height of the dot-com boom, the
+company was valued at more than one hundred
+
+7
+00:00:26,315 --> 00:00:27,585
+billion dollars.
+
+8
+00:00:28,562 --> 00:00:33,766
+But in 2017, Yahoo's core operating
+business was sold to Verizon.
+
+9
+00:00:34,392 --> 00:00:37,989
+How did an internet pioneer
+lose control of its future?
+
+10
+00:00:39,803 --> 00:00:42,073
+June thirteenth, 2017.
+
+11
+00:00:42,618 --> 00:00:47,042
+Verizon completed its acquisition
+of Yahoo's operating business.
+
+12
+00:00:47,654 --> 00:00:50,836
+The amended purchase agreement had set the
+price at approximately four point four
+
+13
+00:00:50,876 --> 00:00:54,906
+eight billion dollars,
+subject to adjustments.
+
+14
+00:00:55,603 --> 00:00:59,057
+The final accounting reflected a
+different closing consideration.
+
+15
+00:00:59,750 --> 00:01:05,422
+And importantly, Yahoo's valuable investments
+in Alibaba and Yahoo Japan were not
+
+16
+00:01:05,462 --> 00:01:06,462
+part of the sale.
+
+17
+00:01:06,887 --> 00:01:10,010
+So this was not the entire
+company's value disappearing.
+
+18
+00:01:10,586 --> 00:01:14,869
+It was the end of Yahoo as an
+independent internet operating business.
+
+19
+00:01:15,386 --> 00:01:19,115
+To understand how it happened, we
+need to return to the beginning.
+
+20
+00:01:20,789 --> 00:01:28,102
+In 1994, two Stanford graduate students,
+Jerry Yang and David Filo, began organizing
+
+21
+00:01:28,142 --> 00:01:30,072
+websites into a directory.
+
+22
+00:01:30,601 --> 00:01:34,826
+They called it Jerry and David's
+Guide to the World Wide Web.
+
+23
+00:01:35,353 --> 00:01:36,658
+The idea was simple.
+
+24
+00:01:37,149 --> 00:01:40,696
+The internet was growing faster
+than people could navigate it.
+
+25
+00:01:41,072 --> 00:01:43,387
+Someone needed to organize the chaos.
+
+26
+00:01:43,982 --> 00:01:46,173
+Their project became Yahoo.
+
+27
+00:01:46,817 --> 00:01:52,298
+And as the web expanded, Yahoo became one
+of its most recognizable destinations.
+
+28
+00:01:53,155 --> 00:01:56,118
+The company went public in April 1996.
+
+29
+00:01:57,054 --> 00:01:59,859
+It had found something
+extraordinarily valuable.
+
+30
+00:02:00,370 --> 00:02:03,573
+A place at the beginning of
+the internet user's journey.
+
+31
+00:02:05,263 --> 00:02:08,613
+Yahoo expanded far beyond
+its original directory.
+
+32
+00:02:09,253 --> 00:02:13,880
+Email. News. Finance. Sports.
+Shopping. Entertainment.
+
+33
+00:02:14,384 --> 00:02:18,603
+Its strategy was to become a central
+destination for everything people wanted
+
+34
+00:02:18,643 --> 00:02:19,643
+online.
+
+35
+00:02:20,048 --> 00:02:23,336
+That created enormous
+opportunities for advertising.
+
+36
+00:02:23,930 --> 00:02:29,063
+The more users visited Yahoo's services,
+the more valuable its audience became to
+
+37
+00:02:29,103 --> 00:02:30,103
+advertisers.
+
+38
+00:02:30,541 --> 00:02:32,897
+For a time, the strategy worked.
+
+39
+00:02:33,359 --> 00:02:35,560
+Yahoo wasn't simply a search engine.
+
+40
+00:02:36,050 --> 00:02:40,546
+It was a collection of internet services,
+held together by one of the world's most
+
+41
+00:02:40,586 --> 00:02:41,996
+recognizable brands.
+
+42
+00:02:42,546 --> 00:02:45,370
+But a different model of
+the internet was emerging.
+
+43
+00:02:47,081 --> 00:02:49,452
+Google approached the
+internet differently.
+
+44
+00:02:49,964 --> 00:02:55,224
+Instead of asking users to browse through
+a directory or spend time on a portal, it
+
+45
+00:02:55,264 --> 00:02:58,754
+concentrated on helping them
+find the most relevant answer.
+
+46
+00:02:59,182 --> 00:03:02,241
+Its search technology
+improved as the web grew.
+
+47
+00:03:02,723 --> 00:03:07,921
+And its advertising business increasingly
+connected commercial intent with search
+
+48
+00:03:07,961 --> 00:03:08,961
+results.
+
+49
+00:03:09,312 --> 00:03:13,574
+Yahoo had search technology and
+search partnerships of its own.
+
+50
+00:03:13,968 --> 00:03:18,052
+But Google's focus created a
+powerful competitive advantage.
+
+51
+00:03:18,631 --> 00:03:23,395
+The contest was no longer simply about
+attracting the largest audience.
+
+52
+00:03:23,772 --> 00:03:27,616
+It was about owning the moment
+when someone wanted an answer.
+
+53
+00:03:29,200 --> 00:03:34,209
+One of Yahoo's most famous missed
+opportunities involves Google itself.
+
+54
+00:03:34,822 --> 00:03:39,973
+Contemporary reporting describes acquisition
+discussions in the early two-thousands.
+
+55
+00:03:40,286 --> 00:03:44,719
+In one widely reported account, Yahoo
+explored buying Google for roughly three
+
+56
+00:03:44,759 --> 00:03:48,169
+billion dollars, but a
+deal never happened.
+
+57
+00:03:48,595 --> 00:03:52,512
+The negotiations were more complicated
+than the familiar story that Yahoo simply
+
+58
+00:03:52,552 --> 00:03:55,022
+rejected Google for one million dollars.
+
+59
+00:03:55,978 --> 00:03:58,337
+What matters is the strategic question.
+
+60
+00:03:58,928 --> 00:04:03,938
+Yahoo had an opportunity to become more
+deeply involved in Google's future.
+
+61
+00:04:04,337 --> 00:04:08,729
+Instead, Google developed into its
+most formidable search competitor.
+
+62
+00:04:10,542 --> 00:04:12,684
+Yahoo did not stand still.
+
+63
+00:04:13,025 --> 00:04:18,996
+It acquired search technology company
+Inktomi and paid-search specialist Overture.
+
+64
+00:04:19,309 --> 00:04:24,935
+These acquisitions gave Yahoo important
+capabilities in web search and advertising.
+
+65
+00:04:25,515 --> 00:04:31,216
+In 2004, Yahoo stopped relying on Google's
+search results and launched its own
+
+66
+00:04:31,256 --> 00:04:32,506
+search technology.
+
+67
+00:04:33,019 --> 00:04:37,826
+The company was investing in the very
+market where Google was gaining strength.
+
+68
+00:04:38,277 --> 00:04:42,461
+But owning the pieces of a search business
+was not the same as executing a superior
+
+69
+00:04:42,501 --> 00:04:43,871
+search strategy.
+
+70
+00:04:44,285 --> 00:04:46,431
+Google continued building momentum.
+
+71
+00:04:47,074 --> 00:04:51,077
+Yahoo was now fighting to reclaim
+ground it had once helped define.
+
+72
+00:04:52,898 --> 00:04:55,862
+Yahoo's strength had become
+a strategic challenge.
+
+73
+00:04:56,412 --> 00:05:02,388
+It was a portal, a media company, an email
+provider, an advertising platform, and a
+
+74
+00:05:02,428 --> 00:05:03,428
+search competitor.
+
+75
+00:05:03,908 --> 00:05:05,957
+Each business required investment.
+
+76
+00:05:06,818 --> 00:05:08,390
+Each faced different rivals.
+
+77
+00:05:09,030 --> 00:05:11,473
+And each competed for
+management attention.
+
+78
+00:05:12,087 --> 00:05:14,763
+Diversification can protect a company.
+
+79
+00:05:15,190 --> 00:05:19,920
+But it can also make it difficult to decide
+where the next great advantage will come
+
+80
+00:05:19,960 --> 00:05:20,839
+from.
+
+81
+00:05:20,879 --> 00:05:24,767
+Google had a clear center of
+gravity in search and advertising.
+
+82
+00:05:25,301 --> 00:05:28,685
+Yahoo had an extraordinary
+collection of assets.
+
+83
+00:05:29,303 --> 00:05:33,034
+The harder question was how those
+assets should fit together.
+
+84
+00:05:34,728 --> 00:05:39,257
+By 2006, another internet
+revolution was taking shape.
+
+85
+00:05:39,692 --> 00:05:44,412
+Social networking was transforming how
+people discovered information and interacted
+
+86
+00:05:44,452 --> 00:05:45,452
+online.
+
+87
+00:05:45,754 --> 00:05:48,729
+Yahoo held acquisition
+discussions with Facebook.
+
+88
+00:05:49,263 --> 00:05:54,084
+Reports describe negotiations around a
+billion-dollar valuation, with disagreements
+
+89
+00:05:54,124 --> 00:05:57,254
+over price and the company's future.
+
+90
+00:05:57,587 --> 00:05:59,041
+No deal was completed.
+
+91
+00:05:59,619 --> 00:06:04,535
+It is tempting to calculate what Facebook
+would eventually be worth and call that
+
+92
+00:06:04,575 --> 00:06:06,365
+Yahoo's loss.
+
+93
+00:06:06,431 --> 00:06:10,374
+But that assumes the acquisition would
+have happened, succeeded, and preserved
+
+94
+00:06:10,414 --> 00:06:11,724
+Facebook's growth.
+
+95
+00:06:12,248 --> 00:06:17,155
+The more useful question is why Yahoo
+struggled to establish a comparable position
+
+96
+00:06:17,195 --> 00:06:18,705
+in social networking.
+
+97
+00:06:20,425 --> 00:06:22,654
+Then came an extraordinary offer.
+
+98
+00:06:23,121 --> 00:06:27,620
+On February first, 2008, Microsoft
+proposed acquiring Yahoo for approximately
+
+99
+00:06:27,660 --> 00:06:32,670
+forty-four point six billion
+dollars in equity value.
+
+100
+00:06:33,054 --> 00:06:37,947
+Microsoft wanted to strengthen its
+position in search and online advertising.
+
+101
+00:06:38,567 --> 00:06:40,858
+The negotiations continued for months.
+
+102
+00:06:41,467 --> 00:06:46,576
+Microsoft later said it had increased its
+proposal by roughly five billion dollars.
+
+103
+00:06:47,556 --> 00:06:49,865
+But the companies could
+not agree on terms.
+
+104
+00:06:50,434 --> 00:06:53,076
+In May, Microsoft withdrew its bid.
+
+105
+00:06:53,541 --> 00:06:55,535
+Yahoo remained independent.
+
+106
+00:06:56,102 --> 00:07:00,402
+It also remained under pressure to prove
+that independence could create greater
+
+107
+00:07:00,442 --> 00:07:01,442
+value.
+
+108
+00:07:02,935 --> 00:07:07,393
+A year later, Yahoo and Microsoft
+announced a search partnership.
+
+109
+00:07:07,861 --> 00:07:12,959
+Under the agreement, Microsoft's search
+technology would power Yahoo's algorithmic
+
+110
+00:07:12,999 --> 00:07:18,639
+search results, while Yahoo retained
+important responsibilities for its own user
+
+111
+00:07:18,679 --> 00:07:21,569
+experience and advertising relationships.
+
+112
+00:07:22,213 --> 00:07:25,640
+The deal was designed to
+create scale against Google.
+
+113
+00:07:26,152 --> 00:07:28,915
+But it also marked a
+major strategic change.
+
+114
+00:07:29,493 --> 00:07:34,617
+Yahoo, once a pioneer of online discovery,
+was increasingly relying on another
+
+115
+00:07:34,657 --> 00:07:37,327
+company's underlying search technology.
+
+116
+00:07:37,794 --> 00:07:40,323
+It could still serve millions of users.
+
+117
+00:07:40,905 --> 00:07:44,621
+The question was whether it could
+control the technology that shaped their
+
+118
+00:07:44,661 --> 00:07:45,661
+experience.
+
+119
+00:07:47,315 --> 00:07:51,556
+While Yahoo was fighting over search,
+the internet was moving again.
+
+120
+00:07:51,961 --> 00:07:55,187
+Smartphones changed how
+people accessed information.
+
+121
+00:07:55,831 --> 00:08:00,517
+Applications reduced the need to begin
+every online journey at a traditional web
+
+122
+00:08:00,557 --> 00:08:01,541
+portal.
+
+123
+00:08:01,581 --> 00:08:06,022
+Social networks changed how content
+was discovered and distributed.
+
+124
+00:08:06,062 --> 00:08:10,145
+And digital advertising became
+increasingly sophisticated.
+
+125
+00:08:10,725 --> 00:08:17,067
+Yahoo still had popular services,
+including Mail, Finance, News, and Sports.
+
+126
+00:08:17,686 --> 00:08:20,738
+But audience scale alone
+was no longer enough.
+
+127
+00:08:21,323 --> 00:08:26,025
+The company needed stronger positions in
+mobile products, advertising technology,
+
+128
+00:08:26,435 --> 00:08:30,265
+and the platforms shaping the next
+generation of internet behavior.
+
+129
+00:08:32,037 --> 00:08:38,393
+In July 2012, Yahoo appointed former
+Google executive Marissa Mayer as chief
+
+130
+00:08:38,433 --> 00:08:39,433
+executive.
+
+131
+00:08:39,784 --> 00:08:43,011
+Her arrival created
+expectations of a turnaround.
+
+132
+00:08:43,730 --> 00:08:50,096
+Yahoo invested in mobile applications,
+product redesigns, talent, and acquisitions.
+
+133
+00:08:50,898 --> 00:08:56,482
+The company acquired Tumblr in 2013 for
+approximately one point one billion dollars.
+
+134
+00:08:57,481 --> 00:09:02,078
+But a large acquisition and renewed
+product investment could not automatically
+
+135
+00:09:02,118 --> 00:09:04,528
+restore Yahoo's competitive position.
+
+136
+00:09:05,164 --> 00:09:09,587
+The company was trying to reinvent itself
+while facing entrenched competitors in
+
+137
+00:09:09,627 --> 00:09:12,917
+search, social media,
+and digital advertising.
+
+138
+00:09:13,428 --> 00:09:16,417
+Time was becoming one of
+its scarcest resources.
+
+139
+00:09:18,318 --> 00:09:22,146
+In 2016, Verizon agreed to buy Yahoo's
+operating business for approximately four
+
+140
+00:09:22,186 --> 00:09:25,136
+point eight three billion dollars.
+
+141
+00:09:26,035 --> 00:09:29,801
+Then Yahoo disclosed major
+historical data breaches.
+
+142
+00:09:30,421 --> 00:09:35,147
+The revelations complicated the transaction
+and raised serious questions about
+
+143
+00:09:35,187 --> 00:09:36,977
+security and accountability.
+
+144
+00:09:37,675 --> 00:09:42,709
+In February 2017, the companies agreed to
+reduce the stated purchase price by three
+
+145
+00:09:42,749 --> 00:09:46,139
+hundred and fifty million dollars.
+
+146
+00:09:46,995 --> 00:09:49,287
+The transaction closed that June.
+
+147
+00:09:49,831 --> 00:09:52,714
+Yahoo's operating business
+became part of Verizon.
+
+148
+00:09:53,324 --> 00:09:59,491
+Its remaining investment holdings were
+separated into a company called Altaba.
+
+149
+00:10:00,094 --> 00:10:04,043
+The original internet empire had
+been fundamentally transformed.
+
+150
+00:10:06,004 --> 00:10:09,425
+So what killed Yahoo's position
+as an internet leader?
+
+151
+00:10:09,905 --> 00:10:11,697
+Not one missed acquisition.
+
+152
+00:10:12,253 --> 00:10:14,103
+And not one chief executive.
+
+153
+00:10:14,670 --> 00:10:16,932
+The evidence points to a broader pattern.
+
+154
+00:10:17,411 --> 00:10:19,558
+An uncertain strategic identity.
+
+155
+00:10:20,066 --> 00:10:24,841
+Difficulty translating enormous audience
+reach into defensible technology
+
+156
+00:10:24,881 --> 00:10:25,991
+leadership.
+
+157
+00:10:26,544 --> 00:10:30,107
+Intensifying competition
+in search and advertising.
+
+158
+00:10:30,711 --> 00:10:35,224
+And a series of acquisitions and partnerships
+that did not establish a lasting
+
+159
+00:10:35,264 --> 00:10:38,694
+advantage in the next generation
+of internet platforms.
+
+160
+00:10:39,298 --> 00:10:42,063
+Yahoo was successful at attracting users.
+
+161
+00:10:42,596 --> 00:10:47,363
+But attracting users and controlling the
+future of the internet were becoming very
+
+162
+00:10:47,403 --> 00:10:48,453
+different things.
+
+163
+00:10:50,327 --> 00:10:54,837
+Yahoo's story is not simply about a
+company that missed Google or Facebook.
+
+164
+00:10:55,416 --> 00:11:00,026
+It is about the difference between being
+where the internet is today and building
+
+165
+00:11:00,066 --> 00:11:01,956
+what the internet will need tomorrow.
+
+166
+00:11:02,486 --> 00:11:05,546
+Yahoo helped millions of
+people discover the web.
+
+167
+00:11:06,015 --> 00:11:10,386
+It created services that became
+part of everyday digital life.
+
+168
+00:11:10,891 --> 00:11:16,185
+But the industry moved toward new
+technologies, new platforms, and new business
+
+169
+00:11:16,225 --> 00:11:17,225
+models.
+
+170
+00:11:17,448 --> 00:11:19,737
+Yahoo struggled to lead that transition.
+
+171
+00:11:20,230 --> 00:11:21,717
+And that is the verdict.
+
+172
+00:11:22,284 --> 00:11:26,953
+Being the front door to an industry does
+not mean you will own what comes next.
+
+173
+00:11:27,436 --> 00:11:29,242
+Every brand leaves evidence.
+

@@ -1,0 +1,677 @@
+[
+ {
+  "id": "s01_01",
+  "text": "Before Google became a verb, before Facebook connected billions, and before smartphones put the internet in everyone's pocket, there was Yahoo.",
+  "scene": 1
+ },
+ {
+  "id": "s01_02",
+  "text": "For millions of people, Yahoo was the internet.",
+  "scene": 1
+ },
+ {
+  "id": "s01_03",
+  "text": "It was where they searched, checked their email, followed the news, and discovered what was happening online.",
+  "scene": 1
+ },
+ {
+  "id": "s01_04",
+  "text": "At the height of the dot-com boom, the company was valued at more than one hundred billion dollars.",
+  "scene": 1,
+  "say": "At the height of the dot com boom, the company was valued at more than one hundred billion dollars."
+ },
+ {
+  "id": "s01_05",
+  "text": "But in 2017, Yahoo's core operating business was sold to Verizon.",
+  "scene": 1,
+  "say": "But in twenty seventeen, Yahoo's core operating business was sold to Verizon."
+ },
+ {
+  "id": "s01_06",
+  "text": "How did an internet pioneer lose control of its future?",
+  "scene": 1
+ },
+ {
+  "id": "s02_01",
+  "text": "June thirteenth, 2017.",
+  "scene": 2,
+  "say": "June thirteenth, twenty seventeen."
+ },
+ {
+  "id": "s02_02",
+  "text": "Verizon completed its acquisition of Yahoo's operating business.",
+  "scene": 2
+ },
+ {
+  "id": "s02_03",
+  "text": "The amended purchase agreement had set the price at approximately four point four eight billion dollars, subject to adjustments.",
+  "scene": 2
+ },
+ {
+  "id": "s02_04",
+  "text": "The final accounting reflected a different closing consideration.",
+  "scene": 2
+ },
+ {
+  "id": "s02_05",
+  "text": "And importantly, Yahoo's valuable investments in Alibaba and Yahoo Japan were not part of the sale.",
+  "scene": 2
+ },
+ {
+  "id": "s02_06",
+  "text": "So this was not the entire company's value disappearing.",
+  "scene": 2
+ },
+ {
+  "id": "s02_07",
+  "text": "It was the end of Yahoo as an independent internet operating business.",
+  "scene": 2
+ },
+ {
+  "id": "s02_08",
+  "text": "To understand how it happened, we need to return to the beginning.",
+  "scene": 2
+ },
+ {
+  "id": "s03_01",
+  "text": "In 1994, two Stanford graduate students, Jerry Yang and David Filo, began organizing websites into a directory.",
+  "scene": 3,
+  "say": "In nineteen ninety-four, two Stanford graduate students, Jerry Yang and David Fye-low, began organizing websites into a directory."
+ },
+ {
+  "id": "s03_02",
+  "text": "They called it Jerry and David's Guide to the World Wide Web.",
+  "scene": 3
+ },
+ {
+  "id": "s03_03",
+  "text": "The idea was simple.",
+  "scene": 3
+ },
+ {
+  "id": "s03_04",
+  "text": "The internet was growing faster than people could navigate it.",
+  "scene": 3
+ },
+ {
+  "id": "s03_05",
+  "text": "Someone needed to organize the chaos.",
+  "scene": 3
+ },
+ {
+  "id": "s03_06",
+  "text": "Their project became Yahoo.",
+  "scene": 3
+ },
+ {
+  "id": "s03_07",
+  "text": "And as the web expanded, Yahoo became one of its most recognizable destinations.",
+  "scene": 3
+ },
+ {
+  "id": "s03_08",
+  "text": "The company went public in April 1996.",
+  "scene": 3,
+  "say": "The company went public in April nineteen ninety-six."
+ },
+ {
+  "id": "s03_09",
+  "text": "It had found something extraordinarily valuable.",
+  "scene": 3
+ },
+ {
+  "id": "s03_10",
+  "text": "A place at the beginning of the internet user's journey.",
+  "scene": 3
+ },
+ {
+  "id": "s04_01",
+  "text": "Yahoo expanded far beyond its original directory.",
+  "scene": 4
+ },
+ {
+  "id": "s04_02",
+  "text": "Email. News. Finance. Sports. Shopping. Entertainment.",
+  "scene": 4
+ },
+ {
+  "id": "s04_03",
+  "text": "Its strategy was to become a central destination for everything people wanted online.",
+  "scene": 4
+ },
+ {
+  "id": "s04_04",
+  "text": "That created enormous opportunities for advertising.",
+  "scene": 4
+ },
+ {
+  "id": "s04_05",
+  "text": "The more users visited Yahoo's services, the more valuable its audience became to advertisers.",
+  "scene": 4
+ },
+ {
+  "id": "s04_06",
+  "text": "For a time, the strategy worked.",
+  "scene": 4
+ },
+ {
+  "id": "s04_07",
+  "text": "Yahoo wasn't simply a search engine.",
+  "scene": 4
+ },
+ {
+  "id": "s04_08",
+  "text": "It was a collection of internet services, held together by one of the world's most recognizable brands.",
+  "scene": 4
+ },
+ {
+  "id": "s04_09",
+  "text": "But a different model of the internet was emerging.",
+  "scene": 4
+ },
+ {
+  "id": "s05_01",
+  "text": "Google approached the internet differently.",
+  "scene": 5
+ },
+ {
+  "id": "s05_02",
+  "text": "Instead of asking users to browse through a directory or spend time on a portal, it concentrated on helping them find the most relevant answer.",
+  "scene": 5
+ },
+ {
+  "id": "s05_03",
+  "text": "Its search technology improved as the web grew.",
+  "scene": 5
+ },
+ {
+  "id": "s05_04",
+  "text": "And its advertising business increasingly connected commercial intent with search results.",
+  "scene": 5
+ },
+ {
+  "id": "s05_05",
+  "text": "Yahoo had search technology and search partnerships of its own.",
+  "scene": 5
+ },
+ {
+  "id": "s05_06",
+  "text": "But Google's focus created a powerful competitive advantage.",
+  "scene": 5
+ },
+ {
+  "id": "s05_07",
+  "text": "The contest was no longer simply about attracting the largest audience.",
+  "scene": 5
+ },
+ {
+  "id": "s05_08",
+  "text": "It was about owning the moment when someone wanted an answer.",
+  "scene": 5
+ },
+ {
+  "id": "s06_01",
+  "text": "One of Yahoo's most famous missed opportunities involves Google itself.",
+  "scene": 6
+ },
+ {
+  "id": "s06_02",
+  "text": "Contemporary reporting describes acquisition discussions in the early two-thousands.",
+  "scene": 6
+ },
+ {
+  "id": "s06_03",
+  "text": "In one widely reported account, Yahoo explored buying Google for roughly three billion dollars, but a deal never happened.",
+  "scene": 6
+ },
+ {
+  "id": "s06_04",
+  "text": "The negotiations were more complicated than the familiar story that Yahoo simply rejected Google for one million dollars.",
+  "scene": 6
+ },
+ {
+  "id": "s06_05",
+  "text": "What matters is the strategic question.",
+  "scene": 6
+ },
+ {
+  "id": "s06_06",
+  "text": "Yahoo had an opportunity to become more deeply involved in Google's future.",
+  "scene": 6
+ },
+ {
+  "id": "s06_07",
+  "text": "Instead, Google developed into its most formidable search competitor.",
+  "scene": 6
+ },
+ {
+  "id": "s07_01",
+  "text": "Yahoo did not stand still.",
+  "scene": 7
+ },
+ {
+  "id": "s07_02",
+  "text": "It acquired search technology company Inktomi and paid-search specialist Overture.",
+  "scene": 7,
+  "say": "It acquired search technology company Ink-toe-mee and paid-search specialist Overture."
+ },
+ {
+  "id": "s07_03",
+  "text": "These acquisitions gave Yahoo important capabilities in web search and advertising.",
+  "scene": 7
+ },
+ {
+  "id": "s07_04",
+  "text": "In 2004, Yahoo stopped relying on Google's search results and launched its own search technology.",
+  "scene": 7,
+  "say": "In two thousand four, Yahoo stopped relying on Google's search results and launched its own search technology."
+ },
+ {
+  "id": "s07_05",
+  "text": "The company was investing in the very market where Google was gaining strength.",
+  "scene": 7
+ },
+ {
+  "id": "s07_06",
+  "text": "But owning the pieces of a search business was not the same as executing a superior search strategy.",
+  "scene": 7
+ },
+ {
+  "id": "s07_07",
+  "text": "Google continued building momentum.",
+  "scene": 7
+ },
+ {
+  "id": "s07_08",
+  "text": "Yahoo was now fighting to reclaim ground it had once helped define.",
+  "scene": 7
+ },
+ {
+  "id": "s08_01",
+  "text": "Yahoo's strength had become a strategic challenge.",
+  "scene": 8
+ },
+ {
+  "id": "s08_02",
+  "text": "It was a portal, a media company, an email provider, an advertising platform, and a search competitor.",
+  "scene": 8
+ },
+ {
+  "id": "s08_03",
+  "text": "Each business required investment.",
+  "scene": 8
+ },
+ {
+  "id": "s08_04",
+  "text": "Each faced different rivals.",
+  "scene": 8
+ },
+ {
+  "id": "s08_05",
+  "text": "And each competed for management attention.",
+  "scene": 8
+ },
+ {
+  "id": "s08_06",
+  "text": "Diversification can protect a company.",
+  "scene": 8
+ },
+ {
+  "id": "s08_07",
+  "text": "But it can also make it difficult to decide where the next great advantage will come from.",
+  "scene": 8
+ },
+ {
+  "id": "s08_08",
+  "text": "Google had a clear center of gravity in search and advertising.",
+  "scene": 8
+ },
+ {
+  "id": "s08_09",
+  "text": "Yahoo had an extraordinary collection of assets.",
+  "scene": 8
+ },
+ {
+  "id": "s08_10",
+  "text": "The harder question was how those assets should fit together.",
+  "scene": 8
+ },
+ {
+  "id": "s09_01",
+  "text": "By 2006, another internet revolution was taking shape.",
+  "scene": 9,
+  "say": "By two thousand six, another internet revolution was taking shape."
+ },
+ {
+  "id": "s09_02",
+  "text": "Social networking was transforming how people discovered information and interacted online.",
+  "scene": 9
+ },
+ {
+  "id": "s09_03",
+  "text": "Yahoo held acquisition discussions with Facebook.",
+  "scene": 9
+ },
+ {
+  "id": "s09_04",
+  "text": "Reports describe negotiations around a billion-dollar valuation, with disagreements over price and the company's future.",
+  "scene": 9
+ },
+ {
+  "id": "s09_05",
+  "text": "No deal was completed.",
+  "scene": 9
+ },
+ {
+  "id": "s09_06",
+  "text": "It is tempting to calculate what Facebook would eventually be worth and call that Yahoo's loss.",
+  "scene": 9
+ },
+ {
+  "id": "s09_07",
+  "text": "But that assumes the acquisition would have happened, succeeded, and preserved Facebook's growth.",
+  "scene": 9
+ },
+ {
+  "id": "s09_08",
+  "text": "The more useful question is why Yahoo struggled to establish a comparable position in social networking.",
+  "scene": 9
+ },
+ {
+  "id": "s10_01",
+  "text": "Then came an extraordinary offer.",
+  "scene": 10
+ },
+ {
+  "id": "s10_02",
+  "text": "On February first, 2008, Microsoft proposed acquiring Yahoo for approximately forty-four point six billion dollars in equity value.",
+  "scene": 10,
+  "say": "On February first, two thousand eight, Microsoft proposed acquiring Yahoo for approximately forty-four point six billion dollars in equity value."
+ },
+ {
+  "id": "s10_03",
+  "text": "Microsoft wanted to strengthen its position in search and online advertising.",
+  "scene": 10
+ },
+ {
+  "id": "s10_04",
+  "text": "The negotiations continued for months.",
+  "scene": 10
+ },
+ {
+  "id": "s10_05",
+  "text": "Microsoft later said it had increased its proposal by roughly five billion dollars.",
+  "scene": 10
+ },
+ {
+  "id": "s10_06",
+  "text": "But the companies could not agree on terms.",
+  "scene": 10
+ },
+ {
+  "id": "s10_07",
+  "text": "In May, Microsoft withdrew its bid.",
+  "scene": 10
+ },
+ {
+  "id": "s10_08",
+  "text": "Yahoo remained independent.",
+  "scene": 10,
+  "say": "Yah-hoo remained independent."
+ },
+ {
+  "id": "s10_09",
+  "text": "It also remained under pressure to prove that independence could create greater value.",
+  "scene": 10
+ },
+ {
+  "id": "s11_01",
+  "text": "A year later, Yahoo and Microsoft announced a search partnership.",
+  "scene": 11
+ },
+ {
+  "id": "s11_02",
+  "text": "Under the agreement, Microsoft's search technology would power Yahoo's algorithmic search results, while Yahoo retained important responsibilities for its own user experience and advertising relationships.",
+  "scene": 11
+ },
+ {
+  "id": "s11_03",
+  "text": "The deal was designed to create scale against Google.",
+  "scene": 11
+ },
+ {
+  "id": "s11_04",
+  "text": "But it also marked a major strategic change.",
+  "scene": 11
+ },
+ {
+  "id": "s11_05",
+  "text": "Yahoo, once a pioneer of online discovery, was increasingly relying on another company's underlying search technology.",
+  "scene": 11
+ },
+ {
+  "id": "s11_06",
+  "text": "It could still serve millions of users.",
+  "scene": 11
+ },
+ {
+  "id": "s11_07",
+  "text": "The question was whether it could control the technology that shaped their experience.",
+  "scene": 11
+ },
+ {
+  "id": "s12_01",
+  "text": "While Yahoo was fighting over search, the internet was moving again.",
+  "scene": 12
+ },
+ {
+  "id": "s12_02",
+  "text": "Smartphones changed how people accessed information.",
+  "scene": 12
+ },
+ {
+  "id": "s12_03",
+  "text": "Applications reduced the need to begin every online journey at a traditional web portal.",
+  "scene": 12
+ },
+ {
+  "id": "s12_04",
+  "text": "Social networks changed how content was discovered and distributed.",
+  "scene": 12
+ },
+ {
+  "id": "s12_05",
+  "text": "And digital advertising became increasingly sophisticated.",
+  "scene": 12
+ },
+ {
+  "id": "s12_06",
+  "text": "Yahoo still had popular services, including Mail, Finance, News, and Sports.",
+  "scene": 12
+ },
+ {
+  "id": "s12_07",
+  "text": "But audience scale alone was no longer enough.",
+  "scene": 12
+ },
+ {
+  "id": "s12_08",
+  "text": "The company needed stronger positions in mobile products, advertising technology, and the platforms shaping the next generation of internet behavior.",
+  "scene": 12
+ },
+ {
+  "id": "s13_01",
+  "text": "In July 2012, Yahoo appointed former Google executive Marissa Mayer as chief executive.",
+  "scene": 13,
+  "say": "In July twenty twelve, Yahoo appointed former Google executive Marissa Mayer as chief executive."
+ },
+ {
+  "id": "s13_02",
+  "text": "Her arrival created expectations of a turnaround.",
+  "scene": 13
+ },
+ {
+  "id": "s13_03",
+  "text": "Yahoo invested in mobile applications, product redesigns, talent, and acquisitions.",
+  "scene": 13
+ },
+ {
+  "id": "s13_04",
+  "text": "The company acquired Tumblr in 2013 for approximately one point one billion dollars.",
+  "scene": 13,
+  "say": "The company acquired Tumbler in twenty thirteen for approximately one point one billion dollars."
+ },
+ {
+  "id": "s13_05",
+  "text": "But a large acquisition and renewed product investment could not automatically restore Yahoo's competitive position.",
+  "scene": 13
+ },
+ {
+  "id": "s13_06",
+  "text": "The company was trying to reinvent itself while facing entrenched competitors in search, social media, and digital advertising.",
+  "scene": 13
+ },
+ {
+  "id": "s13_07",
+  "text": "Time was becoming one of its scarcest resources.",
+  "scene": 13
+ },
+ {
+  "id": "s14_01",
+  "text": "In 2016, Verizon agreed to buy Yahoo's operating business for approximately four point eight three billion dollars.",
+  "scene": 14,
+  "say": "In twenty sixteen, Verizon agreed to buy Yahoo's operating business for approximately four point eight three billion dollars."
+ },
+ {
+  "id": "s14_02",
+  "text": "Then Yahoo disclosed major historical data breaches.",
+  "scene": 14
+ },
+ {
+  "id": "s14_03",
+  "text": "The revelations complicated the transaction and raised serious questions about security and accountability.",
+  "scene": 14
+ },
+ {
+  "id": "s14_04",
+  "text": "In February 2017, the companies agreed to reduce the stated purchase price by three hundred and fifty million dollars.",
+  "scene": 14,
+  "say": "In February twenty seventeen, the companies agreed to reduce the stated purchase price by three hundred and fifty million dollars."
+ },
+ {
+  "id": "s14_05",
+  "text": "The transaction closed that June.",
+  "scene": 14
+ },
+ {
+  "id": "s14_06",
+  "text": "Yahoo's operating business became part of Verizon.",
+  "scene": 14
+ },
+ {
+  "id": "s14_07",
+  "text": "Its remaining investment holdings were separated into a company called Altaba.",
+  "scene": 14,
+  "say": "Its remaining investment holdings were separated into a company called Al-tah-bah."
+ },
+ {
+  "id": "s14_08",
+  "text": "The original internet empire had been fundamentally transformed.",
+  "scene": 14
+ },
+ {
+  "id": "s15_01",
+  "text": "So what killed Yahoo's position as an internet leader?",
+  "scene": 15
+ },
+ {
+  "id": "s15_02",
+  "text": "Not one missed acquisition.",
+  "scene": 15
+ },
+ {
+  "id": "s15_03",
+  "text": "And not one chief executive.",
+  "scene": 15
+ },
+ {
+  "id": "s15_04",
+  "text": "The evidence points to a broader pattern.",
+  "scene": 15
+ },
+ {
+  "id": "s15_05",
+  "text": "An uncertain strategic identity.",
+  "scene": 15
+ },
+ {
+  "id": "s15_06",
+  "text": "Difficulty translating enormous audience reach into defensible technology leadership.",
+  "scene": 15
+ },
+ {
+  "id": "s15_07",
+  "text": "Intensifying competition in search and advertising.",
+  "scene": 15
+ },
+ {
+  "id": "s15_08",
+  "text": "And a series of acquisitions and partnerships that did not establish a lasting advantage in the next generation of internet platforms.",
+  "scene": 15
+ },
+ {
+  "id": "s15_09",
+  "text": "Yahoo was successful at attracting users.",
+  "scene": 15
+ },
+ {
+  "id": "s15_10",
+  "text": "But attracting users and controlling the future of the internet were becoming very different things.",
+  "scene": 15
+ },
+ {
+  "id": "s16_01",
+  "text": "Yahoo's story is not simply about a company that missed Google or Facebook.",
+  "scene": 16
+ },
+ {
+  "id": "s16_02",
+  "text": "It is about the difference between being where the internet is today and building what the internet will need tomorrow.",
+  "scene": 16
+ },
+ {
+  "id": "s16_03",
+  "text": "Yahoo helped millions of people discover the web.",
+  "scene": 16
+ },
+ {
+  "id": "s16_04",
+  "text": "It created services that became part of everyday digital life.",
+  "scene": 16
+ },
+ {
+  "id": "s16_05",
+  "text": "But the industry moved toward new technologies, new platforms, and new business models.",
+  "scene": 16
+ },
+ {
+  "id": "s16_06",
+  "text": "Yahoo struggled to lead that transition.",
+  "scene": 16
+ },
+ {
+  "id": "s16_07",
+  "text": "And that is the verdict.",
+  "scene": 16
+ },
+ {
+  "id": "s16_08",
+  "text": "Being the front door to an industry does not mean you will own what comes next.",
+  "scene": 16
+ },
+ {
+  "id": "s16_09",
+  "text": "Every brand leaves evidence.",
+  "scene": 16
+ }
+]
