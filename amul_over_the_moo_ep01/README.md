@@ -12,7 +12,7 @@ MOO_01 is a 2D illustrated calf composited into a photographic sunrise dairy far
 - Delivery files: `delivery/AMUL_OTM_EP01_ANIMATIC_1280x720_24fps_{TEMPMIX,CLEAN}.mp4`, plus `renders/stills/`.
 
 **Not rendered:**
-- **The 4K master.** These 4 CPU cores, with no GPU, need about 9 minutes per 4K frame. The full master would take about 4–5 days, so it was not run.
+- **The 4K master.** On these 4 CPU cores with no GPU, one 4K still (frame 313, 64 samples) took 16 min 17 s, measured, scene load included. The master uses 128 samples, so it would be slower per frame. Even at the measured 64-sample rate, 720 frames would take about 8 days, so it was not run.
 - The command for it is below. The project already holds the 4K settings, render layers and passes.
 
 **Stand-in artwork:**
