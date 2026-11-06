@@ -1,0 +1,91 @@
+{
+ "bpm": 84.0,
+ "key": "B minor -> D major",
+ "vocal_guide": [
+  {
+   "t": 4.25,
+   "shot": "S02",
+   "lyric": "They see a little shadow,",
+   "notes_midi": [
+    66,
+    66,
+    69,
+    71,
+    69,
+    66
+   ]
+  },
+  {
+   "t": 7.1,
+   "shot": "S03",
+   "lyric": "Standing in the light...",
+   "notes_midi": [
+    64,
+    66,
+    62,
+    61,
+    59
+   ]
+  },
+  {
+   "t": 19.1,
+   "shot": "S06",
+   "lyric": "But every mountain starts",
+   "notes_midi": [
+    62,
+    66,
+    69,
+    71,
+    73,
+    74
+   ]
+  },
+  {
+   "t": 22.15,
+   "shot": "S07",
+   "lyric": "With one small climb...",
+   "notes_midi": [
+    73,
+    71,
+    69,
+    71
+   ]
+  },
+  {
+   "t": 24.3,
+   "shot": "S08",
+   "lyric": "I've got something to prove tonight!",
+   "notes_midi": [
+    74,
+    74,
+    76,
+    78,
+    76,
+    74,
+    73,
+    74
+   ]
+  },
+  {
+   "t": 27.3,
+   "shot": "S09",
+   "lyric": "(ascending)",
+   "notes_midi": [
+    74,
+    76,
+    78,
+    81
+   ]
+  },
+  {
+   "t": 29.05,
+   "shot": "S10",
+   "lyric": "(final note)",
+   "notes_midi": [
+    81
+   ]
+  }
+ ],
+ "hoof_contacts": 42,
+ "note": "All audio synthesized in scripts/audio.py. The vocal stem is a melody guide on a synth lead: the lyrics must be sung by a vocalist. No existing recording or soundtrack is reproduced."
+}

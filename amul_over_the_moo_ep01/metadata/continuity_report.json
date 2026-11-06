@@ -1,0 +1,121 @@
+{
+ "hooves": {
+  "frames": 720,
+  "min_grounded_hooves": 2,
+  "frames_with_fewer_than_2_grounded": [],
+  "planted_hoof_slides": [],
+  "scripted_slip_cm": 6.7,
+  "hoof_jumps_at_cuts_cm": {
+   "S01->S02": 1110.9,
+   "S02->S03": 493.9,
+   "S03->S04": 65.3,
+   "S04->S05": 0.0,
+   "S05->S06": 0.1,
+   "S06->S07": 0.0,
+   "S07->S08": 0.0,
+   "S08->S09": 0.0,
+   "S09->S10": 0.0
+  },
+  "max_leg_overreach_m": 0.0054
+ },
+ "scene": {
+  "frame_range": [
+   1,
+   720,
+   true
+  ],
+  "camera_cuts": [
+   [
+    "S01",
+    1,
+    "CAM_S01",
+    24
+   ],
+   [
+    "S02",
+    97,
+    "CAM_S02",
+    85
+   ],
+   [
+    "S03",
+    169,
+    "CAM_S03",
+    35
+   ],
+   [
+    "S04",
+    265,
+    "CAM_S04",
+    50
+   ],
+   [
+    "S05",
+    361,
+    "CAM_S05",
+    50
+   ],
+   [
+    "S06",
+    457,
+    "CAM_S06",
+    50
+   ],
+   [
+    "S07",
+    529,
+    "CAM_S07",
+    100
+   ],
+   [
+    "S08",
+    577,
+    "CAM_S08",
+    85
+   ],
+   [
+    "S09",
+    649,
+    "CAM_S09",
+    35
+   ],
+   [
+    "S10",
+    697,
+    "CAM_S10",
+    24
+   ]
+  ],
+  "cuts_match_shot_table": true,
+  "block_moves_frames": [
+   508,
+   565
+  ],
+  "block_moves_only_in": [
+   "S06",
+   "S07"
+  ],
+  "block_total_slide_cm": 6.5,
+  "block_dims_m": [
+   0.35,
+   0.45,
+   0.25
+  ],
+  "doors_closed_until_frame": 655,
+  "doors_final_angle_deg": 51.9,
+  "doors_monotonic_and_symmetric": true,
+  "sun_animated": false,
+  "sun_rotation_deg": [
+   81.0,
+   0.0,
+   72.0
+  ],
+  "artwork_view_switches_only_on_cuts": true,
+  "characters_in_scene": [
+   "Q3",
+   "REAR",
+   "SIDE"
+  ],
+  "moo_proxy_visible_to_camera": false
+ }
+}
