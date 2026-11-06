@@ -1,0 +1,9 @@
+{
+ "store": {"tag": "jcpenney, westland mall, hialeah, florida · jan 2018 · phillip pessar · cc by 2.0"},
+ "johnson": {"crop": [0.05, 0, 0.85, 1], "tag": "ron johnson · techcrunch disrupt · sept 2015 · techcrunch · cc by 2.0"},
+ "penney": {"crop": [0.25, 0.0, 0.8, 1.0], "tag": "james cash penney · c. 1902 · public domain"},
+ "golden": {"tag": "a golden rule store (early penney chain) · c. 1900 · public domain"},
+ "interior": {"sa": true, "tag": "jcpenney entrance, martinsburg mall, west virginia · july 2011 · mike kalasnik · cc by-sa 2.0"},
+ "sephora": {"sa": true, "tag": "former sephora inside jcpenney, pittsburgh mills · feb 2022 · larry hachucka · cc by-sa 4.0"},
+ "mall": {"sa": true, "tag": "jcpenney entrance, century iii mall, west mifflin, pa · feb 2017 · mike kalasnik · cc by-sa 2.0"}
+}
