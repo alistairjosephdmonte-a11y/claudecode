@@ -25,6 +25,7 @@ claudecode/
 │   └── ISSUE_TEMPLATE/    # Standardized issue templates
 ├── src/                   # Primary source code
 ├── tests/                 # Unit and integration tests
+├── games/                 # Self-contained browser games (one folder each, e.g. ink-and-echo/index.html)
 ├── docs/                  # Extended documentation
 └── scripts/               # Utility and automation scripts
 ```

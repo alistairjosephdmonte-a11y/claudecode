@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ink &amp; Echo</title>
+<style>
+  :root { --paper: #fbf7ec; --text: #1f1f1f; --focus: #b45309; }
+  body.hc { --paper: #000; --text: #fff; --focus: #00e5ff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.5 system-ui, sans-serif; background: var(--paper); color: var(--text); }
+  main { max-width: 980px; margin: 0 auto; padding: 12px; }
+  h1 { margin: 0; font-size: 1.6rem; }
+  .tagline { margin: 0 0 8px; }
+  .status { display: flex; flex-wrap: wrap; gap: 6px 20px; margin: 8px 0; padding: 0; list-style: none; font-weight: 600; }
+  #message { min-height: 1.5em; margin: 6px 0; }
+  canvas { display: block; width: 100%; height: auto; border: 2px solid var(--text); border-radius: 4px; touch-action: none; }
+  canvas:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+  button { font: inherit; min-height: 44px; padding: 8px 14px; border: 2px solid var(--text); border-radius: 6px; background: var(--paper); color: var(--text); cursor: pointer; }
+  button[aria-pressed="true"] { background: var(--text); color: var(--paper); }
+  button:disabled { opacity: .5; cursor: not-allowed; }
+  kbd { border: 1px solid var(--text); border-radius: 3px; padding: 0 4px; font-size: .9em; }
+  dt { font-weight: 600; }
+  dd { margin: 0 0 6px 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Ink &amp; Echo</h1>
+  <p class="tagline">Draw lines with limited ink to guide the stick figure to the folded corner of each page.</p>
+
+  <ul class="status" aria-label="Game status">
+    <li id="st-page"></li>
+    <li id="st-ink"></li>
+    <li id="st-erasers"></li>
+    <li id="st-stars"></li>
+  </ul>
+
+  <canvas id="game" width="960" height="540" tabindex="0" role="application"
+          aria-label="Notebook page. Arrow keys move the drawing cursor, Space places line points, G runs the figure, D describes the page."
+          aria-describedby="help-summary"></canvas>
+
+  <p id="message" role="status"></p>
+
+  <div class="controls">
+    <button type="button" id="btn-run">Run</button>
+    <button type="button" id="btn-reset">Reset figure</button>
+    <button type="button" id="btn-clear">Clear ink</button>
+    <button type="button" id="btn-describe">Describe page</button>
+    <button type="button" id="btn-slow" aria-pressed="false">Slow motion</button>
+    <button type="button" id="btn-contrast" aria-pressed="false">High contrast</button>
+    <button type="button" id="btn-next" disabled>Next page</button>
+  </div>
+
+  <details>
+    <summary id="help-summary">How to play</summary>
+    <p>The figure walks on its own once you press Run. It climbs gentle slopes, turns around at steep lines and page edges, and falls through gaps. Drawn lines cost ink; erasing a line gives the ink back. While the figure is running you get 3 erasers to rescue a bad run. Use less ink for more stars.</p>
+    <dl>
+      <dt>Mouse or touch</dt>
+      <dd>Drag to draw a line. Click or tap a blue line to erase it.</dd>
+      <dt>Keyboard (focus the page first)</dt>
+      <dd><kbd>Arrow keys</kbd> move the cursor one grid square; hold <kbd>Shift</kbd> for 5.</dd>
+      <dd><kbd>Space</kbd> or <kbd>Enter</kbd> sets a line's start, then its end. <kbd>Esc</kbd> cancels.</dd>
+      <dd><kbd>[</kbd> and <kbd>]</kbd> select your lines; <kbd>Delete</kbd> erases the selected line.</dd>
+      <dd><kbd>G</kbd> run or stop, <kbd>R</kbd> reset the figure, <kbd>D</kbd> describe the page, <kbd>N</kbd> next page.</dd>
+      <dd><kbd>S</kbd> slow motion, <kbd>C</kbd> high contrast.</dd>
+      <dt>Grid</dt>
+      <dd>The page is 48 columns by 27 rows. Column 0 is the left edge and row 0 is the top; rows count downward.</dd>
+    </dl>
+  </details>
+</main>
+
+<script>
+const W = 960, H = 540, GRID = 20, COLS = 48, ROWS = 27;
+const GRAVITY = 1400, SPEED = 110, STEP_UP = 10, STEP_DOWN = 8, MAX_SLOPE = 1.2, ERASERS = 3;
+
+const LEVELS = [
+  {
+    name: 'The Gap', ink: 400, par: 220,
+    hint: 'Bridge the gap so the figure can walk across.',
+    start: { x: 60, y: 400, dir: 1 },
+    lines: [[0, 400, 360, 400], [560, 400, 960, 400]],
+    spikes: [],
+    exit: { x: 880, y: 340, w: 80, h: 60 },
+  },
+  {
+    name: 'Up the Cliff', ink: 460, par: 230,
+    hint: 'Draw a ramp up to the high ledge before the spikes.',
+    start: { x: 60, y: 460, dir: 1 },
+    lines: [[0, 460, 520, 460], [520, 300, 960, 300], [520, 300, 520, 460]],
+    spikes: [{ x: 420, y: 440, w: 100, h: 20 }],
+    exit: { x: 880, y: 240, w: 80, h: 60 },
+  },
+  {
+    name: 'Turn Around', ink: 440, par: 340,
+    hint: 'The exit is behind you and up high. A steep line turns the figure around.',
+    start: { x: 240, y: 320, dir: 1 },
+    lines: [[0, 320, 600, 320], [0, 160, 200, 160]],
+    spikes: [{ x: 560, y: 300, w: 40, h: 20 }],
+    exit: { x: 0, y: 100, w: 80, h: 60 },
+  },
+];
+
+const canvas = document.getElementById('game');
+const ctx = canvas.getContext('2d');
+const dpr = Math.min(2, window.devicePixelRatio || 1);
+canvas.width = W * dpr;
+canvas.height = H * dpr;
+ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+const $ = id => document.getElementById(id);
+const messageEl = $('message');
+const btnRun = $('btn-run'), btnNext = $('btn-next'), btnSlow = $('btn-slow'), btnContrast = $('btn-contrast');
+
+let levelIndex = 0, lines = [], mode = 'plan', fig = null, erasers = ERASERS;
+let selected = -1, pending = null, cursor = { c: 24, r: 13 }, showCursor = false;
+let slow = false, highContrast = false, drag = null, lastTurnNote = 0;
+const bestStars = [];
+
+const level = () => LEVELS[levelIndex];
+const inkUsed = () => lines.reduce((sum, l) => sum + (l.fixed ? 0 : l.len), 0);
+const inkLeft = () => Math.max(0, level().ink - inkUsed());
+const col = v => Math.round(v / GRID);
+
+function announce(text) {
+  messageEl.textContent = '';
+  setTimeout(() => { messageEl.textContent = text; }, 30);
+}
+
+let cursorTimer = 0;
+function announceCursorSoon() {
+  clearTimeout(cursorTimer);
+  cursorTimer = setTimeout(() => announce(cursorText()), 250);
+}
+
+function rng(seed) {
+  return () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+}
+
+function makeLine(x1, y1, x2, y2, fixed) {
+  const len = Math.hypot(x2 - x1, y2 - y1);
+  const n = Math.max(2, Math.round(len / 24));
+  const rand = rng((Math.abs(Math.floor(x1 * 31 + y1 * 17 + x2 * 7 + y2 * 3)) % 2147483646) + 1);
+  const nx = -(y2 - y1) / len, ny = (x2 - x1) / len;
+  const pts = [];
+  for (let i = 0; i <= n; i++) {
+    const t = i / n, j = i === 0 || i === n ? 0 : (rand() - 0.5) * 2.4;
+    pts.push([x1 + (x2 - x1) * t + nx * j, y1 + (y2 - y1) * t + ny * j]);
+  }
+  return { x1, y1, x2, y2, fixed, len, pts };
+}
+
+function loadLevel(i) {
+  levelIndex = i;
+  lines = level().lines.map(a => makeLine(...a, true));
+  selected = -1;
+  pending = null;
+  btnNext.disabled = true;
+  resetFigure();
+  announce(describeText());
+}
+
+function resetFigure() {
+  const s = level().start;
+  fig = { x: s.x, y: s.y, dir: s.dir, vy: 0, grounded: true, t: 0 };
+  mode = 'plan';
+  erasers = ERASERS;
+  updateStatus();
+}
+
+function updateStatus() {
+  const L = level();
+  $('st-page').textContent = `Page ${levelIndex + 1} of ${LEVELS.length}: ${L.name}`;
+  $('st-ink').textContent = `Ink left: ${Math.round(inkLeft())} of ${L.ink}`;
+  $('st-erasers').textContent = `Erasers: ${mode === 'run' ? erasers : ERASERS}`;
+  $('st-stars').textContent = `Best: ${bestStars[levelIndex] ? bestStars[levelIndex] + ' of 3 stars' : 'not cleared'}`;
+  btnRun.textContent = mode === 'run' ? 'Stop' : 'Run';
+}
+
+function describeText() {
+  const L = level();
+  const parts = [`Page ${levelIndex + 1} of ${LEVELS.length}: ${L.name}. ${L.hint}`];
+  parts.push(`The figure starts at column ${col(L.start.x)}, row ${col(L.start.y)}, facing ${L.start.dir > 0 ? 'right' : 'left'}.`);
+  for (const l of lines) {
+    parts.push(`${l.fixed ? 'Pen' : 'Your ink'} line from column ${col(l.x1)} row ${col(l.y1)} to column ${col(l.x2)} row ${col(l.y2)}.`);
+  }
+  for (const s of L.spikes) parts.push(`Spikes from column ${col(s.x)} to column ${col(s.x + s.w)} at row ${col(s.y + s.h)}.`);
+  const e = L.exit;
+  parts.push(`Exit corner from column ${col(e.x)} to column ${col(e.x + e.w)} at row ${col(e.y + e.h)}.`);
+  parts.push(`Ink left: ${Math.round(inkLeft())} of ${L.ink}. Par for 3 stars: ${L.par}.`);
+  return parts.join(' ');
+}
+
+function cursorText() {
+  const x = cursor.c * GRID, y = cursor.r * GRID;
+  let text = `Column ${cursor.c}, row ${cursor.r}.`;
+  const L = level();
+  if (lines.some(l => distToSeg(x, y, l) < 4)) text += ' On a line.';
+  if (L.spikes.some(s => x >= s.x && x <= s.x + s.w && y >= s.y && y <= s.y + s.h)) text += ' On spikes.';
+  const e = L.exit;
+  if (x >= e.x && x <= e.x + e.w && y >= e.y && y <= e.y + e.h) text += ' At the exit.';
+  if (pending) {
+    const len = Math.hypot(x - pending.x, y - pending.y);
+    text += ` Line length ${Math.round(len)}, ink left ${Math.round(inkLeft())}.`;
+  }
+  return text;
+}
+
+function distToSeg(px, py, l) {
+  const dx = l.x2 - l.x1, dy = l.y2 - l.y1;
+  const t = Math.max(0, Math.min(1, ((px - l.x1) * dx + (py - l.y1) * dy) / (dx * dx + dy * dy || 1)));
+  return Math.hypot(px - (l.x1 + dx * t), py - (l.y1 + dy * t));
+}
+
+function addLine(x1, y1, x2, y2) {
+  if (mode === 'run') { announce('Stop the run before drawing.'); return; }
+  if (mode !== 'plan') resetFigure();
+  let len = Math.hypot(x2 - x1, y2 - y1);
+  if (len < 10) { announce('Line too short.'); return; }
+  const left = inkLeft();
+  if (left < 10) { announce('Out of ink. Erase a line to get ink back.'); return; }
+  const clipped = len > left;
+  if (clipped) {
+    const k = left / len;
+    x2 = x1 + (x2 - x1) * k;
+    y2 = y1 + (y2 - y1) * k;
+  }
+  lines.push(makeLine(x1, y1, x2, y2, false));
+  updateStatus();
+  announce(`Line drawn${clipped ? ', shortened because you ran out of ink' : ''}. Ink left ${Math.round(inkLeft())} of ${level().ink}.`);
+}
+
+function eraseLine(i) {
+  if (i < 0 || !lines[i] || lines[i].fixed) return;
+  if (mode === 'run') {
+    if (erasers <= 0) { announce('No erasers left this run.'); return; }
+    erasers--;
+  }
+  lines.splice(i, 1);
+  selected = -1;
+  updateStatus();
+  announce(mode === 'run' ? `Erased. ${erasers} erasers left.` : `Line erased. Ink left ${Math.round(inkLeft())}.`);
+}
+
+function inkIndices() {
+  return lines.map((l, i) => (l.fixed ? -1 : i)).filter(i => i >= 0);
+}
+
+function cycleSelection(delta) {
+  const ids = inkIndices();
+  if (!ids.length) { selected = -1; announce('You have not drawn any lines.'); return; }
+  const pos = ids.indexOf(selected);
+  const next = pos < 0 ? (delta > 0 ? 0 : ids.length - 1) : (pos + delta + ids.length) % ids.length;
+  selected = ids[next];
+  const l = lines[selected];
+  announce(`Line ${next + 1} of ${ids.length}, from column ${col(l.x1)} row ${col(l.y1)} to column ${col(l.x2)} row ${col(l.y2)}, length ${Math.round(l.len)}. Press Delete to erase.`);
+}
+
+function toggleRun() {
+  if (mode === 'run') {
+    resetFigure();
+    announce('Stopped. The figure is back at the start.');
+    return;
+  }
+  if (mode !== 'plan') resetFigure();
+  pending = null;
+  mode = 'run';
+  updateStatus();
+  announce(`Running, facing ${fig.dir > 0 ? 'right' : 'left'}. Press G to stop.`);
+}
+
+function clearInk() {
+  lines = lines.filter(l => l.fixed);
+  selected = -1;
+  resetFigure();
+  announce(`All ink cleared. Ink left ${level().ink}.`);
+}
+
+function walkable(l) {
+  const dx = Math.abs(l.x2 - l.x1);
+  return dx > 0.001 && Math.abs(l.y2 - l.y1) / dx <= MAX_SLOPE;
+}
+
+function surfaceY(l, x) {
+  const [ax, ay, bx, by] = l.x1 < l.x2 ? [l.x1, l.y1, l.x2, l.y2] : [l.x2, l.y2, l.x1, l.y1];
+  if (x < ax || x > bx) return null;
+  return ay + (by - ay) * (x - ax) / (bx - ax);
+}
+
+function segmentsCross(ax, ay, bx, by, cx, cy, dx, dy) {
+  const d = (bx - ax) * (dy - cy) - (by - ay) * (dx - cx);
+  if (!d) return false;
+  const t = ((cx - ax) * (dy - cy) - (cy - ay) * (dx - cx)) / d;
+  const u = ((cx - ax) * (by - ay) - (cy - ay) * (bx - ax)) / d;
+  return t >= 0 && t <= 1 && u >= 0 && u <= 1;
+}
+
+function step(dt) {
+  const f = fig, L = level();
+  f.t += dt;
+
+  let nx = f.x + f.dir * SPEED * dt;
+  let bump = nx < 6 || nx > W - 6;
+  for (const l of lines) {
+    if (bump) break;
+    if (walkable(l)) continue;
+    bump = [4, 18, 30].some(h => segmentsCross(f.x, f.y - h, nx, f.y - h, l.x1, l.y1, l.x2, l.y2));
+  }
+  if (bump) {
+    f.dir *= -1;
+    nx = f.x;
+    if (performance.now() - lastTurnNote > 1500) {
+      lastTurnNote = performance.now();
+      announce(`Turned around, now facing ${f.dir > 0 ? 'right' : 'left'}.`);
+    }
+  }
+
+  f.vy = Math.min(f.vy + GRAVITY * dt, 900);
+  const ny = f.y + f.vy * dt;
+  const top = f.grounded ? f.y - STEP_UP : f.y - 0.5;
+  const bottom = f.grounded ? Math.max(ny, f.y + STEP_DOWN) : ny + 0.5;
+  let ground = null;
+  for (const l of lines) {
+    if (!walkable(l)) continue;
+    const s = surfaceY(l, nx);
+    if (s !== null && s >= top && s <= bottom && (ground === null || s < ground)) ground = s;
+  }
+  f.x = nx;
+  if (ground !== null && f.vy >= 0) {
+    f.y = ground;
+    f.vy = 0;
+    f.grounded = true;
+  } else {
+    f.y = ny;
+    f.grounded = false;
+  }
+
+  if (f.y > H + 40) return lose('The figure fell off the page.');
+  if (L.spikes.some(s => f.x >= s.x - 2 && f.x <= s.x + s.w + 2 && f.y >= s.y && f.y - 36 <= s.y + s.h)) {
+    return lose('Ouch! The figure hit the spikes.');
+  }
+  const e = L.exit;
+  if (f.x >= e.x && f.x <= e.x + e.w && f.y >= e.y && f.y <= e.y + e.h + 2) win();
+}
+
+function lose(msg) {
+  mode = 'lost';
+  updateStatus();
+  announce(`${msg} Press R or Reset figure to try again. Your lines are kept.`);
+}
+
+function win() {
+  mode = 'won';
+  const used = inkUsed(), par = level().par;
+  const stars = used <= par ? 3 : used <= par * 1.5 ? 2 : 1;
+  bestStars[levelIndex] = Math.max(bestStars[levelIndex] || 0, stars);
+  const last = levelIndex === LEVELS.length - 1;
+  btnNext.disabled = last;
+  updateStatus();
+  announce(`Page complete! ${stars} of 3 stars, ${Math.round(used)} ink used, par ${par}. ` +
+    (last ? 'You finished the notebook!' : 'Press N or Next page to turn the page.'));
+}
+
+function colors() {
+  return highContrast
+    ? { paper: '#000', rule: '#262626', margin: '#3d1f1f', pen: '#fff', ink: '#ffd400', spike: '#ff6b6b', focus: '#00e5ff' }
+    : { paper: '#fbf7ec', rule: '#d6e2f3', margin: '#efc4c4', pen: '#222', ink: '#1d4ed8', spike: '#b91c1c', focus: '#b45309' };
+}
+
+function strokePts(pts) {
+  ctx.beginPath();
+  ctx.moveTo(pts[0][0], pts[0][1]);
+  for (let i = 1; i < pts.length; i++) ctx.lineTo(pts[i][0], pts[i][1]);
+  ctx.stroke();
+}
+
+function dashedLine(x1, y1, x2, y2, color) {
+  ctx.save();
+  ctx.setLineDash([8, 6]);
+  ctx.strokeStyle = color;
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(x1, y1);
+  ctx.lineTo(x2, y2);
+  ctx.stroke();
+  ctx.restore();
+}
+
+function draw() {
+  const C = colors(), L = level();
+  ctx.fillStyle = C.paper;
+  ctx.fillRect(0, 0, W, H);
+  ctx.lineCap = 'round';
+  ctx.lineJoin = 'round';
+
+  ctx.strokeStyle = C.rule;
+  ctx.lineWidth = 1;
+  for (let y = 40; y < H; y += 40) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
+  ctx.strokeStyle = C.margin;
+  ctx.beginPath(); ctx.moveTo(30, 0); ctx.lineTo(30, H); ctx.stroke();
+
+  const e = L.exit;
+  ctx.strokeStyle = C.pen;
+  ctx.lineWidth = 2;
+  const fold = e.x > W / 2 ? [[e.x + e.w, e.y], [e.x + e.w - 30, e.y + 30], [e.x + e.w, e.y + 30]]
+                           : [[e.x, e.y], [e.x + 30, e.y + 30], [e.x, e.y + 30]];
+  ctx.beginPath();
+  fold.forEach(([x, y], i) => (i ? ctx.lineTo(x, y) : ctx.moveTo(x, y)));
+  ctx.closePath();
+  ctx.stroke();
+  ctx.fillStyle = C.pen;
+  ctx.font = 'bold 16px system-ui, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('EXIT', e.x + e.w / 2, e.y + e.h - 8);
+
+  ctx.strokeStyle = C.spike;
+  ctx.lineWidth = 2.5;
+  for (const s of L.spikes) {
+    ctx.beginPath();
+    ctx.moveTo(s.x, s.y + s.h);
+    for (let x = s.x; x < s.x + s.w; x += 10) {
+      ctx.lineTo(x + 5, s.y);
+      ctx.lineTo(Math.min(x + 10, s.x + s.w), s.y + s.h);
+    }
+    ctx.stroke();
+  }
+
+  lines.forEach((l, i) => {
+    if (i === selected) {
+      ctx.strokeStyle = C.focus;
+      ctx.lineWidth = 10;
+      strokePts(l.pts);
+    }
+    ctx.strokeStyle = l.fixed ? C.pen : C.ink;
+    ctx.lineWidth = l.fixed ? 3 : 4;
+    strokePts(l.pts);
+  });
+
+  if (drag && drag.moved) dashedLine(drag.x1, drag.y1, drag.x2, drag.y2, C.ink);
+  if (pending) dashedLine(pending.x, pending.y, cursor.c * GRID, cursor.r * GRID, C.ink);
+
+  drawFigure(C);
+
+  if (showCursor && document.activeElement === canvas) {
+    const x = cursor.c * GRID, y = cursor.r * GRID;
+    ctx.strokeStyle = C.focus;
+    ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.arc(x, y, 7, 0, Math.PI * 2); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(x - 12, y); ctx.lineTo(x + 12, y); ctx.moveTo(x, y - 12); ctx.lineTo(x, y + 12); ctx.stroke();
+  }
+
+  if (mode === 'won' || mode === 'lost') {
+    ctx.fillStyle = C.paper;
+    ctx.globalAlpha = 0.85;
+    ctx.fillRect(W / 2 - 200, 16, 400, 44);
+    ctx.globalAlpha = 1;
+    ctx.fillStyle = mode === 'won' ? C.pen : C.spike;
+    ctx.font = 'bold 22px system-ui, sans-serif';
+    ctx.fillText(mode === 'won' ? `Page complete! ${'★'.repeat(bestStars[levelIndex])}` : 'Try again — press R', W / 2, 46);
+  }
+}
+
+function drawFigure(C) {
+  const { x, y, t, dir } = fig;
+  const swing = mode === 'run' && fig.grounded ? Math.sin(t * 11) * 0.5 : 0;
+  const hipY = y - 14, neckY = y - 28;
+  ctx.strokeStyle = C.pen;
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(x, hipY); ctx.lineTo(x + Math.sin(swing) * 14, hipY + Math.cos(swing) * 14);
+  ctx.moveTo(x, hipY); ctx.lineTo(x - Math.sin(swing) * 14, hipY + Math.cos(swing) * 14);
+  ctx.moveTo(x, hipY); ctx.lineTo(x, neckY);
+  const armY = mode === 'won' ? y - 40 : y - 16;
+  ctx.moveTo(x, y - 24); ctx.lineTo(x + 10 + swing * 4, armY);
+  ctx.moveTo(x, y - 24); ctx.lineTo(x - 10 - swing * 4, armY);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(x, y - 35, 7, 0, Math.PI * 2);
+  ctx.stroke();
+  ctx.fillStyle = C.pen;
+  ctx.beginPath();
+  ctx.arc(x + dir * 3, y - 36, 1.6, 0, Math.PI * 2);
+  ctx.fill();
+}
+
+let last = performance.now(), acc = 0;
+function frame(now) {
+  const dt = Math.min(0.05, (now - last) / 1000) * (slow ? 0.4 : 1);
+  last = now;
+  if (mode === 'run') {
+    acc += dt;
+    while (acc >= 1 / 120 && mode === 'run') { step(1 / 120); acc -= 1 / 120; }
+  } else {
+    acc = 0;
+  }
+  draw();
+  requestAnimationFrame(frame);
+}
+
+function toPage(e) {
+  const r = canvas.getBoundingClientRect();
+  const snap = v => Math.round(v / 10) * 10;
+  return {
+    x: snap(Math.max(0, Math.min(W, (e.clientX - r.left) * W / r.width))),
+    y: snap(Math.max(0, Math.min(H, (e.clientY - r.top) * H / r.height))),
+  };
+}
+
+canvas.addEventListener('pointerdown', e => {
+  const p = toPage(e);
+  showCursor = false;
+  drag = { x1: p.x, y1: p.y, x2: p.x, y2: p.y, moved: false };
+  canvas.setPointerCapture(e.pointerId);
+});
+
+canvas.addEventListener('pointermove', e => {
+  if (!drag) return;
+  const p = toPage(e);
+  drag.x2 = p.x;
+  drag.y2 = p.y;
+  if (Math.hypot(drag.x2 - drag.x1, drag.y2 - drag.y1) > 6) drag.moved = true;
+});
+
+canvas.addEventListener('pointerup', () => {
+  if (!drag) return;
+  const d = drag;
+  drag = null;
+  if (d.moved) {
+    addLine(d.x1, d.y1, d.x2, d.y2);
+    return;
+  }
+  let best = -1, bestDist = 10;
+  lines.forEach((l, i) => {
+    const dist = distToSeg(d.x1, d.y1, l);
+    if (!l.fixed && dist < bestDist) { best = i; bestDist = dist; }
+  });
+  eraseLine(best);
+});
+
+canvas.addEventListener('pointercancel', () => { drag = null; });
+
+canvas.addEventListener('keydown', e => {
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  const k = e.key.length === 1 ? e.key.toLowerCase() : e.key;
+  const n = e.shiftKey ? 5 : 1;
+  const move = { ArrowLeft: [-n, 0], ArrowRight: [n, 0], ArrowUp: [0, -n], ArrowDown: [0, n] }[k];
+  if (move) {
+    cursor.c = Math.max(0, Math.min(COLS, cursor.c + move[0]));
+    cursor.r = Math.max(0, Math.min(ROWS, cursor.r + move[1]));
+    showCursor = true;
+    announceCursorSoon();
+  } else if (k === ' ' || k === 'Enter') {
+    showCursor = true;
+    const x = cursor.c * GRID, y = cursor.r * GRID;
+    if (!pending) {
+      if (mode === 'run') { announce('Stop the run before drawing.'); e.preventDefault(); return; }
+      pending = { x, y };
+      announce(`Line start set at column ${cursor.c}, row ${cursor.r}. Move and press Space again to finish.`);
+    } else {
+      const p = pending;
+      pending = null;
+      addLine(p.x, p.y, x, y);
+    }
+  } else if (k === 'Escape' && pending) {
+    pending = null;
+    announce('Line cancelled.');
+  } else if (k === '[' || k === ']') {
+    cycleSelection(k === ']' ? 1 : -1);
+  } else if (k === 'Delete' || k === 'Backspace') {
+    if (selected < 0) announce('No line selected. Use [ or ] to select one.');
+    else eraseLine(selected);
+  } else if (k === 'g') {
+    toggleRun();
+  } else if (k === 'r') {
+    resetFigure();
+    announce('Figure reset to the start.');
+  } else if (k === 'd') {
+    announce(describeText());
+  } else if (k === 'n') {
+    goNext();
+  } else if (k === 's') {
+    toggleSlow();
+  } else if (k === 'c') {
+    toggleContrast();
+  } else {
+    return;
+  }
+  e.preventDefault();
+});
+
+function goNext() {
+  if (mode !== 'won' || levelIndex >= LEVELS.length - 1) { announce('Finish this page first.'); return; }
+  loadLevel(levelIndex + 1);
+  canvas.focus();
+}
+
+function toggleSlow() {
+  slow = !slow;
+  btnSlow.setAttribute('aria-pressed', String(slow));
+  announce(`Slow motion ${slow ? 'on' : 'off'}.`);
+}
+
+function toggleContrast() {
+  highContrast = !highContrast;
+  document.body.classList.toggle('hc', highContrast);
+  btnContrast.setAttribute('aria-pressed', String(highContrast));
+  announce(`High contrast ${highContrast ? 'on' : 'off'}.`);
+}
+
+btnRun.addEventListener('click', toggleRun);
+$('btn-reset').addEventListener('click', () => { resetFigure(); announce('Figure reset to the start.'); });
+$('btn-clear').addEventListener('click', clearInk);
+$('btn-describe').addEventListener('click', () => announce(describeText()));
+btnSlow.addEventListener('click', toggleSlow);
+btnContrast.addEventListener('click', toggleContrast);
+btnNext.addEventListener('click', goNext);
+
+if (window.matchMedia('(prefers-contrast: more)').matches) toggleContrast();
+loadLevel(0);
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>
