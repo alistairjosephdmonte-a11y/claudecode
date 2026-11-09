@@ -1,0 +1,1971 @@
+{
+ "total": 734.616,
+ "scenes": [
+  {
+   "i": 1,
+   "base": 0.0,
+   "dur": 43.268,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     2.75
+    ],
+    [
+     4.375,
+     9.238
+    ],
+    [
+     7.75,
+     12.692
+    ],
+    [
+     11.125,
+     16.11
+    ],
+    [
+     14.5,
+     20.817
+    ],
+    [
+     17.875,
+     26.981
+    ],
+    [
+     21.25,
+     34.286
+    ],
+    [
+     24.625,
+     37.406
+    ],
+    [
+     30.0,
+     43.268
+    ]
+   ]
+  },
+  {
+   "i": 2,
+   "base": 43.268,
+   "dur": 45.0,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     10.173
+    ],
+    [
+     8.714285714285715,
+     15.243
+    ],
+    [
+     12.571428571428571,
+     23.028
+    ],
+    [
+     16.42857142857143,
+     30.388
+    ],
+    [
+     20.285714285714285,
+     35.843
+    ],
+    [
+     24.142857142857142,
+     39.361
+    ],
+    [
+     30.0,
+     45.0
+    ]
+   ]
+  },
+  {
+   "i": 3,
+   "base": 88.268,
+   "dur": 49.54,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     5.514
+    ],
+    [
+     7.75,
+     13.91
+    ],
+    [
+     11.125,
+     22.62
+    ],
+    [
+     14.5,
+     28.327
+    ],
+    [
+     17.875,
+     35.933
+    ],
+    [
+     21.25,
+     41.301
+    ],
+    [
+     24.625,
+     45.059
+    ],
+    [
+     30.0,
+     49.54
+    ]
+   ]
+  },
+  {
+   "i": 4,
+   "base": 137.808,
+   "dur": 42.915,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     8.205
+    ],
+    [
+     7.75,
+     13.454
+    ],
+    [
+     11.125,
+     19.932
+    ],
+    [
+     14.5,
+     26.984
+    ],
+    [
+     17.875,
+     30.074
+    ],
+    [
+     21.25,
+     34.799
+    ],
+    [
+     24.625,
+     37.059
+    ],
+    [
+     30.0,
+     42.915
+    ]
+   ]
+  },
+  {
+   "i": 5,
+   "base": 180.723,
+   "dur": 44.011,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     4.165
+    ],
+    [
+     7.75,
+     12.986
+    ],
+    [
+     11.125,
+     19.792
+    ],
+    [
+     14.5,
+     25.33
+    ],
+    [
+     17.875,
+     30.825
+    ],
+    [
+     21.25,
+     32.782
+    ],
+    [
+     24.625,
+     37.077
+    ],
+    [
+     30.0,
+     44.011
+    ]
+   ]
+  },
+  {
+   "i": 6,
+   "base": 224.734,
+   "dur": 45.631,
+   "n": 10,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.7,
+     3.621
+    ],
+    [
+     6.4,
+     11.095
+    ],
+    [
+     9.1,
+     15.83
+    ],
+    [
+     11.8,
+     18.119
+    ],
+    [
+     14.5,
+     24.781
+    ],
+    [
+     17.2,
+     28.284
+    ],
+    [
+     19.9,
+     33.252
+    ],
+    [
+     22.6,
+     38.733
+    ],
+    [
+     25.3,
+     41.696
+    ],
+    [
+     30.0,
+     45.631
+    ]
+   ]
+  },
+  {
+   "i": 7,
+   "base": 270.365,
+   "dur": 43.756,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     3.833
+    ],
+    [
+     7.0,
+     8.256
+    ],
+    [
+     10.0,
+     16.158
+    ],
+    [
+     13.0,
+     23.222
+    ],
+    [
+     16.0,
+     27.519
+    ],
+    [
+     19.0,
+     32.199
+    ],
+    [
+     22.0,
+     35.073
+    ],
+    [
+     25.0,
+     38.179
+    ],
+    [
+     30.0,
+     43.756
+    ]
+   ]
+  },
+  {
+   "i": 8,
+   "base": 314.121,
+   "dur": 46.095,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     2.769
+    ],
+    [
+     7.75,
+     8.362
+    ],
+    [
+     11.125,
+     12.881
+    ],
+    [
+     14.5,
+     21.305
+    ],
+    [
+     17.875,
+     31.038
+    ],
+    [
+     21.25,
+     34.511
+    ],
+    [
+     24.625,
+     38.423
+    ],
+    [
+     30.0,
+     46.095
+    ]
+   ]
+  },
+  {
+   "i": 9,
+   "base": 360.216,
+   "dur": 46.485,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     8.887
+    ],
+    [
+     7.75,
+     14.164
+    ],
+    [
+     11.125,
+     18.321
+    ],
+    [
+     14.5,
+     22.942
+    ],
+    [
+     17.875,
+     30.89
+    ],
+    [
+     21.25,
+     37.394
+    ],
+    [
+     24.625,
+     39.757
+    ],
+    [
+     30.0,
+     46.485
+    ]
+   ]
+  },
+  {
+   "i": 10,
+   "base": 406.701,
+   "dur": 48.505,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     5.323
+    ],
+    [
+     7.75,
+     11.463
+    ],
+    [
+     11.125,
+     18.478
+    ],
+    [
+     14.5,
+     25.569
+    ],
+    [
+     17.875,
+     31.871
+    ],
+    [
+     21.25,
+     35.993
+    ],
+    [
+     24.625,
+     40.422
+    ],
+    [
+     30.0,
+     48.505
+    ]
+   ]
+  },
+  {
+   "i": 11,
+   "base": 455.206,
+   "dur": 44.085,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     7.234
+    ],
+    [
+     8.714285714285715,
+     12.354
+    ],
+    [
+     12.571428571428571,
+     20.664
+    ],
+    [
+     16.42857142857143,
+     27.69
+    ],
+    [
+     20.285714285714285,
+     30.872
+    ],
+    [
+     24.142857142857142,
+     35.752
+    ],
+    [
+     30.0,
+     44.085
+    ]
+   ]
+  },
+  {
+   "i": 12,
+   "base": 499.291,
+   "dur": 46.752,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     3.86
+    ],
+    [
+     7.0,
+     11.1
+    ],
+    [
+     10.0,
+     15.254
+    ],
+    [
+     13.0,
+     19.28
+    ],
+    [
+     16.0,
+     25.075
+    ],
+    [
+     19.0,
+     30.324
+    ],
+    [
+     22.0,
+     33.001
+    ],
+    [
+     25.0,
+     41.471
+    ],
+    [
+     30.0,
+     46.752
+    ]
+   ]
+  },
+  {
+   "i": 13,
+   "base": 546.043,
+   "dur": 46.256,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     4.041
+    ],
+    [
+     8.714285714285715,
+     13.101
+    ],
+    [
+     12.571428571428571,
+     20.891
+    ],
+    [
+     16.42857142857143,
+     27.198
+    ],
+    [
+     20.285714285714285,
+     34.722
+    ],
+    [
+     24.142857142857142,
+     37.081
+    ],
+    [
+     30.0,
+     46.256
+    ]
+   ]
+  },
+  {
+   "i": 14,
+   "base": 592.299,
+   "dur": 46.041,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     8.042
+    ],
+    [
+     7.75,
+     11.101
+    ],
+    [
+     11.125,
+     18.039
+    ],
+    [
+     14.5,
+     22.2
+    ],
+    [
+     17.875,
+     28.922
+    ],
+    [
+     21.25,
+     36.581
+    ],
+    [
+     24.625,
+     41.651
+    ],
+    [
+     30.0,
+     46.041
+    ]
+   ]
+  },
+  {
+   "i": 15,
+   "base": 638.34,
+   "dur": 48.036,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     3.808
+    ],
+    [
+     7.75,
+     12.304
+    ],
+    [
+     11.125,
+     17.205
+    ],
+    [
+     14.5,
+     23.237
+    ],
+    [
+     17.875,
+     31.826
+    ],
+    [
+     21.25,
+     39.315
+    ],
+    [
+     24.625,
+     41.951
+    ],
+    [
+     30.0,
+     48.036
+    ]
+   ]
+  },
+  {
+   "i": 16,
+   "base": 686.376,
+   "dur": 48.24,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     7.466
+    ],
+    [
+     7.75,
+     11.832
+    ],
+    [
+     11.125,
+     15.411
+    ],
+    [
+     14.5,
+     22.83
+    ],
+    [
+     17.875,
+     26.337
+    ],
+    [
+     21.25,
+     34.184
+    ],
+    [
+     24.625,
+     40.046
+    ],
+    [
+     30.0,
+     48.24
+    ]
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "s01_01",
+   "text": "In December 2023, shoppers noticed something strange outside several British stores.",
+   "scene": 1,
+   "say": "In December twenty twenty-three, shoppers noticed something strange outside several British stores.",
+   "t": 3.0,
+   "local": 3.0,
+   "dur": 6.038,
+   "trim": 0.229
+  },
+  {
+   "id": "s01_02",
+   "text": "A familiar name had been reduced to three letters.",
+   "scene": 1,
+   "t": 9.488,
+   "local": 9.488,
+   "dur": 3.003,
+   "trim": 0.094
+  },
+  {
+   "id": "s01_03",
+   "text": "WHSmith had become WHS.",
+   "scene": 1,
+   "say": "W. H. Smith had become W. H. S.",
+   "t": 12.942,
+   "local": 12.942,
+   "dur": 2.968,
+   "trim": 0.202
+  },
+  {
+   "id": "s01_04",
+   "text": "The new signs were supposed to help modernize the shopping experience.",
+   "scene": 1,
+   "t": 16.36,
+   "local": 16.36,
+   "dur": 4.257,
+   "trim": 0.185
+  },
+  {
+   "id": "s01_05",
+   "text": "Instead, people began comparing them to the branding of Britain's National Health Service.",
+   "scene": 1,
+   "t": 21.067,
+   "local": 21.067,
+   "dur": 5.714,
+   "trim": 0.166
+  },
+  {
+   "id": "s01_06",
+   "text": "A retailer with more than two centuries of history had created a surprisingly public argument over three letters.",
+   "scene": 1,
+   "t": 27.231,
+   "local": 27.231,
+   "dur": 6.855,
+   "trim": 0.238
+  },
+  {
+   "id": "s01_07",
+   "text": "But the real story wasn't just about a logo.",
+   "scene": 1,
+   "t": 34.536,
+   "local": 34.536,
+   "dur": 2.67,
+   "trim": 0.161
+  },
+  {
+   "id": "s01_08",
+   "text": "It was about what happens when a business changes faster than its identity.",
+   "scene": 1,
+   "t": 37.656,
+   "local": 37.656,
+   "dur": 4.512,
+   "trim": 0.178
+  },
+  {
+   "id": "s02_01",
+   "text": "WHSmith's history began in London in 1792, when Henry Walton Smith and his wife Anna opened a small retail business.",
+   "scene": 2,
+   "say": "W. H. Smith's history began in London in seventeen ninety-two, when Henry Walton Smith and his wife Anna opened a small retail business.",
+   "t": 43.868,
+   "local": 0.6,
+   "dur": 9.373,
+   "trim": 0.227
+  },
+  {
+   "id": "s02_02",
+   "text": "Over generations, the name became familiar across British high streets.",
+   "scene": 2,
+   "t": 53.691,
+   "local": 10.423,
+   "dur": 4.621,
+   "trim": 0.134
+  },
+  {
+   "id": "s02_03",
+   "text": "Newspapers, books, stationery, magazines, and everyday essentials made its stores part of ordinary life.",
+   "scene": 2,
+   "t": 58.761,
+   "local": 15.493,
+   "dur": 7.334,
+   "trim": 0.209
+  },
+  {
+   "id": "s02_04",
+   "text": "The company also developed a presence in travel retail, opening a railway-station shop in 1848.",
+   "scene": 2,
+   "say": "The company also developed a presence in travel retail, opening a railway-station shop in eighteen forty-eight.",
+   "t": 66.546,
+   "local": 23.278,
+   "dur": 6.91,
+   "trim": 0.209
+  },
+  {
+   "id": "s02_05",
+   "text": "That history created something competitors could not simply purchase: recognition.",
+   "scene": 2,
+   "t": 73.906,
+   "local": 30.638,
+   "dur": 5.005,
+   "trim": 0.201
+  },
+  {
+   "id": "s02_06",
+   "text": "Customers knew the name before they entered the store.",
+   "scene": 2,
+   "t": 79.361,
+   "local": 36.093,
+   "dur": 3.069,
+   "trim": 0.181
+  },
+  {
+   "id": "s02_07",
+   "text": "And that familiarity would eventually become central to the controversy.",
+   "scene": 2,
+   "t": 82.879,
+   "local": 39.611,
+   "dur": 4.289,
+   "trim": 0.204
+  },
+  {
+   "id": "s03_01",
+   "text": "By the twenty-first century, Britain's traditional high streets were under pressure.",
+   "scene": 3,
+   "t": 88.868,
+   "local": 0.6,
+   "dur": 4.714,
+   "trim": 0.177
+  },
+  {
+   "id": "s03_02",
+   "text": "Online shopping, changing consumer habits, and competition from supermarkets and specialist retailers had transformed the environment.",
+   "scene": 3,
+   "t": 94.032,
+   "local": 5.764,
+   "dur": 7.946,
+   "trim": 0.193
+  },
+  {
+   "id": "s03_03",
+   "text": "WHSmith's stores still occupied recognizable locations, but recognition alone could not guarantee growth.",
+   "scene": 3,
+   "say": "W. H. Smith's stores still occupied recognizable locations, but recognition alone could not guarantee growth.",
+   "t": 102.428,
+   "local": 14.16,
+   "dur": 8.26,
+   "trim": 0.227
+  },
+  {
+   "id": "s03_04",
+   "text": "Customers had more alternatives for books, stationery, snacks, and everyday purchases.",
+   "scene": 3,
+   "t": 111.138,
+   "local": 22.87,
+   "dur": 5.258,
+   "trim": 0.141
+  },
+  {
+   "id": "s03_05",
+   "text": "Meanwhile, WHSmith was developing a different business in airports, railway stations, and hospitals.",
+   "scene": 3,
+   "say": "Meanwhile, W. H. Smith was developing a different business in airports, railway stations, and hospitals.",
+   "t": 116.845,
+   "local": 28.577,
+   "dur": 7.155,
+   "trim": 0.171
+  },
+  {
+   "id": "s03_06",
+   "text": "The company was increasingly operating in two distinct retail environments.",
+   "scene": 3,
+   "t": 124.451,
+   "local": 36.183,
+   "dur": 4.918,
+   "trim": 0.166
+  },
+  {
+   "id": "s03_07",
+   "text": "One depended on traditional town-center shopping.",
+   "scene": 3,
+   "t": 129.819,
+   "local": 41.551,
+   "dur": 3.308,
+   "trim": 0.186
+  },
+  {
+   "id": "s03_08",
+   "text": "The other served people already traveling somewhere.",
+   "scene": 3,
+   "t": 133.577,
+   "local": 45.309,
+   "dur": 3.131,
+   "trim": 0.334
+  },
+  {
+   "id": "s04_01",
+   "text": "Near the end of 2023, WHSmith began testing new storefront signs at ten locations in England.",
+   "scene": 4,
+   "say": "Near the end of twenty twenty-three, W. H. Smith began testing new storefront signs at ten locations in England.",
+   "t": 138.408,
+   "local": 0.6,
+   "dur": 7.405,
+   "trim": 0.205
+  },
+  {
+   "id": "s04_02",
+   "text": "The most noticeable change was the shortened name: WHS.",
+   "scene": 4,
+   "say": "The most noticeable change was the shortened name: W. H. S.",
+   "t": 146.263,
+   "local": 8.455,
+   "dur": 4.8,
+   "trim": 0.158
+  },
+  {
+   "id": "s04_03",
+   "text": "The signs also highlighted products available inside the stores and included local information.",
+   "scene": 4,
+   "t": 151.512,
+   "local": 13.704,
+   "dur": 6.027,
+   "trim": 0.179
+  },
+  {
+   "id": "s04_04",
+   "text": "According to the company's explanation, some shoppers did not fully understand the range of merchandise it offered.",
+   "scene": 4,
+   "t": 157.99,
+   "local": 20.182,
+   "dur": 6.602,
+   "trim": 0.201
+  },
+  {
+   "id": "s04_05",
+   "text": "The trial was intended to make that offer clearer.",
+   "scene": 4,
+   "t": 165.042,
+   "local": 27.234,
+   "dur": 2.64,
+   "trim": 0.421
+  },
+  {
+   "id": "s04_06",
+   "text": "This was not a nationwide replacement of the WHSmith brand.",
+   "scene": 4,
+   "say": "This was not a nationwide replacement of the W. H. Smith brand.",
+   "t": 168.132,
+   "local": 30.324,
+   "dur": 4.275,
+   "trim": 0.174
+  },
+  {
+   "id": "s04_07",
+   "text": "It was a limited experiment.",
+   "scene": 4,
+   "t": 172.857,
+   "local": 35.049,
+   "dur": 1.81,
+   "trim": 0.178
+  },
+  {
+   "id": "s04_08",
+   "text": "But a small experiment can still create a very large public reaction.",
+   "scene": 4,
+   "t": 175.117,
+   "local": 37.309,
+   "dur": 4.506,
+   "trim": 0.186
+  },
+  {
+   "id": "s05_01",
+   "text": "Photographs of the new signs spread online.",
+   "scene": 5,
+   "t": 181.323,
+   "local": 0.6,
+   "dur": 3.365,
+   "trim": 0.166
+  },
+  {
+   "id": "s05_02",
+   "text": "Critics noticed that the abbreviated name, presented in white lettering against blue, reminded them of the NHS identity.",
+   "scene": 5,
+   "say": "Critics noticed that the abbreviated name, presented in white lettering against blue, reminded them of the N. H. S. identity.",
+   "t": 185.138,
+   "local": 4.415,
+   "dur": 8.371,
+   "trim": 0.15
+  },
+  {
+   "id": "s05_03",
+   "text": "Others questioned why a recognizable retailer would remove the most distinctive part of its name.",
+   "scene": 5,
+   "t": 193.959,
+   "local": 13.236,
+   "dur": 6.357,
+   "trim": 0.002
+  },
+  {
+   "id": "s05_04",
+   "text": "The reaction was often mocking, but beneath the jokes was a serious branding question.",
+   "scene": 5,
+   "t": 200.765,
+   "local": 20.042,
+   "dur": 5.088,
+   "trim": 0.197
+  },
+  {
+   "id": "s05_05",
+   "text": "What does a company gain by shortening a name that customers already understand?",
+   "scene": 5,
+   "t": 206.303,
+   "local": 25.58,
+   "dur": 5.045,
+   "trim": 0.204
+  },
+  {
+   "id": "s05_06",
+   "text": "And what might it lose?",
+   "scene": 5,
+   "t": 211.798,
+   "local": 31.075,
+   "dur": 1.507,
+   "trim": 0.074
+  },
+  {
+   "id": "s05_07",
+   "text": "WHSmith had attempted to communicate its offer more clearly.",
+   "scene": 5,
+   "say": "W. H. Smith had attempted to communicate its offer more clearly.",
+   "t": 213.755,
+   "local": 33.032,
+   "dur": 3.845,
+   "trim": 0.214
+  },
+  {
+   "id": "s05_08",
+   "text": "Some observers believed the new identity had made the business less recognizable instead.",
+   "scene": 5,
+   "t": 218.05,
+   "local": 37.327,
+   "dur": 5.584,
+   "trim": 0.218
+  },
+  {
+   "id": "s06_01",
+   "text": "A brand name performs several jobs at once.",
+   "scene": 6,
+   "t": 225.334,
+   "local": 0.6,
+   "dur": 2.821,
+   "trim": 0.216
+  },
+  {
+   "id": "s06_02",
+   "text": "It helps customers recognize a business, remember previous experiences, and distinguish it from competitors.",
+   "scene": 6,
+   "t": 228.605,
+   "local": 3.871,
+   "dur": 7.024,
+   "trim": 0.187
+  },
+  {
+   "id": "s06_03",
+   "text": "Familiarity can reduce the effort required to make a shopping decision.",
+   "scene": 6,
+   "t": 236.079,
+   "local": 11.345,
+   "dur": 4.285,
+   "trim": 0.196
+  },
+  {
+   "id": "s06_04",
+   "text": "But branding also evolves.",
+   "scene": 6,
+   "t": 240.814,
+   "local": 16.08,
+   "dur": 1.838,
+   "trim": 0.161
+  },
+  {
+   "id": "s06_05",
+   "text": "Companies shorten names, simplify symbols, and update storefronts for practical reasons.",
+   "scene": 6,
+   "t": 243.103,
+   "local": 18.369,
+   "dur": 6.212,
+   "trim": 0.197
+  },
+  {
+   "id": "s06_06",
+   "text": "None of those changes is automatically a mistake.",
+   "scene": 6,
+   "t": 249.765,
+   "local": 25.031,
+   "dur": 3.053,
+   "trim": 0.202
+  },
+  {
+   "id": "s06_07",
+   "text": "The question is whether the new design improves the customer's understanding.",
+   "scene": 6,
+   "t": 253.268,
+   "local": 28.534,
+   "dur": 4.518,
+   "trim": 0.19
+  },
+  {
+   "id": "s06_08",
+   "text": "WHSmith's trial exposed the tension between simplicity and recognition.",
+   "scene": 6,
+   "say": "W. H. Smith's trial exposed the tension between simplicity and recognition.",
+   "t": 258.236,
+   "local": 33.502,
+   "dur": 5.03,
+   "trim": 0.194
+  },
+  {
+   "id": "s06_09",
+   "text": "Removing letters made the sign shorter.",
+   "scene": 6,
+   "t": 263.717,
+   "local": 38.983,
+   "dur": 2.514,
+   "trim": 0.366
+  },
+  {
+   "id": "s06_10",
+   "text": "It did not necessarily make the business clearer.",
+   "scene": 6,
+   "t": 266.68,
+   "local": 41.946,
+   "dur": 2.585,
+   "trim": 0.193
+  },
+  {
+   "id": "s07_01",
+   "text": "The criticism moved beyond local shoppers.",
+   "scene": 7,
+   "t": 270.965,
+   "local": 0.6,
+   "dur": 3.033,
+   "trim": 0.143
+  },
+  {
+   "id": "s07_02",
+   "text": "National newspapers and design publications covered the experiment.",
+   "scene": 7,
+   "t": 274.448,
+   "local": 4.083,
+   "dur": 3.973,
+   "trim": 0.137
+  },
+  {
+   "id": "s07_03",
+   "text": "Some commentators treated it as an example of branding that had overlooked an obvious resemblance to another institution.",
+   "scene": 7,
+   "t": 278.871,
+   "local": 8.506,
+   "dur": 7.452,
+   "trim": 0.219
+  },
+  {
+   "id": "s07_04",
+   "text": "Others acknowledged that WHSmith had a legitimate reason to reconsider its storefront communication.",
+   "scene": 7,
+   "say": "Others acknowledged that W. H. Smith had a legitimate reason to reconsider its storefront communication.",
+   "t": 286.773,
+   "local": 16.408,
+   "dur": 6.614,
+   "trim": 0.306
+  },
+  {
+   "id": "s07_05",
+   "text": "The company had been trying to show customers what they could buy.",
+   "scene": 7,
+   "t": 293.837,
+   "local": 23.472,
+   "dur": 3.848,
+   "trim": 0.201
+  },
+  {
+   "id": "s07_06",
+   "text": "But public attention focused overwhelmingly on how the sign looked.",
+   "scene": 7,
+   "t": 298.134,
+   "local": 27.769,
+   "dur": 4.23,
+   "trim": 0.17
+  },
+  {
+   "id": "s07_07",
+   "text": "This created a communications problem.",
+   "scene": 7,
+   "t": 302.814,
+   "local": 32.449,
+   "dur": 2.424,
+   "trim": 0.109
+  },
+  {
+   "id": "s07_08",
+   "text": "The intended message was about merchandise.",
+   "scene": 7,
+   "t": 305.688,
+   "local": 35.323,
+   "dur": 2.656,
+   "trim": 0.201
+  },
+  {
+   "id": "s07_09",
+   "text": "The conversation became about three letters and a visual comparison.",
+   "scene": 7,
+   "t": 308.794,
+   "local": 38.429,
+   "dur": 4.227,
+   "trim": 0.126
+  },
+  {
+   "id": "s08_01",
+   "text": "Here is where the evidence matters.",
+   "scene": 8,
+   "t": 314.721,
+   "local": 0.6,
+   "dur": 1.969,
+   "trim": 0.064
+  },
+  {
+   "id": "s08_02",
+   "text": "Public criticism does not prove that a branding experiment damaged sales.",
+   "scene": 8,
+   "t": 317.14,
+   "local": 3.019,
+   "dur": 5.144,
+   "trim": 0.133
+  },
+  {
+   "id": "s08_03",
+   "text": "WHSmith had tested the signs at only ten stores.",
+   "scene": 8,
+   "say": "W. H. Smith had tested the signs at only ten stores.",
+   "t": 322.733,
+   "local": 8.612,
+   "dur": 4.069,
+   "trim": 0.149
+  },
+  {
+   "id": "s08_04",
+   "text": "Available reporting documents the backlash, but does not establish a measurable nationwide revenue loss caused by the trial.",
+   "scene": 8,
+   "t": 327.252,
+   "local": 13.131,
+   "dur": 7.974,
+   "trim": 0.167
+  },
+  {
+   "id": "s08_05",
+   "text": "Without store-level results, customer research, and comparable control locations, it would be misleading to assign a financial cost to those signs.",
+   "scene": 8,
+   "t": 335.676,
+   "local": 21.555,
+   "dur": 9.283,
+   "trim": 0.225
+  },
+  {
+   "id": "s08_06",
+   "text": "The experiment became a public-relations warning.",
+   "scene": 8,
+   "t": 345.409,
+   "local": 31.288,
+   "dur": 3.023,
+   "trim": 0.218
+  },
+  {
+   "id": "s08_07",
+   "text": "Whether it was a commercial failure is a different question.",
+   "scene": 8,
+   "t": 348.882,
+   "local": 34.761,
+   "dur": 3.462,
+   "trim": 0.134
+  },
+  {
+   "id": "s08_08",
+   "text": "And WHSmith's larger financial story was unfolding somewhere else entirely.",
+   "scene": 8,
+   "say": "And W. H. Smith's larger financial story was unfolding somewhere else entirely.",
+   "t": 352.794,
+   "local": 38.673,
+   "dur": 6.322,
+   "trim": 0.189
+  },
+  {
+   "id": "s09_01",
+   "text": "In fiscal 2024, WHSmith reported approximately one point nine two billion pounds in group revenue.",
+   "scene": 9,
+   "say": "In fiscal twenty twenty-four, W. H. Smith reported approximately one point nine two billion pounds in group revenue.",
+   "t": 360.816,
+   "local": 0.6,
+   "dur": 8.087,
+   "trim": 0.284
+  },
+  {
+   "id": "s09_02",
+   "text": "Its Travel business generated approximately one point four seven billion.",
+   "scene": 9,
+   "t": 369.353,
+   "local": 9.137,
+   "dur": 4.828,
+   "trim": 0.187
+  },
+  {
+   "id": "s09_03",
+   "text": "High Street contributed around four hundred and fifty-two million.",
+   "scene": 9,
+   "t": 374.63,
+   "local": 14.414,
+   "dur": 3.706,
+   "trim": 0.147
+  },
+  {
+   "id": "s09_04",
+   "text": "The numbers revealed how much the company's center of gravity had shifted.",
+   "scene": 9,
+   "t": 378.787,
+   "local": 18.571,
+   "dur": 4.171,
+   "trim": 0.23
+  },
+  {
+   "id": "s09_05",
+   "text": "Airports, railway stations, hospitals, and international travel locations had become the dominant revenue engine.",
+   "scene": 9,
+   "t": 383.408,
+   "local": 23.192,
+   "dur": 7.498,
+   "trim": 0.19
+  },
+  {
+   "id": "s09_06",
+   "text": "The traditional high-street stores still mattered, but they were no longer the company's main growth story.",
+   "scene": 9,
+   "t": 391.356,
+   "local": 31.14,
+   "dur": 6.055,
+   "trim": 0.201
+  },
+  {
+   "id": "s09_07",
+   "text": "That distinction is crucial.",
+   "scene": 9,
+   "t": 397.86,
+   "local": 37.644,
+   "dur": 1.913,
+   "trim": 0.123
+  },
+  {
+   "id": "s09_08",
+   "text": "The storefront controversy concerned one part of a business increasingly focused on another.",
+   "scene": 9,
+   "t": 400.223,
+   "local": 40.007,
+   "dur": 5.377,
+   "trim": 0.233
+  },
+  {
+   "id": "s10_01",
+   "text": "Travel retail offered WHSmith a different operating environment.",
+   "scene": 10,
+   "say": "Travel retail offered W. H. Smith a different operating environment.",
+   "t": 407.301,
+   "local": 0.6,
+   "dur": 4.523,
+   "trim": 0.144
+  },
+  {
+   "id": "s10_02",
+   "text": "Airport passengers and railway commuters often shop because they need something during a journey.",
+   "scene": 10,
+   "t": 412.274,
+   "local": 5.573,
+   "dur": 5.69,
+   "trim": 0.2
+  },
+  {
+   "id": "s10_03",
+   "text": "Books, snacks, drinks, travel accessories, and convenience products serve immediate needs.",
+   "scene": 10,
+   "t": 418.414,
+   "local": 11.713,
+   "dur": 6.564,
+   "trim": 0.202
+  },
+  {
+   "id": "s10_04",
+   "text": "High-street customers have a broader set of alternatives, including online retailers and competing stores.",
+   "scene": 10,
+   "t": 425.429,
+   "local": 18.728,
+   "dur": 6.641,
+   "trim": 0.22
+  },
+  {
+   "id": "s10_05",
+   "text": "WHSmith had spent years expanding its travel presence, including internationally.",
+   "scene": 10,
+   "say": "W. H. Smith had spent years expanding its travel presence, including internationally.",
+   "t": 432.52,
+   "local": 25.819,
+   "dur": 5.852,
+   "trim": 0.18
+  },
+  {
+   "id": "s10_06",
+   "text": "Its strategy increasingly emphasized those locations.",
+   "scene": 10,
+   "t": 438.822,
+   "local": 32.121,
+   "dur": 3.672,
+   "trim": 0.373
+  },
+  {
+   "id": "s10_07",
+   "text": "The business wasn't simply deciding what its signs should say.",
+   "scene": 10,
+   "t": 442.944,
+   "local": 36.243,
+   "dur": 3.979,
+   "trim": 0.198
+  },
+  {
+   "id": "s10_08",
+   "text": "It was deciding which retail markets deserved its investment, management attention, and long-term commitment.",
+   "scene": 10,
+   "t": 447.373,
+   "local": 40.672,
+   "dur": 6.733,
+   "trim": 0.179
+  },
+  {
+   "id": "s11_01",
+   "text": "On March twenty-eighth, 2025, WHSmith announced a much more consequential change.",
+   "scene": 11,
+   "say": "On March twenty-eighth, twenty twenty-five, W. H. Smith announced a much more consequential change.",
+   "t": 455.806,
+   "local": 0.6,
+   "dur": 6.434,
+   "trim": 0.205
+  },
+  {
+   "id": "s11_02",
+   "text": "It had agreed to sell its UK High Street business to Modella Capital.",
+   "scene": 11,
+   "say": "It had agreed to sell its U. K. High Street business to Mo-della Capital.",
+   "t": 462.69,
+   "local": 7.484,
+   "dur": 4.67,
+   "trim": 0.009
+  },
+  {
+   "id": "s11_03",
+   "text": "The transaction carried an announced enterprise value of seventy-six million pounds on a cash-and-debt-free basis.",
+   "scene": 11,
+   "t": 467.81,
+   "local": 12.604,
+   "dur": 7.859,
+   "trim": 0.157
+  },
+  {
+   "id": "s11_04",
+   "text": "This did not mean the buyer simply handed WHSmith seventy-six million pounds in cash.",
+   "scene": 11,
+   "say": "This did not mean the buyer simply handed W. H. Smith seventy-six million pounds in cash.",
+   "t": 476.12,
+   "local": 20.914,
+   "dur": 6.577,
+   "trim": 0.006
+  },
+  {
+   "id": "s11_05",
+   "text": "The financial structure was more complicated.",
+   "scene": 11,
+   "t": 483.146,
+   "local": 27.94,
+   "dur": 2.732,
+   "trim": 0.192
+  },
+  {
+   "id": "s11_06",
+   "text": "The deal involved hundreds of stores and thousands of employees.",
+   "scene": 11,
+   "t": 486.328,
+   "local": 31.122,
+   "dur": 4.43,
+   "trim": 0.231
+  },
+  {
+   "id": "s11_07",
+   "text": "Most importantly, it marked the planned separation of the traditional high-street chain from the group that had built its name.",
+   "scene": 11,
+   "t": 491.208,
+   "local": 36.002,
+   "dur": 6.983,
+   "trim": 0.235
+  },
+  {
+   "id": "s12_01",
+   "text": "There was a remarkable detail in the transaction.",
+   "scene": 12,
+   "t": 499.891,
+   "local": 0.6,
+   "dur": 3.06,
+   "trim": 0.186
+  },
+  {
+   "id": "s12_02",
+   "text": "WHSmith sold the High Street operations, but retained ownership of the WHSmith brand.",
+   "scene": 12,
+   "say": "W. H. Smith sold the High Street operations, but retained ownership of the W. H. Smith brand.",
+   "t": 503.401,
+   "local": 4.11,
+   "dur": 6.789,
+   "trim": 0.098
+  },
+  {
+   "id": "s12_03",
+   "text": "Its Travel division would continue using the familiar name.",
+   "scene": 12,
+   "t": 510.641,
+   "local": 11.35,
+   "dur": 3.704,
+   "trim": 0.146
+  },
+  {
+   "id": "s12_04",
+   "text": "The stores being sold would eventually need another identity.",
+   "scene": 12,
+   "t": 514.795,
+   "local": 15.504,
+   "dur": 3.576,
+   "trim": 0.185
+  },
+  {
+   "id": "s12_05",
+   "text": "This was not the same decision as the 2023 WHS signage trial.",
+   "scene": 12,
+   "say": "This was not the same decision as the twenty twenty-three W. H. S.  signage trial.",
+   "t": 518.821,
+   "local": 19.53,
+   "dur": 5.345,
+   "trim": 0.187
+  },
+  {
+   "id": "s12_06",
+   "text": "It was a separate corporate transaction, involving different commercial considerations.",
+   "scene": 12,
+   "t": 524.616,
+   "local": 25.325,
+   "dur": 4.799,
+   "trim": 0.179
+  },
+  {
+   "id": "s12_07",
+   "text": "Yet the contrast was striking.",
+   "scene": 12,
+   "t": 529.865,
+   "local": 30.574,
+   "dur": 2.228,
+   "trim": 0.093
+  },
+  {
+   "id": "s12_08",
+   "text": "The business associated with Britain's high streets was changing ownership, while the historic name would continue serving travelers.",
+   "scene": 12,
+   "t": 532.542,
+   "local": 33.251,
+   "dur": 8.02,
+   "trim": 0.413
+  },
+  {
+   "id": "s12_09",
+   "text": "The identity and the original retail estate were being separated.",
+   "scene": 12,
+   "t": 541.012,
+   "local": 41.721,
+   "dur": 3.931,
+   "trim": 0.147
+  },
+  {
+   "id": "s13_01",
+   "text": "The sale was completed in June 2025.",
+   "scene": 13,
+   "say": "The sale was completed in June twenty twenty-five.",
+   "t": 546.643,
+   "local": 0.6,
+   "dur": 3.241,
+   "trim": 0.198
+  },
+  {
+   "id": "s13_02",
+   "text": "Under Modella Capital's ownership, the former WHSmith High Street stores began transitioning to a new name: TGJones.",
+   "scene": 13,
+   "say": "Under Modella Capital's ownership, the former W. H. Smith High Street stores began transitioning to a new name: T. G. Jones.",
+   "t": 550.334,
+   "local": 4.291,
+   "dur": 8.609,
+   "trim": 0.238
+  },
+  {
+   "id": "s13_03",
+   "text": "The new owner presented the change as part of a plan to reinvigorate traditional retail locations and expand their offer.",
+   "scene": 13,
+   "t": 559.394,
+   "local": 13.351,
+   "dur": 7.34,
+   "trim": 0.157
+  },
+  {
+   "id": "s13_04",
+   "text": "Customers would still find familiar products and services, but the storefront identity would change.",
+   "scene": 13,
+   "t": 567.184,
+   "local": 21.141,
+   "dur": 5.857,
+   "trim": 0.121
+  },
+  {
+   "id": "s13_05",
+   "text": "A business whose name had been associated with British shopping for generations was entering a new chapter.",
+   "scene": 13,
+   "t": 573.491,
+   "local": 27.448,
+   "dur": 7.074,
+   "trim": 0.246
+  },
+  {
+   "id": "s13_06",
+   "text": "The irony was unmistakable.",
+   "scene": 13,
+   "t": 581.015,
+   "local": 34.972,
+   "dur": 1.909,
+   "trim": 0.203
+  },
+  {
+   "id": "s13_07",
+   "text": "After a controversial trial involving three letters, the larger high-street business was receiving an entirely new name.",
+   "scene": 13,
+   "t": 583.374,
+   "local": 37.331,
+   "dur": 7.825,
+   "trim": 0.191
+  },
+  {
+   "id": "s14_01",
+   "text": "No evidence establishes that the 2023 WHS signage controversy caused the 2025 sale.",
+   "scene": 14,
+   "say": "No evidence establishes that the twenty twenty-three W. H. S.  signage controversy caused the twenty twenty-five sale.",
+   "t": 592.899,
+   "local": 0.6,
+   "dur": 7.242,
+   "trim": 0.201
+  },
+  {
+   "id": "s14_02",
+   "text": "That would confuse two different decisions.",
+   "scene": 14,
+   "t": 600.591,
+   "local": 8.292,
+   "dur": 2.609,
+   "trim": 0.197
+  },
+  {
+   "id": "s14_03",
+   "text": "WHSmith's own announcement identified a strategic focus on higher-growth travel retail markets.",
+   "scene": 14,
+   "say": "W. H. Smith's own announcement identified a strategic focus on higher-growth travel retail markets.",
+   "t": 603.65,
+   "local": 11.351,
+   "dur": 6.489,
+   "trim": 0.161
+  },
+  {
+   "id": "s14_04",
+   "text": "Its financial reporting showed the increasing importance of that division.",
+   "scene": 14,
+   "t": 610.588,
+   "local": 18.289,
+   "dur": 3.711,
+   "trim": 0.183
+  },
+  {
+   "id": "s14_05",
+   "text": "The signage experiment, meanwhile, concerned how the traditional stores communicated with customers.",
+   "scene": 14,
+   "t": 614.749,
+   "local": 22.45,
+   "dur": 6.272,
+   "trim": 0.353
+  },
+  {
+   "id": "s14_06",
+   "text": "Both developments belong to the same broader period of change, but they should not be treated as cause and effect.",
+   "scene": 14,
+   "t": 621.471,
+   "local": 29.172,
+   "dur": 7.209,
+   "trim": 0.171
+  },
+  {
+   "id": "s14_07",
+   "text": "A compelling business story does not require inventing a connection.",
+   "scene": 14,
+   "t": 629.13,
+   "local": 36.831,
+   "dur": 4.62,
+   "trim": 0.197
+  },
+  {
+   "id": "s14_08",
+   "text": "The documented contrast is interesting enough.",
+   "scene": 14,
+   "t": 634.2,
+   "local": 41.901,
+   "dur": 3.04,
+   "trim": 0.17
+  },
+  {
+   "id": "s15_01",
+   "text": "WHSmith's story reveals three lessons.",
+   "scene": 15,
+   "say": "W. H. Smith's story reveals three lessons.",
+   "t": 638.94,
+   "local": 0.6,
+   "dur": 3.008,
+   "trim": 0.217
+  },
+  {
+   "id": "s15_02",
+   "text": "First, a recognizable name is a valuable business asset, even when a company believes its presentation needs updating.",
+   "scene": 15,
+   "t": 642.398,
+   "local": 4.058,
+   "dur": 8.046,
+   "trim": 0.193
+  },
+  {
+   "id": "s15_03",
+   "text": "Second, visual simplicity is not the same as customer clarity.",
+   "scene": 15,
+   "t": 650.894,
+   "local": 12.554,
+   "dur": 4.451,
+   "trim": 0.195
+  },
+  {
+   "id": "s15_04",
+   "text": "And third, a brand's identity can outlive the retail business that made it famous.",
+   "scene": 15,
+   "t": 655.795,
+   "local": 17.455,
+   "dur": 5.582,
+   "trim": 0.157
+  },
+  {
+   "id": "s15_05",
+   "text": "The WHS trial generated criticism because customers and commentators recognized something had changed.",
+   "scene": 15,
+   "say": "The W. H. S. trial generated criticism because customers and commentators recognized something had changed.",
+   "t": 661.827,
+   "local": 23.487,
+   "dur": 8.138,
+   "trim": 0.195
+  },
+  {
+   "id": "s15_06",
+   "text": "The later sale showed that the company's actual strategic transformation went far beyond storefront design.",
+   "scene": 15,
+   "t": 670.416,
+   "local": 32.076,
+   "dur": 7.04,
+   "trim": 0.146
+  },
+  {
+   "id": "s15_07",
+   "text": "One story was about perception.",
+   "scene": 15,
+   "t": 677.905,
+   "local": 39.565,
+   "dur": 2.186,
+   "trim": 0.097
+  },
+  {
+   "id": "s15_08",
+   "text": "The other was about where WHSmith believed its future growth would come from.",
+   "scene": 15,
+   "say": "The other was about where W. H. Smith believed its future growth would come from.",
+   "t": 680.541,
+   "local": 42.201,
+   "dur": 4.735,
+   "trim": 0.365
+  },
+  {
+   "id": "s16_01",
+   "text": "For more than two centuries, WHSmith built recognition through its presence in everyday British life.",
+   "scene": 16,
+   "say": "For more than two centuries, W. H. Smith built recognition through its presence in everyday British life.",
+   "t": 686.976,
+   "local": 0.6,
+   "dur": 6.666,
+   "trim": 0.204
+  },
+  {
+   "id": "s16_02",
+   "text": "Then a three-letter experiment became a national talking point.",
+   "scene": 16,
+   "t": 694.092,
+   "local": 7.716,
+   "dur": 3.916,
+   "trim": 0.18
+  },
+  {
+   "id": "s16_03",
+   "text": "But the bigger transformation was not a logo.",
+   "scene": 16,
+   "t": 698.458,
+   "local": 12.082,
+   "dur": 3.13,
+   "trim": 0.208
+  },
+  {
+   "id": "s16_04",
+   "text": "It was the decision to separate the company's traditional high-street operations from its growing travel business.",
+   "scene": 16,
+   "t": 702.037,
+   "local": 15.661,
+   "dur": 6.969,
+   "trim": 0.203
+  },
+  {
+   "id": "s16_05",
+   "text": "The lesson is not that brands should never change.",
+   "scene": 16,
+   "t": 709.456,
+   "local": 23.08,
+   "dur": 3.057,
+   "trim": 0.203
+  },
+  {
+   "id": "s16_06",
+   "text": "It is that every change needs a clear purpose, and every outcome needs to be judged against evidence.",
+   "scene": 16,
+   "t": 712.963,
+   "local": 26.587,
+   "dur": 7.396,
+   "trim": 0.223
+  },
+  {
+   "id": "s16_07",
+   "text": "A familiar name can survive even when the business behind it changes completely.",
+   "scene": 16,
+   "t": 720.81,
+   "local": 34.434,
+   "dur": 5.412,
+   "trim": 0.091
+  },
+  {
+   "id": "s16_08",
+   "text": "And every brand leaves evidence.",
+   "scene": 16,
+   "t": 726.672,
+   "local": 40.296,
+   "dur": 2.444,
+   "trim": 0.184
+  }
+ ]
+}

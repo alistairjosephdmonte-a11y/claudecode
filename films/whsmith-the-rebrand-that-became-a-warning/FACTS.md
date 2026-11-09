@@ -1,0 +1,28 @@
+# Facts and sources: Brand Coroner · Case 010 · WHSmith
+
+Editorial rule: every historical claim is supported by documentary evidence. Company announcements (RNS) are preferred; where a detail rests on press reporting, the film says so on screen ("reported", "as reported").
+
+| Scene | Claim (narration) | Evidence |
+|---|---|---|
+| 01, 04 | December 2023: trial signs shortened the name to "WHS" at ten locations | Retail Gazette, "WHSmith's 'WHS' mini-rebrand sparks confusion", Dec 27, 2023 (citing *The Telegraph*, Dec 26, 2023): logo trialled in ten stores, including York and Preston; white three-letter mark on a blue background. WHSmith statement (Marketing Beat, Jan 5, 2024; The Drum, Jan 3, 2024): "This is a trial and only in ten locations. There is no plan to roll this out to the rest of the estate." Canterbury also reported as a site; all named sites are in England |
+| 01, 05, 07 | Compared to the NHS identity; national newspapers and design publications covered it | LBC, Dec 27, 2023 (backlash, NHS comparison); Marketing Beat, Jan 5, 2024 (Neil Saunders, GlobalData: "too similar to the NHS logo"); *Creative Review*, "The curious case of the WHSmith branding 'trial'"; *The Drum*, Jan 3, 2024 |
+| 04 | Signs highlighted product categories and local information; some customers unaware of the range | WHSmith statement: "With some customers telling us they aren't always aware of the wide range of high quality, great value products we stock in our high street stores, we are testing new signage at a small number of locations, to localise our offer and highlight the key product categories customers can always find at WHSmith." Signs listed books, stationery, cards, news and convenience (Retail Gazette) |
+| 02 | 1792, London, Henry Walton Smith and his wife Anna | Science Museum Group collection record "W.H. Smith & Son Ltd. 1792"; Wikipedia, "WHSmith" (news vendor, Little Grosvenor Street). The University of Reading's W.H. Smith Archive dates the start to c. 1790; the film notes that accounts vary |
+| 02 | Railway-station shop in 1848 | *History Today*, "The First WH Smith Railway Bookstall": opened at Euston, 1 November 1848 |
+| 08 | No measurable revenue loss established | No source found (company reporting or press) attributes a revenue effect to the ten-store trial; the film presents this as "not established" |
+| 09 | FY2024: group ≈ £1.92bn; Travel ≈ £1.47bn; High Street ≈ £452m | WH Smith PLC preliminary results, Nov 14, 2024 (FCA NSM): "Total Group revenue at £1,918m (2023: £1,793m)"; "Total Travel revenue was £1,466m (2023: £1,324m)"; High Street "revenue of £452m (2023: £469m)"; "In the year, Travel was over 75% of Group revenue" |
+| 10 | Years of travel expansion, including internationally | Same results: 1,291 Travel stores at Aug 31, 2024; RNS Mar 28, 2025: "over 1,200 Travel stores across 32 countries" |
+| 11 | Mar 28, 2025: sale of UK High Street business to Modella Capital, £76m EV, cash-and-debt-free; hundreds of stores, thousands of employees | WH Smith PLC RNS 6636C, Mar 28, 2025: "Consideration represents an enterprise value of £76m on a cash and debt-free basis"; "Gross cash proceeds of £52m, with anticipated net cash proceeds of c.£25m"; "employs c.5,000 colleagues across c.480 stores" |
+| 11 | "The financial structure was more complicated" | RNS Mar 28, 2025: £36m at completion, £6m after 12 months, up to £10m tied to tax assets. RNS Jun 30, 2025: gross cash proceeds now expected "of up to £40m". Shown on screen |
+| 12 | Brand retained; Travel keeps the name; stores need a new identity | RNS Mar 28, 2025: "WHSmith brand is not included in the sale"; "The High Street business will operate for a short transitional period under the WHSmith brand whilst the business rebrands as TGJones. The Group's Travel divisions will continue to trade under the WHSmith brand." |
+| 13 | Completed June 2025; rebrand to TGJones; owner's stated plan | RNS Jun 30, 2025: "completed the sale of its UK High Street business to Modella Capital". Modella Capital, "TGJones (formerly WHSmith)": aim to "re-establish these stores as the hub of every high street they serve"; Joseph Price: "TGJones feels like a worthy successor to the WHSmith brand" |
+| 13 | On-screen postscript (not in narration): 2026 restructuring | *Re TG Jones High Street Ltd* [2026] EWHC 2079 (Ch): sanction hearing June 29–30, 2026; "the business will operate from a reduced footprint of 302 stores going forward" (para 33). The judgment attributes the difficulties to sector pressures and prior under-investment and does not attribute them to the rebrand; the film draws no causal link |
+| 14 | The sale announcement cited travel focus | RNS Mar 28, 2025, headline: "WHSmith sells UK High Street business to focus on higher growth travel retail markets" |
+
+## Storyboard items not used
+
+- **Logos.** The storyboard shows WHSmith, WHS, NHS, TGJones and Modella Capital logos and signs. None is reproduced as a graphic; names are set as plain letters in the film's own type. Signage appears only inside dated photographs.
+- **Photographs of the WHS trial signs.** No freely licensed photograph was found on Wikimedia Commons or Geograph. The film says so on screen and shows the York store (a reported trial site) as photographed in June 2025, under WHSmith signage.
+- **Founder portrait and 1792 shopfront.** No verified portrait of Henry Walton Smith was found. Scene 2 uses a dated 1992 photo of an old-style W.H. Smith station kiosk (Hull Paragon).
+- **"Annual Report 2024" pie chart and "Sale of UK High Street" document.** Shown as transcriptions of the actual results and RNS text, not as imitation documents.
+- **"Modella Capital" building sign.** Not used.
