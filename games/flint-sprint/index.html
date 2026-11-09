@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flint Sprint</title>
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #f2f2f2; color: #111; font: 16px/1.5 system-ui, sans-serif; }
+  #c { display: block; width: 100vw; height: 100vh; }
+  .hud { position: fixed; top: 0; left: 0; right: 0; display: flex; align-items: center; gap: 24px; padding: 10px 16px; font-weight: 700; font-size: 1.15rem; }
+  .hud .spacer { flex: 1; }
+  .panel { position: fixed; inset: 0; display: grid; place-items: center; padding: 16px; background: rgba(242, 242, 242, .82); }
+  .panel[hidden], .hud [hidden], .touch[hidden] { display: none; }
+  .card { max-width: 560px; max-height: calc(100vh - 32px); overflow: auto; padding: 20px 24px; background: #fff; border: 3px solid #111; border-radius: 10px; text-align: center; }
+  .card h1, .card h2 { margin: 0 0 8px; letter-spacing: .04em; }
+  .card ul { text-align: left; padding-left: 20px; }
+  .row { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 12px 0 0; }
+  button { font: inherit; min-height: 44px; padding: 8px 16px; border: 2px solid #111; border-radius: 8px; background: #fff; color: #111; cursor: pointer; }
+  button:hover, button[aria-pressed="true"] { background: #111; color: #fff; }
+  :focus-visible { outline: 3px solid #111; outline-offset: 3px; }
+  button:hover:focus-visible, button[aria-pressed="true"]:focus-visible { outline-color: #111; box-shadow: 0 0 0 2px #fff inset; }
+  kbd { border: 1px solid #111; border-radius: 3px; padding: 0 4px; font-size: .9em; }
+  .touch { position: fixed; left: 0; right: 0; bottom: 14px; display: flex; justify-content: center; gap: 10px; }
+  .touch button { min-width: 64px; min-height: 56px; font-size: 1.3rem; background: rgba(255, 255, 255, .9); }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  #fatal { position: fixed; inset: 0; display: grid; place-items: center; padding: 24px; text-align: center; background: #f2f2f2; }
+</style>
+</head>
+<body>
+<main>
+<canvas id="c" tabindex="-1" aria-label="Flint Sprint game view"></canvas>
+
+<div class="hud">
+  <span id="hud-score">Score 0</span>
+  <span id="hud-meat">Meat 0</span>
+  <span id="hud-best">Best 0</span>
+  <span class="spacer"></span>
+  <button type="button" id="btn-pause" hidden>Pause</button>
+</div>
+
+<div class="touch" id="touch" hidden>
+  <button type="button" data-act="left" aria-label="Move left">◀</button>
+  <button type="button" data-act="jump" aria-label="Jump">▲</button>
+  <button type="button" data-act="duck" aria-label="Duck">▼</button>
+  <button type="button" data-act="right" aria-label="Move right">▶</button>
+</div>
+
+<section class="panel" id="panel-start" role="dialog" aria-modal="true" aria-labelledby="t-start">
+  <div class="card">
+    <h1 id="t-start">FLINT SPRINT</h1>
+    <p>Oog the caveman is late for the clan feast. Run the three-lane trail, sidestep boulders and stone pillars, jump fallen logs, duck under bone gates, and grab meat for bonus points. The trail gets faster the longer you last.</p>
+    <ul>
+      <li><kbd>←</kbd> <kbd>→</kbd> or <kbd>A</kbd> <kbd>D</kbd>: change lane</li>
+      <li><kbd>↑</kbd>, <kbd>W</kbd> or <kbd>Space</kbd>: jump</li>
+      <li><kbd>↓</kbd> or <kbd>S</kbd>: duck (in the air: drop fast)</li>
+      <li><kbd>P</kbd> or <kbd>Esc</kbd>: pause</li>
+      <li>Touch: swipe, or use the arrow buttons</li>
+      <li>Sound cues: a low buzz means jump, a high chime means duck, and a thud panned left, centre or right marks a blocked lane.</li>
+    </ul>
+    <div class="row"><button type="button" id="btn-start">Start running</button></div>
+    <div class="slot"></div>
+  </div>
+</section>
+
+<section class="panel" id="panel-pause" role="dialog" aria-modal="true" aria-labelledby="t-pause" hidden>
+  <div class="card">
+    <h2 id="t-pause">Paused</h2>
+    <div class="row">
+      <button type="button" id="btn-resume">Resume</button>
+      <button type="button" id="btn-restart">Restart</button>
+    </div>
+    <div class="slot"></div>
+  </div>
+</section>
+
+<section class="panel" id="panel-over" role="dialog" aria-modal="true" aria-labelledby="t-over" hidden>
+  <div class="card">
+    <h2 id="t-over">THUD!</h2>
+    <p id="over-text"></p>
+    <div class="row"><button type="button" id="btn-again">Run again</button></div>
+    <div class="slot"></div>
+  </div>
+</section>
+
+<div class="row" id="options">
+  <button type="button" id="opt-relaxed" aria-pressed="false">Relaxed speed</button>
+  <button type="button" id="opt-motion" aria-pressed="false">Reduced motion</button>
+  <button type="button" id="opt-sound" aria-pressed="true">Sound cues</button>
+</div>
+
+<p id="live" class="sr-only" aria-live="polite"></p>
+</main>
+
+<script>
+  setTimeout(() => {
+    if (window.flintReady) return;
+    const el = document.createElement('div');
+    el.id = 'fatal';
+    el.setAttribute('role', 'alert');
+    el.textContent = 'Flint Sprint could not start. It needs WebGL and an internet connection the first time, to load the 3D engine.';
+    document.body.append(el);
+  }, 6000);
+</script>
+
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.186.1/build/three.module.js" } }
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+
+const LANE_X = [-2.2, 0, 2.2];
+const GRAVITY = 26, JUMP_V = 9, SPAWN_Z = -85;
+const SPEEDS = { normal: { start: 13, accel: 0.35, max: 32 }, relaxed: { start: 9, accel: 0.18, max: 18 } };
+const STAND_H = 2.0, DUCK_H = 1.1, DUCK_TIME = 0.75;
+const BEST_KEY = 'flint-sprint-best';
+
+const $ = id => document.getElementById(id);
+const live = $('live');
+const announce = text => { live.textContent = ''; setTimeout(() => { live.textContent = text; }, 30); };
+
+const canvas = $('c');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
+renderer.shadowMap.enabled = true;
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0xf2f2f2);
+scene.fog = new THREE.Fog(0xf2f2f2, 28, 80);
+
+const camera = new THREE.PerspectiveCamera(60, 1, 0.1, 140);
+
+scene.add(new THREE.HemisphereLight(0xffffff, 0x555555, 1.1));
+const sun = new THREE.DirectionalLight(0xffffff, 1.8);
+sun.position.set(6, 12, 6);
+sun.castShadow = true;
+sun.shadow.mapSize.set(1024, 1024);
+Object.assign(sun.shadow.camera, { left: -8, right: 8, top: 8, bottom: -8, near: 1, far: 40 });
+scene.add(sun);
+
+const ramp = new THREE.DataTexture(new Uint8Array([60, 60, 60, 255, 150, 150, 150, 255, 255, 255, 255, 255]), 3, 1);
+ramp.minFilter = ramp.magFilter = THREE.NearestFilter;
+ramp.needsUpdate = true;
+
+const INK = new THREE.LineBasicMaterial({ color: 0x111111 });
+const materials = new Map(), edges = new Map();
+function toon(g) {
+  if (!materials.has(g)) {
+    materials.set(g, new THREE.MeshToonMaterial({ color: new THREE.Color().setRGB(g, g, g, THREE.SRGBColorSpace), gradientMap: ramp }));
+  }
+  return materials.get(g);
+}
+function part(geom, gray, parent, { x = 0, y = 0, z = 0, outline = true } = {}) {
+  const mesh = new THREE.Mesh(geom, toon(gray));
+  mesh.position.set(x, y, z);
+  mesh.castShadow = true;
+  if (outline) {
+    if (!edges.has(geom)) edges.set(geom, new THREE.EdgesGeometry(geom, 25));
+    mesh.add(new THREE.LineSegments(edges.get(geom), INK));
+  }
+  parent.add(mesh);
+  return mesh;
+}
+
+const GEO = {
+  limb: new THREE.BoxGeometry(0.2, 0.7, 0.22),
+  leg: new THREE.BoxGeometry(0.24, 0.85, 0.26),
+  foot: new THREE.BoxGeometry(0.26, 0.12, 0.38),
+  torso: new THREE.BoxGeometry(0.72, 0.5, 0.42),
+  tunic: new THREE.CylinderGeometry(0.42, 0.55, 0.75, 7),
+  head: new THREE.IcosahedronGeometry(0.3, 1),
+  hair: new THREE.IcosahedronGeometry(0.34, 0),
+  beard: new THREE.ConeGeometry(0.22, 0.38, 6),
+  eye: new THREE.SphereGeometry(0.04, 6, 4),
+  handle: new THREE.CylinderGeometry(0.06, 0.08, 0.8, 6),
+  knob: new THREE.DodecahedronGeometry(0.2, 0),
+  rock: new THREE.DodecahedronGeometry(0.62, 0),
+  log: new THREE.CylinderGeometry(0.35, 0.35, 7.2, 9),
+  post: new THREE.CylinderGeometry(0.18, 0.24, 2.6, 6),
+  bar: new THREE.CylinderGeometry(0.22, 0.22, 8, 7),
+  bone: new THREE.CylinderGeometry(0.05, 0.05, 0.32, 5),
+  pillar: new THREE.CylinderGeometry(0.55, 0.72, 3.2, 7),
+  meat: new THREE.SphereGeometry(0.3, 8, 6),
+  meatBone: new THREE.CylinderGeometry(0.06, 0.06, 0.45, 5),
+  boneEnd: new THREE.SphereGeometry(0.09, 6, 4),
+  trunk: new THREE.CylinderGeometry(0.18, 0.3, 2.2, 6),
+  crown: new THREE.ConeGeometry(1.3, 2.4, 7),
+  boulder: new THREE.DodecahedronGeometry(1.1, 0),
+  dash: new THREE.BoxGeometry(0.1, 0.02, 1.4),
+  mountain: new THREE.ConeGeometry(22, 26, 6),
+};
+
+// --- Oog the caveman -------------------------------------------------------
+const player = new THREE.Group();
+const body = new THREE.Group();
+player.add(body);
+scene.add(player);
+
+function limbPivot(x, y, geom, gray, parent) {
+  const pivot = new THREE.Group();
+  pivot.position.set(x, y, 0);
+  parent.add(pivot);
+  part(geom, gray, pivot, { y: -geom.parameters.height / 2 });
+  return pivot;
+}
+const SKIN = 0.78, FUR = 0.3, DARK = 0.12;
+const legL = limbPivot(-0.2, 0.92, GEO.leg, SKIN, body);
+const legR = limbPivot(0.2, 0.92, GEO.leg, SKIN, body);
+part(GEO.foot, DARK, legL, { y: -0.86, z: -0.06 });
+part(GEO.foot, DARK, legR, { y: -0.86, z: -0.06 });
+part(GEO.tunic, FUR, body, { y: 1.15 });
+part(GEO.torso, SKIN, body, { y: 1.6 });
+const head = part(GEO.head, SKIN, body, { y: 2.02, outline: false });
+part(GEO.hair, DARK, head, { y: 0.1, z: 0.06 });
+part(GEO.beard, DARK, head, { y: -0.22, z: -0.14, outline: false }).rotation.x = Math.PI;
+part(GEO.eye, 0, head, { x: -0.11, y: 0.02, z: -0.27, outline: false });
+part(GEO.eye, 0, head, { x: 0.11, y: 0.02, z: -0.27, outline: false });
+const armL = limbPivot(-0.47, 1.78, GEO.limb, SKIN, body);
+const armR = limbPivot(0.47, 1.78, GEO.limb, SKIN, body);
+const club = new THREE.Group();
+club.position.set(0, -0.7, -0.1);
+club.rotation.x = -1.2;
+armR.add(club);
+part(GEO.handle, 0.5, club, { y: 0.35 });
+part(GEO.knob, 0.45, club, { y: 0.8 });
+
+// --- Trail and scenery -----------------------------------------------------
+const trail = new THREE.Mesh(new THREE.PlaneGeometry(7.6, 240), toon(0.88));
+trail.rotation.x = -Math.PI / 2;
+trail.position.z = -100;
+trail.receiveShadow = true;
+scene.add(trail);
+const land = new THREE.Mesh(new THREE.PlaneGeometry(400, 400), toon(0.7));
+land.rotation.x = -Math.PI / 2;
+land.position.y = -0.02;
+land.receiveShadow = true;
+scene.add(land);
+for (const x of [-3.8, 3.8]) {
+  const edge = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.04, 240), toon(0.1));
+  edge.position.set(x, 0.01, -100);
+  scene.add(edge);
+}
+const dashes = new THREE.Group();
+for (let z = 10; z > -130; z -= 4) for (const x of [-1.1, 1.1]) part(GEO.dash, 0.25, dashes, { x, y: 0.01, z, outline: false });
+scene.add(dashes);
+for (const [x, z, g] of [[-60, -120, 0.62], [-10, -135, 0.55], [45, -125, 0.6], [85, -110, 0.66]]) {
+  const m = part(GEO.mountain, g, scene, { x, y: 12, z });
+  m.castShadow = false;
+}
+
+const scenery = [];
+for (let i = 0; i < 40; i++) {
+  const side = i % 2 ? 1 : -1;
+  const g = new THREE.Group();
+  if (Math.random() < 0.65) {
+    part(GEO.trunk, 0.22, g, { y: 1.1 });
+    part(GEO.crown, 0.38, g, { y: 2.8 });
+    part(GEO.crown, 0.48, g, { y: 3.9 }).scale.setScalar(0.7);
+  } else {
+    const b = part(GEO.boulder, 0.55, g, { y: 0.6 });
+    b.rotation.set(Math.random() * 3, Math.random() * 3, 0);
+  }
+  g.scale.setScalar(0.8 + Math.random() * 0.7);
+  g.position.set(side * (5.5 + Math.random() * 12), 0, 10 - Math.random() * 150);
+  scene.add(g);
+  scenery.push(g);
+}
+
+// --- Obstacles and meat ----------------------------------------------------
+let obstacles = [], meats = [];
+
+function makeRock(lane) {
+  const obj = new THREE.Group();
+  const m = part(GEO.rock, 0.5, obj, { y: 0.42 });
+  m.scale.set(1, 0.72, 0.9);
+  m.rotation.y = Math.random() * 3;
+  return { obj, type: 'boulder', lane, hx: 0.6, y0: 0, y1: 0.85, hz: 0.5 };
+}
+function makePillar(lane) {
+  const obj = new THREE.Group();
+  part(GEO.pillar, 0.42, obj, { y: 1.6 });
+  return { obj, type: 'stone pillar', lane, hx: 0.65, y0: 0, y1: 3.2, hz: 0.6 };
+}
+function makeLog() {
+  const obj = new THREE.Group();
+  part(GEO.log, 0.36, obj, { y: 0.35 }).rotation.z = Math.PI / 2;
+  return { obj, type: 'fallen log', lane: null, y0: 0, y1: 0.7, hz: 0.35 };
+}
+function makeGate() {
+  const obj = new THREE.Group();
+  part(GEO.post, 0.2, obj, { x: -3.7, y: 1.3 });
+  part(GEO.post, 0.2, obj, { x: 3.7, y: 1.3 });
+  part(GEO.bar, 0.3, obj, { y: 1.72 }).rotation.z = Math.PI / 2;
+  for (const x of [-2.2, -0.7, 0.8, 2.3]) part(GEO.bone, 0.95, obj, { x, y: 1.42 });
+  return { obj, type: 'bone gate', lane: null, y0: 1.25, y1: 1.95, hz: 0.3 };
+}
+function spawnMeat(lane, y, z) {
+  const obj = new THREE.Group();
+  part(GEO.meat, 0.4, obj).scale.set(1, 0.85, 1.25);
+  const bone = part(GEO.meatBone, 0.95, obj, { z: 0.45 });
+  bone.rotation.x = Math.PI / 2;
+  part(GEO.boneEnd, 0.95, obj, { x: 0.06, z: 0.68, outline: false });
+  part(GEO.boneEnd, 0.95, obj, { x: -0.06, z: 0.68, outline: false });
+  obj.position.set(LANE_X[lane], y, z);
+  scene.add(obj);
+  meats.push({ obj, lane, y });
+}
+
+const shuffle = a => a.sort(() => Math.random() - 0.5);
+let rowsSpawned = 0;
+function spawnRow(z) {
+  const lanes = shuffle([0, 1, 2]);
+  const r = rowsSpawned < 5 ? Math.random() * 0.22 : Math.random();
+  let items, free = [];
+  if (r < 0.22) { items = [makeRock(lanes[0])]; free = [lanes[1], lanes[2]]; }
+  else if (r < 0.4) { items = [makeRock(lanes[0]), makeRock(lanes[1])]; free = [lanes[2]]; }
+  else if (r < 0.55) { items = [makePillar(lanes[0]), makeRock(lanes[1])]; free = [lanes[2]]; }
+  else if (r < 0.68) { items = [makePillar(lanes[0]), makePillar(lanes[1])]; free = [lanes[2]]; }
+  else if (r < 0.84) items = [makeLog()];
+  else items = [makeGate()];
+  for (const it of items) {
+    it.obj.position.set(it.lane === null ? 0 : LANE_X[it.lane], 0, z);
+    it.warned = false;
+    scene.add(it.obj);
+    obstacles.push(it);
+  }
+  if (Math.random() < 0.5) {
+    if (free.length) spawnMeat(free[Math.floor(Math.random() * free.length)], 1.0, z);
+    else spawnMeat(Math.floor(Math.random() * 3), items[0].type === 'fallen log' ? 2.0 : 0.6, z);
+  }
+  rowsSpawned++;
+}
+
+// --- Sound cues ------------------------------------------------------------
+let audio = null;
+function tone(freq, dur, { pan = 0, type = 'sine', vol = 0.12, slide = 0 } = {}) {
+  if (!settings.sound) return;
+  audio ??= new AudioContext();
+  const t = audio.currentTime;
+  const osc = audio.createOscillator(), gain = audio.createGain(), panner = audio.createStereoPanner();
+  osc.type = type;
+  osc.frequency.setValueAtTime(freq, t);
+  if (slide) osc.frequency.exponentialRampToValueAtTime(freq * slide, t + dur);
+  gain.gain.setValueAtTime(vol, t);
+  gain.gain.exponentialRampToValueAtTime(0.001, t + dur);
+  panner.pan.value = pan;
+  osc.connect(gain).connect(panner).connect(audio.destination);
+  osc.start(t);
+  osc.stop(t + dur);
+}
+function warn(o) {
+  if (o.type === 'fallen log') tone(180, 0.25, { type: 'square', vol: 0.06 });
+  else if (o.type === 'bone gate') tone(1100, 0.25, { vol: 0.1 });
+  else tone(o.type === 'boulder' ? 300 : 200, 0.18, { pan: (o.lane - 1) * 0.85, type: 'triangle', vol: 0.18 });
+}
+
+// --- Game state ------------------------------------------------------------
+const settings = {
+  relaxed: false,
+  reducedMotion: window.matchMedia('(prefers-reduced-motion: reduce)').matches,
+  sound: true,
+};
+const P = { lane: 1, x: 0, y: 0, vy: 0, duck: 0, jumpBuf: 0, phase: 0 };
+let state = 'title', time = 0, speed = 0, distance = 0, meatCount = 0, untilNext = 0, nextMilestone = 500;
+let best = Number(localStorage.getItem(BEST_KEY)) || 0, overAt = 0, shake = 0;
+const score = () => Math.floor(distance) + meatCount * 25;
+
+function resetRun() {
+  for (const o of obstacles) scene.remove(o.obj);
+  for (const m of meats) scene.remove(m.obj);
+  obstacles = [];
+  meats = [];
+  Object.assign(P, { lane: 1, x: 0, y: 0, vy: 0, duck: 0, jumpBuf: 0, phase: 0 });
+  player.rotation.set(0, 0, 0);
+  player.position.set(0, 0, 0);
+  time = distance = meatCount = rowsSpawned = 0;
+  untilNext = 10;
+  nextMilestone = 500;
+  speed = cfg().start;
+}
+const cfg = () => SPEEDS[settings.relaxed ? 'relaxed' : 'normal'];
+
+function showPanel(id) {
+  for (const p of ['panel-start', 'panel-pause', 'panel-over']) $(p).hidden = p !== id;
+  const running = id === null;
+  $('btn-pause').hidden = !running;
+  $('touch').hidden = !running;
+  if (!running) {
+    $(id).querySelector('.slot').append($('options'));
+    $(id).querySelector('button').focus();
+  } else {
+    canvas.focus();
+  }
+}
+
+function startRun() {
+  resetRun();
+  state = 'running';
+  showPanel(null);
+  announce(`Running${settings.relaxed ? ' at relaxed speed' : ''}. Good luck, Oog.`);
+}
+function pause() {
+  if (state !== 'running') return;
+  state = 'paused';
+  showPanel('panel-pause');
+  announce(`Paused. Score ${score()}.`);
+}
+function resume() {
+  state = 'running';
+  showPanel(null);
+  announce('Running.');
+}
+function gameOver(cause) {
+  state = 'over';
+  overAt = performance.now();
+  shake = settings.reducedMotion ? 0 : 0.5;
+  tone(110, 0.5, { type: 'sawtooth', vol: 0.15, slide: 0.5 });
+  const s = score(), isBest = s > best;
+  if (isBest) { best = s; localStorage.setItem(BEST_KEY, String(best)); }
+  const text = `Oog ran into a ${cause}. Score ${s}, with ${meatCount} meat. ${isBest ? 'New best!' : `Best ${best}.`}`;
+  $('over-text').textContent = text;
+  setTimeout(() => { if (state === 'over') showPanel('panel-over'); }, 700);
+  announce(text);
+}
+
+function act(a) {
+  if (state !== 'running') return;
+  if (a === 'left' && P.lane > 0) P.lane--;
+  else if (a === 'right' && P.lane < 2) P.lane++;
+  else if (a === 'jump') P.jumpBuf = 0.15;
+  else if (a === 'duck') {
+    if (P.y > 0) P.vy = Math.min(P.vy, -14);
+    P.duck = DUCK_TIME;
+  }
+}
+
+function update(dt) {
+  time += dt;
+  const c = cfg();
+  speed = Math.min(c.max, c.start + time * c.accel);
+  const move = speed * dt;
+  distance += move;
+
+  P.x += (LANE_X[P.lane] - P.x) * Math.min(1, dt * 14);
+  if (P.jumpBuf > 0) {
+    P.jumpBuf -= dt;
+    if (P.y <= 0) {
+      P.vy = JUMP_V;
+      P.duck = 0;
+      P.jumpBuf = 0;
+      tone(420, 0.15, { slide: 1.8, vol: 0.07 });
+    }
+  }
+  P.vy -= GRAVITY * dt;
+  P.y = Math.max(0, P.y + P.vy * dt);
+  if (P.y === 0) P.vy = Math.max(P.vy, 0);
+  if (P.duck > 0) P.duck -= dt;
+  const height = P.duck > 0 ? DUCK_H : STAND_H;
+
+  untilNext -= move;
+  if (untilNext <= 0) {
+    spawnRow(SPAWN_Z);
+    untilNext = speed * (0.85 + Math.random() * 0.5) + 4;
+  }
+
+  for (const o of obstacles) {
+    o.obj.position.z += move;
+    const z = o.obj.position.z;
+    if (!o.warned && z > -speed * 1.1) { o.warned = true; warn(o); }
+    const hitX = o.lane === null || Math.abs(o.obj.position.x - P.x) < o.hx + 0.35;
+    const hitY = P.y < o.y1 && P.y + height > o.y0;
+    if (Math.abs(z) < o.hz + 0.3 && hitX && hitY) return gameOver(o.type);
+  }
+  obstacles = obstacles.filter(o => o.obj.position.z < 10 || (scene.remove(o.obj), false));
+
+  for (const m of meats) {
+    m.obj.position.z += move;
+    m.obj.rotation.y += dt * (settings.reducedMotion ? 0.5 : 3);
+    const near = Math.abs(m.obj.position.z) < 0.7 && Math.abs(m.obj.position.x - P.x) < 0.8;
+    if (near && m.y + 0.3 > P.y && m.y - 0.3 < P.y + height) {
+      m.taken = true;
+      meatCount++;
+      tone(880, 0.12, { vol: 0.08 });
+      setTimeout(() => tone(1320, 0.15, { vol: 0.08 }), 90);
+    }
+  }
+  meats = meats.filter(m => (m.taken || m.obj.position.z > 10 ? (scene.remove(m.obj), false) : true));
+
+  for (const s of scenery) {
+    s.position.z += move;
+    if (s.position.z > 12) s.position.z -= 150;
+  }
+  dashes.position.z = distance % 4;
+
+  if (score() >= nextMilestone) {
+    announce(`${nextMilestone} points!`);
+    nextMilestone += 500;
+  }
+}
+
+function animatePlayer(dt) {
+  player.position.x = P.x;
+  player.position.y = P.y;
+  if (state === 'over') {
+    player.rotation.x += (-1.45 - player.rotation.x) * Math.min(1, dt * 8);
+    return;
+  }
+  if (state !== 'running') return;
+  P.phase += dt * speed * 0.55;
+  const s = Math.sin(P.phase);
+  const ducking = P.duck > 0, airborne = P.y > 0;
+  body.scale.y += ((ducking ? 0.55 : 1) - body.scale.y) * Math.min(1, dt * 20);
+  body.position.y = !ducking && !airborne && !settings.reducedMotion ? Math.abs(s) * 0.08 : 0;
+  body.rotation.x = ducking ? 0.35 : -0.08;
+  if (airborne) {
+    legL.rotation.x = 0.7; legR.rotation.x = -0.3;
+    armL.rotation.x = 2.4; armR.rotation.x = 2.6;
+  } else {
+    legL.rotation.x = s * 0.9; legR.rotation.x = -s * 0.9;
+    armL.rotation.x = -s * 0.7; armR.rotation.x = s * 0.5 + 0.3;
+  }
+}
+
+function updateHud() {
+  $('hud-score').textContent = `Score ${score()}`;
+  $('hud-meat').textContent = `Meat ${meatCount}`;
+  $('hud-best').textContent = `Best ${best}`;
+}
+
+function resize() {
+  const w = window.innerWidth, h = window.innerHeight;
+  camera.aspect = w / h;
+  camera.fov = camera.aspect < 1 ? 78 : 60;
+  camera.updateProjectionMatrix();
+  renderer.setSize(w, h, false);
+}
+window.addEventListener('resize', resize);
+resize();
+
+const timer = new THREE.Timer();
+timer.connect(document);
+renderer.setAnimationLoop(() => {
+  timer.update();
+  const dt = Math.min(Math.max(timer.getDelta(), 0), 0.05);
+  if (state === 'running') update(dt);
+  animatePlayer(dt);
+  shake = Math.max(0, shake - dt);
+  const jitter = shake > 0 ? (Math.random() - 0.5) * shake * 0.6 : 0;
+  camera.position.set(P.x * 0.5 + jitter, 5.6 + jitter, 8.5);
+  camera.lookAt(P.x * 0.6, 0.5, -14);
+  updateHud();
+  renderer.render(scene, camera);
+});
+
+// --- Input -----------------------------------------------------------------
+const KEYS = {
+  ArrowLeft: 'left', a: 'left', ArrowRight: 'right', d: 'right',
+  ArrowUp: 'jump', w: 'jump', ' ': 'jump', ArrowDown: 'duck', s: 'duck',
+};
+window.addEventListener('keydown', e => {
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  const k = e.key.length === 1 ? e.key.toLowerCase() : e.key;
+  if (k === 'p' || k === 'Escape') {
+    if (state === 'running') pause();
+    else if (state === 'paused') resume();
+    else return;
+    e.preventDefault();
+    return;
+  }
+  if (state !== 'running' || !KEYS[k]) return;
+  e.preventDefault();
+  if (!e.repeat) act(KEYS[k]);
+});
+
+let swipe = null;
+canvas.addEventListener('pointerdown', e => { swipe = { x: e.clientX, y: e.clientY }; });
+canvas.addEventListener('pointerup', e => {
+  if (!swipe) return;
+  const dx = e.clientX - swipe.x, dy = e.clientY - swipe.y;
+  swipe = null;
+  if (Math.max(Math.abs(dx), Math.abs(dy)) < 30) act('jump');
+  else if (Math.abs(dx) > Math.abs(dy)) act(dx > 0 ? 'right' : 'left');
+  else act(dy > 0 ? 'duck' : 'jump');
+});
+for (const btn of $('touch').querySelectorAll('button')) {
+  btn.addEventListener('pointerdown', e => { e.preventDefault(); act(btn.dataset.act); });
+  btn.addEventListener('click', e => { if (e.detail === 0) act(btn.dataset.act); });
+}
+
+const afterGameOver = fn => () => { if (performance.now() - overAt > 900) fn(); };
+$('btn-start').addEventListener('click', startRun);
+$('btn-again').addEventListener('click', afterGameOver(startRun));
+$('btn-restart').addEventListener('click', startRun);
+$('btn-resume').addEventListener('click', resume);
+$('btn-pause').addEventListener('click', pause);
+
+function toggle(id, key, label) {
+  const btn = $(id);
+  btn.setAttribute('aria-pressed', String(settings[key]));
+  btn.addEventListener('click', () => {
+    settings[key] = !settings[key];
+    btn.setAttribute('aria-pressed', String(settings[key]));
+    announce(`${label} ${settings[key] ? 'on' : 'off'}.`);
+  });
+}
+toggle('opt-relaxed', 'relaxed', 'Relaxed speed');
+toggle('opt-motion', 'reducedMotion', 'Reduced motion');
+toggle('opt-sound', 'sound', 'Sound cues');
+
+document.addEventListener('visibilitychange', () => { if (document.hidden) pause(); });
+window.addEventListener('blur', pause);
+
+resetRun();
+showPanel('panel-start');
+window.flintReady = true;
+</script>
+</body>
+</html>
