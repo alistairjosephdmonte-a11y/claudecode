@@ -1,0 +1,829 @@
+1
+00:00:02,950 --> 00:00:08,343
+In 2004, one of the world's most
+recognizable toy companies was fighting for
+
+2
+00:00:08,383 --> 00:00:09,383
+survival.
+
+3
+00:00:09,614 --> 00:00:14,208
+LEGO had spent decades teaching children
+to build almost anything from plastic
+
+4
+00:00:14,248 --> 00:00:15,248
+bricks.
+
+5
+00:00:15,438 --> 00:00:18,685
+But the company itself was
+becoming dangerously unstable.
+
+6
+00:00:19,222 --> 00:00:23,556
+Its annual group loss reached
+nearly two billion Danish kroner.
+
+7
+00:00:23,867 --> 00:00:25,354
+The extraordinary part?
+
+8
+00:00:25,838 --> 00:00:28,802
+LEGO hadn't forgotten how
+to invent new things.
+
+9
+00:00:29,368 --> 00:00:34,059
+It had expanded into too many
+directions without making enough money.
+
+10
+00:00:34,407 --> 00:00:39,257
+And saving the company would require
+a decision that seemed almost absurd.
+
+11
+00:00:39,824 --> 00:00:42,538
+LEGO needed to become less complicated.
+
+12
+00:00:44,340 --> 00:00:46,710
+The story began in Billund, Denmark.
+
+13
+00:00:47,230 --> 00:00:51,517
+Ole Kirk Kristiansen founded
+his toy business in 1932.
+
+14
+00:00:52,231 --> 00:00:56,920
+The company eventually moved from wooden
+toys into plastic construction bricks.
+
+15
+00:00:57,488 --> 00:01:00,676
+Its greatest advantage
+wasn't any single model.
+
+16
+00:01:01,207 --> 00:01:02,472
+It was a system.
+
+17
+00:01:02,982 --> 00:01:07,339
+Pieces could connect, separate,
+and combine with other pieces.
+
+18
+00:01:07,767 --> 00:01:11,587
+A child could dismantle one
+creation and build another.
+
+19
+00:01:11,929 --> 00:01:15,185
+That flexibility gave LEGO
+a distinctive identity.
+
+20
+00:01:15,711 --> 00:01:20,544
+Its products encouraged imagination while
+remaining compatible across generations.
+
+21
+00:01:21,463 --> 00:01:25,786
+The same principle that made the brand
+successful would eventually become the
+
+22
+00:01:25,826 --> 00:01:27,556
+foundation of its recovery.
+
+23
+00:01:29,380 --> 00:01:32,886
+By the late 1990s, the toy
+industry was changing.
+
+24
+00:01:33,447 --> 00:01:36,799
+Electronic entertainment was
+competing for children's attention.
+
+25
+00:01:37,359 --> 00:01:39,748
+Retailers were gaining negotiating power.
+
+26
+00:01:40,238 --> 00:01:42,975
+LEGO responded by searching
+for new opportunities.
+
+27
+00:01:43,628 --> 00:01:48,597
+The company expanded its products,
+entertainment activities, retail ambitions, and
+
+28
+00:01:48,637 --> 00:01:49,887
+theme-park operations.
+
+29
+00:01:50,624 --> 00:01:52,515
+Some initiatives were successful.
+
+30
+00:01:53,134 --> 00:01:56,319
+Others created additional
+costs and complexity.
+
+31
+00:01:56,971 --> 00:02:02,060
+Management was attempting to grow beyond
+its traditional construction-toy business.
+
+32
+00:02:02,167 --> 00:02:07,033
+But entering new categories did not
+automatically produce profitable growth.
+
+33
+00:02:07,432 --> 00:02:12,309
+The more the company expanded, the
+harder its operations became to manage.
+
+34
+00:02:14,122 --> 00:02:19,525
+Consider what happens when a toy company
+introduces more specialized parts, colors,
+
+35
+00:02:19,695 --> 00:02:21,465
+packaging, and product lines.
+
+36
+00:02:21,995 --> 00:02:28,144
+Every additional component can affect design,
+tooling, manufacturing, inventory, and
+
+37
+00:02:28,184 --> 00:02:29,184
+distribution.
+
+38
+00:02:29,706 --> 00:02:34,646
+Complexity becomes expensive when products
+fail to sell in sufficient quantities.
+
+39
+00:02:35,169 --> 00:02:38,680
+LEGO's innovation system had
+become difficult to control.
+
+40
+00:02:39,240 --> 00:02:43,753
+The company was investing in ideas
+without consistently understanding their
+
+41
+00:02:43,793 --> 00:02:45,023
+commercial consequences.
+
+42
+00:02:45,650 --> 00:02:47,955
+The problem wasn't creativity itself.
+
+43
+00:02:48,642 --> 00:02:51,780
+It was the absence of enough
+discipline around creativity.
+
+44
+00:02:52,352 --> 00:02:57,345
+A business famous for connecting pieces was
+struggling to connect its own decisions.
+
+45
+00:02:59,347 --> 00:03:03,379
+The financial warning became
+impossible to ignore in 2003.
+
+46
+00:03:03,722 --> 00:03:08,756
+LEGO reported a group net loss of approximately
+nine hundred and thirty-five million
+
+47
+00:03:08,796 --> 00:03:09,946
+Danish kroner.
+
+48
+00:03:10,256 --> 00:03:15,102
+Sales had weakened sharply, and management
+acknowledged that its growth strategy had
+
+49
+00:03:15,142 --> 00:03:17,572
+failed to deliver the expected results.
+
+50
+00:03:18,130 --> 00:03:21,292
+This wasn't simply an uncomfortable
+year for shareholders.
+
+51
+00:03:21,905 --> 00:03:26,508
+LEGO was a privately owned family
+business whose independence was now under
+
+52
+00:03:26,548 --> 00:03:27,548
+pressure.
+
+53
+00:03:27,720 --> 00:03:33,010
+The company needed to preserve cash, rebuild
+profitability, and reconsider where it
+
+54
+00:03:33,050 --> 00:03:34,680
+belonged in the toy industry.
+
+55
+00:03:35,153 --> 00:03:39,244
+Continuing with the same strategy
+was becoming increasingly dangerous.
+
+56
+00:03:41,108 --> 00:03:47,224
+In 2004, Jørgen Vig Knudstorp became LEGO's
+chief executive, taking over operational
+
+57
+00:03:47,264 --> 00:03:48,914
+leadership during the crisis.
+
+58
+00:03:49,599 --> 00:03:53,370
+His challenge was not to create
+a fashionable new identity.
+
+59
+00:03:53,920 --> 00:03:57,749
+It was to make the existing
+company financially sustainable.
+
+60
+00:03:58,358 --> 00:04:03,519
+The turnaround required uncomfortable
+choices about products, people, assets, and
+
+61
+00:04:03,559 --> 00:04:04,559
+investment.
+
+62
+00:04:04,800 --> 00:04:09,896
+Management began establishing clearer
+priorities and confronting the economics of
+
+63
+00:04:09,936 --> 00:04:10,936
+the business.
+
+64
+00:04:11,124 --> 00:04:16,706
+Rather than assuming every new idea deserved
+expansion, LEGO had to decide which
+
+65
+00:04:16,746 --> 00:04:19,796
+activities genuinely
+supported its strengths.
+
+66
+00:04:20,444 --> 00:04:25,000
+Survival would depend on what the
+company stopped doing as much as what it
+
+67
+00:04:25,040 --> 00:04:26,040
+continued.
+
+68
+00:04:27,515 --> 00:04:32,889
+LEGO's most important strategic move was
+to refocus on the construction system that
+
+69
+00:04:32,929 --> 00:04:34,019
+made it distinctive.
+
+70
+00:04:34,678 --> 00:04:37,202
+This wasn't a rejection of innovation.
+
+71
+00:04:37,915 --> 00:04:42,165
+It was a decision to build innovation
+around a more coherent foundation.
+
+72
+00:04:42,815 --> 00:04:47,805
+Bricks, compatible elements, recognizable
+play patterns, and profitable product
+
+73
+00:04:47,845 --> 00:04:50,235
+lines became central priorities.
+
+74
+00:04:50,843 --> 00:04:55,674
+New ideas would need to strengthen the
+core rather than distract from it.
+
+75
+00:04:55,998 --> 00:05:00,264
+The company had spent years searching
+for growth beyond its original identity.
+
+76
+00:05:00,665 --> 00:05:05,059
+Now it was rediscovering the value
+of what customers already loved.
+
+77
+00:05:05,566 --> 00:05:11,066
+Sometimes the strongest turnaround begins
+by asking what should never have changed.
+
+78
+00:05:12,818 --> 00:05:16,324
+Refocusing the product range
+was only part of the recovery.
+
+79
+00:05:16,696 --> 00:05:19,684
+LEGO also needed to change
+how the business operated.
+
+80
+00:05:20,253 --> 00:05:25,266
+In 2004, its action plan reduced production
+and operating costs by approximately one
+
+81
+00:05:25,306 --> 00:05:30,516
+point five two billion Danish
+kroner compared with 2003.
+
+82
+00:05:31,147 --> 00:05:33,698
+That represented a twenty
+percent reduction.
+
+83
+00:05:34,273 --> 00:05:39,006
+The restructuring also involved a workforce
+reduction of roughly one thousand
+
+84
+00:05:39,046 --> 00:05:40,008
+people.
+
+85
+00:05:40,048 --> 00:05:43,643
+These were difficult decisions
+with real human consequences.
+
+86
+00:05:44,456 --> 00:05:49,095
+But the company was attempting to bring
+its costs into line with a smaller, more
+
+87
+00:05:49,135 --> 00:05:50,445
+sustainable business.
+
+88
+00:05:51,041 --> 00:05:54,598
+A turnaround could not succeed
+through product nostalgia alone.
+
+89
+00:05:56,378 --> 00:06:00,090
+One of the most consequential
+decisions involved LEGOLAND.
+
+90
+00:06:00,700 --> 00:06:04,981
+The parks were closely associated with
+the LEGO name, but operating theme parks
+
+91
+00:06:05,021 --> 00:06:08,371
+required substantial capital
+and management attention.
+
+92
+00:06:08,875 --> 00:06:13,560
+LEGO decided that owning and operating
+them was no longer essential to its core
+
+93
+00:06:13,600 --> 00:06:14,600
+business.
+
+94
+00:06:14,807 --> 00:06:19,109
+In 2005, the parks were sold to Merlin
+Entertainments in a transaction valued at
+
+95
+00:06:19,149 --> 00:06:23,619
+approximately three hundred and
+seventy-five million euros.
+
+96
+00:06:24,188 --> 00:06:28,279
+LEGO-related owners retained an
+investment in the acquiring group.
+
+97
+00:06:28,757 --> 00:06:33,050
+The decision helped improve liquidity while
+allowing the company to concentrate on
+
+98
+00:06:33,090 --> 00:06:34,090
+toys.
+
+99
+00:06:34,313 --> 00:06:39,396
+An iconic brand experience could continue
+without LEGO operating the parks itself.
+
+100
+00:06:41,087 --> 00:06:45,791
+LEGO's recovery also required
+reconnecting innovation with demand.
+
+101
+00:06:46,400 --> 00:06:51,575
+The company had an unusually committed
+audience of children, families, and adult
+
+102
+00:06:51,615 --> 00:06:52,615
+enthusiasts.
+
+103
+00:06:53,259 --> 00:06:57,030
+Their relationship with LEGO
+extended beyond individual sets.
+
+104
+00:06:57,583 --> 00:07:01,989
+They valued the ability to
+create, combine, and rebuild.
+
+105
+00:07:02,538 --> 00:07:06,750
+Understanding that behavior helped
+management evaluate which products deserved
+
+106
+00:07:06,790 --> 00:07:07,790
+investment.
+
+107
+00:07:08,239 --> 00:07:13,530
+The company did not need to abandon every
+licensed theme or experimental idea.
+
+108
+00:07:14,043 --> 00:07:19,325
+It needed to judge whether those ideas
+reinforced the building experience and could
+
+109
+00:07:19,365 --> 00:07:21,195
+generate sustainable returns.
+
+110
+00:07:21,927 --> 00:07:23,998
+Customer enthusiasm mattered.
+
+111
+00:07:24,517 --> 00:07:27,868
+But enthusiasm had to be connected
+to commercial discipline.
+
+112
+00:07:29,688 --> 00:07:34,313
+The new approach did not mean LEGO would
+stop developing ambitious products.
+
+113
+00:07:34,992 --> 00:07:39,749
+Successful lines and licensed partnerships
+could remain valuable when they worked
+
+114
+00:07:39,789 --> 00:07:41,899
+within the broader construction system.
+
+115
+00:07:42,337 --> 00:07:45,588
+What changed was the framework
+for evaluating them.
+
+116
+00:07:46,008 --> 00:07:51,202
+Product development needed better cost
+control, stronger coordination, and clearer
+
+117
+00:07:51,242 --> 00:07:52,692
+commercial priorities.
+
+118
+00:07:53,222 --> 00:07:57,528
+LEGO was learning that creativity
+and constraints were not opposites.
+
+119
+00:07:57,865 --> 00:08:03,266
+Constraints could make innovation more
+effective by directing resources toward ideas
+
+120
+00:08:03,306 --> 00:08:04,916
+with stronger potential.
+
+121
+00:08:05,479 --> 00:08:09,296
+The company was rebuilding its ability
+to experiment without allowing every
+
+122
+00:08:09,336 --> 00:08:12,166
+experiment to become an
+expensive commitment.
+
+123
+00:08:14,105 --> 00:08:16,334
+The results began to change.
+
+124
+00:08:17,174 --> 00:08:22,016
+LEGO's 2005 annual report recorded a
+group net profit of five hundred and five
+
+125
+00:08:22,056 --> 00:08:27,316
+million Danish kroner, compared with a loss
+of nearly one point nine three billion
+
+126
+00:08:27,356 --> 00:08:28,706
+the previous year.
+
+127
+00:08:29,109 --> 00:08:31,328
+But there is an important qualification.
+
+128
+00:08:32,108 --> 00:08:37,991
+The 2005 result included profits from
+discontinued activities, including asset
+
+129
+00:08:38,031 --> 00:08:39,141
+disposals.
+
+130
+00:08:39,514 --> 00:08:44,341
+The continuing business also improved,
+reporting three hundred and thirty-one
+
+131
+00:08:44,381 --> 00:08:46,051
+million kroner in net profit.
+
+132
+00:08:46,530 --> 00:08:49,620
+This was stronger evidence
+of operational recovery.
+
+133
+00:08:50,369 --> 00:08:55,158
+The turnaround was producing measurable
+results, although not every improvement came
+
+134
+00:08:55,198 --> 00:08:56,588
+from selling more toys.
+
+135
+00:08:58,478 --> 00:09:03,578
+By 2006, LEGO's reported group net profit
+had reached approximately one point four
+
+136
+00:09:03,618 --> 00:09:06,388
+three billion Danish kroner.
+
+137
+00:09:06,731 --> 00:09:10,894
+The company was moving beyond emergency
+stabilization toward a more sustainable
+
+138
+00:09:10,934 --> 00:09:12,304
+operating model.
+
+139
+00:09:12,632 --> 00:09:17,348
+Its longer-term strategy emphasized improving
+supply chains, product profitability,
+
+140
+00:09:17,388 --> 00:09:22,418
+and organizational processes
+before accelerating growth.
+
+141
+00:09:22,945 --> 00:09:24,494
+That sequence mattered.
+
+142
+00:09:24,961 --> 00:09:29,529
+Management was not simply trying to
+recreate the company's earlier size.
+
+143
+00:09:30,208 --> 00:09:34,429
+It was attempting to build a stronger
+business capable of supporting future
+
+144
+00:09:34,469 --> 00:09:35,469
+expansion.
+
+145
+00:09:35,873 --> 00:09:39,950
+LEGO had learned that rapid growth could
+become dangerous when the economics
+
+146
+00:09:39,990 --> 00:09:41,640
+underneath it were weak.
+
+147
+00:09:43,349 --> 00:09:47,571
+LEGO's recovery helped establish a
+foundation for later product successes.
+
+148
+00:09:48,301 --> 00:09:53,794
+Construction themes, licensed sets, and
+new play experiences could grow from the
+
+149
+00:09:53,834 --> 00:09:55,824
+same recognizable system.
+
+150
+00:09:56,288 --> 00:10:00,445
+The company continued evolving rather
+than returning permanently to its older
+
+151
+00:10:00,485 --> 00:10:01,485
+catalog.
+
+152
+00:10:01,828 --> 00:10:03,682
+That distinction is essential.
+
+153
+00:10:04,292 --> 00:10:09,252
+The turnaround did not prove that
+businesses should avoid diversification.
+
+154
+00:10:09,761 --> 00:10:15,220
+It showed the value of understanding which
+capabilities make diversification work.
+
+155
+00:10:15,691 --> 00:10:19,798
+LEGO's strongest asset was not
+simply its logo or its history.
+
+156
+00:10:20,250 --> 00:10:25,998
+It was the compatibility, creativity, and
+repeatability built into the brick system
+
+157
+00:10:26,038 --> 00:10:27,038
+itself.
+
+158
+00:10:28,593 --> 00:10:31,496
+The evidence points to four
+interconnected decisions.
+
+159
+00:10:32,206 --> 00:10:36,277
+First, LEGO refocused on its
+distinctive construction system.
+
+160
+00:10:36,741 --> 00:10:41,927
+Second, management reduced costs and
+brought greater discipline to operations.
+
+161
+00:10:42,242 --> 00:10:46,949
+Third, the company sold assets that were
+not essential to its core business.
+
+162
+00:10:47,506 --> 00:10:52,097
+And fourth, it rebuilt product development
+around customers and sustainable
+
+163
+00:10:52,137 --> 00:10:53,137
+profitability.
+
+164
+00:10:53,787 --> 00:10:57,718
+None of those decisions alone
+explains the entire recovery.
+
+165
+00:10:58,168 --> 00:11:03,417
+Together, they changed how LEGO allocated
+resources and evaluated growth.
+
+166
+00:11:03,972 --> 00:11:07,465
+The company didn't survive
+because it stopped innovating.
+
+167
+00:11:07,842 --> 00:11:12,550
+It survived because it became more
+selective about where innovation belonged.
+
+168
+00:11:14,396 --> 00:11:19,779
+LEGO nearly lost its future while trying
+to expand beyond the system that had made
+
+169
+00:11:19,819 --> 00:11:20,819
+it successful.
+
+170
+00:11:21,176 --> 00:11:26,293
+Its recovery required leadership to confront
+a difficult possibility: more products,
+
+171
+00:11:26,503 --> 00:11:31,713
+more businesses, and more ambitious ideas
+did not necessarily mean more value.
+
+172
+00:11:32,125 --> 00:11:37,047
+The company returned to profitability by
+combining a clearer identity with stronger
+
+173
+00:11:37,087 --> 00:11:39,597
+financial and operational discipline.
+
+174
+00:11:40,124 --> 00:11:42,568
+The lesson extends far beyond toys.
+
+175
+00:11:43,243 --> 00:11:47,750
+A brand's greatest opportunity is not
+always the next market it can enter.
+
+176
+00:11:48,146 --> 00:11:52,829
+Sometimes it is the advantage it already
+possesses but has stopped protecting.
+
+177
+00:11:53,453 --> 00:11:55,809
+And every brand leaves evidence.
+

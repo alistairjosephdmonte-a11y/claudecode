@@ -1,0 +1,1963 @@
+{
+ "total": 721.533,
+ "scenes": [
+  {
+   "i": 1,
+   "base": 0.0,
+   "dur": 43.79,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     2.75
+    ],
+    [
+     4.0,
+     9.414
+    ],
+    [
+     7.0,
+     15.238
+    ],
+    [
+     10.0,
+     19.022
+    ],
+    [
+     13.0,
+     23.667
+    ],
+    [
+     16.0,
+     25.638
+    ],
+    [
+     19.0,
+     29.168
+    ],
+    [
+     22.0,
+     34.207
+    ],
+    [
+     25.0,
+     39.624
+    ],
+    [
+     30.0,
+     43.79
+    ]
+   ]
+  },
+  {
+   "i": 2,
+   "base": 43.79,
+   "dur": 45.04,
+   "n": 10,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.7,
+     3.24
+    ],
+    [
+     6.4,
+     8.241
+    ],
+    [
+     9.1,
+     13.498
+    ],
+    [
+     11.8,
+     17.217
+    ],
+    [
+     14.5,
+     18.992
+    ],
+    [
+     17.2,
+     23.777
+    ],
+    [
+     19.9,
+     27.939
+    ],
+    [
+     22.6,
+     31.721
+    ],
+    [
+     25.3,
+     37.473
+    ],
+    [
+     30.0,
+     45.04
+    ]
+   ]
+  },
+  {
+   "i": 3,
+   "base": 88.83,
+   "dur": 44.742,
+   "n": 10,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.7,
+     4.417
+    ],
+    [
+     6.4,
+     8.329
+    ],
+    [
+     9.1,
+     11.208
+    ],
+    [
+     11.8,
+     14.598
+    ],
+    [
+     14.5,
+     21.594
+    ],
+    [
+     17.2,
+     24.104
+    ],
+    [
+     19.9,
+     27.941
+    ],
+    [
+     22.6,
+     33.137
+    ],
+    [
+     25.3,
+     38.402
+    ],
+    [
+     30.0,
+     44.742
+    ]
+   ]
+  },
+  {
+   "i": 4,
+   "base": 133.572,
+   "dur": 45.225,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     8.223
+    ],
+    [
+     7.75,
+     15.934
+    ],
+    [
+     11.125,
+     21.397
+    ],
+    [
+     14.5,
+     25.468
+    ],
+    [
+     17.875,
+     31.878
+    ],
+    [
+     21.25,
+     34.87
+    ],
+    [
+     24.625,
+     38.58
+    ],
+    [
+     30.0,
+     45.225
+    ]
+   ]
+  },
+  {
+   "i": 5,
+   "base": 178.797,
+   "dur": 41.761,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     4.725
+    ],
+    [
+     8.714285714285715,
+     11.259
+    ],
+    [
+     12.571428571428571,
+     19.133
+    ],
+    [
+     16.42857142857143,
+     22.908
+    ],
+    [
+     20.285714285714285,
+     28.723
+    ],
+    [
+     24.142857142857142,
+     36.156
+    ],
+    [
+     30.0,
+     41.761
+    ]
+   ]
+  },
+  {
+   "i": 6,
+   "base": 220.558,
+   "dur": 46.407,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     8.841
+    ],
+    [
+     8.714285714285715,
+     13.162
+    ],
+    [
+     12.571428571428571,
+     17.6
+    ],
+    [
+     16.42857142857143,
+     24.042
+    ],
+    [
+     20.285714285714285,
+     30.366
+    ],
+    [
+     24.142857142857142,
+     39.686
+    ],
+    [
+     30.0,
+     46.407
+    ]
+   ]
+  },
+  {
+   "i": 7,
+   "base": 266.965,
+   "dur": 45.303,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     7.513
+    ],
+    [
+     7.75,
+     10.75
+    ],
+    [
+     11.125,
+     15.65
+    ],
+    [
+     14.5,
+     23.678
+    ],
+    [
+     17.875,
+     28.833
+    ],
+    [
+     21.25,
+     33.5
+    ],
+    [
+     24.625,
+     38.401
+    ],
+    [
+     30.0,
+     45.303
+    ]
+   ]
+  },
+  {
+   "i": 8,
+   "base": 312.268,
+   "dur": 43.56,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     4.228
+    ],
+    [
+     7.75,
+     7.785
+    ],
+    [
+     11.125,
+     18.679
+    ],
+    [
+     14.5,
+     21.805
+    ],
+    [
+     17.875,
+     27.58
+    ],
+    [
+     21.25,
+     31.988
+    ],
+    [
+     24.625,
+     38.573
+    ],
+    [
+     30.0,
+     43.56
+    ]
+   ]
+  },
+  {
+   "i": 9,
+   "base": 355.828,
+   "dur": 44.709,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     4.672
+    ],
+    [
+     8.714285714285715,
+     12.847
+    ],
+    [
+     12.571428571428571,
+     18.779
+    ],
+    [
+     16.42857142857143,
+     28.16
+    ],
+    [
+     20.285714285714285,
+     32.729
+    ],
+    [
+     24.142857142857142,
+     38.285
+    ],
+    [
+     30.0,
+     44.709
+    ]
+   ]
+  },
+  {
+   "i": 10,
+   "base": 400.537,
+   "dur": 48.601,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     5.663
+    ],
+    [
+     7.0,
+     12.522
+    ],
+    [
+     10.0,
+     16.846
+    ],
+    [
+     13.0,
+     21.801
+    ],
+    [
+     16.0,
+     27.502
+    ],
+    [
+     19.0,
+     33.306
+    ],
+    [
+     22.0,
+     41.19
+    ],
+    [
+     25.0,
+     43.78
+    ],
+    [
+     30.0,
+     48.601
+    ]
+   ]
+  },
+  {
+   "i": 11,
+   "base": 449.138,
+   "dur": 44.417,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     5.654
+    ],
+    [
+     8.714285714285715,
+     12.999
+    ],
+    [
+     12.571428571428571,
+     16.67
+    ],
+    [
+     16.42857142857143,
+     23.884
+    ],
+    [
+     20.285714285714285,
+     28.527
+    ],
+    [
+     24.142857142857142,
+     36.141
+    ],
+    [
+     30.0,
+     44.417
+    ]
+   ]
+  },
+  {
+   "i": 12,
+   "base": 493.555,
+   "dur": 44.373,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     3.419
+    ],
+    [
+     8.714285714285715,
+     15.354
+    ],
+    [
+     12.571428571428571,
+     18.353
+    ],
+    [
+     16.42857142857143,
+     25.759
+    ],
+    [
+     20.285714285714285,
+     32.775
+    ],
+    [
+     24.142857142857142,
+     36.614
+    ],
+    [
+     30.0,
+     44.373
+    ]
+   ]
+  },
+  {
+   "i": 13,
+   "base": 537.928,
+   "dur": 44.871,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     8.603
+    ],
+    [
+     8.714285714285715,
+     14.504
+    ],
+    [
+     12.571428571428571,
+     24.817
+    ],
+    [
+     16.42857142857143,
+     26.833
+    ],
+    [
+     20.285714285714285,
+     32.08
+    ],
+    [
+     24.142857142857142,
+     37.745
+    ],
+    [
+     30.0,
+     44.871
+    ]
+   ]
+  },
+  {
+   "i": 14,
+   "base": 582.799,
+   "dur": 45.244,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     5.302
+    ],
+    [
+     7.75,
+     13.289
+    ],
+    [
+     11.125,
+     18.829
+    ],
+    [
+     14.5,
+     21.293
+    ],
+    [
+     17.875,
+     26.762
+    ],
+    [
+     21.25,
+     32.692
+    ],
+    [
+     24.625,
+     37.251
+    ],
+    [
+     30.0,
+     45.244
+    ]
+   ]
+  },
+  {
+   "i": 15,
+   "base": 628.043,
+   "dur": 45.803,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     3.963
+    ],
+    [
+     7.0,
+     8.498
+    ],
+    [
+     10.0,
+     13.999
+    ],
+    [
+     13.0,
+     19.263
+    ],
+    [
+     16.0,
+     25.544
+    ],
+    [
+     19.0,
+     29.925
+    ],
+    [
+     22.0,
+     35.729
+    ],
+    [
+     25.0,
+     39.599
+    ],
+    [
+     30.0,
+     45.803
+    ]
+   ]
+  },
+  {
+   "i": 16,
+   "base": 673.846,
+   "dur": 47.687,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     7.13
+    ],
+    [
+     8.714285714285715,
+     18.079
+    ],
+    [
+     12.571428571428571,
+     26.078
+    ],
+    [
+     16.42857142857143,
+     29.197
+    ],
+    [
+     20.285714285714285,
+     34.1
+    ],
+    [
+     24.142857142857142,
+     39.407
+    ],
+    [
+     30.0,
+     47.687
+    ]
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "s01_01",
+   "text": "In 2004, one of the world's most recognizable toy companies was fighting for survival.",
+   "scene": 1,
+   "say": "In two thousand four, one of the world's most recognizable toy companies was fighting for survival.",
+   "t": 3.0,
+   "local": 3.0,
+   "dur": 6.214,
+   "trim": 0.207
+  },
+  {
+   "id": "s01_02",
+   "text": "LEGO had spent decades teaching children to build almost anything from plastic bricks.",
+   "scene": 1,
+   "say": "Lego had spent decades teaching children to build almost anything from plastic bricks.",
+   "t": 9.664,
+   "local": 9.664,
+   "dur": 5.373,
+   "trim": 0.006
+  },
+  {
+   "id": "s01_03",
+   "text": "But the company itself was becoming dangerously unstable.",
+   "scene": 1,
+   "t": 15.488,
+   "local": 15.488,
+   "dur": 3.334,
+   "trim": 0.123
+  },
+  {
+   "id": "s01_04",
+   "text": "Its annual group loss reached nearly two billion Danish kroner.",
+   "scene": 1,
+   "t": 19.272,
+   "local": 19.272,
+   "dur": 4.195,
+   "trim": 0.176
+  },
+  {
+   "id": "s01_05",
+   "text": "The extraordinary part?",
+   "scene": 1,
+   "t": 23.917,
+   "local": 23.917,
+   "dur": 1.521,
+   "trim": 0.223
+  },
+  {
+   "id": "s01_06",
+   "text": "LEGO hadn't forgotten how to invent new things.",
+   "scene": 1,
+   "say": "Lego hadn't forgotten how to invent new things.",
+   "t": 25.888,
+   "local": 25.888,
+   "dur": 3.08,
+   "trim": 0.266
+  },
+  {
+   "id": "s01_07",
+   "text": "It had expanded into too many directions without making enough money.",
+   "scene": 1,
+   "t": 29.418,
+   "local": 29.418,
+   "dur": 4.59,
+   "trim": 0.239
+  },
+  {
+   "id": "s01_08",
+   "text": "And saving the company would require a decision that seemed almost absurd.",
+   "scene": 1,
+   "t": 34.457,
+   "local": 34.457,
+   "dur": 4.967,
+   "trim": 0.12
+  },
+  {
+   "id": "s01_09",
+   "text": "LEGO needed to become less complicated.",
+   "scene": 1,
+   "say": "Lego needed to become less complicated.",
+   "t": 39.874,
+   "local": 39.874,
+   "dur": 2.816,
+   "trim": 0.136
+  },
+  {
+   "id": "s02_01",
+   "text": "The story began in Billund, Denmark.",
+   "scene": 2,
+   "t": 44.39,
+   "local": 0.6,
+   "dur": 2.44,
+   "trim": 0.18
+  },
+  {
+   "id": "s02_02",
+   "text": "Ole Kirk Kristiansen founded his toy business in 1932.",
+   "scene": 2,
+   "say": "Oh-leh Kirk Kristiansen founded his toy business in nineteen thirty-two.",
+   "t": 47.28,
+   "local": 3.49,
+   "dur": 4.551,
+   "trim": 0.203
+  },
+  {
+   "id": "s02_03",
+   "text": "The company eventually moved from wooden toys into plastic construction bricks.",
+   "scene": 2,
+   "t": 52.281,
+   "local": 8.491,
+   "dur": 4.807,
+   "trim": 0.201
+  },
+  {
+   "id": "s02_04",
+   "text": "Its greatest advantage wasn't any single model.",
+   "scene": 2,
+   "t": 57.538,
+   "local": 13.748,
+   "dur": 3.269,
+   "trim": 0.222
+  },
+  {
+   "id": "s02_05",
+   "text": "It was a system.",
+   "scene": 2,
+   "t": 61.257,
+   "local": 17.467,
+   "dur": 1.325,
+   "trim": 0.085
+  },
+  {
+   "id": "s02_06",
+   "text": "Pieces could connect, separate, and combine with other pieces.",
+   "scene": 2,
+   "t": 63.032,
+   "local": 19.242,
+   "dur": 4.334,
+   "trim": 0.013
+  },
+  {
+   "id": "s02_07",
+   "text": "A child could dismantle one creation and build another.",
+   "scene": 2,
+   "t": 67.817,
+   "local": 24.027,
+   "dur": 3.712,
+   "trim": 0.19
+  },
+  {
+   "id": "s02_08",
+   "text": "That flexibility gave LEGO a distinctive identity.",
+   "scene": 2,
+   "say": "That flexibility gave Lego a distinctive identity.",
+   "t": 71.979,
+   "local": 28.189,
+   "dur": 3.332,
+   "trim": 0.434
+  },
+  {
+   "id": "s02_09",
+   "text": "Its products encouraged imagination while remaining compatible across generations.",
+   "scene": 2,
+   "t": 75.761,
+   "local": 31.971,
+   "dur": 5.302,
+   "trim": 0.157
+  },
+  {
+   "id": "s02_10",
+   "text": "The same principle that made the brand successful would eventually become the foundation of its recovery.",
+   "scene": 2,
+   "t": 81.513,
+   "local": 37.723,
+   "dur": 6.217,
+   "trim": 0.177
+  },
+  {
+   "id": "s03_01",
+   "text": "By the late 1990s, the toy industry was changing.",
+   "scene": 3,
+   "say": "By the late nineteen-nineties, the toy industry was changing.",
+   "t": 89.43,
+   "local": 0.6,
+   "dur": 3.617,
+   "trim": 0.224
+  },
+  {
+   "id": "s03_02",
+   "text": "Electronic entertainment was competing for children's attention.",
+   "scene": 3,
+   "t": 93.497,
+   "local": 4.667,
+   "dur": 3.462,
+   "trim": 0.218
+  },
+  {
+   "id": "s03_03",
+   "text": "Retailers were gaining negotiating power.",
+   "scene": 3,
+   "t": 97.409,
+   "local": 8.579,
+   "dur": 2.429,
+   "trim": 0.181
+  },
+  {
+   "id": "s03_04",
+   "text": "LEGO responded by searching for new opportunities.",
+   "scene": 3,
+   "say": "Lego responded by searching for new opportunities.",
+   "t": 100.288,
+   "local": 11.458,
+   "dur": 2.94,
+   "trim": 0.193
+  },
+  {
+   "id": "s03_05",
+   "text": "The company expanded its products, entertainment activities, retail ambitions, and theme-park operations.",
+   "scene": 3,
+   "t": 103.678,
+   "local": 14.848,
+   "dur": 6.545,
+   "trim": 0.231
+  },
+  {
+   "id": "s03_06",
+   "text": "Some initiatives were successful.",
+   "scene": 3,
+   "t": 110.674,
+   "local": 21.844,
+   "dur": 2.061,
+   "trim": 0.119
+  },
+  {
+   "id": "s03_07",
+   "text": "Others created additional costs and complexity.",
+   "scene": 3,
+   "t": 113.184,
+   "local": 24.354,
+   "dur": 3.387,
+   "trim": 0.225
+  },
+  {
+   "id": "s03_08",
+   "text": "Management was attempting to grow beyond its traditional construction-toy business.",
+   "scene": 3,
+   "t": 117.021,
+   "local": 28.191,
+   "dur": 4.746,
+   "trim": 0.181
+  },
+  {
+   "id": "s03_09",
+   "text": "But entering new categories did not automatically produce profitable growth.",
+   "scene": 3,
+   "t": 122.217,
+   "local": 33.387,
+   "dur": 4.814,
+   "trim": 0.204
+  },
+  {
+   "id": "s03_10",
+   "text": "The more the company expanded, the harder its operations became to manage.",
+   "scene": 3,
+   "t": 127.482,
+   "local": 38.652,
+   "dur": 4.99,
+   "trim": 0.193
+  },
+  {
+   "id": "s04_01",
+   "text": "Consider what happens when a toy company introduces more specialized parts, colors, packaging, and product lines.",
+   "scene": 4,
+   "t": 134.172,
+   "local": 0.6,
+   "dur": 7.423,
+   "trim": 0.147
+  },
+  {
+   "id": "s04_02",
+   "text": "Every additional component can affect design, tooling, manufacturing, inventory, and distribution.",
+   "scene": 4,
+   "t": 142.045,
+   "local": 8.473,
+   "dur": 7.261,
+   "trim": 0.191
+  },
+  {
+   "id": "s04_03",
+   "text": "Complexity becomes expensive when products fail to sell in sufficient quantities.",
+   "scene": 4,
+   "t": 149.756,
+   "local": 16.184,
+   "dur": 5.013,
+   "trim": 0.19
+  },
+  {
+   "id": "s04_04",
+   "text": "LEGO's innovation system had become difficult to control.",
+   "scene": 4,
+   "say": "Lego's innovation system had become difficult to control.",
+   "t": 155.219,
+   "local": 21.647,
+   "dur": 3.621,
+   "trim": 0.139
+  },
+  {
+   "id": "s04_05",
+   "text": "The company was investing in ideas without consistently understanding their commercial consequences.",
+   "scene": 4,
+   "t": 159.29,
+   "local": 25.718,
+   "dur": 5.96,
+   "trim": 0.427
+  },
+  {
+   "id": "s04_06",
+   "text": "The problem wasn't creativity itself.",
+   "scene": 4,
+   "t": 165.7,
+   "local": 32.128,
+   "dur": 2.542,
+   "trim": 0.225
+  },
+  {
+   "id": "s04_07",
+   "text": "It was the absence of enough discipline around creativity.",
+   "scene": 4,
+   "t": 168.692,
+   "local": 35.12,
+   "dur": 3.259,
+   "trim": 0.192
+  },
+  {
+   "id": "s04_08",
+   "text": "A business famous for connecting pieces was struggling to connect its own decisions.",
+   "scene": 4,
+   "t": 172.402,
+   "local": 38.83,
+   "dur": 5.296,
+   "trim": 0.197
+  },
+  {
+   "id": "s05_01",
+   "text": "The financial warning became impossible to ignore in 2003.",
+   "scene": 5,
+   "say": "The financial warning became impossible to ignore in two thousand three.",
+   "t": 179.397,
+   "local": 0.6,
+   "dur": 3.925,
+   "trim": 0.398
+  },
+  {
+   "id": "s05_02",
+   "text": "LEGO reported a group net loss of approximately nine hundred and thirty-five million Danish kroner.",
+   "scene": 5,
+   "say": "Lego reported a group net loss of approximately nine hundred and thirty-five million Danish kroner.",
+   "t": 183.772,
+   "local": 4.975,
+   "dur": 6.084,
+   "trim": 0.206
+  },
+  {
+   "id": "s05_03",
+   "text": "Sales had weakened sharply, and management acknowledged that its growth strategy had failed to deliver the expected results.",
+   "scene": 5,
+   "t": 190.306,
+   "local": 11.509,
+   "dur": 7.424,
+   "trim": 0.134
+  },
+  {
+   "id": "s05_04",
+   "text": "This wasn't simply an uncomfortable year for shareholders.",
+   "scene": 5,
+   "t": 198.18,
+   "local": 19.383,
+   "dur": 3.325,
+   "trim": 0.128
+  },
+  {
+   "id": "s05_05",
+   "text": "LEGO was a privately owned family business whose independence was now under pressure.",
+   "scene": 5,
+   "say": "Lego was a privately owned family business whose independence was now under pressure.",
+   "t": 201.955,
+   "local": 23.158,
+   "dur": 5.365,
+   "trim": 0.097
+  },
+  {
+   "id": "s05_06",
+   "text": "The company needed to preserve cash, rebuild profitability, and reconsider where it belonged in the toy industry.",
+   "scene": 5,
+   "t": 207.77,
+   "local": 28.973,
+   "dur": 6.982,
+   "trim": 0.23
+  },
+  {
+   "id": "s05_07",
+   "text": "Continuing with the same strategy was becoming increasingly dangerous.",
+   "scene": 5,
+   "t": 215.203,
+   "local": 36.406,
+   "dur": 4.255,
+   "trim": 0.139
+  },
+  {
+   "id": "s06_01",
+   "text": "In 2004, J\u00f8rgen Vig Knudstorp became LEGO's chief executive, taking over operational leadership during the crisis.",
+   "scene": 6,
+   "say": "In two thousand four, Yorgen Vig Knudstorp became Lego's chief executive, taking over operational leadership during the crisis.",
+   "t": 221.158,
+   "local": 0.6,
+   "dur": 8.041,
+   "trim": 0.204
+  },
+  {
+   "id": "s06_02",
+   "text": "His challenge was not to create a fashionable new identity.",
+   "scene": 6,
+   "t": 229.649,
+   "local": 9.091,
+   "dur": 3.872,
+   "trim": 0.139
+  },
+  {
+   "id": "s06_03",
+   "text": "It was to make the existing company financially sustainable.",
+   "scene": 6,
+   "t": 233.97,
+   "local": 13.412,
+   "dur": 3.987,
+   "trim": 0.181
+  },
+  {
+   "id": "s06_04",
+   "text": "The turnaround required uncomfortable choices about products, people, assets, and investment.",
+   "scene": 6,
+   "t": 238.408,
+   "local": 17.85,
+   "dur": 5.992,
+   "trim": 0.199
+  },
+  {
+   "id": "s06_05",
+   "text": "Management began establishing clearer priorities and confronting the economics of the business.",
+   "scene": 6,
+   "t": 244.85,
+   "local": 24.292,
+   "dur": 5.874,
+   "trim": 0.204
+  },
+  {
+   "id": "s06_06",
+   "text": "Rather than assuming every new idea deserved expansion, LEGO had to decide which activities genuinely supported its strengths.",
+   "scene": 6,
+   "say": "Rather than assuming every new idea deserved expansion, Lego had to decide which activities genuinely supported its strengths.",
+   "t": 251.174,
+   "local": 30.616,
+   "dur": 8.87,
+   "trim": 0.218
+  },
+  {
+   "id": "s06_07",
+   "text": "Survival would depend on what the company stopped doing as much as what it continued.",
+   "scene": 6,
+   "t": 260.494,
+   "local": 39.936,
+   "dur": 5.371,
+   "trim": 0.124
+  },
+  {
+   "id": "s07_01",
+   "text": "LEGO's most important strategic move was to refocus on the construction system that made it distinctive.",
+   "scene": 7,
+   "say": "Lego's most important strategic move was to refocus on the construction system that made it distinctive.",
+   "t": 267.565,
+   "local": 0.6,
+   "dur": 6.713,
+   "trim": 0.186
+  },
+  {
+   "id": "s07_02",
+   "text": "This wasn't a rejection of innovation.",
+   "scene": 7,
+   "t": 274.728,
+   "local": 7.763,
+   "dur": 2.787,
+   "trim": 0.186
+  },
+  {
+   "id": "s07_03",
+   "text": "It was a decision to build innovation around a more coherent foundation.",
+   "scene": 7,
+   "t": 277.965,
+   "local": 11.0,
+   "dur": 4.45,
+   "trim": 0.18
+  },
+  {
+   "id": "s07_04",
+   "text": "Bricks, compatible elements, recognizable play patterns, and profitable product lines became central priorities.",
+   "scene": 7,
+   "t": 282.865,
+   "local": 15.9,
+   "dur": 7.578,
+   "trim": 0.17
+  },
+  {
+   "id": "s07_05",
+   "text": "New ideas would need to strengthen the core rather than distract from it.",
+   "scene": 7,
+   "t": 290.893,
+   "local": 23.928,
+   "dur": 4.705,
+   "trim": 0.179
+  },
+  {
+   "id": "s07_06",
+   "text": "The company had spent years searching for growth beyond its original identity.",
+   "scene": 7,
+   "t": 296.048,
+   "local": 29.083,
+   "dur": 4.217,
+   "trim": 0.424
+  },
+  {
+   "id": "s07_07",
+   "text": "Now it was rediscovering the value of what customers already loved.",
+   "scene": 7,
+   "t": 300.715,
+   "local": 33.75,
+   "dur": 4.451,
+   "trim": 0.136
+  },
+  {
+   "id": "s07_08",
+   "text": "Sometimes the strongest turnaround begins by asking what should never have changed.",
+   "scene": 7,
+   "t": 305.616,
+   "local": 38.651,
+   "dur": 5.552,
+   "trim": 0.11
+  },
+  {
+   "id": "s08_01",
+   "text": "Refocusing the product range was only part of the recovery.",
+   "scene": 8,
+   "t": 312.868,
+   "local": 0.6,
+   "dur": 3.428,
+   "trim": 0.424
+  },
+  {
+   "id": "s08_02",
+   "text": "LEGO also needed to change how the business operated.",
+   "scene": 8,
+   "say": "Lego also needed to change how the business operated.",
+   "t": 316.746,
+   "local": 4.478,
+   "dur": 3.107,
+   "trim": 0.182
+  },
+  {
+   "id": "s08_03",
+   "text": "In 2004, its action plan reduced production and operating costs by approximately one point five two billion Danish kroner compared with 2003.",
+   "scene": 8,
+   "say": "In two thousand four, its action plan reduced production and operating costs by approximately one point five two billion Danish kroner compared with two thousand three.",
+   "t": 320.303,
+   "local": 8.035,
+   "dur": 10.444,
+   "trim": 0.227
+  },
+  {
+   "id": "s08_04",
+   "text": "That represented a twenty percent reduction.",
+   "scene": 8,
+   "t": 331.197,
+   "local": 18.929,
+   "dur": 2.676,
+   "trim": 0.079
+  },
+  {
+   "id": "s08_05",
+   "text": "The restructuring also involved a workforce reduction of roughly one thousand people.",
+   "scene": 8,
+   "t": 334.323,
+   "local": 22.055,
+   "dur": 5.326,
+   "trim": 0.207
+  },
+  {
+   "id": "s08_06",
+   "text": "These were difficult decisions with real human consequences.",
+   "scene": 8,
+   "t": 340.098,
+   "local": 27.83,
+   "dur": 3.958,
+   "trim": 0.095
+  },
+  {
+   "id": "s08_07",
+   "text": "But the company was attempting to bring its costs into line with a smaller, more sustainable business.",
+   "scene": 8,
+   "t": 344.506,
+   "local": 32.238,
+   "dur": 6.135,
+   "trim": 0.201
+  },
+  {
+   "id": "s08_08",
+   "text": "A turnaround could not succeed through product nostalgia alone.",
+   "scene": 8,
+   "t": 351.091,
+   "local": 38.823,
+   "dur": 3.637,
+   "trim": 0.093
+  },
+  {
+   "id": "s09_01",
+   "text": "One of the most consequential decisions involved LEGOLAND.",
+   "scene": 9,
+   "say": "One of the most consequential decisions involved Lego-land.",
+   "t": 356.428,
+   "local": 0.6,
+   "dur": 3.872,
+   "trim": 0.178
+  },
+  {
+   "id": "s09_02",
+   "text": "The parks were closely associated with the LEGO name, but operating theme parks required substantial capital and management attention.",
+   "scene": 9,
+   "say": "The parks were closely associated with the Lego name, but operating theme parks required substantial capital and management attention.",
+   "t": 360.75,
+   "local": 4.922,
+   "dur": 7.725,
+   "trim": 0.179
+  },
+  {
+   "id": "s09_03",
+   "text": "LEGO decided that owning and operating them was no longer essential to its core business.",
+   "scene": 9,
+   "say": "Lego decided that owning and operating them was no longer essential to its core business.",
+   "t": 368.925,
+   "local": 13.097,
+   "dur": 5.482,
+   "trim": 0.375
+  },
+  {
+   "id": "s09_04",
+   "text": "In 2005, the parks were sold to Merlin Entertainments in a transaction valued at approximately three hundred and seventy-five million euros.",
+   "scene": 9,
+   "say": "In two thousand five, the parks were sold to Merlin Entertainments in a transaction valued at approximately three hundred and seventy-five million euros.",
+   "t": 374.857,
+   "local": 19.029,
+   "dur": 8.931,
+   "trim": 0.198
+  },
+  {
+   "id": "s09_05",
+   "text": "LEGO-related owners retained an investment in the acquiring group.",
+   "scene": 9,
+   "say": "Lego-related owners retained an investment in the acquiring group.",
+   "t": 384.238,
+   "local": 28.41,
+   "dur": 4.118,
+   "trim": 0.179
+  },
+  {
+   "id": "s09_06",
+   "text": "The decision helped improve liquidity while allowing the company to concentrate on toys.",
+   "scene": 9,
+   "t": 388.807,
+   "local": 32.979,
+   "dur": 5.106,
+   "trim": 0.187
+  },
+  {
+   "id": "s09_07",
+   "text": "An iconic brand experience could continue without LEGO operating the parks itself.",
+   "scene": 9,
+   "say": "An iconic brand experience could continue without Lego operating the parks itself.",
+   "t": 394.363,
+   "local": 38.535,
+   "dur": 5.074,
+   "trim": 0.187
+  },
+  {
+   "id": "s10_01",
+   "text": "LEGO's recovery also required reconnecting innovation with demand.",
+   "scene": 10,
+   "say": "Lego's recovery also required reconnecting innovation with demand.",
+   "t": 401.137,
+   "local": 0.6,
+   "dur": 4.863,
+   "trim": 0.146
+  },
+  {
+   "id": "s10_02",
+   "text": "The company had an unusually committed audience of children, families, and adult enthusiasts.",
+   "scene": 10,
+   "t": 406.45,
+   "local": 5.913,
+   "dur": 6.41,
+   "trim": 0.185
+  },
+  {
+   "id": "s10_03",
+   "text": "Their relationship with LEGO extended beyond individual sets.",
+   "scene": 10,
+   "say": "Their relationship with Lego extended beyond individual sets.",
+   "t": 413.309,
+   "local": 12.772,
+   "dur": 3.874,
+   "trim": 0.179
+  },
+  {
+   "id": "s10_04",
+   "text": "They valued the ability to create, combine, and rebuild.",
+   "scene": 10,
+   "t": 417.633,
+   "local": 17.096,
+   "dur": 4.505,
+   "trim": 0.184
+  },
+  {
+   "id": "s10_05",
+   "text": "Understanding that behavior helped management evaluate which products deserved investment.",
+   "scene": 10,
+   "t": 422.588,
+   "local": 22.051,
+   "dur": 5.251,
+   "trim": 0.108
+  },
+  {
+   "id": "s10_06",
+   "text": "The company did not need to abandon every licensed theme or experimental idea.",
+   "scene": 10,
+   "t": 428.289,
+   "local": 27.752,
+   "dur": 5.354,
+   "trim": 0.179
+  },
+  {
+   "id": "s10_07",
+   "text": "It needed to judge whether those ideas reinforced the building experience and could generate sustainable returns.",
+   "scene": 10,
+   "t": 434.093,
+   "local": 33.556,
+   "dur": 7.435,
+   "trim": 0.178
+  },
+  {
+   "id": "s10_08",
+   "text": "Customer enthusiasm mattered.",
+   "scene": 10,
+   "t": 441.977,
+   "local": 41.44,
+   "dur": 2.14,
+   "trim": 0.219
+  },
+  {
+   "id": "s10_09",
+   "text": "But enthusiasm had to be connected to commercial discipline.",
+   "scene": 10,
+   "t": 444.567,
+   "local": 44.03,
+   "dur": 3.471,
+   "trim": 0.159
+  },
+  {
+   "id": "s11_01",
+   "text": "The new approach did not mean LEGO would stop developing ambitious products.",
+   "scene": 11,
+   "say": "The new approach did not mean Lego would stop developing ambitious products.",
+   "t": 449.738,
+   "local": 0.6,
+   "dur": 4.854,
+   "trim": 0.205
+  },
+  {
+   "id": "s11_02",
+   "text": "Successful lines and licensed partnerships could remain valuable when they worked within the broader construction system.",
+   "scene": 11,
+   "t": 455.042,
+   "local": 5.904,
+   "dur": 6.895,
+   "trim": 0.283
+  },
+  {
+   "id": "s11_03",
+   "text": "What changed was the framework for evaluating them.",
+   "scene": 11,
+   "t": 462.387,
+   "local": 13.249,
+   "dur": 3.221,
+   "trim": 0.159
+  },
+  {
+   "id": "s11_04",
+   "text": "Product development needed better cost control, stronger coordination, and clearer commercial priorities.",
+   "scene": 11,
+   "t": 466.058,
+   "local": 16.92,
+   "dur": 6.764,
+   "trim": 0.126
+  },
+  {
+   "id": "s11_05",
+   "text": "LEGO was learning that creativity and constraints were not opposites.",
+   "scene": 11,
+   "say": "Lego was learning that creativity and constraints were not opposites.",
+   "t": 473.272,
+   "local": 24.134,
+   "dur": 4.193,
+   "trim": 0.204
+  },
+  {
+   "id": "s11_06",
+   "text": "Constraints could make innovation more effective by directing resources toward ideas with stronger potential.",
+   "scene": 11,
+   "t": 477.915,
+   "local": 28.777,
+   "dur": 7.163,
+   "trim": 0.139
+  },
+  {
+   "id": "s11_07",
+   "text": "The company was rebuilding its ability to experiment without allowing every experiment to become an expensive commitment.",
+   "scene": 11,
+   "t": 485.529,
+   "local": 36.391,
+   "dur": 6.926,
+   "trim": 0.183
+  },
+  {
+   "id": "s12_01",
+   "text": "The results began to change.",
+   "scene": 12,
+   "t": 494.155,
+   "local": 0.6,
+   "dur": 2.619,
+   "trim": 0.181
+  },
+  {
+   "id": "s12_02",
+   "text": "LEGO's 2005 annual report recorded a group net profit of five hundred and five million Danish kroner, compared with a loss of nearly one point nine three billion the previous year.",
+   "scene": 12,
+   "say": "Lego's two thousand five annual report recorded a group net profit of five hundred and five million Danish kroner, compared with a loss of nearly one point nine three billion the previous year.",
+   "t": 497.224,
+   "local": 3.669,
+   "dur": 11.485,
+   "trim": 0.338
+  },
+  {
+   "id": "s12_03",
+   "text": "But there is an important qualification.",
+   "scene": 12,
+   "t": 509.159,
+   "local": 15.604,
+   "dur": 2.549,
+   "trim": 0.131
+  },
+  {
+   "id": "s12_04",
+   "text": "The 2005 result included profits from discontinued activities, including asset disposals.",
+   "scene": 12,
+   "say": "The two thousand five result included profits from discontinued activities, including asset disposals.",
+   "t": 512.158,
+   "local": 18.603,
+   "dur": 6.956,
+   "trim": 0.257
+  },
+  {
+   "id": "s12_05",
+   "text": "The continuing business also improved, reporting three hundred and thirty-one million kroner in net profit.",
+   "scene": 12,
+   "t": 519.564,
+   "local": 26.009,
+   "dur": 6.566,
+   "trim": 0.233
+  },
+  {
+   "id": "s12_06",
+   "text": "This was stronger evidence of operational recovery.",
+   "scene": 12,
+   "t": 526.58,
+   "local": 33.025,
+   "dur": 3.39,
+   "trim": 0.14
+  },
+  {
+   "id": "s12_07",
+   "text": "The turnaround was producing measurable results, although not every improvement came from selling more toys.",
+   "scene": 12,
+   "t": 530.419,
+   "local": 36.864,
+   "dur": 6.408,
+   "trim": 0.191
+  },
+  {
+   "id": "s13_01",
+   "text": "By 2006, LEGO's reported group net profit had reached approximately one point four three billion Danish kroner.",
+   "scene": 13,
+   "say": "By two thousand six, Lego's reported group net profit had reached approximately one point four three billion Danish kroner.",
+   "t": 538.528,
+   "local": 0.6,
+   "dur": 7.803,
+   "trim": 0.18
+  },
+  {
+   "id": "s13_02",
+   "text": "The company was moving beyond emergency stabilization toward a more sustainable operating model.",
+   "scene": 13,
+   "t": 546.781,
+   "local": 8.853,
+   "dur": 5.451,
+   "trim": 0.357
+  },
+  {
+   "id": "s13_03",
+   "text": "Its longer-term strategy emphasized improving supply chains, product profitability, and organizational processes before accelerating growth.",
+   "scene": 13,
+   "t": 552.682,
+   "local": 14.754,
+   "dur": 9.863,
+   "trim": 0.164
+  },
+  {
+   "id": "s13_04",
+   "text": "That sequence mattered.",
+   "scene": 13,
+   "t": 562.995,
+   "local": 25.067,
+   "dur": 1.566,
+   "trim": 0.161
+  },
+  {
+   "id": "s13_05",
+   "text": "Management was not simply trying to recreate the company's earlier size.",
+   "scene": 13,
+   "t": 565.011,
+   "local": 27.083,
+   "dur": 4.797,
+   "trim": 0.162
+  },
+  {
+   "id": "s13_06",
+   "text": "It was attempting to build a stronger business capable of supporting future expansion.",
+   "scene": 13,
+   "t": 570.258,
+   "local": 32.33,
+   "dur": 5.216,
+   "trim": 0.179
+  },
+  {
+   "id": "s13_07",
+   "text": "LEGO had learned that rapid growth could become dangerous when the economics underneath it were weak.",
+   "scene": 13,
+   "say": "Lego had learned that rapid growth could become dangerous when the economics underneath it were weak.",
+   "t": 575.923,
+   "local": 37.995,
+   "dur": 5.776,
+   "trim": 0.183
+  },
+  {
+   "id": "s14_01",
+   "text": "LEGO's recovery helped establish a foundation for later product successes.",
+   "scene": 14,
+   "say": "Lego's recovery helped establish a foundation for later product successes.",
+   "t": 583.399,
+   "local": 0.6,
+   "dur": 4.502,
+   "trim": 0.108
+  },
+  {
+   "id": "s14_02",
+   "text": "Construction themes, licensed sets, and new play experiences could grow from the same recognizable system.",
+   "scene": 14,
+   "t": 588.351,
+   "local": 5.552,
+   "dur": 7.537,
+   "trim": 0.187
+  },
+  {
+   "id": "s14_03",
+   "text": "The company continued evolving rather than returning permanently to its older catalog.",
+   "scene": 14,
+   "t": 596.338,
+   "local": 13.539,
+   "dur": 5.09,
+   "trim": 0.203
+  },
+  {
+   "id": "s14_04",
+   "text": "That distinction is essential.",
+   "scene": 14,
+   "t": 601.878,
+   "local": 19.079,
+   "dur": 2.013,
+   "trim": 0.136
+  },
+  {
+   "id": "s14_05",
+   "text": "The turnaround did not prove that businesses should avoid diversification.",
+   "scene": 14,
+   "t": 604.342,
+   "local": 21.543,
+   "dur": 5.019,
+   "trim": 0.19
+  },
+  {
+   "id": "s14_06",
+   "text": "It showed the value of understanding which capabilities make diversification work.",
+   "scene": 14,
+   "t": 609.811,
+   "local": 27.012,
+   "dur": 5.48,
+   "trim": 0.151
+  },
+  {
+   "id": "s14_07",
+   "text": "LEGO's strongest asset was not simply its logo or its history.",
+   "scene": 14,
+   "say": "Lego's strongest asset was not simply its logo or its history.",
+   "t": 615.741,
+   "local": 32.942,
+   "dur": 4.109,
+   "trim": 0.143
+  },
+  {
+   "id": "s14_08",
+   "text": "It was the compatibility, creativity, and repeatability built into the brick system itself.",
+   "scene": 14,
+   "t": 620.3,
+   "local": 37.501,
+   "dur": 6.644,
+   "trim": 0.212
+  },
+  {
+   "id": "s15_01",
+   "text": "The evidence points to four interconnected decisions.",
+   "scene": 15,
+   "t": 628.643,
+   "local": 0.6,
+   "dur": 3.163,
+   "trim": 0.207
+  },
+  {
+   "id": "s15_02",
+   "text": "First, LEGO refocused on its distinctive construction system.",
+   "scene": 15,
+   "say": "First, Lego refocused on its distinctive construction system.",
+   "t": 632.256,
+   "local": 4.213,
+   "dur": 4.085,
+   "trim": 0.179
+  },
+  {
+   "id": "s15_03",
+   "text": "Second, management reduced costs and brought greater discipline to operations.",
+   "scene": 15,
+   "t": 636.791,
+   "local": 8.748,
+   "dur": 5.05,
+   "trim": 0.184
+  },
+  {
+   "id": "s15_04",
+   "text": "Third, the company sold assets that were not essential to its core business.",
+   "scene": 15,
+   "t": 642.292,
+   "local": 14.249,
+   "dur": 4.815,
+   "trim": 0.123
+  },
+  {
+   "id": "s15_05",
+   "text": "And fourth, it rebuilt product development around customers and sustainable profitability.",
+   "scene": 15,
+   "t": 647.556,
+   "local": 19.513,
+   "dur": 5.831,
+   "trim": 0.129
+  },
+  {
+   "id": "s15_06",
+   "text": "None of those decisions alone explains the entire recovery.",
+   "scene": 15,
+   "t": 653.837,
+   "local": 25.794,
+   "dur": 3.931,
+   "trim": 0.139
+  },
+  {
+   "id": "s15_07",
+   "text": "Together, they changed how LEGO allocated resources and evaluated growth.",
+   "scene": 15,
+   "say": "Together, they changed how Lego allocated resources and evaluated growth.",
+   "t": 658.218,
+   "local": 30.175,
+   "dur": 5.354,
+   "trim": 0.181
+  },
+  {
+   "id": "s15_08",
+   "text": "The company didn't survive because it stopped innovating.",
+   "scene": 15,
+   "t": 664.022,
+   "local": 35.979,
+   "dur": 3.42,
+   "trim": 0.157
+  },
+  {
+   "id": "s15_09",
+   "text": "It survived because it became more selective about where innovation belonged.",
+   "scene": 15,
+   "t": 667.892,
+   "local": 39.849,
+   "dur": 4.854,
+   "trim": 0.202
+  },
+  {
+   "id": "s16_01",
+   "text": "LEGO nearly lost its future while trying to expand beyond the system that had made it successful.",
+   "scene": 16,
+   "say": "Lego nearly lost its future while trying to expand beyond the system that had made it successful.",
+   "t": 674.446,
+   "local": 0.6,
+   "dur": 6.33,
+   "trim": 0.197
+  },
+  {
+   "id": "s16_02",
+   "text": "Its recovery required leadership to confront a difficult possibility: more products, more businesses, and more ambitious ideas did not necessarily mean more value.",
+   "scene": 16,
+   "t": 681.226,
+   "local": 7.38,
+   "dur": 10.499,
+   "trim": 0.213
+  },
+  {
+   "id": "s16_03",
+   "text": "The company returned to profitability by combining a clearer identity with stronger financial and operational discipline.",
+   "scene": 16,
+   "t": 692.175,
+   "local": 18.329,
+   "dur": 7.55,
+   "trim": 0.438
+  },
+  {
+   "id": "s16_04",
+   "text": "The lesson extends far beyond toys.",
+   "scene": 16,
+   "t": 700.174,
+   "local": 26.328,
+   "dur": 2.668,
+   "trim": 0.206
+  },
+  {
+   "id": "s16_05",
+   "text": "A brand's greatest opportunity is not always the next market it can enter.",
+   "scene": 16,
+   "t": 703.293,
+   "local": 29.447,
+   "dur": 4.454,
+   "trim": 0.203
+  },
+  {
+   "id": "s16_06",
+   "text": "Sometimes it is the advantage it already possesses but has stopped protecting.",
+   "scene": 16,
+   "t": 708.196,
+   "local": 34.35,
+   "dur": 4.856,
+   "trim": 0.207
+  },
+  {
+   "id": "s16_07",
+   "text": "And every brand leaves evidence.",
+   "scene": 16,
+   "t": 713.503,
+   "local": 39.657,
+   "dur": 2.53,
+   "trim": 0.094
+  }
+ ]
+}

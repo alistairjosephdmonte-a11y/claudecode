@@ -1,0 +1,17 @@
+# QC report: Brand Coroner · Case 011 · LEGO, "the decision that saved the brick"
+
+| Check | Result |
+|---|---|
+| Scenes | ✅ All 16 storyboard scenes, in order; `lego.blend` has one meta strip per scene |
+| Narration | ✅ Voiced verbatim: 128 lines, 1,425 words. Each line was checked with Whisper (small.en); all match. Differences are number formatting ("2004", "1.52 billion"), "kronor" for kroner, and name spellings ("Christiansen", "Nudstorp" for Knudstorp). No re-voicing was needed |
+| Runtime | **12:02 (721.5 s), 17,317 frames.** The 1,425-word script is read at a natural pace and was not sped up or cut. An 8:00 cut would need about 950–1,000 words |
+| Facts | ✅ See `FACTS.md`. LEGO 2005 results release (2004 loss DKK 1,931m; 2005 profit DKK 505m; discontinuing DKK 174m); 2004 annual report release (costs cut DKK 1,523m, 20%); 2006 results release (net profit DKK 1,430m); 2003 annual report (sales −26%, pre-tax loss ≈ DKK 1.4bn); Blackstone release, July 13, 2005 (LEGOLAND parks, €375m; LEGO Group holds 30% of Merlin); LEGO Annual Report 2008 (Kjeld Kirk Kristiansen CEO 1979–2004; five-year summary) |
+| Figures | ✅ Shown "as reported at the time", matching the script. LEGO's 2008 annual report later restated these years on a different basis (2004 −1,800; 2005 +214; 2006 +1,290); the restatement is shown on screen in Scenes 12 and 13. The 2003 net loss of DKK 935m is attributed on screen to LEGO's later five-year summary, since the 2003 report itself states a pre-tax loss of ≈ DKK 1.4bn. Continuing profit DKK 331m = 505 − 174. The ≈ 1,000 job cuts are shown as reported (*The Telegraph*, Oct 2004) |
+| Documents | ✅ Report and release text appears on cards labelled "transcription · not a facsimile". The "innovation with rules" checklist is labelled "editorial analysis · an illustrative framework, not a LEGO document" |
+| Storyboard items not used | No logos or product boxes (LEGO, LEGOLAND, Star Wars, City, Technic, Harry Potter) reproduced. No imitation annual-report covers. Recent LEGOLAND Billund entrance photos are under a Commons deletion request, so the c. 1968 entrance photo released by the resort is used. The factory scene uses a dated 2008 exterior of the Kladno plant, captioned with place and date |
+| Balance | ✅ The script's own caveats are voiced as written and shown: the 2005 profit "included profits from discontinued activities", "none of those decisions alone explains the entire recovery", and the workforce cuts as "real human consequences" |
+| Picture | 3840×2160 and 1920×1080, 24 fps, Rec.709, H.264; no burned-in subtitles. Frames from all 16 scenes reviewed; fixed four over-long card headers, a cut-off photo caption (Scene 2), an overflowing label (Scene 3) and tight line spacing (Scene 14). Contact sheet of the 1080p master: `qc/final_sheet.jpg` |
+| Sound | 48 kHz stereo, −16.0 LUFS integrated; narration first, music ducked under voice |
+| Subtitles | `BRAND_CORONER_CASE011_LEGO_EN.srt`, 177 cues, ≤ 2 rows × 47 characters, the script's own wording |
+| Licences | 8 dated photos from Wikimedia Commons, credited on screen and in `CREDITS.md`: 2 public domain, 1 CC0, 1 CC BY 3.0, 4 CC BY-SA (bricks 2007, child building 1957, Knudstorp 2010, BrickFair 2013) shown unaltered on a dark mat with no crop or grade |
+| Deliverables | 4K and 1080p masters, SRT, narration/music/foley stems, 16 per-scene segments. The 4K master is 72 MB, so the repo holds it as rendered; Stems are stored as FLAC |

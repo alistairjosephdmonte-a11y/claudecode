@@ -1,0 +1,39 @@
+{
+ "bricks": {
+  "sa": true,
+  "tag": "lego bricks \u00b7 dec 2007 \u00b7 alan chia \u00b7 cc by-sa 2.0"
+ },
+ "brick": {
+  "color": true,
+  "tag": "a 2x4 lego brick \u00b7 may 2024 \u00b7 ziongarage \u00b7 cc0"
+ },
+ "olekirk": {
+  "crop": [
+   0.3,
+   0,
+   1,
+   1
+  ],
+  "tag": "ole kirk christiansen at his desk \u00b7 1957 \u00b7 unknown photographer \u00b7 public domain"
+ },
+ "lego1957": {
+  "sa": true,
+  "tag": "child building with lego \u00b7 1957 \u00b7 cc by-sa 4.0"
+ },
+ "legoland68": {
+  "color": true,
+  "tag": "legoland billund, main entrance \u00b7 c. 1968 \u00b7 legoland billund resort \u00b7 cc by 3.0"
+ },
+ "knudstorp": {
+  "sa": true,
+  "tag": "j\u00f8rgen vig knudstorp \u00b7 2010 \u00b7 hidden isomorph \u00b7 cc by-sa 3.0"
+ },
+ "kladno": {
+  "color": true,
+  "tag": "lego factory, kladno, czech republic \u00b7 may 2008 \u00b7 miaow miaow \u00b7 public domain"
+ },
+ "brickfair": {
+  "sa": true,
+  "tag": "fan-built models, brickfair virginia \u00b7 aug 2013 \u00b7 mike65444 \u00b7 cc by-sa 2.0"
+ }
+}

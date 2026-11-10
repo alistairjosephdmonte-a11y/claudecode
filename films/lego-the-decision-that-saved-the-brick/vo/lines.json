@@ -1,0 +1,678 @@
+[
+ {
+  "id": "s01_01",
+  "text": "In 2004, one of the world's most recognizable toy companies was fighting for survival.",
+  "scene": 1,
+  "say": "In two thousand four, one of the world's most recognizable toy companies was fighting for survival."
+ },
+ {
+  "id": "s01_02",
+  "text": "LEGO had spent decades teaching children to build almost anything from plastic bricks.",
+  "scene": 1,
+  "say": "Lego had spent decades teaching children to build almost anything from plastic bricks."
+ },
+ {
+  "id": "s01_03",
+  "text": "But the company itself was becoming dangerously unstable.",
+  "scene": 1
+ },
+ {
+  "id": "s01_04",
+  "text": "Its annual group loss reached nearly two billion Danish kroner.",
+  "scene": 1
+ },
+ {
+  "id": "s01_05",
+  "text": "The extraordinary part?",
+  "scene": 1
+ },
+ {
+  "id": "s01_06",
+  "text": "LEGO hadn't forgotten how to invent new things.",
+  "scene": 1,
+  "say": "Lego hadn't forgotten how to invent new things."
+ },
+ {
+  "id": "s01_07",
+  "text": "It had expanded into too many directions without making enough money.",
+  "scene": 1
+ },
+ {
+  "id": "s01_08",
+  "text": "And saving the company would require a decision that seemed almost absurd.",
+  "scene": 1
+ },
+ {
+  "id": "s01_09",
+  "text": "LEGO needed to become less complicated.",
+  "scene": 1,
+  "say": "Lego needed to become less complicated."
+ },
+ {
+  "id": "s02_01",
+  "text": "The story began in Billund, Denmark.",
+  "scene": 2
+ },
+ {
+  "id": "s02_02",
+  "text": "Ole Kirk Kristiansen founded his toy business in 1932.",
+  "scene": 2,
+  "say": "Oh-leh Kirk Kristiansen founded his toy business in nineteen thirty-two."
+ },
+ {
+  "id": "s02_03",
+  "text": "The company eventually moved from wooden toys into plastic construction bricks.",
+  "scene": 2
+ },
+ {
+  "id": "s02_04",
+  "text": "Its greatest advantage wasn't any single model.",
+  "scene": 2
+ },
+ {
+  "id": "s02_05",
+  "text": "It was a system.",
+  "scene": 2
+ },
+ {
+  "id": "s02_06",
+  "text": "Pieces could connect, separate, and combine with other pieces.",
+  "scene": 2
+ },
+ {
+  "id": "s02_07",
+  "text": "A child could dismantle one creation and build another.",
+  "scene": 2
+ },
+ {
+  "id": "s02_08",
+  "text": "That flexibility gave LEGO a distinctive identity.",
+  "scene": 2,
+  "say": "That flexibility gave Lego a distinctive identity."
+ },
+ {
+  "id": "s02_09",
+  "text": "Its products encouraged imagination while remaining compatible across generations.",
+  "scene": 2
+ },
+ {
+  "id": "s02_10",
+  "text": "The same principle that made the brand successful would eventually become the foundation of its recovery.",
+  "scene": 2
+ },
+ {
+  "id": "s03_01",
+  "text": "By the late 1990s, the toy industry was changing.",
+  "scene": 3,
+  "say": "By the late nineteen-nineties, the toy industry was changing."
+ },
+ {
+  "id": "s03_02",
+  "text": "Electronic entertainment was competing for children's attention.",
+  "scene": 3
+ },
+ {
+  "id": "s03_03",
+  "text": "Retailers were gaining negotiating power.",
+  "scene": 3
+ },
+ {
+  "id": "s03_04",
+  "text": "LEGO responded by searching for new opportunities.",
+  "scene": 3,
+  "say": "Lego responded by searching for new opportunities."
+ },
+ {
+  "id": "s03_05",
+  "text": "The company expanded its products, entertainment activities, retail ambitions, and theme-park operations.",
+  "scene": 3
+ },
+ {
+  "id": "s03_06",
+  "text": "Some initiatives were successful.",
+  "scene": 3
+ },
+ {
+  "id": "s03_07",
+  "text": "Others created additional costs and complexity.",
+  "scene": 3
+ },
+ {
+  "id": "s03_08",
+  "text": "Management was attempting to grow beyond its traditional construction-toy business.",
+  "scene": 3
+ },
+ {
+  "id": "s03_09",
+  "text": "But entering new categories did not automatically produce profitable growth.",
+  "scene": 3
+ },
+ {
+  "id": "s03_10",
+  "text": "The more the company expanded, the harder its operations became to manage.",
+  "scene": 3
+ },
+ {
+  "id": "s04_01",
+  "text": "Consider what happens when a toy company introduces more specialized parts, colors, packaging, and product lines.",
+  "scene": 4
+ },
+ {
+  "id": "s04_02",
+  "text": "Every additional component can affect design, tooling, manufacturing, inventory, and distribution.",
+  "scene": 4
+ },
+ {
+  "id": "s04_03",
+  "text": "Complexity becomes expensive when products fail to sell in sufficient quantities.",
+  "scene": 4
+ },
+ {
+  "id": "s04_04",
+  "text": "LEGO's innovation system had become difficult to control.",
+  "scene": 4,
+  "say": "Lego's innovation system had become difficult to control."
+ },
+ {
+  "id": "s04_05",
+  "text": "The company was investing in ideas without consistently understanding their commercial consequences.",
+  "scene": 4
+ },
+ {
+  "id": "s04_06",
+  "text": "The problem wasn't creativity itself.",
+  "scene": 4
+ },
+ {
+  "id": "s04_07",
+  "text": "It was the absence of enough discipline around creativity.",
+  "scene": 4
+ },
+ {
+  "id": "s04_08",
+  "text": "A business famous for connecting pieces was struggling to connect its own decisions.",
+  "scene": 4
+ },
+ {
+  "id": "s05_01",
+  "text": "The financial warning became impossible to ignore in 2003.",
+  "scene": 5,
+  "say": "The financial warning became impossible to ignore in two thousand three."
+ },
+ {
+  "id": "s05_02",
+  "text": "LEGO reported a group net loss of approximately nine hundred and thirty-five million Danish kroner.",
+  "scene": 5,
+  "say": "Lego reported a group net loss of approximately nine hundred and thirty-five million Danish kroner."
+ },
+ {
+  "id": "s05_03",
+  "text": "Sales had weakened sharply, and management acknowledged that its growth strategy had failed to deliver the expected results.",
+  "scene": 5
+ },
+ {
+  "id": "s05_04",
+  "text": "This wasn't simply an uncomfortable year for shareholders.",
+  "scene": 5
+ },
+ {
+  "id": "s05_05",
+  "text": "LEGO was a privately owned family business whose independence was now under pressure.",
+  "scene": 5,
+  "say": "Lego was a privately owned family business whose independence was now under pressure."
+ },
+ {
+  "id": "s05_06",
+  "text": "The company needed to preserve cash, rebuild profitability, and reconsider where it belonged in the toy industry.",
+  "scene": 5
+ },
+ {
+  "id": "s05_07",
+  "text": "Continuing with the same strategy was becoming increasingly dangerous.",
+  "scene": 5
+ },
+ {
+  "id": "s06_01",
+  "text": "In 2004, J\u00f8rgen Vig Knudstorp became LEGO's chief executive, taking over operational leadership during the crisis.",
+  "scene": 6,
+  "say": "In two thousand four, Yorgen Vig Knudstorp became Lego's chief executive, taking over operational leadership during the crisis."
+ },
+ {
+  "id": "s06_02",
+  "text": "His challenge was not to create a fashionable new identity.",
+  "scene": 6
+ },
+ {
+  "id": "s06_03",
+  "text": "It was to make the existing company financially sustainable.",
+  "scene": 6
+ },
+ {
+  "id": "s06_04",
+  "text": "The turnaround required uncomfortable choices about products, people, assets, and investment.",
+  "scene": 6
+ },
+ {
+  "id": "s06_05",
+  "text": "Management began establishing clearer priorities and confronting the economics of the business.",
+  "scene": 6
+ },
+ {
+  "id": "s06_06",
+  "text": "Rather than assuming every new idea deserved expansion, LEGO had to decide which activities genuinely supported its strengths.",
+  "scene": 6,
+  "say": "Rather than assuming every new idea deserved expansion, Lego had to decide which activities genuinely supported its strengths."
+ },
+ {
+  "id": "s06_07",
+  "text": "Survival would depend on what the company stopped doing as much as what it continued.",
+  "scene": 6
+ },
+ {
+  "id": "s07_01",
+  "text": "LEGO's most important strategic move was to refocus on the construction system that made it distinctive.",
+  "scene": 7,
+  "say": "Lego's most important strategic move was to refocus on the construction system that made it distinctive."
+ },
+ {
+  "id": "s07_02",
+  "text": "This wasn't a rejection of innovation.",
+  "scene": 7
+ },
+ {
+  "id": "s07_03",
+  "text": "It was a decision to build innovation around a more coherent foundation.",
+  "scene": 7
+ },
+ {
+  "id": "s07_04",
+  "text": "Bricks, compatible elements, recognizable play patterns, and profitable product lines became central priorities.",
+  "scene": 7
+ },
+ {
+  "id": "s07_05",
+  "text": "New ideas would need to strengthen the core rather than distract from it.",
+  "scene": 7
+ },
+ {
+  "id": "s07_06",
+  "text": "The company had spent years searching for growth beyond its original identity.",
+  "scene": 7
+ },
+ {
+  "id": "s07_07",
+  "text": "Now it was rediscovering the value of what customers already loved.",
+  "scene": 7
+ },
+ {
+  "id": "s07_08",
+  "text": "Sometimes the strongest turnaround begins by asking what should never have changed.",
+  "scene": 7
+ },
+ {
+  "id": "s08_01",
+  "text": "Refocusing the product range was only part of the recovery.",
+  "scene": 8
+ },
+ {
+  "id": "s08_02",
+  "text": "LEGO also needed to change how the business operated.",
+  "scene": 8,
+  "say": "Lego also needed to change how the business operated."
+ },
+ {
+  "id": "s08_03",
+  "text": "In 2004, its action plan reduced production and operating costs by approximately one point five two billion Danish kroner compared with 2003.",
+  "scene": 8,
+  "say": "In two thousand four, its action plan reduced production and operating costs by approximately one point five two billion Danish kroner compared with two thousand three."
+ },
+ {
+  "id": "s08_04",
+  "text": "That represented a twenty percent reduction.",
+  "scene": 8
+ },
+ {
+  "id": "s08_05",
+  "text": "The restructuring also involved a workforce reduction of roughly one thousand people.",
+  "scene": 8
+ },
+ {
+  "id": "s08_06",
+  "text": "These were difficult decisions with real human consequences.",
+  "scene": 8
+ },
+ {
+  "id": "s08_07",
+  "text": "But the company was attempting to bring its costs into line with a smaller, more sustainable business.",
+  "scene": 8
+ },
+ {
+  "id": "s08_08",
+  "text": "A turnaround could not succeed through product nostalgia alone.",
+  "scene": 8
+ },
+ {
+  "id": "s09_01",
+  "text": "One of the most consequential decisions involved LEGOLAND.",
+  "scene": 9,
+  "say": "One of the most consequential decisions involved Lego-land."
+ },
+ {
+  "id": "s09_02",
+  "text": "The parks were closely associated with the LEGO name, but operating theme parks required substantial capital and management attention.",
+  "scene": 9,
+  "say": "The parks were closely associated with the Lego name, but operating theme parks required substantial capital and management attention."
+ },
+ {
+  "id": "s09_03",
+  "text": "LEGO decided that owning and operating them was no longer essential to its core business.",
+  "scene": 9,
+  "say": "Lego decided that owning and operating them was no longer essential to its core business."
+ },
+ {
+  "id": "s09_04",
+  "text": "In 2005, the parks were sold to Merlin Entertainments in a transaction valued at approximately three hundred and seventy-five million euros.",
+  "scene": 9,
+  "say": "In two thousand five, the parks were sold to Merlin Entertainments in a transaction valued at approximately three hundred and seventy-five million euros."
+ },
+ {
+  "id": "s09_05",
+  "text": "LEGO-related owners retained an investment in the acquiring group.",
+  "scene": 9,
+  "say": "Lego-related owners retained an investment in the acquiring group."
+ },
+ {
+  "id": "s09_06",
+  "text": "The decision helped improve liquidity while allowing the company to concentrate on toys.",
+  "scene": 9
+ },
+ {
+  "id": "s09_07",
+  "text": "An iconic brand experience could continue without LEGO operating the parks itself.",
+  "scene": 9,
+  "say": "An iconic brand experience could continue without Lego operating the parks itself."
+ },
+ {
+  "id": "s10_01",
+  "text": "LEGO's recovery also required reconnecting innovation with demand.",
+  "scene": 10,
+  "say": "Lego's recovery also required reconnecting innovation with demand."
+ },
+ {
+  "id": "s10_02",
+  "text": "The company had an unusually committed audience of children, families, and adult enthusiasts.",
+  "scene": 10
+ },
+ {
+  "id": "s10_03",
+  "text": "Their relationship with LEGO extended beyond individual sets.",
+  "scene": 10,
+  "say": "Their relationship with Lego extended beyond individual sets."
+ },
+ {
+  "id": "s10_04",
+  "text": "They valued the ability to create, combine, and rebuild.",
+  "scene": 10
+ },
+ {
+  "id": "s10_05",
+  "text": "Understanding that behavior helped management evaluate which products deserved investment.",
+  "scene": 10
+ },
+ {
+  "id": "s10_06",
+  "text": "The company did not need to abandon every licensed theme or experimental idea.",
+  "scene": 10
+ },
+ {
+  "id": "s10_07",
+  "text": "It needed to judge whether those ideas reinforced the building experience and could generate sustainable returns.",
+  "scene": 10
+ },
+ {
+  "id": "s10_08",
+  "text": "Customer enthusiasm mattered.",
+  "scene": 10
+ },
+ {
+  "id": "s10_09",
+  "text": "But enthusiasm had to be connected to commercial discipline.",
+  "scene": 10
+ },
+ {
+  "id": "s11_01",
+  "text": "The new approach did not mean LEGO would stop developing ambitious products.",
+  "scene": 11,
+  "say": "The new approach did not mean Lego would stop developing ambitious products."
+ },
+ {
+  "id": "s11_02",
+  "text": "Successful lines and licensed partnerships could remain valuable when they worked within the broader construction system.",
+  "scene": 11
+ },
+ {
+  "id": "s11_03",
+  "text": "What changed was the framework for evaluating them.",
+  "scene": 11
+ },
+ {
+  "id": "s11_04",
+  "text": "Product development needed better cost control, stronger coordination, and clearer commercial priorities.",
+  "scene": 11
+ },
+ {
+  "id": "s11_05",
+  "text": "LEGO was learning that creativity and constraints were not opposites.",
+  "scene": 11,
+  "say": "Lego was learning that creativity and constraints were not opposites."
+ },
+ {
+  "id": "s11_06",
+  "text": "Constraints could make innovation more effective by directing resources toward ideas with stronger potential.",
+  "scene": 11
+ },
+ {
+  "id": "s11_07",
+  "text": "The company was rebuilding its ability to experiment without allowing every experiment to become an expensive commitment.",
+  "scene": 11
+ },
+ {
+  "id": "s12_01",
+  "text": "The results began to change.",
+  "scene": 12
+ },
+ {
+  "id": "s12_02",
+  "text": "LEGO's 2005 annual report recorded a group net profit of five hundred and five million Danish kroner, compared with a loss of nearly one point nine three billion the previous year.",
+  "scene": 12,
+  "say": "Lego's two thousand five annual report recorded a group net profit of five hundred and five million Danish kroner, compared with a loss of nearly one point nine three billion the previous year."
+ },
+ {
+  "id": "s12_03",
+  "text": "But there is an important qualification.",
+  "scene": 12
+ },
+ {
+  "id": "s12_04",
+  "text": "The 2005 result included profits from discontinued activities, including asset disposals.",
+  "scene": 12,
+  "say": "The two thousand five result included profits from discontinued activities, including asset disposals."
+ },
+ {
+  "id": "s12_05",
+  "text": "The continuing business also improved, reporting three hundred and thirty-one million kroner in net profit.",
+  "scene": 12
+ },
+ {
+  "id": "s12_06",
+  "text": "This was stronger evidence of operational recovery.",
+  "scene": 12
+ },
+ {
+  "id": "s12_07",
+  "text": "The turnaround was producing measurable results, although not every improvement came from selling more toys.",
+  "scene": 12
+ },
+ {
+  "id": "s13_01",
+  "text": "By 2006, LEGO's reported group net profit had reached approximately one point four three billion Danish kroner.",
+  "scene": 13,
+  "say": "By two thousand six, Lego's reported group net profit had reached approximately one point four three billion Danish kroner."
+ },
+ {
+  "id": "s13_02",
+  "text": "The company was moving beyond emergency stabilization toward a more sustainable operating model.",
+  "scene": 13
+ },
+ {
+  "id": "s13_03",
+  "text": "Its longer-term strategy emphasized improving supply chains, product profitability, and organizational processes before accelerating growth.",
+  "scene": 13
+ },
+ {
+  "id": "s13_04",
+  "text": "That sequence mattered.",
+  "scene": 13
+ },
+ {
+  "id": "s13_05",
+  "text": "Management was not simply trying to recreate the company's earlier size.",
+  "scene": 13
+ },
+ {
+  "id": "s13_06",
+  "text": "It was attempting to build a stronger business capable of supporting future expansion.",
+  "scene": 13
+ },
+ {
+  "id": "s13_07",
+  "text": "LEGO had learned that rapid growth could become dangerous when the economics underneath it were weak.",
+  "scene": 13,
+  "say": "Lego had learned that rapid growth could become dangerous when the economics underneath it were weak."
+ },
+ {
+  "id": "s14_01",
+  "text": "LEGO's recovery helped establish a foundation for later product successes.",
+  "scene": 14,
+  "say": "Lego's recovery helped establish a foundation for later product successes."
+ },
+ {
+  "id": "s14_02",
+  "text": "Construction themes, licensed sets, and new play experiences could grow from the same recognizable system.",
+  "scene": 14
+ },
+ {
+  "id": "s14_03",
+  "text": "The company continued evolving rather than returning permanently to its older catalog.",
+  "scene": 14
+ },
+ {
+  "id": "s14_04",
+  "text": "That distinction is essential.",
+  "scene": 14
+ },
+ {
+  "id": "s14_05",
+  "text": "The turnaround did not prove that businesses should avoid diversification.",
+  "scene": 14
+ },
+ {
+  "id": "s14_06",
+  "text": "It showed the value of understanding which capabilities make diversification work.",
+  "scene": 14
+ },
+ {
+  "id": "s14_07",
+  "text": "LEGO's strongest asset was not simply its logo or its history.",
+  "scene": 14,
+  "say": "Lego's strongest asset was not simply its logo or its history."
+ },
+ {
+  "id": "s14_08",
+  "text": "It was the compatibility, creativity, and repeatability built into the brick system itself.",
+  "scene": 14
+ },
+ {
+  "id": "s15_01",
+  "text": "The evidence points to four interconnected decisions.",
+  "scene": 15
+ },
+ {
+  "id": "s15_02",
+  "text": "First, LEGO refocused on its distinctive construction system.",
+  "scene": 15,
+  "say": "First, Lego refocused on its distinctive construction system."
+ },
+ {
+  "id": "s15_03",
+  "text": "Second, management reduced costs and brought greater discipline to operations.",
+  "scene": 15
+ },
+ {
+  "id": "s15_04",
+  "text": "Third, the company sold assets that were not essential to its core business.",
+  "scene": 15
+ },
+ {
+  "id": "s15_05",
+  "text": "And fourth, it rebuilt product development around customers and sustainable profitability.",
+  "scene": 15
+ },
+ {
+  "id": "s15_06",
+  "text": "None of those decisions alone explains the entire recovery.",
+  "scene": 15
+ },
+ {
+  "id": "s15_07",
+  "text": "Together, they changed how LEGO allocated resources and evaluated growth.",
+  "scene": 15,
+  "say": "Together, they changed how Lego allocated resources and evaluated growth."
+ },
+ {
+  "id": "s15_08",
+  "text": "The company didn't survive because it stopped innovating.",
+  "scene": 15
+ },
+ {
+  "id": "s15_09",
+  "text": "It survived because it became more selective about where innovation belonged.",
+  "scene": 15
+ },
+ {
+  "id": "s16_01",
+  "text": "LEGO nearly lost its future while trying to expand beyond the system that had made it successful.",
+  "scene": 16,
+  "say": "Lego nearly lost its future while trying to expand beyond the system that had made it successful."
+ },
+ {
+  "id": "s16_02",
+  "text": "Its recovery required leadership to confront a difficult possibility: more products, more businesses, and more ambitious ideas did not necessarily mean more value.",
+  "scene": 16
+ },
+ {
+  "id": "s16_03",
+  "text": "The company returned to profitability by combining a clearer identity with stronger financial and operational discipline.",
+  "scene": 16
+ },
+ {
+  "id": "s16_04",
+  "text": "The lesson extends far beyond toys.",
+  "scene": 16
+ },
+ {
+  "id": "s16_05",
+  "text": "A brand's greatest opportunity is not always the next market it can enter.",
+  "scene": 16
+ },
+ {
+  "id": "s16_06",
+  "text": "Sometimes it is the advantage it already possesses but has stopped protecting.",
+  "scene": 16
+ },
+ {
+  "id": "s16_07",
+  "text": "And every brand leaves evidence.",
+  "scene": 16
+ }
+]
