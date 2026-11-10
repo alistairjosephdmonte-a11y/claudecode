@@ -1,0 +1,30 @@
+{
+ "pizza09": {
+  "tag": "small hand-tossed cheese pizza \u00b7 may 2009 \u00b7 the pizza review \u00b7 cc by 2.0",
+  "color": true
+ },
+ "ypsi": {
+  "tag": "domino's, ypsilanti, mich. \u00b7 sept 2007 \u00b7 cmadler \u00b7 cc by-sa 3.0",
+  "sa": true
+ },
+ "probe": {
+  "tag": "delivery car \u00b7 upl. 2009 \u00b7 purplellamas01 \u00b7 cc by-sa 3.0",
+  "sa": true
+ },
+ "hq": {
+  "tag": "hq lobby, domino's farms, ann arbor \u00b7 dec 2012 \u00b7 dwight burdette \u00b7 cc by 3.0",
+  "color": true
+ },
+ "pizza19": {
+  "tag": "a small domino's pizza \u00b7 virginia, feb 2019 \u00b7 famartin \u00b7 cc by-sa 4.0",
+  "sa": true
+ },
+ "valdosta": {
+  "tag": "domino's, valdosta, georgia \u00b7 apr 2013 \u00b7 michael rivera \u00b7 cc by-sa 3.0",
+  "sa": true
+ },
+ "driver07": {
+  "tag": "a domino's delivery car \u00b7 jul 2007 \u00b7 angela2109 \u00b7 public domain",
+  "color": true
+ }
+}

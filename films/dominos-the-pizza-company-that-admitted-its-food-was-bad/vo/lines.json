@@ -1,0 +1,645 @@
+[
+ {
+  "id": "s01_01",
+  "text": "In December 2009, one of America's biggest pizza chains did something almost unthinkable.",
+  "scene": 1,
+  "say": "In December two thousand nine, one of America's biggest pizza chains did something almost unthinkable."
+ },
+ {
+  "id": "s01_02",
+  "text": "It built an advertising campaign around people criticizing its own food.",
+  "scene": 1
+ },
+ {
+  "id": "s01_03",
+  "text": "Customers complained about the crust.",
+  "scene": 1
+ },
+ {
+  "id": "s01_04",
+  "text": "They attacked the sauce.",
+  "scene": 1
+ },
+ {
+  "id": "s01_05",
+  "text": "Some questioned whether the pizza tasted fresh at all.",
+  "scene": 1
+ },
+ {
+  "id": "s01_06",
+  "text": "Instead of hiding those opinions, Domino's put them at the center of its marketing.",
+  "scene": 1
+ },
+ {
+  "id": "s01_07",
+  "text": "Then the company announced that it had changed its pizza recipe.",
+  "scene": 1
+ },
+ {
+  "id": "s01_08",
+  "text": "Within months, domestic same-store sales surged.",
+  "scene": 1
+ },
+ {
+  "id": "s01_09",
+  "text": "How did admitting a product wasn't good enough become part of an extraordinary corporate turnaround?",
+  "scene": 1
+ },
+ {
+  "id": "s02_01",
+  "text": "Domino's began in Michigan in 1960.",
+  "scene": 2,
+  "say": "Domino's began in Michigan in nineteen sixty."
+ },
+ {
+  "id": "s02_02",
+  "text": "Over the following decades, the company built its reputation around convenience, delivery and a repeatable franchise model.",
+  "scene": 2
+ },
+ {
+  "id": "s02_03",
+  "text": "Customers knew what Domino's offered.",
+  "scene": 2
+ },
+ {
+  "id": "s02_04",
+  "text": "Pizza brought directly to their doors, often with an emphasis on speed and consistency.",
+  "scene": 2
+ },
+ {
+  "id": "s02_05",
+  "text": "That operational focus helped the chain expand across the United States and internationally.",
+  "scene": 2
+ },
+ {
+  "id": "s02_06",
+  "text": "But being good at delivery was not the same as being loved for the food itself.",
+  "scene": 2
+ },
+ {
+  "id": "s02_07",
+  "text": "As competitors fought for customers, Domino's faced a difficult question.",
+  "scene": 2
+ },
+ {
+  "id": "s02_08",
+  "text": "Had the company become better known for how pizza arrived than for how it tasted?",
+  "scene": 2
+ },
+ {
+  "id": "s03_01",
+  "text": "By the late 2000s, Domino's had a perception problem.",
+  "scene": 3,
+  "say": "By the late two-thousands, Domino's had a perception problem."
+ },
+ {
+  "id": "s03_02",
+  "text": "Consumer research associated the company with delivery convenience, but its pizza faced criticism for taste and quality.",
+  "scene": 3
+ },
+ {
+  "id": "s03_03",
+  "text": "The broader pizza category was also under pressure.",
+  "scene": 3
+ },
+ {
+  "id": "s03_04",
+  "text": "Customers had more restaurant choices, and competitors were fighting aggressively for their business.",
+  "scene": 3
+ },
+ {
+  "id": "s03_05",
+  "text": "Domino's needed more than another discount.",
+  "scene": 3
+ },
+ {
+  "id": "s03_06",
+  "text": "It needed to give people a reason to reconsider the product.",
+  "scene": 3
+ },
+ {
+  "id": "s03_07",
+  "text": "The challenge was especially difficult because many customers already believed they knew what Domino's pizza tasted like.",
+  "scene": 3
+ },
+ {
+  "id": "s03_08",
+  "text": "Changing that opinion required changing something real.",
+  "scene": 3
+ },
+ {
+  "id": "s04_01",
+  "text": "The company examined customer feedback and confronted comments that were unusually harsh.",
+  "scene": 4
+ },
+ {
+  "id": "s04_02",
+  "text": "Its campaign would later feature complaints about the crust, sauce and overall eating experience.",
+  "scene": 4
+ },
+ {
+  "id": "s04_03",
+  "text": "These were not flattering testimonials selected to make the brand look successful.",
+  "scene": 4
+ },
+ {
+  "id": "s04_04",
+  "text": "They represented the doubts management wanted to overcome.",
+  "scene": 4
+ },
+ {
+  "id": "s04_05",
+  "text": "But Domino's faced a problem familiar to any struggling business.",
+  "scene": 4
+ },
+ {
+  "id": "s04_06",
+  "text": "If a company announces that its product has improved, why should skeptical customers believe it?",
+  "scene": 4
+ },
+ {
+  "id": "s04_07",
+  "text": "The answer would require more than reassuring language.",
+  "scene": 4
+ },
+ {
+  "id": "s04_08",
+  "text": "Management decided to show the criticism and make its response visible.",
+  "scene": 4
+ },
+ {
+  "id": "s05_01",
+  "text": "Domino's made a fundamental choice.",
+  "scene": 5
+ },
+ {
+  "id": "s05_02",
+  "text": "Instead of relying on marketing to improve perceptions of the existing pizza, it reformulated its core hand-tossed product.",
+  "scene": 5
+ },
+ {
+  "id": "s05_03",
+  "text": "The changes included a garlic-seasoned crust, a more robust tomato sauce and a revised shredded-cheese blend.",
+  "scene": 5
+ },
+ {
+  "id": "s05_04",
+  "text": "This was not a limited-time novelty.",
+  "scene": 5
+ },
+ {
+  "id": "s05_05",
+  "text": "The company was changing the pizza at the center of its business.",
+  "scene": 5
+ },
+ {
+  "id": "s05_06",
+  "text": "That meant introducing the new recipe across a large network of stores while maintaining consistency and delivery performance.",
+  "scene": 5
+ },
+ {
+  "id": "s05_07",
+  "text": "The decision was operational as well as creative.",
+  "scene": 5
+ },
+ {
+  "id": "s05_08",
+  "text": "Advertising could promise change.",
+  "scene": 5
+ },
+ {
+  "id": "s05_09",
+  "text": "The kitchens had to deliver it.",
+  "scene": 5
+ },
+ {
+  "id": "s06_01",
+  "text": "Then came the more surprising decision.",
+  "scene": 6
+ },
+ {
+  "id": "s06_02",
+  "text": "Domino's would tell customers why the change had been necessary.",
+  "scene": 6
+ },
+ {
+  "id": "s06_03",
+  "text": "Rather than pretending its previous pizza had always been excellent, the company publicly acknowledged negative feedback.",
+  "scene": 6
+ },
+ {
+  "id": "s06_04",
+  "text": "The campaign turned criticism into evidence that management had listened.",
+  "scene": 6
+ },
+ {
+  "id": "s06_05",
+  "text": "It was risky.",
+  "scene": 6
+ },
+ {
+  "id": "s06_06",
+  "text": "A viewer might remember the complaints and ignore the improvements.",
+  "scene": 6
+ },
+ {
+  "id": "s06_07",
+  "text": "Competitors could benefit from the admission.",
+  "scene": 6
+ },
+ {
+  "id": "s06_08",
+  "text": "But Domino's was betting that honesty, backed by a better product, would be more persuasive than another conventional advertisement claiming great taste.",
+  "scene": 6
+ },
+ {
+  "id": "s07_01",
+  "text": "On December twenty-seventh, 2009, the reformulated pizza became available across Domino's American stores.",
+  "scene": 7,
+  "say": "On December twenty-seventh, two thousand nine, the reformulated pizza became available across Domino's American stores."
+ },
+ {
+  "id": "s07_02",
+  "text": "The Pizza Turnaround campaign brought the product changes to public attention.",
+  "scene": 7
+ },
+ {
+  "id": "s07_03",
+  "text": "Its documentary-style presentation showed company personnel confronting criticism and explaining the new recipe.",
+  "scene": 7
+ },
+ {
+  "id": "s07_04",
+  "text": "The company also created a website dedicated to the turnaround and customer feedback.",
+  "scene": 7
+ },
+ {
+  "id": "s07_05",
+  "text": "The message was direct.",
+  "scene": 7
+ },
+ {
+  "id": "s07_06",
+  "text": "Domino's had heard what people disliked, changed the food and wanted another chance.",
+  "scene": 7
+ },
+ {
+  "id": "s07_07",
+  "text": "It was not asking customers to forget the past.",
+  "scene": 7
+ },
+ {
+  "id": "s07_08",
+  "text": "It was asking them to judge the new product for themselves.",
+  "scene": 7
+ },
+ {
+  "id": "s08_01",
+  "text": "The campaign generated attention, but publicity alone was not the objective.",
+  "scene": 8
+ },
+ {
+  "id": "s08_02",
+  "text": "Domino's needed people to visit, order and try the reformulated pizza.",
+  "scene": 8
+ },
+ {
+  "id": "s08_03",
+  "text": "More importantly, the company needed customers to return after that first purchase.",
+  "scene": 8
+ },
+ {
+  "id": "s08_04",
+  "text": "Management reported encouraging traffic and sales momentum following the launch.",
+  "scene": 8
+ },
+ {
+  "id": "s08_05",
+  "text": "Still, the first weeks could not establish whether the turnaround would last.",
+  "scene": 8
+ },
+ {
+  "id": "s08_06",
+  "text": "A major promotion and a heavily publicized product change can produce temporary excitement.",
+  "scene": 8
+ },
+ {
+  "id": "s08_07",
+  "text": "The more meaningful test would come when the company reported comparable-store sales for the first quarter of 2010.",
+  "scene": 8,
+  "say": "The more meaningful test would come when the company reported comparable-store sales for the first quarter of twenty ten."
+ },
+ {
+  "id": "s09_01",
+  "text": "On May fourth, 2010, Domino's announced its first-quarter results.",
+  "scene": 9,
+  "say": "On May fourth, twenty ten, Domino's announced its first-quarter results."
+ },
+ {
+  "id": "s09_02",
+  "text": "Domestic same-store sales had increased fourteen point three percent compared with the previous year.",
+  "scene": 9
+ },
+ {
+  "id": "s09_03",
+  "text": "Company-owned American stores rose fourteen point seven percent.",
+  "scene": 9
+ },
+ {
+  "id": "s09_04",
+  "text": "Domestic franchise stores increased fourteen point two percent.",
+  "scene": 9
+ },
+ {
+  "id": "s09_05",
+  "text": "The company attributed the overall improvement to increased traffic following the introduction of its new pizza.",
+  "scene": 9
+ },
+ {
+  "id": "s09_06",
+  "text": "The result was extraordinary for an established restaurant chain.",
+  "scene": 9
+ },
+ {
+  "id": "s09_07",
+  "text": "But the number needs to be understood correctly.",
+  "scene": 9
+ },
+ {
+  "id": "s09_08",
+  "text": "It measured sales growth at comparable stores, not a fourteen percent increase in corporate profit.",
+  "scene": 9
+ },
+ {
+  "id": "s10_01",
+  "text": "The campaign challenged a familiar advertising assumption.",
+  "scene": 10
+ },
+ {
+  "id": "s10_02",
+  "text": "Brands usually emphasize strengths and minimize weaknesses.",
+  "scene": 10
+ },
+ {
+  "id": "s10_03",
+  "text": "Domino's did the opposite, using criticism to explain why customers should reconsider its product.",
+  "scene": 10
+ },
+ {
+  "id": "s10_04",
+  "text": "The strategy connected three things.",
+  "scene": 10
+ },
+ {
+  "id": "s10_05",
+  "text": "A recognized problem.",
+  "scene": 10
+ },
+ {
+  "id": "s10_06",
+  "text": "A visible response.",
+  "scene": 10
+ },
+ {
+  "id": "s10_07",
+  "text": "And a specific change customers could experience.",
+  "scene": 10
+ },
+ {
+  "id": "s10_08",
+  "text": "That made the message more credible than a vague promise of improvement.",
+  "scene": 10
+ },
+ {
+  "id": "s10_09",
+  "text": "But the confession would have meant little without the reformulated pizza.",
+  "scene": 10
+ },
+ {
+  "id": "s10_10",
+  "text": "The campaign succeeded as a demonstration of change, not merely as an exercise in self-deprecating humor.",
+  "scene": 10
+ },
+ {
+  "id": "s11_01",
+  "text": "Changing a core product is dangerous because established customers may prefer the original.",
+  "scene": 11
+ },
+ {
+  "id": "s11_02",
+  "text": "A large franchise system also needs consistent ingredients, preparation procedures and product quality.",
+  "scene": 11
+ },
+ {
+  "id": "s11_03",
+  "text": "Domino's had to coordinate its new recipe across thousands of American locations.",
+  "scene": 11
+ },
+ {
+  "id": "s11_04",
+  "text": "Its promise depended on what customers actually received, not just what appeared in advertisements.",
+  "scene": 11
+ },
+ {
+  "id": "s11_05",
+  "text": "A weak execution could have reinforced the criticism the company had amplified.",
+  "scene": 11
+ },
+ {
+  "id": "s11_06",
+  "text": "This is why the decision mattered beyond marketing.",
+  "scene": 11
+ },
+ {
+  "id": "s11_07",
+  "text": "Domino's aligned the product, operations and message around one strategic objective.",
+  "scene": 11
+ },
+ {
+  "id": "s11_08",
+  "text": "Convince customers the pizza itself had improved.",
+  "scene": 11
+ },
+ {
+  "id": "s12_01",
+  "text": "Domino's was also strengthening other parts of its business.",
+  "scene": 12
+ },
+ {
+  "id": "s12_02",
+  "text": "The company had invested in online ordering, technology and a highly developed delivery network.",
+  "scene": 12
+ },
+ {
+  "id": "s12_03",
+  "text": "These capabilities made it easier for interested customers to act on the new campaign.",
+  "scene": 12
+ },
+ {
+  "id": "s12_04",
+  "text": "In 2010, Domino's reported that online orders represented a substantial share of sales, with some stores receiving much higher digital-order volumes than others.",
+  "scene": 12,
+  "say": "In twenty ten, Domino's reported that online orders represented a substantial share of sales, with some stores receiving much higher digital-order volumes than others."
+ },
+ {
+  "id": "s12_05",
+  "text": "The recipe overhaul was therefore not happening in isolation.",
+  "scene": 12
+ },
+ {
+  "id": "s12_06",
+  "text": "Product improvement attracted attention, while the company's ordering and delivery infrastructure helped turn that attention into transactions.",
+  "scene": 12
+ },
+ {
+  "id": "s13_01",
+  "text": "The improvement continued beyond the first quarter.",
+  "scene": 13
+ },
+ {
+  "id": "s13_02",
+  "text": "Domino's reported domestic same-store sales growth of eight point eight percent in the second quarter of 2010 and eleven point seven percent in the third.",
+  "scene": 13,
+  "say": "Domino's reported domestic same-store sales growth of eight point eight percent in the second quarter of twenty ten and eleven point seven percent in the third."
+ },
+ {
+  "id": "s13_03",
+  "text": "These figures suggested that the new product and supporting strategy were producing more than a brief launch-week spike.",
+  "scene": 13
+ },
+ {
+  "id": "s13_04",
+  "text": "They did not prove that the advertising campaign alone caused every additional sale.",
+  "scene": 13
+ },
+ {
+  "id": "s13_05",
+  "text": "Pricing, promotion, customer traffic, operations and broader business conditions also mattered.",
+  "scene": 13
+ },
+ {
+  "id": "s13_06",
+  "text": "But the results showed that the company had achieved a substantial shift in domestic sales momentum.",
+  "scene": 13
+ },
+ {
+  "id": "s14_01",
+  "text": "Domino's later became widely recognized for its digital ordering capabilities, delivery systems and global expansion.",
+  "scene": 14
+ },
+ {
+  "id": "s14_02",
+  "text": "Those achievements developed over years and cannot be credited exclusively to one advertising campaign.",
+  "scene": 14
+ },
+ {
+  "id": "s14_03",
+  "text": "The Pizza Turnaround was an important early chapter because it demonstrated that management was willing to challenge assumptions about the core product.",
+  "scene": 14
+ },
+ {
+  "id": "s14_04",
+  "text": "But the company's longer-term success required sustained investment and execution.",
+  "scene": 14
+ },
+ {
+  "id": "s14_05",
+  "text": "This distinction matters.",
+  "scene": 14
+ },
+ {
+  "id": "s14_06",
+  "text": "A campaign can change the conversation.",
+  "scene": 14
+ },
+ {
+  "id": "s14_07",
+  "text": "A business must keep delivering on the promise long after the advertisements disappear.",
+  "scene": 14
+ },
+ {
+  "id": "s15_01",
+  "text": "The evidence points to four connected decisions.",
+  "scene": 15
+ },
+ {
+  "id": "s15_02",
+  "text": "First, Domino's took customer criticism seriously.",
+  "scene": 15
+ },
+ {
+  "id": "s15_03",
+  "text": "Second, it changed the product rather than merely changing the message.",
+  "scene": 15
+ },
+ {
+  "id": "s15_04",
+  "text": "Third, it made the criticism public, turning skepticism into the foundation of its campaign.",
+  "scene": 15
+ },
+ {
+  "id": "s15_05",
+  "text": "And fourth, it supported the launch through a delivery and ordering system capable of handling renewed demand.",
+  "scene": 15
+ },
+ {
+  "id": "s15_06",
+  "text": "None of these choices alone explains the company's entire future.",
+  "scene": 15
+ },
+ {
+  "id": "s15_07",
+  "text": "Together, they created a credible reason for customers to try Domino's again.",
+  "scene": 15
+ },
+ {
+  "id": "s15_08",
+  "text": "The turnaround began when management stopped defending the old product and committed to improving it.",
+  "scene": 15
+ },
+ {
+  "id": "s16_01",
+  "text": "Domino's made a decision many brands would consider unthinkable.",
+  "scene": 16
+ },
+ {
+  "id": "s16_02",
+  "text": "It publicly admitted that customers had serious problems with its most important product.",
+  "scene": 16
+ },
+ {
+  "id": "s16_03",
+  "text": "But the admission was only the beginning.",
+  "scene": 16
+ },
+ {
+  "id": "s16_04",
+  "text": "The company changed its recipe, showed customers what it had done and gave them a reason to reconsider.",
+  "scene": 16
+ },
+ {
+  "id": "s16_05",
+  "text": "The lesson is not that every brand should advertise its weaknesses.",
+  "scene": 16
+ },
+ {
+  "id": "s16_06",
+  "text": "It is that honesty becomes powerful when it is supported by meaningful action.",
+  "scene": 16
+ },
+ {
+  "id": "s16_07",
+  "text": "Domino's didn't improve simply by saying its pizza was bad.",
+  "scene": 16
+ },
+ {
+  "id": "s16_08",
+  "text": "It improved the pizza and made that decision impossible to ignore.",
+  "scene": 16
+ },
+ {
+  "id": "s16_09",
+  "text": "And every brand leaves evidence.",
+  "scene": 16
+ }
+]

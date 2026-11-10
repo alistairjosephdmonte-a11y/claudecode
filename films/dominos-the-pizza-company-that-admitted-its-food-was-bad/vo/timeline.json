@@ -1,0 +1,1922 @@
+{
+ "total": 675.388,
+ "scenes": [
+  {
+   "i": 1,
+   "base": 0.0,
+   "dur": 42.665,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     2.75
+    ],
+    [
+     4.0,
+     9.481
+    ],
+    [
+     7.0,
+     14.393
+    ],
+    [
+     10.0,
+     17.054
+    ],
+    [
+     13.0,
+     19.046
+    ],
+    [
+     16.0,
+     22.633
+    ],
+    [
+     19.0,
+     27.483
+    ],
+    [
+     22.0,
+     31.643
+    ],
+    [
+     25.0,
+     35.604
+    ],
+    [
+     30.0,
+     42.665
+    ]
+   ]
+  },
+  {
+   "i": 2,
+   "base": 42.665,
+   "dur": 42.014,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     3.777
+    ],
+    [
+     7.75,
+     11.786
+    ],
+    [
+     11.125,
+     14.454
+    ],
+    [
+     14.5,
+     20.393
+    ],
+    [
+     17.875,
+     26.291
+    ],
+    [
+     21.25,
+     31.149
+    ],
+    [
+     24.625,
+     36.084
+    ],
+    [
+     30.0,
+     42.014
+    ]
+   ]
+  },
+  {
+   "i": 3,
+   "base": 84.679,
+   "dur": 40.34,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     4.147
+    ],
+    [
+     7.75,
+     11.616
+    ],
+    [
+     11.125,
+     14.92
+    ],
+    [
+     14.5,
+     20.926
+    ],
+    [
+     17.875,
+     23.747
+    ],
+    [
+     21.25,
+     27.749
+    ],
+    [
+     24.625,
+     34.985
+    ],
+    [
+     30.0,
+     40.34
+    ]
+   ]
+  },
+  {
+   "i": 4,
+   "base": 125.019,
+   "dur": 41.492,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     6.294
+    ],
+    [
+     7.75,
+     12.687
+    ],
+    [
+     11.125,
+     18.055
+    ],
+    [
+     14.5,
+     21.652
+    ],
+    [
+     17.875,
+     26.113
+    ],
+    [
+     21.25,
+     32.266
+    ],
+    [
+     24.625,
+     35.575
+    ],
+    [
+     30.0,
+     41.492
+    ]
+   ]
+  },
+  {
+   "i": 5,
+   "base": 166.511,
+   "dur": 44.245,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     2.971
+    ],
+    [
+     7.0,
+     11.459
+    ],
+    [
+     10.0,
+     19.966
+    ],
+    [
+     13.0,
+     22.801
+    ],
+    [
+     16.0,
+     26.69
+    ],
+    [
+     19.0,
+     34.672
+    ],
+    [
+     22.0,
+     38.42
+    ],
+    [
+     25.0,
+     41.189
+    ],
+    [
+     30.0,
+     44.245
+    ]
+   ]
+  },
+  {
+   "i": 6,
+   "base": 210.756,
+   "dur": 37.257,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     3.235
+    ],
+    [
+     7.75,
+     7.36
+    ],
+    [
+     11.125,
+     14.226
+    ],
+    [
+     14.5,
+     18.608
+    ],
+    [
+     17.875,
+     19.959
+    ],
+    [
+     21.25,
+     24.177
+    ],
+    [
+     24.625,
+     26.999
+    ],
+    [
+     30.0,
+     37.257
+    ]
+   ]
+  },
+  {
+   "i": 7,
+   "base": 248.013,
+   "dur": 42.482,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     8.463
+    ],
+    [
+     7.75,
+     13.019
+    ],
+    [
+     11.125,
+     20.977
+    ],
+    [
+     14.5,
+     26.708
+    ],
+    [
+     17.875,
+     28.806
+    ],
+    [
+     21.25,
+     34.024
+    ],
+    [
+     24.625,
+     37.782
+    ],
+    [
+     30.0,
+     42.482
+    ]
+   ]
+  },
+  {
+   "i": 8,
+   "base": 290.495,
+   "dur": 41.08,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     5.908
+    ],
+    [
+     8.714285714285715,
+     11.111
+    ],
+    [
+     12.571428571428571,
+     16.228
+    ],
+    [
+     16.42857142857143,
+     21.48
+    ],
+    [
+     20.285714285714285,
+     26.912
+    ],
+    [
+     24.142857142857142,
+     33.237
+    ],
+    [
+     30.0,
+     41.08
+    ]
+   ]
+  },
+  {
+   "i": 9,
+   "base": 331.575,
+   "dur": 41.971,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     5.615
+    ],
+    [
+     7.75,
+     11.876
+    ],
+    [
+     11.125,
+     16.259
+    ],
+    [
+     14.5,
+     20.444
+    ],
+    [
+     17.875,
+     27.538
+    ],
+    [
+     21.25,
+     31.833
+    ],
+    [
+     24.625,
+     35.057
+    ],
+    [
+     30.0,
+     41.971
+    ]
+   ]
+  },
+  {
+   "i": 10,
+   "base": 373.546,
+   "dur": 43.304,
+   "n": 10,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.7,
+     4.224
+    ],
+    [
+     6.4,
+     8.775
+    ],
+    [
+     9.1,
+     15.301
+    ],
+    [
+     11.8,
+     17.837
+    ],
+    [
+     14.5,
+     19.851
+    ],
+    [
+     17.2,
+     21.843
+    ],
+    [
+     19.9,
+     25.75
+    ],
+    [
+     22.6,
+     30.459
+    ],
+    [
+     25.3,
+     35.015
+    ],
+    [
+     30.0,
+     43.304
+    ]
+   ]
+  },
+  {
+   "i": 11,
+   "base": 416.85,
+   "dur": 46.362,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     6.351
+    ],
+    [
+     7.75,
+     13.349
+    ],
+    [
+     11.125,
+     19.061
+    ],
+    [
+     14.5,
+     26.161
+    ],
+    [
+     17.875,
+     31.596
+    ],
+    [
+     21.25,
+     35.083
+    ],
+    [
+     24.625,
+     41.541
+    ],
+    [
+     30.0,
+     46.362
+    ]
+   ]
+  },
+  {
+   "i": 12,
+   "base": 463.212,
+   "dur": 41.631,
+   "n": 6,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     5.5,
+     4.23
+    ],
+    [
+     10.0,
+     10.614
+    ],
+    [
+     14.5,
+     16.219
+    ],
+    [
+     19.0,
+     27.639
+    ],
+    [
+     23.5,
+     31.979
+    ],
+    [
+     30.0,
+     41.631
+    ]
+   ]
+  },
+  {
+   "i": 13,
+   "base": 504.843,
+   "dur": 40.801,
+   "n": 6,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     5.5,
+     3.455
+    ],
+    [
+     10.0,
+     13.338
+    ],
+    [
+     14.5,
+     21.297
+    ],
+    [
+     19.0,
+     26.709
+    ],
+    [
+     23.5,
+     33.67
+    ],
+    [
+     30.0,
+     40.801
+    ]
+   ]
+  },
+  {
+   "i": 14,
+   "base": 545.644,
+   "dur": 41.744,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     8.609
+    ],
+    [
+     8.714285714285715,
+     15.695
+    ],
+    [
+     12.571428571428571,
+     24.444
+    ],
+    [
+     16.42857142857143,
+     30.274
+    ],
+    [
+     20.285714285714285,
+     32.395
+    ],
+    [
+     24.142857142857142,
+     35.19
+    ],
+    [
+     30.0,
+     41.744
+    ]
+   ]
+  },
+  {
+   "i": 15,
+   "base": 587.388,
+   "dur": 41.968,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     3.739
+    ],
+    [
+     7.75,
+     7.78
+    ],
+    [
+     11.125,
+     12.514
+    ],
+    [
+     14.5,
+     18.541
+    ],
+    [
+     17.875,
+     25.362
+    ],
+    [
+     21.25,
+     29.806
+    ],
+    [
+     24.625,
+     35.069
+    ],
+    [
+     30.0,
+     41.968
+    ]
+   ]
+  },
+  {
+   "i": 16,
+   "base": 629.356,
+   "dur": 46.032,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     4.721
+    ],
+    [
+     7.0,
+     10.154
+    ],
+    [
+     10.0,
+     12.661
+    ],
+    [
+     13.0,
+     19.567
+    ],
+    [
+     16.0,
+     24.125
+    ],
+    [
+     19.0,
+     29.147
+    ],
+    [
+     22.0,
+     33.443
+    ],
+    [
+     25.0,
+     38.225
+    ],
+    [
+     30.0,
+     46.032
+    ]
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "s01_01",
+   "text": "In December 2009, one of America's biggest pizza chains did something almost unthinkable.",
+   "scene": 1,
+   "say": "In December two thousand nine, one of America's biggest pizza chains did something almost unthinkable.",
+   "t": 3.0,
+   "local": 3.0,
+   "dur": 6.281,
+   "trim": 0.127
+  },
+  {
+   "id": "s01_02",
+   "text": "It built an advertising campaign around people criticizing its own food.",
+   "scene": 1,
+   "t": 9.731,
+   "local": 9.731,
+   "dur": 4.463,
+   "trim": 0.217
+  },
+  {
+   "id": "s01_03",
+   "text": "Customers complained about the crust.",
+   "scene": 1,
+   "t": 14.643,
+   "local": 14.643,
+   "dur": 2.211,
+   "trim": 0.169
+  },
+  {
+   "id": "s01_04",
+   "text": "They attacked the sauce.",
+   "scene": 1,
+   "t": 17.304,
+   "local": 17.304,
+   "dur": 1.542,
+   "trim": 0.166
+  },
+  {
+   "id": "s01_05",
+   "text": "Some questioned whether the pizza tasted fresh at all.",
+   "scene": 1,
+   "t": 19.296,
+   "local": 19.296,
+   "dur": 3.137,
+   "trim": 0.121
+  },
+  {
+   "id": "s01_06",
+   "text": "Instead of hiding those opinions, Domino's put them at the center of its marketing.",
+   "scene": 1,
+   "t": 22.883,
+   "local": 22.883,
+   "dur": 4.4,
+   "trim": 0.191
+  },
+  {
+   "id": "s01_07",
+   "text": "Then the company announced that it had changed its pizza recipe.",
+   "scene": 1,
+   "t": 27.733,
+   "local": 27.733,
+   "dur": 3.711,
+   "trim": 0.152
+  },
+  {
+   "id": "s01_08",
+   "text": "Within months, domestic same-store sales surged.",
+   "scene": 1,
+   "t": 31.893,
+   "local": 31.893,
+   "dur": 3.511,
+   "trim": 0.132
+  },
+  {
+   "id": "s01_09",
+   "text": "How did admitting a product wasn't good enough become part of an extraordinary corporate turnaround?",
+   "scene": 1,
+   "t": 35.854,
+   "local": 35.854,
+   "dur": 5.711,
+   "trim": 0.187
+  },
+  {
+   "id": "s02_01",
+   "text": "Domino's began in Michigan in 1960.",
+   "scene": 2,
+   "say": "Domino's began in Michigan in nineteen sixty.",
+   "t": 43.265,
+   "local": 0.6,
+   "dur": 2.977,
+   "trim": 0.153
+  },
+  {
+   "id": "s02_02",
+   "text": "Over the following decades, the company built its reputation around convenience, delivery and a repeatable franchise model.",
+   "scene": 2,
+   "t": 46.692,
+   "local": 4.027,
+   "dur": 7.558,
+   "trim": 0.17
+  },
+  {
+   "id": "s02_03",
+   "text": "Customers knew what Domino's offered.",
+   "scene": 2,
+   "t": 54.701,
+   "local": 12.036,
+   "dur": 2.218,
+   "trim": 0.117
+  },
+  {
+   "id": "s02_04",
+   "text": "Pizza brought directly to their doors, often with an emphasis on speed and consistency.",
+   "scene": 2,
+   "t": 57.369,
+   "local": 14.704,
+   "dur": 5.489,
+   "trim": 0.129
+  },
+  {
+   "id": "s02_05",
+   "text": "That operational focus helped the chain expand across the United States and internationally.",
+   "scene": 2,
+   "t": 63.308,
+   "local": 20.643,
+   "dur": 5.448,
+   "trim": 0.226
+  },
+  {
+   "id": "s02_06",
+   "text": "But being good at delivery was not the same as being loved for the food itself.",
+   "scene": 2,
+   "t": 69.206,
+   "local": 26.541,
+   "dur": 4.408,
+   "trim": 0.176
+  },
+  {
+   "id": "s02_07",
+   "text": "As competitors fought for customers, Domino's faced a difficult question.",
+   "scene": 2,
+   "t": 74.064,
+   "local": 31.399,
+   "dur": 4.485,
+   "trim": 0.213
+  },
+  {
+   "id": "s02_08",
+   "text": "Had the company become better known for how pizza arrived than for how it tasted?",
+   "scene": 2,
+   "t": 78.999,
+   "local": 36.334,
+   "dur": 4.58,
+   "trim": 0.21
+  },
+  {
+   "id": "s03_01",
+   "text": "By the late 2000s, Domino's had a perception problem.",
+   "scene": 3,
+   "say": "By the late two-thousands, Domino's had a perception problem.",
+   "t": 85.279,
+   "local": 0.6,
+   "dur": 3.347,
+   "trim": 0.191
+  },
+  {
+   "id": "s03_02",
+   "text": "Consumer research associated the company with delivery convenience, but its pizza faced criticism for taste and quality.",
+   "scene": 3,
+   "t": 89.076,
+   "local": 4.397,
+   "dur": 7.019,
+   "trim": 0.117
+  },
+  {
+   "id": "s03_03",
+   "text": "The broader pizza category was also under pressure.",
+   "scene": 3,
+   "t": 96.545,
+   "local": 11.866,
+   "dur": 2.854,
+   "trim": 0.198
+  },
+  {
+   "id": "s03_04",
+   "text": "Customers had more restaurant choices, and competitors were fighting aggressively for their business.",
+   "scene": 3,
+   "t": 99.849,
+   "local": 15.17,
+   "dur": 5.557,
+   "trim": 0.121
+  },
+  {
+   "id": "s03_05",
+   "text": "Domino's needed more than another discount.",
+   "scene": 3,
+   "t": 105.856,
+   "local": 21.176,
+   "dur": 2.371,
+   "trim": 0.124
+  },
+  {
+   "id": "s03_06",
+   "text": "It needed to give people a reason to reconsider the product.",
+   "scene": 3,
+   "t": 108.676,
+   "local": 23.997,
+   "dur": 3.552,
+   "trim": 0.228
+  },
+  {
+   "id": "s03_07",
+   "text": "The challenge was especially difficult because many customers already believed they knew what Domino's pizza tasted like.",
+   "scene": 3,
+   "t": 112.678,
+   "local": 27.999,
+   "dur": 6.786,
+   "trim": 0.147
+  },
+  {
+   "id": "s03_08",
+   "text": "Changing that opinion required changing something real.",
+   "scene": 3,
+   "t": 119.914,
+   "local": 35.235,
+   "dur": 4.005,
+   "trim": 0.143
+  },
+  {
+   "id": "s04_01",
+   "text": "The company examined customer feedback and confronted comments that were unusually harsh.",
+   "scene": 4,
+   "t": 125.619,
+   "local": 0.6,
+   "dur": 5.494,
+   "trim": 0.206
+  },
+  {
+   "id": "s04_02",
+   "text": "Its campaign would later feature complaints about the crust, sauce and overall eating experience.",
+   "scene": 4,
+   "t": 131.563,
+   "local": 6.544,
+   "dur": 5.943,
+   "trim": 0.191
+  },
+  {
+   "id": "s04_03",
+   "text": "These were not flattering testimonials selected to make the brand look successful.",
+   "scene": 4,
+   "t": 137.956,
+   "local": 12.937,
+   "dur": 4.918,
+   "trim": 0.189
+  },
+  {
+   "id": "s04_04",
+   "text": "They represented the doubts management wanted to overcome.",
+   "scene": 4,
+   "t": 143.324,
+   "local": 18.305,
+   "dur": 3.147,
+   "trim": 0.183
+  },
+  {
+   "id": "s04_05",
+   "text": "But Domino's faced a problem familiar to any struggling business.",
+   "scene": 4,
+   "t": 146.921,
+   "local": 21.902,
+   "dur": 4.011,
+   "trim": 0.207
+  },
+  {
+   "id": "s04_06",
+   "text": "If a company announces that its product has improved, why should skeptical customers believe it?",
+   "scene": 4,
+   "t": 151.382,
+   "local": 26.363,
+   "dur": 5.703,
+   "trim": 0.213
+  },
+  {
+   "id": "s04_07",
+   "text": "The answer would require more than reassuring language.",
+   "scene": 4,
+   "t": 157.535,
+   "local": 32.516,
+   "dur": 2.859,
+   "trim": 0.101
+  },
+  {
+   "id": "s04_08",
+   "text": "Management decided to show the criticism and make its response visible.",
+   "scene": 4,
+   "t": 160.844,
+   "local": 35.825,
+   "dur": 4.567,
+   "trim": 0.184
+  },
+  {
+   "id": "s05_01",
+   "text": "Domino's made a fundamental choice.",
+   "scene": 5,
+   "t": 167.111,
+   "local": 0.6,
+   "dur": 2.171,
+   "trim": 0.212
+  },
+  {
+   "id": "s05_02",
+   "text": "Instead of relying on marketing to improve perceptions of the existing pizza, it reformulated its core hand-tossed product.",
+   "scene": 5,
+   "t": 169.732,
+   "local": 3.221,
+   "dur": 8.038,
+   "trim": 0.193
+  },
+  {
+   "id": "s05_03",
+   "text": "The changes included a garlic-seasoned crust, a more robust tomato sauce and a revised shredded-cheese blend.",
+   "scene": 5,
+   "t": 178.22,
+   "local": 11.709,
+   "dur": 8.057,
+   "trim": 0.159
+  },
+  {
+   "id": "s05_04",
+   "text": "This was not a limited-time novelty.",
+   "scene": 5,
+   "t": 186.727,
+   "local": 20.216,
+   "dur": 2.384,
+   "trim": 0.098
+  },
+  {
+   "id": "s05_05",
+   "text": "The company was changing the pizza at the center of its business.",
+   "scene": 5,
+   "t": 189.562,
+   "local": 23.051,
+   "dur": 3.439,
+   "trim": 0.177
+  },
+  {
+   "id": "s05_06",
+   "text": "That meant introducing the new recipe across a large network of stores while maintaining consistency and delivery performance.",
+   "scene": 5,
+   "t": 193.451,
+   "local": 26.94,
+   "dur": 7.532,
+   "trim": 0.164
+  },
+  {
+   "id": "s05_07",
+   "text": "The decision was operational as well as creative.",
+   "scene": 5,
+   "t": 201.433,
+   "local": 34.922,
+   "dur": 3.298,
+   "trim": 0.118
+  },
+  {
+   "id": "s05_08",
+   "text": "Advertising could promise change.",
+   "scene": 5,
+   "t": 205.181,
+   "local": 38.67,
+   "dur": 2.318,
+   "trim": 0.101
+  },
+  {
+   "id": "s05_09",
+   "text": "The kitchens had to deliver it.",
+   "scene": 5,
+   "t": 207.95,
+   "local": 41.439,
+   "dur": 1.707,
+   "trim": 0.123
+  },
+  {
+   "id": "s06_01",
+   "text": "Then came the more surprising decision.",
+   "scene": 6,
+   "t": 211.356,
+   "local": 0.6,
+   "dur": 2.435,
+   "trim": 0.186
+  },
+  {
+   "id": "s06_02",
+   "text": "Domino's would tell customers why the change had been necessary.",
+   "scene": 6,
+   "t": 214.241,
+   "local": 3.485,
+   "dur": 3.675,
+   "trim": 0.175
+  },
+  {
+   "id": "s06_03",
+   "text": "Rather than pretending its previous pizza had always been excellent, the company publicly acknowledged negative feedback.",
+   "scene": 6,
+   "t": 218.366,
+   "local": 7.61,
+   "dur": 6.416,
+   "trim": 0.161
+  },
+  {
+   "id": "s06_04",
+   "text": "The campaign turned criticism into evidence that management had listened.",
+   "scene": 6,
+   "t": 225.232,
+   "local": 14.476,
+   "dur": 3.931,
+   "trim": 0.215
+  },
+  {
+   "id": "s06_05",
+   "text": "It was risky.",
+   "scene": 6,
+   "t": 229.614,
+   "local": 18.858,
+   "dur": 0.901,
+   "trim": 0.126
+  },
+  {
+   "id": "s06_06",
+   "text": "A viewer might remember the complaints and ignore the improvements.",
+   "scene": 6,
+   "t": 230.965,
+   "local": 20.209,
+   "dur": 3.768,
+   "trim": 0.181
+  },
+  {
+   "id": "s06_07",
+   "text": "Competitors could benefit from the admission.",
+   "scene": 6,
+   "t": 235.183,
+   "local": 24.427,
+   "dur": 2.372,
+   "trim": 0.178
+  },
+  {
+   "id": "s06_08",
+   "text": "But Domino's was betting that honesty, backed by a better product, would be more persuasive than another conventional advertisement claiming great taste.",
+   "scene": 6,
+   "t": 238.005,
+   "local": 27.249,
+   "dur": 8.908,
+   "trim": 0.188
+  },
+  {
+   "id": "s07_01",
+   "text": "On December twenty-seventh, 2009, the reformulated pizza became available across Domino's American stores.",
+   "scene": 7,
+   "say": "On December twenty-seventh, two thousand nine, the reformulated pizza became available across Domino's American stores.",
+   "t": 248.613,
+   "local": 0.6,
+   "dur": 7.663,
+   "trim": 0.193
+  },
+  {
+   "id": "s07_02",
+   "text": "The Pizza Turnaround campaign brought the product changes to public attention.",
+   "scene": 7,
+   "t": 256.726,
+   "local": 8.713,
+   "dur": 4.106,
+   "trim": 0.178
+  },
+  {
+   "id": "s07_03",
+   "text": "Its documentary-style presentation showed company personnel confronting criticism and explaining the new recipe.",
+   "scene": 7,
+   "t": 261.282,
+   "local": 13.269,
+   "dur": 7.508,
+   "trim": 0.193
+  },
+  {
+   "id": "s07_04",
+   "text": "The company also created a website dedicated to the turnaround and customer feedback.",
+   "scene": 7,
+   "t": 269.24,
+   "local": 21.227,
+   "dur": 5.281,
+   "trim": 0.213
+  },
+  {
+   "id": "s07_05",
+   "text": "The message was direct.",
+   "scene": 7,
+   "t": 274.972,
+   "local": 26.958,
+   "dur": 1.648,
+   "trim": 0.185
+  },
+  {
+   "id": "s07_06",
+   "text": "Domino's had heard what people disliked, changed the food and wanted another chance.",
+   "scene": 7,
+   "t": 277.069,
+   "local": 29.056,
+   "dur": 4.768,
+   "trim": 0.168
+  },
+  {
+   "id": "s07_07",
+   "text": "It was not asking customers to forget the past.",
+   "scene": 7,
+   "t": 282.287,
+   "local": 34.274,
+   "dur": 3.308,
+   "trim": 0.214
+  },
+  {
+   "id": "s07_08",
+   "text": "It was asking them to judge the new product for themselves.",
+   "scene": 7,
+   "t": 286.045,
+   "local": 38.032,
+   "dur": 3.35,
+   "trim": 0.186
+  },
+  {
+   "id": "s08_01",
+   "text": "The campaign generated attention, but publicity alone was not the objective.",
+   "scene": 8,
+   "t": 291.095,
+   "local": 0.6,
+   "dur": 5.108,
+   "trim": 0.179
+  },
+  {
+   "id": "s08_02",
+   "text": "Domino's needed people to visit, order and try the reformulated pizza.",
+   "scene": 8,
+   "t": 296.653,
+   "local": 6.158,
+   "dur": 4.753,
+   "trim": 0.091
+  },
+  {
+   "id": "s08_03",
+   "text": "More importantly, the company needed customers to return after that first purchase.",
+   "scene": 8,
+   "t": 301.856,
+   "local": 11.361,
+   "dur": 4.667,
+   "trim": 0.19
+  },
+  {
+   "id": "s08_04",
+   "text": "Management reported encouraging traffic and sales momentum following the launch.",
+   "scene": 8,
+   "t": 306.973,
+   "local": 16.478,
+   "dur": 4.802,
+   "trim": 0.184
+  },
+  {
+   "id": "s08_05",
+   "text": "Still, the first weeks could not establish whether the turnaround would last.",
+   "scene": 8,
+   "t": 312.225,
+   "local": 21.73,
+   "dur": 4.982,
+   "trim": 0.132
+  },
+  {
+   "id": "s08_06",
+   "text": "A major promotion and a heavily publicized product change can produce temporary excitement.",
+   "scene": 8,
+   "t": 317.657,
+   "local": 27.162,
+   "dur": 5.875,
+   "trim": 0.187
+  },
+  {
+   "id": "s08_07",
+   "text": "The more meaningful test would come when the company reported comparable-store sales for the first quarter of 2010.",
+   "scene": 8,
+   "say": "The more meaningful test would come when the company reported comparable-store sales for the first quarter of twenty ten.",
+   "t": 323.982,
+   "local": 33.487,
+   "dur": 6.494,
+   "trim": 0.217
+  },
+  {
+   "id": "s09_01",
+   "text": "On May fourth, 2010, Domino's announced its first-quarter results.",
+   "scene": 9,
+   "say": "On May fourth, twenty ten, Domino's announced its first-quarter results.",
+   "t": 332.175,
+   "local": 0.6,
+   "dur": 4.815,
+   "trim": 0.212
+  },
+  {
+   "id": "s09_02",
+   "text": "Domestic same-store sales had increased fourteen point three percent compared with the previous year.",
+   "scene": 9,
+   "t": 337.44,
+   "local": 5.865,
+   "dur": 5.811,
+   "trim": 0.189
+  },
+  {
+   "id": "s09_03",
+   "text": "Company-owned American stores rose fourteen point seven percent.",
+   "scene": 9,
+   "t": 343.701,
+   "local": 12.126,
+   "dur": 3.933,
+   "trim": 0.216
+  },
+  {
+   "id": "s09_04",
+   "text": "Domestic franchise stores increased fourteen point two percent.",
+   "scene": 9,
+   "t": 348.084,
+   "local": 16.509,
+   "dur": 3.735,
+   "trim": 0.229
+  },
+  {
+   "id": "s09_05",
+   "text": "The company attributed the overall improvement to increased traffic following the introduction of its new pizza.",
+   "scene": 9,
+   "t": 352.269,
+   "local": 20.694,
+   "dur": 6.644,
+   "trim": 0.185
+  },
+  {
+   "id": "s09_06",
+   "text": "The result was extraordinary for an established restaurant chain.",
+   "scene": 9,
+   "t": 359.363,
+   "local": 27.788,
+   "dur": 3.845,
+   "trim": 0.203
+  },
+  {
+   "id": "s09_07",
+   "text": "But the number needs to be understood correctly.",
+   "scene": 9,
+   "t": 363.658,
+   "local": 32.083,
+   "dur": 2.774,
+   "trim": 0.156
+  },
+  {
+   "id": "s09_08",
+   "text": "It measured sales growth at comparable stores, not a fourteen percent increase in corporate profit.",
+   "scene": 9,
+   "t": 366.882,
+   "local": 35.307,
+   "dur": 5.564,
+   "trim": 0.189
+  },
+  {
+   "id": "s10_01",
+   "text": "The campaign challenged a familiar advertising assumption.",
+   "scene": 10,
+   "t": 374.146,
+   "local": 0.6,
+   "dur": 3.424,
+   "trim": 0.181
+  },
+  {
+   "id": "s10_02",
+   "text": "Brands usually emphasize strengths and minimize weaknesses.",
+   "scene": 10,
+   "t": 378.02,
+   "local": 4.474,
+   "dur": 4.101,
+   "trim": 0.118
+  },
+  {
+   "id": "s10_03",
+   "text": "Domino's did the opposite, using criticism to explain why customers should reconsider its product.",
+   "scene": 10,
+   "t": 382.571,
+   "local": 9.025,
+   "dur": 6.076,
+   "trim": 0.199
+  },
+  {
+   "id": "s10_04",
+   "text": "The strategy connected three things.",
+   "scene": 10,
+   "t": 389.097,
+   "local": 15.551,
+   "dur": 2.085,
+   "trim": 0.177
+  },
+  {
+   "id": "s10_05",
+   "text": "A recognized problem.",
+   "scene": 10,
+   "t": 391.633,
+   "local": 18.087,
+   "dur": 1.565,
+   "trim": 0.165
+  },
+  {
+   "id": "s10_06",
+   "text": "A visible response.",
+   "scene": 10,
+   "t": 393.647,
+   "local": 20.101,
+   "dur": 1.542,
+   "trim": 0.075
+  },
+  {
+   "id": "s10_07",
+   "text": "And a specific change customers could experience.",
+   "scene": 10,
+   "t": 395.639,
+   "local": 22.093,
+   "dur": 3.456,
+   "trim": 0.087
+  },
+  {
+   "id": "s10_08",
+   "text": "That made the message more credible than a vague promise of improvement.",
+   "scene": 10,
+   "t": 399.546,
+   "local": 26.0,
+   "dur": 4.259,
+   "trim": 0.207
+  },
+  {
+   "id": "s10_09",
+   "text": "But the confession would have meant little without the reformulated pizza.",
+   "scene": 10,
+   "t": 404.255,
+   "local": 30.709,
+   "dur": 4.106,
+   "trim": 0.199
+  },
+  {
+   "id": "s10_10",
+   "text": "The campaign succeeded as a demonstration of change, not merely as an exercise in self-deprecating humor.",
+   "scene": 10,
+   "t": 408.81,
+   "local": 35.265,
+   "dur": 6.94,
+   "trim": 0.197
+  },
+  {
+   "id": "s11_01",
+   "text": "Changing a core product is dangerous because established customers may prefer the original.",
+   "scene": 11,
+   "t": 417.45,
+   "local": 0.6,
+   "dur": 5.551,
+   "trim": 0.225
+  },
+  {
+   "id": "s11_02",
+   "text": "A large franchise system also needs consistent ingredients, preparation procedures and product quality.",
+   "scene": 11,
+   "t": 423.451,
+   "local": 6.601,
+   "dur": 6.548,
+   "trim": 0.222
+  },
+  {
+   "id": "s11_03",
+   "text": "Domino's had to coordinate its new recipe across thousands of American locations.",
+   "scene": 11,
+   "t": 430.449,
+   "local": 13.599,
+   "dur": 5.261,
+   "trim": 0.228
+  },
+  {
+   "id": "s11_04",
+   "text": "Its promise depended on what customers actually received, not just what appeared in advertisements.",
+   "scene": 11,
+   "t": 436.161,
+   "local": 19.311,
+   "dur": 6.65,
+   "trim": 0.207
+  },
+  {
+   "id": "s11_05",
+   "text": "A weak execution could have reinforced the criticism the company had amplified.",
+   "scene": 11,
+   "t": 443.261,
+   "local": 26.411,
+   "dur": 4.986,
+   "trim": 0.091
+  },
+  {
+   "id": "s11_06",
+   "text": "This is why the decision mattered beyond marketing.",
+   "scene": 11,
+   "t": 448.696,
+   "local": 31.846,
+   "dur": 3.036,
+   "trim": 0.099
+  },
+  {
+   "id": "s11_07",
+   "text": "Domino's aligned the product, operations and message around one strategic objective.",
+   "scene": 11,
+   "t": 452.183,
+   "local": 35.333,
+   "dur": 6.008,
+   "trim": 0.133
+  },
+  {
+   "id": "s11_08",
+   "text": "Convince customers the pizza itself had improved.",
+   "scene": 11,
+   "t": 458.641,
+   "local": 41.791,
+   "dur": 3.471,
+   "trim": 0.214
+  },
+  {
+   "id": "s12_01",
+   "text": "Domino's was also strengthening other parts of its business.",
+   "scene": 12,
+   "t": 463.812,
+   "local": 0.6,
+   "dur": 3.43,
+   "trim": 0.177
+  },
+  {
+   "id": "s12_02",
+   "text": "The company had invested in online ordering, technology and a highly developed delivery network.",
+   "scene": 12,
+   "t": 467.692,
+   "local": 4.48,
+   "dur": 5.934,
+   "trim": 0.219
+  },
+  {
+   "id": "s12_03",
+   "text": "These capabilities made it easier for interested customers to act on the new campaign.",
+   "scene": 12,
+   "t": 474.076,
+   "local": 10.864,
+   "dur": 5.155,
+   "trim": 0.192
+  },
+  {
+   "id": "s12_04",
+   "text": "In 2010, Domino's reported that online orders represented a substantial share of sales, with some stores receiving much higher digital-order volumes than others.",
+   "scene": 12,
+   "say": "In twenty ten, Domino's reported that online orders represented a substantial share of sales, with some stores receiving much higher digital-order volumes than others.",
+   "t": 479.681,
+   "local": 16.469,
+   "dur": 10.971,
+   "trim": 0.166
+  },
+  {
+   "id": "s12_05",
+   "text": "The recipe overhaul was therefore not happening in isolation.",
+   "scene": 12,
+   "t": 491.101,
+   "local": 27.889,
+   "dur": 3.89,
+   "trim": 0.205
+  },
+  {
+   "id": "s12_06",
+   "text": "Product improvement attracted attention, while the company's ordering and delivery infrastructure helped turn that attention into transactions.",
+   "scene": 12,
+   "t": 495.441,
+   "local": 32.229,
+   "dur": 8.302,
+   "trim": 0.176
+  },
+  {
+   "id": "s13_01",
+   "text": "The improvement continued beyond the first quarter.",
+   "scene": 13,
+   "t": 505.443,
+   "local": 0.6,
+   "dur": 2.655,
+   "trim": 0.179
+  },
+  {
+   "id": "s13_02",
+   "text": "Domino's reported domestic same-store sales growth of eight point eight percent in the second quarter of 2010 and eleven point seven percent in the third.",
+   "scene": 13,
+   "say": "Domino's reported domestic same-store sales growth of eight point eight percent in the second quarter of twenty ten and eleven point seven percent in the third.",
+   "t": 508.548,
+   "local": 3.705,
+   "dur": 9.432,
+   "trim": 0.214
+  },
+  {
+   "id": "s13_03",
+   "text": "These figures suggested that the new product and supporting strategy were producing more than a brief launch-week spike.",
+   "scene": 13,
+   "t": 518.431,
+   "local": 13.588,
+   "dur": 7.509,
+   "trim": 0.185
+  },
+  {
+   "id": "s13_04",
+   "text": "They did not prove that the advertising campaign alone caused every additional sale.",
+   "scene": 13,
+   "t": 526.39,
+   "local": 21.547,
+   "dur": 4.962,
+   "trim": 0.171
+  },
+  {
+   "id": "s13_05",
+   "text": "Pricing, promotion, customer traffic, operations and broader business conditions also mattered.",
+   "scene": 13,
+   "t": 531.802,
+   "local": 26.959,
+   "dur": 6.51,
+   "trim": 0.202
+  },
+  {
+   "id": "s13_06",
+   "text": "But the results showed that the company had achieved a substantial shift in domestic sales momentum.",
+   "scene": 13,
+   "t": 538.763,
+   "local": 33.92,
+   "dur": 5.781,
+   "trim": 0.134
+  },
+  {
+   "id": "s14_01",
+   "text": "Domino's later became widely recognized for its digital ordering capabilities, delivery systems and global expansion.",
+   "scene": 14,
+   "t": 546.244,
+   "local": 0.6,
+   "dur": 7.809,
+   "trim": 0.176
+  },
+  {
+   "id": "s14_02",
+   "text": "Those achievements developed over years and cannot be credited exclusively to one advertising campaign.",
+   "scene": 14,
+   "t": 554.503,
+   "local": 8.859,
+   "dur": 6.636,
+   "trim": 0.232
+  },
+  {
+   "id": "s14_03",
+   "text": "The Pizza Turnaround was an important early chapter because it demonstrated that management was willing to challenge assumptions about the core product.",
+   "scene": 14,
+   "t": 561.589,
+   "local": 15.945,
+   "dur": 8.299,
+   "trim": 0.22
+  },
+  {
+   "id": "s14_04",
+   "text": "But the company's longer-term success required sustained investment and execution.",
+   "scene": 14,
+   "t": 570.338,
+   "local": 24.694,
+   "dur": 5.38,
+   "trim": 0.18
+  },
+  {
+   "id": "s14_05",
+   "text": "This distinction matters.",
+   "scene": 14,
+   "t": 576.168,
+   "local": 30.524,
+   "dur": 1.671,
+   "trim": 0.194
+  },
+  {
+   "id": "s14_06",
+   "text": "A campaign can change the conversation.",
+   "scene": 14,
+   "t": 578.289,
+   "local": 32.645,
+   "dur": 2.345,
+   "trim": 0.181
+  },
+  {
+   "id": "s14_07",
+   "text": "A business must keep delivering on the promise long after the advertisements disappear.",
+   "scene": 14,
+   "t": 581.084,
+   "local": 35.44,
+   "dur": 5.203,
+   "trim": 0.181
+  },
+  {
+   "id": "s15_01",
+   "text": "The evidence points to four connected decisions.",
+   "scene": 15,
+   "t": 587.988,
+   "local": 0.6,
+   "dur": 2.939,
+   "trim": 0.204
+  },
+  {
+   "id": "s15_02",
+   "text": "First, Domino's took customer criticism seriously.",
+   "scene": 15,
+   "t": 591.377,
+   "local": 3.989,
+   "dur": 3.591,
+   "trim": 0.196
+  },
+  {
+   "id": "s15_03",
+   "text": "Second, it changed the product rather than merely changing the message.",
+   "scene": 15,
+   "t": 595.418,
+   "local": 8.03,
+   "dur": 4.283,
+   "trim": 0.156
+  },
+  {
+   "id": "s15_04",
+   "text": "Third, it made the criticism public, turning skepticism into the foundation of its campaign.",
+   "scene": 15,
+   "t": 600.152,
+   "local": 12.764,
+   "dur": 5.577,
+   "trim": 0.153
+  },
+  {
+   "id": "s15_05",
+   "text": "And fourth, it supported the launch through a delivery and ordering system capable of handling renewed demand.",
+   "scene": 15,
+   "t": 606.179,
+   "local": 18.791,
+   "dur": 6.371,
+   "trim": 0.204
+  },
+  {
+   "id": "s15_06",
+   "text": "None of these choices alone explains the company's entire future.",
+   "scene": 15,
+   "t": 613.0,
+   "local": 25.612,
+   "dur": 3.993,
+   "trim": 0.168
+  },
+  {
+   "id": "s15_07",
+   "text": "Together, they created a credible reason for customers to try Domino's again.",
+   "scene": 15,
+   "t": 617.444,
+   "local": 30.056,
+   "dur": 4.814,
+   "trim": 0.143
+  },
+  {
+   "id": "s15_08",
+   "text": "The turnaround began when management stopped defending the old product and committed to improving it.",
+   "scene": 15,
+   "t": 622.707,
+   "local": 35.319,
+   "dur": 5.548,
+   "trim": 0.198
+  },
+  {
+   "id": "s16_01",
+   "text": "Domino's made a decision many brands would consider unthinkable.",
+   "scene": 16,
+   "t": 629.956,
+   "local": 0.6,
+   "dur": 3.921,
+   "trim": 0.203
+  },
+  {
+   "id": "s16_02",
+   "text": "It publicly admitted that customers had serious problems with its most important product.",
+   "scene": 16,
+   "t": 634.327,
+   "local": 4.971,
+   "dur": 4.983,
+   "trim": 0.226
+  },
+  {
+   "id": "s16_03",
+   "text": "But the admission was only the beginning.",
+   "scene": 16,
+   "t": 639.76,
+   "local": 10.404,
+   "dur": 2.057,
+   "trim": 0.134
+  },
+  {
+   "id": "s16_04",
+   "text": "The company changed its recipe, showed customers what it had done and gave them a reason to reconsider.",
+   "scene": 16,
+   "t": 642.267,
+   "local": 12.911,
+   "dur": 6.456,
+   "trim": 0.205
+  },
+  {
+   "id": "s16_05",
+   "text": "The lesson is not that every brand should advertise its weaknesses.",
+   "scene": 16,
+   "t": 649.173,
+   "local": 19.817,
+   "dur": 4.108,
+   "trim": 0.154
+  },
+  {
+   "id": "s16_06",
+   "text": "It is that honesty becomes powerful when it is supported by meaningful action.",
+   "scene": 16,
+   "t": 653.731,
+   "local": 24.375,
+   "dur": 4.572,
+   "trim": 0.209
+  },
+  {
+   "id": "s16_07",
+   "text": "Domino's didn't improve simply by saying its pizza was bad.",
+   "scene": 16,
+   "t": 658.753,
+   "local": 29.397,
+   "dur": 3.846,
+   "trim": 0.178
+  },
+  {
+   "id": "s16_08",
+   "text": "It improved the pizza and made that decision impossible to ignore.",
+   "scene": 16,
+   "t": 663.049,
+   "local": 33.693,
+   "dur": 4.333,
+   "trim": 0.19
+  },
+  {
+   "id": "s16_09",
+   "text": "And every brand leaves evidence.",
+   "scene": 16,
+   "t": 667.831,
+   "local": 38.475,
+   "dur": 2.057,
+   "trim": 0.091
+  }
+ ]
+}
