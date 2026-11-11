@@ -1,0 +1,1842 @@
+{
+ "total": 664.549,
+ "scenes": [
+  {
+   "i": 1,
+   "base": 0.0,
+   "dur": 39.968,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     2.75
+    ],
+    [
+     4.857142857142858,
+     11.95
+    ],
+    [
+     8.714285714285715,
+     15.759
+    ],
+    [
+     12.571428571428571,
+     20.964
+    ],
+    [
+     16.42857142857143,
+     23.305
+    ],
+    [
+     20.285714285714285,
+     28.828
+    ],
+    [
+     24.142857142857142,
+     32.58
+    ],
+    [
+     30.0,
+     39.968
+    ]
+   ]
+  },
+  {
+   "i": 2,
+   "base": 39.968,
+   "dur": 41.699,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     4.383
+    ],
+    [
+     8.714285714285715,
+     8.583
+    ],
+    [
+     12.571428571428571,
+     17.014
+    ],
+    [
+     16.42857142857143,
+     25.108
+    ],
+    [
+     20.285714285714285,
+     30.282
+    ],
+    [
+     24.142857142857142,
+     35.098
+    ],
+    [
+     30.0,
+     41.699
+    ]
+   ]
+  },
+  {
+   "i": 3,
+   "base": 81.667,
+   "dur": 39.759,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     2.394
+    ],
+    [
+     8.714285714285715,
+     10.392
+    ],
+    [
+     12.571428571428571,
+     18.933
+    ],
+    [
+     16.42857142857143,
+     26.504
+    ],
+    [
+     20.285714285714285,
+     28.992
+    ],
+    [
+     24.142857142857142,
+     31.872
+    ],
+    [
+     30.0,
+     39.759
+    ]
+   ]
+  },
+  {
+   "i": 4,
+   "base": 121.426,
+   "dur": 38.916,
+   "n": 6,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     5.5,
+     6.22
+    ],
+    [
+     10.0,
+     13.616
+    ],
+    [
+     14.5,
+     21.865
+    ],
+    [
+     19.0,
+     26.12
+    ],
+    [
+     23.5,
+     32.49
+    ],
+    [
+     30.0,
+     38.916
+    ]
+   ]
+  },
+  {
+   "i": 5,
+   "base": 160.342,
+   "dur": 40.378,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     4.009
+    ],
+    [
+     7.75,
+     7.613
+    ],
+    [
+     11.125,
+     11.634
+    ],
+    [
+     14.5,
+     20.786
+    ],
+    [
+     17.875,
+     24.385
+    ],
+    [
+     21.25,
+     29.362
+    ],
+    [
+     24.625,
+     32.325
+    ],
+    [
+     30.0,
+     40.378
+    ]
+   ]
+  },
+  {
+   "i": 6,
+   "base": 200.72,
+   "dur": 41.338,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     3.282
+    ],
+    [
+     7.75,
+     10.36
+    ],
+    [
+     11.125,
+     17.473
+    ],
+    [
+     14.5,
+     20.688
+    ],
+    [
+     17.875,
+     26.594
+    ],
+    [
+     21.25,
+     32.773
+    ],
+    [
+     24.625,
+     38.033
+    ],
+    [
+     30.0,
+     41.338
+    ]
+   ]
+  },
+  {
+   "i": 7,
+   "base": 242.058,
+   "dur": 39.102,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     6.061
+    ],
+    [
+     8.714285714285715,
+     13.151
+    ],
+    [
+     12.571428571428571,
+     16.156
+    ],
+    [
+     16.42857142857143,
+     23.395
+    ],
+    [
+     20.285714285714285,
+     26.709
+    ],
+    [
+     24.142857142857142,
+     32.777
+    ],
+    [
+     30.0,
+     39.102
+    ]
+   ]
+  },
+  {
+   "i": 8,
+   "base": 281.16,
+   "dur": 40.561,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     3.365
+    ],
+    [
+     7.75,
+     6.531
+    ],
+    [
+     11.125,
+     11.161
+    ],
+    [
+     14.5,
+     15.41
+    ],
+    [
+     17.875,
+     21.371
+    ],
+    [
+     21.25,
+     24.525
+    ],
+    [
+     24.625,
+     34.024
+    ],
+    [
+     30.0,
+     40.561
+    ]
+   ]
+  },
+  {
+   "i": 9,
+   "base": 321.721,
+   "dur": 41.117,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     11.257
+    ],
+    [
+     8.714285714285715,
+     16.522
+    ],
+    [
+     12.571428571428571,
+     19.505
+    ],
+    [
+     16.42857142857143,
+     24.477
+    ],
+    [
+     20.285714285714285,
+     29.354
+    ],
+    [
+     24.142857142857142,
+     35.765
+    ],
+    [
+     30.0,
+     41.117
+    ]
+   ]
+  },
+  {
+   "i": 10,
+   "base": 362.838,
+   "dur": 43.532,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     4.596
+    ],
+    [
+     7.75,
+     11.229
+    ],
+    [
+     11.125,
+     20.067
+    ],
+    [
+     14.5,
+     23.743
+    ],
+    [
+     17.875,
+     27.603
+    ],
+    [
+     21.25,
+     30.976
+    ],
+    [
+     24.625,
+     36.864
+    ],
+    [
+     30.0,
+     43.532
+    ]
+   ]
+  },
+  {
+   "i": 11,
+   "base": 406.37,
+   "dur": 40.51,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     5.323
+    ],
+    [
+     7.75,
+     9.98
+    ],
+    [
+     11.125,
+     14.717
+    ],
+    [
+     14.5,
+     22.184
+    ],
+    [
+     17.875,
+     27.996
+    ],
+    [
+     21.25,
+     31.49
+    ],
+    [
+     24.625,
+     35.742
+    ],
+    [
+     30.0,
+     40.51
+    ]
+   ]
+  },
+  {
+   "i": 12,
+   "base": 446.88,
+   "dur": 42.084,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     9.115
+    ],
+    [
+     7.75,
+     14.288
+    ],
+    [
+     11.125,
+     17.768
+    ],
+    [
+     14.5,
+     19.774
+    ],
+    [
+     17.875,
+     27.202
+    ],
+    [
+     21.25,
+     35.733
+    ],
+    [
+     24.625,
+     38.299
+    ],
+    [
+     30.0,
+     42.084
+    ]
+   ]
+  },
+  {
+   "i": 13,
+   "base": 488.964,
+   "dur": 40.72,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     5.214
+    ],
+    [
+     8.714285714285715,
+     10.586
+    ],
+    [
+     12.571428571428571,
+     17.128
+    ],
+    [
+     16.42857142857143,
+     22.806
+    ],
+    [
+     20.285714285714285,
+     28.922
+    ],
+    [
+     24.142857142857142,
+     34.225
+    ],
+    [
+     30.0,
+     40.72
+    ]
+   ]
+  },
+  {
+   "i": 14,
+   "base": 529.684,
+   "dur": 41.754,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     9.359
+    ],
+    [
+     8.714285714285715,
+     12.78
+    ],
+    [
+     12.571428571428571,
+     19.582
+    ],
+    [
+     16.42857142857143,
+     26.272
+    ],
+    [
+     20.285714285714285,
+     33.527
+    ],
+    [
+     24.142857142857142,
+     36.648
+    ],
+    [
+     30.0,
+     41.754
+    ]
+   ]
+  },
+  {
+   "i": 15,
+   "base": 571.438,
+   "dur": 45.14,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     4.732
+    ],
+    [
+     7.75,
+     9.748
+    ],
+    [
+     11.125,
+     14.771
+    ],
+    [
+     14.5,
+     22.046
+    ],
+    [
+     17.875,
+     28.253
+    ],
+    [
+     21.25,
+     33.015
+    ],
+    [
+     24.625,
+     37.626
+    ],
+    [
+     30.0,
+     45.14
+    ]
+   ]
+  },
+  {
+   "i": 16,
+   "base": 616.578,
+   "dur": 47.971,
+   "n": 10,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.7,
+     3.612
+    ],
+    [
+     6.4,
+     8.866
+    ],
+    [
+     9.1,
+     13.943
+    ],
+    [
+     11.8,
+     20.219
+    ],
+    [
+     14.5,
+     23.637
+    ],
+    [
+     17.2,
+     26.783
+    ],
+    [
+     19.9,
+     30.988
+    ],
+    [
+     22.6,
+     34.152
+    ],
+    [
+     25.3,
+     40.289
+    ],
+    [
+     30.0,
+     47.971
+    ]
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "s01_01",
+   "text": "On April twenty-third, 1985, Coca-Cola made an announcement that would become one of the most infamous decisions in business history.",
+   "scene": 1,
+   "say": "On April twenty-third, nineteen eighty-five, Coca-Cola made an announcement that would become one of the most infamous decisions in business history.",
+   "t": 3.0,
+   "local": 3.0,
+   "dur": 8.75,
+   "trim": 0.149
+  },
+  {
+   "id": "s01_02",
+   "text": "The company was replacing the taste of its flagship drink.",
+   "scene": 1,
+   "t": 12.2,
+   "local": 12.2,
+   "dur": 3.359,
+   "trim": 0.174
+  },
+  {
+   "id": "s01_03",
+   "text": "It had tested the new formula on nearly two hundred thousand consumers.",
+   "scene": 1,
+   "t": 16.009,
+   "local": 16.009,
+   "dur": 4.754,
+   "trim": 0.207
+  },
+  {
+   "id": "s01_04",
+   "text": "The research looked convincing.",
+   "scene": 1,
+   "t": 21.214,
+   "local": 21.214,
+   "dur": 1.891,
+   "trim": 0.193
+  },
+  {
+   "id": "s01_05",
+   "text": "But Americans responded with anger, protests, and demands for the original Coke.",
+   "scene": 1,
+   "t": 23.555,
+   "local": 23.555,
+   "dur": 5.073,
+   "trim": 0.2
+  },
+  {
+   "id": "s01_06",
+   "text": "Just seventy-nine days later, the company reversed course.",
+   "scene": 1,
+   "t": 29.078,
+   "local": 29.078,
+   "dur": 3.302,
+   "trim": 0.081
+  },
+  {
+   "id": "s01_07",
+   "text": "How did a brand with extraordinary consumer research misunderstand its own customers so badly?",
+   "scene": 1,
+   "t": 32.83,
+   "local": 32.83,
+   "dur": 6.038,
+   "trim": 0.174
+  },
+  {
+   "id": "s02_01",
+   "text": "Coca-Cola began in Atlanta in 1886.",
+   "scene": 2,
+   "say": "Coca-Cola began in Atlanta in eighteen eighty-six.",
+   "t": 40.568,
+   "local": 0.6,
+   "dur": 3.583,
+   "trim": 0.082
+  },
+  {
+   "id": "s02_02",
+   "text": "Over the next century, it became much more than a soft drink.",
+   "scene": 2,
+   "t": 44.601,
+   "local": 4.633,
+   "dur": 3.75,
+   "trim": 0.193
+  },
+  {
+   "id": "s02_03",
+   "text": "Its distinctive bottle, red-and-white identity, advertising, and place in American culture created an unusually powerful brand.",
+   "scene": 2,
+   "t": 48.801,
+   "local": 8.833,
+   "dur": 7.982,
+   "trim": 0.143
+  },
+  {
+   "id": "s02_04",
+   "text": "Generations associated Coca-Cola with familiar experiences, family gatherings, sporting events, and everyday routines.",
+   "scene": 2,
+   "t": 57.232,
+   "local": 17.264,
+   "dur": 7.644,
+   "trim": 0.201
+  },
+  {
+   "id": "s02_05",
+   "text": "The company sold refreshment, but it also sold recognition and continuity.",
+   "scene": 2,
+   "t": 65.326,
+   "local": 25.358,
+   "dur": 4.724,
+   "trim": 0.209
+  },
+  {
+   "id": "s02_06",
+   "text": "By the early 1980s, that history had become a commercial advantage.",
+   "scene": 2,
+   "say": "By the early nineteen-eighties, that history had become a commercial advantage.",
+   "t": 70.5,
+   "local": 30.532,
+   "dur": 4.366,
+   "trim": 0.178
+  },
+  {
+   "id": "s02_07",
+   "text": "It also created an obligation the company's executives would soon underestimate.",
+   "scene": 2,
+   "t": 75.316,
+   "local": 35.348,
+   "dur": 5.25,
+   "trim": 0.216
+  },
+  {
+   "id": "s03_01",
+   "text": "The pressure came from Pepsi.",
+   "scene": 3,
+   "t": 82.267,
+   "local": 0.6,
+   "dur": 1.594,
+   "trim": 0.161
+  },
+  {
+   "id": "s03_02",
+   "text": "Throughout the 1970s and early 1980s, Pepsi challenged Coca-Cola's position in the American cola market.",
+   "scene": 3,
+   "say": "Throughout the nineteen-seventies and early nineteen-eighties, Pepsi challenged Coca-Cola's position in the American cola market.",
+   "t": 84.311,
+   "local": 2.644,
+   "dur": 7.548,
+   "trim": 0.191
+  },
+  {
+   "id": "s03_03",
+   "text": "Its advertising appealed to younger consumers, while the Pepsi Challenge used blind taste tests to question Coke's superiority.",
+   "scene": 3,
+   "t": 92.309,
+   "local": 10.642,
+   "dur": 8.092,
+   "trim": 0.188
+  },
+  {
+   "id": "s03_04",
+   "text": "Coca-Cola remained enormously successful, but management worried about a long-running decline in its lead over its rival.",
+   "scene": 3,
+   "t": 100.85,
+   "local": 19.183,
+   "dur": 7.121,
+   "trim": 0.19
+  },
+  {
+   "id": "s03_05",
+   "text": "The competitive threat was real.",
+   "scene": 3,
+   "t": 108.421,
+   "local": 26.754,
+   "dur": 2.038,
+   "trim": 0.112
+  },
+  {
+   "id": "s03_06",
+   "text": "The question was how to respond.",
+   "scene": 3,
+   "t": 110.909,
+   "local": 29.242,
+   "dur": 2.43,
+   "trim": 0.16
+  },
+  {
+   "id": "s03_07",
+   "text": "Should Coca-Cola defend its distinctive identity, or change its core product to compete more directly on taste?",
+   "scene": 3,
+   "t": 113.789,
+   "local": 32.122,
+   "dur": 6.537,
+   "trim": 0.227
+  },
+  {
+   "id": "s04_01",
+   "text": "Coca-Cola researchers developed a sweeter formula that performed strongly in taste tests.",
+   "scene": 4,
+   "t": 122.026,
+   "local": 0.6,
+   "dur": 5.42,
+   "trim": 0.18
+  },
+  {
+   "id": "s04_02",
+   "text": "Across several years, the company tested nearly two hundred thousand consumers in the United States and Canada.",
+   "scene": 4,
+   "t": 127.896,
+   "local": 6.47,
+   "dur": 6.946,
+   "trim": 0.223
+  },
+  {
+   "id": "s04_03",
+   "text": "Contemporary reporting described a fifty-five to forty-five preference for the new formula over the old one in blind comparisons.",
+   "scene": 4,
+   "t": 135.292,
+   "local": 13.866,
+   "dur": 7.799,
+   "trim": 0.22
+  },
+  {
+   "id": "s04_04",
+   "text": "To executives, the result suggested a major opportunity.",
+   "scene": 4,
+   "t": 143.541,
+   "local": 22.115,
+   "dur": 3.805,
+   "trim": 0.138
+  },
+  {
+   "id": "s04_05",
+   "text": "If customers preferred the new taste, perhaps changing the flagship drink could restore momentum.",
+   "scene": 4,
+   "t": 147.796,
+   "local": 26.37,
+   "dur": 5.92,
+   "trim": 0.2
+  },
+  {
+   "id": "s04_06",
+   "text": "But a laboratory preference is not the same thing as a purchasing decision made in a store.",
+   "scene": 4,
+   "t": 154.166,
+   "local": 32.74,
+   "dur": 5.076,
+   "trim": 0.195
+  },
+  {
+   "id": "s05_01",
+   "text": "The weakness was not simply that Coca-Cola lacked data.",
+   "scene": 5,
+   "t": 160.942,
+   "local": 0.6,
+   "dur": 3.209,
+   "trim": 0.222
+  },
+  {
+   "id": "s05_02",
+   "text": "It had enormous amounts of data about taste.",
+   "scene": 5,
+   "t": 164.601,
+   "local": 4.259,
+   "dur": 3.154,
+   "trim": 0.144
+  },
+  {
+   "id": "s05_03",
+   "text": "The problem was what that data could not fully explain.",
+   "scene": 5,
+   "t": 168.205,
+   "local": 7.863,
+   "dur": 3.572,
+   "trim": 0.193
+  },
+  {
+   "id": "s05_04",
+   "text": "People evaluating anonymous samples were making a different decision from loyal customers being told that their familiar drink would disappear.",
+   "scene": 5,
+   "t": 172.226,
+   "local": 11.884,
+   "dur": 8.702,
+   "trim": 0.17
+  },
+  {
+   "id": "s05_05",
+   "text": "One question was which liquid tasted better.",
+   "scene": 5,
+   "t": 181.378,
+   "local": 21.036,
+   "dur": 3.15,
+   "trim": 0.188
+  },
+  {
+   "id": "s05_06",
+   "text": "Another was whether consumers wanted the company to replace something they loved.",
+   "scene": 5,
+   "t": 184.977,
+   "local": 24.635,
+   "dur": 4.526,
+   "trim": 0.181
+  },
+  {
+   "id": "s05_07",
+   "text": "Those questions were not interchangeable.",
+   "scene": 5,
+   "t": 189.954,
+   "local": 29.612,
+   "dur": 2.513,
+   "trim": 0.179
+  },
+  {
+   "id": "s05_08",
+   "text": "Coca-Cola's research emphasized the first, while its most passionate customers cared deeply about the second.",
+   "scene": 5,
+   "t": 192.917,
+   "local": 32.575,
+   "dur": 6.704,
+   "trim": 0.165
+  },
+  {
+   "id": "s06_01",
+   "text": "The decision reached the top of Coca-Cola.",
+   "scene": 6,
+   "t": 201.32,
+   "local": 0.6,
+   "dur": 2.482,
+   "trim": 0.142
+  },
+  {
+   "id": "s06_02",
+   "text": "Chairman and chief executive Roberto Goizueta championed the change, supported by senior leadership.",
+   "scene": 6,
+   "t": 204.252,
+   "local": 3.532,
+   "dur": 6.628,
+   "trim": 0.175
+  },
+  {
+   "id": "s06_03",
+   "text": "The company believed it could strengthen its position against Pepsi by introducing a product that tested better with consumers.",
+   "scene": 6,
+   "t": 211.33,
+   "local": 10.61,
+   "dur": 6.663,
+   "trim": 0.19
+  },
+  {
+   "id": "s06_04",
+   "text": "But this was not simply another flavor extension.",
+   "scene": 6,
+   "t": 218.443,
+   "local": 17.723,
+   "dur": 2.765,
+   "trim": 0.095
+  },
+  {
+   "id": "s06_05",
+   "text": "Management chose to replace the original taste of its flagship American cola.",
+   "scene": 6,
+   "t": 221.658,
+   "local": 20.938,
+   "dur": 5.456,
+   "trim": 0.119
+  },
+  {
+   "id": "s06_06",
+   "text": "That distinction transformed a product-development decision into a challenge to the brand's identity.",
+   "scene": 6,
+   "t": 227.564,
+   "local": 26.844,
+   "dur": 5.729,
+   "trim": 0.178
+  },
+  {
+   "id": "s06_07",
+   "text": "Coca-Cola was not asking customers to try something new alongside the familiar.",
+   "scene": 6,
+   "t": 233.743,
+   "local": 33.023,
+   "dur": 4.81,
+   "trim": 0.193
+  },
+  {
+   "id": "s06_08",
+   "text": "It was taking the familiar away.",
+   "scene": 6,
+   "t": 239.003,
+   "local": 38.283,
+   "dur": 1.955,
+   "trim": 0.137
+  },
+  {
+   "id": "s07_01",
+   "text": "At New York's Lincoln Center, Coca-Cola publicly unveiled its reformulated drink.",
+   "scene": 7,
+   "t": 242.658,
+   "local": 0.6,
+   "dur": 5.261,
+   "trim": 0.177
+  },
+  {
+   "id": "s07_02",
+   "text": "The new version was promoted as a major improvement, backed by years of research and consumer testing.",
+   "scene": 7,
+   "t": 248.369,
+   "local": 6.311,
+   "dur": 6.641,
+   "trim": 0.199
+  },
+  {
+   "id": "s07_03",
+   "text": "Packaging was updated to signal the change.",
+   "scene": 7,
+   "t": 255.459,
+   "local": 13.401,
+   "dur": 2.554,
+   "trim": 0.171
+  },
+  {
+   "id": "s07_04",
+   "text": "The announcement received enormous attention, exactly what a company might hope for during a major product launch.",
+   "scene": 7,
+   "t": 258.464,
+   "local": 16.406,
+   "dur": 6.79,
+   "trim": 0.198
+  },
+  {
+   "id": "s07_05",
+   "text": "But the attention quickly became difficult to control.",
+   "scene": 7,
+   "t": 265.703,
+   "local": 23.645,
+   "dur": 2.864,
+   "trim": 0.219
+  },
+  {
+   "id": "s07_06",
+   "text": "For many customers, the news wasn't that Coca-Cola had created an exciting new drink.",
+   "scene": 7,
+   "t": 269.017,
+   "local": 26.959,
+   "dur": 5.618,
+   "trim": 0.199
+  },
+  {
+   "id": "s07_07",
+   "text": "It was that the company had decided their old Coca-Cola was no longer available.",
+   "scene": 7,
+   "t": 275.085,
+   "local": 33.027,
+   "dur": 4.975,
+   "trim": 0.189
+  },
+  {
+   "id": "s08_01",
+   "text": "The reaction was immediate and emotional.",
+   "scene": 8,
+   "t": 281.76,
+   "local": 0.6,
+   "dur": 2.565,
+   "trim": 0.161
+  },
+  {
+   "id": "s08_02",
+   "text": "Customers contacted Coca-Cola to complain.",
+   "scene": 8,
+   "t": 284.775,
+   "local": 3.615,
+   "dur": 2.716,
+   "trim": 0.195
+  },
+  {
+   "id": "s08_03",
+   "text": "Some began stockpiling the original drink before supplies disappeared.",
+   "scene": 8,
+   "t": 287.941,
+   "local": 6.781,
+   "dur": 4.18,
+   "trim": 0.087
+  },
+  {
+   "id": "s08_04",
+   "text": "Protest groups formed, demanding the return of the old formula.",
+   "scene": 8,
+   "t": 292.571,
+   "local": 11.411,
+   "dur": 3.799,
+   "trim": 0.198
+  },
+  {
+   "id": "s08_05",
+   "text": "In Atlanta, the company's own hometown, public criticism became particularly visible.",
+   "scene": 8,
+   "t": 296.82,
+   "local": 15.66,
+   "dur": 5.511,
+   "trim": 0.199
+  },
+  {
+   "id": "s08_06",
+   "text": "The scale of the response surprised management.",
+   "scene": 8,
+   "t": 302.781,
+   "local": 21.621,
+   "dur": 2.704,
+   "trim": 0.163
+  },
+  {
+   "id": "s08_07",
+   "text": "What executives had treated as a taste improvement was being interpreted by some consumers as the removal of something culturally important.",
+   "scene": 8,
+   "t": 305.935,
+   "local": 24.775,
+   "dur": 9.049,
+   "trim": 0.218
+  },
+  {
+   "id": "s08_08",
+   "text": "The company had underestimated how strongly people could identify with an everyday product.",
+   "scene": 8,
+   "t": 315.434,
+   "local": 34.274,
+   "dur": 5.187,
+   "trim": 0.222
+  },
+  {
+   "id": "s09_01",
+   "text": "By June, Coca-Cola reported receiving approximately fifteen hundred calls a day on its consumer hotline, compared with around four hundred before the formula change.",
+   "scene": 9,
+   "t": 322.321,
+   "local": 0.6,
+   "dur": 10.457,
+   "trim": 0.102
+  },
+  {
+   "id": "s09_02",
+   "text": "Employees across the company were confronted by people demanding an explanation.",
+   "scene": 9,
+   "t": 333.228,
+   "local": 11.507,
+   "dur": 4.815,
+   "trim": 0.233
+  },
+  {
+   "id": "s09_03",
+   "text": "The protests became a national news story.",
+   "scene": 9,
+   "t": 338.493,
+   "local": 16.772,
+   "dur": 2.532,
+   "trim": 0.174
+  },
+  {
+   "id": "s09_04",
+   "text": "This was no longer a routine product launch receiving mixed reviews.",
+   "scene": 9,
+   "t": 341.476,
+   "local": 19.755,
+   "dur": 4.522,
+   "trim": 0.18
+  },
+  {
+   "id": "s09_05",
+   "text": "It was a public challenge to the company's understanding of its own brand.",
+   "scene": 9,
+   "t": 346.448,
+   "local": 24.727,
+   "dur": 4.428,
+   "trim": 0.206
+  },
+  {
+   "id": "s09_06",
+   "text": "The backlash also revealed something that sales forecasts and taste tests had struggled to quantify.",
+   "scene": 9,
+   "t": 351.325,
+   "local": 29.604,
+   "dur": 5.96,
+   "trim": 0.215
+  },
+  {
+   "id": "s09_07",
+   "text": "Customers felt a sense of ownership over Coca-Cola's identity.",
+   "scene": 9,
+   "t": 357.736,
+   "local": 36.015,
+   "dur": 4.003,
+   "trim": 0.197
+  },
+  {
+   "id": "s10_01",
+   "text": "Pepsi watched its rival face a public-relations crisis.",
+   "scene": 10,
+   "t": 363.438,
+   "local": 0.6,
+   "dur": 3.796,
+   "trim": 0.174
+  },
+  {
+   "id": "s10_02",
+   "text": "The reformulation appeared to validate Pepsi's long-running argument that taste preferences were shifting.",
+   "scene": 10,
+   "t": 367.684,
+   "local": 4.846,
+   "dur": 6.184,
+   "trim": 0.173
+  },
+  {
+   "id": "s10_03",
+   "text": "Contemporary coverage captured the competitive theater surrounding the launch, with Pepsi executives celebrating Coca-Cola's decision.",
+   "scene": 10,
+   "t": 374.317,
+   "local": 11.479,
+   "dur": 8.388,
+   "trim": 0.184
+  },
+  {
+   "id": "s10_04",
+   "text": "But Pepsi had not forced consumers to reject New Coke.",
+   "scene": 10,
+   "t": 383.155,
+   "local": 20.317,
+   "dur": 3.226,
+   "trim": 0.178
+  },
+  {
+   "id": "s10_05",
+   "text": "The backlash came from Coca-Cola's own loyal audience.",
+   "scene": 10,
+   "t": 386.831,
+   "local": 23.993,
+   "dur": 3.41,
+   "trim": 0.2
+  },
+  {
+   "id": "s10_06",
+   "text": "That made the situation particularly damaging.",
+   "scene": 10,
+   "t": 390.691,
+   "local": 27.853,
+   "dur": 2.924,
+   "trim": 0.203
+  },
+  {
+   "id": "s10_07",
+   "text": "The company had changed its product partly because it feared losing customers to a rival.",
+   "scene": 10,
+   "t": 394.064,
+   "local": 31.226,
+   "dur": 5.437,
+   "trim": 0.197
+  },
+  {
+   "id": "s10_08",
+   "text": "Instead, it had angered customers who were already emotionally invested in the brand.",
+   "scene": 10,
+   "t": 399.951,
+   "local": 37.114,
+   "dur": 5.319,
+   "trim": 0.172
+  },
+  {
+   "id": "s11_01",
+   "text": "As complaints continued, Coca-Cola faced another difficult choice.",
+   "scene": 11,
+   "t": 406.97,
+   "local": 0.6,
+   "dur": 4.523,
+   "trim": 0.089
+  },
+  {
+   "id": "s11_02",
+   "text": "It could defend the reformulation and hope customers eventually accepted it.",
+   "scene": 11,
+   "t": 411.943,
+   "local": 5.573,
+   "dur": 4.207,
+   "trim": 0.153
+  },
+  {
+   "id": "s11_03",
+   "text": "Or it could acknowledge that replacing the original had been a mistake.",
+   "scene": 11,
+   "t": 416.6,
+   "local": 10.23,
+   "dur": 4.287,
+   "trim": 0.186
+  },
+  {
+   "id": "s11_04",
+   "text": "Reversing course meant publicly retreating from one of the most heavily researched product decisions in the company's history.",
+   "scene": 11,
+   "t": 421.337,
+   "local": 14.967,
+   "dur": 7.017,
+   "trim": 0.116
+  },
+  {
+   "id": "s11_05",
+   "text": "But the company also had evidence that its original formula retained powerful demand.",
+   "scene": 11,
+   "t": 428.804,
+   "local": 22.434,
+   "dur": 5.362,
+   "trim": 0.178
+  },
+  {
+   "id": "s11_06",
+   "text": "Leadership ultimately decided to bring it back.",
+   "scene": 11,
+   "t": 434.616,
+   "local": 28.246,
+   "dur": 3.045,
+   "trim": 0.138
+  },
+  {
+   "id": "s11_07",
+   "text": "The second decision would become almost as famous as the first.",
+   "scene": 11,
+   "t": 438.11,
+   "local": 31.74,
+   "dur": 3.801,
+   "trim": 0.178
+  },
+  {
+   "id": "s11_08",
+   "text": "Coca-Cola was about to restore the product it had removed.",
+   "scene": 11,
+   "t": 442.362,
+   "local": 35.992,
+   "dur": 3.419,
+   "trim": 0.19
+  },
+  {
+   "id": "s12_01",
+   "text": "On July eleventh, 1985, Coca-Cola announced that its original formula was returning under the name Coca-Cola Classic.",
+   "scene": 12,
+   "say": "On July eleventh, nineteen eighty-five, Coca-Cola announced that its original formula was returning under the name Coca-Cola Classic.",
+   "t": 447.48,
+   "local": 0.6,
+   "dur": 8.315,
+   "trim": 0.222
+  },
+  {
+   "id": "s12_02",
+   "text": "Only seventy-nine days had passed since the launch of the reformulated drink.",
+   "scene": 12,
+   "t": 456.245,
+   "local": 9.365,
+   "dur": 4.723,
+   "trim": 0.115
+  },
+  {
+   "id": "s12_03",
+   "text": "The announcement became major national news.",
+   "scene": 12,
+   "t": 461.418,
+   "local": 14.538,
+   "dur": 3.031,
+   "trim": 0.009
+  },
+  {
+   "id": "s12_04",
+   "text": "Customers celebrated.",
+   "scene": 12,
+   "t": 464.898,
+   "local": 18.018,
+   "dur": 1.555,
+   "trim": 0.122
+  },
+  {
+   "id": "s12_05",
+   "text": "The company's consumer hotline received thirty-one thousand six hundred calls in the two days following the announcement.",
+   "scene": 12,
+   "t": 466.903,
+   "local": 20.024,
+   "dur": 6.978,
+   "trim": 0.221
+  },
+  {
+   "id": "s12_06",
+   "text": "For Coca-Cola, the response demonstrated that the original product possessed a kind of value the taste tests had not adequately captured.",
+   "scene": 12,
+   "t": 474.332,
+   "local": 27.452,
+   "dur": 8.081,
+   "trim": 0.158
+  },
+  {
+   "id": "s12_07",
+   "text": "The company had changed the formula.",
+   "scene": 12,
+   "t": 482.863,
+   "local": 35.983,
+   "dur": 2.115,
+   "trim": 0.168
+  },
+  {
+   "id": "s12_08",
+   "text": "Its customers had forced it to reconsider.",
+   "scene": 12,
+   "t": 485.429,
+   "local": 38.549,
+   "dur": 2.435,
+   "trim": 0.089
+  },
+  {
+   "id": "s13_01",
+   "text": "The return of Coca-Cola Classic did not mean New Coke vanished overnight.",
+   "scene": 13,
+   "t": 489.564,
+   "local": 0.6,
+   "dur": 4.414,
+   "trim": 0.18
+  },
+  {
+   "id": "s13_02",
+   "text": "For a period, the company sold both products, each with distinct advertising.",
+   "scene": 13,
+   "t": 494.428,
+   "local": 5.464,
+   "dur": 4.921,
+   "trim": 0.164
+  },
+  {
+   "id": "s13_03",
+   "text": "The original formula reclaimed its familiar position, while the reformulated version continued as an alternative.",
+   "scene": 13,
+   "t": 499.8,
+   "local": 10.836,
+   "dur": 6.092,
+   "trim": 0.198
+  },
+  {
+   "id": "s13_04",
+   "text": "New Coke was later renamed Coke II and eventually disappeared from the American market.",
+   "scene": 13,
+   "say": "New Coke was later renamed Coke Two and eventually disappeared from the American market.",
+   "t": 506.342,
+   "local": 17.378,
+   "dur": 5.228,
+   "trim": 0.168
+  },
+  {
+   "id": "s13_05",
+   "text": "This detail matters because the reversal was not simply the cancellation of a failed launch.",
+   "scene": 13,
+   "t": 512.02,
+   "local": 23.056,
+   "dur": 5.666,
+   "trim": 0.2
+  },
+  {
+   "id": "s13_06",
+   "text": "Coca-Cola changed its product architecture to restore customer choice.",
+   "scene": 13,
+   "t": 518.136,
+   "local": 29.172,
+   "dur": 4.852,
+   "trim": 0.085
+  },
+  {
+   "id": "s13_07",
+   "text": "The brand could offer a new taste without forcing loyal consumers to surrender the old one.",
+   "scene": 13,
+   "t": 523.439,
+   "local": 34.475,
+   "dur": 5.145,
+   "trim": 0.178
+  },
+  {
+   "id": "s14_01",
+   "text": "The backlash and successful return of Coca-Cola Classic later encouraged speculation that New Coke had been an elaborate publicity stunt.",
+   "scene": 14,
+   "t": 530.284,
+   "local": 0.6,
+   "dur": 8.559,
+   "trim": 0.189
+  },
+  {
+   "id": "s14_02",
+   "text": "But that explanation lacks convincing evidence.",
+   "scene": 14,
+   "t": 539.293,
+   "local": 9.609,
+   "dur": 2.971,
+   "trim": 0.133
+  },
+  {
+   "id": "s14_03",
+   "text": "Coca-Cola's own historical account describes a genuine attempt to strengthen its competitive position.",
+   "scene": 14,
+   "t": 542.714,
+   "local": 13.03,
+   "dur": 6.352,
+   "trim": 0.132
+  },
+  {
+   "id": "s14_04",
+   "text": "Contemporary reporting also documents the extensive research and management confidence behind the decision.",
+   "scene": 14,
+   "t": 549.516,
+   "local": 19.832,
+   "dur": 6.241,
+   "trim": 0.112
+  },
+  {
+   "id": "s14_05",
+   "text": "The return of the original formula ultimately generated enormous attention and renewed affection for the brand.",
+   "scene": 14,
+   "t": 556.206,
+   "local": 26.522,
+   "dur": 6.805,
+   "trim": 0.16
+  },
+  {
+   "id": "s14_06",
+   "text": "That doesn't mean the company engineered the disaster.",
+   "scene": 14,
+   "t": 563.461,
+   "local": 33.777,
+   "dur": 2.671,
+   "trim": 0.155
+  },
+  {
+   "id": "s14_07",
+   "text": "An unintended recovery is not proof of a secret plan.",
+   "scene": 14,
+   "t": 566.582,
+   "local": 36.898,
+   "dur": 3.755,
+   "trim": 0.084
+  },
+  {
+   "id": "s15_01",
+   "text": "The New Coke case exposes four failures in decision-making.",
+   "scene": 15,
+   "t": 572.038,
+   "local": 0.6,
+   "dur": 3.932,
+   "trim": 0.157
+  },
+  {
+   "id": "s15_02",
+   "text": "First, management focused heavily on a measurable attribute: taste.",
+   "scene": 15,
+   "t": 576.42,
+   "local": 4.982,
+   "dur": 4.566,
+   "trim": 0.156
+  },
+  {
+   "id": "s15_03",
+   "text": "Second, it underestimated emotional attachment to the existing product.",
+   "scene": 15,
+   "t": 581.436,
+   "local": 9.998,
+   "dur": 4.574,
+   "trim": 0.193
+  },
+  {
+   "id": "s15_04",
+   "text": "Third, it treated replacement as the preferred strategy instead of preserving the original alongside an alternative.",
+   "scene": 15,
+   "t": 586.459,
+   "local": 15.021,
+   "dur": 6.825,
+   "trim": 0.118
+  },
+  {
+   "id": "s15_05",
+   "text": "And fourth, it assumed strong research results would translate into consumer acceptance.",
+   "scene": 15,
+   "t": 593.734,
+   "local": 22.296,
+   "dur": 5.757,
+   "trim": 0.191
+  },
+  {
+   "id": "s15_06",
+   "text": "Yet the case also demonstrates the value of correcting a decision quickly.",
+   "scene": 15,
+   "t": 599.941,
+   "local": 28.503,
+   "dur": 4.312,
+   "trim": 0.181
+  },
+  {
+   "id": "s15_07",
+   "text": "Coca-Cola listened to the backlash and restored what customers wanted.",
+   "scene": 15,
+   "t": 604.703,
+   "local": 33.265,
+   "dur": 4.161,
+   "trim": 0.108
+  },
+  {
+   "id": "s15_08",
+   "text": "Its recovery depended on recognizing that the original product represented more than its ingredients.",
+   "scene": 15,
+   "t": 609.314,
+   "local": 37.876,
+   "dur": 6.164,
+   "trim": 0.197
+  },
+  {
+   "id": "s16_01",
+   "text": "Coca-Cola didn't fail because it ignored research.",
+   "scene": 16,
+   "t": 617.178,
+   "local": 0.6,
+   "dur": 2.812,
+   "trim": 0.106
+  },
+  {
+   "id": "s16_02",
+   "text": "It failed because it trusted one kind of research to answer a much larger question.",
+   "scene": 16,
+   "t": 620.44,
+   "local": 3.862,
+   "dur": 4.804,
+   "trim": 0.191
+  },
+  {
+   "id": "s16_03",
+   "text": "The company knew which drink many consumers preferred in a blind taste test.",
+   "scene": 16,
+   "t": 625.694,
+   "local": 9.116,
+   "dur": 4.627,
+   "trim": 0.203
+  },
+  {
+   "id": "s16_04",
+   "text": "It did not fully understand what replacing Coca-Cola would mean to the people who loved it.",
+   "scene": 16,
+   "t": 630.771,
+   "local": 14.193,
+   "dur": 5.826,
+   "trim": 0.147
+  },
+  {
+   "id": "s16_05",
+   "text": "Seventy-nine days later, the original returned.",
+   "scene": 16,
+   "t": 637.047,
+   "local": 20.469,
+   "dur": 2.968,
+   "trim": 0.085
+  },
+  {
+   "id": "s16_06",
+   "text": "The lesson extends far beyond soft drinks.",
+   "scene": 16,
+   "t": 640.465,
+   "local": 23.887,
+   "dur": 2.696,
+   "trim": 0.167
+  },
+  {
+   "id": "s16_07",
+   "text": "Customers don't always value a product only for what it does.",
+   "scene": 16,
+   "t": 643.611,
+   "local": 27.033,
+   "dur": 3.755,
+   "trim": 0.172
+  },
+  {
+   "id": "s16_08",
+   "text": "Sometimes they value what it represents.",
+   "scene": 16,
+   "t": 647.816,
+   "local": 31.238,
+   "dur": 2.714,
+   "trim": 0.146
+  },
+  {
+   "id": "s16_09",
+   "text": "And changing that without understanding the consequences can turn innovation into disaster.",
+   "scene": 16,
+   "t": 650.98,
+   "local": 34.402,
+   "dur": 5.687,
+   "trim": 0.183
+  },
+  {
+   "id": "s16_10",
+   "text": "Every brand leaves evidence.",
+   "scene": 16,
+   "t": 657.117,
+   "local": 40.539,
+   "dur": 1.932,
+   "trim": 0.169
+  }
+ ]
+}

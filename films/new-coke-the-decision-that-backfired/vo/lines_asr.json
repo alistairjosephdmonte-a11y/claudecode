@@ -1,0 +1,613 @@
+[
+ {
+  "id": "s01_01",
+  "text": "On April twenty-third, nineteen eighty-five, Coca-Cola made an announcement that would become one of the most infamous decisions in business history.",
+  "scene": 1,
+  "say": "On April twenty-third, nineteen eighty-five, Coca-Cola made an announcement that would become one of the most infamous decisions in business history."
+ },
+ {
+  "id": "s01_02",
+  "text": "The company was replacing the taste of its flagship drink.",
+  "scene": 1
+ },
+ {
+  "id": "s01_03",
+  "text": "It had tested the new formula on nearly two hundred thousand consumers.",
+  "scene": 1
+ },
+ {
+  "id": "s01_04",
+  "text": "The research looked convincing.",
+  "scene": 1
+ },
+ {
+  "id": "s01_05",
+  "text": "But Americans responded with anger, protests, and demands for the original Coke.",
+  "scene": 1
+ },
+ {
+  "id": "s01_06",
+  "text": "Just seventy-nine days later, the company reversed course.",
+  "scene": 1
+ },
+ {
+  "id": "s01_07",
+  "text": "How did a brand with extraordinary consumer research misunderstand its own customers so badly?",
+  "scene": 1
+ },
+ {
+  "id": "s02_01",
+  "text": "Coca-Cola began in Atlanta in eighteen eighty-six.",
+  "scene": 2,
+  "say": "Coca-Cola began in Atlanta in eighteen eighty-six."
+ },
+ {
+  "id": "s02_02",
+  "text": "Over the next century, it became much more than a soft drink.",
+  "scene": 2
+ },
+ {
+  "id": "s02_03",
+  "text": "Its distinctive bottle, red-and-white identity, advertising, and place in American culture created an unusually powerful brand.",
+  "scene": 2
+ },
+ {
+  "id": "s02_04",
+  "text": "Generations associated Coca-Cola with familiar experiences, family gatherings, sporting events, and everyday routines.",
+  "scene": 2
+ },
+ {
+  "id": "s02_05",
+  "text": "The company sold refreshment, but it also sold recognition and continuity.",
+  "scene": 2
+ },
+ {
+  "id": "s02_06",
+  "text": "By the early nineteen-eighties, that history had become a commercial advantage.",
+  "scene": 2,
+  "say": "By the early nineteen-eighties, that history had become a commercial advantage."
+ },
+ {
+  "id": "s02_07",
+  "text": "It also created an obligation the company's executives would soon underestimate.",
+  "scene": 2
+ },
+ {
+  "id": "s03_01",
+  "text": "The pressure came from Pepsi.",
+  "scene": 3
+ },
+ {
+  "id": "s03_02",
+  "text": "Throughout the nineteen-seventies and early nineteen-eighties, Pepsi challenged Coca-Cola's position in the American cola market.",
+  "scene": 3,
+  "say": "Throughout the nineteen-seventies and early nineteen-eighties, Pepsi challenged Coca-Cola's position in the American cola market."
+ },
+ {
+  "id": "s03_03",
+  "text": "Its advertising appealed to younger consumers, while the Pepsi Challenge used blind taste tests to question Coke's superiority.",
+  "scene": 3
+ },
+ {
+  "id": "s03_04",
+  "text": "Coca-Cola remained enormously successful, but management worried about a long-running decline in its lead over its rival.",
+  "scene": 3
+ },
+ {
+  "id": "s03_05",
+  "text": "The competitive threat was real.",
+  "scene": 3
+ },
+ {
+  "id": "s03_06",
+  "text": "The question was how to respond.",
+  "scene": 3
+ },
+ {
+  "id": "s03_07",
+  "text": "Should Coca-Cola defend its distinctive identity, or change its core product to compete more directly on taste?",
+  "scene": 3
+ },
+ {
+  "id": "s04_01",
+  "text": "Coca-Cola researchers developed a sweeter formula that performed strongly in taste tests.",
+  "scene": 4
+ },
+ {
+  "id": "s04_02",
+  "text": "Across several years, the company tested nearly two hundred thousand consumers in the United States and Canada.",
+  "scene": 4
+ },
+ {
+  "id": "s04_03",
+  "text": "Contemporary reporting described a fifty-five to forty-five preference for the new formula over the old one in blind comparisons.",
+  "scene": 4
+ },
+ {
+  "id": "s04_04",
+  "text": "To executives, the result suggested a major opportunity.",
+  "scene": 4
+ },
+ {
+  "id": "s04_05",
+  "text": "If customers preferred the new taste, perhaps changing the flagship drink could restore momentum.",
+  "scene": 4
+ },
+ {
+  "id": "s04_06",
+  "text": "But a laboratory preference is not the same thing as a purchasing decision made in a store.",
+  "scene": 4
+ },
+ {
+  "id": "s05_01",
+  "text": "The weakness was not simply that Coca-Cola lacked data.",
+  "scene": 5
+ },
+ {
+  "id": "s05_02",
+  "text": "It had enormous amounts of data about taste.",
+  "scene": 5
+ },
+ {
+  "id": "s05_03",
+  "text": "The problem was what that data could not fully explain.",
+  "scene": 5
+ },
+ {
+  "id": "s05_04",
+  "text": "People evaluating anonymous samples were making a different decision from loyal customers being told that their familiar drink would disappear.",
+  "scene": 5
+ },
+ {
+  "id": "s05_05",
+  "text": "One question was which liquid tasted better.",
+  "scene": 5
+ },
+ {
+  "id": "s05_06",
+  "text": "Another was whether consumers wanted the company to replace something they loved.",
+  "scene": 5
+ },
+ {
+  "id": "s05_07",
+  "text": "Those questions were not interchangeable.",
+  "scene": 5
+ },
+ {
+  "id": "s05_08",
+  "text": "Coca-Cola's research emphasized the first, while its most passionate customers cared deeply about the second.",
+  "scene": 5
+ },
+ {
+  "id": "s06_01",
+  "text": "The decision reached the top of Coca-Cola.",
+  "scene": 6
+ },
+ {
+  "id": "s06_02",
+  "text": "Chairman and chief executive Roberto Goizueta championed the change, supported by senior leadership.",
+  "scene": 6
+ },
+ {
+  "id": "s06_03",
+  "text": "The company believed it could strengthen its position against Pepsi by introducing a product that tested better with consumers.",
+  "scene": 6
+ },
+ {
+  "id": "s06_04",
+  "text": "But this was not simply another flavor extension.",
+  "scene": 6
+ },
+ {
+  "id": "s06_05",
+  "text": "Management chose to replace the original taste of its flagship American cola.",
+  "scene": 6
+ },
+ {
+  "id": "s06_06",
+  "text": "That distinction transformed a product-development decision into a challenge to the brand's identity.",
+  "scene": 6
+ },
+ {
+  "id": "s06_07",
+  "text": "Coca-Cola was not asking customers to try something new alongside the familiar.",
+  "scene": 6
+ },
+ {
+  "id": "s06_08",
+  "text": "It was taking the familiar away.",
+  "scene": 6
+ },
+ {
+  "id": "s07_01",
+  "text": "At New York's Lincoln Center, Coca-Cola publicly unveiled its reformulated drink.",
+  "scene": 7
+ },
+ {
+  "id": "s07_02",
+  "text": "The new version was promoted as a major improvement, backed by years of research and consumer testing.",
+  "scene": 7
+ },
+ {
+  "id": "s07_03",
+  "text": "Packaging was updated to signal the change.",
+  "scene": 7
+ },
+ {
+  "id": "s07_04",
+  "text": "The announcement received enormous attention, exactly what a company might hope for during a major product launch.",
+  "scene": 7
+ },
+ {
+  "id": "s07_05",
+  "text": "But the attention quickly became difficult to control.",
+  "scene": 7
+ },
+ {
+  "id": "s07_06",
+  "text": "For many customers, the news wasn't that Coca-Cola had created an exciting new drink.",
+  "scene": 7
+ },
+ {
+  "id": "s07_07",
+  "text": "It was that the company had decided their old Coca-Cola was no longer available.",
+  "scene": 7
+ },
+ {
+  "id": "s08_01",
+  "text": "The reaction was immediate and emotional.",
+  "scene": 8
+ },
+ {
+  "id": "s08_02",
+  "text": "Customers contacted Coca-Cola to complain.",
+  "scene": 8
+ },
+ {
+  "id": "s08_03",
+  "text": "Some began stockpiling the original drink before supplies disappeared.",
+  "scene": 8
+ },
+ {
+  "id": "s08_04",
+  "text": "Protest groups formed, demanding the return of the old formula.",
+  "scene": 8
+ },
+ {
+  "id": "s08_05",
+  "text": "In Atlanta, the company's own hometown, public criticism became particularly visible.",
+  "scene": 8
+ },
+ {
+  "id": "s08_06",
+  "text": "The scale of the response surprised management.",
+  "scene": 8
+ },
+ {
+  "id": "s08_07",
+  "text": "What executives had treated as a taste improvement was being interpreted by some consumers as the removal of something culturally important.",
+  "scene": 8
+ },
+ {
+  "id": "s08_08",
+  "text": "The company had underestimated how strongly people could identify with an everyday product.",
+  "scene": 8
+ },
+ {
+  "id": "s09_01",
+  "text": "By June, Coca-Cola reported receiving approximately fifteen hundred calls a day on its consumer hotline, compared with around four hundred before the formula change.",
+  "scene": 9
+ },
+ {
+  "id": "s09_02",
+  "text": "Employees across the company were confronted by people demanding an explanation.",
+  "scene": 9
+ },
+ {
+  "id": "s09_03",
+  "text": "The protests became a national news story.",
+  "scene": 9
+ },
+ {
+  "id": "s09_04",
+  "text": "This was no longer a routine product launch receiving mixed reviews.",
+  "scene": 9
+ },
+ {
+  "id": "s09_05",
+  "text": "It was a public challenge to the company's understanding of its own brand.",
+  "scene": 9
+ },
+ {
+  "id": "s09_06",
+  "text": "The backlash also revealed something that sales forecasts and taste tests had struggled to quantify.",
+  "scene": 9
+ },
+ {
+  "id": "s09_07",
+  "text": "Customers felt a sense of ownership over Coca-Cola's identity.",
+  "scene": 9
+ },
+ {
+  "id": "s10_01",
+  "text": "Pepsi watched its rival face a public-relations crisis.",
+  "scene": 10
+ },
+ {
+  "id": "s10_02",
+  "text": "The reformulation appeared to validate Pepsi's long-running argument that taste preferences were shifting.",
+  "scene": 10
+ },
+ {
+  "id": "s10_03",
+  "text": "Contemporary coverage captured the competitive theater surrounding the launch, with Pepsi executives celebrating Coca-Cola's decision.",
+  "scene": 10
+ },
+ {
+  "id": "s10_04",
+  "text": "But Pepsi had not forced consumers to reject New Coke.",
+  "scene": 10
+ },
+ {
+  "id": "s10_05",
+  "text": "The backlash came from Coca-Cola's own loyal audience.",
+  "scene": 10
+ },
+ {
+  "id": "s10_06",
+  "text": "That made the situation particularly damaging.",
+  "scene": 10
+ },
+ {
+  "id": "s10_07",
+  "text": "The company had changed its product partly because it feared losing customers to a rival.",
+  "scene": 10
+ },
+ {
+  "id": "s10_08",
+  "text": "Instead, it had angered customers who were already emotionally invested in the brand.",
+  "scene": 10
+ },
+ {
+  "id": "s11_01",
+  "text": "As complaints continued, Coca-Cola faced another difficult choice.",
+  "scene": 11
+ },
+ {
+  "id": "s11_02",
+  "text": "It could defend the reformulation and hope customers eventually accepted it.",
+  "scene": 11
+ },
+ {
+  "id": "s11_03",
+  "text": "Or it could acknowledge that replacing the original had been a mistake.",
+  "scene": 11
+ },
+ {
+  "id": "s11_04",
+  "text": "Reversing course meant publicly retreating from one of the most heavily researched product decisions in the company's history.",
+  "scene": 11
+ },
+ {
+  "id": "s11_05",
+  "text": "But the company also had evidence that its original formula retained powerful demand.",
+  "scene": 11
+ },
+ {
+  "id": "s11_06",
+  "text": "Leadership ultimately decided to bring it back.",
+  "scene": 11
+ },
+ {
+  "id": "s11_07",
+  "text": "The second decision would become almost as famous as the first.",
+  "scene": 11
+ },
+ {
+  "id": "s11_08",
+  "text": "Coca-Cola was about to restore the product it had removed.",
+  "scene": 11
+ },
+ {
+  "id": "s12_01",
+  "text": "On July eleventh, nineteen eighty-five, Coca-Cola announced that its original formula was returning under the name Coca-Cola Classic.",
+  "scene": 12,
+  "say": "On July eleventh, nineteen eighty-five, Coca-Cola announced that its original formula was returning under the name Coca-Cola Classic."
+ },
+ {
+  "id": "s12_02",
+  "text": "Only seventy-nine days had passed since the launch of the reformulated drink.",
+  "scene": 12
+ },
+ {
+  "id": "s12_03",
+  "text": "The announcement became major national news.",
+  "scene": 12
+ },
+ {
+  "id": "s12_04",
+  "text": "Customers celebrated.",
+  "scene": 12
+ },
+ {
+  "id": "s12_05",
+  "text": "The company's consumer hotline received thirty-one thousand six hundred calls in the two days following the announcement.",
+  "scene": 12
+ },
+ {
+  "id": "s12_06",
+  "text": "For Coca-Cola, the response demonstrated that the original product possessed a kind of value the taste tests had not adequately captured.",
+  "scene": 12
+ },
+ {
+  "id": "s12_07",
+  "text": "The company had changed the formula.",
+  "scene": 12
+ },
+ {
+  "id": "s12_08",
+  "text": "Its customers had forced it to reconsider.",
+  "scene": 12
+ },
+ {
+  "id": "s13_01",
+  "text": "The return of Coca-Cola Classic did not mean New Coke vanished overnight.",
+  "scene": 13
+ },
+ {
+  "id": "s13_02",
+  "text": "For a period, the company sold both products, each with distinct advertising.",
+  "scene": 13
+ },
+ {
+  "id": "s13_03",
+  "text": "The original formula reclaimed its familiar position, while the reformulated version continued as an alternative.",
+  "scene": 13
+ },
+ {
+  "id": "s13_04",
+  "text": "New Coke was later renamed Coke Two and eventually disappeared from the American market.",
+  "scene": 13,
+  "say": "New Coke was later renamed Coke Two and eventually disappeared from the American market."
+ },
+ {
+  "id": "s13_05",
+  "text": "This detail matters because the reversal was not simply the cancellation of a failed launch.",
+  "scene": 13
+ },
+ {
+  "id": "s13_06",
+  "text": "Coca-Cola changed its product architecture to restore customer choice.",
+  "scene": 13
+ },
+ {
+  "id": "s13_07",
+  "text": "The brand could offer a new taste without forcing loyal consumers to surrender the old one.",
+  "scene": 13
+ },
+ {
+  "id": "s14_01",
+  "text": "The backlash and successful return of Coca-Cola Classic later encouraged speculation that New Coke had been an elaborate publicity stunt.",
+  "scene": 14
+ },
+ {
+  "id": "s14_02",
+  "text": "But that explanation lacks convincing evidence.",
+  "scene": 14
+ },
+ {
+  "id": "s14_03",
+  "text": "Coca-Cola's own historical account describes a genuine attempt to strengthen its competitive position.",
+  "scene": 14
+ },
+ {
+  "id": "s14_04",
+  "text": "Contemporary reporting also documents the extensive research and management confidence behind the decision.",
+  "scene": 14
+ },
+ {
+  "id": "s14_05",
+  "text": "The return of the original formula ultimately generated enormous attention and renewed affection for the brand.",
+  "scene": 14
+ },
+ {
+  "id": "s14_06",
+  "text": "That doesn't mean the company engineered the disaster.",
+  "scene": 14
+ },
+ {
+  "id": "s14_07",
+  "text": "An unintended recovery is not proof of a secret plan.",
+  "scene": 14
+ },
+ {
+  "id": "s15_01",
+  "text": "The New Coke case exposes four failures in decision-making.",
+  "scene": 15
+ },
+ {
+  "id": "s15_02",
+  "text": "First, management focused heavily on a measurable attribute: taste.",
+  "scene": 15
+ },
+ {
+  "id": "s15_03",
+  "text": "Second, it underestimated emotional attachment to the existing product.",
+  "scene": 15
+ },
+ {
+  "id": "s15_04",
+  "text": "Third, it treated replacement as the preferred strategy instead of preserving the original alongside an alternative.",
+  "scene": 15
+ },
+ {
+  "id": "s15_05",
+  "text": "And fourth, it assumed strong research results would translate into consumer acceptance.",
+  "scene": 15
+ },
+ {
+  "id": "s15_06",
+  "text": "Yet the case also demonstrates the value of correcting a decision quickly.",
+  "scene": 15
+ },
+ {
+  "id": "s15_07",
+  "text": "Coca-Cola listened to the backlash and restored what customers wanted.",
+  "scene": 15
+ },
+ {
+  "id": "s15_08",
+  "text": "Its recovery depended on recognizing that the original product represented more than its ingredients.",
+  "scene": 15
+ },
+ {
+  "id": "s16_01",
+  "text": "Coca-Cola didn't fail because it ignored research.",
+  "scene": 16
+ },
+ {
+  "id": "s16_02",
+  "text": "It failed because it trusted one kind of research to answer a much larger question.",
+  "scene": 16
+ },
+ {
+  "id": "s16_03",
+  "text": "The company knew which drink many consumers preferred in a blind taste test.",
+  "scene": 16
+ },
+ {
+  "id": "s16_04",
+  "text": "It did not fully understand what replacing Coca-Cola would mean to the people who loved it.",
+  "scene": 16
+ },
+ {
+  "id": "s16_05",
+  "text": "Seventy-nine days later, the original returned.",
+  "scene": 16
+ },
+ {
+  "id": "s16_06",
+  "text": "The lesson extends far beyond soft drinks.",
+  "scene": 16
+ },
+ {
+  "id": "s16_07",
+  "text": "Customers don't always value a product only for what it does.",
+  "scene": 16
+ },
+ {
+  "id": "s16_08",
+  "text": "Sometimes they value what it represents.",
+  "scene": 16
+ },
+ {
+  "id": "s16_09",
+  "text": "And changing that without understanding the consequences can turn innovation into disaster.",
+  "scene": 16
+ },
+ {
+  "id": "s16_10",
+  "text": "Every brand leaves evidence.",
+  "scene": 16
+ }
+]
