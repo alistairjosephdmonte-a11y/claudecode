@@ -1,0 +1,11 @@
+shot,camera,frame_in,frame_out_exclusive,lens_mm,motion,description,dialogue
+SHOT_01,CAM_01,0,30,35,"low tracking, stops with the car",EXT. car brakes and settles under the canopy,
+SHOT_02,CAM_02,30,60,65,locked off,"INT. Jason CU, glance to passenger","JASON ""We got the money?"" f032-f057"
+SHOT_03,CAM_03,60,90,65,locked off,"INT. Lucia CU, raises duffel 8 cm","LUCIA ""We got the bag."" f062-f087"
+SHOT_04,CAM_04,90,120,85,locked off,INS. Jason unzips 15 cm left-to-right,
+SHOT_05,CAM_05,120,150,50,slight push-in,INS. overhead bag reveal,
+SHOT_06,CAM_06,150,180,85,locked off,INT. Jason reaction,"JASON ""What the hell?"" f153-f176"
+SHOT_07,CAM_07,180,210,85,locked off,"INT. Lucia CU, half-smile","LUCIA ""Wrong bag."" f183-f205"
+SHOT_08,CAM_08,210,240,100,locked off,INS. macro: Lucia flips the tag,
+SHOT_09,CAM_09,240,270,35,locked off,EXT. helicopter searchlight finds the windshield,
+SHOT_10,CAM_10,270,300,85,locked off,"INT. Jason CU, light crosses face","JASON ""Oh, we're dead."" f273-f297"

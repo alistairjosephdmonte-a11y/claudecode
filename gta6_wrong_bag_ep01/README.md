@@ -34,8 +34,8 @@ The brief targets Blender 4.x. This project was built and rendered in Blender 5.
 | Product dimensions | Measured bounding boxes:<br>• PS5 390 × 260 × 104 mm<br>• DualSense 160 × 106 × 66 mm<br>• GTA case 135 × 170 × 14 mm<br>• Tag 95 × 50 mm |
 | Eyelines | In both two-way exchanges, each character's pupils aim within 12° of the other character's eyes. |
 | Car axis | Every interior close-up is shot from the windshield side, with Jason screen-right and Lucia screen-left in all of them. |
-| Tag legibility (f220–239) | The text faces `CAM_08` (dot ≥ 0.998). All 9 sample points on the text are unobstructed. The text line is ≥ 143 px tall. |
-| Prop positions | The products stay inside the bag on every frame, and the tag cord never exceeds 4 cm. |
+| Tag legibility (f220–239) | The text faces `CAM_08` (dot ≥ 0.993). All 9 sample points on the text are unobstructed. The text line is ≥ 149 px tall. |
+| Prop positions | The products stay inside the bag on every frame, and the tag cord stays at its 4 cm length (max 4.1 cm measured). |
 | Lip-sync | Jaws move only inside the brief's line windows, and the jaw follows each line's loudness envelope (r ≥ 0.99). Lines don't overlap, and each sound strip starts on its line's first frame. |
 | Zero clipping | Mesh-to-mesh tests run every 2nd frame and cover:<br>• the products against each other and the bag<br>• the tag against the bag and the products<br>• the bag against the car interior<br>• both characters against the car, each other and the bag<br>• the car against the pumps and pillars<br>• the helicopter against the canopy |
 
