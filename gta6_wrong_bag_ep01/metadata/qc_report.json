@@ -1,0 +1,229 @@
+{
+ "duration_300_frames_30fps": {
+  "passed": true,
+  "detail": {
+   "frame_start": 0,
+   "frame_end": 299,
+   "fps": 30,
+   "seconds": 10.0
+  }
+ },
+ "hard_cuts_and_dedicated_cameras": {
+  "passed": true,
+  "detail": {
+   "cuts": [
+    [
+     0,
+     "CAM_01",
+     35
+    ],
+    [
+     30,
+     "CAM_02",
+     65
+    ],
+    [
+     60,
+     "CAM_03",
+     65
+    ],
+    [
+     90,
+     "CAM_04",
+     85
+    ],
+    [
+     120,
+     "CAM_05",
+     50
+    ],
+    [
+     150,
+     "CAM_06",
+     85
+    ],
+    [
+     180,
+     "CAM_07",
+     85
+    ],
+    [
+     210,
+     "CAM_08",
+     100
+    ],
+    [
+     240,
+     "CAM_09",
+     35
+    ],
+    [
+     270,
+     "CAM_10",
+     85
+    ]
+   ],
+   "animated_lens": []
+  }
+ },
+ "identity_consistent": {
+  "passed": true,
+  "detail": {
+   "JASON_01": {
+    "parts": 44,
+    "materials": [
+     "JASON_01_stubble",
+     "eye",
+     "eye_white",
+     "jason_cargo_olive",
+     "jason_hair",
+     "jason_skin",
+     "jason_tank_grey",
+     "mouth",
+     "silver",
+     "sneaker_white",
+     "watch_black"
+    ]
+   },
+   "LUCIA_01": {
+    "parts": 66,
+    "materials": [
+     "eye",
+     "eye_white",
+     "gold",
+     "lucia_hair",
+     "lucia_jeans",
+     "lucia_skin",
+     "lucia_tank_pink",
+     "mouth",
+     "sneaker_white"
+    ]
+   }
+  }
+ },
+ "product_dimensions": {
+  "passed": true,
+  "detail": {
+   "PS5_01": {
+    "measured_m": [
+     0.39,
+     0.26,
+     0.104
+    ],
+    "spec_m": [
+     0.39,
+     0.26,
+     0.104
+    ],
+    "max_dev_mm": 0.0
+   },
+   "GTA_CASE_01": {
+    "measured_m": [
+     0.135,
+     0.17,
+     0.014
+    ],
+    "spec_m": [
+     0.135,
+     0.17,
+     0.014
+    ],
+    "max_dev_mm": 0.0
+   },
+   "DUALSENSE_01": {
+    "measured_m": [
+     0.16,
+     0.106,
+     0.066
+    ],
+    "spec_m": [
+     0.16,
+     0.106,
+     0.066
+    ],
+    "max_dev_mm": 0.0
+   },
+   "TAG_01": {
+    "card_mm": [
+     95,
+     50
+    ]
+   }
+  }
+ },
+ "eyelines_meet": {
+  "passed": true,
+  "detail": {
+   "angle_deg": {
+    "52:JASON_01->LUCIA_01": 7.7,
+    "75:LUCIA_01->JASON_01": 2.3,
+    "165:JASON_01->LUCIA_01": 7.9,
+    "195:LUCIA_01->JASON_01": 6.8
+   }
+  }
+ },
+ "car_axis_180": {
+  "passed": true,
+  "detail": {
+   "CAM_02": {
+    "front_side": true,
+    "jason_right_of_lucia": true
+   },
+   "CAM_03": {
+    "front_side": true,
+    "jason_right_of_lucia": true
+   },
+   "CAM_04": {
+    "front_side": true,
+    "jason_right_of_lucia": true
+   },
+   "CAM_06": {
+    "front_side": true,
+    "jason_right_of_lucia": true
+   },
+   "CAM_07": {
+    "front_side": true,
+    "jason_right_of_lucia": true
+   },
+   "CAM_10": {
+    "front_side": true,
+    "jason_right_of_lucia": true
+   }
+  }
+ },
+ "tag_legible_f220_f239": {
+  "passed": true,
+  "detail": {
+   "frames": 20,
+   "min_facing": 0.993,
+   "min_unoccluded_of_9": 9,
+   "min_line_height_px": 149
+  }
+ },
+ "props_in_place": {
+  "passed": true,
+  "detail": {
+   "products_outside_bag": [],
+   "max_cord_length_m": 0.0409
+  }
+ },
+ "lip_sync": {
+  "passed": true,
+  "detail": {
+   "jaw_outside_lines": {},
+   "envelope_correlation": {
+    "JASON_01": 1.0,
+    "JASON_02": 1.0,
+    "JASON_03": 1.0,
+    "LUCIA_01": 1.0,
+    "LUCIA_02": 1.0
+   },
+   "strips_at_line_starts": true,
+   "overlaps": []
+  }
+ },
+ "zero_clipping": {
+  "passed": true,
+  "detail": {}
+ }
+}

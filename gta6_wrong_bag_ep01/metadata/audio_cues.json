@@ -1,0 +1,92 @@
+[
+ {
+  "cue": "V8 engine: braking to idle",
+  "stem": "sfx",
+  "frame_in": 0,
+  "frame_out": 299
+ },
+ {
+  "cue": "night city bed, neon hum, distant siren, canopy drips",
+  "stem": "ambience",
+  "frame_in": 0,
+  "frame_out": 299
+ },
+ {
+  "cue": "wet tyre hiss + brake scrub",
+  "stem": "sfx",
+  "frame_in": 4,
+  "frame_out": 23
+ },
+ {
+  "cue": "suspension settles",
+  "stem": "sfx",
+  "frame_in": 24,
+  "frame_out": 34
+ },
+ {
+  "cue": "JASON: \"We got the money?\"",
+  "stem": "dialogue",
+  "frame_in": 32,
+  "frame_out": 57
+ },
+ {
+  "cue": "LUCIA: \"We got the bag.\"",
+  "stem": "dialogue",
+  "frame_in": 62,
+  "frame_out": 87
+ },
+ {
+  "cue": "duffel lift rustle / set-down thump",
+  "stem": "sfx",
+  "frame_in": 63,
+  "frame_out": 90
+ },
+ {
+  "cue": "zipper teeth (synced to slider travel)",
+  "stem": "sfx",
+  "frame_in": 94,
+  "frame_out": 131
+ },
+ {
+  "cue": "flaps fold open",
+  "stem": "sfx",
+  "frame_in": 132,
+  "frame_out": 144
+ },
+ {
+  "cue": "JASON: \"What the hell?\"",
+  "stem": "dialogue",
+  "frame_in": 153,
+  "frame_out": 176
+ },
+ {
+  "cue": "LUCIA: \"Wrong bag.\"",
+  "stem": "dialogue",
+  "frame_in": 183,
+  "frame_out": 205
+ },
+ {
+  "cue": "tag flick",
+  "stem": "sfx",
+  "frame_in": 216,
+  "frame_out": 216
+ },
+ {
+  "cue": "helicopter approach (rotor thump)",
+  "stem": "sfx",
+  "frame_in": 226,
+  "frame_out": 299
+ },
+ {
+  "cue": "searchlight on",
+  "stem": "sfx",
+  "frame_in": 238,
+  "frame_out": 238
+ },
+ {
+  "cue": "JASON: \"Oh, we're dead.\"",
+  "stem": "dialogue",
+  "frame_in": 273,
+  "frame_out": 297
+ }
+]
