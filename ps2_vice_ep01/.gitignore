@@ -1,0 +1,4 @@
+renders/tests/
+renders/frames/
+scenes/*.blend1
+__pycache__/

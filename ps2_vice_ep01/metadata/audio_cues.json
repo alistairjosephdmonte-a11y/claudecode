@@ -1,0 +1,177 @@
+[
+ {
+  "cue": "room tone + CRT whine",
+  "stem": "ambience",
+  "frame_in": 1,
+  "frame_out": 199,
+  "time_in": 0.0
+ },
+ {
+  "cue": "disc handling",
+  "stem": "sfx",
+  "frame_in": 36,
+  "frame_out": 48,
+  "time_in": 1.458
+ },
+ {
+  "cue": "disc handling",
+  "stem": "sfx",
+  "frame_in": 100,
+  "frame_out": 113,
+  "time_in": 4.125
+ },
+ {
+  "cue": "disc seats on spindle (tick)",
+  "stem": "sfx",
+  "frame_in": 114,
+  "frame_out": 114,
+  "time_in": 4.708
+ },
+ {
+  "cue": "PS2 tray motor",
+  "stem": "sfx",
+  "frame_in": 128,
+  "frame_out": 140,
+  "time_in": 5.292
+ },
+ {
+  "cue": "tray click",
+  "stem": "sfx",
+  "frame_in": 140,
+  "frame_out": 140,
+  "time_in": 5.792
+ },
+ {
+  "cue": "retro synth pulse (Bm-G-D-A, 100 bpm)",
+  "stem": "music",
+  "frame_in": 149,
+  "frame_out": 468,
+  "time_in": 6.167
+ },
+ {
+  "cue": "CRT startup degauss + hum",
+  "stem": "sfx",
+  "frame_in": 149,
+  "frame_out": 196,
+  "time_in": 6.167
+ },
+ {
+  "cue": "transition whoosh",
+  "stem": "sfx",
+  "frame_in": 193,
+  "frame_out": 207,
+  "time_in": 8.0
+ },
+ {
+  "cue": "Ocean Drive street ambience",
+  "stem": "ambience",
+  "frame_in": 197,
+  "frame_out": 468,
+  "time_in": 8.167
+ },
+ {
+  "cue": "portal leaves swing open",
+  "stem": "sfx",
+  "frame_in": 199,
+  "frame_out": 215,
+  "time_in": 8.25
+ },
+ {
+  "cue": "car engine roll-in + idle",
+  "stem": "sfx",
+  "frame_in": 206,
+  "frame_out": 246,
+  "time_in": 8.542
+ },
+ {
+  "cue": "Tommy footstep R",
+  "stem": "sfx",
+  "frame_in": 252,
+  "frame_out": 252,
+  "time_in": 10.458
+ },
+ {
+  "cue": "Tommy footstep L",
+  "stem": "sfx",
+  "frame_in": 260,
+  "frame_out": 260,
+  "time_in": 10.792
+ },
+ {
+  "cue": "Tommy footstep R",
+  "stem": "sfx",
+  "frame_in": 268,
+  "frame_out": 268,
+  "time_in": 11.125
+ },
+ {
+  "cue": "Tommy footstep L",
+  "stem": "sfx",
+  "frame_in": 276,
+  "frame_out": 276,
+  "time_in": 11.458
+ },
+ {
+  "cue": "Tommy footstep R",
+  "stem": "sfx",
+  "frame_in": 284,
+  "frame_out": 284,
+  "time_in": 11.792
+ },
+ {
+  "cue": "TOMMY: \"Welcome to Vice City.\"",
+  "stem": "dialogue",
+  "frame_in": 298,
+  "frame_out": 332,
+  "time_in": 12.375
+ },
+ {
+  "cue": "controller handoff",
+  "stem": "sfx",
+  "frame_in": 350,
+  "frame_out": 352,
+  "time_in": 14.542
+ },
+ {
+  "cue": "TOMMY: \"You're gonna need a bigger TV.\"",
+  "stem": "dialogue",
+  "frame_in": 363,
+  "frame_out": 396,
+  "time_in": 15.083
+ },
+ {
+  "cue": "Tommy footstep R",
+  "stem": "sfx",
+  "frame_in": 364,
+  "frame_out": 364,
+  "time_in": 15.125
+ },
+ {
+  "cue": "Tommy footstep L",
+  "stem": "sfx",
+  "frame_in": 372,
+  "frame_out": 372,
+  "time_in": 15.458
+ },
+ {
+  "cue": "gameplay car on CRT (TV speaker)",
+  "stem": "sfx",
+  "frame_in": 385,
+  "frame_out": 468,
+  "time_in": 16.0
+ },
+ {
+  "cue": "transition whoosh",
+  "stem": "sfx",
+  "frame_in": 448,
+  "frame_out": 468,
+  "time_in": 18.625
+ },
+ {
+  "cue": "final low bass hit",
+  "stem": "sfx",
+  "frame_in": 469,
+  "frame_out": 469,
+  "time_in": 19.5
+ }
+]
