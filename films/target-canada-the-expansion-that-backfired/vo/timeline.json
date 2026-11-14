@@ -1,0 +1,1770 @@
+{
+ "total": 704.839,
+ "scenes": [
+  {
+   "i": 1,
+   "base": 0.0,
+   "dur": 43.431,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     2.75
+    ],
+    [
+     4.857142857142858,
+     8.093
+    ],
+    [
+     8.714285714285715,
+     16.339
+    ],
+    [
+     12.571428571428571,
+     20.946
+    ],
+    [
+     16.42857142857143,
+     26.576
+    ],
+    [
+     20.285714285714285,
+     32.961
+    ],
+    [
+     24.142857142857142,
+     36.28
+    ],
+    [
+     30.0,
+     43.431
+    ]
+   ]
+  },
+  {
+   "i": 2,
+   "base": 43.431,
+   "dur": 44.296,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     9.209
+    ],
+    [
+     7.75,
+     17.649
+    ],
+    [
+     11.125,
+     22.566
+    ],
+    [
+     14.5,
+     25.27
+    ],
+    [
+     17.875,
+     29.936
+    ],
+    [
+     21.25,
+     33.366
+    ],
+    [
+     24.625,
+     36.716
+    ],
+    [
+     30.0,
+     44.296
+    ]
+   ]
+  },
+  {
+   "i": 3,
+   "base": 87.727,
+   "dur": 44.54,
+   "n": 6,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     5.5,
+     15.227
+    ],
+    [
+     10.0,
+     19.485
+    ],
+    [
+     14.5,
+     27.227
+    ],
+    [
+     19.0,
+     30.47
+    ],
+    [
+     23.5,
+     36.788
+    ],
+    [
+     30.0,
+     44.54
+    ]
+   ]
+  },
+  {
+   "i": 4,
+   "base": 132.267,
+   "dur": 41.029,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     4.821
+    ],
+    [
+     8.714285714285715,
+     9.843
+    ],
+    [
+     12.571428571428571,
+     14.794
+    ],
+    [
+     16.42857142857143,
+     25.281
+    ],
+    [
+     20.285714285714285,
+     31.633
+    ],
+    [
+     24.142857142857142,
+     35.447
+    ],
+    [
+     30.0,
+     41.029
+    ]
+   ]
+  },
+  {
+   "i": 5,
+   "base": 173.296,
+   "dur": 42.812,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     3.989
+    ],
+    [
+     7.75,
+     10.783
+    ],
+    [
+     11.125,
+     15.997
+    ],
+    [
+     14.5,
+     21.957
+    ],
+    [
+     17.875,
+     26.91
+    ],
+    [
+     21.25,
+     35.164
+    ],
+    [
+     24.625,
+     37.808
+    ],
+    [
+     30.0,
+     42.812
+    ]
+   ]
+  },
+  {
+   "i": 6,
+   "base": 216.108,
+   "dur": 45.577,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     4.899
+    ],
+    [
+     8.714285714285715,
+     11.158
+    ],
+    [
+     12.571428571428571,
+     18.241
+    ],
+    [
+     16.42857142857143,
+     24.366
+    ],
+    [
+     20.285714285714285,
+     30.667
+    ],
+    [
+     24.142857142857142,
+     38.287
+    ],
+    [
+     30.0,
+     45.577
+    ]
+   ]
+  },
+  {
+   "i": 7,
+   "base": 261.685,
+   "dur": 38.815,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     4.224
+    ],
+    [
+     7.75,
+     9.878
+    ],
+    [
+     11.125,
+     16.014
+    ],
+    [
+     14.5,
+     21.573
+    ],
+    [
+     17.875,
+     24.461
+    ],
+    [
+     21.25,
+     29.014
+    ],
+    [
+     24.625,
+     32.099
+    ],
+    [
+     30.0,
+     38.815
+    ]
+   ]
+  },
+  {
+   "i": 8,
+   "base": 300.5,
+   "dur": 41.903,
+   "n": 6,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     5.5,
+     7.162
+    ],
+    [
+     10.0,
+     13.966
+    ],
+    [
+     14.5,
+     18.552
+    ],
+    [
+     19.0,
+     26.708
+    ],
+    [
+     23.5,
+     31.097
+    ],
+    [
+     30.0,
+     41.903
+    ]
+   ]
+  },
+  {
+   "i": 9,
+   "base": 342.403,
+   "dur": 44.652,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     5.57
+    ],
+    [
+     8.714285714285715,
+     10.582
+    ],
+    [
+     12.571428571428571,
+     16.153
+    ],
+    [
+     16.42857142857143,
+     21.693
+    ],
+    [
+     20.285714285714285,
+     25.426
+    ],
+    [
+     24.142857142857142,
+     36.668
+    ],
+    [
+     30.0,
+     44.652
+    ]
+   ]
+  },
+  {
+   "i": 10,
+   "base": 387.055,
+   "dur": 44.334,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     3.3
+    ],
+    [
+     8.714285714285715,
+     8.818
+    ],
+    [
+     12.571428571428571,
+     16.958
+    ],
+    [
+     16.42857142857143,
+     24.959
+    ],
+    [
+     20.285714285714285,
+     29.442
+    ],
+    [
+     24.142857142857142,
+     33.799
+    ],
+    [
+     30.0,
+     44.334
+    ]
+   ]
+  },
+  {
+   "i": 11,
+   "base": 431.389,
+   "dur": 43.81,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     5.149
+    ],
+    [
+     8.714285714285715,
+     12.146
+    ],
+    [
+     12.571428571428571,
+     22.823
+    ],
+    [
+     16.42857142857143,
+     27.244
+    ],
+    [
+     20.285714285714285,
+     32.941
+    ],
+    [
+     24.142857142857142,
+     37.905
+    ],
+    [
+     30.0,
+     43.81
+    ]
+   ]
+  },
+  {
+   "i": 12,
+   "base": 475.199,
+   "dur": 47.105,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     7.003
+    ],
+    [
+     8.714285714285715,
+     13.745
+    ],
+    [
+     12.571428571428571,
+     16.45
+    ],
+    [
+     16.42857142857143,
+     29.539
+    ],
+    [
+     20.285714285714285,
+     32.124
+    ],
+    [
+     24.142857142857142,
+     39.168
+    ],
+    [
+     30.0,
+     47.105
+    ]
+   ]
+  },
+  {
+   "i": 13,
+   "base": 522.304,
+   "dur": 46.32,
+   "n": 6,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     5.5,
+     7.447
+    ],
+    [
+     10.0,
+     15.463
+    ],
+    [
+     14.5,
+     23.637
+    ],
+    [
+     19.0,
+     31.997
+    ],
+    [
+     23.5,
+     37.062
+    ],
+    [
+     30.0,
+     46.32
+    ]
+   ]
+  },
+  {
+   "i": 14,
+   "base": 568.624,
+   "dur": 46.82,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     12.066
+    ],
+    [
+     8.714285714285715,
+     15.762
+    ],
+    [
+     12.571428571428571,
+     23.484
+    ],
+    [
+     16.42857142857143,
+     28.733
+    ],
+    [
+     20.285714285714285,
+     33.001
+    ],
+    [
+     24.142857142857142,
+     39.851
+    ],
+    [
+     30.0,
+     46.82
+    ]
+   ]
+  },
+  {
+   "i": 15,
+   "base": 615.444,
+   "dur": 45.376,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     4.219
+    ],
+    [
+     7.0,
+     10.38
+    ],
+    [
+     10.0,
+     17.141
+    ],
+    [
+     13.0,
+     24.744
+    ],
+    [
+     16.0,
+     30.731
+    ],
+    [
+     19.0,
+     33.351
+    ],
+    [
+     22.0,
+     37.106
+    ],
+    [
+     25.0,
+     39.704
+    ],
+    [
+     30.0,
+     45.376
+    ]
+   ]
+  },
+  {
+   "i": 16,
+   "base": 660.82,
+   "dur": 44.019,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     5.302
+    ],
+    [
+     7.75,
+     11.194
+    ],
+    [
+     11.125,
+     16.046
+    ],
+    [
+     14.5,
+     22.45
+    ],
+    [
+     17.875,
+     27.076
+    ],
+    [
+     21.25,
+     31.875
+    ],
+    [
+     24.625,
+     36.307
+    ],
+    [
+     30.0,
+     44.019
+    ]
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "s01_01",
+   "text": "In March 2013, Target opened its first stores in Canada.",
+   "scene": 1,
+   "say": "In March twenty thirteen, Target opened its first stores in Canada.",
+   "t": 3.0,
+   "local": 3.0,
+   "dur": 4.893,
+   "trim": 0.183
+  },
+  {
+   "id": "s01_02",
+   "text": "The American retail giant had enormous ambitions, a recognizable brand, and a plan to expand at extraordinary speed.",
+   "scene": 1,
+   "t": 8.343,
+   "local": 8.343,
+   "dur": 7.795,
+   "trim": 0.222
+  },
+  {
+   "id": "s01_03",
+   "text": "Within nine months, it had opened one hundred twenty-four locations.",
+   "scene": 1,
+   "t": 16.589,
+   "local": 16.589,
+   "dur": 4.157,
+   "trim": 0.2
+  },
+  {
+   "id": "s01_04",
+   "text": "But customers soon encountered empty shelves, disappointing prices, and missing products.",
+   "scene": 1,
+   "t": 21.196,
+   "local": 21.196,
+   "dur": 5.18,
+   "trim": 0.179
+  },
+  {
+   "id": "s01_05",
+   "text": "Less than two years after entering the country, Target announced it would close every Canadian store.",
+   "scene": 1,
+   "t": 26.826,
+   "local": 26.826,
+   "dur": 5.935,
+   "trim": 0.186
+  },
+  {
+   "id": "s01_06",
+   "text": "The exit produced billions in accounting charges.",
+   "scene": 1,
+   "t": 33.211,
+   "local": 33.211,
+   "dur": 2.869,
+   "trim": 0.18
+  },
+  {
+   "id": "s01_07",
+   "text": "How did one of America's most successful retailers misjudge its expansion so badly?",
+   "scene": 1,
+   "t": 36.53,
+   "local": 36.53,
+   "dur": 5.8,
+   "trim": 0.207
+  },
+  {
+   "id": "s02_01",
+   "text": "In the United States, Target had built a distinctive position between traditional discount retail and more fashionable department stores.",
+   "scene": 2,
+   "t": 44.031,
+   "local": 0.6,
+   "dur": 8.409,
+   "trim": 0.207
+  },
+  {
+   "id": "s02_02",
+   "text": "Its promise combined accessible prices, appealing design, recognizable private labels, and a convenient shopping experience.",
+   "scene": 2,
+   "t": 52.89,
+   "local": 9.459,
+   "dur": 7.99,
+   "trim": 0.227
+  },
+  {
+   "id": "s02_03",
+   "text": "The red bullseye became one of America's most familiar retail symbols.",
+   "scene": 2,
+   "t": 61.33,
+   "local": 17.899,
+   "dur": 4.467,
+   "trim": 0.191
+  },
+  {
+   "id": "s02_04",
+   "text": "Canadian shoppers knew the brand too.",
+   "scene": 2,
+   "t": 66.247,
+   "local": 22.816,
+   "dur": 2.254,
+   "trim": 0.138
+  },
+  {
+   "id": "s02_05",
+   "text": "Many had visited American Target stores while traveling across the border.",
+   "scene": 2,
+   "t": 68.951,
+   "local": 25.52,
+   "dur": 4.215,
+   "trim": 0.21
+  },
+  {
+   "id": "s02_06",
+   "text": "That familiarity appeared to create an opportunity.",
+   "scene": 2,
+   "t": 73.617,
+   "local": 30.186,
+   "dur": 2.98,
+   "trim": 0.198
+  },
+  {
+   "id": "s02_07",
+   "text": "Target wasn't introducing an unknown retailer.",
+   "scene": 2,
+   "t": 77.047,
+   "local": 33.616,
+   "dur": 2.9,
+   "trim": 0.11
+  },
+  {
+   "id": "s02_08",
+   "text": "It was bringing an established American shopping experience to customers who already had expectations.",
+   "scene": 2,
+   "t": 80.397,
+   "local": 36.966,
+   "dur": 6.23,
+   "trim": 0.215
+  },
+  {
+   "id": "s03_01",
+   "text": "In 2011, Target announced an agreement to acquire leasehold interests in up to two hundred twenty Zellers store locations from Hudson's Bay Company for approximately one point eight three billion Canadian dollars.",
+   "scene": 3,
+   "say": "In twenty eleven, Target announced an agreement to acquire leasehold interests in up to two hundred twenty Zellers store locations from Hudson's Bay Company for approximately one point eight three billion Canadian dollars.",
+   "t": 88.327,
+   "local": 0.6,
+   "dur": 14.427,
+   "trim": 0.222
+  },
+  {
+   "id": "s03_02",
+   "text": "The deal provided a rapid physical entry into Canada.",
+   "scene": 3,
+   "t": 103.204,
+   "local": 15.477,
+   "dur": 3.807,
+   "trim": 0.2
+  },
+  {
+   "id": "s03_03",
+   "text": "Rather than developing a small number of stores and expanding gradually, Target could establish a nationwide presence quickly.",
+   "scene": 3,
+   "t": 107.462,
+   "local": 19.735,
+   "dur": 7.292,
+   "trim": 0.146
+  },
+  {
+   "id": "s03_04",
+   "text": "But acquiring locations was only the beginning.",
+   "scene": 3,
+   "t": 115.204,
+   "local": 27.477,
+   "dur": 2.793,
+   "trim": 0.22
+  },
+  {
+   "id": "s03_05",
+   "text": "Each site needed conversion, merchandise, staff, distribution, and technology.",
+   "scene": 3,
+   "t": 118.447,
+   "local": 30.72,
+   "dur": 5.868,
+   "trim": 0.217
+  },
+  {
+   "id": "s03_06",
+   "text": "The strategy created enormous opportunity, alongside an equally enormous execution challenge.",
+   "scene": 3,
+   "t": 124.765,
+   "local": 37.038,
+   "dur": 6.402,
+   "trim": 0.187
+  },
+  {
+   "id": "s04_01",
+   "text": "The first Canadian Target stores opened in March 2013.",
+   "scene": 4,
+   "say": "The first Canadian Target stores opened in March twenty thirteen.",
+   "t": 132.867,
+   "local": 0.6,
+   "dur": 4.021,
+   "trim": 0.19
+  },
+  {
+   "id": "s04_02",
+   "text": "By the end of that year, the company had opened one hundred twenty-four locations.",
+   "scene": 4,
+   "t": 137.338,
+   "local": 5.071,
+   "dur": 4.572,
+   "trim": 0.172
+  },
+  {
+   "id": "s04_03",
+   "text": "That pace was remarkable for a retailer building operations in a new country.",
+   "scene": 4,
+   "t": 142.36,
+   "local": 10.093,
+   "dur": 4.501,
+   "trim": 0.192
+  },
+  {
+   "id": "s04_04",
+   "text": "Stores needed working inventory systems, reliable suppliers, trained employees, and distribution networks capable of supporting daily replenishment.",
+   "scene": 4,
+   "t": 147.311,
+   "local": 15.044,
+   "dur": 10.037,
+   "trim": 0.19
+  },
+  {
+   "id": "s04_05",
+   "text": "But the rollout schedule left limited room to resolve problems before they spread across the network.",
+   "scene": 4,
+   "t": 157.798,
+   "local": 25.531,
+   "dur": 5.902,
+   "trim": 0.172
+  },
+  {
+   "id": "s04_06",
+   "text": "A mistake affecting one pilot store could be contained.",
+   "scene": 4,
+   "t": 164.15,
+   "local": 31.883,
+   "dur": 3.364,
+   "trim": 0.185
+  },
+  {
+   "id": "s04_07",
+   "text": "A mistake affecting more than a hundred stores could become a national crisis.",
+   "scene": 4,
+   "t": 167.964,
+   "local": 35.697,
+   "dur": 4.232,
+   "trim": 0.205
+  },
+  {
+   "id": "s05_01",
+   "text": "Customers began noticing a strange contradiction.",
+   "scene": 5,
+   "t": 173.896,
+   "local": 0.6,
+   "dur": 3.189,
+   "trim": 0.171
+  },
+  {
+   "id": "s05_02",
+   "text": "Target's stores could look bright and modern, yet shelves were frequently missing products shoppers expected to find.",
+   "scene": 5,
+   "t": 177.535,
+   "local": 4.239,
+   "dur": 6.345,
+   "trim": 0.182
+  },
+  {
+   "id": "s05_03",
+   "text": "At the same time, distribution centers were struggling with excess inventory.",
+   "scene": 5,
+   "t": 184.329,
+   "local": 11.033,
+   "dur": 4.763,
+   "trim": 0.084
+  },
+  {
+   "id": "s05_04",
+   "text": "Merchandise existed, but it was not consistently reaching the right shelves in the right quantities.",
+   "scene": 5,
+   "t": 189.543,
+   "local": 16.247,
+   "dur": 5.51,
+   "trim": 0.195
+  },
+  {
+   "id": "s05_05",
+   "text": "This was more serious than a temporary shortage of popular products.",
+   "scene": 5,
+   "t": 195.503,
+   "local": 22.207,
+   "dur": 4.503,
+   "trim": 0.104
+  },
+  {
+   "id": "s05_06",
+   "text": "It suggested problems inside the systems connecting purchasing, inventory, warehouses, and individual stores.",
+   "scene": 5,
+   "t": 200.456,
+   "local": 27.16,
+   "dur": 7.804,
+   "trim": 0.007
+  },
+  {
+   "id": "s05_07",
+   "text": "For customers, the result was simple.",
+   "scene": 5,
+   "t": 208.71,
+   "local": 35.414,
+   "dur": 2.194,
+   "trim": 0.198
+  },
+  {
+   "id": "s05_08",
+   "text": "They arrived expecting Target and left without what they wanted.",
+   "scene": 5,
+   "t": 211.354,
+   "local": 38.058,
+   "dur": 3.655,
+   "trim": 0.18
+  },
+  {
+   "id": "s06_01",
+   "text": "Target Canada's inventory problems began behind the scenes.",
+   "scene": 6,
+   "t": 216.708,
+   "local": 0.6,
+   "dur": 4.099,
+   "trim": 0.178
+  },
+  {
+   "id": "s06_02",
+   "text": "The company was implementing new systems while simultaneously preparing a massive store launch.",
+   "scene": 6,
+   "t": 221.257,
+   "local": 5.149,
+   "dur": 5.808,
+   "trim": 0.177
+  },
+  {
+   "id": "s06_03",
+   "text": "Product records required extensive information, and inaccurate data created problems throughout the supply chain.",
+   "scene": 6,
+   "t": 227.516,
+   "local": 11.408,
+   "dur": 6.633,
+   "trim": 0.185
+  },
+  {
+   "id": "s06_04",
+   "text": "Later reporting described serious weaknesses in the initial information entered into the system.",
+   "scene": 6,
+   "t": 234.599,
+   "local": 18.491,
+   "dur": 5.676,
+   "trim": 0.177
+  },
+  {
+   "id": "s06_05",
+   "text": "When inventory data cannot be trusted, forecasting and replenishment become unreliable.",
+   "scene": 6,
+   "t": 240.724,
+   "local": 24.616,
+   "dur": 5.851,
+   "trim": 0.22
+  },
+  {
+   "id": "s06_06",
+   "text": "A warehouse may hold merchandise that a store urgently needs, while the system fails to direct it correctly.",
+   "scene": 6,
+   "t": 247.025,
+   "local": 30.917,
+   "dur": 7.17,
+   "trim": 0.219
+  },
+  {
+   "id": "s06_07",
+   "text": "The company had built physical stores faster than its operational information could reliably support them.",
+   "scene": 6,
+   "t": 254.645,
+   "local": 38.537,
+   "dur": 5.94,
+   "trim": 0.23
+  },
+  {
+   "id": "s07_01",
+   "text": "The problems extended beyond individual product records.",
+   "scene": 7,
+   "t": 262.285,
+   "local": 0.6,
+   "dur": 3.424,
+   "trim": 0.189
+  },
+  {
+   "id": "s07_02",
+   "text": "Inventory, warehouse, and checkout systems did not always communicate effectively.",
+   "scene": 7,
+   "t": 266.159,
+   "local": 4.474,
+   "dur": 5.204,
+   "trim": 0.152
+  },
+  {
+   "id": "s07_03",
+   "text": "A store might sell one variation of a product while the replenishment process delivered another.",
+   "scene": 7,
+   "t": 271.813,
+   "local": 10.128,
+   "dur": 5.686,
+   "trim": 0.173
+  },
+  {
+   "id": "s07_04",
+   "text": "Meanwhile, distribution centers accumulated stock that could not be moved efficiently.",
+   "scene": 7,
+   "t": 277.949,
+   "local": 16.264,
+   "dur": 5.11,
+   "trim": 0.177
+  },
+  {
+   "id": "s07_05",
+   "text": "Target faced an expensive contradiction.",
+   "scene": 7,
+   "t": 283.508,
+   "local": 21.823,
+   "dur": 2.437,
+   "trim": 0.181
+  },
+  {
+   "id": "s07_06",
+   "text": "Some shelves were empty while other parts of the supply chain were overloaded.",
+   "scene": 7,
+   "t": 286.396,
+   "local": 24.711,
+   "dur": 4.103,
+   "trim": 0.047
+  },
+  {
+   "id": "s07_07",
+   "text": "The failure wasn't simply a shortage of inventory.",
+   "scene": 7,
+   "t": 290.949,
+   "local": 29.264,
+   "dur": 2.635,
+   "trim": 0.141
+  },
+  {
+   "id": "s07_08",
+   "text": "It was a breakdown in knowing what existed, where it belonged, and when it needed to move.",
+   "scene": 7,
+   "t": 294.034,
+   "local": 32.349,
+   "dur": 5.367,
+   "trim": 0.1
+  },
+  {
+   "id": "s08_01",
+   "text": "The inventory problems damaged the shopping experience, but Target also faced a perception gap.",
+   "scene": 8,
+   "t": 301.1,
+   "local": 0.6,
+   "dur": 6.362,
+   "trim": 0.092
+  },
+  {
+   "id": "s08_02",
+   "text": "Canadians familiar with American Target stores expected attractive prices and distinctive merchandise.",
+   "scene": 8,
+   "t": 307.912,
+   "local": 7.412,
+   "dur": 6.354,
+   "trim": 0.183
+  },
+  {
+   "id": "s08_03",
+   "text": "The Canadian stores did not consistently match those expectations.",
+   "scene": 8,
+   "t": 314.716,
+   "local": 14.216,
+   "dur": 4.136,
+   "trim": 0.184
+  },
+  {
+   "id": "s08_04",
+   "text": "Cross-border price differences, different suppliers, transportation costs, and local market conditions complicated the comparison.",
+   "scene": 8,
+   "t": 319.302,
+   "local": 18.802,
+   "dur": 7.707,
+   "trim": 0.141
+  },
+  {
+   "id": "s08_05",
+   "text": "But shoppers judged the experience against the Target they already knew.",
+   "scene": 8,
+   "t": 327.458,
+   "local": 26.958,
+   "dur": 3.939,
+   "trim": 0.198
+  },
+  {
+   "id": "s08_06",
+   "text": "When prices disappointed and products were unavailable, the brand lost two reasons customers might have chosen it over established Canadian competitors.",
+   "scene": 8,
+   "t": 331.847,
+   "local": 31.347,
+   "dur": 9.456,
+   "trim": 0.201
+  },
+  {
+   "id": "s09_01",
+   "text": "A retailer's first impression matters because shopping habits are difficult to change.",
+   "scene": 9,
+   "t": 343.003,
+   "local": 0.6,
+   "dur": 4.77,
+   "trim": 0.181
+  },
+  {
+   "id": "s09_02",
+   "text": "Target needed Canadian consumers to make its stores part of their routines.",
+   "scene": 9,
+   "t": 348.223,
+   "local": 5.82,
+   "dur": 4.561,
+   "trim": 0.117
+  },
+  {
+   "id": "s09_03",
+   "text": "Instead, early visitors often encountered inconsistent merchandise availability.",
+   "scene": 9,
+   "t": 353.235,
+   "local": 10.832,
+   "dur": 5.121,
+   "trim": 0.191
+  },
+  {
+   "id": "s09_04",
+   "text": "A customer who cannot find what they need may return to a familiar competitor.",
+   "scene": 9,
+   "t": 358.806,
+   "local": 16.403,
+   "dur": 5.091,
+   "trim": 0.223
+  },
+  {
+   "id": "s09_05",
+   "text": "Repeated disappointments make that behavior more likely.",
+   "scene": 9,
+   "t": 364.346,
+   "local": 21.943,
+   "dur": 3.283,
+   "trim": 0.211
+  },
+  {
+   "id": "s09_06",
+   "text": "By August 2013, Canadian retail reporting cited a survey in which only twenty-seven percent of respondents were very satisfied with their Target experience.",
+   "scene": 9,
+   "say": "By August twenty thirteen, Canadian retail reporting cited a survey in which only twenty-seven percent of respondents were very satisfied with their Target experience.",
+   "t": 368.079,
+   "local": 25.676,
+   "dur": 10.792,
+   "trim": 0.215
+  },
+  {
+   "id": "s09_07",
+   "text": "The company had created national awareness without consistently delivering the experience that awareness promised.",
+   "scene": 9,
+   "t": 379.321,
+   "local": 36.918,
+   "dur": 6.634,
+   "trim": 0.119
+  },
+  {
+   "id": "s10_01",
+   "text": "The financial consequences appeared quickly.",
+   "scene": 10,
+   "t": 387.655,
+   "local": 0.6,
+   "dur": 2.5,
+   "trim": 0.14
+  },
+  {
+   "id": "s10_02",
+   "text": "Target's Canadian business reported substantial operating losses during its first year.",
+   "scene": 10,
+   "t": 390.605,
+   "local": 3.55,
+   "dur": 5.068,
+   "trim": 0.117
+  },
+  {
+   "id": "s10_03",
+   "text": "By early 2014, cumulative losses had approached one billion US dollars, according to contemporary reporting.",
+   "scene": 10,
+   "say": "By early twenty fourteen, cumulative losses had approached one billion U.S. dollars, according to contemporary reporting.",
+   "t": 396.123,
+   "local": 9.068,
+   "dur": 7.69,
+   "trim": 0.17
+  },
+  {
+   "id": "s10_04",
+   "text": "Opening stores, operating distribution facilities, carrying inventory, and fixing systems all required money.",
+   "scene": 10,
+   "t": 404.263,
+   "local": 17.208,
+   "dur": 7.551,
+   "trim": 0.18
+  },
+  {
+   "id": "s10_05",
+   "text": "Yet the business lacked the sales performance needed to support that investment.",
+   "scene": 10,
+   "t": 412.264,
+   "local": 25.209,
+   "dur": 4.033,
+   "trim": 0.164
+  },
+  {
+   "id": "s10_06",
+   "text": "The company was now facing two simultaneous challenges.",
+   "scene": 10,
+   "t": 416.747,
+   "local": 29.692,
+   "dur": 3.907,
+   "trim": 0.187
+  },
+  {
+   "id": "s10_07",
+   "text": "It needed to repair the customer experience, and it needed to reduce the financial burden of a retail network that had expanded before the business model was stable.",
+   "scene": 10,
+   "t": 421.104,
+   "local": 34.049,
+   "dur": 9.185,
+   "trim": 0.176
+  },
+  {
+   "id": "s11_01",
+   "text": "The problems unfolded during a turbulent period for Target's wider business.",
+   "scene": 11,
+   "t": 431.989,
+   "local": 0.6,
+   "dur": 4.349,
+   "trim": 0.198
+  },
+  {
+   "id": "s11_02",
+   "text": "The company was also dealing with the aftermath of a major US data breach disclosed in 2013.",
+   "scene": 11,
+   "say": "The company was also dealing with the aftermath of a major U.S. data breach disclosed in twenty thirteen.",
+   "t": 436.788,
+   "local": 5.399,
+   "dur": 6.547,
+   "trim": 0.215
+  },
+  {
+   "id": "s11_03",
+   "text": "In 2014, Target experienced leadership changes, including the departure of chief executive Gregg Steinhafel and changes in Canadian management.",
+   "scene": 11,
+   "say": "In twenty fourteen, Target experienced leadership changes, including the departure of chief executive Gregg Steinhafel and changes in Canadian management.",
+   "t": 443.785,
+   "local": 12.396,
+   "dur": 10.227,
+   "trim": 0.193
+  },
+  {
+   "id": "s11_04",
+   "text": "Brian Cornell became Target's chief executive later that year.",
+   "scene": 11,
+   "t": 454.462,
+   "local": 23.073,
+   "dur": 3.971,
+   "trim": 0.213
+  },
+  {
+   "id": "s11_05",
+   "text": "His challenge was to determine whether the Canadian operation could realistically be repaired.",
+   "scene": 11,
+   "t": 458.883,
+   "local": 27.494,
+   "dur": 5.247,
+   "trim": 0.203
+  },
+  {
+   "id": "s11_06",
+   "text": "The question was no longer whether entering Canada had been an attractive idea.",
+   "scene": 11,
+   "t": 464.58,
+   "local": 33.191,
+   "dur": 4.514,
+   "trim": 0.195
+  },
+  {
+   "id": "s11_07",
+   "text": "It was whether continuing to fund the expansion made economic sense.",
+   "scene": 11,
+   "t": 469.544,
+   "local": 38.155,
+   "dur": 4.555,
+   "trim": 0.187
+  },
+  {
+   "id": "s12_01",
+   "text": "Target Canada worked to improve inventory availability, operations, and the shopping experience.",
+   "scene": 12,
+   "t": 475.799,
+   "local": 0.6,
+   "dur": 6.203,
+   "trim": 0.178
+  },
+  {
+   "id": "s12_02",
+   "text": "By late 2014, management hoped the holiday season would demonstrate meaningful progress.",
+   "scene": 12,
+   "say": "By late twenty fourteen, management hoped the holiday season would demonstrate meaningful progress.",
+   "t": 482.452,
+   "local": 7.253,
+   "dur": 6.292,
+   "trim": 0.205
+  },
+  {
+   "id": "s12_03",
+   "text": "But the improvement was insufficient.",
+   "scene": 12,
+   "t": 489.194,
+   "local": 13.995,
+   "dur": 2.255,
+   "trim": 0.176
+  },
+  {
+   "id": "s12_04",
+   "text": "In January 2015, Brian Cornell explained that the company could not identify a realistic scenario in which Target Canada would become profitable before at least 2021.",
+   "scene": 12,
+   "say": "In January twenty fifteen, Brian Cornell explained that the company could not identify a realistic scenario in which Target Canada would become profitable before at least twenty twenty-one.",
+   "t": 491.899,
+   "local": 16.7,
+   "dur": 12.639,
+   "trim": 0.23
+  },
+  {
+   "id": "s12_05",
+   "text": "That assessment changed the decision.",
+   "scene": 12,
+   "t": 504.988,
+   "local": 29.789,
+   "dur": 2.135,
+   "trim": 0.219
+  },
+  {
+   "id": "s12_06",
+   "text": "Continuing to operate meant committing additional capital to a business with years of expected losses.",
+   "scene": 12,
+   "t": 507.573,
+   "local": 32.374,
+   "dur": 6.594,
+   "trim": 0.006
+  },
+  {
+   "id": "s12_07",
+   "text": "Target now had to choose between financing a long recovery and accepting an expensive exit.",
+   "scene": 12,
+   "t": 514.617,
+   "local": 39.418,
+   "dur": 6.587,
+   "trim": 0.195
+  },
+  {
+   "id": "s13_01",
+   "text": "On January fifteenth, 2015, Target announced it would discontinue its Canadian operations.",
+   "scene": 13,
+   "say": "On January fifteenth, twenty fifteen, Target announced it would discontinue its Canadian operations.",
+   "t": 522.904,
+   "local": 0.6,
+   "dur": 6.647,
+   "trim": 0.087
+  },
+  {
+   "id": "s13_02",
+   "text": "Its Canadian subsidiary sought protection under the Companies' Creditors Arrangement Act, allowing an orderly wind-down.",
+   "scene": 13,
+   "t": 530.001,
+   "local": 7.697,
+   "dur": 7.566,
+   "trim": 0.127
+  },
+  {
+   "id": "s13_03",
+   "text": "At that point, the business operated one hundred thirty-three stores and employed approximately seventeen thousand six hundred people.",
+   "scene": 13,
+   "t": 538.017,
+   "local": 15.713,
+   "dur": 7.724,
+   "trim": 0.196
+  },
+  {
+   "id": "s13_04",
+   "text": "Target proposed a seventy-million-Canadian-dollar employee trust to provide compensation and benefits during the shutdown.",
+   "scene": 13,
+   "t": 546.191,
+   "local": 23.887,
+   "dur": 7.91,
+   "trim": 0.17
+  },
+  {
+   "id": "s13_05",
+   "text": "The decision affected thousands of workers, suppliers, landlords, and communities.",
+   "scene": 13,
+   "t": 554.551,
+   "local": 32.247,
+   "dur": 4.616,
+   "trim": 0.161
+  },
+  {
+   "id": "s13_06",
+   "text": "A national expansion that had begun with enormous expectations was ending less than two years after its first stores opened.",
+   "scene": 13,
+   "t": 559.616,
+   "local": 37.312,
+   "dur": 7.908,
+   "trim": 0.223
+  },
+  {
+   "id": "s14_01",
+   "text": "Target's 2014 financial statements recorded approximately five point one billion US dollars in pretax impairment and other charges associated with leaving Canada.",
+   "scene": 14,
+   "say": "Target's twenty fourteen financial statements recorded approximately five point one billion U.S. dollars in pretax impairment and other charges associated with leaving Canada.",
+   "t": 569.224,
+   "local": 0.6,
+   "dur": 11.266,
+   "trim": 0.227
+  },
+  {
+   "id": "s14_02",
+   "text": "The figure included major noncash write-downs.",
+   "scene": 14,
+   "t": 580.94,
+   "local": 12.316,
+   "dur": 3.245,
+   "trim": 0.221
+  },
+  {
+   "id": "s14_03",
+   "text": "It was not simply cash lost from operating stores, and it should not be presented as a single cash expenditure.",
+   "scene": 14,
+   "t": 584.636,
+   "local": 16.012,
+   "dur": 7.272,
+   "trim": 0.178
+  },
+  {
+   "id": "s14_04",
+   "text": "The company also faced costs connected to liquidation and lease obligations.",
+   "scene": 14,
+   "t": 592.358,
+   "local": 23.734,
+   "dur": 4.799,
+   "trim": 0.179
+  },
+  {
+   "id": "s14_05",
+   "text": "By April 2015, the last Canadian stores had closed.",
+   "scene": 14,
+   "say": "By April twenty fifteen, the last Canadian stores had closed.",
+   "t": 597.607,
+   "local": 28.983,
+   "dur": 3.818,
+   "trim": 0.172
+  },
+  {
+   "id": "s14_06",
+   "text": "The expansion had destroyed substantial value, but the accounting figures tell only part of the story.",
+   "scene": 14,
+   "t": 601.875,
+   "local": 33.251,
+   "dur": 6.4,
+   "trim": 0.001
+  },
+  {
+   "id": "s14_07",
+   "text": "The company had also lost an opportunity to establish a durable position in Canada.",
+   "scene": 14,
+   "t": 608.725,
+   "local": 40.101,
+   "dur": 5.619,
+   "trim": 0.201
+  },
+  {
+   "id": "s15_01",
+   "text": "The evidence reveals four interconnected decisions.",
+   "scene": 15,
+   "t": 616.044,
+   "local": 0.6,
+   "dur": 3.419,
+   "trim": 0.18
+  },
+  {
+   "id": "s15_02",
+   "text": "First, Target expanded at extraordinary speed before proving its Canadian operating model.",
+   "scene": 15,
+   "t": 619.913,
+   "local": 4.469,
+   "dur": 5.711,
+   "trim": 0.191
+  },
+  {
+   "id": "s15_03",
+   "text": "Second, it relied on new inventory and distribution systems that were not sufficiently dependable.",
+   "scene": 15,
+   "t": 626.074,
+   "local": 10.63,
+   "dur": 6.311,
+   "trim": 0.186
+  },
+  {
+   "id": "s15_04",
+   "text": "Third, it underestimated the gap between Canadian customers' expectations and the experience stores could deliver.",
+   "scene": 15,
+   "t": 632.835,
+   "local": 17.391,
+   "dur": 7.152,
+   "trim": 0.081
+  },
+  {
+   "id": "s15_05",
+   "text": "And fourth, the size of the rollout made correcting mistakes expensive and difficult.",
+   "scene": 15,
+   "t": 640.438,
+   "local": 24.994,
+   "dur": 5.538,
+   "trim": 0.206
+  },
+  {
+   "id": "s15_06",
+   "text": "These problems reinforced one another.",
+   "scene": 15,
+   "t": 646.425,
+   "local": 30.981,
+   "dur": 2.169,
+   "trim": 0.096
+  },
+  {
+   "id": "s15_07",
+   "text": "Poor availability weakened customer demand.",
+   "scene": 15,
+   "t": 649.045,
+   "local": 33.601,
+   "dur": 3.305,
+   "trim": 0.194
+  },
+  {
+   "id": "s15_08",
+   "text": "Weak demand increased losses.",
+   "scene": 15,
+   "t": 652.8,
+   "local": 37.356,
+   "dur": 2.148,
+   "trim": 0.195
+  },
+  {
+   "id": "s15_09",
+   "text": "And mounting losses reduced the time available to fix operations.",
+   "scene": 15,
+   "t": 655.398,
+   "local": 39.954,
+   "dur": 4.322,
+   "trim": 0.191
+  },
+  {
+   "id": "s16_01",
+   "text": "Target didn't fail in Canada because Canadians had never heard of the brand.",
+   "scene": 16,
+   "t": 661.42,
+   "local": 0.6,
+   "dur": 4.502,
+   "trim": 0.117
+  },
+  {
+   "id": "s16_02",
+   "text": "It failed to consistently deliver the experience that made the brand attractive in the first place.",
+   "scene": 16,
+   "t": 666.372,
+   "local": 5.552,
+   "dur": 5.442,
+   "trim": 0.18
+  },
+  {
+   "id": "s16_03",
+   "text": "Management committed to national scale before the underlying operation was ready.",
+   "scene": 16,
+   "t": 672.264,
+   "local": 11.444,
+   "dur": 4.402,
+   "trim": 0.195
+  },
+  {
+   "id": "s16_04",
+   "text": "By the time the problems were fully visible, the company was carrying the costs of more than a hundred stores.",
+   "scene": 16,
+   "t": 677.116,
+   "local": 16.296,
+   "dur": 5.953,
+   "trim": 0.216
+  },
+  {
+   "id": "s16_05",
+   "text": "The lesson is not that international expansion is inherently dangerous.",
+   "scene": 16,
+   "t": 683.52,
+   "local": 22.7,
+   "dur": 4.176,
+   "trim": 0.193
+  },
+  {
+   "id": "s16_06",
+   "text": "It is that brand recognition cannot replace operational readiness.",
+   "scene": 16,
+   "t": 688.146,
+   "local": 27.326,
+   "dur": 4.349,
+   "trim": 0.198
+  },
+  {
+   "id": "s16_07",
+   "text": "A successful formula does not automatically survive a new market.",
+   "scene": 16,
+   "t": 692.945,
+   "local": 32.125,
+   "dur": 3.982,
+   "trim": 0.195
+  },
+  {
+   "id": "s16_08",
+   "text": "And every brand leaves evidence.",
+   "scene": 16,
+   "t": 697.377,
+   "local": 36.557,
+   "dur": 1.962,
+   "trim": 0.22
+  }
+ ]
+}
