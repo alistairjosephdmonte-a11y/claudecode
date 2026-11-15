@@ -29,6 +29,14 @@ claudecode/
 
 Update this section once the actual structure is established.
 
+### `footage-studio/`
+
+A separate product living in this repository: a local desktop app that AI-tags video footage. Read `footage-studio/HANDOVER.md` before changing it; its trust rules (non-destructive by default, consent before any frames leave the machine, session-only API key, no cost numbers in user-facing text) are not negotiable. Standard library only, Python 3.9+.
+
+```bash
+cd footage-studio && python3 -m unittest discover -s tests -t .
+```
+
 ---
 
 ## Development Workflow

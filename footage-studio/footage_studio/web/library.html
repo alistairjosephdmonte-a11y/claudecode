@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Library · Footage Studio</title>
+<style>
+  :root { --ink:#1a1a1a; --muted:#5c564d; --line:#d9d3c7; --bg:#faf8f4; --accent:#a8480f; --danger:#9b1c1c; --ok:#1d6b3a; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--ink); line-height:1.4; }
+  header { padding:22px 20px 10px; }
+  header a { color:var(--accent); font-size:14px; }
+  h1 { font-size:24px; letter-spacing:-.5px; margin-top:6px; }
+  .sub { color:var(--muted); font-size:14px; margin-top:4px; }
+  .notice { margin:8px 20px 0; padding:10px 14px; border:1px solid var(--danger); border-radius:10px; background:#fff; font-size:14px; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; padding:12px 20px; list-style:none; }
+  .chip { font:inherit; font-size:13px; background:#fff; color:var(--ink); border:1px solid #8a8377; border-radius:999px; padding:6px 12px; cursor:pointer; }
+  .chip b { color:var(--accent); }
+  .chip[aria-pressed=true] { background:var(--ink); color:#fff; border-color:var(--ink); }
+  .chip[aria-pressed=true] b { color:#ffc7a3; }
+  .bar { position:sticky; top:0; background:var(--bg); padding:10px 20px; border-bottom:1px solid var(--line); display:flex; flex-wrap:wrap; gap:8px; z-index:5; }
+  .bar input, .bar select, .edit input, .edit select { font:inherit; font-size:14px; padding:7px 10px; border:1px solid #8a8377; border-radius:8px; background:#fff; color:var(--ink); }
+  .bar input { flex:1; min-width:180px; }
+  .sr { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(190px,1fr)); gap:14px; padding:16px 20px 30px; list-style:none; }
+  .card { font:inherit; text-align:left; width:100%; background:#fff; color:var(--ink); border:1px solid var(--line); border-radius:12px; overflow:hidden; cursor:pointer; padding:0; display:block; }
+  .card:hover { border-color:var(--ink); }
+  .card img { width:100%; aspect-ratio:16/10; object-fit:cover; display:block; background:#ddd; }
+  .card .body { display:block; padding:9px 11px 11px; }
+  .card .desc { display:block; font-size:13px; min-height:2.8em; }
+  .card .meta { display:flex; justify-content:space-between; gap:8px; margin-top:6px; font-size:12px; color:var(--muted); }
+  .badge { background:#f0ece3; color:var(--ink); border-radius:6px; padding:1px 7px; }
+  .stars { color:var(--accent); letter-spacing:1px; white-space:nowrap; }
+  .empty { padding:50px 20px; text-align:center; color:var(--muted); }
+  :focus-visible { outline:3px solid #1f5fbf; outline-offset:2px; }
+  dialog { margin:auto; border:none; border-radius:14px; padding:0; max-width:min(860px,94vw); width:100%; color:var(--ink); }
+  dialog::backdrop { background:rgba(0,0,0,.65); }
+  dialog video { width:100%; max-height:60vh; background:#000; display:block; }
+  .info { padding:14px 18px 18px; font-size:14px; }
+  .info h2 { font-size:16px; }
+  .info .path { color:var(--muted); font-size:12px; margin-top:4px; word-break:break-all; }
+  .edit { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-top:12px; }
+  .edit label { display:block; font-size:12px; color:var(--muted); }
+  .edit .wide { grid-column:1 / -1; }
+  .edit input, .edit select { width:100%; margin-top:3px; }
+  .row { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; align-items:center; }
+  button.act { font:inherit; font-size:14px; padding:9px 15px; border:1px solid var(--ink); border-radius:9px; background:var(--ink); color:#fff; cursor:pointer; }
+  button.act.quiet { background:#f0ece3; color:var(--ink); border-color:#8a8377; }
+  .msg { font-size:13px; }
+  .msg.error { color:var(--danger); font-weight:600; }
+  .msg.ok { color:var(--ok); }
+  details { margin:0 20px 50px; font-size:14px; }
+  details li { margin:4px 0 0 18px; }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<header>
+  <a href="/">← Back to Footage Studio</a>
+  <h1 id="title">Library</h1>
+  <p class="sub" id="totals" role="status" aria-live="polite"></p>
+</header>
+<p class="notice" id="demoNotice" hidden>Some clips here have <strong>demo tags</strong>. Demo tags are fake and say nothing about the footage. Run AI tagging to replace them.</p>
+<ul class="chips" id="chips" aria-label="Filter by bucket"></ul>
+<div class="bar" role="search">
+  <label class="sr" for="q">Search descriptions and file names</label>
+  <input id="q" type="search" placeholder="Search descriptions, files, cameras…">
+  <label class="sr" for="fSetting">Setting</label>
+  <select id="fSetting"><option value="">Setting: all</option></select>
+  <label class="sr" for="fSource">Source folder</label>
+  <select id="fSource"><option value="">Source: all</option></select>
+  <label class="sr" for="fKeeper">Keeper hint</label>
+  <select id="fKeeper">
+    <option value="">Keeper: all</option>
+    <option value="5">Keeper 5</option>
+    <option value="4">Keeper 4 and up</option>
+    <option value="3">Keeper 3 and up</option>
+  </select>
+  <label class="sr" for="sort">Sort order</label>
+  <select id="sort">
+    <option value="name">By folder and name</option>
+    <option value="keeper">Best keepers first</option>
+    <option value="date_desc">Newest first</option>
+    <option value="date_asc">Oldest first</option>
+  </select>
+</div>
+<ul class="grid" id="grid"></ul>
+<p class="empty" id="empty" hidden>No clips match those filters.</p>
+<details id="skippedBox" hidden>
+  <summary id="skippedSummary"></summary>
+  <ul id="skippedList"></ul>
+</details>
+
+<dialog id="player" aria-labelledby="pTitle">
+  <video id="vid" controls playsinline></video>
+  <div class="info">
+    <h2 id="pTitle"></h2>
+    <p class="path" id="pPath"></p>
+    <p class="msg error" id="pPlayError" hidden>This format can't be played in the browser. Use “Show in folder” to open it in your player or editor.</p>
+    <form class="edit" id="editForm">
+      <label>Bucket<select id="eBucket"></select></label>
+      <label>Setting<select id="eSetting"></select></label>
+      <label>Keeper hint (1 to 5)<select id="eKeeper"></select></label>
+      <label class="wide">Description<input type="text" id="eDesc" maxlength="200"></label>
+    </form>
+    <div class="row">
+      <button type="submit" form="editForm" class="act">Save correction</button>
+      <button type="button" class="act quiet" id="pReveal">Show in folder</button>
+      <button type="button" class="act quiet" id="pClose">Close</button>
+      <span class="msg" id="pMsg" role="status"></span>
+    </div>
+  </div>
+</dialog>
+
+<script>
+const $ = id => document.getElementById(id);
+let clips = [], buckets = [], bucketFilter = '', current = null;
+
+async function post(path, body) {
+  const response = await fetch(path, {method: 'POST', body: JSON.stringify(body),
+    headers: {'Content-Type': 'application/json', 'X-Footage-Studio': '1'}});
+  return response.json();
+}
+function el(tag, className, text) {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text !== undefined) node.textContent = text;
+  return node;
+}
+function fillSelect(select, values, keepFirst) {
+  while (select.options.length > (keepFirst ? 1 : 0)) select.remove(select.options.length - 1);
+  for (const value of values) select.appendChild(new Option(value, value));
+}
+const fmtDur = s => s ? Math.floor(s / 60) + ':' + String(Math.round(s % 60)).padStart(2, '0') : '';
+function fmtTotal(s) {
+  const h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60);
+  return h ? `${h}h ${m}m` : `${m}m ${Math.round(s % 60)}s`;
+}
+
+function renderChips() {
+  const counts = {};
+  for (const c of clips) counts[c.bucket] = (counts[c.bucket] || 0) + 1;
+  const list = [['', 'All', clips.length]].concat(
+    Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([name, n]) => [name, name, n]));
+  $('chips').replaceChildren(...list.map(([value, label, n]) => {
+    const button = el('button', 'chip');
+    button.type = 'button';
+    button.setAttribute('aria-pressed', String(bucketFilter === value));
+    button.append(label + ' ', el('b', '', String(n)));
+    button.onclick = () => { bucketFilter = value; renderChips(); render(); };
+    const item = el('li');
+    item.appendChild(button);
+    return item;
+  }));
+}
+
+function matches(c) {
+  if (bucketFilter && c.bucket !== bucketFilter) return false;
+  if ($('fSetting').value && c.setting !== $('fSetting').value) return false;
+  if ($('fSource').value && c.source_folder !== $('fSource').value) return false;
+  if ($('fKeeper').value && (c.keeper || 0) < +$('fKeeper').value) return false;
+  const q = $('q').value.trim().toLowerCase();
+  if (!q) return true;
+  const hay = [c.description, c.file, c.bucket, c.setting, c.rel_path].join(' ').toLowerCase();
+  return q.split(/\s+/).every(word => hay.includes(word));
+}
+
+function render() {
+  const list = clips.filter(matches);
+  const order = $('sort').value;
+  list.sort((a, b) =>
+    order === 'keeper' ? (b.keeper || 0) - (a.keeper || 0) || a.rel_path.localeCompare(b.rel_path)
+    : order === 'date_asc' ? String(a.date).localeCompare(String(b.date))
+    : order === 'date_desc' ? String(b.date).localeCompare(String(a.date))
+    : a.rel_path.localeCompare(b.rel_path));
+  $('totals').textContent = `${list.length} of ${clips.length} clips · ` +
+    `${fmtTotal(list.reduce((t, c) => t + (c.duration || 0), 0))} of footage`;
+  $('empty').hidden = list.length > 0;
+  $('grid').replaceChildren(...list.map(c => {
+    const card = el('button', 'card');
+    card.type = 'button';
+    card.setAttribute('aria-label',
+      `${c.description || c.file}. ${c.bucket}, keeper ${c.keeper} of 5. Play and edit.`);
+    const img = el('img');
+    img.loading = 'lazy';
+    img.alt = '';
+    img.src = '/thumb/' + c.id;
+    const body = el('span', 'body');
+    const top = el('span', 'meta');
+    top.append(el('span', 'badge', c.bucket), el('span', 'stars', '★'.repeat(c.keeper) + '☆'.repeat(5 - c.keeper)));
+    const bottom = el('span', 'meta');
+    bottom.append(el('span', '', c.source_folder || ''), el('span', '', fmtDur(c.duration)));
+    body.append(el('span', 'desc', c.description || c.file), top, bottom);
+    card.append(img, body);
+    card.onclick = () => openClip(c);
+    const item = el('li');
+    item.appendChild(card);
+    return item;
+  }));
+}
+
+function openClip(c) {
+  current = c;
+  $('pTitle').textContent = c.file;
+  $('pPath').textContent = [c.sorted_path || c.rel_path, c.date,
+    c.width && c.height ? `${c.width}×${c.height}` : '', c.hdr ? 'HDR' : '',
+    c.tagger === 'demo' ? 'demo tags (fake)' : 'AI tags', c.edited ? 'corrected by you' : '']
+    .filter(Boolean).join(' · ');
+  $('eBucket').value = c.bucket;
+  $('eSetting').value = c.setting;
+  $('eKeeper').value = String(c.keeper);
+  $('eDesc').value = c.description || '';
+  $('pMsg').textContent = '';
+  $('pPlayError').hidden = true;
+  $('vid').src = '/media/' + c.id;
+  $('player').showModal();
+}
+$('vid').addEventListener('error', () => { if ($('vid').getAttribute('src')) $('pPlayError').hidden = false; });
+$('player').addEventListener('close', () => { $('vid').pause(); $('vid').removeAttribute('src'); $('vid').load(); });
+$('pClose').onclick = () => $('player').close();
+$('pReveal').onclick = async () => {
+  const result = await post('/api/reveal', {id: current.id});
+  if (!result.ok) { $('pMsg').textContent = result.error; $('pMsg').className = 'msg error'; }
+};
+$('editForm').onsubmit = async event => {
+  event.preventDefault();
+  const result = await post('/api/clip', {id: current.id, bucket: $('eBucket').value,
+    setting: $('eSetting').value, keeper: +$('eKeeper').value, description: $('eDesc').value});
+  $('pMsg').textContent = result.ok ? 'Saved.' : result.error;
+  $('pMsg').className = 'msg ' + (result.ok ? 'ok' : 'error');
+  if (!result.ok) return;
+  Object.assign(current, result.clip);
+  renderChips();
+  render();
+};
+for (const id of ['q', 'fSetting', 'fSource', 'fKeeper', 'sort']) $(id).addEventListener('input', render);
+
+(async () => {
+  const data = await (await fetch('/api/clips')).json();
+  if (data.error) { $('totals').textContent = data.error + ' Go back and choose a project folder.'; return; }
+  clips = data.clips;
+  buckets = data.buckets;
+  document.title = `${data.project} · Footage Studio`;
+  $('title').textContent = data.project;
+  $('demoNotice').hidden = !clips.some(c => c.tagger === 'demo');
+  fillSelect($('fSetting'), data.settings, true);
+  fillSelect($('fSource'), [...new Set(clips.map(c => c.source_folder).filter(Boolean))].sort(), true);
+  fillSelect($('eBucket'), buckets);
+  fillSelect($('eSetting'), data.settings);
+  fillSelect($('eKeeper'), ['1', '2', '3', '4', '5']);
+  if (data.skipped.length) {
+    $('skippedBox').hidden = false;
+    $('skippedSummary').textContent = `${data.skipped.length} clip(s) were skipped`;
+    $('skippedList').replaceChildren(...data.skipped.map(s => el('li', '', `${s.rel_path}: ${s.note}`)));
+  }
+  renderChips();
+  render();
+})();
+</script>
+</body>
+</html>

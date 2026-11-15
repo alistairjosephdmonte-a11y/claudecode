@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Footage Studio</title>
+<style>
+  :root { --ink:#1a1a1a; --muted:#5c564d; --line:#d9d3c7; --bg:#faf8f4; --card:#fff; --accent:#a8480f; --danger:#9b1c1c; --ok:#1d6b3a; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--ink); line-height:1.45; }
+  main { max-width:720px; margin:0 auto; padding:28px 18px 60px; }
+  h1 { font-size:26px; letter-spacing:-.5px; }
+  .sub { color:var(--muted); font-size:14px; margin:4px 0 18px; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px 18px; margin-bottom:14px; }
+  h2 { font-size:16px; margin-bottom:8px; }
+  label, legend { display:block; font-size:13px; color:var(--muted); margin:10px 0 4px; }
+  fieldset { border:none; padding:0; }
+  input[type=text], input[type=password], select, textarea { width:100%; font:inherit; font-size:14px; padding:9px 11px; border:1px solid #8a8377; border-radius:8px; background:#fff; color:var(--ink); }
+  textarea { min-height:150px; resize:vertical; }
+  .choice { display:flex; gap:9px; align-items:flex-start; font-size:14px; color:var(--ink); margin:8px 0; }
+  .choice input { margin-top:3px; }
+  button { font:inherit; font-size:14px; padding:10px 16px; border:1px solid var(--ink); border-radius:9px; background:var(--ink); color:#fff; cursor:pointer; }
+  button.quiet { background:#f0ece3; color:var(--ink); border-color:#8a8377; }
+  button.danger { background:#fff; color:var(--danger); border-color:var(--danger); }
+  button:disabled { opacity:.45; cursor:not-allowed; }
+  :focus-visible { outline:3px solid #1f5fbf; outline-offset:2px; }
+  .row { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:12px; }
+  .row input[type=text] { flex:1; min-width:200px; }
+  .note { font-size:13px; color:var(--muted); margin-top:8px; }
+  .msg { font-size:14px; margin-top:10px; }
+  .msg.error { color:var(--danger); font-weight:600; }
+  .msg.ok { color:var(--ok); }
+  .banner { border-color:var(--danger); }
+  pre { background:#171412; color:#e4ded3; font:12px/1.6 ui-monospace,Menlo,monospace; border-radius:10px; padding:12px 14px; height:220px; overflow:auto; white-space:pre-wrap; margin-top:10px; }
+  progress { width:100%; height:14px; margin-top:6px; }
+  a { color:var(--accent); }
+  .links { display:flex; gap:18px; flex-wrap:wrap; font-size:15px; }
+  dialog { margin:auto; border:none; border-radius:14px; padding:22px; max-width:min(520px,92vw); color:var(--ink); }
+  dialog::backdrop { background:rgba(0,0,0,.6); }
+  dialog h2 { font-size:18px; }
+  dialog p { font-size:14px; margin-top:10px; }
+  footer { text-align:center; margin-top:20px; }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Footage Studio</h1>
+  <p class="sub">Point it at one project folder (a wedding, a shoot) and it builds a searchable clip library. Your original files are never moved or changed unless you ask.</p>
+
+  <section id="toolsCard" class="banner" hidden>
+    <h2>ffmpeg is needed</h2>
+    <p class="msg">Footage Studio reads clips with a free tool called ffmpeg, and it isn't installed on this computer yet. Install Homebrew from brew.sh, run <code>brew install ffmpeg</code>, then open Footage Studio again.</p>
+  </section>
+
+  <section aria-labelledby="h-project">
+    <h2 id="h-project">1 · Project folder</h2>
+    <label for="folder">Folder that holds the footage for one project</label>
+    <div class="row" style="margin-top:0">
+      <input type="text" id="folder" autocomplete="off" spellcheck="false" placeholder="/Volumes/SSD/Sharma x Patel Wedding">
+      <button type="button" class="quiet" id="btnPick" hidden>Choose folder…</button>
+      <button type="button" id="btnOpen">Open</button>
+    </div>
+    <p class="note">No footage handy? <button type="button" class="quiet" id="btnSamples" style="padding:4px 10px">Try it with sample clips</button></p>
+    <p class="msg" id="projectMsg" role="status"></p>
+  </section>
+
+  <div id="projectArea" hidden>
+    <section aria-labelledby="h-type">
+      <h2 id="h-type">2 · Footage type</h2>
+      <label for="preset">Start from a preset</label>
+      <select id="preset"></select>
+      <label for="buckets">Buckets, one per line. Edit them to match how your studio talks about footage.</label>
+      <textarea id="buckets" spellcheck="false"></textarea>
+      <p class="note">“other” is always kept as the catch-all.</p>
+    </section>
+
+    <section aria-labelledby="h-tag">
+      <h2 id="h-tag">3 · Tagging</h2>
+      <fieldset>
+        <legend>How should clips be tagged?</legend>
+        <label class="choice"><input type="radio" name="mode" value="demo" checked>
+          <span><strong>Demo mode.</strong> Fake tags, no API key. Nothing leaves this computer. Use it to try the app.</span></label>
+        <label class="choice"><input type="radio" name="mode" value="ai">
+          <span><strong>AI tagging.</strong> Sends a few small preview frames per clip to Anthropic. You will be shown exactly what is sent and asked to confirm first.</span></label>
+      </fieldset>
+      <div id="keyArea" hidden>
+        <label for="key">Anthropic API key. Used for this session only and never saved.</label>
+        <input type="password" id="key" autocomplete="off" spellcheck="false" placeholder="sk-ant-…">
+      </div>
+      <label class="choice"><input type="checkbox" id="rescan">
+        <span>Re-tag clips that are already tagged. Use this after changing the buckets. Your manual corrections are kept.</span></label>
+      <div class="row">
+        <button type="button" id="btnTest">Test run</button>
+        <button type="button" class="quiet" id="btnAll">Tag the whole project</button>
+      </div>
+      <p class="note">Start with the test run and check the buckets before tagging everything. Clips that are already tagged are skipped, so a stopped run picks up where it left off.</p>
+      <p class="msg" id="runMsg" role="status"></p>
+    </section>
+
+    <section aria-labelledby="h-progress" id="progressCard" hidden>
+      <h2 id="h-progress">Progress</h2>
+      <p class="msg" id="progressText" role="status" aria-live="polite"></p>
+      <progress id="bar" max="1" value="0" aria-labelledby="h-progress"></progress>
+      <pre id="log" tabindex="0" aria-label="Run log"></pre>
+      <div class="row"><button type="button" class="quiet" id="btnStop">Stop</button></div>
+    </section>
+
+    <section aria-labelledby="h-library" id="libraryCard" hidden>
+      <h2 id="h-library">Your library</h2>
+      <p class="msg" id="libraryText"></p>
+      <p class="links" style="margin-top:10px">
+        <a href="/library">Open the library</a>
+        <a href="/manifest.csv">Download manifest.csv</a>
+      </p>
+      <h2 style="margin-top:18px">Filing (optional)</h2>
+      <p class="note" style="margin-top:0">Filing moves each tagged clip into <strong>Sorted / bucket / its original camera folders</strong>, together with its sidecar files. Nothing is copied or re-encoded, every move is logged, and Undo puts every file back.</p>
+      <div class="row">
+        <button type="button" class="quiet" id="btnFile">File clips into Sorted folders…</button>
+        <button type="button" class="danger" id="btnUndo" hidden>Undo filing</button>
+      </div>
+      <p class="msg" id="fileMsg" role="status"></p>
+    </section>
+  </div>
+
+  <footer><button type="button" class="quiet" id="btnQuit">Quit Footage Studio</button></footer>
+</main>
+
+<dialog id="consentDialog" aria-labelledby="consentTitle">
+  <h2 id="consentTitle">Before anything is sent</h2>
+  <p id="consentText"></p>
+  <p>Nothing has been sent yet. If you cancel, nothing will be.</p>
+  <div class="row">
+    <button type="button" class="quiet" id="consentNo" autofocus>Cancel, send nothing</button>
+    <button type="button" id="consentYes">Send preview frames</button>
+  </div>
+</dialog>
+
+<dialog id="fileDialog" aria-labelledby="fileTitle">
+  <h2 id="fileTitle">File clips into Sorted folders?</h2>
+  <p id="fileText"></p>
+  <p>This moves your original files inside the project folder. You can put everything back with “Undo filing”.</p>
+  <div class="row">
+    <button type="button" class="quiet" id="fileNo" autofocus>Cancel, move nothing</button>
+    <button type="button" id="fileYes">Move the clips</button>
+  </div>
+</dialog>
+
+<script>
+const $ = id => document.getElementById(id);
+let state = null, pending = null, polling = false;
+
+async function api(path, body) {
+  const options = body === undefined ? {} : {
+    method: 'POST', body: JSON.stringify(body),
+    headers: {'Content-Type': 'application/json', 'X-Footage-Studio': '1'}};
+  const response = await fetch(path, options);
+  return response.json();
+}
+function say(id, text, kind) {
+  $(id).textContent = text || '';
+  $(id).className = 'msg' + (kind ? ' ' + kind : '');
+}
+const mode = () => document.querySelector('input[name=mode]:checked').value;
+const bucketList = () => $('buckets').value.split('\n').map(s => s.trim()).filter(Boolean);
+
+function showProject(project, loadSettings) {
+  state.project = project;
+  $('projectArea').hidden = !project;
+  if (!project) return;
+  $('folder').value = project.folder;
+  say('projectMsg', `${project.name}: ${project.found} clips found, ${project.tagged} already tagged.`, 'ok');
+  if (loadSettings) {
+    $('preset').value = project.preset;
+    $('buckets').value = project.buckets.join('\n');
+  }
+  $('libraryCard').hidden = project.tagged + project.skipped === 0;
+  let text = `${project.tagged} clips in the library`;
+  if (project.skipped) text += `, ${project.skipped} skipped (listed in the manifest)`;
+  if (project.demo_tagged) text += `. ${project.demo_tagged} have demo tags, which are fake; AI tagging will replace them`;
+  if (project.filed) text += `. ${project.filed} filed into Sorted`;
+  $('libraryText').textContent = text + '.';
+  $('btnUndo').hidden = project.filed === 0;
+  $('btnFile').disabled = state.job.running || project.tagged - project.filed === 0;
+}
+
+function showJob(job) {
+  const busy = job.running;
+  for (const id of ['btnTest', 'btnAll', 'btnOpen', 'btnSamples', 'btnPick', 'btnUndo'])
+    $(id).disabled = busy;
+  $('btnStop').disabled = !busy;
+  if (!job.kind) return;
+  $('progressCard').hidden = false;
+  const log = $('log');
+  log.textContent = job.lines.join('\n');
+  log.scrollTop = log.scrollHeight;
+  $('bar').max = job.total || 1;
+  $('bar').value = job.done;
+  $('progressText').textContent = busy
+    ? (job.total ? `Tagging clip ${Math.min(job.done + 1, job.total)} of ${job.total}…` : 'Starting…')
+    : (job.error ? `Stopped: ${job.error}` : 'Finished.');
+}
+
+async function refresh() {
+  state = await api('/api/state');
+  showJob(state.job);
+  showProject(state.project, false);
+  return state;
+}
+async function poll() {
+  if (polling) return;
+  polling = true;
+  while ((await refresh()).job.running) await new Promise(r => setTimeout(r, 800));
+  polling = false;
+}
+
+async function openProject(result) {
+  if (!result.ok) { say('projectMsg', result.error, 'error'); return; }
+  showProject(result.project, true);
+  $('h-type').scrollIntoView({behavior: 'smooth', block: 'center'});
+}
+
+async function startRun(testRun) {
+  const options = {preset: $('preset').value, buckets: bucketList(), mode: mode(),
+                   rescan: $('rescan').checked, test_run: testRun};
+  if (options.mode === 'ai' && !$('key').value.trim()) {
+    say('runMsg', 'Enter your Anthropic API key, or switch to demo mode.', 'error');
+    $('key').focus();
+    return;
+  }
+  const preview = await api('/api/preview-run', options);
+  if (!preview.ok) { say('runMsg', preview.error, 'error'); return; }
+  if (preview.count === 0) {
+    say('runMsg', 'Nothing to tag: every clip is already tagged. Tick “Re-tag” to tag them again.');
+    return;
+  }
+  say('runMsg', '');
+  if (options.mode === 'ai') {
+    pending = options;
+    $('consentText').textContent = preview.egress;
+    $('consentDialog').showModal();
+  } else {
+    await sendRun(options);
+  }
+}
+async function sendRun(options) {
+  const result = await api('/api/run', options);
+  if (!result.ok) { say('runMsg', result.error, 'error'); return; }
+  $('progressCard').hidden = false;
+  poll();
+  $('h-progress').scrollIntoView({behavior: 'smooth', block: 'center'});
+}
+
+$('btnOpen').onclick = async () => openProject(await api('/api/project', {folder: $('folder').value}));
+$('folder').addEventListener('keydown', e => { if (e.key === 'Enter') $('btnOpen').click(); });
+$('btnPick').onclick = async () => {
+  const picked = await api('/api/pick-folder', {});
+  if (picked.folder) openProject(await api('/api/project', {folder: picked.folder}));
+};
+$('btnSamples').onclick = async () => {
+  say('projectMsg', 'Making sample clips…');
+  openProject(await api('/api/samples', {}));
+};
+$('preset').onchange = () => { $('buckets').value = state.presets[$('preset').value].join('\n'); };
+for (const radio of document.querySelectorAll('input[name=mode]'))
+  radio.onchange = () => { $('keyArea').hidden = mode() !== 'ai'; };
+$('btnTest').onclick = () => startRun(true);
+$('btnAll').onclick = () => startRun(false);
+$('btnStop').onclick = () => api('/api/stop', {});
+$('consentNo').onclick = () => { pending = null; $('consentDialog').close(); say('runMsg', 'Cancelled. Nothing was sent.'); };
+$('consentDialog').addEventListener('cancel', () => { pending = null; say('runMsg', 'Cancelled. Nothing was sent.'); });
+$('consentYes').onclick = async () => {
+  $('consentDialog').close();
+  const options = Object.assign({}, pending, {api_key: $('key').value, consent: state.consent_phrase});
+  pending = null;
+  await sendRun(options);
+};
+$('btnFile').onclick = () => {
+  const count = state.project.tagged - state.project.filed;
+  $('fileText').textContent = `${count} tagged clip(s) and their sidecar files will be moved into the Sorted folder of “${state.project.name}”.`;
+  $('fileDialog').showModal();
+};
+$('fileNo').onclick = () => $('fileDialog').close();
+$('fileYes').onclick = async () => {
+  $('fileDialog').close();
+  const result = await api('/api/file', {confirm: 'file clips'});
+  if (!result.ok) { say('fileMsg', result.error, 'error'); return; }
+  showProject(result.project, false);
+  say('fileMsg', `Filed ${result.filed} clips into Sorted.`, 'ok');
+};
+$('btnUndo').onclick = async () => {
+  const result = await api('/api/undo', {});
+  if (!result.ok) { say('fileMsg', result.error, 'error'); return; }
+  showProject(result.project, false);
+  say('fileMsg', result.problems
+    ? `Moved ${result.restored} files back. ${result.problems} could not be restored because another file is in the way; they are still in Sorted.`
+    : `Moved ${result.restored} files back to where they came from.`, result.problems ? 'error' : 'ok');
+};
+$('btnQuit').onclick = async () => {
+  await api('/api/quit', {});
+  document.querySelector('main').innerHTML = '<h1>Footage Studio has quit</h1><p class="sub">You can close this window.</p>';
+};
+
+(async () => {
+  await refresh();
+  for (const [name, buckets] of Object.entries(state.presets)) {
+    const option = document.createElement('option');
+    option.value = name;
+    option.textContent = `${name} (${buckets.length} buckets)`;
+    $('preset').appendChild(option);
+  }
+  $('btnTest').textContent = `Test run · ${state.test_run_clips} clips`;
+  $('btnPick').hidden = !state.can_pick_folder;
+  $('toolsCard').hidden = state.missing_tools.length === 0;
+  showProject(state.project, true);
+  if (state.job.running) poll();
+})();
+</script>
+</body>
+</html>
