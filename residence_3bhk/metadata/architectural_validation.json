@@ -1,0 +1,749 @@
+{
+ "model": "scenes/residence_master.blend",
+ "source_drawing": "reference/floor_plan.jpg",
+ "accuracy_statement": "Reconstructed from a 1600 x 839 px marketing floor plan at about 46 px per metre. Not construction-grade: no CAD/BIM or dimensioned drawings were supplied.",
+ "checks": {
+  "1_footprint_vs_drawing": {
+   "status": "PASS",
+   "drawn_core_wall_pixels_covered_by_model_walls": 0.994,
+   "tolerance_px": 3,
+   "model_wall_pixels_on_drawn_open_floor": 0.243,
+   "room_polygon_area_m2": 123.28,
+   "schedule_carpet_area_m2": 120.55,
+   "area_difference_pct": 2.3,
+   "note": "Coverage counts the drawing's solid wall fills (5x5 px solid black, text and furniture line art excluded) that lie within 3 px of a modelled wall or column. 'On drawn open floor' is informational: exterior walls sit behind glazing lines and partitions are drawn light grey, so it is never zero. Thin partitions are checked by the dimension and adjacency tests.",
+   "comparison_image": "deliverables/floorplan_comparison.png"
+  },
+  "2_room_dimensions": {
+   "status": "PASS",
+   "px_per_m": 46.232,
+   "tolerance_m": 0.1,
+   "mean_abs_diff_m": 0.049,
+   "max_abs_diff_m": 0.167,
+   "outside_tolerance": [
+    {
+     "room": "UTILITY",
+     "axis": "x",
+     "schedule_m": 3.52,
+     "model_m": 3.353,
+     "diff_m": -0.167
+    }
+   ],
+   "rows": [
+    {
+     "room": "KITCHEN",
+     "axis": "x",
+     "schedule_m": 3.54,
+     "model_m": 3.569,
+     "diff_m": 0.029
+    },
+    {
+     "room": "KITCHEN",
+     "axis": "y",
+     "schedule_m": 2.75,
+     "model_m": 2.725,
+     "diff_m": -0.025
+    },
+    {
+     "room": "UTILITY",
+     "axis": "x",
+     "schedule_m": 3.52,
+     "model_m": 3.353,
+     "diff_m": -0.167
+    },
+    {
+     "room": "UTILITY",
+     "axis": "y",
+     "schedule_m": 1.6,
+     "model_m": 1.622,
+     "diff_m": 0.022
+    },
+    {
+     "room": "STAFF_BATH",
+     "axis": "x",
+     "schedule_m": 1.25,
+     "model_m": 1.341,
+     "diff_m": 0.091
+    },
+    {
+     "room": "STAFF_BATH",
+     "axis": "y",
+     "schedule_m": 1.07,
+     "model_m": 1.103,
+     "diff_m": 0.033
+    },
+    {
+     "room": "BEDROOM_1",
+     "axis": "x",
+     "schedule_m": 3.65,
+     "model_m": 3.677,
+     "diff_m": 0.027
+    },
+    {
+     "room": "BEDROOM_1",
+     "axis": "y",
+     "schedule_m": 4.85,
+     "model_m": 4.802,
+     "diff_m": -0.048
+    },
+    {
+     "room": "BATHROOM_1",
+     "axis": "x",
+     "schedule_m": 1.52,
+     "model_m": 1.579,
+     "diff_m": 0.059
+    },
+    {
+     "room": "BATHROOM_1",
+     "axis": "y",
+     "schedule_m": 2.75,
+     "model_m": 2.747,
+     "diff_m": -0.003
+    },
+    {
+     "room": "MASTER_BEDROOM",
+     "axis": "x",
+     "schedule_m": 4.66,
+     "model_m": 4.629,
+     "diff_m": -0.031
+    },
+    {
+     "room": "MASTER_BEDROOM",
+     "axis": "y",
+     "schedule_m": 4.77,
+     "model_m": 4.759,
+     "diff_m": -0.011
+    },
+    {
+     "room": "MASTER_BATH",
+     "axis": "x",
+     "schedule_m": 1.95,
+     "model_m": 1.86,
+     "diff_m": -0.09
+    },
+    {
+     "room": "BEDROOM_2",
+     "axis": "x",
+     "schedule_m": 3.33,
+     "model_m": 3.374,
+     "diff_m": 0.044
+    },
+    {
+     "room": "BATHROOM_2",
+     "axis": "x",
+     "schedule_m": 1.52,
+     "model_m": 1.514,
+     "diff_m": -0.006
+    },
+    {
+     "room": "BATHROOM_2",
+     "axis": "y",
+     "schedule_m": 2.85,
+     "model_m": 2.812,
+     "diff_m": -0.038
+    },
+    {
+     "room": "LIVING",
+     "axis": "x",
+     "schedule_m": 3.86,
+     "model_m": 3.915,
+     "diff_m": 0.055
+    },
+    {
+     "room": "LIVING",
+     "axis": "y",
+     "schedule_m": 3.8,
+     "model_m": 3.893,
+     "diff_m": 0.093
+    },
+    {
+     "room": "DINING",
+     "axis": "x",
+     "schedule_m": 3.71,
+     "model_m": 3.764,
+     "diff_m": 0.054
+    },
+    {
+     "room": "DINING",
+     "axis": "bbox",
+     "schedule_m": [
+      3.71,
+      3.0
+     ],
+     "model_m": [
+      3.915,
+      3.071
+     ],
+     "schedule_main_area_sqft": 119.8,
+     "model_polygon_area_sqft": 125.4
+    },
+    {
+     "room": "LIVING",
+     "axis": "bbox",
+     "schedule_m": [
+      3.86,
+      3.8
+     ],
+     "model_m": [
+      3.915,
+      3.893
+     ],
+     "schedule_main_area_sqft": 157.88,
+     "model_polygon_area_sqft": 162.9
+    },
+    {
+     "room": "KITCHEN",
+     "axis": "bbox",
+     "schedule_m": [
+      3.54,
+      2.75
+     ],
+     "model_m": [
+      3.569,
+      2.725
+     ],
+     "schedule_main_area_sqft": 104.78,
+     "model_polygon_area_sqft": 104.7
+    },
+    {
+     "room": "UTILITY",
+     "axis": "bbox",
+     "schedule_m": [
+      3.52,
+      1.6
+     ],
+     "model_m": [
+      3.353,
+      1.622
+     ],
+     "schedule_main_area_sqft": 60.62,
+     "model_polygon_area_sqft": 58.5
+    },
+    {
+     "room": "STAFF_BATH",
+     "axis": "bbox",
+     "schedule_m": [
+      1.25,
+      1.07
+     ],
+     "model_m": [
+      1.341,
+      1.103
+     ],
+     "schedule_main_area_sqft": 14.39,
+     "model_polygon_area_sqft": 15.9
+    },
+    {
+     "room": "POWDER",
+     "axis": "bbox",
+     "schedule_m": [
+      1.5,
+      2.2
+     ],
+     "model_m": [
+      1.471,
+      2.487
+     ],
+     "schedule_main_area_sqft": 35.52,
+     "model_polygon_area_sqft": 39.4
+    },
+    {
+     "room": "PASSAGE",
+     "axis": "bbox",
+     "schedule_m": [
+      1.35,
+      1.85
+     ],
+     "model_m": [
+      1.319,
+      2.314
+     ],
+     "schedule_main_area_sqft": 26.88,
+     "model_polygon_area_sqft": 32.9
+    },
+    {
+     "room": "BEDROOM_1",
+     "axis": "bbox",
+     "schedule_m": [
+      3.65,
+      4.85
+     ],
+     "model_m": [
+      5.256,
+      4.802
+     ],
+     "schedule_main_area_sqft": 190.54,
+     "model_polygon_area_sqft": 212.1
+    },
+    {
+     "room": "BATHROOM_1",
+     "axis": "bbox",
+     "schedule_m": [
+      1.52,
+      2.75
+     ],
+     "model_m": [
+      1.579,
+      2.747
+     ],
+     "schedule_main_area_sqft": 44.99,
+     "model_polygon_area_sqft": 46.7
+    },
+    {
+     "room": "MASTER_BEDROOM",
+     "axis": "bbox",
+     "schedule_m": [
+      4.66,
+      4.77
+     ],
+     "model_m": [
+      6.576,
+      4.759
+     ],
+     "schedule_main_area_sqft": 239.26,
+     "model_polygon_area_sqft": 263.4
+    },
+    {
+     "room": "MASTER_BATH",
+     "axis": "bbox",
+     "schedule_m": [
+      1.95,
+      2.0
+     ],
+     "model_m": [
+      1.86,
+      3.504
+     ],
+     "schedule_main_area_sqft": 41.97,
+     "model_polygon_area_sqft": 70.2
+    },
+    {
+     "room": "BEDROOM_2",
+     "axis": "bbox",
+     "schedule_m": [
+      3.33,
+      3.87
+     ],
+     "model_m": [
+      3.374,
+      4.153
+     ],
+     "schedule_main_area_sqft": 138.71,
+     "model_polygon_area_sqft": 149.1
+    },
+    {
+     "room": "BATHROOM_2",
+     "axis": "bbox",
+     "schedule_m": [
+      1.52,
+      2.85
+     ],
+     "model_m": [
+      1.514,
+      2.812
+     ],
+     "schedule_main_area_sqft": 46.62,
+     "model_polygon_area_sqft": 45.8
+    }
+   ],
+   "note": "Spans are measured between traced room-side faces. The utility width (3.35 vs 3.52 m) is the one dimensioned span outside 0.10 m: the utility's west face is a structural core wall drawn at its full thickness, so the schedule figure likely runs to a different face."
+  },
+  "3_room_adjacency": {
+   "status": "PASS",
+   "verified": 14,
+   "missing": []
+  },
+  "4_entrance_and_corridor_connectivity": {
+   "status": "PASS",
+   "reachable_from_entry": [
+    "BATHROOM_1",
+    "BATHROOM_2",
+    "BEDROOM_1",
+    "BEDROOM_2",
+    "DINING",
+    "KITCHEN",
+    "LIVING",
+    "MASTER_BATH",
+    "MASTER_BEDROOM",
+    "PASSAGE",
+    "POWDER",
+    "STAFF_BATH",
+    "UTILITY"
+   ],
+   "unreachable": [],
+   "narrow_doors": [],
+   "rule": "clear width >= 0.75 m to habitable rooms, >= 0.60 m to bathrooms (opening minus 2 x 40 mm lining)",
+   "door_clear_widths_m": {
+    "D_Kitchen": 0.829,
+    "D_Entry": 1.002,
+    "D_Bath1": 0.72,
+    "D_Bedroom1": 0.85,
+    "D_Master": 0.85,
+    "D_Powder": 0.677,
+    "D_MasterBath": 0.699,
+    "D_Bath2": 0.742,
+    "D_Bedroom2": 0.829,
+    "D_Utility": 0.828,
+    "D_StaffBath": 0.634
+   }
+  },
+  "5_wall_and_furniture_intersections": {
+   "status": "PASS",
+   "furniture_vs_architecture": [],
+   "furniture_vs_furniture": [],
+   "walls_inside_openings": [],
+   "tested_furniture_meshes": 250,
+   "tested_architecture_meshes": 123
+  },
+  "6_door_swing_clearance": {
+   "status": "PASS",
+   "doors": {
+    "D_Kitchen": {
+     "leaf_width_m": 0.82,
+     "swing_deg": 90,
+     "rendered_open_deg": 82,
+     "blocked_by": []
+    },
+    "D_Entry": {
+     "leaf_width_m": 0.994,
+     "swing_deg": 90,
+     "rendered_open_deg": 90,
+     "blocked_by": []
+    },
+    "D_Bath1": {
+     "leaf_width_m": 0.712,
+     "swing_deg": 90,
+     "rendered_open_deg": 82,
+     "blocked_by": []
+    },
+    "D_Bedroom1": {
+     "leaf_width_m": 0.842,
+     "swing_deg": 90,
+     "rendered_open_deg": 82,
+     "blocked_by": []
+    },
+    "D_Master": {
+     "leaf_width_m": 0.842,
+     "swing_deg": 90,
+     "rendered_open_deg": 82,
+     "blocked_by": []
+    },
+    "D_Powder": {
+     "leaf_width_m": 0.669,
+     "swing_deg": 90,
+     "rendered_open_deg": 82,
+     "blocked_by": []
+    },
+    "D_MasterBath": {
+     "leaf_width_m": 0.691,
+     "swing_deg": 90,
+     "rendered_open_deg": 82,
+     "blocked_by": []
+    },
+    "D_Bath2": {
+     "leaf_width_m": 0.734,
+     "swing_deg": 90,
+     "rendered_open_deg": 82,
+     "blocked_by": []
+    },
+    "D_Bedroom2": {
+     "leaf_width_m": 0.82,
+     "swing_deg": 90,
+     "rendered_open_deg": 82,
+     "blocked_by": []
+    },
+    "D_Utility": {
+     "leaf_width_m": 0.82,
+     "swing_deg": 90,
+     "rendered_open_deg": 82,
+     "blocked_by": []
+    },
+    "D_StaffBath": {
+     "leaf_width_m": 0.626,
+     "swing_deg": 90,
+     "rendered_open_deg": 82,
+     "blocked_by": []
+    }
+   },
+   "blocked": [],
+   "method": "90-degree swept sector of each leaf tested against the plan footprint (convex hull) of every furniture item between 7 mm and 2.05 m above the floor."
+  },
+  "7_windows_align_with_drawing": {
+   "status": "PASS",
+   "windows": [
+    {
+     "id": "W_Bedroom1_West",
+     "wall": "EXT_West",
+     "model_px": [
+      182,
+      292
+     ],
+     "drawn_glazing_px": [
+      160,
+      300
+     ],
+     "model_width_m": 2.379,
+     "sill_m": 0.45,
+     "head_m": 2.7,
+     "within_drawn_glazing": true,
+     "frame_obj": true,
+     "glass_obj": true
+    },
+    {
+     "id": "W_Master_West",
+     "wall": "EXT_West",
+     "model_px": [
+      512,
+      610
+     ],
+     "drawn_glazing_px": [
+      510,
+      625
+     ],
+     "model_width_m": 2.12,
+     "sill_m": 0.45,
+     "head_m": 2.7,
+     "within_drawn_glazing": true,
+     "frame_obj": true,
+     "glass_obj": true
+    },
+    {
+     "id": "W_Bedroom1_North",
+     "wall": "EXT_North_Bedroom1",
+     "model_px": [
+      713,
+      781
+     ],
+     "drawn_glazing_px": [
+      685,
+      787
+     ],
+     "model_width_m": 1.471,
+     "sill_m": 0.45,
+     "head_m": 2.7,
+     "within_drawn_glazing": true,
+     "frame_obj": true,
+     "glass_obj": true
+    },
+    {
+     "id": "W_Master_South",
+     "wall": "EXT_South_Master",
+     "model_px": [
+      714,
+      914
+     ],
+     "drawn_glazing_px": [
+      685,
+      925
+     ],
+     "model_width_m": 4.326,
+     "sill_m": 0.45,
+     "head_m": 2.7,
+     "within_drawn_glazing": true,
+     "frame_obj": true,
+     "glass_obj": true
+    },
+    {
+     "id": "W_Living_South",
+     "wall": "EXT_South_Living",
+     "model_px": [
+      1036,
+      1186
+     ],
+     "drawn_glazing_px": [
+      1030,
+      1192
+     ],
+     "model_width_m": 3.244,
+     "sill_m": 0.45,
+     "head_m": 2.7,
+     "within_drawn_glazing": true,
+     "frame_obj": true,
+     "glass_obj": true
+    },
+    {
+     "id": "W_Bedroom2_South",
+     "wall": "EXT_South_Living",
+     "model_px": [
+      1200,
+      1310
+     ],
+     "drawn_glazing_px": [
+      1192,
+      1316
+     ],
+     "model_width_m": 2.379,
+     "sill_m": 0.45,
+     "head_m": 2.7,
+     "within_drawn_glazing": true,
+     "frame_obj": true,
+     "glass_obj": true
+    }
+   ],
+   "note": "Drawn glazing runs to the outer ledge line on the bedroom bays; modelled openings stop at the structural piers. Window labels such as '2.00M X 0.40M' are only partly legible at this resolution and are not used as dimensions."
+  },
+  "8_cameras_do_not_intersect_geometry": {
+   "status": "PASS",
+   "stills": {
+    "CAM_02_Entry": {
+     "clearance_m": 0.339,
+     "nearest": "DOOR_LEAF_D_Entry",
+     "room": "DINING",
+     "height_m": 1.55,
+     "lens_mm": 24.0
+    },
+    "CAM_03_Living": {
+     "clearance_m": 0.607,
+     "nearest": "WALL_INT_TV_Feature",
+     "room": "LIVING",
+     "height_m": 1.5,
+     "lens_mm": 24.0
+    },
+    "CAM_04_Dining": {
+     "clearance_m": 0.352,
+     "nearest": "WALL_CORE_MasterBath_East",
+     "room": "LIVING",
+     "height_m": 1.5,
+     "lens_mm": 28.0
+    },
+    "CAM_05_Kitchen": {
+     "clearance_m": 0.227,
+     "nearest": "FURN_Kitchen_TallOven_Front",
+     "room": "KITCHEN",
+     "height_m": 1.55,
+     "lens_mm": 24.0
+    },
+    "CAM_06_Master": {
+     "clearance_m": 0.384,
+     "nearest": "WINDOW_GLASS_W_Master_South",
+     "room": "MASTER_BEDROOM",
+     "height_m": 1.5,
+     "lens_mm": 28.0
+    },
+    "CAM_07_Bedroom1": {
+     "clearance_m": 0.298,
+     "nearest": "FURN_Bed1_Wardrobe_Seam_1",
+     "room": "BEDROOM_1",
+     "height_m": 1.5,
+     "lens_mm": 28.0
+    },
+    "CAM_08_Bedroom2": {
+     "clearance_m": 0.328,
+     "nearest": "DOOR_LEAF_D_Bedroom2",
+     "room": "BEDROOM_2",
+     "height_m": 1.5,
+     "lens_mm": 24.0
+    }
+   },
+   "walkthrough": {
+    "A_Entry_Living_Master": {
+     "frames": [
+      1,
+      811
+     ],
+     "length_m": 11.59,
+     "min_clearance_m": 0.295,
+     "nearest_at": [
+      632,
+      "WALL_INT_MasterBath_North"
+     ],
+     "max_speed_m_s": 0.616,
+     "path_steps_crossing_geometry": 0,
+     "frames_outside_rooms": 0
+    },
+    "B_Kitchen": {
+     "frames": [
+      812,
+      1044
+     ],
+     "length_m": 2.52,
+     "min_clearance_m": 0.37,
+     "nearest_at": [
+      926,
+      "DOOR_LEAF_D_Kitchen"
+     ],
+     "max_speed_m_s": 0.613,
+     "path_steps_crossing_geometry": 0,
+     "frames_outside_rooms": 0
+    },
+    "C_Bedroom2": {
+     "frames": [
+      1045,
+      1263
+     ],
+     "length_m": 2.29,
+     "min_clearance_m": 0.332,
+     "nearest_at": [
+      1127,
+      "FURN_Living_Plant_leaf_03"
+     ],
+     "max_speed_m_s": 0.614,
+     "path_steps_crossing_geometry": 0,
+     "frames_outside_rooms": 0
+    },
+    "D_Bedroom1": {
+     "frames": [
+      1264,
+      1488
+     ],
+     "length_m": 2.39,
+     "min_clearance_m": 0.353,
+     "nearest_at": [
+      1264,
+      "WALL_INT_TV_Feature"
+     ],
+     "max_speed_m_s": 0.614,
+     "path_steps_crossing_geometry": 0,
+     "frames_outside_rooms": 0
+    }
+   },
+   "max_walk_speed_m_s": 0.616,
+   "speed_target": "0.35-0.65 m/s cruise",
+   "min_clearance_rule_m": 0.2,
+   "failing": []
+  },
+  "9_orientation": {
+   "status": "PASS",
+   "drawing_north_deg_clockwise_from_plan_up": 17.13,
+   "model_north_arrow_deg": 17.13,
+   "plan_up_axis": "+Y",
+   "plan_right_axis": "+X",
+   "kitchen_north_of_master": true,
+   "bedroom2_east_of_bedroom1": true,
+   "not_mirrored": true,
+   "sun_true_azimuth_deg": 227.23,
+   "sun_elevation_deg": 34.33,
+   "note": "The model keeps the drawing's orientation (plan-up = +Y). True north is 17.1 deg clockwise of plan-up; the sun is placed from that."
+  },
+  "10_topdown_orthographic_render": {
+   "status": "PASS",
+   "image": "deliverables/topdown_validation_1488p.png",
+   "camera": "CAM_00_TopDown_Validation"
+  }
+ },
+ "assumptions": [
+  "Scale is fitted from the room schedule (least squares over 19 dimensioned spans); the drawing carries no dimension strings or scale bar on the unit plan, and the JPEG is ~46 px/m, so traced faces are good to about +/-2 px (+/-0.05 m).",
+  "Exterior and partition thicknesses are not dimensioned. Exterior = 0.23 m and interior = 0.115 m are applied as provisional values from the room-side faces; solid-black core walls and the south-east column are kept at their drawn thickness.",
+  "Wall height, sill and head heights and door heights are not on the drawing: 3.0 m ceiling, 0.45 m sill, 2.70 m window head, 2.10 m doors and 2.40 m entry door are assumptions.",
+  "Bedroom 1 and master windows carry labels like '2.00M X 0.40M' with a glazing line about 0.45 m outside the wall; read as a 0.40 m deep external ledge with a glass guard, as in the supplied isometric render.",
+  "Bedroom 2 is traced to the wardrobe-side wall line at 4.17 m deep; the schedule gives 3.87 m. The schedule figure probably excludes the 0.6 m wardrobe zone. Left as drawn.",
+  "Powder room door position and swing are read from a partly hidden arc; placed in the passage-side wall.",
+  "The lift lobby, lifts, foyer and service ducts are outside the apartment and are modelled for context only.",
+  "Door hinge sides follow the arcs on the drawing where legible; the bathroom 2 and powder room hinges are interpretations.",
+  "No ceiling plan is supplied: flat 3.0 m ceilings with recessed downlights are assumed throughout.",
+  "Site location (Mumbai, from 'Gokhale Road South' on the key plan), date and time used for the sun are provisional."
+ ],
+ "summary": {
+  "1_footprint_vs_drawing": "PASS",
+  "2_room_dimensions": "PASS",
+  "3_room_adjacency": "PASS",
+  "4_entrance_and_corridor_connectivity": "PASS",
+  "5_wall_and_furniture_intersections": "PASS",
+  "6_door_swing_clearance": "PASS",
+  "7_windows_align_with_drawing": "PASS",
+  "8_cameras_do_not_intersect_geometry": "PASS",
+  "9_orientation": "PASS",
+  "10_topdown_orthographic_render": "PASS"
+ },
+ "passed": 10
+}

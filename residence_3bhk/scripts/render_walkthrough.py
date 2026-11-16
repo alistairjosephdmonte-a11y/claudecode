@@ -15,6 +15,7 @@ root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 out = os.path.join(root, "deliverables", "walkthrough_render_sequence")
 os.makedirs(out, exist_ok=True)
 sc = bpy.context.scene
+f0, f1 = max(f0, sc.frame_start), min(f1, sc.frame_end)
 sc.render.resolution_x, sc.render.resolution_y = width, round(width * 9 / 16)
 sc.cycles.samples = spp
 sc.cycles.adaptive_threshold = 0.04
