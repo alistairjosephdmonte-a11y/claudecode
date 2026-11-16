@@ -20,6 +20,7 @@ sc.render.resolution_x, sc.render.resolution_y = width, round(width * 9 / 16)
 sc.cycles.samples = spp
 sc.cycles.adaptive_threshold = 0.04
 sc.render.film_transparent = False
+sc.render.use_persistent_data = True
 sc.view_settings.exposure = 0.3
 sc.render.image_settings.file_format = "PNG"
 sc.render.image_settings.color_depth = "8"
