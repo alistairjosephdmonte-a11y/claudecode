@@ -1527,6 +1527,7 @@ def main():
     bpy.context.scene.frame_set(1)
     os.makedirs(os.path.dirname(OUT_BLEND), exist_ok=True)
     bpy.ops.file.pack_all()
+    bpy.context.preferences.filepaths.save_version = 0
     bpy.ops.wm.save_as_mainfile(filepath=OUT_BLEND, compress=True)
     print("SAVED", OUT_BLEND, "objects", len(bpy.data.objects), "slats", nslats)
 
