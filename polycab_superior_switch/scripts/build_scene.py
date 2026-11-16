@@ -1532,4 +1532,5 @@ def main():
     print("SAVED", OUT_BLEND, "objects", len(bpy.data.objects), "slats", nslats)
 
 
-main()
+if __name__ == "__main__":
+    main()
