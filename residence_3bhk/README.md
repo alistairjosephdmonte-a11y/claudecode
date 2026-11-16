@@ -148,9 +148,11 @@ The renders ran on a 4-core CPU with no GPU, so two settings are lower than the 
 | | Brief | Rendered | Full-spec command |
 |---|---|---|---|
 | Stills | 3840 × 2160, 256–512 samples | 3840 × 2160, 96 samples (adaptive, OpenImageDenoise), 16-bit PNG | `render_stills.py -- all 3840 384 deliverables` (add `exr` for OpenEXR) |
-| Walkthrough | 3840 × 2160 | 640 × 360 preview sequence, 12 samples, denoised | `render_walkthrough.py -- 1 1488 3840 128` |
+| Walkthrough | 3840 × 2160 | 480 × 270 preview sequence, 6 samples, denoised | `render_walkthrough.py -- 1 1488 3840 128` |
 
 Motion blur is off: it is subtle at walking speed, and a preview resolution would only smear it.
+
+The 4K stills are 16-bit PNGs of about 35–40 MB each.
 
 ## Rebuild
 
@@ -171,7 +173,7 @@ blender -b scenes/residence_master.blend --python scripts/render_stills.py -- al
 ```
 
 ```bash
-blender -b scenes/residence_master.blend --python scripts/render_walkthrough.py -- 1 1488 640 12
+blender -b scenes/residence_master.blend --python scripts/render_walkthrough.py -- 1 1488 480 6
 ```
 
 ```bash
