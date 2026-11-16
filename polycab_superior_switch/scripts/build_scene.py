@@ -751,7 +751,7 @@ def pillow(name, mat, c, w=0.46, h=0.46, d=0.15):
     md.levels = md.render_levels = 3
     # pinch the corners: a cast towards sphere gives the classic plump square cushion
     cs = ob.modifiers.new("Cast", "CAST")
-    cs.factor = 0.35
+    cs.factor = 0.12
     return ob
 
 
@@ -995,7 +995,7 @@ def build_lights():
     string_lights()
     # constant layers: table lamp (always on), diyas (always lit), dusk window fill
     wy = (WIN_Y[0] + WIN_Y[1]) / 2
-    lt = light("LGT_Window_Dusk_Fill", "AREA", (RX0 - 0.6, wy, 1.4), 9.0, c, k=9000, size=2.8, size_y=2.8,
+    lt = light("LGT_Window_Dusk_Fill", "AREA", (RX0 - 0.6, wy, 1.4), 4.0, c, k=9000, size=2.8, size_y=2.8,
                rot=(0, math.radians(-90), 0))
     lt.data.color = (0.45, 0.55, 0.85)
     lt = light("LGT_Window_Portal", "AREA", (RX0 - 0.13, wy, 1.38), 0.0, c, size=2.64, size_y=WIN_Y[1] - WIN_Y[0],
@@ -1456,7 +1456,7 @@ def render_settings():
     sc.render.engine = "CYCLES"
     cy = sc.cycles
     cy.device = "CPU"
-    cy.samples = 96
+    cy.samples = 64
     cy.preview_samples = 24
     cy.use_adaptive_sampling = True
     cy.adaptive_threshold = 0.02
@@ -1490,12 +1490,12 @@ def render_settings():
     w.use_nodes = True
     bg = w.node_tree.nodes["Background"]
     bg.inputs["Color"].default_value = (0.020, 0.032, 0.070, 1)
-    bg.inputs["Strength"].default_value = 1.0
+    bg.inputs["Strength"].default_value = 0.45
     sc.world = w
     doc = empty("RENDER_Settings_Doc", (0, 0, -0.5), "10_RENDER_SETTINGS", "PLAIN_AXES", 0.05)
     doc.hide_render = True
     for k, v in (("resolution", "1920x1080"), ("fps", FPS), ("frames", "1-120"), ("engine", "Cycles CPU"),
-                 ("samples", 96), ("denoise", "OpenImageDenoise"), ("motion_blur_shutter", 0.5),
+                 ("samples", 64), ("denoise", "OpenImageDenoise"), ("motion_blur_shutter", 0.5),
                  ("view", "AgX Base Contrast, exposure +0.9"), ("lens_mm", LENS), ("fstop", 5.6)):
         doc[k] = v
 
