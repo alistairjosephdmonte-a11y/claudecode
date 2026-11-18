@@ -1,0 +1,2066 @@
+{
+ "total": 758.835,
+ "scenes": [
+  {
+   "i": 1,
+   "base": 0.0,
+   "dur": 48.066,
+   "n": 11,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     2.75
+    ],
+    [
+     3.4545454545454546,
+     4.316
+    ],
+    [
+     5.909090909090909,
+     8.93
+    ],
+    [
+     8.363636363636363,
+     14.852
+    ],
+    [
+     10.818181818181818,
+     18.049
+    ],
+    [
+     13.272727272727273,
+     23.513
+    ],
+    [
+     15.727272727272727,
+     26.28
+    ],
+    [
+     18.181818181818183,
+     28.63
+    ],
+    [
+     20.636363636363637,
+     34.538
+    ],
+    [
+     23.09090909090909,
+     36.4
+    ],
+    [
+     25.545454545454547,
+     43.731
+    ],
+    [
+     30.0,
+     48.066
+    ]
+   ]
+  },
+  {
+   "i": 2,
+   "base": 48.066,
+   "dur": 46.707,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     4.52
+    ],
+    [
+     7.75,
+     9.561
+    ],
+    [
+     11.125,
+     13.689
+    ],
+    [
+     14.5,
+     22.875
+    ],
+    [
+     17.875,
+     29.393
+    ],
+    [
+     21.25,
+     35.46
+    ],
+    [
+     24.625,
+     39.266
+    ],
+    [
+     30.0,
+     46.707
+    ]
+   ]
+  },
+  {
+   "i": 3,
+   "base": 94.773,
+   "dur": 46.153,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     4.136
+    ],
+    [
+     7.0,
+     9.606
+    ],
+    [
+     10.0,
+     18.351
+    ],
+    [
+     13.0,
+     21.461
+    ],
+    [
+     16.0,
+     24.267
+    ],
+    [
+     19.0,
+     28.386
+    ],
+    [
+     22.0,
+     35.777
+    ],
+    [
+     25.0,
+     40.03
+    ],
+    [
+     30.0,
+     46.153
+    ]
+   ]
+  },
+  {
+   "i": 4,
+   "base": 140.926,
+   "dur": 47.383,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     4.024
+    ],
+    [
+     7.75,
+     10.36
+    ],
+    [
+     11.125,
+     19.466
+    ],
+    [
+     14.5,
+     30.855
+    ],
+    [
+     17.875,
+     33.349
+    ],
+    [
+     21.25,
+     39.42
+    ],
+    [
+     24.625,
+     42.146
+    ],
+    [
+     30.0,
+     47.383
+    ]
+   ]
+  },
+  {
+   "i": 5,
+   "base": 188.309,
+   "dur": 49.907,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     5.287
+    ],
+    [
+     7.0,
+     9.328
+    ],
+    [
+     10.0,
+     15.757
+    ],
+    [
+     13.0,
+     24.413
+    ],
+    [
+     16.0,
+     27.683
+    ],
+    [
+     19.0,
+     31.952
+    ],
+    [
+     22.0,
+     36.915
+    ],
+    [
+     25.0,
+     39.751
+    ],
+    [
+     30.0,
+     49.907
+    ]
+   ]
+  },
+  {
+   "i": 6,
+   "base": 238.216,
+   "dur": 42.697,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     6.506
+    ],
+    [
+     8.714285714285715,
+     11.501
+    ],
+    [
+     12.571428571428571,
+     22.722
+    ],
+    [
+     16.42857142857143,
+     25.573
+    ],
+    [
+     20.285714285714285,
+     29.361
+    ],
+    [
+     24.142857142857142,
+     32.468
+    ],
+    [
+     30.0,
+     42.697
+    ]
+   ]
+  },
+  {
+   "i": 7,
+   "base": 280.913,
+   "dur": 45.118,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     3.128
+    ],
+    [
+     7.75,
+     4.516
+    ],
+    [
+     11.125,
+     10.419
+    ],
+    [
+     14.5,
+     20.55
+    ],
+    [
+     17.875,
+     25.541
+    ],
+    [
+     21.25,
+     31.43
+    ],
+    [
+     24.625,
+     35.085
+    ],
+    [
+     30.0,
+     45.118
+    ]
+   ]
+  },
+  {
+   "i": 8,
+   "base": 326.031,
+   "dur": 44.36,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     4.486
+    ],
+    [
+     7.0,
+     6.588
+    ],
+    [
+     10.0,
+     14.341
+    ],
+    [
+     13.0,
+     19.556
+    ],
+    [
+     16.0,
+     22.643
+    ],
+    [
+     19.0,
+     27.891
+    ],
+    [
+     22.0,
+     33.004
+    ],
+    [
+     25.0,
+     38.704
+    ],
+    [
+     30.0,
+     44.36
+    ]
+   ]
+  },
+  {
+   "i": 9,
+   "base": 370.391,
+   "dur": 44.539,
+   "n": 7,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.857142857142858,
+     6.602
+    ],
+    [
+     8.714285714285715,
+     14.21
+    ],
+    [
+     12.571428571428571,
+     19.16
+    ],
+    [
+     16.42857142857143,
+     22.425
+    ],
+    [
+     20.285714285714285,
+     26.767
+    ],
+    [
+     24.142857142857142,
+     37.045
+    ],
+    [
+     30.0,
+     44.539
+    ]
+   ]
+  },
+  {
+   "i": 10,
+   "base": 414.93,
+   "dur": 45.815,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     7.726
+    ],
+    [
+     7.75,
+     11.297
+    ],
+    [
+     11.125,
+     19.614
+    ],
+    [
+     14.5,
+     24.761
+    ],
+    [
+     17.875,
+     31.334
+    ],
+    [
+     21.25,
+     37.32
+    ],
+    [
+     24.625,
+     40.014
+    ],
+    [
+     30.0,
+     45.815
+    ]
+   ]
+  },
+  {
+   "i": 11,
+   "base": 460.745,
+   "dur": 47.673,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     12.319
+    ],
+    [
+     7.0,
+     14.5
+    ],
+    [
+     10.0,
+     17.749
+    ],
+    [
+     13.0,
+     24.893
+    ],
+    [
+     16.0,
+     27.331
+    ],
+    [
+     19.0,
+     31.186
+    ],
+    [
+     22.0,
+     35.674
+    ],
+    [
+     25.0,
+     39.389
+    ],
+    [
+     30.0,
+     47.673
+    ]
+   ]
+  },
+  {
+   "i": 12,
+   "base": 508.418,
+   "dur": 48.442,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     6.847
+    ],
+    [
+     7.75,
+     9.638
+    ],
+    [
+     11.125,
+     16.651
+    ],
+    [
+     14.5,
+     20.983
+    ],
+    [
+     17.875,
+     33.676
+    ],
+    [
+     21.25,
+     35.874
+    ],
+    [
+     24.625,
+     43.0
+    ],
+    [
+     30.0,
+     48.442
+    ]
+   ]
+  },
+  {
+   "i": 13,
+   "base": 556.86,
+   "dur": 48.817,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     5.377
+    ],
+    [
+     7.75,
+     12.015
+    ],
+    [
+     11.125,
+     16.789
+    ],
+    [
+     14.5,
+     25.308
+    ],
+    [
+     17.875,
+     31.175
+    ],
+    [
+     21.25,
+     36.513
+    ],
+    [
+     24.625,
+     43.493
+    ],
+    [
+     30.0,
+     48.817
+    ]
+   ]
+  },
+  {
+   "i": 14,
+   "base": 605.677,
+   "dur": 48.409,
+   "n": 8,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.375,
+     4.446
+    ],
+    [
+     7.75,
+     9.927
+    ],
+    [
+     11.125,
+     15.221
+    ],
+    [
+     14.5,
+     24.313
+    ],
+    [
+     17.875,
+     31.7
+    ],
+    [
+     21.25,
+     37.31
+    ],
+    [
+     24.625,
+     39.616
+    ],
+    [
+     30.0,
+     48.409
+    ]
+   ]
+  },
+  {
+   "i": 15,
+   "base": 654.086,
+   "dur": 50.523,
+   "n": 9,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     4.0,
+     3.81
+    ],
+    [
+     7.0,
+     14.141
+    ],
+    [
+     10.0,
+     21.959
+    ],
+    [
+     13.0,
+     32.415
+    ],
+    [
+     16.0,
+     35.334
+    ],
+    [
+     19.0,
+     38.353
+    ],
+    [
+     22.0,
+     41.534
+    ],
+    [
+     25.0,
+     45.896
+    ],
+    [
+     30.0,
+     50.523
+    ]
+   ]
+  },
+  {
+   "i": 16,
+   "base": 704.609,
+   "dur": 54.226,
+   "n": 10,
+   "warp": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     1.0,
+     0.35
+    ],
+    [
+     3.7,
+     6.537
+    ],
+    [
+     6.4,
+     12.464
+    ],
+    [
+     9.1,
+     17.24
+    ],
+    [
+     11.8,
+     21.944
+    ],
+    [
+     14.5,
+     28.067
+    ],
+    [
+     17.2,
+     30.384
+    ],
+    [
+     19.9,
+     35.148
+    ],
+    [
+     22.6,
+     41.133
+    ],
+    [
+     25.3,
+     46.408
+    ],
+    [
+     30.0,
+     54.226
+    ]
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "s01_01",
+   "text": "Thirteen years.",
+   "scene": 1,
+   "t": 3.0,
+   "local": 3.0,
+   "dur": 1.116,
+   "trim": 0.144
+  },
+  {
+   "id": "s01_02",
+   "text": "That's how long the world has waited for the next main Grand Theft Auto game.",
+   "scene": 1,
+   "t": 4.566,
+   "local": 4.566,
+   "dur": 4.164,
+   "trim": 0.219
+  },
+  {
+   "id": "s01_03",
+   "text": "And on November nineteenth, 2026, that wait is scheduled to end.",
+   "scene": 1,
+   "say": "And on November nineteenth, twenty twenty-six, that wait is scheduled to end.",
+   "t": 9.18,
+   "local": 9.18,
+   "dur": 5.472,
+   "trim": 0.002
+  },
+  {
+   "id": "s01_04",
+   "text": "Rockstar isn't launching an ordinary sequel.",
+   "scene": 1,
+   "t": 15.102,
+   "local": 15.102,
+   "dur": 2.747,
+   "trim": 0.207
+  },
+  {
+   "id": "s01_05",
+   "text": "It's following one of the most commercially successful entertainment products ever created.",
+   "scene": 1,
+   "t": 18.299,
+   "local": 18.299,
+   "dur": 5.014,
+   "trim": 0.191
+  },
+  {
+   "id": "s01_06",
+   "text": "The expectations are enormous.",
+   "scene": 1,
+   "t": 23.763,
+   "local": 23.763,
+   "dur": 2.317,
+   "trim": 0.22
+  },
+  {
+   "id": "s01_07",
+   "text": "The financial stakes are real.",
+   "scene": 1,
+   "t": 26.53,
+   "local": 26.53,
+   "dur": 1.9,
+   "trim": 0.177
+  },
+  {
+   "id": "s01_08",
+   "text": "And every delay has raised the question of what Rockstar is preparing to deliver.",
+   "scene": 1,
+   "t": 28.88,
+   "local": 28.88,
+   "dur": 5.458,
+   "trim": 0.093
+  },
+  {
+   "id": "s01_09",
+   "text": "But here's the mystery.",
+   "scene": 1,
+   "t": 34.788,
+   "local": 34.788,
+   "dur": 1.412,
+   "trim": 0.121
+  },
+  {
+   "id": "s01_10",
+   "text": "How did a company keep millions of customers interested for thirteen years without releasing GTA VI?",
+   "scene": 1,
+   "say": "How did a company keep millions of customers interested for thirteen years without releasing G.T.A. Six?",
+   "t": 36.65,
+   "local": 36.65,
+   "dur": 6.881,
+   "trim": 0.118
+  },
+  {
+   "id": "s01_11",
+   "text": "And what happens when the waiting finally stops?",
+   "scene": 1,
+   "t": 43.981,
+   "local": 43.981,
+   "dur": 2.985,
+   "trim": 0.174
+  },
+  {
+   "id": "s02_01",
+   "text": "To understand the stakes, look beyond Rockstar's trailers.",
+   "scene": 2,
+   "t": 48.666,
+   "local": 0.6,
+   "dur": 3.72,
+   "trim": 0.181
+  },
+  {
+   "id": "s02_02",
+   "text": "Look at Take-Two Interactive, the company that owns Rockstar Games.",
+   "scene": 2,
+   "t": 52.836,
+   "local": 4.77,
+   "dur": 4.591,
+   "trim": 0.178
+  },
+  {
+   "id": "s02_03",
+   "text": "Grand Theft Auto is one of its most valuable franchises.",
+   "scene": 2,
+   "t": 57.877,
+   "local": 9.811,
+   "dur": 3.678,
+   "trim": 0.218
+  },
+  {
+   "id": "s02_04",
+   "text": "Take-Two's financial disclosures show that GTA products accounted for more than twelve percent of company revenue in fiscal 2026.",
+   "scene": 2,
+   "say": "Take-Two's financial disclosures show that G.T.A. products accounted for more than twelve percent of company revenue in fiscal twenty twenty-six.",
+   "t": 62.005,
+   "local": 13.939,
+   "dur": 8.736,
+   "trim": 0.193
+  },
+  {
+   "id": "s02_05",
+   "text": "That figure includes an established franchise, not GTA VI sales.",
+   "scene": 2,
+   "say": "That figure includes an established franchise, not G.T.A. Six sales.",
+   "t": 71.191,
+   "local": 23.125,
+   "dur": 6.068,
+   "trim": 0.193
+  },
+  {
+   "id": "s02_06",
+   "text": "And the next release has the potential to change the company's financial performance dramatically.",
+   "scene": 2,
+   "t": 77.709,
+   "local": 29.643,
+   "dur": 5.616,
+   "trim": 0.158
+  },
+  {
+   "id": "s02_07",
+   "text": "The question isn't whether people recognize Grand Theft Auto.",
+   "scene": 2,
+   "t": 83.776,
+   "local": 35.71,
+   "dur": 3.356,
+   "trim": 0.181
+  },
+  {
+   "id": "s02_08",
+   "text": "It's whether Rockstar can turn extraordinary anticipation into another durable commercial success.",
+   "scene": 2,
+   "t": 87.582,
+   "local": 39.516,
+   "dur": 6.091,
+   "trim": 0.218
+  },
+  {
+   "id": "s03_01",
+   "text": "The story begins in September 2013.",
+   "scene": 3,
+   "say": "The story begins in September twenty thirteen.",
+   "t": 95.373,
+   "local": 0.6,
+   "dur": 3.336,
+   "trim": 0.178
+  },
+  {
+   "id": "s03_02",
+   "text": "Grand Theft Auto V arrives, and its commercial performance is extraordinary.",
+   "scene": 3,
+   "say": "Grand Theft Auto Five arrives, and its commercial performance is extraordinary.",
+   "t": 99.159,
+   "local": 4.386,
+   "dur": 5.02,
+   "trim": 0.135
+  },
+  {
+   "id": "s03_03",
+   "text": "Take-Two later reports that the game reached one billion dollars in retail sales faster than any previous entertainment release.",
+   "scene": 3,
+   "t": 104.629,
+   "local": 9.856,
+   "dur": 8.294,
+   "trim": 0.203
+  },
+  {
+   "id": "s03_04",
+   "text": "But something unusual happens after launch.",
+   "scene": 3,
+   "t": 113.374,
+   "local": 18.601,
+   "dur": 2.661,
+   "trim": 0.168
+  },
+  {
+   "id": "s03_05",
+   "text": "The game doesn't disappear from the market.",
+   "scene": 3,
+   "t": 116.484,
+   "local": 21.711,
+   "dur": 2.356,
+   "trim": 0.168
+  },
+  {
+   "id": "s03_06",
+   "text": "It continues selling across successive console generations.",
+   "scene": 3,
+   "t": 119.29,
+   "local": 24.517,
+   "dur": 3.669,
+   "trim": 0.182
+  },
+  {
+   "id": "s03_07",
+   "text": "By 2026, Take-Two reports nearly 230 million units sold into distribution worldwide.",
+   "scene": 3,
+   "say": "By twenty twenty-six, Take Two reports nearly two hundred thirty million units sold into distribution worldwide.",
+   "t": 123.409,
+   "local": 28.636,
+   "dur": 6.941,
+   "trim": 0.172
+  },
+  {
+   "id": "s03_08",
+   "text": "What began as a blockbuster release becomes something much larger.",
+   "scene": 3,
+   "t": 130.8,
+   "local": 36.027,
+   "dur": 3.802,
+   "trim": 0.176
+  },
+  {
+   "id": "s03_09",
+   "text": "A product with a commercial lifespan that stretches across more than a decade.",
+   "scene": 3,
+   "t": 135.053,
+   "local": 40.28,
+   "dur": 4.773,
+   "trim": 0.142
+  },
+  {
+   "id": "s04_01",
+   "text": "Grand Theft Auto V wasn't the entire story.",
+   "scene": 4,
+   "say": "Grand Theft Auto Five wasn't the entire story.",
+   "t": 141.526,
+   "local": 0.6,
+   "dur": 3.224,
+   "trim": 0.225
+  },
+  {
+   "id": "s04_02",
+   "text": "GTA Online gave players a persistent world that Rockstar could continue updating.",
+   "scene": 4,
+   "say": "G.T.A. Online gave players a persistent world that Rockstar could continue updating.",
+   "t": 145.2,
+   "local": 4.274,
+   "dur": 5.886,
+   "trim": 0.136
+  },
+  {
+   "id": "s04_03",
+   "text": "Instead of depending exclusively on the next major release, Rockstar could keep players engaged with new content and additional purchases.",
+   "scene": 4,
+   "t": 151.536,
+   "local": 10.61,
+   "dur": 8.656,
+   "trim": 0.121
+  },
+  {
+   "id": "s04_04",
+   "text": "Take-Two describes its Rockstar strategy as developing a limited number of high-quality, long-lasting titles with opportunities for incremental revenue.",
+   "scene": 4,
+   "t": 160.642,
+   "local": 19.716,
+   "dur": 10.939,
+   "trim": 0.187
+  },
+  {
+   "id": "s04_05",
+   "text": "That changes the economics of waiting.",
+   "scene": 4,
+   "t": 172.031,
+   "local": 31.105,
+   "dur": 2.044,
+   "trim": 0.226
+  },
+  {
+   "id": "s04_06",
+   "text": "A successful game can remain commercially relevant while its successor is still being developed.",
+   "scene": 4,
+   "t": 174.525,
+   "local": 33.599,
+   "dur": 5.621,
+   "trim": 0.229
+  },
+  {
+   "id": "s04_07",
+   "text": "Rockstar had created something rare.",
+   "scene": 4,
+   "t": 180.596,
+   "local": 39.67,
+   "dur": 2.276,
+   "trim": 0.177
+  },
+  {
+   "id": "s04_08",
+   "text": "A franchise capable of generating business long after launch day.",
+   "scene": 4,
+   "t": 183.322,
+   "local": 42.396,
+   "dur": 3.888,
+   "trim": 0.099
+  },
+  {
+   "id": "s05_01",
+   "text": "Most entertainment companies face pressure to release new products regularly.",
+   "scene": 5,
+   "t": 188.909,
+   "local": 0.6,
+   "dur": 4.487,
+   "trim": 0.105
+  },
+  {
+   "id": "s05_02",
+   "text": "Rockstar has followed a different approach with its biggest franchises.",
+   "scene": 5,
+   "t": 193.846,
+   "local": 5.537,
+   "dur": 3.59,
+   "trim": 0.187
+  },
+  {
+   "id": "s05_03",
+   "text": "Take-Two's disclosures emphasize quality, longevity and internally developed titles.",
+   "scene": 5,
+   "say": "Take Two's disclosures emphasize quality, longevity and internally developed titles.",
+   "t": 197.887,
+   "local": 9.578,
+   "dur": 5.979,
+   "trim": 0.181
+  },
+  {
+   "id": "s05_04",
+   "text": "That strategy can create enormous commercial value, but it also concentrates expectations around fewer major launches.",
+   "scene": 5,
+   "t": 204.316,
+   "local": 16.007,
+   "dur": 8.206,
+   "trim": 0.207
+  },
+  {
+   "id": "s05_05",
+   "text": "GTA VI became the clearest example.",
+   "scene": 5,
+   "say": "G.T.A. Six became the clearest example.",
+   "t": 212.972,
+   "local": 24.663,
+   "dur": 2.821,
+   "trim": 0.159
+  },
+  {
+   "id": "s05_06",
+   "text": "Years passed without a new numbered Grand Theft Auto release.",
+   "scene": 5,
+   "t": 216.242,
+   "local": 27.933,
+   "dur": 3.819,
+   "trim": 0.08
+  },
+  {
+   "id": "s05_07",
+   "text": "Meanwhile, GTA V and GTA Online remained active.",
+   "scene": 5,
+   "say": "Meanwhile, G.T.A. Five and G.T.A. Online remained active.",
+   "t": 220.511,
+   "local": 32.202,
+   "dur": 4.514,
+   "trim": 0.181
+  },
+  {
+   "id": "s05_08",
+   "text": "The business question is fascinating.",
+   "scene": 5,
+   "t": 225.474,
+   "local": 37.165,
+   "dur": 2.385,
+   "trim": 0.181
+  },
+  {
+   "id": "s05_09",
+   "text": "Was the long wait simply a cost of ambitious development, or had Rockstar built a model in which fewer releases could sustain greater long-term value?",
+   "scene": 5,
+   "t": 228.31,
+   "local": 40.001,
+   "dur": 8.807,
+   "trim": 0.212
+  },
+  {
+   "id": "s06_01",
+   "text": "In December 2023, Rockstar finally released the first GTA VI trailer.",
+   "scene": 6,
+   "say": "In December twenty twenty-three, Rockstar finally released the first G.T.A. Six trailer.",
+   "t": 238.816,
+   "local": 0.6,
+   "dur": 5.706,
+   "trim": 0.185
+  },
+  {
+   "id": "s06_02",
+   "text": "The response demonstrated the extraordinary attention surrounding the franchise.",
+   "scene": 6,
+   "t": 244.972,
+   "local": 6.756,
+   "dur": 4.545,
+   "trim": 0.217
+  },
+  {
+   "id": "s06_03",
+   "text": "According to Take-Two, the trailer attracted more than ninety-three million YouTube views in its first twenty-four hours, setting a record for a non-music video debut on the platform.",
+   "scene": 6,
+   "say": "According to Take Two, the trailer attracted more than ninety-three million YouTube views in its first twenty-four hours, setting a record for a non-music video debut on the platform.",
+   "t": 249.967,
+   "local": 11.751,
+   "dur": 10.771,
+   "trim": 0.223
+  },
+  {
+   "id": "s06_04",
+   "text": "This wasn't proof of future sales.",
+   "scene": 6,
+   "t": 261.188,
+   "local": 22.972,
+   "dur": 2.4,
+   "trim": 0.062
+  },
+  {
+   "id": "s06_05",
+   "text": "Trailer views and paying customers are different measures.",
+   "scene": 6,
+   "t": 264.039,
+   "local": 25.823,
+   "dur": 3.339,
+   "trim": 0.181
+  },
+  {
+   "id": "s06_06",
+   "text": "But it was powerful evidence of audience attention.",
+   "scene": 6,
+   "t": 267.827,
+   "local": 29.611,
+   "dur": 2.656,
+   "trim": 0.099
+  },
+  {
+   "id": "s06_07",
+   "text": "Rockstar had spent years without releasing GTA VI, yet the next installment could still dominate the entertainment conversation with a single announcement.",
+   "scene": 6,
+   "say": "Rockstar had spent years without releasing G.T.A. Six, yet the next installment could still dominate the entertainment conversation with a single announcement.",
+   "t": 270.934,
+   "local": 32.718,
+   "dur": 8.879,
+   "trim": 0.18
+  },
+  {
+   "id": "s07_01",
+   "text": "The excitement came with another challenge.",
+   "scene": 7,
+   "t": 281.513,
+   "local": 0.6,
+   "dur": 2.328,
+   "trim": 0.183
+  },
+  {
+   "id": "s07_02",
+   "text": "Release timing.",
+   "scene": 7,
+   "t": 284.291,
+   "local": 3.378,
+   "dur": 0.938,
+   "trim": 0.183
+  },
+  {
+   "id": "s07_03",
+   "text": "Rockstar eventually moved GTA VI to November nineteenth, 2026.",
+   "scene": 7,
+   "say": "Rockstar eventually moved G.T.A. Six to November nineteenth, twenty twenty-six.",
+   "t": 285.679,
+   "local": 4.766,
+   "dur": 5.453,
+   "trim": 0.181
+  },
+  {
+   "id": "s07_04",
+   "text": "In its official announcement, the company apologized for the additional wait and explained that the extra time would help deliver the level of polish players expected.",
+   "scene": 7,
+   "t": 291.582,
+   "local": 10.669,
+   "dur": 9.681,
+   "trim": 0.199
+  },
+  {
+   "id": "s07_05",
+   "text": "That explanation matters because the company was making an explicit trade-off.",
+   "scene": 7,
+   "t": 301.713,
+   "local": 20.8,
+   "dur": 4.541,
+   "trim": 0.201
+  },
+  {
+   "id": "s07_06",
+   "text": "More development time could support quality, but it also meant delaying the commercial launch.",
+   "scene": 7,
+   "t": 306.704,
+   "local": 25.791,
+   "dur": 5.439,
+   "trim": 0.191
+  },
+  {
+   "id": "s07_07",
+   "text": "For Take-Two, release timing matters financially.",
+   "scene": 7,
+   "t": 312.593,
+   "local": 31.68,
+   "dur": 3.205,
+   "trim": 0.196
+  },
+  {
+   "id": "s07_08",
+   "text": "Its filings acknowledge that the timing of major Grand Theft Auto products can materially affect performance across reporting periods.",
+   "scene": 7,
+   "t": 316.248,
+   "local": 35.335,
+   "dur": 8.683,
+   "trim": 0.184
+  },
+  {
+   "id": "s08_01",
+   "text": "A major entertainment launch sells more than the finished product.",
+   "scene": 8,
+   "t": 326.631,
+   "local": 0.6,
+   "dur": 3.686,
+   "trim": 0.14
+  },
+  {
+   "id": "s08_02",
+   "text": "It sells expectations.",
+   "scene": 8,
+   "t": 330.767,
+   "local": 4.736,
+   "dur": 1.652,
+   "trim": 0.193
+  },
+  {
+   "id": "s08_03",
+   "text": "Rockstar's trailers offered glimpses of Vice City, the state of Leonida, and protagonists Jason and Lucia.",
+   "scene": 8,
+   "t": 332.869,
+   "local": 6.838,
+   "dur": 7.302,
+   "trim": 0.191
+  },
+  {
+   "id": "s08_04",
+   "text": "Every new official reveal gave audiences more material to examine.",
+   "scene": 8,
+   "t": 340.622,
+   "local": 14.591,
+   "dur": 4.765,
+   "trim": 0.225
+  },
+  {
+   "id": "s08_05",
+   "text": "But anticipation is difficult to manage.",
+   "scene": 8,
+   "t": 345.837,
+   "local": 19.806,
+   "dur": 2.637,
+   "trim": 0.196
+  },
+  {
+   "id": "s08_06",
+   "text": "A trailer can create excitement without proving how the complete game will perform.",
+   "scene": 8,
+   "t": 348.924,
+   "local": 22.893,
+   "dur": 4.798,
+   "trim": 0.231
+  },
+  {
+   "id": "s08_07",
+   "text": "And the longer an audience waits, the more personal its expectations can become.",
+   "scene": 8,
+   "t": 354.172,
+   "local": 28.141,
+   "dur": 4.663,
+   "trim": 0.188
+  },
+  {
+   "id": "s08_08",
+   "text": "Rockstar's challenge wasn't merely persuading customers to notice GTA VI.",
+   "scene": 8,
+   "say": "Rockstar's challenge wasn't merely persuading customers to notice G.T.A. Six.",
+   "t": 359.285,
+   "local": 33.254,
+   "dur": 5.25,
+   "trim": 0.212
+  },
+  {
+   "id": "s08_09",
+   "text": "It was delivering a product that could withstand years of accumulated attention.",
+   "scene": 8,
+   "t": 364.985,
+   "local": 38.954,
+   "dur": 4.305,
+   "trim": 0.223
+  },
+  {
+   "id": "s09_01",
+   "text": "By June 2026, Rockstar had revealed another important part of the business model.",
+   "scene": 9,
+   "say": "By June twenty twenty-six, Rockstar had revealed another important part of the business model.",
+   "t": 370.991,
+   "local": 0.6,
+   "dur": 5.802,
+   "trim": 0.184
+  },
+  {
+   "id": "s09_02",
+   "text": "GTA VI's standard edition would launch at seventy-nine dollars and ninety-nine cents in the United States.",
+   "scene": 9,
+   "say": "G.T.A. Six's standard edition would launch at seventy-nine dollars and ninety-nine cents in the United States.",
+   "t": 377.243,
+   "local": 6.852,
+   "dur": 7.158,
+   "trim": 0.18
+  },
+  {
+   "id": "s09_03",
+   "text": "An Ultimate Edition would cost ninety-nine dollars and ninety-nine cents.",
+   "scene": 9,
+   "t": 384.851,
+   "local": 14.46,
+   "dur": 4.501,
+   "trim": 0.2
+  },
+  {
+   "id": "s09_04",
+   "text": "Pre-orders began on June twenty-fifth.",
+   "scene": 9,
+   "t": 389.801,
+   "local": 19.41,
+   "dur": 2.815,
+   "trim": 0.188
+  },
+  {
+   "id": "s09_05",
+   "text": "These were confirmed commercial decisions, not internet rumors.",
+   "scene": 9,
+   "t": 393.066,
+   "local": 22.675,
+   "dur": 3.892,
+   "trim": 0.181
+  },
+  {
+   "id": "s09_06",
+   "text": "Pricing mattered because GTA VI was entering a market where consumers had to evaluate the cost of the game alongside the hardware needed to play it.",
+   "scene": 9,
+   "say": "Pricing mattered because G.T.A. Six was entering a market where consumers had to evaluate the cost of the game alongside the hardware needed to play it.",
+   "t": 397.408,
+   "local": 27.017,
+   "dur": 9.828,
+   "trim": 0.18
+  },
+  {
+   "id": "s09_07",
+   "text": "Rockstar was positioning the release as a premium entertainment product with multiple purchase options.",
+   "scene": 9,
+   "t": 407.686,
+   "local": 37.295,
+   "dur": 6.144,
+   "trim": 0.178
+  },
+  {
+   "id": "s10_01",
+   "text": "GTA VI's announced launch platforms were PlayStation 5 and Xbox Series X and S.",
+   "scene": 10,
+   "say": "G.T.A. Six's announced launch platforms were PlayStation Five and Xbox Series X and S.",
+   "t": 415.53,
+   "local": 0.6,
+   "dur": 6.926,
+   "trim": 0.127
+  },
+  {
+   "id": "s10_02",
+   "text": "That decision defined the initial market for the game.",
+   "scene": 10,
+   "t": 422.906,
+   "local": 7.976,
+   "dur": 3.121,
+   "trim": 0.093
+  },
+  {
+   "id": "s10_03",
+   "text": "Consumers needed access to compatible hardware, while Rockstar could focus its announced launch on a specific generation of consoles.",
+   "scene": 10,
+   "t": 426.477,
+   "local": 11.547,
+   "dur": 7.867,
+   "trim": 0.175
+  },
+  {
+   "id": "s10_04",
+   "text": "The official launch materials did not establish a simultaneous PC release.",
+   "scene": 10,
+   "say": "The official launch materials did not establish a simultaneous P.C. release.",
+   "t": 434.794,
+   "local": 19.864,
+   "dur": 4.697,
+   "trim": 0.196
+  },
+  {
+   "id": "s10_05",
+   "text": "Platform strategy matters because distribution affects who can purchase a product on day one.",
+   "scene": 10,
+   "t": 439.941,
+   "local": 25.011,
+   "dur": 6.123,
+   "trim": 0.121
+  },
+  {
+   "id": "s10_06",
+   "text": "It also influences technical requirements and the commercial opportunities available later.",
+   "scene": 10,
+   "t": 446.514,
+   "local": 31.584,
+   "dur": 5.535,
+   "trim": 0.224
+  },
+  {
+   "id": "s10_07",
+   "text": "Rockstar wasn't simply preparing a game.",
+   "scene": 10,
+   "t": 452.5,
+   "local": 37.57,
+   "dur": 2.245,
+   "trim": 0.181
+  },
+  {
+   "id": "s10_08",
+   "text": "It was preparing a major release within a particular hardware ecosystem.",
+   "scene": 10,
+   "t": 455.194,
+   "local": 40.264,
+   "dur": 4.451,
+   "trim": 0.189
+  },
+  {
+   "id": "s11_01",
+   "text": "In its September 2026 quarterly filing, Take-Two reported that GTA VI pre-orders had generated initial demand exceeding historical benchmarks for the series.",
+   "scene": 11,
+   "say": "In its September twenty twenty-six quarterly filing, Take-Two reported that G.T.A. Six pre-orders had generated initial demand exceeding historical benchmarks for the series.",
+   "t": 461.345,
+   "local": 0.6,
+   "dur": 11.519,
+   "trim": 0.205
+  },
+  {
+   "id": "s11_02",
+   "text": "That's a significant signal.",
+   "scene": 11,
+   "t": 473.314,
+   "local": 12.569,
+   "dur": 1.731,
+   "trim": 0.097
+  },
+  {
+   "id": "s11_03",
+   "text": "Customers were willing to commit before release.",
+   "scene": 11,
+   "t": 475.495,
+   "local": 14.75,
+   "dur": 2.799,
+   "trim": 0.128
+  },
+  {
+   "id": "s11_04",
+   "text": "But it is not the same as knowing the game's final launch sales, profitability or long-term reception.",
+   "scene": 11,
+   "t": 478.744,
+   "local": 17.999,
+   "dur": 6.695,
+   "trim": 0.177
+  },
+  {
+   "id": "s11_05",
+   "text": "Those outcomes remained ahead.",
+   "scene": 11,
+   "t": 485.888,
+   "local": 25.143,
+   "dur": 1.988,
+   "trim": 0.199
+  },
+  {
+   "id": "s11_06",
+   "text": "Pre-orders can demonstrate confidence and interest.",
+   "scene": 11,
+   "t": 488.326,
+   "local": 27.581,
+   "dur": 3.404,
+   "trim": 0.213
+  },
+  {
+   "id": "s11_07",
+   "text": "They cannot guarantee that a product will satisfy every expectation.",
+   "scene": 11,
+   "t": 492.181,
+   "local": 31.436,
+   "dur": 4.038,
+   "trim": 0.221
+  },
+  {
+   "id": "s11_08",
+   "text": "For Rockstar, the commercial opportunity was enormous.",
+   "scene": 11,
+   "t": 496.669,
+   "local": 35.924,
+   "dur": 3.265,
+   "trim": 0.11
+  },
+  {
+   "id": "s11_09",
+   "text": "The challenge was converting early demand into sustained success after players could finally experience the finished game.",
+   "scene": 11,
+   "t": 500.384,
+   "local": 39.639,
+   "dur": 6.935,
+   "trim": 0.219
+  },
+  {
+   "id": "s12_01",
+   "text": "Online speculation has attached enormous development-budget figures to GTA VI.",
+   "scene": 12,
+   "say": "Online speculation has attached enormous development-budget figures to G.T.A. Six.",
+   "t": 509.018,
+   "local": 0.6,
+   "dur": 6.047,
+   "trim": 0.093
+  },
+  {
+   "id": "s12_02",
+   "text": "But those claims must be treated carefully.",
+   "scene": 12,
+   "t": 515.515,
+   "local": 7.097,
+   "dur": 2.342,
+   "trim": 0.12
+  },
+  {
+   "id": "s12_03",
+   "text": "A verified total production budget isn't established by the official materials examined for this investigation.",
+   "scene": 12,
+   "t": 518.306,
+   "local": 9.888,
+   "dur": 6.563,
+   "trim": 0.139
+  },
+  {
+   "id": "s12_04",
+   "text": "What is documented is the commercial scale of the franchise.",
+   "scene": 12,
+   "t": 525.319,
+   "local": 16.901,
+   "dur": 3.882,
+   "trim": 0.098
+  },
+  {
+   "id": "s12_05",
+   "text": "GTA V reached a billion dollars in retail sales at extraordinary speed, and Take-Two's financial disclosures identify Grand Theft Auto as a major contributor to its business.",
+   "scene": 12,
+   "say": "G.T.A. Five reached a billion dollars in retail sales at extraordinary speed, and Take-Two's financial disclosures identify Grand Theft Auto as a major contributor to its business.",
+   "t": 529.651,
+   "local": 21.233,
+   "dur": 12.243,
+   "trim": 0.164
+  },
+  {
+   "id": "s12_06",
+   "text": "The distinction is essential.",
+   "scene": 12,
+   "t": 542.344,
+   "local": 33.926,
+   "dur": 1.748,
+   "trim": 0.163
+  },
+  {
+   "id": "s12_07",
+   "text": "A company's revenue, a game's development cost, and a publisher's forecast are not interchangeable numbers.",
+   "scene": 12,
+   "t": 544.542,
+   "local": 36.124,
+   "dur": 6.676,
+   "trim": 0.217
+  },
+  {
+   "id": "s12_08",
+   "text": "The real story is already extraordinary without inventing a budget.",
+   "scene": 12,
+   "t": 551.668,
+   "local": 43.25,
+   "dur": 4.091,
+   "trim": 0.164
+  },
+  {
+   "id": "s13_01",
+   "text": "Rockstar's strategy creates an unusual balance of opportunity and risk.",
+   "scene": 13,
+   "t": 557.46,
+   "local": 0.6,
+   "dur": 4.577,
+   "trim": 0.15
+  },
+  {
+   "id": "s13_02",
+   "text": "A limited number of major releases can support ambitious development and long product lifespans.",
+   "scene": 13,
+   "t": 562.487,
+   "local": 5.627,
+   "dur": 6.188,
+   "trim": 0.089
+  },
+  {
+   "id": "s13_03",
+   "text": "But it can also make individual launches disproportionately important.",
+   "scene": 13,
+   "t": 569.125,
+   "local": 12.265,
+   "dur": 4.324,
+   "trim": 0.175
+  },
+  {
+   "id": "s13_04",
+   "text": "Take-Two explicitly acknowledges that major release timing and commercial success influence its financial performance.",
+   "scene": 13,
+   "t": 573.899,
+   "local": 17.039,
+   "dur": 8.069,
+   "trim": 0.19
+  },
+  {
+   "id": "s13_05",
+   "text": "GTA VI therefore carries expectations extending beyond player excitement.",
+   "scene": 13,
+   "say": "G.T.A. Six therefore carries expectations extending beyond player excitement.",
+   "t": 582.418,
+   "local": 25.558,
+   "dur": 5.418,
+   "trim": 0.171
+  },
+  {
+   "id": "s13_06",
+   "text": "Investors, distributors and the publisher itself have an interest in the outcome.",
+   "scene": 13,
+   "t": 588.285,
+   "local": 31.425,
+   "dur": 4.888,
+   "trim": 0.087
+  },
+  {
+   "id": "s13_07",
+   "text": "Yet before launch, no trailer or pre-order announcement can establish how customers will ultimately respond.",
+   "scene": 13,
+   "t": 593.623,
+   "local": 36.763,
+   "dur": 6.53,
+   "trim": 0.089
+  },
+  {
+   "id": "s13_08",
+   "text": "That uncertainty is the central risk behind the entire strategy.",
+   "scene": 13,
+   "t": 600.603,
+   "local": 43.743,
+   "dur": 3.975,
+   "trim": 0.177
+  },
+  {
+   "id": "s14_01",
+   "text": "A successful launch can generate extraordinary attention.",
+   "scene": 14,
+   "t": 606.277,
+   "local": 0.6,
+   "dur": 3.646,
+   "trim": 0.165
+  },
+  {
+   "id": "s14_02",
+   "text": "But Rockstar's history suggests that the larger opportunity may unfold over years.",
+   "scene": 14,
+   "t": 610.373,
+   "local": 4.696,
+   "dur": 5.031,
+   "trim": 0.183
+  },
+  {
+   "id": "s14_03",
+   "text": "GTA V continued selling across multiple console generations.",
+   "scene": 14,
+   "say": "G.T.A. Five continued selling across multiple console generations.",
+   "t": 615.854,
+   "local": 10.177,
+   "dur": 4.844,
+   "trim": 0.15
+  },
+  {
+   "id": "s14_04",
+   "text": "GTA Online remained active through regular updates, and Rockstar introduced GTA+ as an additional membership offering.",
+   "scene": 14,
+   "say": "G.T.A. Online remained active through regular updates, and Rockstar introduced G.T.A. Plus as an additional membership offering.",
+   "t": 621.148,
+   "local": 15.471,
+   "dur": 8.642,
+   "trim": 0.181
+  },
+  {
+   "id": "s14_05",
+   "text": "Those results provide a useful comparison, not a guarantee that GTA VI will follow the same path.",
+   "scene": 14,
+   "say": "Those results provide a useful comparison, not a guarantee that G.T.A. Six will follow the same path.",
+   "t": 630.24,
+   "local": 24.563,
+   "dur": 6.937,
+   "trim": 0.198
+  },
+  {
+   "id": "s14_06",
+   "text": "The question is whether Rockstar can build another durable entertainment ecosystem.",
+   "scene": 14,
+   "t": 637.627,
+   "local": 31.95,
+   "dur": 5.16,
+   "trim": 0.127
+  },
+  {
+   "id": "s14_07",
+   "text": "First-week sales will matter.",
+   "scene": 14,
+   "t": 643.237,
+   "local": 37.56,
+   "dur": 1.856,
+   "trim": 0.188
+  },
+  {
+   "id": "s14_08",
+   "text": "But the longer-term test will involve engagement, continued demand, future content and the commercial life of the franchise.",
+   "scene": 14,
+   "t": 645.543,
+   "local": 39.866,
+   "dur": 7.443,
+   "trim": 0.217
+  },
+  {
+   "id": "s15_01",
+   "text": "The evidence reveals three strategic decisions.",
+   "scene": 15,
+   "t": 654.686,
+   "local": 0.6,
+   "dur": 3.01,
+   "trim": 0.143
+  },
+  {
+   "id": "s15_02",
+   "text": "First, Rockstar concentrated on a limited number of ambitious, long-lasting entertainment products rather than frequent numbered Grand Theft Auto releases.",
+   "scene": 15,
+   "t": 658.146,
+   "local": 4.06,
+   "dur": 9.882,
+   "trim": 0.196
+  },
+  {
+   "id": "s15_03",
+   "text": "Second, GTA Online helped extend the commercial life of the existing franchise while the next installment was developed.",
+   "scene": 15,
+   "say": "Second, G.T.A. Online helped extend the commercial life of the existing franchise while the next installment was developed.",
+   "t": 668.477,
+   "local": 14.391,
+   "dur": 7.367,
+   "trim": 0.178
+  },
+  {
+   "id": "s15_04",
+   "text": "Third, Rockstar accepted additional waiting time to pursue its stated quality expectations, even as commercial anticipation continued growing.",
+   "scene": 15,
+   "t": 676.295,
+   "local": 22.209,
+   "dur": 10.006,
+   "trim": 0.183
+  },
+  {
+   "id": "s15_05",
+   "text": "Each decision involved trade-offs.",
+   "scene": 15,
+   "t": 686.751,
+   "local": 32.665,
+   "dur": 2.469,
+   "trim": 0.184
+  },
+  {
+   "id": "s15_06",
+   "text": "Fewer releases concentrate risk.",
+   "scene": 15,
+   "t": 689.67,
+   "local": 35.584,
+   "dur": 2.569,
+   "trim": 0.208
+  },
+  {
+   "id": "s15_07",
+   "text": "Long-lasting products create opportunity.",
+   "scene": 15,
+   "t": 692.689,
+   "local": 38.603,
+   "dur": 2.731,
+   "trim": 0.185
+  },
+  {
+   "id": "s15_08",
+   "text": "And delaying a launch can protect quality while postponing revenue.",
+   "scene": 15,
+   "t": 695.87,
+   "local": 41.784,
+   "dur": 3.912,
+   "trim": 0.1
+  },
+  {
+   "id": "s15_09",
+   "text": "GTA VI brings all three decisions together.",
+   "scene": 15,
+   "say": "G.T.A. Six brings all three decisions together.",
+   "t": 700.232,
+   "local": 46.146,
+   "dur": 3.277,
+   "trim": 0.185
+  },
+  {
+   "id": "s16_01",
+   "text": "The remarkable thing about GTA VI isn't simply that people waited thirteen years.",
+   "scene": 16,
+   "say": "The remarkable thing about G.T.A. Six isn't simply that people waited thirteen years.",
+   "t": 705.209,
+   "local": 0.6,
+   "dur": 5.737,
+   "trim": 0.203
+  },
+  {
+   "id": "s16_02",
+   "text": "It's that Rockstar built a franchise capable of remaining commercially relevant throughout that wait.",
+   "scene": 16,
+   "t": 711.396,
+   "local": 6.787,
+   "dur": 5.477,
+   "trim": 0.164
+  },
+  {
+   "id": "s16_03",
+   "text": "GTA V became an extraordinary long-term success.",
+   "scene": 16,
+   "say": "G.T.A. Five became an extraordinary long-term success.",
+   "t": 717.323,
+   "local": 12.714,
+   "dur": 4.325,
+   "trim": 0.137
+  },
+  {
+   "id": "s16_04",
+   "text": "GTA Online extended the business beyond the original launch.",
+   "scene": 16,
+   "say": "G.T.A. Online extended the business beyond the original launch.",
+   "t": 722.099,
+   "local": 17.49,
+   "dur": 4.254,
+   "trim": 0.201
+  },
+  {
+   "id": "s16_05",
+   "text": "And GTA VI arrived at the edge of release with enormous expectations.",
+   "scene": 16,
+   "say": "And G.T.A. Six arrived at the edge of release with enormous expectations.",
+   "t": 726.803,
+   "local": 22.194,
+   "dur": 5.673,
+   "trim": 0.138
+  },
+  {
+   "id": "s16_06",
+   "text": "But the verdict isn't written yet.",
+   "scene": 16,
+   "t": 732.926,
+   "local": 28.317,
+   "dur": 1.867,
+   "trim": 0.184
+  },
+  {
+   "id": "s16_07",
+   "text": "Anticipation is evidence of demand, not proof of future success.",
+   "scene": 16,
+   "t": 735.243,
+   "local": 30.634,
+   "dur": 4.313,
+   "trim": 0.151
+  },
+  {
+   "id": "s16_08",
+   "text": "Rockstar has shown how powerful a long-lasting entertainment franchise can become.",
+   "scene": 16,
+   "t": 740.007,
+   "local": 35.398,
+   "dur": 5.535,
+   "trim": 0.173
+  },
+  {
+   "id": "s16_09",
+   "text": "Now it must prove that the next chapter can justify the expectations.",
+   "scene": 16,
+   "t": 745.992,
+   "local": 41.383,
+   "dur": 4.825,
+   "trim": 0.189
+  },
+  {
+   "id": "s16_10",
+   "text": "Every brand leaves evidence.",
+   "scene": 16,
+   "t": 751.267,
+   "local": 46.658,
+   "dur": 2.067,
+   "trim": 0.15
+  }
+ ]
+}
