@@ -1,0 +1,5 @@
+deliverables/frames_*/
+logs/
+*.blend1
+reports/_build_meta.json
+__pycache__/
