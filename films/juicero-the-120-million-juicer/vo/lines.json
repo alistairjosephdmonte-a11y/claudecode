@@ -1,0 +1,591 @@
+[
+ {
+  "id": "s01_01",
+  "text": "On a kitchen counter sits a four-hundred-dollar machine backed by some of Silicon Valley's most prominent investors.",
+  "scene": 1
+ },
+ {
+  "id": "s01_02",
+  "text": "Beside it, a sealed packet of fruit and vegetables.",
+  "scene": 1
+ },
+ {
+  "id": "s01_03",
+  "text": "In April 2017, Bloomberg reporters conducted a remarkably simple experiment.",
+  "scene": 1,
+  "say": "In April twenty seventeen, Bloomberg reporters conducted a remarkably simple experiment."
+ },
+ {
+  "id": "s01_04",
+  "text": "Instead of using the machine, they squeezed the packet with their hands.",
+  "scene": 1
+ },
+ {
+  "id": "s01_05",
+  "text": "Juice came out.",
+  "scene": 1
+ },
+ {
+  "id": "s01_06",
+  "text": "A company that had raised approximately one hundred and twenty million dollars suddenly faced a devastating question.",
+  "scene": 1
+ },
+ {
+  "id": "s01_07",
+  "text": "What exactly were customers paying for?",
+  "scene": 1
+ },
+ {
+  "id": "s02_01",
+  "text": "Juicero wasn't an obscure invention struggling to attract attention.",
+  "scene": 2,
+  "say": "Joo-sair-oh wasn't an obscure invention struggling to attract attention."
+ },
+ {
+  "id": "s02_02",
+  "text": "Its investors included Google Ventures, Kleiner Perkins, and Campbell Soup.",
+  "scene": 2
+ },
+ {
+  "id": "s02_03",
+  "text": "These were organizations with experience in technology, consumer products, and ambitious new businesses.",
+  "scene": 2
+ },
+ {
+  "id": "s02_04",
+  "text": "The opportunity appeared to combine several attractive ideas.",
+  "scene": 2
+ },
+ {
+  "id": "s02_05",
+  "text": "Healthy living, connected appliances, convenience, and recurring purchases.",
+  "scene": 2
+ },
+ {
+  "id": "s02_06",
+  "text": "Juicero wasn't merely selling a kitchen appliance.",
+  "scene": 2,
+  "say": "Joo-sair-oh wasn't merely selling a kitchen appliance."
+ },
+ {
+  "id": "s02_07",
+  "text": "It was attempting to build an entire commercial ecosystem around the daily habit of drinking fresh juice.",
+  "scene": 2
+ },
+ {
+  "id": "s03_01",
+  "text": "Behind the company was Doug Evans, an entrepreneur who believed fresh produce should become a more convenient part of people's lives.",
+  "scene": 3
+ },
+ {
+  "id": "s03_02",
+  "text": "Traditional juicing required preparation, equipment, and cleanup.",
+  "scene": 3
+ },
+ {
+  "id": "s03_03",
+  "text": "Buying prepared juice was easier, but Juicero offered another possibility.",
+  "scene": 3,
+  "say": "Buying prepared juice was easier, but Joo-sair-oh offered another possibility."
+ },
+ {
+  "id": "s03_04",
+  "text": "Fresh juice at home without handling loose ingredients or cleaning a conventional juicer.",
+  "scene": 3
+ },
+ {
+  "id": "s03_05",
+  "text": "The underlying consumer problem was understandable.",
+  "scene": 3
+ },
+ {
+  "id": "s03_06",
+  "text": "The controversial decision was how Evans and his company chose to solve it.",
+  "scene": 3
+ },
+ {
+  "id": "s03_07",
+  "text": "They approached a food preparation problem as a technology platform.",
+  "scene": 3
+ },
+ {
+  "id": "s04_01",
+  "text": "In March 2016, Juicero launched its connected countertop press.",
+  "scene": 4,
+  "say": "In March twenty sixteen, Joo-sair-oh launched its connected countertop press."
+ },
+ {
+  "id": "s04_02",
+  "text": "The price was six hundred and ninety-nine dollars.",
+  "scene": 4
+ },
+ {
+  "id": "s04_03",
+  "text": "Customers inserted proprietary packets containing prepared fruits and vegetables.",
+  "scene": 4
+ },
+ {
+  "id": "s04_04",
+  "text": "The machine pressed their contents into a glass, without requiring the customer to handle the loose produce.",
+  "scene": 4
+ },
+ {
+  "id": "s04_05",
+  "text": "It was designed to make juicing cleaner and more consistent.",
+  "scene": 4
+ },
+ {
+  "id": "s04_06",
+  "text": "But the starting price created an immediate challenge.",
+  "scene": 4
+ },
+ {
+  "id": "s04_07",
+  "text": "Before Juicero could sell millions of servings, it first had to convince customers to purchase an unusually expensive appliance.",
+  "scene": 4,
+  "say": "Before Joo-sair-oh could sell millions of servings, it first had to convince customers to purchase an unusually expensive appliance."
+ },
+ {
+  "id": "s05_01",
+  "text": "Selling the machine was only the beginning.",
+  "scene": 5
+ },
+ {
+  "id": "s05_02",
+  "text": "Juicero also supplied the refrigerated produce packets used by the press.",
+  "scene": 5,
+  "say": "Joo-sair-oh also supplied the refrigerated produce packets used by the press."
+ },
+ {
+  "id": "s05_03",
+  "text": "Each purchase created another opportunity for revenue.",
+  "scene": 5
+ },
+ {
+  "id": "s05_04",
+  "text": "The model resembled other appliance businesses built around compatible consumables.",
+  "scene": 5
+ },
+ {
+  "id": "s05_05",
+  "text": "But fresh vegetables are different from coffee capsules or printer cartridges.",
+  "scene": 5
+ },
+ {
+  "id": "s05_06",
+  "text": "They deteriorate.",
+  "scene": 5
+ },
+ {
+  "id": "s05_07",
+  "text": "They require careful handling and dependable distribution.",
+  "scene": 5
+ },
+ {
+  "id": "s05_08",
+  "text": "Juicero's business therefore depended on two products succeeding together.",
+  "scene": 5,
+  "say": "Joo-sair-oh's business therefore depended on two products succeeding together."
+ },
+ {
+  "id": "s05_09",
+  "text": "Customers needed a reason to buy the machine, and then a reason to keep buying the packets.",
+  "scene": 5
+ },
+ {
+  "id": "s06_01",
+  "text": "Juicero's press incorporated internet connectivity and a system for identifying its produce packets.",
+  "scene": 6,
+  "say": "Joo-sair-oh's press incorporated internet connectivity and a system for identifying its produce packets."
+ },
+ {
+  "id": "s06_02",
+  "text": "The company argued that this technology helped protect freshness and improve consistency.",
+  "scene": 6
+ },
+ {
+  "id": "s06_03",
+  "text": "It was trying to control the experience from delivery to consumption.",
+  "scene": 6
+ },
+ {
+  "id": "s06_04",
+  "text": "But every additional feature introduced another question.",
+  "scene": 6
+ },
+ {
+  "id": "s06_05",
+  "text": "Did customers value the technology enough to justify the price and dependence on a proprietary system?",
+  "scene": 6
+ },
+ {
+  "id": "s06_06",
+  "text": "Juicero had created a tightly integrated product.",
+  "scene": 6,
+  "say": "Joo-sair-oh had created a tightly integrated product."
+ },
+ {
+  "id": "s06_07",
+  "text": "That integration could offer benefits, but it also made the appliance dependent on the wider business.",
+  "scene": 6
+ },
+ {
+  "id": "s07_01",
+  "text": "The Juicero Press was not simply an empty shell with a motor inside.",
+  "scene": 7,
+  "say": "The Joo-sair-oh Press was not simply an empty shell with a motor inside."
+ },
+ {
+  "id": "s07_02",
+  "text": "Its construction involved a sophisticated mechanical system and specialized components.",
+  "scene": 7
+ },
+ {
+  "id": "s07_03",
+  "text": "A third-party teardown revealed the complexity of the engineering.",
+  "scene": 7
+ },
+ {
+  "id": "s07_04",
+  "text": "From that perspective, the machine was an ambitious piece of hardware.",
+  "scene": 7
+ },
+ {
+  "id": "s07_05",
+  "text": "But engineering achievement and commercial value are not the same thing.",
+  "scene": 7
+ },
+ {
+  "id": "s07_06",
+  "text": "A product can be technically impressive while remaining difficult to justify economically.",
+  "scene": 7
+ },
+ {
+  "id": "s07_07",
+  "text": "The more complicated the solution becomes, the more important it is to establish that customers genuinely need what it delivers.",
+  "scene": 7
+ },
+ {
+  "id": "s08_01",
+  "text": "Before the infamous experiment, Juicero had already changed its pricing strategy.",
+  "scene": 8,
+  "say": "Before the infamous experiment, Joo-sair-oh had already changed its pricing strategy."
+ },
+ {
+  "id": "s08_02",
+  "text": "In January 2017, the company reduced the price of its press from six hundred and ninety-nine dollars to three hundred and ninety-nine.",
+  "scene": 8,
+  "say": "In January twenty seventeen, the company reduced the price of its press from six hundred and ninety-nine dollars to three hundred and ninety-nine."
+ },
+ {
+  "id": "s08_03",
+  "text": "That's a reduction of roughly forty-three percent.",
+  "scene": 8
+ },
+ {
+  "id": "s08_04",
+  "text": "Lowering the price made the product accessible to more potential customers.",
+  "scene": 8
+ },
+ {
+  "id": "s08_05",
+  "text": "But it also demonstrated that the original price was difficult to sustain as a route to wider adoption.",
+  "scene": 8
+ },
+ {
+  "id": "s08_06",
+  "text": "And the company had not yet faced the public revelation that would transform its reputation.",
+  "scene": 8
+ },
+ {
+  "id": "s09_01",
+  "text": "Then came the Bloomberg investigation.",
+  "scene": 9
+ },
+ {
+  "id": "s09_02",
+  "text": "Reporters compared the output of Juicero's machine with what they could extract manually from the same type of packet.",
+  "scene": 9,
+  "say": "Reporters compared the output of Joo-sair-oh's machine with what they could extract manually from the same type of packet."
+ },
+ {
+  "id": "s09_03",
+  "text": "The machine produced slightly more juice, but hand squeezing delivered a remarkably similar result.",
+  "scene": 9
+ },
+ {
+  "id": "s09_04",
+  "text": "In the documented comparison, the manual method was also faster.",
+  "scene": 9
+ },
+ {
+  "id": "s09_05",
+  "text": "The difference wasn't enough to make every benefit of the appliance disappear.",
+  "scene": 9
+ },
+ {
+  "id": "s09_06",
+  "text": "But it exposed a much larger problem.",
+  "scene": 9
+ },
+ {
+  "id": "s09_07",
+  "text": "The most visible function of a four-hundred-dollar machine could be substantially reproduced without buying it.",
+  "scene": 9
+ },
+ {
+  "id": "s10_01",
+  "text": "Until then, Juicero's story had been about technology improving nutrition and convenience.",
+  "scene": 10,
+  "say": "Until then, Joo-sair-oh's story had been about technology improving nutrition and convenience."
+ },
+ {
+  "id": "s10_02",
+  "text": "The investigation introduced a much simpler narrative.",
+  "scene": 10
+ },
+ {
+  "id": "s10_03",
+  "text": "An expensive machine performing a task people could accomplish themselves.",
+  "scene": 10
+ },
+ {
+  "id": "s10_04",
+  "text": "That contrast was easy to understand and difficult to overcome.",
+  "scene": 10
+ },
+ {
+  "id": "s10_05",
+  "text": "The brand's challenge was no longer just explaining why its product was useful.",
+  "scene": 10
+ },
+ {
+  "id": "s10_06",
+  "text": "It had to defend why the complete system was worth purchasing.",
+  "scene": 10
+ },
+ {
+  "id": "s10_07",
+  "text": "And it had to do so while its hardware became the subject of widespread public criticism.",
+  "scene": 10
+ },
+ {
+  "id": "s11_01",
+  "text": "Juicero's leadership rejected the idea that its value could be measured solely by hand squeezing a packet.",
+  "scene": 11,
+  "say": "Joo-sair-oh's leadership rejected the idea that its value could be measured solely by hand squeezing a packet."
+ },
+ {
+  "id": "s11_02",
+  "text": "Chief executive Jeff Dunn defended the broader system, emphasizing convenience, product consistency, and quality control.",
+  "scene": 11
+ },
+ {
+  "id": "s11_03",
+  "text": "The company also offered dissatisfied customers refunds.",
+  "scene": 11
+ },
+ {
+  "id": "s11_04",
+  "text": "Those arguments deserve consideration.",
+  "scene": 11
+ },
+ {
+  "id": "s11_05",
+  "text": "A machine can provide benefits beyond its most basic mechanical function.",
+  "scene": 11
+ },
+ {
+  "id": "s11_06",
+  "text": "But Juicero now needed to demonstrate that those additional benefits justified the cost.",
+  "scene": 11,
+  "say": "But Joo-sair-oh now needed to demonstrate that those additional benefits justified the cost."
+ },
+ {
+  "id": "s11_07",
+  "text": "Its defense depended on customers valuing the complete experience rather than simply the juice.",
+  "scene": 11
+ },
+ {
+  "id": "s12_01",
+  "text": "The hand-squeezing experiment became the defining image of Juicero's failure.",
+  "scene": 12,
+  "say": "The hand-squeezing experiment became the defining image of Joo-sair-oh's failure."
+ },
+ {
+  "id": "s12_02",
+  "text": "But behind that image was another challenge.",
+  "scene": 12
+ },
+ {
+  "id": "s12_03",
+  "text": "Every produce packet had to be sourced, prepared, packaged, transported, and delivered while maintaining freshness.",
+  "scene": 12
+ },
+ {
+  "id": "s12_04",
+  "text": "The business was operating two demanding systems at once.",
+  "scene": 12
+ },
+ {
+  "id": "s12_05",
+  "text": "Consumer hardware and fresh-food distribution.",
+  "scene": 12
+ },
+ {
+  "id": "s12_06",
+  "text": "Increasing sales meant expanding that infrastructure.",
+  "scene": 12
+ },
+ {
+  "id": "s12_07",
+  "text": "And reducing prices meant finding ways to deliver the same experience at lower cost.",
+  "scene": 12
+ },
+ {
+  "id": "s12_08",
+  "text": "The appliance attracted attention.",
+  "scene": 12
+ },
+ {
+  "id": "s12_09",
+  "text": "The distribution network represented a less visible, but equally important, business problem.",
+  "scene": 12
+ },
+ {
+  "id": "s13_01",
+  "text": "By July 2017, Juicero was pursuing another attempt to make its system more affordable.",
+  "scene": 13,
+  "say": "By July twenty seventeen, Joo-sair-oh was pursuing another attempt to make its system more affordable."
+ },
+ {
+  "id": "s13_02",
+  "text": "The company announced plans to reduce staffing by twenty-five percent and work toward lower prices for its appliance and produce packs.",
+  "scene": 13
+ },
+ {
+  "id": "s13_03",
+  "text": "Contemporary reporting described ambitions for a press costing less than two hundred dollars.",
+  "scene": 13
+ },
+ {
+  "id": "s13_04",
+  "text": "These were plans, not a successful commercial turnaround.",
+  "scene": 13
+ },
+ {
+  "id": "s13_05",
+  "text": "Juicero was attempting to restructure its costs while defending a damaged product proposition.",
+  "scene": 13,
+  "say": "Joo-sair-oh was attempting to restructure its costs while defending a damaged product proposition."
+ },
+ {
+  "id": "s13_06",
+  "text": "It needed cheaper hardware, cheaper distribution, and enough customers to support both.",
+  "scene": 13
+ },
+ {
+  "id": "s14_01",
+  "text": "On September first, 2017, Juicero announced that it was suspending sales of its press and produce packets.",
+  "scene": 14,
+  "say": "On September first, twenty seventeen, Joo-sair-oh announced that it was suspending sales of its press and produce packets."
+ },
+ {
+  "id": "s14_02",
+  "text": "The company said it had sold more than a million produce packs since launching.",
+  "scene": 14
+ },
+ {
+  "id": "s14_03",
+  "text": "But it concluded that the infrastructure necessary to serve a national customer base was beyond what it could establish independently.",
+  "scene": 14
+ },
+ {
+  "id": "s14_04",
+  "text": "Juicero began seeking an acquirer with an existing fresh-food supply chain and offered refunds on its presses.",
+  "scene": 14,
+  "say": "Joo-sair-oh began seeking an acquirer with an existing fresh-food supply chain and offered refunds on its presses."
+ },
+ {
+  "id": "s14_05",
+  "text": "Approximately seventeen months after launch, the ambitious consumer technology business could no longer continue independently.",
+  "scene": 14
+ },
+ {
+  "id": "s15_01",
+  "text": "The evidence points toward three strategic weaknesses.",
+  "scene": 15
+ },
+ {
+  "id": "s15_02",
+  "text": "An expensive appliance placed a high barrier in front of customer adoption.",
+  "scene": 15
+ },
+ {
+  "id": "s15_03",
+  "text": "A proprietary fresh-food ecosystem introduced significant operational demands.",
+  "scene": 15
+ },
+ {
+  "id": "s15_04",
+  "text": "And the product's central function could be reproduced through a dramatically cheaper alternative.",
+  "scene": 15
+ },
+ {
+  "id": "s15_05",
+  "text": "None of these observations alone explains every decision inside Juicero.",
+  "scene": 15,
+  "say": "None of these observations alone explains every decision inside Joo-sair-oh."
+ },
+ {
+  "id": "s15_06",
+  "text": "Together, however, they reveal a business struggling to align engineering, customer value, and distribution economics.",
+  "scene": 15
+ },
+ {
+  "id": "s15_07",
+  "text": "Venture funding created the opportunity to build the system.",
+  "scene": 15
+ },
+ {
+  "id": "s15_08",
+  "text": "It couldn't guarantee that the system would become sustainable.",
+  "scene": 15
+ },
+ {
+  "id": "s16_01",
+  "text": "Juicero wasn't a failure because innovation is unnecessary.",
+  "scene": 16,
+  "say": "Joo-sair-oh wasn't a failure because innovation is unnecessary."
+ },
+ {
+  "id": "s16_02",
+  "text": "It was a reminder that innovation must justify its own complexity.",
+  "scene": 16
+ },
+ {
+  "id": "s16_03",
+  "text": "Approximately one hundred and twenty million dollars in funding helped create an extraordinary machine.",
+  "scene": 16
+ },
+ {
+  "id": "s16_04",
+  "text": "But customers still needed a compelling reason to buy it, and the company needed an affordable way to support it.",
+  "scene": 16
+ },
+ {
+  "id": "s16_05",
+  "text": "The most important lesson wasn't revealed inside a boardroom or a financial report.",
+  "scene": 16
+ },
+ {
+  "id": "s16_06",
+  "text": "It was revealed when someone picked up a packet and squeezed.",
+  "scene": 16
+ },
+ {
+  "id": "s16_07",
+  "text": "Every brand leaves evidence.",
+  "scene": 16
+ }
+]
