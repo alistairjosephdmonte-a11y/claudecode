@@ -1,0 +1,103 @@
+{
+  "NICO_01": {
+    "pose": "seated",
+    "root": [
+      -1.05,
+      -0.4,
+      0.0
+    ],
+    "max_root_drift_m": 0.0,
+    "max_yaw_drift_deg": 0.0,
+    "pelvis_z_range": [
+      0.557,
+      0.557
+    ],
+    "shoe_sole_z_range": [
+      0.005,
+      0.005
+    ],
+    "visible_in_shots": [
+      1,
+      4,
+      5,
+      9
+    ],
+    "chair": "PROP_Chair_NICO_01",
+    "ok": true
+  },
+  "SLOANE_01": {
+    "pose": "seated",
+    "root": [
+      -1.05,
+      1.0,
+      0.0
+    ],
+    "max_root_drift_m": 0.0,
+    "max_yaw_drift_deg": 0.0,
+    "pelvis_z_range": [
+      0.5495,
+      0.5495
+    ],
+    "shoe_sole_z_range": [
+      0.005,
+      0.005
+    ],
+    "visible_in_shots": [
+      1,
+      2,
+      4,
+      9,
+      10
+    ],
+    "chair": "PROP_Chair_SLOANE_01",
+    "ok": true
+  },
+  "ELLIOT_01": {
+    "pose": "standing",
+    "root": [
+      1.45,
+      2.85,
+      0.0
+    ],
+    "max_root_drift_m": 0.0,
+    "max_yaw_drift_deg": 0.0,
+    "pelvis_z_range": [
+      0.9486,
+      0.9486
+    ],
+    "shoe_sole_z_range": [
+      0.005,
+      0.005
+    ],
+    "visible_in_shots": [
+      1,
+      3,
+      9
+    ],
+    "chair": null,
+    "ok": true
+  },
+  "VANTA_CLIENT": {
+    "pose": "seated",
+    "root": [
+      0.95,
+      -0.82,
+      0.0
+    ],
+    "max_root_drift_m": 0.0,
+    "max_yaw_drift_deg": 0.0,
+    "pelvis_z_range": [
+      0.5645,
+      0.5645
+    ],
+    "shoe_sole_z_range": [
+      0.005,
+      0.005
+    ],
+    "visible_in_shots": [
+      1
+    ],
+    "chair": "PROP_Chair_VANTA_CLIENT",
+    "ok": true
+  }
+}

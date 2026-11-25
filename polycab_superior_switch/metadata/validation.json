@@ -1,0 +1,167 @@
+{
+ "blender": "5.2.4 LTS",
+ "frames": [
+  1,
+  120
+ ],
+ "fps": 24,
+ "passed": 17,
+ "total": 17,
+ "checks": [
+  {
+   "check": "collections",
+   "passed": true,
+   "present": [
+    "01_ARCHITECTURE",
+    "02_INTERIOR_ASSETS",
+    "03_POLYCAB_AERORUSH",
+    "04_REMOTE_CONTROL",
+    "05_LIGHTING_FIXTURES",
+    "06_LIGHT_RIG",
+    "07_CAMERA_RIG",
+    "08_ANIMATION_CONTROLS",
+    "09_BRANDING",
+    "10_RENDER_SETTINGS"
+   ],
+   "loose_objects": []
+  },
+  {
+   "check": "fan_blade_count",
+   "passed": true,
+   "blades": 3
+  },
+  {
+   "check": "fan_sweep_1200mm",
+   "passed": true,
+   "sweep_m": 1.2001
+  },
+  {
+   "check": "fan_clearances",
+   "passed": true,
+   "blade_low_point_m": 2.686,
+   "ceiling_to_blades_m": 0.314
+  },
+  {
+   "check": "fan_inside_tray",
+   "passed": true,
+   "tip_to_soffit_edge_m": 0.9
+  },
+  {
+   "check": "fan_speed_curve",
+   "passed": true,
+   "start_frame": 47.0,
+   "ramp_frames": 44.0,
+   "terminal_rpm": 150.0,
+   "deg_per_frame_terminal": 37.5,
+   "max_change_deg_per_frame_per_quarter": 0.3196,
+   "monotonic_spin_up": true
+  },
+  {
+   "check": "fan_no_wagon_wheel",
+   "passed": true,
+   "deg_per_frame": 37.5,
+   "note": "3-blade symmetry aliases at 60 deg/frame; below it the rotation reads in the right direction"
+  },
+  {
+   "check": "light_cues_no_flicker",
+   "passed": true,
+   "cues": {
+    "wash": {
+     "on": 57,
+     "full": 66,
+     "reversals": 0,
+     "max_step": 0.148
+    },
+    "perim": {
+     "on": 61,
+     "full": 70,
+     "reversals": 0,
+     "max_step": 0.148
+    },
+    "cove": {
+     "on": 64,
+     "full": 80,
+     "reversals": 0,
+     "max_step": 0.088
+    },
+    "shelf": {
+     "on": 69,
+     "full": 82,
+     "reversals": 0,
+     "max_step": 0.106
+    },
+    "string": {
+     "on": 77,
+     "full": 96,
+     "reversals": 0,
+     "max_step": 0.075
+    }
+   }
+  },
+  {
+   "check": "lights_after_fan_cue",
+   "passed": true,
+   "fan_start": 47.0,
+   "first_light_frame": 57,
+   "note": "architectural lights are a separate cue, they begin after the fan is already turning"
+  },
+  {
+   "check": "camera_clearance",
+   "passed": true,
+   "min_distance_m": 0.44,
+   "nearest": [
+    "ARCH_Wall_Front",
+    120.0
+   ]
+  },
+  {
+   "check": "camera_motion",
+   "passed": true,
+   "peak_speed_m_s": 1.64,
+   "peak_accel_m_s2": 4.23,
+   "end_speed_m_s": 0.001,
+   "lens_mm": 28.0,
+   "lens_animated": false
+  },
+  {
+   "check": "remote_press_contact",
+   "passed": true,
+   "frame": 46,
+   "thumb_to_power_key_m": 0.0025
+  },
+  {
+   "check": "remote_scale",
+   "passed": true,
+   "remote_dims_m": [
+    0.042,
+    0.135,
+    0.017
+   ],
+   "remote_to_fan_sweep": 0.113
+  },
+  {
+   "check": "room_continuity",
+   "passed": true,
+   "static_objects": 258,
+   "moved": []
+  },
+  {
+   "check": "no_duplicates",
+   "passed": true,
+   "duplicated": []
+  },
+  {
+   "check": "no_interpenetration",
+   "passed": true,
+   "unintended": [],
+   "resting_contacts": 4
+  },
+  {
+   "check": "textures_packed",
+   "passed": true,
+   "external_images": [],
+   "images_total": 2,
+   "note": "all materials are procedural node trees; nothing to pack"
+  }
+ ]
+}
