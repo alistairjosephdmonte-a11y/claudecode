@@ -194,6 +194,8 @@ The match-cut overlay guides (faces, collar, hand) are **not built**. They need 
 | Render | Time |
 |---|---|
 | Preview, 960 × 540 at 16 samples | about 4 s per studio frame, about 15 s per room frame |
+| Previews as actually rendered | animatic (360 frames) finished 04:21 UTC; walkthrough (240 frames) took about 63 min, finished 05:24 UTC |
+| Inspection stills, 1920 × 1080 at 48 samples (measured) | packshot 49 s, COB macro 155 s, room frames 84, 85 and 276 about 177–189 s each |
 | Final settings (3840 × 2160, 256 samples, adaptive 0.01, 12 bounces, EXR plus passes) | estimated 30–60 min per frame, so **1–2 weeks** for 360 frames on 4 CPU cores |
 
 A GPU render node, or reduced samples, is recommended for the final.
