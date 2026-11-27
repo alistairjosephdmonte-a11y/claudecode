@@ -1,0 +1,621 @@
+{
+ "status": "PROVISIONAL",
+ "product_validation_status": "PROVISIONAL_UNTIL_MEASURED",
+ "checks": [
+  {
+   "check": "product register self-consistency",
+   "result": "PASS",
+   "detail": {
+    "housing_outer_diameter": [
+     60.0,
+     60.0
+    ],
+    "housing_length": [
+     105.0,
+     105.0
+    ],
+    "mounting_base_diameter": [
+     64.2,
+     64.2
+    ],
+    "mounting_base_thickness": [
+     33.0,
+     33.0
+    ],
+    "stem_width": [
+     18.0,
+     18.0
+    ],
+    "stem_depth": [
+     7.2,
+     7.2
+    ],
+    "emitter_diameter": [
+     13.2,
+     13.2
+    ],
+    "reflector_opening_diameter": [
+     36.6,
+     36.0
+    ]
+   }
+  },
+  {
+   "check": "bases flush with ceiling",
+   "result": "PASS",
+   "detail": [
+    3.1,
+    3.1
+   ]
+  },
+  {
+   "check": "optical axes hit artwork targets (< 5 mm)",
+   "result": "PASS",
+   "detail": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "check": "head/mount intersections limited to the stem-pivot joint",
+   "result": "PASS",
+   "detail": {
+    "overlap_pairs": [
+     96,
+     96
+    ],
+    "note": "stem end is seated inside the pivot pad by design; other contact would show as many pairs"
+   }
+  },
+  {
+   "check": "focal lengths match brief and are constant within shots",
+   "result": "PASS",
+   "detail": [
+    85.0,
+    100.0,
+    35.0,
+    35.0,
+    85.0,
+    85.0,
+    85.0,
+    70.0,
+    24.0,
+    85.0
+   ]
+  },
+  {
+   "check": "no horizon roll (< 0.05 deg)",
+   "result": "PASS",
+   "detail": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "check": "architecture cameras clear of geometry (>= 0.30 m)",
+   "result": "PASS",
+   "detail": {
+    "CAM_03_AMBIENT": 1.35,
+    "CAM_04_TRANSFORMATION": 1.35,
+    "CAM_05_WEDDING_MEMORY": 1.45,
+    "CAM_06_MATCH_CUT": 0.95,
+    "CAM_07_HUMAN_CONNECTION": 1.48,
+    "CAM_08_INSTALLED_GLISS": 0.4,
+    "CAM_09_ARCHITECTURAL_REVEAL": 0.8
+   }
+  },
+  {
+   "check": "CAM_04 identical to CAM_03 (transform, lens, focus)",
+   "result": "PASS",
+   "detail": "shared camera data, identity parent"
+  },
+  {
+   "check": "CAM_08 keeps the right fixture in frame",
+   "result": "PASS",
+   "detail": "base-to-housing point sampled every frame"
+  },
+  {
+   "check": "CAM_09 end frame shows both fixtures and the artwork",
+   "result": "PASS",
+   "detail": "frame 276"
+  },
+  {
+   "check": "walkthrough clearance >= 0.35 m",
+   "result": "PASS",
+   "detail": {
+    "min_clearance_m": 0.7,
+    "max_speed_mps": 0.512,
+    "mid_speed_cv": 0.526,
+    "key_frames": [
+     1,
+     57,
+     137,
+     207,
+     240
+    ]
+   }
+  },
+  {
+   "check": "before/after: only the two Gliss lights and their COBs change",
+   "result": "PASS",
+   "detail": [
+    "GLISS_INSTALLED_L_HEAD.cob_on",
+    "GLISS_INSTALLED_L_SPOT",
+    "GLISS_INSTALLED_R_HEAD.cob_on",
+    "GLISS_INSTALLED_R_SPOT"
+   ]
+  },
+  {
+   "check": "edit: 10 shots, exactly 360 frames, no gaps or duplicate boundary frames",
+   "result": "PASS",
+   "detail": [
+    36,
+    24,
+    24,
+    24,
+    24,
+    36,
+    36,
+    24,
+    48,
+    84
+   ]
+  }
+ ],
+ "product_dimension_report": {
+  "parts": {
+   "GLISS_BASE": {
+    "bbox_mm": [
+     64.2,
+     64.2,
+     33.0
+    ],
+    "polygons": 640
+   },
+   "GLISS_BASE_BOSS": {
+    "bbox_mm": [
+     31.8,
+     31.8,
+     6.5
+    ],
+    "polygons": 512
+   },
+   "GLISS_STEM": {
+    "bbox_mm": [
+     18.0,
+     7.2,
+     35.8
+    ],
+    "polygons": 54
+   },
+   "GLISS_BASE_DETAILS": {
+    "bbox_mm": [
+     50.62,
+     34.33,
+     30.05
+    ],
+    "polygons": 6
+   },
+   "GLISS_HOUSING": {
+    "bbox_mm": [
+     60.0,
+     60.0,
+     105.0
+    ],
+    "polygons": 1152
+   },
+   "GLISS_FRONT_RIM": {
+    "bbox_mm": [
+     60.2,
+     60.2,
+     0.72
+    ],
+    "polygons": 512
+   },
+   "GLISS_REFLECTOR": {
+    "bbox_mm": [
+     36.6,
+     36.6,
+     15.0
+    ],
+    "polygons": 288
+   },
+   "GLISS_COB": {
+    "bbox_mm": [
+     13.2,
+     13.2,
+     0.8
+    ],
+    "polygons": 192
+   },
+   "GLISS_PIVOT": {
+    "bbox_mm": [
+     19.8,
+     3.7,
+     19.8
+    ],
+    "polygons": 144
+   }
+  },
+  "fields": [
+   {
+    "field": "housing_length",
+    "model_mm": 105.0,
+    "register_mm": 105.0,
+    "manufacturer_mm": null,
+    "result": "NOT VERIFIED"
+   },
+   {
+    "field": "housing_outer_diameter",
+    "model_mm": 60.0,
+    "register_mm": 60.0,
+    "manufacturer_mm": null,
+    "result": "NOT VERIFIED"
+   },
+   {
+    "field": "housing_wall_thickness",
+    "model_mm": 1.62,
+    "register_mm": 1.62,
+    "manufacturer_mm": null,
+    "result": "NOT VERIFIED"
+   },
+   {
+    "field": "front_rim_thickness",
+    "model_mm": 0.72,
+    "register_mm": 0.72,
+    "manufacturer_mm": null,
+    "result": "NOT VERIFIED"
+   },
+   {
+    "field": "reflector_opening_diameter",
+    "model_mm": 36.6,
+    "register_mm": 36.0,
+    "manufacturer_mm": null,
+    "result": "NOT VERIFIED"
+   },
+   {
+    "field": "reflector_recess_depth",
+    "model_mm": 15.0,
+    "register_mm": 15.0,
+    "manufacturer_mm": null,
+    "result": "NOT VERIFIED"
+   },
+   {
+    "field": "emitter_diameter",
+    "model_mm": 13.2,
+    "register_mm": 13.2,
+    "manufacturer_mm": null,
+    "result": "NOT VERIFIED"
+   },
+   {
+    "field": "mounting_base_diameter",
+    "model_mm": 64.2,
+    "register_mm": 64.2,
+    "manufacturer_mm": null,
+    "result": "NOT VERIFIED"
+   },
+   {
+    "field": "mounting_base_thickness",
+    "model_mm": 33.0,
+    "register_mm": 33.0,
+    "manufacturer_mm": null,
+    "result": "NOT VERIFIED"
+   },
+   {
+    "field": "stem_width",
+    "model_mm": 18.0,
+    "register_mm": 18.0,
+    "manufacturer_mm": null,
+    "result": "NOT VERIFIED"
+   },
+   {
+    "field": "stem_height",
+    "model_mm": 36.0,
+    "register_mm": 36.0,
+    "manufacturer_mm": null,
+    "result": "NOT VERIFIED"
+   },
+   {
+    "field": "stem_depth",
+    "model_mm": 7.2,
+    "register_mm": 7.2,
+    "manufacturer_mm": null,
+    "result": "NOT VERIFIED"
+   },
+   {
+    "field": "pivot_offset",
+    "model_mm": 45.0,
+    "register_mm": 45.0,
+    "manufacturer_mm": null,
+    "result": "NOT VERIFIED"
+   },
+   {
+    "field": "overall_installed_height",
+    "model_mm": null,
+    "register_mm": null,
+    "manufacturer_mm": null,
+    "result": "NOT VERIFIED"
+   }
+  ],
+  "note": "No manufacturer dimensions supplied; no engineering pass claimed."
+ },
+ "installation": [
+  {
+   "fixture": "L",
+   "base_top_z_m": 3.1,
+   "ceiling_z_m": 3.1,
+   "pan_deg": -163.19,
+   "tilt_deg": 35.69,
+   "optical_axis_miss_mm": 0.0,
+   "mount_head_overlap_pairs": 96
+  },
+  {
+   "fixture": "R",
+   "base_top_z_m": 3.1,
+   "ceiling_z_m": 3.1,
+   "pan_deg": 163.19,
+   "tilt_deg": 35.69,
+   "optical_axis_miss_mm": 0.0,
+   "mount_head_overlap_pairs": 96
+  }
+ ],
+ "cameras": [
+  {
+   "camera": "CAM_01_PRODUCT_HERO",
+   "scene": "SCENE_PRODUCT_STUDIO",
+   "frames": [
+    1,
+    36
+   ],
+   "lens_mm": 85.0,
+   "lens_constant": true,
+   "travel_m": 0.2198,
+   "max_speed_mps": 0.2261,
+   "max_accel_mps2": 0.585,
+   "max_horizon_roll_deg": 0.0,
+   "min_clearance_m": null
+  },
+  {
+   "camera": "CAM_02_COB_MACRO",
+   "scene": "SCENE_PRODUCT_STUDIO",
+   "frames": [
+    37,
+    60
+   ],
+   "lens_mm": 100.0,
+   "lens_constant": true,
+   "travel_m": 0.0072,
+   "max_speed_mps": 0.0113,
+   "max_accel_mps2": 0.043,
+   "max_horizon_roll_deg": 0.0,
+   "min_clearance_m": null
+  },
+  {
+   "camera": "CAM_03_AMBIENT",
+   "scene": "SCENE_ARCHITECTURE",
+   "frames": [
+    61,
+    84
+   ],
+   "lens_mm": 35.0,
+   "lens_constant": true,
+   "travel_m": 0.0,
+   "max_speed_mps": 0.0,
+   "max_accel_mps2": 0.0,
+   "max_horizon_roll_deg": 0.0,
+   "min_clearance_m": 1.35
+  },
+  {
+   "camera": "CAM_04_TRANSFORMATION",
+   "scene": "SCENE_ARCHITECTURE",
+   "frames": [
+    85,
+    108
+   ],
+   "lens_mm": 35.0,
+   "lens_constant": true,
+   "travel_m": 0.0,
+   "max_speed_mps": 0.0,
+   "max_accel_mps2": 0.0,
+   "max_horizon_roll_deg": 0.0,
+   "min_clearance_m": 1.35
+  },
+  {
+   "camera": "CAM_05_WEDDING_MEMORY",
+   "scene": "SCENE_ARCHITECTURE",
+   "frames": [
+    109,
+    132
+   ],
+   "lens_mm": 85.0,
+   "lens_constant": true,
+   "travel_m": 0.25,
+   "max_speed_mps": 0.3911,
+   "max_accel_mps2": 1.491,
+   "max_horizon_roll_deg": 0.0,
+   "min_clearance_m": 1.45
+  },
+  {
+   "camera": "CAM_06_MATCH_CUT",
+   "scene": "SCENE_ARCHITECTURE",
+   "frames": [
+    133,
+    168
+   ],
+   "lens_mm": 85.0,
+   "lens_constant": true,
+   "travel_m": 0.05,
+   "max_speed_mps": 0.0514,
+   "max_accel_mps2": 0.133,
+   "max_horizon_roll_deg": 0.0,
+   "min_clearance_m": 0.95
+  },
+  {
+   "camera": "CAM_07_HUMAN_CONNECTION",
+   "scene": "SCENE_ARCHITECTURE",
+   "frames": [
+    169,
+    204
+   ],
+   "lens_mm": 85.0,
+   "lens_constant": true,
+   "travel_m": 0.05,
+   "max_speed_mps": 0.0514,
+   "max_accel_mps2": 0.133,
+   "max_horizon_roll_deg": 0.0,
+   "min_clearance_m": 1.48
+  },
+  {
+   "camera": "CAM_08_INSTALLED_GLISS",
+   "scene": "SCENE_ARCHITECTURE",
+   "frames": [
+    205,
+    228
+   ],
+   "lens_mm": 70.0,
+   "lens_constant": true,
+   "travel_m": 0.1164,
+   "max_speed_mps": 0.1821,
+   "max_accel_mps2": 0.694,
+   "max_horizon_roll_deg": 0.0,
+   "min_clearance_m": 0.4
+  },
+  {
+   "camera": "CAM_09_ARCHITECTURAL_REVEAL",
+   "scene": "SCENE_ARCHITECTURE",
+   "frames": [
+    229,
+    276
+   ],
+   "lens_mm": 24.0,
+   "lens_constant": true,
+   "travel_m": 2.1489,
+   "max_speed_mps": 1.4222,
+   "max_accel_mps2": 6.341,
+   "max_horizon_roll_deg": 0.0,
+   "min_clearance_m": 0.8
+  },
+  {
+   "camera": "CAM_10_FINAL_PACKSHOT",
+   "scene": "SCENE_PRODUCT_STUDIO",
+   "frames": [
+    277,
+    360
+   ],
+   "lens_mm": 85.0,
+   "lens_constant": true,
+   "travel_m": 0.0,
+   "max_speed_mps": 0.0,
+   "max_accel_mps2": 0.0,
+   "max_horizon_roll_deg": 0.0,
+   "min_clearance_m": null
+  }
+ ],
+ "walkthrough": {
+  "min_clearance_m": 0.7,
+  "max_speed_mps": 0.512,
+  "mid_speed_cv": 0.526,
+  "key_frames": [
+   1,
+   57,
+   137,
+   207,
+   240
+  ]
+ },
+ "edit": [
+  [
+   "01_PRODUCT_HERO",
+   1,
+   36,
+   36,
+   "SCENE_PRODUCT_STUDIO",
+   "CAM_01_PRODUCT_HERO"
+  ],
+  [
+   "02_COB_MACRO",
+   37,
+   60,
+   24,
+   "SCENE_PRODUCT_STUDIO",
+   "CAM_02_COB_MACRO"
+  ],
+  [
+   "03_AMBIENT",
+   61,
+   84,
+   24,
+   "SCENE_ARCHITECTURE",
+   "CAM_03_AMBIENT"
+  ],
+  [
+   "04_TRANSFORMATION",
+   85,
+   108,
+   24,
+   "SCENE_ARCHITECTURE",
+   "CAM_04_TRANSFORMATION"
+  ],
+  [
+   "05_WEDDING_MEMORY",
+   109,
+   132,
+   24,
+   "SCENE_ARCHITECTURE",
+   "CAM_05_WEDDING_MEMORY"
+  ],
+  [
+   "06_MATCH_CUT",
+   133,
+   168,
+   36,
+   "SCENE_ARCHITECTURE",
+   "CAM_06_MATCH_CUT"
+  ],
+  [
+   "07_HUMAN_CONNECTION",
+   169,
+   204,
+   36,
+   "SCENE_ARCHITECTURE",
+   "CAM_07_HUMAN_CONNECTION"
+  ],
+  [
+   "08_INSTALLED_GLISS",
+   205,
+   228,
+   24,
+   "SCENE_ARCHITECTURE",
+   "CAM_08_INSTALLED_GLISS"
+  ],
+  [
+   "09_ARCHITECTURAL_REVEAL",
+   229,
+   276,
+   48,
+   "SCENE_ARCHITECTURE",
+   "CAM_09_ARCHITECTURAL_REVEAL"
+  ],
+  [
+   "10_FINAL_PACKSHOT",
+   277,
+   360,
+   84,
+   "SCENE_PRODUCT_STUDIO",
+   "CAM_10_FINAL_PACKSHOT"
+  ]
+ ],
+ "summary": {
+  "checks": 13,
+  "fail": 0,
+  "final_render_gate": "Not dimensionally approved: manufacturer measurements missing."
+ }
+}
