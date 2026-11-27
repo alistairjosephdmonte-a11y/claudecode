@@ -1,0 +1,166 @@
+{
+ "stage": "BLOCKOUT",
+ "checks": [
+  {
+   "check": "format: 360 frames @ 24 fps, 3840 x 2160",
+   "pass": true,
+   "detail": [
+    1,
+    360,
+    24,
+    3840,
+    2160
+   ]
+  },
+  {
+   "check": "camera switch: CAM_A 1-240, CAM_B 241-360",
+   "pass": true,
+   "detail": [
+    [
+     1,
+     "CAM_A"
+    ],
+    [
+     241,
+     "CAM_B"
+    ]
+   ]
+  },
+  {
+   "check": "carton 120 x 45 x 190 mm (PROVISIONAL), upright, dieline UVs",
+   "pass": true,
+   "detail": {
+    "dims_mm": [
+     120.0,
+     45.0,
+     190.0
+    ],
+    "uv": [
+     "DIELINE"
+    ]
+   }
+  },
+  {
+   "check": "orange used only on provisional cartons",
+   "pass": true,
+   "detail": [
+    "BC_MADRAS_01_HERO",
+    "BC_MADRAS_01_ISLAND"
+   ]
+  },
+  {
+   "check": "skillet 280 mm inner top diameter, 5 mm wall",
+   "pass": true,
+   "detail": {
+    "inner_top_diameter_mm": 280.0,
+    "wall_mm": 5.0
+   }
+  },
+  {
+   "check": "camera keys use Bezier interpolation",
+   "pass": true,
+   "detail": [
+    "BEZIER"
+   ]
+  },
+  {
+   "check": "camera clearance >= 0.05 m from all solid geometry",
+   "pass": true,
+   "detail": {
+    "min_clearance_m": 0.128,
+    "frame": 240
+   }
+  },
+  {
+   "check": "no camera path segment passes through geometry",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "check": "window light on camera-left every frame",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "check": "hero hold: CAM_B static 288-360 (73 frames, 3.0 s)",
+   "pass": true,
+   "detail": {
+    "frames": [
+     288,
+     360
+    ]
+   }
+  },
+  {
+   "check": "hero carton face toward camera (>= 0.9 cos) and unobscured (35 face samples)",
+   "pass": true,
+   "detail": {
+    "occluded_samples": []
+   }
+  },
+  {
+   "check": "hero products fully in frame",
+   "pass": true,
+   "detail": {}
+  },
+  {
+   "check": "negative space: right 35 % of the hero frame free of product",
+   "pass": true,
+   "detail": {
+    "rightmost_product_x": 0.627
+   }
+  },
+  {
+   "check": "steam occludes the cut (density >= 30 at 240 on CAM_A, 241 on CAM_B; restrained <= 1 at hero)",
+   "pass": true,
+   "detail": {
+    "STEAM_PAN": {
+     "230": 1.41,
+     "240": 40.0,
+     "241": 40.0,
+     "250": 4.22,
+     "330": 0.8
+    },
+    "STEAM_BOWL": {
+     "230": 0.0,
+     "240": 0.0,
+     "241": 40.0,
+     "250": 3.37,
+     "330": 0.6
+    }
+   }
+  },
+  {
+   "check": "no airborne chicken (all chicken pieces static)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "check": "spice proxies settle on the sauce surface",
+   "pass": true,
+   "detail": {
+    "final_z": 0.9322,
+    "count": 70
+   }
+  },
+  {
+   "check": "Mantaflow liquid setup present (domain, inflow, collisions), unbaked, viscosity PROVISIONAL",
+   "pass": true,
+   "detail": {
+    "resolution": 128,
+    "viscosity_m2_s": 0.002,
+    "baked": false
+   }
+  },
+  {
+   "check": "final settings stored: AgX, 256 spp adaptive, 180-deg motion blur, EXR multilayer + passes",
+   "pass": true,
+   "detail": {
+    "look": "None",
+    "codec": "DWAA"
+   }
+  }
+ ],
+ "failures": 0,
+ "note": "Geometric/continuity checks only. Product dimensions are PROVISIONAL (spec values); artwork, food appearance and fluid behaviour are not validated at this stage."
+}
