@@ -202,6 +202,7 @@ def build_materials():
     M["Gallery"] = B.mat_plain("MAT_ART_MOUNT_WHITE", (0.8, 0.79, 0.76), rough=0.9)
     M["Skyline"] = mat_skyline("MAT_BLUE_HOUR_SKYLINE")
     M["Tower"] = mat_tower("MAT_TOWER_WINDOWS")
+    M["CityGround"] = mat_city_ground("MAT_CITY_GROUND")
     M["Proxy"] = B.mat_plain("MAT_CAST_PROXY_GREY", (0.35, 0.35, 0.36), rough=0.7)
     M["ProxyIsha"] = B.mat_plain("MAT_CAST_PROXY_ISHA_GOWN", (0.02, 0.02, 0.02), rough=0.6)
     M["ProxyVeer"] = B.mat_plain("MAT_CAST_PROXY_VEER_SUIT", (0.04, 0.04, 0.045), rough=0.6)
@@ -298,14 +299,26 @@ def mat_skyline(name):
 
 
 def mat_tower(name):
-    """Distant towers: dark facades with a per-window random grid of warm/cool lit windows."""
+    """Distant towers: dark facades with a per-window random grid of warm/cool lit windows.
+    Windows are 1.5 m bays x 3.3 m floors with mullion and spandrel gaps on every vertical face (the horizontal
+    coordinate is x + y, which varies along any face of an axis-aligned box); ~35 % lit at varied brightness, and a
+    faint facade glow so the tower silhouettes read against the sky."""
     m, n, l, b = B._mat(name)
     B._set(b, base=(0.012, 0.015, 0.022), rough=0.4, spec=0.6)
     tc = n.new("ShaderNodeTexCoord")
+    sep0 = n.new("ShaderNodeSeparateXYZ")
+    l.new(tc.outputs["Object"], sep0.inputs[0])
+    hz = n.new("ShaderNodeMath")
+    hz.operation = "ADD"
+    l.new(sep0.outputs["X"], hz.inputs[0])
+    l.new(sep0.outputs["Y"], hz.inputs[1])
+    uv = n.new("ShaderNodeCombineXYZ")
+    l.new(hz.outputs[0], uv.inputs["X"])
+    l.new(sep0.outputs["Z"], uv.inputs["Y"])
     sc_ = n.new("ShaderNodeVectorMath")
     sc_.operation = "MULTIPLY"
-    sc_.inputs[1].default_value = (0.55, 0.55, 1.0 / 3.3)      # 1.8 m bays, 3.3 m floor-to-floor
-    l.new(tc.outputs["Object"], sc_.inputs[0])
+    sc_.inputs[1].default_value = (1.0 / 1.5, 1.0 / 3.3, 0.0)     # 1.5 m bays, 3.3 m floor-to-floor
+    l.new(uv.outputs[0], sc_.inputs[0])
     fl = n.new("ShaderNodeVectorMath")
     fl.operation = "FLOOR"
     l.new(sc_.outputs[0], fl.inputs[0])
@@ -317,18 +330,37 @@ def mat_tower(name):
     l.new(fl.outputs[0], wn.inputs["Vector"])
     lit = n.new("ShaderNodeMath")
     lit.operation = "GREATER_THAN"
-    lit.inputs[1].default_value = 0.8
+    lit.inputs[1].default_value = 0.65
     l.new(wn.outputs["Value"], lit.inputs[0])
     sep = n.new("ShaderNodeSeparateXYZ")
     l.new(fr.outputs[0], sep.inputs[0])
-    frame = n.new("ShaderNodeMath")                  # mullion/spandrel mask: lit only inside each window pane
-    frame.operation = "LESS_THAN"
-    frame.inputs[1].default_value = 0.62
-    l.new(sep.outputs["Z"], frame.inputs[0])
+    fz = n.new("ShaderNodeMath")                     # spandrel: lit only in the lower 62 % of each floor
+    fz.operation = "LESS_THAN"
+    fz.inputs[1].default_value = 0.62
+    l.new(sep.outputs["Y"], fz.inputs[0])
+    fx = n.new("ShaderNodeMath")                     # mullion gap between bays
+    fx.operation = "LESS_THAN"
+    fx.inputs[1].default_value = 0.78
+    l.new(sep.outputs["X"], fx.inputs[0])
+    m1 = n.new("ShaderNodeMath")
+    m1.operation = "MULTIPLY"
+    l.new(lit.outputs[0], m1.inputs[0])
+    l.new(fz.outputs[0], m1.inputs[1])
     mask = n.new("ShaderNodeMath")
     mask.operation = "MULTIPLY"
-    l.new(lit.outputs[0], mask.inputs[0])
-    l.new(frame.outputs[0], mask.inputs[1])
+    l.new(m1.outputs[0], mask.inputs[0])
+    l.new(fx.outputs[0], mask.inputs[1])
+    wn2 = n.new("ShaderNodeTexWhiteNoise")           # per-window brightness 0.25-1.0
+    wn2.noise_dimensions = "4D"
+    wn2.inputs["W"].default_value = 7.3
+    l.new(fl.outputs[0], wn2.inputs["Vector"])
+    br = n.new("ShaderNodeMapRange")
+    br.inputs["To Min"].default_value = 0.25
+    l.new(wn2.outputs["Value"], br.inputs["Value"])
+    m2 = n.new("ShaderNodeMath")
+    m2.operation = "MULTIPLY"
+    l.new(mask.outputs[0], m2.inputs[0])
+    l.new(br.outputs[0], m2.inputs[1])
     col = B._ramp(n, (1.0, 0.70, 0.40), (0.75, 0.85, 1.0), (0.45, 0.55))
     l.new(wn.outputs["Color"], col.inputs["Fac"])
     mul = n.new("ShaderNodeMix")
@@ -336,9 +368,64 @@ def mat_tower(name):
     mul.blend_type = "MULTIPLY"
     mul.inputs["Factor"].default_value = 1.0
     l.new(col.outputs["Color"], mul.inputs["A"])
-    l.new(mask.outputs[0], mul.inputs["B"])
+    l.new(m2.outputs[0], mul.inputs["B"])
+    add = n.new("ShaderNodeMix")
+    add.data_type = "RGBA"
+    add.blend_type = "ADD"
+    add.inputs["Factor"].default_value = 1.0
+    add.inputs["B"].default_value = (0.012, 0.016, 0.028, 1.0)     # facade glow
+    l.new(mul.outputs["Result"], add.inputs["A"])
+    l.new(add.outputs["Result"], b.inputs["Emission Color"])
+    b.inputs["Emission Strength"].default_value = 1.0
+    return m
+
+
+def mat_city_ground(name):
+    """Low-rise city below the towers: near-black ground with sparse warm points (0.6 m lights on a 4 m grid, ~15 % of cells lit)."""
+    m, n, l, b = B._mat(name)
+    B._set(b, base=(0.006, 0.007, 0.010), rough=0.8, spec=0.2)
+    tc = n.new("ShaderNodeTexCoord")
+    sc_ = n.new("ShaderNodeVectorMath")
+    sc_.operation = "MULTIPLY"
+    sc_.inputs[1].default_value = (1.0 / 4.0, 1.0 / 4.0, 0.0)
+    l.new(tc.outputs["Object"], sc_.inputs[0])
+    fl = n.new("ShaderNodeVectorMath")
+    fl.operation = "FLOOR"
+    l.new(sc_.outputs[0], fl.inputs[0])
+    wn = n.new("ShaderNodeTexWhiteNoise")
+    wn.noise_dimensions = "3D"
+    l.new(fl.outputs[0], wn.inputs["Vector"])
+    lit = n.new("ShaderNodeMath")
+    lit.operation = "GREATER_THAN"
+    lit.inputs[1].default_value = 0.85
+    l.new(wn.outputs["Value"], lit.inputs[0])
+    fr = n.new("ShaderNodeVectorMath")
+    fr.operation = "FRACTION"
+    l.new(sc_.outputs[0], fr.inputs[0])
+    sp = n.new("ShaderNodeSeparateXYZ")
+    l.new(fr.outputs[0], sp.inputs[0])
+    pt = n.new("ShaderNodeMath")                     # point: corner 0.15 x 0.15 of each cell
+    pt.operation = "MAXIMUM"
+    l.new(sp.outputs["X"], pt.inputs[0])
+    l.new(sp.outputs["Y"], pt.inputs[1])
+    pm = n.new("ShaderNodeMath")
+    pm.operation = "LESS_THAN"
+    pm.inputs[1].default_value = 0.15
+    l.new(pt.outputs[0], pm.inputs[0])
+    lm = n.new("ShaderNodeMath")
+    lm.operation = "MULTIPLY"
+    l.new(lit.outputs[0], lm.inputs[0])
+    l.new(pm.outputs[0], lm.inputs[1])
+    col = B._ramp(n, (1.0, 0.62, 0.30), (1.0, 0.85, 0.65), (0.85, 1.0))
+    l.new(wn.outputs["Value"], col.inputs["Fac"])
+    mul = n.new("ShaderNodeMix")
+    mul.data_type = "RGBA"
+    mul.blend_type = "MULTIPLY"
+    mul.inputs["Factor"].default_value = 1.0
+    l.new(col.outputs["Color"], mul.inputs["A"])
+    l.new(lm.outputs[0], mul.inputs["B"])
     l.new(mul.outputs["Result"], b.inputs["Emission Color"])
-    b.inputs["Emission Strength"].default_value = 0.9
+    b.inputs["Emission Strength"].default_value = 3.0
     return m
 
 
@@ -606,18 +693,23 @@ def build_architecture(arch):
         B.box("ART_WEDDING_01_Frame_" + name, x0, x1, RY0, RY0 + fd + 0.005, z0, z1, M["Walnut"], c, bev=0.002)
     # exterior: blue-hour sky dome section + distant towers (constant; no animation)
     bm = bmesh.new()
-    vs = [bm.verts.new(p) for p in ((-260, -250, -30), (-260, 260, -30), (-260, 260, 200), (-260, -250, 200))]
+    vs = [bm.verts.new(p) for p in ((-700, -800, -60), (-700, 800, -60), (-700, 800, 500), (-700, -800, 500))]
     bm.faces.new(vs)
     sky = B.mesh_obj("EXT_Sky_Backdrop", bm, c, M["Skyline"])
     sky.visible_shadow = False
+    bm = bmesh.new()                                 # low-rise city plane 40 m below the floor (apartment height)
+    vs = [bm.verts.new(p) for p in ((-30, -800, -40), (-690, -800, -40), (-690, 800, -40), (-30, 800, -40))]
+    bm.faces.new(vs)
+    gnd = B.mesh_obj("EXT_City_Ground", bm, c, M["CityGround"])
+    gnd.visible_shadow = False
     rnd = 0.41
-    for i in range(30):
+    for i in range(34):                              # 34 towers, 220-600 m out, gaps of sky between silhouettes
         rnd = (rnd * 9301 + 49297) % 233280 / 233280.0
-        y = -110 + i * 8.5 + 3 * rnd
-        dist = 70 + 90 * ((i * 0.618) % 1.0)
+        dist = 220 + 380 * ((i * 0.618) % 1.0)
+        y = math.tan(math.radians(-50 + 100 * (i + 0.5 * rnd) / 34.0)) * dist
         w = 12 + 14 * rnd
-        h = 30 + 110 * ((i * 0.37 + rnd) % 1.0)
-        B.box("EXT_Tower_%02d" % i, -dist - w, -dist, y, y + w * 0.8, -30, h, M["Tower"], c)
+        h = 20 + 100 * ((i * 0.37 + rnd) % 1.0) ** 2
+        B.box("EXT_Tower_%02d" % i, -dist - w, -dist, y, y + w * 0.8, -40, h, M["Tower"], c)
     # furniture: sofa 2700 x 950 x 800, long axis along Y, back to the glazing
     sx, sy = -2.65, 3.65
     x0, x1, y0, y1 = sx - 0.475, sx + 0.475, sy - 1.35, sy + 1.35
@@ -823,10 +915,27 @@ def build_studio_cameras(studio):
     cams.append(cam_rig("CAM_02_COB_MACRO", c, 100.0, 8.0, [(37, start, emit), (60, end, emit)],
                         focus_keys=[(37, (emit - start).length - 0.006), (60, (emit - end).length - 0.006)]))
     # packshot: static, product on the left third, negative space right for END_01 artwork
-    look = centre + Vector((0.13, 0.0, 0.0))         # product on the left third, negative space right
-    pk = look + Vector((0.0, -1.55, 0.05))
+    # frame the whole fixture (base top to housing bottom) at ~68 % of frame height, centred vertically,
+    # horizontally on the left third
+    root = bpy.data.objects["GLISS_MASTER_ROOT"]
+    mi, hi = bpy.data.objects["GLISS_STUDIO_MOUNT"], bpy.data.objects["GLISS_STUDIO_HEAD"]
+    d = GP.dims_m(json.loads(root["dimension_register_json"]))
+    L = d["housing_length"]
+    pr = min(d["pivot_offset"], L * 0.6)
+    M_ = mi.matrix_basis @ hi.matrix_basis
+    pts = [M_ @ Vector((sx * R, -R + sy * R, zz)) for sx in (-1, 1) for sy in (-1, 1) for zz in (pr, -(L - pr))]
+    rb = d["mounting_base_diameter"] / 2
+    pts += [mi.matrix_basis @ Vector((sx * rb, sy * rb, 0.0)) for sx in (-1, 1) for sy in (-1, 1)]
+    lo = Vector((min(p.x for p in pts), min(p.y for p in pts), min(p.z for p in pts)))
+    hi_ = Vector((max(p.x for p in pts), max(p.y for p in pts), max(p.z for p in pts)))
+    bc = (lo + hi_) / 2
+    ph = hi_.z - lo.z
+    pdist = ph / (0.68 * 20.25 / 85.0) + (hi_.y - lo.y) / 2
+    fw = 36.0 / 85.0 * pdist
+    look = bc + Vector((fw / 6.0, 0.0, 0.0))         # product on the left third, negative space right
+    pk = look + Vector((0.0, -pdist, 0.0))
     cams.append(cam_rig("CAM_10_FINAL_PACKSHOT", c, 85.0, 8.0, [(277, pk, look), (360, pk, look)],
-                        focus_keys=[(277, (centre - pk).length), (360, (centre - pk).length)]))
+                        focus_keys=[(277, (bc - pk).length), (360, (bc - pk).length)]))
     return cams
 
 
