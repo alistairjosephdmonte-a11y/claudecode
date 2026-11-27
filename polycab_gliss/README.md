@@ -103,7 +103,7 @@ All scenes use master frame numbers: shot N is frames f0–f1 of its own scene.
 - **Joinery:** walnut, with shelf LEDs.
 - **Floor:** dark oak planks, 180 × 1800 mm, staggered.
 - **Glazing:** floor-to-ceiling on x = −3.5, with bronze mullions.
-- **Exterior:** a constant blue-hour sky and distant towers with randomised lit windows.
+- **Exterior:** a constant blue-hour sky, 34 towers 220–600 m out with randomised lit windows (1.5 m bays, mullion and spandrel gaps), and a low-rise city plane 40 m below with sparse street-level lights.
 - **Furniture:** sofa 2700 × 950 × 800 mm, long axis along Y. Round walnut table, Ø900 × 350 mm.
 - **Props:** books, ceramics, flowers, greenery, candle, floor lamp.
 - **Artwork:** 1800 × 1200 mm, centred at (0, 0.04, 1.65), in a 35 mm walnut frame.
@@ -152,7 +152,7 @@ Each camera is a rig: `<ID>_DOLLY` (keyed location, eased Bézier) → `<ID>_ROL
 | CAM_07_HUMAN_CONNECTION | 169–204 | 85 mm f/4 | (0.55, 3.35 → 3.30, 1.62), aimed at Isha's near eye |
 | CAM_08_INSTALLED_GLISS | 205–228 | 70 mm f/5.6 | 8° arc about the right fixture's axis, 0.40 m below the ceiling and about 0.9 m from the fixture |
 | CAM_09_ARCHITECTURAL_REVEAL | 229–276 | 24 mm f/8 | The brief's five keyframes, 2.15 m of travel |
-| CAM_10_FINAL_PACKSHOT | 277–360 | 85 mm f/8 | Static. Product on the left third, negative space right. |
+| CAM_10_FINAL_PACKSHOT | 277–360 | 85 mm f/8 | Static. The whole fixture fills about 68 % of frame height, centred vertically on the left third; negative space on the right for the END_01 logo. |
 | CAM_WALKTHROUGH | 1–240 (own scene) | 24 mm f/8 | The brief's path, re-timed by arc length (keys at 1, 57, 137, 207, 240) |
 
 **Where the build departs from the brief's literal values:**
