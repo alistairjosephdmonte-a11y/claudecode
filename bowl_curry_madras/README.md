@@ -123,7 +123,8 @@ The domain holds a PROVISIONAL kinematic viscosity of 2.0 × 10⁻³ m²/s (`vis
 | Render | Time |
 |---|---|
 | Blockout test frames, 640 px at 16 samples | about 13–22 s each |
-| Milestones, 1920 px at 48 samples | measured on this run; see the log |
+| Milestones, 1920 px at 48 samples (measured) | 150–270 s each (volumes cost the most: F230 took 269 s) |
+| Preview, 960 × 540 at 8 samples (measured) | about 16 s per frame, so about 1.6 h for 360 frames |
 | Final, 4K at 256 samples with volumes | estimated 20–40 min per frame, so **5–10 days** for 360 frames on CPU. A GPU node is strongly recommended. |
 
 ## Commands
