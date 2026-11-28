@@ -1,0 +1,396 @@
+{
+ "stage": "PREVIEW / INSPECTION",
+ "checks": [
+  {
+   "check": "runtime SCENE_ARCHITECTURE: frames 1-360 @ 24 fps, 3840x2160",
+   "pass": true,
+   "detail": [
+    1,
+    360,
+    24,
+    3840,
+    2160
+   ]
+  },
+  {
+   "check": "runtime STUDIO_PACKSHOT: frames 1-360 @ 24 fps, 3840x2160",
+   "pass": true,
+   "detail": [
+    1,
+    360,
+    24,
+    3840,
+    2160
+   ]
+  },
+  {
+   "check": "runtime SCENE_MASTER_EDIT: frames 1-360 @ 24 fps, 3840x2160",
+   "pass": true,
+   "detail": [
+    1,
+    360,
+    24,
+    3840,
+    2160
+   ]
+  },
+  {
+   "check": "edit: 10 contiguous shot strips covering exactly 1-360",
+   "pass": true,
+   "detail": [
+    [
+     1,
+     36
+    ],
+    [
+     37,
+     60
+    ],
+    [
+     61,
+     84
+    ],
+    [
+     85,
+     108
+    ],
+    [
+     109,
+     144
+    ],
+    [
+     145,
+     168
+    ],
+    [
+     169,
+     204
+    ],
+    [
+     205,
+     228
+    ],
+    [
+     229,
+     276
+    ],
+    [
+     277,
+     360
+    ]
+   ]
+  },
+  {
+   "check": "walkthrough: 240 frames @ 24 fps (10 s)",
+   "pass": true,
+   "detail": [
+    1,
+    240
+   ]
+  },
+  {
+   "check": "scene organisation: the 13 brief collections exist",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "check": "every Gliss is a linked instance of the one master (mount + head collections)",
+   "pass": true,
+   "detail": [
+    "GLISS_CENTRE_HEAD",
+    "GLISS_CENTRE_MOUNT",
+    "GLISS_LEFT_HEAD",
+    "GLISS_LEFT_MOUNT",
+    "GLISS_RIGHT_HEAD",
+    "GLISS_RIGHT_MOUNT",
+    "GLISS_STUDIO_HEAD",
+    "GLISS_STUDIO_MOUNT",
+    "WALK_GLISS_CENTRE_HEAD",
+    "WALK_GLISS_CENTRE_MOUNT",
+    "WALK_GLISS_LEFT_HEAD",
+    "WALK_GLISS_LEFT_MOUNT",
+    "WALK_GLISS_RIGHT_HEAD",
+    "WALK_GLISS_RIGHT_MOUNT"
+   ]
+  },
+  {
+   "check": "manufacturer dimensions remain unverified (all null, nothing certified)",
+   "pass": true,
+   "detail": {
+    "world_scale_housing_diameter_mm": {
+     "value": 60.0,
+     "status": "PROVISIONAL",
+     "source": "storyboard sheet (generated imagery), lowest priority",
+     "note": "World scale control. Not a manufacturer dimension."
+    }
+   }
+  },
+  {
+   "check": "fixture bases flush to the ceiling (mounting face at z = 3.000)",
+   "pass": true,
+   "detail": [
+    3.0,
+    3.0,
+    3.0
+   ]
+  },
+  {
+   "check": "optical housings clear the ceiling (head max z < ceiling - 1 mm)",
+   "pass": true,
+   "detail": [
+    2.9623,
+    2.9623,
+    2.9623
+   ]
+  },
+  {
+   "check": "optical axes through each emitter hit the artwork centres (miss < 1 mm)",
+   "pass": true,
+   "detail": [
+    {
+     "fixture": "GLISS_LEFT",
+     "mount_top_z": 3.0,
+     "head_max_z": 2.9623,
+     "emitter": [
+      1.1,
+      0.9104,
+      2.8868
+     ],
+     "axis": [
+      -0.0,
+      -0.5603,
+      -0.8283
+     ],
+     "axis_hit_on_artwork_plane": [
+      1.1,
+      0.04,
+      1.6
+     ],
+     "miss_mm": 0.0,
+     "tilt_from_vertical_deg": 34.07,
+     "beam_angle_deg": 36.0,
+     "setback_m": 0.9
+    },
+    {
+     "fixture": "GLISS_CENTRE",
+     "mount_top_z": 3.0,
+     "head_max_z": 2.9623,
+     "emitter": [
+      -0.0,
+      0.9104,
+      2.8868
+     ],
+     "axis": [
+      0.0,
+      -0.5603,
+      -0.8283
+     ],
+     "axis_hit_on_artwork_plane": [
+      0.0,
+      0.04,
+      1.6
+     ],
+     "miss_mm": 0.0,
+     "tilt_from_vertical_deg": 34.07,
+     "beam_angle_deg": 36.0,
+     "setback_m": 0.9
+    },
+    {
+     "fixture": "GLISS_RIGHT",
+     "mount_top_z": 3.0,
+     "head_max_z": 2.9623,
+     "emitter": [
+      -1.1,
+      0.9104,
+      2.8868
+     ],
+     "axis": [
+      -0.0,
+      -0.5603,
+      -0.8283
+     ],
+     "axis_hit_on_artwork_plane": [
+      -1.1,
+      0.04,
+      1.6
+     ],
+     "miss_mm": 0.0,
+     "tilt_from_vertical_deg": 34.07,
+     "beam_angle_deg": 36.0,
+     "setback_m": 0.9
+    }
+   ]
+  },
+  {
+   "check": "Gliss switching follows the brief (L 85, C 109, R 127; spot and COB together; no flicker)",
+   "pass": true,
+   "detail": {
+    "1-84": [
+     0,
+     0,
+     0
+    ],
+    "85-108": [
+     1,
+     0,
+     0
+    ],
+    "109-126": [
+     1,
+     1,
+     0
+    ],
+    "127-276": [
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "check": "ambient light, exposure and white balance identical in every state",
+   "pass": true,
+   "detail": {
+    "lights": 4,
+    "view_transform": "AgX",
+    "look": "None",
+    "exposure": 0.0,
+    "white_balance": false
+   }
+  },
+  {
+   "check": "photographs static (no object or material animation)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "check": "seating: pelvis settles 0-40 mm into the cushion, feet on the floor (0-25 mm)",
+   "pass": true,
+   "detail": {
+    "FEM_01": {
+     "pelvis_sink_mm": 20.6,
+     "foot_bottom_mm": 0.6
+    },
+    "MAL_01": {
+     "pelvis_sink_mm": 11.0,
+     "foot_bottom_mm": 0.3
+    }
+   }
+  },
+  {
+   "check": "shot 07 contact: FEM_01 head rests on MAL_01 shoulder (gap <= 15 mm, heads do not intersect)",
+   "pass": true,
+   "detail": {
+    "gap_mm": 1.9,
+    "head_overlap": false,
+    "lean_deg": -24.7
+   }
+  },
+  {
+   "check": "lenses match the brief and never change within a shot",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "check": "no camera roll (horizon level) in any shot",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "check": "camera clearance >= 0.05 m from all geometry incl. proxies and fixtures, shots 1-9",
+   "pass": true,
+   "detail": {
+    "CAM_01_ORDINARY_EVENING": [
+     0.5,
+     1
+    ],
+    "CAM_02_UNNOTICED_MEMORIES": [
+     0.911,
+     60
+    ],
+    "CAM_03_INTRODUCING_GLISS": [
+     0.288,
+     61
+    ],
+    "CAM_04_FIRST_MEMORY": [
+     1.115,
+     85
+    ],
+    "CAM_05_GALLERY_TRANSFORMS": [
+     0.713,
+     109
+    ],
+    "CAM_06_THE_DISCOVERY": [
+     0.955,
+     145
+    ],
+    "CAM_07_THE_FEELING": [
+     0.599,
+     204
+    ],
+    "CAM_08_NOTHING_CHANGED": [
+     0.5,
+     205
+    ],
+    "CAM_09_EVERYTHING_DID": [
+     0.5,
+     276
+    ]
+   }
+  },
+  {
+   "check": "no camera path segment passes through geometry",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "check": "shot 08 is an exact duplicate of CAM_01 (transform, lens, aperture; exposure is scene-wide)",
+   "pass": true,
+   "detail": {
+    "shared_camera_data": true
+   }
+  },
+  {
+   "check": "shot 09 dolly passes through the brief's five keyframes (mirrored X)",
+   "pass": true,
+   "detail": {
+    "dev_mm": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "check": "shot 10 packshot camera completely static 277-360",
+   "pass": true,
+   "detail": {}
+  },
+  {
+   "check": "walkthrough clearance >= 0.35 m from all geometry",
+   "pass": true,
+   "detail": {
+    "min_m": 0.5,
+    "frame": 1
+   }
+  },
+  {
+   "check": "final settings stored: Cycles 256 spp adaptive, denoise, AgX, 180-deg blur, EXR multilayer half + passes",
+   "pass": true,
+   "detail": {
+    "device": "CPU",
+    "note": "no standalone shadow pass in Cycles; shadow catcher pass stored"
+   }
+  }
+ ],
+ "failures": 0,
+ "unresolved": [
+  "Manufacturer dimensions, articulation limits and IES photometry not supplied.",
+  "Approved photographs MEMORY_01-03 not supplied (placeholders cropped from PROP_GLISS_02).",
+  "FEM_01 / MAL_01 locked character sheets not supplied; proxies only.",
+  "END_02 used as supplied (1672 px); a full-resolution vector master is needed for 4K.",
+  "Brief X coordinates mirrored so GLISS_LEFT / MEMORY_01 / glazing are on the viewer's left; seats moved from +/-0.43 to +/-0.30 m; CAM_04 moved from y 2.1 to 2.75 m."
+ ]
+}

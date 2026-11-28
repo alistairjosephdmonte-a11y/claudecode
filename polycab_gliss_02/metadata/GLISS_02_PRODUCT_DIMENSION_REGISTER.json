@@ -1,0 +1,221 @@
+{
+ "product": "Polycab Gliss Surface COB Track Light, 7 W, Warm White (hero variant)",
+ "master_object": "GLISS_MASTER_02",
+ "dimension_status": "Manufacturer dimensions remain unverified. No certified measurement is claimed.",
+ "brief_dimension_register_mm": {
+  "housing_diameter": null,
+  "housing_length": null,
+  "mounting_base_diameter": null,
+  "mounting_base_thickness": null,
+  "stem_width": null,
+  "stem_length": null,
+  "reflector_depth": null,
+  "emitter_diameter": null
+ },
+ "model_register": {
+  "world_scale_housing_diameter_mm": {
+   "value": 60.0,
+   "status": "PROVISIONAL",
+   "source": "storyboard sheet (generated imagery), lowest priority",
+   "note": "World scale control. Not a manufacturer dimension."
+  },
+  "dimensions_mm": {
+   "housing_length": {
+    "relative": 1.75,
+    "value": 105.0,
+    "status": "PROVISIONAL",
+    "source": "official product photograph (polycab.com p-64543), proportion fit; storyboard shows 100/60 = 1.67"
+   },
+   "housing_outer_diameter": {
+    "relative": 1.0,
+    "value": 60.0,
+    "status": "PROVISIONAL",
+    "source": "unit"
+   },
+   "housing_wall_thickness": {
+    "relative": 0.027,
+    "value": 1.62,
+    "status": "PROVISIONAL",
+    "source": "official product photograph (polycab.com p-64543), proportion fit (thin black lip)"
+   },
+   "front_rim_thickness": {
+    "relative": 0.012,
+    "value": 0.72,
+    "status": "PROVISIONAL",
+    "source": "official product photograph (polycab.com p-64543), proportion fit"
+   },
+   "cavity_depth": {
+    "relative": 0.35,
+    "value": 21.0,
+    "status": "PROVISIONAL",
+    "source": "official product photograph (polycab.com p-64543), proportion fit (black sleeve ahead of the reflector)"
+   },
+   "reflector_opening_diameter": {
+    "relative": 0.6,
+    "value": 36.0,
+    "status": "PROVISIONAL",
+    "source": "official product photograph (polycab.com p-64543), proportion fit"
+   },
+   "reflector_recess_depth": {
+    "relative": 0.25,
+    "value": 15.0,
+    "status": "PROVISIONAL",
+    "source": "official product photograph (polycab.com p-64543), proportion fit"
+   },
+   "emitter_diameter": {
+    "relative": 0.22,
+    "value": 13.2,
+    "status": "PROVISIONAL",
+    "source": "official product photograph (polycab.com p-64543), proportion fit"
+   },
+   "mounting_base_diameter": {
+    "relative": 1.07,
+    "value": 64.2,
+    "status": "PROVISIONAL",
+    "source": "official product photograph (polycab.com p-64543), proportion fit; storyboard shows 90 mm = 1.5"
+   },
+   "mounting_base_thickness": {
+    "relative": 0.55,
+    "value": 33.0,
+    "status": "PROVISIONAL",
+    "source": "official product photograph (polycab.com p-64543), proportion fit; storyboard shows 25 mm = 0.42"
+   },
+   "boss_diameter": {
+    "relative": 0.53,
+    "value": 31.8,
+    "status": "PROVISIONAL",
+    "source": "official product photograph (polycab.com p-64543), proportion fit (raised collar where the stem leaves the base)"
+   },
+   "boss_height": {
+    "relative": 0.1,
+    "value": 6.0,
+    "status": "PROVISIONAL",
+    "source": "official product photograph (polycab.com p-64543), proportion fit"
+   },
+   "stem_width": {
+    "relative": 0.3,
+    "value": 18.0,
+    "status": "PROVISIONAL",
+    "source": "official product photograph (polycab.com p-64543), proportion fit"
+   },
+   "stem_depth": {
+    "relative": 0.12,
+    "value": 7.2,
+    "status": "PROVISIONAL",
+    "source": "official product photograph (polycab.com p-64543), proportion fit"
+   },
+   "stem_height": {
+    "relative": 0.6,
+    "value": 36.0,
+    "status": "PROVISIONAL",
+    "source": "official product photograph (polycab.com p-64543), proportion fit; storyboard shows 30 mm = 0.5"
+   },
+   "pivot_offset": {
+    "relative": 0.75,
+    "value": 45.0,
+    "status": "PROVISIONAL",
+    "source": "official product photograph (polycab.com p-64543), proportion fit (pivot distance from housing rear)"
+   }
+  },
+  "verified_manufacturer_dimensions_mm": {
+   "housing_length": null,
+   "housing_outer_diameter": null,
+   "housing_wall_thickness": null,
+   "front_rim_thickness": null,
+   "reflector_opening_diameter": null,
+   "reflector_recess_depth": null,
+   "emitter_diameter": null,
+   "mounting_base_diameter": null,
+   "mounting_base_thickness": null,
+   "stem_width": null,
+   "stem_height": null,
+   "stem_depth": null,
+   "pivot_offset": null,
+   "overall_installed_height": null
+  }
+ },
+ "conflicts": [
+  "PROP_GLISS_02 'dimension reference' reads ~120 mm x ~90 mm for a stem-less cylinder; it contradicts the official photograph's proportions (length/diameter 1.75) and is generated imagery, so it is recorded, not used.",
+  "STORYBOARD_02 panel 08 and TRANSFORM_02 show 'Tilt 0-90 deg / Rotate 355 deg' and three housing finishes; both are unverified and excluded per the brief."
+ ],
+ "installed_aiming": [
+  {
+   "fixture": "GLISS_LEFT",
+   "mount_top_z": 3.0,
+   "head_max_z": 2.9623,
+   "emitter": [
+    1.1,
+    0.9104,
+    2.8868
+   ],
+   "axis": [
+    -0.0,
+    -0.5603,
+    -0.8283
+   ],
+   "axis_hit_on_artwork_plane": [
+    1.1,
+    0.04,
+    1.6
+   ],
+   "miss_mm": 0.0,
+   "tilt_from_vertical_deg": 34.07,
+   "beam_angle_deg": 36.0,
+   "setback_m": 0.9
+  },
+  {
+   "fixture": "GLISS_CENTRE",
+   "mount_top_z": 3.0,
+   "head_max_z": 2.9623,
+   "emitter": [
+    -0.0,
+    0.9104,
+    2.8868
+   ],
+   "axis": [
+    0.0,
+    -0.5603,
+    -0.8283
+   ],
+   "axis_hit_on_artwork_plane": [
+    0.0,
+    0.04,
+    1.6
+   ],
+   "miss_mm": 0.0,
+   "tilt_from_vertical_deg": 34.07,
+   "beam_angle_deg": 36.0,
+   "setback_m": 0.9
+  },
+  {
+   "fixture": "GLISS_RIGHT",
+   "mount_top_z": 3.0,
+   "head_max_z": 2.9623,
+   "emitter": [
+    -1.1,
+    0.9104,
+    2.8868
+   ],
+   "axis": [
+    -0.0,
+    -0.5603,
+    -0.8283
+   ],
+   "axis_hit_on_artwork_plane": [
+    -1.1,
+    0.04,
+    1.6
+   ],
+   "miss_mm": 0.0,
+   "tilt_from_vertical_deg": 34.07,
+   "beam_angle_deg": 36.0,
+   "setback_m": 0.9
+  }
+ ],
+ "photometry": {
+  "cct_k": 3000,
+  "beam_angle_deg": 36.0,
+  "light_output": "70 W radiant per spot (preview value, NOT the 7 W electrical rating)",
+  "status": "Preview assumptions only; replace with manufacturer IES data."
+ }
+}

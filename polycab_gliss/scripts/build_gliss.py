@@ -1162,4 +1162,5 @@ def main():
     print("SAVED", OUT_BLEND, "objects", len(bpy.data.objects))
 
 
-main()
+if __name__ == "__main__":
+    main()
