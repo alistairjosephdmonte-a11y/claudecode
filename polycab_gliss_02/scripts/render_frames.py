@@ -50,13 +50,17 @@ else:
         vl.use_pass_glossy_direct = vl.use_pass_glossy_indirect = vl.use_pass_emit = False
         vl.cycles.use_pass_shadow_catcher = False
 marks = sorted(sc.timeline_markers, key=lambda m: m.frame)
+if cam_over:                       # render-time marker switching would override the camera
+    marks = []
+    sc.timeline_markers.clear()
 for f in frames:
     path = os.path.join(out, "frame_%04d%s" % (f, ext))
     if os.path.exists(path) and os.path.getsize(path) > 1000:
         continue
-    cams = [m.camera for m in marks if m.frame <= f and m.camera]
     if cam_over:
         cams = [bpy.data.objects[cam_over[0]]]
+    else:
+        cams = [m.camera for m in marks if m.frame <= f and m.camera]
     if cams:
         sc.camera = cams[-1]
     sc.frame_set(f)
